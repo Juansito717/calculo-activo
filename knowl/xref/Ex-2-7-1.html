@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="example example-like"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.7.3</span><span class="period">.</span>
+</h4>
+<div class="para">Para la curva dada implícitamente por <span class="process-math">\(x^3 + y^2 - 2xy = 2\text{,}\)</span> mostrada en <a href="sec-2-7-implicit.html#MWd" class="xref" data-knowl="./knowl/xref/F-2-7-Ex1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.7.4">Figura 2.7.4</a>, encuentra la pendiente de la línea tangente en <span class="process-math">\((-1,1)\text{.}\)</span>
+</div> <figure class="figure figure-like"><div class="image-box" style="width: 47%; margin-left: 26.5%; margin-right: 26.5%;"><img src="external/images/2_7_Ex1.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.7.4<span class="period">.</span></span><span class="space"> </span>La curva <span class="process-math">\(x^3 + y^2 - 2xy = 2\text{.}\)</span></figcaption></figure><div class="solutions"><details class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical">
+<div class="para">Comenzamos diferenciando implícitamente la ecuación de la curva. Tomando la derivada de cada lado con respecto a <span class="process-math">\(x\text{,}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{d}{dx}\left[ x^3 + y^2 - 2xy \right] = \frac{d}{dx} \left[ 2 \right]\text{,}
+\end{equation*}
+</div>
+<div class="para">por la regla de la suma y el hecho de que la derivada de una constante es cero, tenemos</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{d}{dx}[x^3] + \frac{d}{dx}[y^2] - \frac{d}{dx}[2xy] = 0\text{.}
+\end{equation*}
+</div>
+</div> <div class="para logical">
+<div class="para">Para las tres derivadas que ahora debemos ejecutar, la primera usa la simple regla de la potencia, la segunda requiere la regla de la cadena (ya que <span class="process-math">\(y\)</span> es una función implícita de <span class="process-math">\(x\)</span>), y la tercera necesita la regla del producto (nuevamente, ya que <span class="process-math">\(y\)</span> es una función de <span class="process-math">\(x\)</span>). Aplicando estas reglas, ahora encontramos que</div>
+<div class="displaymath process-math">
+\begin{equation*}
+3x^2 + 2y\frac{dy}{dx} - [2x \frac{dy}{dx} + 2y] = 0\text{.}
+\end{equation*}
+</div>
+</div> <div class="para logical">
+<div class="para">Queremos resolver esta ecuación para <span class="process-math">\(\frac{dy}{dx}\text{.}\)</span> Para hacerlo, primero recogemos todos los términos que involucran <span class="process-math">\(\frac{dy}{dx}\)</span> en un lado de la ecuación.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2y\frac{dy}{dx} - 2x \frac{dy}{dx}= 2y - 3x^2\text{.}
+\end{equation*}
+</div>
+</div> <div class="para logical">
+<div class="para">Luego factorizamos el lado izquierdo para aislar <span class="process-math">\(\frac{dy}{dx}\text{.}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{dy}{dx}(2y - 2x) = 2y - 3x^2\text{.}
+\end{equation*}
+</div>
+</div> <div class="para logical">
+<div class="para">Finalmente, dividimos ambos lados por <span class="process-math">\((2y - 2x)\)</span> y concluimos que</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{dy}{dx} = \frac{2y-3x^2}{2y-2x}\text{.}
+\end{equation*}
+</div>
+</div> <div class="para logical">
+<div class="para">Nota que la expresión para <span class="process-math">\(\frac{dy}{dx}\)</span> depende de ambos <span class="process-math">\(x\)</span> y <span class="process-math">\(y\text{.}\)</span> Para encontrar la pendiente de la línea tangente en <span class="process-math">\((-1,1)\text{,}\)</span> sustituimos las coordenadas en la fórmula para <span class="process-math">\(\frac{dy}{dx}\text{,}\)</span> usando la notación</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\left. \frac{dy}{dx} \right|_{(-1,1)} = \frac{2(1)-3(-1)^2}{2(1)-2(-1)} = -\frac14\text{.}
+\end{equation*}
+</div>
+</div> <div class="para">Este valor coincide con nuestra estimación visual de la pendiente de la línea tangente mostrada en <a href="sec-2-7-implicit.html#MWd" class="xref" data-knowl="./knowl/xref/F-2-7-Ex1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.7.4">Figura 2.7.4</a>.</div>
+</div></details></div></article><span class="incontext"><a class="internal" href="sec-2-7-implicit.html#dku">in-context</a></span>
+</body>
+</html>

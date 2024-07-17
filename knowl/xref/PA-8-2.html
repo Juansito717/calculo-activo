@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="exploration project-like"><h3 class="heading">
+<span class="type">Preview Activity</span><span class="space"> </span><span class="codenumber">8.2.1</span><span class="period">.</span>
+</h3>
+<div class="para">La warfarina es un anticoagulante que previene la coagulación de la sangre; a menudo se prescribe a las víctimas de un derrame cerebral para ayudar a asegurar el flujo sanguíneo. El nivel de warfarina tiene que alcanzar una cierta concentración en la sangre para ser efectivo.</div> <div class="para">Supón que la warfarina es tomada por un paciente en particular en una dosis de 5 mg cada día. El medicamento es absorbido por el cuerpo y algo es excretado del sistema entre dosis. Supón que al final de un período de 24 horas, el 8% del medicamento permanece en el cuerpo. Sea <span class="process-math">\(Q(n)\)</span> la cantidad (en mg) de warfarina en el cuerpo antes de que se administre la <span class="process-math">\((n+1)\)</span>ava dosis del medicamento.</div> <div class="para logical"><ol class="lower-alpha" id="DSZ">
+<li><div class="para">Explica por qué <span class="process-math">\(Q(1) = 5 \times 0.08\)</span> mg.</div></li>
+<li><div class="para logical">
+<div class="para">Explica por qué <span class="process-math">\(Q(2) = (5+Q(1)) \times 0.08\)</span> mg. Luego muestra que</div>
+<div class="displaymath process-math">
+\begin{equation*}
+Q(2) = (5 \times 0.08)\left(1+0.08\right) \text{mg}\text{.}
+\end{equation*}
+</div>
+</div></li>
+<li><div class="para logical">
+<div class="para">Explica por qué <span class="process-math">\(Q(3) = (5+Q(2)) \times 0.08\)</span> mg. Luego muestra que</div>
+<div class="displaymath process-math">
+\begin{equation*}
+Q(3) = (5 \times 0.08)\left(1+0.08+0.08^2\right) \text{mg}\text{.}
+\end{equation*}
+</div>
+</div></li>
+<li><div class="para logical">
+<div class="para">Explica por qué <span class="process-math">\(Q(4) = (5+Q(3)) \times 0.08\)</span> mg. Luego muestra que</div>
+<div class="displaymath process-math">
+\begin{equation*}
+Q(4) = (5 \times 0.08)\left(1+0.08+0.08^2+0.08^3\right) \text{mg}\text{.}
+\end{equation*}
+</div>
+</div></li>
+<li><div class="para">Hay un patrón que deberías ver emergiendo. Usa este patrón para encontrar una fórmula para <span class="process-math">\(Q(n)\text{,}\)</span> donde <span class="process-math">\(n\)</span> es un número entero positivo arbitrario.</div></li>
+<li>
+<div class="para">Completa <a href="sec-8-2-geometric.html#qzo" class="xref" data-knowl="./knowl/xref/T-8-2-Warfarin.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 8.2.1: Valores de Q(n) para valores seleccionados de n">Table 8.2.1</a> con valores de <span class="process-math">\(Q(n)\)</span> para los valores de <span class="process-math">\(n\)</span> proporcionados (reportando <span class="process-math">\(Q(n)\)</span> con 10 decimales). ¿Qué parece estar ocurriendo con la secuencia <span class="process-math">\(Q(n)\)</span> a medida que <span class="process-math">\(n\)</span> aumenta?</div>
+<figure class="table table-like"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">8.2.1<span class="period">.</span></span><span class="space"> </span>Valores de <span class="process-math">\(Q(n)\)</span> para valores seleccionados de <span class="process-math">\(n\)</span></figcaption><div class="tabular-box natural-width"><table class="tabular" id="WGx">
+<tr>
+<td class="l m b1 r0 l0 t1 lines"><span class="process-math">\(n\)</span></td>
+<td class="l m b1 r0 l0 t1 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b1 r0 l0 t1 lines"><span class="process-math">\(2\)</span></td>
+<td class="l m b1 r0 l0 t1 lines"><span class="process-math">\(3\)</span></td>
+<td class="l m b1 r0 l0 t1 lines"><span class="process-math">\(4\)</span></td>
+<td class="l m b1 r0 l0 t1 lines"><span class="process-math">\(5\)</span></td>
+<td class="l m b1 r0 l0 t1 lines"><span class="process-math">\(6\)</span></td>
+<td class="l m b1 r0 l0 t1 lines"><span class="process-math">\(7\)</span></td>
+<td class="l m b1 r0 l0 t1 lines"><span class="process-math">\(8\)</span></td>
+<td class="l m b1 r0 l0 t1 lines"><span class="process-math">\(9\)</span></td>
+<td class="l m b1 r0 l0 t1 lines"><span class="process-math">\(10\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(Q(n)\)</span></td>
+<td class="l m b1 r0 l0 t0 lines"><span class="process-math">\(0.40\)</span></td>
+<td class="l m b1 r0 l0 t0 lines">  </td>
+<td class="l m b1 r0 l0 t0 lines">  </td>
+<td class="l m b1 r0 l0 t0 lines">  </td>
+<td class="l m b1 r0 l0 t0 lines">  </td>
+<td class="l m b1 r0 l0 t0 lines">  </td>
+<td class="l m b1 r0 l0 t0 lines">  </td>
+<td class="l m b1 r0 l0 t0 lines">  </td>
+<td class="l m b1 r0 l0 t0 lines">  </td>
+<td class="l m b1 r0 l0 t0 lines">  </td>
+</tr>
+</table></div></figure>
+</li>
+</ol></div></article><span class="incontext"><a class="internal" href="sec-8-2-geometric.html#CNG">in-context</a></span>
+</body>
+</html>

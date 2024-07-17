@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="exploration project-like"><h3 class="heading">
+<span class="type">Preview Activity</span><span class="space"> </span><span class="codenumber">8.5.1</span><span class="period">.</span>
+</h3>
+<div class="para">
+<a href="sec-8-3-series.html#DxA" class="xref" data-knowl="./knowl/xref/PA-8-3.html" data-reveal-label="Reveal" data-close-label="Close" title="Preview Activity 8.3.1">Actividad de Vista Previa 8.3.1</a> mostró cómo podemos aproximar el número <span class="process-math">\(e\)</span> usando funciones lineales, cuadráticas, y otros polinomios; luego usamos ideas similares en <a href="sec-8-4-alternating.html#VfF" class="xref" data-knowl="./knowl/xref/PA-8-4.html" data-reveal-label="Reveal" data-close-label="Close" title="Preview Activity 8.4.1">Actividad de Vista Previa 8.4.1</a> para aproximar <span class="process-math">\(\ln(2)\text{.}\)</span> En esta actividad, revisamos y extendemos el proceso para encontrar la “mejor” aproximación cuadrática a la función exponencial <span class="process-math">\(e^x\)</span> alrededor del origen. Deja que <span class="process-math">\(f(x) = e^x\)</span> sea durante toda esta actividad.</div> <div class="para logical"><ol class="lower-alpha" id="ysi">
+<li><div class="para">Encuentra una fórmula para <span class="process-math">\(P_1(x)\text{,}\)</span> la linealización de <span class="process-math">\(f(x)\)</span> en <span class="process-math">\(x=0\text{.}\)</span> (Etiquetamos esta linealización como <span class="process-math">\(P_1\)</span> porque es una aproximación polinómica de primer grado.) Recuerda que <span class="process-math">\(P_1(x)\)</span> es una buena aproximación a <span class="process-math">\(f(x)\)</span> para valores de <span class="process-math">\(x\)</span> cercanos a <span class="process-math">\(0\text{.}\)</span> Grafica <span class="process-math">\(f\)</span> y <span class="process-math">\(P_1\)</span> cerca de <span class="process-math">\(x=0\)</span> para ilustrar este hecho.</div></li>
+<li>
+<div class="para logical">
+<div class="para">Dado que <span class="process-math">\(f(x) = e^x\)</span> no es lineal, la aproximación lineal eventualmente no es muy buena. Para obtener mejores aproximaciones, queremos desarrollar una aproximación diferente que “se doble” para que se ajuste más de cerca al gráfico de <span class="process-math">\(f\)</span> cerca de <span class="process-math">\(x=0\text{.}\)</span> Para hacerlo, añadimos un término cuadrático a <span class="process-math">\(P_1(x)\text{.}\)</span> En otras palabras, dejamos que</div>
+<div class="displaymath process-math">
+\begin{equation*}
+P_2(x) = P_1(x) + c_2x^2
+\end{equation*}
+</div>
+<div class="para">para algún número real <span class="process-math">\(c_2\text{.}\)</span> Necesitamos determinar el valor de <span class="process-math">\(c_2\)</span> que haga que el gráfico de <span class="process-math">\(P_2(x)\)</span> se ajuste mejor al gráfico de <span class="process-math">\(f(x)\)</span> cerca de <span class="process-math">\(x=0\text{.}\)</span>
+</div>
+</div>
+<div class="para logical">
+<div class="para">Recuerda que <span class="process-math">\(P_1(x)\)</span> era una buena aproximación lineal a <span class="process-math">\(f(x)\)</span> cerca de <span class="process-math">\(0\text{;}\)</span> esto es porque <span class="process-math">\(P_1(0) = f(0)\)</span> y <span class="process-math">\(P'_1(0) = f'(0)\text{.}\)</span> Por lo tanto, es razonable buscar un valor de <span class="process-math">\(c_2\)</span> tal que</div>
+<div class="displaymath process-math">
+\begin{align*}
+P_2(0) \amp = f(0)\text{,} \amp P'_2(0) \amp = f'(0)\text{,} \amp \text{y }P''_2(0) \amp = f''(0)\text{.}
+\end{align*}
+</div>
+<div class="para">Recuerda, estamos dejando que <span class="process-math">\(P_2(x) = P_1(x) + c_2x^2\text{.}\)</span>
+</div>
+</div>
+<div class="para logical"><ol class="lower-roman" id="rxD">
+<li><div class="para">Calcula <span class="process-math">\(P_2(0)\)</span> para mostrar que <span class="process-math">\(P_2(0) = f(0)\text{.}\)</span>
+</div></li>
+<li><div class="para">Calcula <span class="process-math">\(P'_2(0)\)</span> para mostrar que <span class="process-math">\(P'_2(0) = f'(0)\text{.}\)</span>
+</div></li>
+<li><div class="para">Calcula <span class="process-math">\(P''_2(x)\text{.}\)</span> Luego encuentra un valor para <span class="process-math">\(c_2\)</span> tal que <span class="process-math">\(P''_2(0) = f''(0)\text{.}\)</span>
+</div></li>
+<li><div class="para">Explica por qué la condición <span class="process-math">\(P''_2(0) = f''(0)\)</span> pondrá una “curvatura” apropiada en el gráfico de <span class="process-math">\(P_2\)</span> para que <span class="process-math">\(P_2\)</span> se ajuste al gráfico de <span class="process-math">\(f\)</span> alrededor de <span class="process-math">\(x=0\text{.}\)</span>
+</div></li>
+</ol></div>
+</li>
+</ol></div></article><span class="incontext"><a class="internal" href="sec-8-5-taylor.html#mNK">in-context</a></span>
+</body>
+</html>

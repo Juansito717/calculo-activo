@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="example example-like"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">8.5.6</span><span class="period">.</span>
+</h4>
+<div class="para">Muestra que la serie de Taylor para <span class="process-math">\(\sin(x)\)</span> realmente converge a <span class="process-math">\(\sin(x)\)</span> para todo <span class="process-math">\(x\text{.}\)</span>
+</div>
+<div class="solutions"><details class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical">
+<div class="para">Recuerda del ejemplo anterior que como <span class="process-math">\(f(x) = \sin(x)\text{,}\)</span> sabemos</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\left| f^{(n+1)}(x) \right| \leq 1
+\end{equation*}
+</div>
+<div class="para">para cualquier <span class="process-math">\(n\)</span> y <span class="process-math">\(x\text{.}\)</span> Esto nos permite elegir <span class="process-math">\(M = 1\)</span> en la fórmula del límite de error de Lagrange. Así,</div>
+<div class="displaymath process-math">
+\begin{equation}
+|P_n(x) - \sin(x)| \leq \frac{|x|^{n+1}}{(n+1)!}\tag{8.5.6}
+\end{equation}
+</div>
+<div class="para">para cada <span class="process-math">\(x\text{.}\)</span>
+</div>
+</div> <div class="para logical">
+<div class="para">Mostramos en trabajos anteriores que la serie de Taylor <span class="process-math">\(\sum_{k=0}^{\infty} \frac{x^k}{k!}\)</span> converge para cada valor de <span class="process-math">\(x\text{.}\)</span> Debido a que los términos de cualquier serie convergente deben acercarse a cero, se sigue que</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/E-ErrorIneqSine.html">
+\begin{equation*}
+\lim_{n \to \infty} \frac{x^{n+1}}{(n+1)!} = 0
+\end{equation*}
+</div>
+<div class="para">para cada valor de <span class="process-math">\(x\text{.}\)</span> Así, tomando el límite cuando <span class="process-math">\(n \to \infty\)</span> en la desigualdad <a href="sec-8-5-taylor.html#bbv" class="xref" data-knowl="./knowl/xref/E-ErrorIneqSine.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 8.5.6">(8.5.6)</a>, se sigue que</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/E-ErrorIneqSine.html">
+\begin{equation*}
+\lim_{n \to \infty} |P_n(x) - \sin(x)| = 0\text{.}
+\end{equation*}
+</div>
+</div> <div class="para logical">
+<div class="para">Como resultado, ahora podemos escribir</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sin(x) = \sum_{n=0}^{\infty} \frac{(-1)^nx^{2n+1}}{(2n+1)!}
+\end{equation*}
+</div>
+<div class="para">para cada número real <span class="process-math">\(x\text{.}\)</span>
+</div>
+</div>
+</div></details></div></article><span class="incontext"><a class="internal" href="sec-8-5-taylor.html#qrx">in-context</a></span>
+</body>
+</html>

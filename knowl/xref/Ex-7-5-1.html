@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="example example-like"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.5.1</span><span class="period">.</span>
+</h4>
+<div class="para">En la región de los Grandes Lagos, los ríos que fluyen hacia los lagos llevan una gran cantidad de contaminación en forma de pequeños trozos de plástico de un promedio de 1 milímetro de diámetro. Para entender cómo está cambiando la cantidad de plástico en el Lago Michigan, construye un modelo de cómo este tipo de contaminación se ha acumulado en el lago.</div>
+<div class="solutions"><details class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical">
+<div class="para">Primero, algunos datos básicos sobre el Lago Michigan.</div>
+<ul class="disc" id="RlK">
+<li><div class="para">El volumen del lago es <span class="process-math">\(5\cdot10^{12}\)</span> metros cúbicos.</div></li>
+<li><div class="para">El agua fluye hacia el lago a una tasa de <span class="process-math">\(5\cdot10^{10}\)</span> metros cúbicos por año. Sale del lago a la misma tasa.</div></li>
+<li><div class="para">Cada metro cúbico que fluye hacia el lago contiene aproximadamente <span class="process-math">\(3\cdot10^{-8}\)</span> metros cúbicos de contaminación plástica.</div></li>
+</ul>
+</div> <div class="para">Denotemos la cantidad de contaminación en el lago por <span class="process-math">\(P(t)\text{,}\)</span> donde <span class="process-math">\(P\)</span> se mide en metros cúbicos de plástico y <span class="process-math">\(t\)</span> en años. Nuestro objetivo es describir la tasa de cambio de esta función; así que queremos desarrollar una ecuación diferencial que describa <span class="process-math">\(P(t)\text{.}\)</span>
+</div> <div class="para logical">
+<div class="para">Primero, mediremos cómo <span class="process-math">\(P(t)\)</span> aumenta debido a la contaminación que fluye hacia el lago. Sabemos que <span class="process-math">\(5\cdot10^{10}\)</span> metros cúbicos de agua entran al lago cada año y cada metro cúbico de agua contiene <span class="process-math">\(3\cdot10^{-8}\)</span> metros cúbicos de contaminación. Por lo tanto, la contaminación entra al lago a una tasa de</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\left(5\cdot 10^{10} \frac{m^3 \text{ agua} }{\text{año} }\right) \left(3\cdot10^{-8} \frac{m^3 \text{ plástico} }{m^3 \text{ agua} } \right) = 1.5\cdot 10^3
+\text{metros cúbicos de plástico por año}\text{.}
+\end{equation*}
+</div>
+</div> <div class="para logical">
+<div class="para">Segundo, mediremos cómo <span class="process-math">\(P(t)\)</span> disminuye debido a la contaminación que fluye fuera del lago. Si la cantidad total de contaminación es <span class="process-math">\(P\)</span> metros cúbicos y el volumen del Lago Michigan es <span class="process-math">\(5\cdot 10^{12}\)</span> metros cúbicos, entonces la concentración de contaminación plástica en el Lago Michigan es</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{P}{5\cdot10^{12}}  \text{metros cúbicos de plástico por metro cúbico de agua}\text{.}
+\end{equation*}
+</div>
+</div> <div class="para logical">
+<div class="para">Dado que <span class="process-math">\(5\cdot10^{10}\)</span> metros cúbicos de agua fluyen fuera cada año<details class="ptx-footnote" aria-live="polite" id="Ex-7-5-1-2-5-2"><summary class="ptx-footnote__number" title="Footnote 7.5.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="Ex-7-5-1-2-5-2">y asumimos que cada metro cúbico de agua que fluye fuera lleva consigo la contaminación plástica que contiene</div></details>, entonces la contaminación plástica sale del lago a una tasa de</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\left(\frac{P}{5\cdot10^{12}} \frac{m^3 \text{ plástico} }{m^3 \text{ agua} } \right) \left(5\cdot10^{10} \frac{m^3 \text{ agua} }{\text{año} } \right)=\frac{P}{100}
+\text{metros cúbicos de plástico por año}\text{.}
+\end{equation*}
+</div>
+</div> <div class="para logical">
+<div class="para">La tasa total de cambio de <span class="process-math">\(P\)</span> es así la diferencia entre la tasa a la que la contaminación entra al lago y la tasa a la que la contaminación sale del lago; es decir,</div>
+<div class="displaymath process-math">
+\begin{align*}
+\frac{dP}{dt} =\mathstrut \amp  1.5\cdot10^{3}-\frac{P}{100}\\
+=\mathstrut \amp  \frac{1}{100}(1.5\cdot10^{5} - P)\text{.}
+\end{align*}
+</div>
+</div> <div class="para">Ahora hemos encontrado una ecuación diferencial que describe la tasa a la que está cambiando la cantidad de contaminación. Para entender el comportamiento de <span class="process-math">\(P(t)\text{,}\)</span> aplicamos algunas de las técnicas que hemos desarrollado recientemente.</div> <div class="para">Debido a que la ecuación diferencial es autónoma, podemos esbozar <span class="process-math">\(dP/dt\)</span> como una función de <span class="process-math">\(P\)</span> y luego construir un campo de pendientes, como se muestra en <a href="sec-7-5-modeling.html#ycN" class="xref" data-knowl="./knowl/xref/F-7-5-Ex1-plot.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.5.2">Figura 7.5.2</a> y <a href="sec-7-5-modeling.html#ejW" class="xref" data-knowl="./knowl/xref/F-7-5-Ex1-slope-field.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.5.3">Figura 7.5.3</a>.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:47%;"><figure class="figure figure-like"><img src="external/images/7_5_lake_michigan.svg" role="img" class="contained"><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">7.5.2<span class="period">.</span></span><span class="space"> </span>Gráfico de <span class="process-math">\(\frac{dP}{dt}\)</span> vs. <span class="process-math">\(P\)</span> para <span class="process-math">\(\frac{dP}{dt} = \frac{1}{100}(1.5\cdot10^{5} - P)\text{.}\)</span></figcaption></figure></div>
+<div class="sbspanel top" style="width:47%;"><figure class="figure figure-like"><img src="external/images/7_5_slope_field.svg" role="img" class="contained"><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">7.5.3<span class="period">.</span></span><span class="space"> </span>Gráfico del campo de pendientes para <span class="process-math">\(\frac{dP}{dt} = \frac{1}{100}(1.5\cdot10^{5} - P)\text{.}\)</span></figcaption></figure></div>
+</div></div> <div class="para">Estos gráficos muestran que <span class="process-math">\(P=1.5\cdot10^5\)</span> es un equilibrio estable. Por lo tanto, deberíamos esperar que la cantidad de contaminación en el Lago Michigan se estabilice cerca de <span class="process-math">\(1.5\cdot10^5\)</span> metros cúbicos de contaminación.</div> <div class="para logical">
+<div class="para">A continuación, suponiendo que inicialmente no hay contaminación en el lago, resolveremos el problema de valor inicial</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{dP}{dt} = \frac{1}{100}(1.5\cdot10^{5} - P), \ P(0) = 0\text{.}
+\end{equation*}
+</div>
+</div> <div class="para logical">
+<div class="para">Separando variables, encontramos que</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac1{1.5\cdot10^5-P} \frac{dP}{dt} = \frac1{100}\text{.}
+\end{equation*}
+</div>
+</div> <div class="para logical">
+<div class="para">Integrando con respecto a <span class="process-math">\(t\text{,}\)</span> tenemos</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int \frac1{1.5\cdot10^5-P} \frac{dP}{dt}~dt = \int \frac1{100}~dt\text{,}
+\end{equation*}
+</div>
+<div class="para">y así cambiando variables a la izquierda y antidiferenciando en ambos lados, encontramos que</div>
+<div class="displaymath process-math">
+\begin{align*}
+\int \frac{dP}{1.5\cdot10^5-P} =\mathstrut \amp  \int \frac1{100}~dt\\
+-\ln|1.5\cdot10^5 - P| =\mathstrut \amp  \frac1{100}t + C
+\end{align*}
+</div>
+</div> <div class="para logical">
+<div class="para">Finalmente, multiplicando ambos lados por <span class="process-math">\(-1\)</span> y usando la definición del logaritmo, encontramos que</div>
+<div class="displaymath process-math">
+\begin{equation}
+1.5\cdot10^5 - P = C e^{-t/100}\text{.}\tag{7.5.1}
+\end{equation}
+</div>
+</div> <div class="para logical">
+<div class="para">Este es un buen momento para determinar la constante <span class="process-math">\(C\text{.}\)</span> Dado que <span class="process-math">\(P =
+0\)</span> cuando <span class="process-math">\(t=0\text{,}\)</span> tenemos</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1.5\cdot 10^5 - 0 = Ce^0 = C\text{,}
+\end{equation*}
+</div>
+</div> <div class="para">así que <span class="process-math">\(C=1.5\cdot10^5\text{.}\)</span>
+</div> <div class="para logical">
+<div class="para">Usando este valor de <span class="process-math">\(C\)</span> en la Ecuación <a href="sec-7-5-modeling.html#wXu" class="xref" data-knowl="./knowl/xref/E-7-5-Ex1C.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.5.1">(7.5.1)</a> y resolviendo para <span class="process-math">\(P\text{,}\)</span> llegamos a la solución</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/E-7-5-Ex1C.html">
+\begin{equation*}
+P(t) = 1.5\cdot10^5(1-e^{-t/100})\text{.}
+\end{equation*}
+</div>
+</div> <div class="para">Superponiendo el gráfico de <span class="process-math">\(P\)</span> en el campo de pendientes que vimos en <a href="sec-7-5-modeling.html#ejW" class="xref" data-knowl="./knowl/xref/F-7-5-Ex1-slope-field.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.5.3">Figura 7.5.3</a>, vemos, como se muestra en <a href="sec-7-5-modeling.html#Krf" class="xref" data-knowl="./knowl/xref/F-7-5-Ex1a.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.5.4">Figura 7.5.4</a>
+</div> <div class="para">Vemos que, como se esperaba, la cantidad de contaminación plástica se estabiliza alrededor de <span class="process-math">\(1.5\cdot10^5\)</span> metros cúbicos.</div> <figure class="figure figure-like"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/images/7_5_solution.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">7.5.4<span class="period">.</span></span><span class="space"> </span>La solución <span class="process-math">\(P(t)\)</span> y el campo de pendientes para la ecuación diferencial <span class="process-math">\(\frac{dP}{dt} = \frac{1}{100}(1.5\cdot10^{5} - P)\text{.}\)</span></figcaption></figure>
+</div></details></div></article><span class="incontext"><a class="internal" href="sec-7-5-modeling.html#MBR">in-context</a></span>
+</body>
+</html>

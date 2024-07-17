@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="example example-like"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.4.1</span><span class="period">.</span>
+</h4>
+<div class="para logical">
+<div class="para">Evalúa la integral indefinida</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int x\cos(x) \, dx
+\end{equation*}
+</div>
+<div class="para">usando integración por partes.</div>
+</div>
+<div class="solutions"><details class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para">Cuando usamos integración por partes, tenemos una elección para <span class="process-math">\(u\)</span> y <span class="process-math">\(dv\text{.}\)</span> En este problema, podemos dejar que <span class="process-math">\(u = x\)</span> y <span class="process-math">\(dv = \cos(x) \, dx\text{,}\)</span> o dejar que <span class="process-math">\(u = \cos(x)\)</span> y <span class="process-math">\(dv = x \, dx\text{.}\)</span> Aunque no hay una regla universal para cómo elegir <span class="process-math">\(u\)</span> y <span class="process-math">\(dv\text{,}\)</span> una buena pauta es esta: hazlo de manera que <span class="process-math">\(\int v \, du\)</span> sea al menos tan simple como el problema original <span class="process-math">\(\int u \, dv\text{.}\)</span>
+</div> <div class="para logical">
+<div class="para">Esto nos lleva a elegir<details class="ptx-footnote" aria-live="polite" id="Ex-5-4-IBP-2-2-1"><summary class="ptx-footnote__number" title="Footnote 5.4.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="Ex-5-4-IBP-2-2-1">Observa que si consideramos la elección alternativa, y dejamos que <span class="process-math">\(u = \cos(x)\)</span> y <span class="process-math">\(dv = x \, dx\text{,}\)</span> entonces <span class="process-math">\(du = -\sin(x) \, dx\)</span> y <span class="process-math">\(v = \frac{1}{2}x^2\text{,}\)</span> de lo cual escribiríamos <span class="process-math">\(\int x\cos(x) \, dx = \frac{1}{2}x^2 \cos(x) - \int \frac{1}{2}x^2 (-\sin(x)) \, dx\text{.}\)</span> Así hemos reemplazado el problema de integrar <span class="process-math">\(x \cos(x)\)</span> con el de integrar <span class="process-math">\(\frac{1}{2}x^2 \sin(x)\text{;}\)</span> este último es claramente más complicado, lo que muestra que esta elección alternativa no es tan útil como la primera elección.</div></details> <span class="process-math">\(u = x\)</span> y <span class="process-math">\(dv = \cos(x) \, dx\text{,}\)</span> de lo cual se sigue que <span class="process-math">\(du = 1 \, dx\)</span> y <span class="process-math">\(v = \sin(x)\text{.}\)</span> Con esta sustitución, la regla para la integración por partes nos dice que</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int x \cos(x) \, dx = x \sin(x) - \int \sin(x) \cdot 1 \, dx\text{.}
+\end{equation*}
+</div>
+</div> <div class="para logical">
+<div class="para">Todo lo que queda por hacer es evaluar la integral (más simple) <span class="process-math">\(\int \sin(x) \cdot 1 \, dx\text{.}\)</span> Haciéndolo, encontramos</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int x \cos(x) \, dx = x \sin(x) - (-\cos(x)) + C = x\sin(x) + \cos(x) + C\text{.}
+\end{equation*}
+</div>
+<div class="para">Observa que cuando llegamos a la etapa final de evaluar la última antiderivada restante, es en este paso donde incluimos la constante de integración, <span class="process-math">\(+C\text{.}\)</span>
+</div>
+</div>
+</div></details></div></article><span class="incontext"><a class="internal" href="sec-5-4-parts.html#acg">in-context</a></span>
+</body>
+</html>

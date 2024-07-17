@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="example example-like"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.1</span><span class="period">.</span>
+</h4>
+<div class="para logical">
+<div class="para">Encuentra todas las funciones <span class="process-math">\(y\)</span> que son soluciones a la ecuación diferencial</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{dy}{dt}= \frac{t}{y^2}\text{.}
+\end{equation*}
+</div>
+</div>
+<div class="solutions"><details class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical">
+<div class="para">Comenzamos separando las variables y escribiendo</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y^2\frac{dy}{dt} = t\text{.}
+\end{equation*}
+</div>
+</div> <div class="para logical">
+<div class="para">Integrando ambos lados de la ecuación con respecto a la variable independiente <span class="process-math">\(t\)</span> muestra que</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int y^2\frac{dy}{dt}~dt = \int t~dt\text{.}
+\end{equation*}
+</div>
+</div> <div class="para logical">
+<div class="para">A continuación, notamos que el lado izquierdo nos permite cambiar la variable de antiderivación<details class="ptx-footnote" aria-live="polite" id="Ex-7-4-1-2-3-1"><summary class="ptx-footnote__number" title="Footnote 7.4.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="Ex-7-4-1-2-3-1">Esta es la razón por la que requerimos que el lado izquierdo se escriba como un producto en el que <span class="process-math">\(dy/dt\)</span> es uno de los términos.</div></details> de <span class="process-math">\(t\)</span> a <span class="process-math">\(y\text{.}\)</span> En particular, <span class="process-math">\(dy = \frac{dy}{dt}~dt\text{,}\)</span> así que ahora tenemos</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int y^2 ~dy = \int t~dt\text{.}
+\end{equation*}
+</div>
+</div> <div class="para logical">
+<div class="para">Esta ecuación dice que dos familias de antiderivadas son iguales entre sí. Por lo tanto, cuando encontramos antiderivadas representativas de ambos lados, sabemos que deben diferir por una constante arbitraria <span class="process-math">\(C\text{.}\)</span> Antiderivando e incluyendo la constante de integración <span class="process-math">\(C\)</span> en el lado derecho, encontramos que</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{y^3}{3} = \frac{t^2}{2} + C\text{.}
+\end{equation*}
+</div>
+</div> <div class="para">No es necesario incluir una constante arbitraria en ambos lados de la ecuación; sabemos que <span class="process-math">\(y^3/3\)</span> y <span class="process-math">\(t^2/2\)</span> están en la misma familia de antiderivadas y, por lo tanto, deben diferir por una sola constante.</div> <div class="para logical">
+<div class="para">Finalmente, resolvemos la última ecuación anterior para <span class="process-math">\(y\)</span> como una función de <span class="process-math">\(t\text{,}\)</span> lo que da</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y(t) = \sqrt[3]{\frac 32 \, t^2 + 3C}\text{.}
+\end{equation*}
+</div>
+</div> <div class="para logical">
+<div class="para">Por supuesto, el término <span class="process-math">\(3C\)</span> en el lado derecho representa 3 veces una constante desconocida. Por lo tanto, sigue siendo una constante desconocida, que reescribiremos como <span class="process-math">\(C\text{.}\)</span> Concluimos así que la función</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y(t) = \sqrt[3]{\frac 32 \, t^2 + C}
+\end{equation*}
+</div>
+<div class="para">es una solución a la ecuación diferencial original para cualquier valor de <span class="process-math">\(C\text{.}\)</span>
+</div>
+</div> <div class="para">Nota que debido a que esta solución depende de la constante arbitraria <span class="process-math">\(C\text{,}\)</span> hemos encontrado una familia infinita de soluciones. Esto tiene sentido porque esperamos encontrar una solución única que corresponda a cualquier valor inicial dado.</div> <div class="para logical">
+<div class="para">Por ejemplo, si queremos resolver el problema de valor inicial</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{dy}{dt} = \frac{t}{y^2}, \
+y(0) = 2\text{,}
+\end{equation*}
+</div>
+<div class="para">sabemos que la solución tiene la forma <span class="process-math">\(y(t) = \sqrt[3]{\frac32\,
+t^2 + C}\)</span> para alguna constante <span class="process-math">\(C\text{.}\)</span> Por lo tanto, debemos encontrar el valor apropiado para <span class="process-math">\(C\)</span> que dé el valor inicial <span class="process-math">\(y(0)=2\text{.}\)</span> Por lo tanto,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2 = y(0) = \sqrt[3]{\frac 32 \, 0^2 + C} = \sqrt[3]{C}\text{,}
+\end{equation*}
+</div>
+<div class="para">lo que muestra que <span class="process-math">\(C = 2^3 = 8\text{.}\)</span> La solución al problema de valor inicial es entonces</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y(t) = \sqrt[3]{\frac32\, t^2+8}\text{.}
+\end{equation*}
+</div>
+</div>
+</div></details></div></article><span class="incontext"><a class="internal" href="sec-7-4-separable.html#SMC">in-context</a></span>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="example example-like"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.4</span><span class="period">.</span>
+</h4>
+<div class="para">Un trozo de alambre de 20 cm se corta en dos piezas. Una pieza se usa para formar un cuadrado y la otra para formar un triángulo equilátero. ¿Cómo se debe cortar el alambre para maximizar el área total encerrada por el cuadrado y el triángulo? ¿Para minimizar el área?</div>
+<div class="solutions"><details class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para">Comenzamos dibujando una imagen que ilustra la situación. La variable en el problema es dónde decidimos cortar el alambre. Así, etiquetamos el punto de corte a una distancia <span class="process-math">\(x\)</span> de un extremo del alambre, y notamos que la porción restante del alambre tiene entonces una longitud de <span class="process-math">\(20-x\text{.}\)</span>
+</div>  <div class="para">Como se muestra en <a href="sec-3-3-optimization.html#ipZ" class="xref" data-knowl="./knowl/xref/F-3-3-Ex1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.3.5">Figura 3.3.5</a>, vemos que los <span class="process-math">\(x\)</span> cm de alambre se usan para formar el triángulo equilátero con tres lados de longitud <span class="process-math">\(\frac{x}{3}\text{.}\)</span> Para los <span class="process-math">\(20-x\)</span> cm restantes de alambre, el cuadrado resultante tendrá cada lado de longitud <span class="process-math">\(\frac{20-x}{4}\text{.}\)</span>
+</div> <figure class="figure figure-like"><div class="image-box" style="width: 56%; margin-left: 22%; margin-right: 22%;"><img src="external/images/3_3_Ex1.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.3.5<span class="period">.</span></span><span class="space"> </span>Un trozo de alambre de 20 cm cortado en dos piezas, una de las cuales forma un triángulo equilátero, la otra forma un cuadrado.</figcaption></figure>  <div class="para">En este punto, notamos que hay restricciones obvias en <span class="process-math">\(x\text{:}\)</span> en particular, <span class="process-math">\(0 \le x \le 20\text{.}\)</span> En los casos extremos, todo el alambre se usa para hacer solo una figura. Por ejemplo, si <span class="process-math">\(x = 0\text{,}\)</span> entonces los 20 cm de alambre se usan para hacer un cuadrado de <span class="process-math">\(5 \times 5\text{.}\)</span>
+</div> <div class="para logical">
+<div class="para">Ahora, nuestro objetivo general es encontrar las áreas mínima y máxima que se pueden encerrar. Debido a que la altura de un triángulo equilátero es <span class="process-math">\(\sqrt{3}\)</span> veces la mitad de la longitud de la base, el área del triángulo es</div>
+<div class="displaymath process-math">
+\begin{equation*}
+A_{\Delta} = \frac{1}{2} bh = \frac{1}{2} \cdot \frac{x}{3} \cdot \frac{x\sqrt{3}}{6}\text{.}
+\end{equation*}
+</div>
+<div class="para">El área del cuadrado es <span class="process-math">\(A_{\Box} = s^2 = \left( \frac{20-x}{4} \right)^2\text{.}\)</span> Por lo tanto, la función del área total es</div>
+<div class="displaymath process-math">
+\begin{equation*}
+A(x) = \frac{\sqrt{3}x^2}{36} + \left( \frac{20-x}{4} \right)^2\text{.}
+\end{equation*}
+</div>
+</div> <div class="para">Recuerda que estamos considerando esta función solo en el dominio restringido <span class="process-math">\([0,20]\text{.}\)</span>
+</div> <div class="para logical">
+<div class="para">Diferenciando <span class="process-math">\(A(x)\text{,}\)</span> tenemos</div>
+<div class="displaymath process-math">
+\begin{equation*}
+A'(x) = \frac{\sqrt{3}x}{18} + 2\left( \frac{20-x}{4} \right)\left( -\frac{1}{4} \right) = \frac{\sqrt{3}}{18} x + \frac{1}{8}x - \frac{5}{2}\text{.}
+\end{equation*}
+</div>
+</div> <div class="para">Cuando establecemos <span class="process-math">\(A'(x) = 0\text{,}\)</span> encontramos que <span class="process-math">\(x = \frac{180}{4\sqrt{3}+9} \approx 11.3007\)</span> es el único número crítico de <span class="process-math">\(A\)</span> en el intervalo <span class="process-math">\([0,20]\text{.}\)</span>
+</div> <div class="para logical">
+<div class="para">Evaluando <span class="process-math">\(A\)</span> en el número crítico y en los extremos, vemos que</div>
+<ul class="disc" id="QHU">
+<li><div class="para"><span class="process-math">\(\displaystyle A\left(\frac{180}{4\sqrt{3}+9}\right) = \frac{\sqrt{3}(\frac{180}{4\sqrt{3}+9})^2}{4} + \left( \frac{20-\frac{180}{4\sqrt{3}+9}}{4} \right)^2 \approx 10.8741\)</span></div></li>
+<li><div class="para"><span class="process-math">\(\displaystyle A(0) = 25\)</span></div></li>
+<li><div class="para"><span class="process-math">\(\displaystyle A(20) = \frac{\sqrt{3}}{36}(400) = \frac{100}{9} \sqrt{3} \approx 19.2450\)</span></div></li>
+</ul>
+</div>  <div class="para">Así, el mínimo absoluto ocurre cuando <span class="process-math">\(x \approx 11.3007\)</span> y resulta en un área mínima de aproximadamente <span class="process-math">\(10.8741\)</span> centímetros cuadrados. El máximo absoluto ocurre cuando invertimos todo el alambre en el cuadrado (y nada en el triángulo), resultando en 25 centímetros cuadrados de área. Estos resultados se confirman con una gráfica de <span class="process-math">\(y = A(x)\)</span> en el intervalo <span class="process-math">\([0,20]\text{,}\)</span> como se muestra en <a href="sec-3-3-optimization.html#Oxi" class="xref" data-knowl="./knowl/xref/F-3-3-Ex1Plot.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.3.6">Figura 3.3.6</a>.</div> <figure class="figure figure-like"><div class="image-box" style="width: 47%; margin-left: 26.5%; margin-right: 26.5%;"><img src="external/images/3_3_Ex1Plot.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.3.6<span class="period">.</span></span><span class="space"> </span>Una gráfica de la función del área del <a href="sec-3-3-optimization.html#fQS" class="xref" data-knowl="./knowl/xref/Ex-3-3-1.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.3.4">Ejemplo 3.3.4</a>.</figcaption></figure> </div></details></div></article><span class="incontext"><a class="internal" href="sec-3-3-optimization.html#fQS">in-context</a></span>
+</body>
+</html>

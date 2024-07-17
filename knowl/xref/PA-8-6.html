@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="exploration project-like"><h3 class="heading">
+<span class="type">Preview Activity</span><span class="space"> </span><span class="codenumber">8.6.1</span><span class="period">.</span>
+</h3>
+<div class="para">En el <a href="C-7.html" class="internal" title="Chapter 7: Ecuaciones Diferenciales">Capítulo 7</a>, aprendimos algunas de las muchas aplicaciones importantes de las ecuaciones diferenciales, y aprendimos algunos enfoques para resolverlas o analizarlas. Aquí, consideramos un enfoque importante que nos permitirá resolver una variedad más amplia de ecuaciones diferenciales.</div> <div class="para logical">
+<div class="para">Consideremos la ecuación diferencial familiar del crecimiento exponencial de la población dada por</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eq-PA-8-6-Resistance-ode.html">
+\begin{equation}
+y' = ky\text{,}\tag{8.6.1}
+\end{equation}
+</div>
+<div class="para">donde <span class="process-math">\(k\)</span> es la constante de proporcionalidad. Aunque podemos resolver esta ecuación diferencial usando métodos que ya hemos aprendido, ahora tomamos un enfoque diferente que se puede aplicar a un conjunto mucho más grande de ecuaciones diferenciales. Para el resto de esta actividad, supongamos que <span class="process-math">\(k=1\text{.}\)</span> Usaremos nuestro conocimiento de series de Taylor para encontrar una solución a la ecuación diferencial <a href="sec-8-6-powerseries.html#pmR" class="xref" data-knowl="./knowl/xref/eq-PA-8-6-Resistance-ode.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 8.6.1">(8.6.1)</a>.</div>
+</div> <div class="para logical">
+<div class="para">Para hacerlo, asumimos que tenemos una solución <span class="process-math">\(y=f(x)\)</span> y que <span class="process-math">\(f(x)\)</span> tiene una serie de Taylor que se puede escribir en la forma</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y = f(x) = \sum_{k=0}^{\infty} a_kx^k\text{,}
+\end{equation*}
+</div>
+<div class="para">donde los coeficientes <span class="process-math">\(a_k\)</span> son indeterminados. Nuestra tarea es encontrar los coeficientes.</div>
+</div> <div class="para logical"><ol class="lower-alpha" id="Qan">
+<li><div class="para logical">
+<div class="para">Supón que podemos diferenciar una serie de potencias término a término. Al tomar la derivada de <span class="process-math">\(f(x)\)</span> con respecto a <span class="process-math">\(x\)</span> y sustituir el resultado en la ecuación diferencial <a href="sec-8-6-powerseries.html#pmR" class="xref" data-knowl="./knowl/xref/eq-PA-8-6-Resistance-ode.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 8.6.1">(8.6.1)</a>, muestra que la ecuación</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eq-PA-8-6-Resistance-ode.html">
+\begin{equation*}
+\sum_{k=1}^{\infty} ka_kx^{k-1} = \sum_{k=0}^{\infty} a_kx^{k}
+\end{equation*}
+</div>
+<div class="para">debe ser satisfecha para que <span class="process-math">\(f(x) = \sum_{k=0}^{\infty} a_kx^k\)</span> sea una solución de la ED.</div>
+</div></li>
+<li><div class="para">Dos series son iguales si y solo si tienen los mismos coeficientes en términos de igual potencia. Usa este hecho para encontrar una relación entre <span class="process-math">\(a_1\)</span> y <span class="process-math">\(a_0\text{.}\)</span>
+</div></li>
+<li><div class="para">Ahora escribe <span class="process-math">\(a_2\)</span> en términos de <span class="process-math">\(a_1\text{.}\)</span> Luego escribe <span class="process-math">\(a_2\)</span> en términos de <span class="process-math">\(a_0\text{.}\)</span>
+</div></li>
+<li><div class="para">Escribe <span class="process-math">\(a_3\)</span> en términos de <span class="process-math">\(a_2\text{.}\)</span> Luego escribe <span class="process-math">\(a_3\)</span> en términos de <span class="process-math">\(a_0\text{.}\)</span>
+</div></li>
+<li><div class="para">Escribe <span class="process-math">\(a_4\)</span> en términos de <span class="process-math">\(a_3\text{.}\)</span> Luego escribe <span class="process-math">\(a_4\)</span> en términos de <span class="process-math">\(a_0\text{.}\)</span>
+</div></li>
+<li><div class="para">Observa que hay un patrón en (b)-(e). Encuentra una fórmula general para <span class="process-math">\(a_k\)</span> en términos de <span class="process-math">\(a_0\text{.}\)</span>
+</div></li>
+<li><div class="para">Escribe la expansión en serie para <span class="process-math">\(y\)</span> usando solo el coeficiente desconocido <span class="process-math">\(a_0\text{.}\)</span> A partir de esto, determina qué funciones familiares satisfacen la ecuación diferencial <a href="sec-8-6-powerseries.html#pmR" class="xref" data-knowl="./knowl/xref/eq-PA-8-6-Resistance-ode.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 8.6.1">(8.6.1)</a>. (<em class="emphasis">Consejo</em>: Compara con una serie de Taylor familiar.)</div></li>
+</ol></div></article><span class="incontext"><a class="internal" href="sec-8-6-powerseries.html#Glc">in-context</a></span>
+</body>
+</html>
