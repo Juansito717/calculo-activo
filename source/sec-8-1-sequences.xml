@@ -13,24 +13,24 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-8-1-sequences" permid="kXx">
-  <title>Sequences</title>
+  <title>Secuencias</title>
   <objectives permid="pHq">
     <ul permid="icR">
       <li permid="urj">
         <p permid="fil">
-          What is a sequence?
+          ¿Qué es una secuencia?
         </p>
       </li>
 
       <li permid="ays">
         <p permid="Lpu">
-          What does it mean for a sequence to converge?
+          ¿Qué significa que una secuencia converja?
         </p>
       </li>
 
       <li permid="GFB">
         <p permid="rwD">
-          What does it mean for a sequence to diverge?
+          ¿Qué significa que una secuencia diverja?
         </p>
       </li>
     </ul>
@@ -39,165 +39,165 @@
   <introduction permid="BVI">
     <sidebyside widths="47% 47%" margins="0%" permid="VOz">
       <p permid="cnF">
-        We encounter sequences every day.
-        Your monthly utility payments,
-        the annual interest you earn on investments,
-        the amount you spend on groceries each week;
-        all are examples of sequences.
-        Other sequences with which you may be familiar include the Fibonacci sequence
-            <idx><h>Fibonacci sequence</h></idx>
+        Nos encontramos con secuencias todos los días.
+        Tus pagos mensuales de servicios,
+        los intereses anuales que ganas en inversiones,
+        la cantidad que gastas en comestibles cada semana;
+        todos son ejemplos de secuencias.
+        Otras secuencias con las que puedes estar familiarizado incluyen la secuencia de Fibonacci
+            <idx><h>secuencia de Fibonacci</h></idx>
         <m> 1, 1, 2, 3, 5, 8, \ldots </m>,
-        where each term is the sum of the two preceding terms,
-        and the triangular numbers
-            <idx><h>triangular numbers</h></idx>
+        donde cada término es la suma de los dos términos anteriores,
+        y los números triangulares
+            <idx><h>números triangulares</h></idx>
         <m> 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, \ldots </m>,
-        the number of vertices in the triangles shown in <xref ref="F-8-1-Triangular-numbers">Figure</xref>.
+        el número de vértices en los triángulos mostrados en <xref ref="F-8-1-Triangular-numbers">Figura</xref>.
       </p>
 
       <figure xml:id="F-8-1-Triangular-numbers" permid="IuO">
-        <caption>Triangular numbers</caption>
+        <caption>Números triangulares</caption>
         <image source="images/8_1_Triangular_Numbers" />
       </figure>
     </sidebyside>
 
     <p permid="oBX">
-      Sequences of integers are of such interest to mathematicians and others that they have a journal<fn>
-      <pubtitle>The Journal of Integer Sequences</pubtitle> at <url href="http://www.cs.uwaterloo.ca/journals/JIS/" />
-      </fn> devoted to them and an on-line encyclopedia<fn>
-      The On-Line Encyclopedia of Integer Sequences at <url href="http://oeis.org/" />
-      </fn> that catalogs a huge number of integer sequences and their connections.
-      Sequences are also used in digital recordings and images.
+      Las secuencias de enteros son de tal interés para los matemáticos y otros que tienen una revista<fn>
+      <pubtitle>The Journal of Integer Sequences</pubtitle> en <url href="http://www.cs.uwaterloo.ca/journals/JIS/" />
+      </fn> dedicada a ellas y una enciclopedia en línea<fn>
+      The On-Line Encyclopedia of Integer Sequences en <url href="http://oeis.org/" />
+      </fn> que cataloga una gran cantidad de secuencias de enteros y sus conexiones.
+      Las secuencias también se usan en grabaciones digitales e imágenes.
     </p>
 
     <p permid="UJg">
-      Our studies in calculus have dealt with continuous functions.
-      Sequences model <em>discrete</em>
-      instead of continuous information.
-      We will study ways to represent and work with discrete information in this chapter as we investigate
-      <em>sequences</em> and <em>series</em>,
-      and ultimately see key connections between the discrete and continuous.
+      Nuestros estudios en cálculo han tratado con funciones continuas.
+      Las secuencias modelan información <em>discreta</em>
+      en lugar de continua.
+      Estudiaremos formas de representar y trabajar con información discreta en este capítulo mientras investigamos
+      <em>secuencias</em> y <em>series</em>,
+      y finalmente veremos conexiones clave entre lo discreto y lo continuo.
     </p>
 
     <xi:include href="./previews/PA-8-1.xml" />
   </introduction>
 
   <subsection permid="ReG">
-    <title>Sequences</title>
-    <idx><h>sequence</h></idx>
+    <title>Secuencias</title>
+    <idx><h>secuencia</h></idx>
 
     <p permid="AQp">
-      As <xref ref="PA-8-1">Preview Activity</xref> illustrates,
-      many discrete phenomena can be represented as lists of numbers
-      (like the amount of money in an account over a period of months).
-      We call any such list a <em>sequence</em>.
-      A sequence is nothing more than list of terms in some order.
-      We often list the entries of the sequence with subscripts,
+      Como ilustra <xref ref="PA-8-1">Actividad de Previsualización</xref>,
+      muchos fenómenos discretos pueden representarse como listas de números
+      (como la cantidad de dinero en una cuenta durante un período de meses).
+      Llamamos a cualquier lista de este tipo una <em>secuencia</em>.
+      Una secuencia no es más que una lista de términos en algún orden.
+      A menudo listamos las entradas de la secuencia con subíndices,
       <me permid="ROA">
         s_1, s_2, \ldots, s_n \ldots
       </me>,
-      where the subscript denotes the position of the entry in the sequence.
+      donde el subíndice denota la posición de la entrada en la secuencia.
     </p>
 
     <definition xml:id="D-8-1-sequence" permid="dsY">
       <statement>
         <p permid="PZn">
-          A sequence is a list of terms
-          <m>s_1, s_2, s_3, \ldots</m> in a specified order.
+          Una secuencia es una lista de términos
+          <m>s_1, s_2, s_3, \ldots</m> en un orden especificado.
         </p>
       </statement>
     </definition>
 
     <p permid="gXy">
-      We can think of a sequence as a function <m>f</m> whose domain is the set of positive integers where 
-      <m>f(n) = s_n</m> for each positive integer <m>n</m>.
-      This alternative view will be be useful in many situations.
+      Podemos pensar en una secuencia como una función <m>f</m> cuyo dominio es el conjunto de enteros positivos donde 
+      <m>f(n) = s_n</m> para cada entero positivo <m>n</m>.
+      Esta vista alternativa será útil en muchas situaciones.
     </p>
 
     <p permid="NeH">
-      We often denote the sequence
+      A menudo denotamos la secuencia
       <me permid="xVJ">
         s_1, s_2, s_3, \ldots
       </me>
-      by <m>\{s_n\}</m>.
-      The value <m>s_n</m> (alternatively <m>s(n)</m>) is called the <m>n</m>th <em>term</em>
-          <idx><h>sequence</h><h>term</h></idx>
-      in the sequence.
-      If the terms are all 0 after some fixed value of <m>n</m>,
-      we say the sequence is finite.
-      Otherwise the sequence is infinite.
-      With infinite sequences,
-      we are often interested in their end behavior and the idea of
-      <em>convergent</em> sequences.
+      por <m>\{s_n\}</m>.
+      El valor <m>s_n</m> (alternativamente <m>s(n)</m>) se llama el <m>n</m>-ésimo <em>término</em>
+          <idx><h>secuencia</h><h>término</h></idx>
+      en la secuencia.
+      Si los términos son todos 0 después de algún valor fijo de <m>n</m>,
+      decimos que la secuencia es finita.
+      De lo contrario, la secuencia es infinita.
+      Con secuencias infinitas,
+      a menudo nos interesa su comportamiento final y la idea de
+      secuencias <em>convergentes</em>.
     </p>
 
     <xi:include href="./activities/act-8-1-1.xml" />
 
     <p permid="tlQ">
-      Next we formalize the ideas from <xref ref="act-8-1-1">Activity</xref>.
+      A continuación formalizamos las ideas de <xref ref="act-8-1-1">Actividad</xref>.
     </p>
 
     <xi:include href="./activities/act-8-1-2.xml" />
 
     <p permid="ZsZ">
-      In <xref ref="act-8-1-1">Activities</xref>
-      and <xref ref="act-8-1-2"></xref>
-      we investigated a sequence <m>\{s_n\}</m> that has a limit as <m>n</m> goes to infinity.
-      More formally, we 
-      make the following definition.
+      En <xref ref="act-8-1-1">Actividades</xref>
+      y <xref ref="act-8-1-2"></xref>
+      investigamos una secuencia <m>\{s_n\}</m> que tiene un límite cuando <m>n</m> tiende a infinito.
+      Más formalmente, 
+      hacemos la siguiente definición.
     </p>
 
     <definition xml:id="D-8-1-sequence-convergence" permid="JAh">
       <statement>
         <p permid="wgw">
-          A sequence <m>\{ s_n \}</m> <term>converges</term>
-              <idx><h>converge</h><h>sequence</h></idx>
-          or is a
-          <term>convergent sequence</term>
-              <idx><h>convergent sequence</h></idx>
-          provided that there is a number <m>L</m> such that we can make <m>s_n</m> as close to <m>L</m> as we want
-          by taking <m>n</m> sufficiently large.
-          In this situation, we call <m>L</m> the <em>limit</em>
-          of the convergent sequence and write
+          Una secuencia <m>\{ s_n \}</m> <term>converge</term>
+              <idx><h>converger</h><h>secuencia</h></idx>
+          o es una
+          <term>secuencia convergente</term>
+              <idx><h>secuencia convergente</h></idx>
+          siempre que haya un número <m>L</m> tal que podamos hacer <m>s_n</m> tan cercano a <m>L</m> como queramos
+          tomando <m>n</m> suficientemente grande.
+          En esta situación, llamamos a <m>L</m> el <em>límite</em>
+          de la secuencia convergente y escribimos
           <me permid="ecS">
             \lim_{n \to \infty} s_n = L
           </me>.
-          If the sequence <m>\{s_n\}</m> does not converge,
-          we say that the sequence <m>\{s_n\}</m> <term>diverges</term>.
-              <idx><h>diverge</h><h>sequence</h></idx>
+          Si la secuencia <m>\{s_n\}</m> no converge,
+          decimos que la secuencia <m>\{s_n\}</m> <term>diverge</term>.
+              <idx><h>divergir</h><h>secuencia</h></idx>
         </p>
       </statement>
     </definition>
 
     <p permid="FAi">
-      The idea of sequence having a limit as
-      <m>n \to \infty</m> is the same as the idea of a continuous function having a limit as <m>x \to \infty</m>.
-      The only difference is that sequences are discrete instead of continuous.
+      La idea de que una secuencia tenga un límite cuando
+      <m>n \to \infty</m> es la misma que la idea de que una función continua tenga un límite cuando <m>x \to \infty</m>.
+      La única diferencia es que las secuencias son discretas en lugar de continuas.
     </p>
 
     <xi:include href="./activities/act-8-1-3.xml" />
   </subsection>
 
   <subsection permid="xlP">
-    <title>Summary</title>
+    <title>Resumen</title>
     <p permid="lHr">
       <ul permid="Oka">
         <li permid="mMK">
           <p permid="XDM">
-            A sequence is a list of objects in a specified order.
-            We will typically work with sequences of real numbers.
-            We can think of a sequence as a function from the positive integers to the set of real numbers.
+            Una secuencia es una lista de objetos en un orden especificado.
+            Normalmente trabajaremos con secuencias de números reales.
+            Podemos pensar en una secuencia como una función de los enteros positivos al conjunto de números reales.
           </p>
         </li>
 
         <li permid="STT">
           <p permid="DKV">
-            A sequence <m>\{s_n\}</m> of real numbers converges to a number <m>L</m> if we can make every value of <m>s_k</m> for <m>k \ge n</m> as close as we want to <m>L</m> by choosing <m>n</m> sufficiently large.
+            Una secuencia <m>\{s_n\}</m> de números reales converge a un número <m>L</m> si podemos hacer que cada valor de <m>s_k</m> para <m>k \ge n</m> sea tan cercano como queramos a <m>L</m> eligiendo <m>n</m> suficientemente grande.
           </p>
         </li>
 
         <li permid="zbc">
           <p permid="jSe">
-            A sequence diverges if it does not converge.
+            Una secuencia diverge si no converge.
           </p>
         </li>
       </ul>

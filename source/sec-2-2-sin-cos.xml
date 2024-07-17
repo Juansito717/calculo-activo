@@ -13,26 +13,26 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-2-2-sin-cos" permid="kOG">
-  <title>The sine and cosine functions</title>
+  <title>Las funciones seno y coseno</title>
   <objectives permid="Jrq">
     <ul permid="VFI">
       <li permid="hUa">
         <p permid="SLc">
-          What is a graphical justification for why <m>\frac{d}{dx}[a^x] = a^x \ln(a)</m>?
+          ¿Cuál es una justificación gráfica de por qué <m>\frac{d}{dx}[a^x] = a^x \ln(a)</m>?
         </p>
       </li>
 
       <li permid="Obj">
         <p permid="ySl">
-          What do the graphs of <m>y = \sin(x)</m> and
-          <m>y = \cos(x)</m> suggest as formulas for their respective derivatives?
+          ¿Qué sugieren las gráficas de <m>y = \sin(x)</m> y
+          <m>y = \cos(x)</m> como fórmulas para sus respectivas derivadas?
         </p>
       </li>
 
       <li permid="uis">
         <p permid="eZu">
-          Once we know the derivatives of <m>\sin(x)</m> and <m>\cos(x)</m>,
-          how do previous derivative rules work when these functions are involved?
+          Una vez que sabemos las derivadas de <m>\sin(x)</m> y <m>\cos(x)</m>,
+          ¿cómo funcionan las reglas de derivadas anteriores cuando estas funciones están involucradas?
         </p>
       </li>
     </ul>
@@ -40,40 +40,40 @@
 
   <introduction permid="pyz">
     <p permid="DCe">
-      Throughout <xref ref="C-2">Chapter</xref>,
-      we will develop shortcut derivative rules to help us bypass the limit definition and quickly compute <m>f'(x)</m> from a formula for <m>f(x)</m>.
-      In <xref ref="sec-2-1-elem-rules">Section</xref>,
-      we stated the rule for power functions,
+      A lo largo del <xref ref="C-2">Capítulo</xref>,
+      desarrollaremos reglas de derivadas abreviadas para ayudarnos a evitar la definición de límite y calcular rápidamente <m>f'(x)</m> a partir de una fórmula para <m>f(x)</m>.
+      En la <xref ref="sec-2-1-elem-rules">Sección</xref>,
+      enunciamos la regla para funciones de potencia,
       <me permid="otg">
-        \text{if}~ f(x) = x^n,~ \text{then}~ f'(x) = nx^{n-1}
+        \text{si}~ f(x) = x^n,~ \text{entonces}~ f'(x) = nx^{n-1}
       </me>,
-      and the rule for exponential functions,
+      y la regla para funciones exponenciales,
       <me permid="UAp">
-        \text{if}~ a ~ \text{is a positive real number and}~ f(x) = a^x,~
-        \text{then}~ f'(x) = a^x \ln(a)
+        \text{si}~ a ~ \text{es un número real positivo y}~ f(x) = a^x,~
+        \text{entonces}~ f'(x) = a^x \ln(a)
       </me>.
-      Later in this section,
-      we will use a graphical argument to conjecture derivative formulas for the sine and cosine functions.
+      Más adelante en esta sección,
+      usaremos un argumento gráfico para conjeturar fórmulas de derivadas para las funciones seno y coseno.
     </p>
 
     <xi:include href="./previews/PA-2-2.xml" />
   </introduction>
 
   <subsection permid="QVP">
-    <title>The sine and cosine functions</title>
+    <title>Las funciones seno y coseno</title>
     <p permid="jJn">
-      The sine and cosine functions are among the most important functions in all of mathematics.
-      Sometimes called the <em>circular</em>
-      functions due to their definition on the unit circle,
-      these periodic functions play a key role in modeling repeating phenomena such as tidal elevations,
-      the behavior of an oscillating mass attached to a spring,
-      or the location of a point on a bicycle tire.
-      Like polynomial and exponential functions,
-      the sine and cosine functions are considered basic functions,
-      ones that are often used in building more complicated functions.
-      As such, we would like to know formulas for
-      <m>\frac{d}{dx} [\sin(x)]</m> and <m>\frac{d}{dx} [\cos(x)]</m>,
-      and the next two activities lead us to that end.
+      Las funciones seno y coseno están entre las funciones más importantes de todas las matemáticas.
+      A veces llamadas funciones <em>circulares</em>
+      debido a su definición en el círculo unitario,
+      estas funciones periódicas juegan un papel clave en la modelización de fenómenos repetitivos como las elevaciones de las mareas,
+      el comportamiento de una masa oscilante unida a un resorte,
+      o la ubicación de un punto en una llanta de bicicleta.
+      Al igual que las funciones polinómicas y exponenciales,
+      las funciones seno y coseno se consideran funciones básicas,
+      que a menudo se usan para construir funciones más complicadas.
+      Como tal, nos gustaría conocer las fórmulas para
+      <m>\frac{d}{dx} [\sin(x)]</m> y <m>\frac{d}{dx} [\cos(x)]</m>,
+      y las dos actividades siguientes nos llevan a ese fin.
     </p>
 
     <xi:include href="./activities/act-2-2-1.xml" />
@@ -81,65 +81,65 @@
     <xi:include href="./activities/act-2-2-2.xml" />
 
     <p permid="PQw">
-      The results of the two preceding activities suggest that the sine and cosine functions not only have beautiful connections such as the identities <m>\sin^2(x) + \cos^2(x) = 1</m> and
+      Los resultados de las dos actividades anteriores sugieren que las funciones seno y coseno no solo tienen conexiones hermosas como las identidades <m>\sin^2(x) + \cos^2(x) = 1</m> y
       <m>\cos(x - \frac{\pi}{2}) = \sin(x)</m>,
-      but that they are even further linked through calculus,
-      as the derivative of each involves the other.
-      The following rules summarize the results of the activities<fn>
-      These two rules may be formally proved using the limit definition of the derivative and the expansion identities for
-      <m>\sin(x+h)</m> and <m>\cos(x+h)</m>.
+      sino que están aún más vinculadas a través del cálculo,
+      ya que la derivada de cada una involucra a la otra.
+      Las siguientes reglas resumen los resultados de las actividades<fn>
+      Estas dos reglas pueden probarse formalmente usando la definición de límite de la derivada y las identidades de expansión para
+      <m>\sin(x+h)</m> y <m>\cos(x+h)</m>.
       </fn>.
     </p>
 
     <assemblage xml:id="sine-cosine-fxns" permid="dkh">
-      <title>Sine and Cosine Functions</title>
+      <title>Funciones Seno y Coseno</title>
       <p permid="vXF">
-            <idx><h>derivative</h><h>cosine</h></idx>
-            <idx><h>derivative</h><h>sine</h></idx>
-        For all real numbers <m>x</m>,
+            <idx><h>derivada</h><h>coseno</h></idx>
+            <idx><h>derivada</h><h>seno</h></idx>
+        Para todos los números reales <m>x</m>,
         <me permid="AHy">
-          \frac{d}{dx} [\sin(x)] = \cos(x) \ \ \text{and}  \ \ \frac{d}{dx} [\cos(x)] = -\sin(x)
+          \frac{d}{dx} [\sin(x)] = \cos(x) \ \ \text{y}  \ \ \frac{d}{dx} [\cos(x)] = -\sin(x)
         </me>.
       </p>
     </assemblage>
 
     <p permid="ceO">
-      We have now added the sine and cosine functions to our library of basic functions whose derivatives we know.
-      The constant multiple and sum rules still hold, of course,
-      as well as all of the inherent meaning of the derivative.
+      Ahora hemos añadido las funciones seno y coseno a nuestra biblioteca de funciones básicas cuyas derivadas conocemos.
+      La regla del múltiplo constante y la regla de la suma aún se mantienen, por supuesto,
+      así como todo el significado inherente de la derivada.
     </p>
 
     <xi:include href="./activities/act-2-2-3.xml" />
   </subsection>
 
   <subsection permid="xcY">
-    <title>Summary</title>
+    <title>Resumen</title>
     <p permid="IlX">
       <ul permid="BMR">
         <li permid="apB">
           <p permid="LgD">
-            For an exponential function <m>f(x) = a^x</m> <m>(a \gt 1)</m>,
-            the graph of <m>f'(x)</m> appears to be a scaled version of the original function.
-            In particular, careful analysis of the graph of<m>f(x) = 2^x</m>,
-            suggests that <m>\frac{d}{dx}[2^x] = 2^x \ln(2)</m>,
-            which is a special case of the rule we stated in <xref ref="sec-2-1-elem-rules">Section</xref>.
+            Para una función exponencial <m>f(x) = a^x</m> <m>(a \gt 1)</m>,
+            la gráfica de <m>f'(x)</m> parece ser una versión escalada de la función original.
+            En particular, un análisis cuidadoso de la gráfica de <m>f(x) = 2^x</m>,
+            sugiere que <m>\frac{d}{dx}[2^x] = 2^x \ln(2)</m>,
+            que es un caso especial de la regla que enunciamos en la <xref ref="sec-2-1-elem-rules">Sección</xref>.
           </p>
         </li>
 
         <li permid="GwK">
           <p permid="rnM">
-            By carefully analyzing the graphs of
-            <m>y = \sin(x)</m> and <m>y = \cos(x)</m>,
-            and by using the limit definition of the derivative at select points,
-            we found that <m>\frac{d}{dx} [\sin(x)] = \cos(x)</m> and <m>\frac{d}{dx} [\cos(x)] = -\sin(x)</m>.
+            Al analizar cuidadosamente las gráficas de
+            <m>y = \sin(x)</m> y <m>y = \cos(x)</m>,
+            y al usar la definición de límite de la derivada en puntos selectos,
+            encontramos que <m>\frac{d}{dx} [\sin(x)] = \cos(x)</m> y <m>\frac{d}{dx} [\cos(x)] = -\sin(x)</m>.
           </p>
         </li>
 
         <li permid="mDT">
           <p permid="XuV">
-            We note that all previously encountered derivative rules still hold,
-            but now may also be applied to functions involving the sine and cosine.
-            All of the established meaning of the derivative applies to these trigonometric functions as well.
+            Notamos que todas las reglas de derivadas encontradas anteriormente aún se mantienen,
+            pero ahora también pueden aplicarse a funciones que involucren el seno y el coseno.
+            Todo el significado establecido de la derivada se aplica también a estas funciones trigonométricas.
           </p>
         </li>
       </ul>
@@ -148,4 +148,3 @@
 
   <xi:include href="./exercises/ez-2-2.xml" />
 </section>
-

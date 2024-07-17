@@ -15,74 +15,74 @@
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-8-4" permid="VfF">
   <statement>
     <p permid="zxB">
-      <xref ref="PA-8-3">Preview Activity</xref>
-      showed how we can approximate the number <m>e</m> with linear,
-      quadratic,
-      and other polynomial approximations.
-      We use a similar approach in this activity to obtain linear and quadratic approximations to <m>\ln(2)</m>.
-      Along the way,
-      we encounter a type of series that is different than most of the ones we have seen so far.
-      Throughout this activity, let <m>f(x) = \ln(1+x)</m>.
+      <xref ref="PA-8-3">Actividad de Vista Previa</xref>
+      mostró cómo podemos aproximar el número <m>e</m> con aproximaciones lineales,
+      cuadráticas,
+      y otros polinomios.
+      Usamos un enfoque similar en esta actividad para obtener aproximaciones lineales y cuadráticas a <m>\ln(2)</m>.
+      En el camino,
+      encontramos un tipo de serie que es diferente a la mayoría de las que hemos visto hasta ahora.
+      A lo largo de esta actividad, sea <m>f(x) = \ln(1+x)</m>.
     </p>
 
     <p permid="fEK">
       <ol marker="a." permid="gKd">
         <li permid="MRm">
           <p permid="dPx">
-            Find the tangent line to <m>f</m> at <m>x=0</m> and use this linearization to approximate <m>\ln(2)</m>.
-            That is, find <m>L(x)</m>,
-            the tangent line approximation to <m>f(x)</m>,
-            and use the fact that
-            <m>L(1) \approx f(1)</m> to estimate <m>\ln(2)</m>.
+            Encuentra la línea tangente a <m>f</m> en <m>x=0</m> y usa esta linealización para aproximar <m>\ln(2)</m>.
+            Es decir, encuentra <m>L(x)</m>,
+            la aproximación de la línea tangente a <m>f(x)</m>,
+            y usa el hecho de que
+            <m>L(1) \approx f(1)</m> para estimar <m>\ln(2)</m>.
           </p>
         </li>
 
         <li permid="sYv">
           <p permid="JWG">
-            The linearization of <m>\ln(1+x)</m> does not provide a very good approximation to <m>\ln(2)</m> since <m>1</m> is not that close to <m>0</m>.
-            To obtain a better approximation, we alter our approach;
-            instead of using a straight line to approximate <m>\ln(2)</m>,
-            we use a quadratic function to account for the concavity of
-            <m>\ln(1+x)</m> for <m>x</m> close to <m>0</m>.
-            With the linearization,
-            both the function's value and slope agree with the linearization's value and slope at <m>x=0</m>.
-            We will now make a quadratic approximation <m>P_2(x)</m> to
-            <m>f(x) = \ln(1+x)</m> centered at <m>x=0</m> with the property that <m>P_2(0) = f(0)</m>,
-            <m>P'_2(0) = f'(0)</m>, and <m>P''_2(0) = f''(0)</m>.
+            La linealización de <m>\ln(1+x)</m> no proporciona una muy buena aproximación a <m>\ln(2)</m> ya que <m>1</m> no está tan cerca de <m>0</m>.
+            Para obtener una mejor aproximación, alteramos nuestro enfoque;
+            en lugar de usar una línea recta para aproximar <m>\ln(2)</m>,
+            usamos una función cuadrática para tener en cuenta la concavidad de
+            <m>\ln(1+x)</m> para <m>x</m> cerca de <m>0</m>.
+            Con la linealización,
+            tanto el valor de la función como la pendiente coinciden con el valor y la pendiente de la linealización en <m>x=0</m>.
+            Ahora haremos una aproximación cuadrática <m>P_2(x)</m> a
+            <m>f(x) = \ln(1+x)</m> centrada en <m>x=0</m> con la propiedad de que <m>P_2(0) = f(0)</m>,
+            <m>P'_2(0) = f'(0)</m>, y <m>P''_2(0) = f''(0)</m>.
           </p>
 
           <p permid="qdP">
             <ol marker="i." permid="ZPy">
               <li permid="NBg">
                 <p permid="BmO">
-                  Let <m>P_2(x) = x - \frac{x^2}{2}</m>.
-                  Show that <m>P_2(0) = f(0)</m>,
+                  Sea <m>P_2(x) = x - \frac{x^2}{2}</m>.
+                  Muestra que <m>P_2(0) = f(0)</m>,
                   <m>P'_2(0) = f'(0)</m>,
-                  and <m>P''_2(0) = f''(0)</m>.
-                  Use <m>P_2(x)</m> to approximate <m>\ln(2)</m> by using the fact that <m>P_2(1) \approx f(1)</m>.
+                  y <m>P''_2(0) = f''(0)</m>.
+                  Usa <m>P_2(x)</m> para aproximar <m>\ln(2)</m> usando el hecho de que <m>P_2(1) \approx f(1)</m>.
                 </p>
               </li>
 
               <li permid="ZfE">
                 <p permid="WkY">
-                  We can continue approximating <m>\ln(2)</m> with polynomials of larger degree whose derivatives agree with those of <m>f</m> at <m>0</m>.
-                  This makes the polynomials fit the graph of <m>f</m> better for more values of <m>x</m> around <m>0</m>.
-                  For example,
-                  let <m>P_3(x) = x - \frac{x^2}{2}+\frac{x^3}{3}</m>.
-                  Show that <m>P_3(0) = f(0)</m>, <m>P'_3(0) = f'(0)</m>,
+                  Podemos seguir aproximando <m>\ln(2)</m> con polinomios de mayor grado cuyas derivadas coinciden con las de <m>f</m> en <m>0</m>.
+                  Esto hace que los polinomios se ajusten mejor al gráfico de <m>f</m> para más valores de <m>x</m> alrededor de <m>0</m>.
+                  Por ejemplo,
+                  sea <m>P_3(x) = x - \frac{x^2}{2}+\frac{x^3}{3}</m>.
+                  Muestra que <m>P_3(0) = f(0)</m>, <m>P'_3(0) = f'(0)</m>,
                   <m>P''_3(0) = f''(0)</m>,
-                  and <m>P'''_3(0) = f'''(0)</m>.
-                  Taking a similar approach to preceding questions,
-                  use <m>P_3(x)</m> to approximate <m>\ln(2)</m>.
+                  y <m>P'''_3(0) = f'''(0)</m>.
+                  Tomando un enfoque similar a las preguntas anteriores,
+                  usa <m>P_3(x)</m> para aproximar <m>\ln(2)</m>.
                 </p>
               </li>
 
               <li permid="FmN">
                 <p permid="Csh">
-                  If we used a degree <m>4</m> or degree <m>5</m> polynomial to approximate <m>\ln(1+x)</m>,
-                  what approximations of <m>\ln(2)</m> do you think would result?
-                  Use the preceding questions to conjecture a pattern that holds,
-                  and state the degree <m>4</m> and degree <m>5</m> approximation.
+                  Si usamos un polinomio de grado <m>4</m> o de grado <m>5</m> para aproximar <m>\ln(1+x)</m>,
+                  ¿qué aproximaciones de <m>\ln(2)</m> crees que resultarían?
+                  Usa las preguntas anteriores para conjeturar un patrón que se mantenga,
+                  y enuncia la aproximación de grado <m>4</m> y de grado <m>5</m>.
                 </p>
               </li>
             </ol>
@@ -96,22 +96,22 @@
       <ol marker="a." permid="ACU">
         <li permid="ltW">
           <p permid="izq">
-            The linearization of <m>f</m> at <m>x=a</m> is
+            La linealización de <m>f</m> en <m>x=a</m> es
             <me permid="LLT">
               f(a) + f'(a)(x-a)
             </me>,
-            so the linearization <m>P_1(x)</m> of <m>f(x) = \ln(1+x)</m> at <m>x=0</m> is
+            así que la linealización <m>P_1(x)</m> de <m>f(x) = \ln(1+x)</m> en <m>x=0</m> es
             <me permid="rTc">
               P_1(x) = 0 + \frac{1}{1+0}(x-0) = x
             </me>.
           </p>
 
           <p permid="OGz">
-            Now
+            Ahora
             <me permid="Yal">
               f(x) \approx P_1(x)
             </me>
-            for <m>x</m> close to <m>0</m> and so
+            para <m>x</m> cerca de <m>0</m> y así
             <me permid="Ehu">
               \ln(2) = \ln(1+1) \approx P_1(1) = 1
             </me>.
@@ -123,13 +123,13 @@
             <ol marker="i." permid="FWH">
               <li permid="tIp">
                 <p permid="htX">
-                  The derivatives of <m>P_2</m> and <m>f</m> are
+                  Las derivadas de <m>P_2</m> y <m>f</m> son
                   <md permid="koD">
                     <mrow>P_2(x) \amp = x - \frac{x^2}{2} \amp  f(x) \amp = \ln(1+x)</mrow>
                     <mrow>P'_2(x) \amp = 1-x \amp  f'(x) \amp = \frac{1}{1+x}</mrow>
                     <mrow>P''_2(x) \amp = -1 \amp  f''(x) \amp = -\frac{1}{(1+x)^2}</mrow>
                   </md>,
-                  and so the derivatives of <m>P_2</m> and <m>f</m> evaluated at 0 are
+                  y así las derivadas de <m>P_2</m> y <m>f</m> evaluadas en 0 son
                   <md permid="QvM">
                     <mrow>P_2(0) \amp = 0 \amp  f(0) \amp = \ln(1) = 0</mrow>
                     <mrow>P'_2(0) \amp = 1 \amp  f'(0) \amp = \frac{1}{1+0} = 1</mrow>
@@ -138,7 +138,7 @@
                 </p>
 
                 <p permid="aUR">
-                  Then
+                  Entonces
                   <me permid="wCV">
                     \ln(2) = \ln(1+1) \approx P_2(1) = 1 - \frac{1}{2} = \frac{1}{2}
                   </me>.
@@ -147,14 +147,14 @@
 
               <li permid="xIo">
                 <p permid="Hca">
-                  The derivatives of <m>P_3</m> and <m>f</m> are
+                  Las derivadas de <m>P_3</m> y <m>f</m> son
                   <md permid="cKe">
                     <mrow>P_3(x) \amp = x-\frac{x^2}{2}+\frac{x^3}{3} \amp  f(x) \amp = \ln(1+x)</mrow>
                     <mrow>P'_3(x) \amp = 1 - x + x^2  \amp  f'(x) \amp = \frac{1}{1+x}</mrow>
                     <mrow>P''_3(x) \amp = -1+2x  \amp  f''(x) \amp = -\frac{1}{(1+x)^2}</mrow>
                     <mrow>P'''_3(x) \amp = 2  \amp  f'''(x) \amp = \frac{2}{(1+x)^3}</mrow>
                   </md>,
-                  and so the derivatives of <m>P_3</m> and <m>f</m> evaluated at 0 are
+                  y así las derivadas de <m>P_3</m> y <m>f</m> evaluadas en 0 son
                   <md permid="IRn">
                     <mrow>P_3(0) \amp = 0 \amp  f(0) \amp = \ln(1+0) = 0</mrow>
                     <mrow>P'_3(0) \amp = 1 \amp  f'(0) \amp = \frac{1}{1+0} = 1</mrow>
@@ -164,7 +164,7 @@
                 </p>
 
                 <p permid="njj">
-                  Then
+                  Entonces
                   <me permid="oYw">
                     \ln(2) = \ln(1+1) \approx P_3(0) = 1 - \frac{1}{2} + \frac{1}{3} = \frac{5}{6} \approx 0.83
                   </me>.
@@ -177,4 +177,3 @@
     </p>
   </solution>
 </exploration>
-

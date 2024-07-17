@@ -15,21 +15,21 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-6-2" permid="xzg">
   <statement>
     <p permid="UmD">
-      A potato is placed in an oven,
-      and the potato's temperature <m>F</m>
-      (in degrees Fahrenheit)
-      at various points in time is taken and recorded in the following table.
-      Time <m>t</m> is measured in minutes.
-      In <xref ref="act-1-5-1">Activity</xref>,
-      we computed approximations to <m>F'(30)</m> and <m>F'(60)</m> using central differences.
-      Those values are provided in the second table below,
-      along with several others computed in the same way.
+      Una papa se coloca en un horno,
+      y la temperatura de la papa <m>F</m>
+      (en grados Fahrenheit)
+      en varios puntos en el tiempo se toma y se registra en la siguiente tabla.
+      El tiempo <m>t</m> se mide en minutos.
+      En <xref ref="act-1-5-1">Activity</xref>,
+      calculamos aproximaciones a <m>F'(30)</m> y <m>F'(60)</m> usando diferencias centrales.
+      Esos valores se proporcionan en la segunda tabla a continuación,
+      junto con varios otros calculados de la misma manera.
     </p>
 
     <sidebyside widths="47% 47%" margins="0%" permid="RrX">
 
       <table xml:id="table-1-act-1-6-2" permid="sPn">
-        <title>Select values of <m>F(t)</m>.</title>
+        <title>Valores seleccionados de <m>F(t)</m>.</title>
         <tabular bottom="minor" top="minor" permid="FdF">
           <row bottom="medium">
             <cell><m>t</m></cell>
@@ -68,7 +68,7 @@
       </table>
 
       <table xml:id="table-2-act-1-6-2" permid="YWw">
-        <title>Select values of <m>F'(t)</m>.</title>
+        <title>Valores seleccionados de <m>F'(t)</m>.</title>
         <tabular bottom="minor" top="minor" permid="lkO">
           <row bottom="medium">
             <cell><m>t</m></cell>
@@ -112,33 +112,33 @@
       <ol marker="a." permid="Hor">
         <li permid="nvA">
           <p permid="hGo">
-            What are the units on the values of <m>F'(t)</m>?
+            ¿Cuáles son las unidades de los valores de <m>F'(t)</m>?
           </p>
         </li>
 
         <li permid="TCJ">
           <p permid="NNx">
-            Use a central difference to estimate the value of <m>F''(30)</m>.
+            Usa una diferencia central para estimar el valor de <m>F''(30)</m>.
           </p>
         </li>
 
         <li permid="zJS">
           <p permid="tUG">
-            What is the meaning of the value of <m>F''(30)</m> that you have computed in (b) in terms of the potato's temperature?
-            Write several careful sentences that discuss, with appropriate units,
-            the values of <m>F(30)</m>,
-            <m>F'(30)</m>, and <m>F''(30)</m>,
-            and explain the overall behavior of the potato's temperature at this point in time.
+            ¿Cuál es el significado del valor de <m>F''(30)</m> que has calculado en (b) en términos de la temperatura de la papa?
+            Escribe varias oraciones cuidadosas que discutan, con unidades apropiadas,
+            los valores de <m>F(30)</m>,
+            <m>F'(30)</m>, y <m>F''(30)</m>,
+            y explica el comportamiento general de la temperatura de la papa en este punto en el tiempo.
           </p>
         </li>
 
         <li permid="fRb">
           <p permid="abP">
-            Overall,
-            is the potato's temperature increasing at an increasing rate,
-            increasing at a constant rate,
-            or increasing at a decreasing rate?
-            Why?
+            En general,
+            ¿está la temperatura de la papa aumentando a una tasa creciente,
+            aumentando a una tasa constante,
+            o aumentando a una tasa decreciente?
+            ¿Por qué?
           </p>
         </li>
       </ol>
@@ -149,32 +149,32 @@
       <ol marker="a." permid="bhi">
         <li permid="LYk">
           <p permid="GiY">
-            Remember that the derivative's units are
-            <q>units of output per unit of input.</q>
+            Recuerda que las unidades de la derivada son
+            <q>unidades de salida por unidad de entrada.</q>
           </p>
         </li>
 
         <li permid="sft">
           <p permid="mqh">
-            To estimate <m>g'(a)</m>, we can use
+            Para estimar <m>g'(a)</m>, podemos usar
             <me permid="gAV">
               g'(a) \approx \frac{g(a+h)-g(a-h)}{2h}
             </me>
-            for an appropriate choice of <m>h</m>.
+            para una elección apropiada de <m>h</m>.
           </p>
         </li>
 
         <li permid="YmC">
           <p permid="Sxq">
-            For each of the values <m>F'(30)</m> and <m>F''(30)</m>,
-            think about what they tell you about expected upcoming behavior in <m>F(t)</m> and <m>F'(t)</m>,
-            respectively.
+            Para cada uno de los valores <m>F'(30)</m> y <m>F''(30)</m>,
+            piensa en lo que te dicen sobre el comportamiento esperado de <m>F(t)</m> y <m>F'(t)</m>,
+            respectivamente.
           </p>
         </li>
 
         <li permid="EtL">
           <p permid="yEz">
-            Think concavity.
+            Piensa en concavidad.
           </p>
         </li>
       </ol>
@@ -185,7 +185,7 @@
       <ol marker="a." permid="uZZ">
         <li permid="kAU">
           <p permid="eLI">
-            Degrees Fahrenheit per minute.
+            Grados Fahrenheit por minuto.
           </p>
         </li>
 
@@ -197,17 +197,17 @@
 
         <li permid="wPm">
           <p permid="raa">
-            At the moment <m>t = 30</m>,
-            the temperature of the potato is 251 degrees;
-            its temperature is rising at a rate of 3.85 degrees per minute;
-            and the rate at which the temperature is rising is <em>falling</em>
-            at a rate of 0.119 degrees per minute per minute.
+            En el momento <m>t = 30</m>,
+            la temperatura de la papa es de 251 grados;
+            su temperatura está subiendo a una tasa de 3.85 grados por minuto;
+            y la tasa a la que la temperatura está subiendo está <em>cayendo</em>
+            a una tasa de 0.119 grados por minuto por minuto.
           </p>
         </li>
 
         <li permid="cWv">
           <p permid="Xhj">
-            Increasing at a decreasing rate.
+            Aumentando a una tasa decreciente.
           </p>
         </li>
       </ol>
@@ -218,13 +218,13 @@
       <ol marker="a." permid="OSQ">
         <li permid="JdE">
           <p permid="Dos">
-            <m>F'(t)</m> has units measured in degrees Fahrenheit per minute.
+            <m>F'(t)</m> tiene unidades medidas en grados Fahrenheit por minuto.
           </p>
         </li>
 
         <li permid="pkN">
           <p permid="jvB">
-            Using a central difference,
+            Usando una diferencia central,
             <me permid="MIe">
               F''(30) \approx \frac{F'(45)-F'(15)}{30} = \frac{2.45-6.03}{30} \approx -0.119
             </me>.
@@ -233,30 +233,29 @@
 
         <li permid="VrW">
           <p permid="PCK">
-            The value <m>F''(30) \approx -0.119</m>,
-            which is measured in degrees per minute per minute tells us,
-            along with the other data,
-            that at the moment <m>t = 30</m>,
-            the temperature of the potato is 251 degrees,
-            that its temperature is rising at a rate of 3.85 degrees per minute,
-            and that the rate at which the temperature is rising is <em>falling</em>
-            at a rate of 0.119 degrees per minute per minute.
-            That is, while the temperature is rising,
-            it is rising at a slower and slower rate.
-            At <m>t = 31</m>,
-            we'd expect that the rate of increase of the potato's temperature would have dropped to about 3.73 degrees per minute.
+            El valor <m>F''(30) \approx -0.119</m>,
+            que se mide en grados por minuto por minuto nos dice,
+            junto con los otros datos,
+            que en el momento <m>t = 30</m>,
+            la temperatura de la papa es de 251 grados,
+            que su temperatura está subiendo a una tasa de 3.85 grados por minuto,
+            y que la tasa a la que la temperatura está subiendo está <em>cayendo</em>
+            a una tasa de 0.119 grados por minuto por minuto.
+            Es decir, mientras la temperatura está subiendo,
+            está subiendo a una tasa cada vez más lenta.
+            En <m>t = 31</m>,
+            esperaríamos que la tasa de aumento de la temperatura de la papa haya caído a aproximadamente 3.73 grados por minuto.
           </p>
         </li>
 
         <li permid="Bzf">
           <p permid="vJT">
-            The potato's temperature increasing at a decreasing rate because the values of the first derivative of <m>F</m> are falling.
-            Equivalently,
-            this is because the value of <m>F''(t)</m> is negative throughout the given time interval.
+            La temperatura de la papa está aumentando a una tasa decreciente porque los valores de la primera derivada de <m>F</m> están cayendo.
+            De manera equivalente,
+            esto es porque el valor de <m>F''(t)</m> es negativo a lo largo del intervalo de tiempo dado.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

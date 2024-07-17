@@ -14,67 +14,65 @@
 <!-- **********************************************************************-->
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-7-1" permid="Mow">
   <p permid="ghn">
-    The position of a moving object is given by the
-    function <m>s(t)</m>,
-    where <m>s</m> is measured in feet and <m>t</m> in seconds.
-    We
-    determine that the velocity is <m>v(t) = 4t + 1</m> feet per second.
+    La posición de un objeto en movimiento está dada por la
+    función <m>s(t)</m>,
+    donde <m>s</m> se mide en pies y <m>t</m> en segundos.
+    Determinamos que la velocidad es <m>v(t) = 4t + 1</m> pies por segundo.
 
     <ol marker="a." permid="SdI">
       <li permid="ykR">
         <p permid="Pjc">
-          How much does the position change over the time interval <m>[0,4]</m>?
+          ¿Cuánto cambia la posición durante el intervalo de tiempo <m>[0,4]</m>?
         </p>
       </li>
 
       <li permid="esa">
         <p permid="vql">
-          Does this give you enough information to determine <m>s(4)</m>,
-          the position at time <m>t=4</m>?
-          If so, what is <m>s(4)</m>?
-          If not,
-          what additional information would you need to know to determine <m>s(4)</m>?
+          ¿Esto te da suficiente información para determinar <m>s(4)</m>,
+          la posición en el tiempo <m>t=4</m>?
+          Si es así, ¿cuál es <m>s(4)</m>?
+          Si no,
+          ¿qué información adicional necesitarías saber para determinar <m>s(4)</m>?
         </p>
       </li>
 
       <li permid="Kzj">
         <p permid="bxu">
-          Suppose you are told that the object's initial position <m>s(0) = 7</m>.
-          Determine <m>s(2)</m>,
-          the object's position 2 seconds later.
+          Supón que te dicen que la posición inicial del objeto <m>s(0) = 7</m>.
+          Determina <m>s(2)</m>,
+          la posición del objeto 2 segundos después.
         </p>
       </li>
 
       <li permid="qGs">
         <p permid="HED">
-          If you are told instead that the object's initial position is
-          <m>s(0) = 3</m>, what is <m>s(2)</m>?
+          Si en cambio te dicen que la posición inicial del objeto es
+          <m>s(0) = 3</m>, ¿cuál es <m>s(2)</m>?
         </p>
       </li>
 
       <li permid="WNB">
         <p permid="nLM">
-          If we only know the velocity <m>v(t)=4t+1</m>,
-          is it possible that the object's position at all times is <m>s(t) = 2t^2 + t - 4</m>?
-          Explain how you know.
+          Si solo sabemos que la velocidad es <m>v(t)=4t+1</m>,
+          ¿es posible que la posición del objeto en todo momento sea <m>s(t) = 2t^2 + t - 4</m>?
+          Explica cómo lo sabes.
         </p>
       </li>
 
       <li permid="CUK">
         <p permid="TSV">
-          Are there other possibilities for <m>s(t)</m>?
-          If so, what are they?
+          ¿Hay otras posibilidades para <m>s(t)</m>?
+          Si es así, ¿cuáles son?
         </p>
       </li>
 
       <li permid="jbT">
         <p permid="Aae">
-          If, in addition to knowing the velocity function is <m>v(t) = 4t+1</m>,
-          we know the initial position <m>s(0)</m>,
-          how many possibilities are there for <m>s(t)</m>?
+          Si, además de saber que la función de velocidad es <m>v(t) = 4t+1</m>,
+          sabemos la posición inicial <m>s(0)</m>,
+          ¿cuántas posibilidades hay para <m>s(t)</m>?
         </p>
       </li>
     </ol>
   </p>
 </exploration>
-

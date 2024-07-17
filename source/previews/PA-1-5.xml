@@ -14,21 +14,21 @@
 <!-- **********************************************************************-->
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-1-5" permid="Qvm">
   <p permid="XZL">
-    One of the longest stretches of straight
-    (and flat)
-    road in North America can be found on the Great Plains in the state of North Dakota on state highway 46,
-    which lies just south of the interstate highway I-94 and runs through the town of Gackle.
-    A car leaves town
-    (at time <m>t = 0</m>)
-    and heads east on highway 46;
-    its position in miles from Gackle at time <m>t</m> in minutes is given by the graph of the function in <xref ref="F-1-5-PA1">Figure</xref>.
-    Three important points are labeled on the graph;
-    where the curve looks linear,
-    assume that it is indeed a straight line.
+    Una de las carreteras más largas y rectas
+    (y planas)
+    de América del Norte se encuentra en las Grandes Llanuras en el estado de Dakota del Norte en la carretera estatal 46,
+    que se encuentra justo al sur de la autopista interestatal I-94 y atraviesa el pueblo de Gackle.
+    Un coche sale del pueblo
+    (en el momento <m>t = 0</m>)
+    y se dirige hacia el este por la carretera 46;
+    su posición en millas desde Gackle en el momento <m>t</m> en minutos está dada por el gráfico de la función en <xref ref="F-1-5-PA1">Figura</xref>.
+    Tres puntos importantes están marcados en el gráfico;
+    donde la curva parece lineal,
+    supón que es realmente una línea recta.
   </p>
 
   <figure xml:id="F-1-5-PA1" permid="kod">
-    <caption>The graph of <m>y = s(t)</m>, the position of the car along highway 46, which tells its distance in miles from Gackle, ND, at time <m>t</m> in minutes.</caption>
+    <caption>El gráfico de <m>y = s(t)</m>, la posición del coche a lo largo de la carretera 46, que indica su distancia en millas desde Gackle, ND, en el momento <m>t</m> en minutos.</caption>
     <image width="47%" source="images/1_5_PA1" />
   </figure>
 
@@ -36,36 +36,35 @@
     <ol marker="a." permid="uNi">
       <li permid="aUr">
         <p permid="zxb">
-          In everyday language,
-          describe the behavior of the car over the provided time interval.
-          In particular,
-          discuss what is happening on the time intervals <m>[57,68]</m> and <m>[68,104]</m>.
+          En lenguaje cotidiano,
+          describe el comportamiento del coche durante el intervalo de tiempo proporcionado.
+          En particular,
+          discute lo que está pasando en los intervalos de tiempo <m>[57,68]</m> y <m>[68,104]</m>.
         </p>
       </li>
 
       <li permid="HbA">
         <p permid="fEk">
-          Find the slope of the line between the points
-          <m>(57,63.8)</m> and <m>(104,106.8)</m>.
-          What are the units on this slope?
-          What does the slope represent?
+          Encuentra la pendiente de la línea entre los puntos
+          <m>(57,63.8)</m> y <m>(104,106.8)</m>.
+          ¿Cuáles son las unidades de esta pendiente?
+          ¿Qué representa la pendiente?
         </p>
       </li>
 
       <li permid="niJ">
         <p permid="LLt">
-          Find the average rate of change of the car's position on the interval <m>[68,104]</m>.
-          Include units on your answer.
+          Encuentra la tasa de cambio promedio de la posición del coche en el intervalo <m>[68,104]</m>.
+          Incluye unidades en tu respuesta.
         </p>
       </li>
 
       <li permid="TpS">
         <p permid="rSC">
-          Estimate the instantaneous rate of change of the car's position at the moment <m>t = 80</m>.
-          Write a sentence to explain your reasoning and the meaning of this value.
+          Estima la tasa de cambio instantánea de la posición del coche en el momento <m>t = 80</m>.
+          Escribe una oración para explicar tu razonamiento y el significado de este valor.
         </p>
       </li>
     </ol>
   </p>
 </exploration>
-

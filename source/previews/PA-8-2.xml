@@ -14,32 +14,32 @@
 <!-- **********************************************************************-->
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-8-2" permid="CNG">
   <p permid="FIm">
-    Warfarin is an anticoagulant that prevents blood clotting;
-    often it is prescribed to stroke victims in order to help ensure blood flow.
-    The level of warfarin has to reach a certain concentration in the blood in order to be effective.
+    La warfarina es un anticoagulante que previene la coagulación de la sangre;
+    a menudo se prescribe a las víctimas de un derrame cerebral para ayudar a asegurar el flujo sanguíneo.
+    El nivel de warfarina tiene que alcanzar una cierta concentración en la sangre para ser efectivo.
   </p>
 
   <p permid="lPv">
-    Suppose warfarin is taken by a particular patient in a 5 mg dose each day.
-    The drug is absorbed by the body and some is excreted from the system between doses.
-    Assume that at the end of a 24 hour period, 8% of the drug remains in the body.
-    Let <m>Q(n)</m> be the amount
-    (in mg)
-    of warfarin in the body before the <m>(n+1)</m>st dose of the drug is administered.
+    Supón que la warfarina es tomada por un paciente en particular en una dosis de 5 mg cada día.
+    El medicamento es absorbido por el cuerpo y algo es excretado del sistema entre dosis.
+    Supón que al final de un período de 24 horas, el 8% del medicamento permanece en el cuerpo.
+    Sea <m>Q(n)</m> la cantidad
+    (en mg)
+    de warfarina en el cuerpo antes de que se administre la <m>(n+1)</m>ava dosis del medicamento.
   </p>
 
   <p permid="RWE">
     <ol marker="a." permid="DSZ">
       <li permid="kai">
         <p permid="URk">
-          Explain why <m>Q(1) = 5 \times 0.08</m> mg.
+          Explica por qué <m>Q(1) = 5 \times 0.08</m> mg.
         </p>
       </li>
 
       <li permid="Qhr">
         <p permid="AYt">
-          Explain why <m>Q(2) = (5+Q(1)) \times 0.08</m> mg.
-          Then show that
+          Explica por qué <m>Q(2) = (5+Q(1)) \times 0.08</m> mg.
+          Luego muestra que
           <me permid="ydN">
             Q(2) = (5 \times 0.08)\left(1+0.08\right) \text{mg}
           </me>.
@@ -48,8 +48,8 @@
 
       <li permid="woA">
         <p permid="hfC">
-          Explain why <m>Q(3) = (5+Q(2)) \times 0.08</m> mg.
-          Then show that
+          Explica por qué <m>Q(3) = (5+Q(2)) \times 0.08</m> mg.
+          Luego muestra que
           <me permid="ekW">
             Q(3) = (5 \times 0.08)\left(1+0.08+0.08^2\right) \text{mg}
           </me>.
@@ -58,8 +58,8 @@
 
       <li permid="cvJ">
         <p permid="NmL">
-          Explain why <m>Q(4) = (5+Q(3)) \times 0.08</m> mg.
-          Then show that
+          Explica por qué <m>Q(4) = (5+Q(3)) \times 0.08</m> mg.
+          Luego muestra que
           <me permid="Ksf">
             Q(4) = (5 \times 0.08)\left(1+0.08+0.08^2+0.08^3\right) \text{mg}
           </me>.
@@ -68,21 +68,21 @@
 
       <li permid="ICS">
         <p permid="ttU">
-          There is a pattern that you should see emerging.
-          Use this pattern to find a formula for <m>Q(n)</m>,
-          where <m>n</m> is an arbitrary positive integer.
+          Hay un patrón que deberías ver emergiendo.
+          Usa este patrón para encontrar una fórmula para <m>Q(n)</m>,
+          donde <m>n</m> es un número entero positivo arbitrario.
         </p>
       </li>
 
       <li permid="oKb">
         <p permid="ZBd">
-          Complete <xref ref="T-8-2-Warfarin">Table</xref>
-          with values of <m>Q(n)</m> for the provided <m>n</m>-values (reporting <m>Q(n)</m> to 10 decimal places).
-          What appears to be happening to the sequence <m>Q(n)</m> as <m>n</m> increases?
+          Completa <xref ref="T-8-2-Warfarin">Table</xref>
+          con valores de <m>Q(n)</m> para los valores de <m>n</m> proporcionados (reportando <m>Q(n)</m> con 10 decimales).
+          ¿Qué parece estar ocurriendo con la secuencia <m>Q(n)</m> a medida que <m>n</m> aumenta?
         </p>
 
         <table xml:id="T-8-2-Warfarin" permid="qzo">
-          <title>Values of <m>Q(n)</m> for selected values of <m>n</m></title>
+          <title>Valores de <m>Q(n)</m> para valores seleccionados de <m>n</m></title>
           <tabular top="minor" bottom="minor" permid="WGx">
             <row>
               <cell><m>n</m></cell>
@@ -118,4 +118,3 @@
     </ol>
   </p>
 </exploration>
-

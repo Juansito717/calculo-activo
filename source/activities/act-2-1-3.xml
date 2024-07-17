@@ -15,37 +15,37 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-1-3" permid="nYD">
   <statement>
     <p permid="bKl">
-      Each of the following questions asks you to use derivatives to answer key questions about functions.
-      Be sure to think carefully about each question and to use proper notation in your responses.
+      Cada una de las siguientes preguntas te pide usar derivadas para responder preguntas clave sobre funciones.
+      Asegúrate de pensar cuidadosamente en cada pregunta y de usar la notación adecuada en tus respuestas.
     </p>
 
     <p permid="HRu">
       <ol marker="a." permid="Wqy">
         <li permid="CxH">
           <p permid="cPE">
-            Find the slope of the tangent line to
-            <m>h(z) = \sqrt{z} + \frac{1}{z}</m> at the point where <m>z = 4</m>.
+            Encuentra la pendiente de la línea tangente a
+            <m>h(z) = \sqrt{z} + \frac{1}{z}</m> en el punto donde <m>z = 4</m>.
           </p>
         </li>
 
         <li permid="iEQ">
           <p permid="IWN">
-            A population of cells is growing in such a way that its total number in millions is given by the function <m>P(t) = 2(1.37)^t + 32</m>,
-            where <m>t</m> is measured in days.
+            Una población de células está creciendo de tal manera que su número total en millones está dado por la función <m>P(t) = 2(1.37)^t + 32</m>,
+            donde <m>t</m> se mide en días.
           </p>
 
           <p permid="pdW">
             <ol marker="i." permid="gue">
               <li permid="AmV">
                 <p permid="UfM">
-                  Determine the instantaneous rate at which the population is growing on day 4, and include units on your answer.
+                  Determina la tasa instantánea a la que la población está creciendo en el día 4, e incluye unidades en tu respuesta.
                 </p>
               </li>
 
               <li permid="OLZ">
                 <p permid="Vlf">
-                  Is the population growing at an increasing rate or growing at a decreasing rate on day 4?
-                  Explain.
+                  ¿Está la población creciendo a una tasa creciente o decreciente en el día 4?
+                  Explica.
                 </p>
               </li>
             </ol>
@@ -54,16 +54,16 @@
 
         <li permid="QBm">
           <p permid="Bso">
-            Find an equation for the tangent line to the curve
-            <m>p(a) = 3a^4 - 2a^3 + 7a^2 - a + 12</m> at the point where <m>a=-1</m>.
+            Encuentra una ecuación para la línea tangente a la curva
+            <m>p(a) = 3a^4 - 2a^3 + 7a^2 - a + 12</m> en el punto donde <m>a=-1</m>.
           </p>
         </li>
 
         <li permid="wIv">
           <p permid="hzx">
-            What is the difference between being asked to find the <em>slope</em>
-            of the tangent line (asked in (a)) and the <em>equation</em>
-            of the tangent line (asked in (c))?
+            ¿Cuál es la diferencia entre que te pidan encontrar la <em>pendiente</em>
+            de la línea tangente (preguntado en (a)) y la <em>ecuación</em>
+            de la línea tangente (preguntado en (c))?
           </p>
         </li>
       </ol>
@@ -74,25 +74,25 @@
       <ol marker="a." permid="qjp">
         <li permid="uTi">
           <p permid="NGG">
-            How would <m>h'(z)</m> help you answer the question?
+            ¿Cómo te ayudaría <m>h'(z)</m> a responder la pregunta?
           </p>
         </li>
 
         <li permid="bar">
           <p permid="tNP">
-            Think about finding both <m>P'(t)</m> and <m>P''(t)</m>.
+            Piensa en encontrar tanto <m>P'(t)</m> como <m>P''(t)</m>.
           </p>
         </li>
 
         <li permid="HhA">
           <p permid="ZUY">
-            What two important pieces of information do you need to know to determine the equation of a line?
+            ¿Qué dos piezas importantes de información necesitas saber para determinar la ecuación de una línea?
           </p>
         </li>
 
         <li permid="noJ">
           <p permid="Gch">
-            What information do you find in both (a) and (c)?
+            ¿Qué información encuentras tanto en (a) como en (c)?
           </p>
         </li>
       </ol>
@@ -109,7 +109,7 @@
 
         <li permid="zDb">
           <p permid="Sqz">
-            (i.)<m>P'(4) = 2(1.37)^4 \ln(1.37) \approx 2.218</m> million cells per day; (ii.) the population is growing at an increasing rate.
+            (i.)<m>P'(4) = 2(1.37)^4 \ln(1.37) \approx 2.218</m> millones de células por día; (ii.) la población está creciendo a una tasa creciente.
           </p>
         </li>
 
@@ -121,8 +121,8 @@
 
         <li permid="LRt">
           <p permid="eER">
-            The slope is a number,
-            while the equation is, well, an equation.
+            La pendiente es un número,
+            mientras que la ecuación es, bueno, una ecuación.
           </p>
         </li>
       </ol>
@@ -133,49 +133,48 @@
       <ol marker="a." permid="dUX">
         <li permid="rYC">
           <p permid="KMa">
-            Note that since <m>h(z) = z^{1/2} + z^{-1}</m>,
-            we have <m>h'(z) = \frac{1}{2}z^{-1/2} - z^{-2}</m>.
-            Thus,
+            Nota que dado que <m>h(z) = z^{1/2} + z^{-1}</m>,
+            tenemos <m>h'(z) = \frac{1}{2}z^{-1/2} - z^{-2}</m>.
+            Así,
             <m>h'(4) = \frac{1}{2(4)^{1/2}} - \frac{1}{4^2} = \frac{1}{4} - \frac{1}{16} = \frac{3}{16}</m>.
-            Thus, the slope of the tangent line to <m>h(z)</m> at the point where <m>z = 4</m> is <m>\frac{3}{16}</m>.
+            Por lo tanto, la pendiente de la línea tangente a <m>h(z)</m> en el punto donde <m>z = 4</m> es <m>\frac{3}{16}</m>.
           </p>
         </li>
 
         <li permid="YfL">
           <p permid="qTj">
-            For (i.), note that <m>P'(t) = 2(1.37)^t \ln(1.37)</m>,
-            and therefore <m>P'(4) = 2(1.37)^4 \ln(1.37) \approx 2.218</m> million cells per day.
-            For (ii.), we can compute <m>P''(t)</m> and find that
-            <m>P''(t) = 2(1.37)^t \ln(1.37) \ln(1.37)</m> and therefore find that <m>P''(4) \approx 0.69825</m>.
-            Since <m>P''(4)</m> is positive,
-            this tells us that the instantaneous rate of change <m>P'(t)</m> is increasing at <m>t = 4</m>,
-            and thus the population is growing at an increasing rate.
+            Para (i.), nota que <m>P'(t) = 2(1.37)^t \ln(1.37)</m>,
+            y por lo tanto <m>P'(4) = 2(1.37)^4 \ln(1.37) \approx 2.218</m> millones de células por día.
+            Para (ii.), podemos calcular <m>P''(t)</m> y encontrar que
+            <m>P''(t) = 2(1.37)^t \ln(1.37) \ln(1.37)</m> y por lo tanto encontrar que <m>P''(4) \approx 0.69825</m>.
+            Dado que <m>P''(4)</m> es positivo,
+            esto nos dice que la tasa de cambio instantánea <m>P'(t)</m> está aumentando en <m>t = 4</m>,
+            y por lo tanto la población está creciendo a una tasa creciente.
           </p>
         </li>
 
         <li permid="EmU">
           <p permid="Xas">
-            Given <m>p(a) = 3a^4 - 2a^3 + 7a^2 - a + 12</m>,
-            first observe that <m>p(-1) = 3 + 2 + 7 + 1 + 12 = 25</m>,
-            so the tangent line will pass through <m>(-1,25)</m>.
-            Further, since <m>p'(a) = 12a^3 - 6a^2 + 14a - 1</m>,
-            we have <m>p'(-1) = -12 - 6 - 14 - 1 = -33</m>,
-            which is the slope of the tangent line.
-            The equation of the tangent line is therefore <m>y - 25 = -33(a+1)</m>.
+            Dado <m>p(a) = 3a^4 - 2a^3 + 7a^2 - a + 12</m>,
+            primero observa que <m>p(-1) = 3 + 2 + 7 + 1 + 12 = 25</m>,
+            así que la línea tangente pasará por <m>(-1,25)</m>.
+            Además, dado que <m>p'(a) = 12a^3 - 6a^2 + 14a - 1</m>,
+            tenemos <m>p'(-1) = -12 - 6 - 14 - 1 = -33</m>,
+            que es la pendiente de la línea tangente.
+            La ecuación de la línea tangente es por lo tanto <m>y - 25 = -33(a+1)</m>.
           </p>
         </li>
 
         <li permid="kud">
           <p permid="DhB">
-            The biggest difference is that (a) asks for the
-            <em>slope</em> of the tangent line,
-            while (c) asks for the <em>equation</em> of the tangent line.
-            The latter requires the slope of the tangent line,
-            but the slope and equation are two different entities.
+            La mayor diferencia es que (a) pide la
+            <em>pendiente</em> de la línea tangente,
+            mientras que (c) pide la <em>ecuación</em> de la línea tangente.
+            La última requiere la pendiente de la línea tangente,
+            pero la pendiente y la ecuación son dos entidades diferentes.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

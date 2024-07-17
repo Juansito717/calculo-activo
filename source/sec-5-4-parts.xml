@@ -13,25 +13,25 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-5-4-parts" permid="cWM">
-  <title>Integration by Parts</title>
+  <title>Integración por Partes</title>
   <objectives permid="yEQ">
     <ul permid="jvS">
       <li permid="vKk">
         <p permid="gBm">
-          How do we evaluate indefinite integrals that involve products of basic functions such as
-          <m>\int x \sin(x) \, dx</m> and <m>\int x e^x \, dx</m>?
+          ¿Cómo evaluamos integrales indefinidas que involucran productos de funciones básicas como
+          <m>\int x \sin(x) \, dx</m> y <m>\int x e^x \, dx</m>?
         </p>
       </li>
 
       <li permid="bRt">
         <p permid="MIv">
-          What is the method of integration by parts and how can we consistently apply it to integrate products of basic functions?
+          ¿Cuál es el método de integración por partes y cómo podemos aplicarlo consistentemente para integrar productos de funciones básicas?
         </p>
       </li>
 
       <li permid="HYC">
         <p permid="sPE">
-          How does the algebraic structure of functions guide us in identifying <m>u</m> and <m>dv</m> in using integration by parts?
+          ¿Cómo nos guía la estructura algebraica de las funciones en identificar <m>u</m> y <m>dv</m> al usar la integración por partes?
         </p>
       </li>
     </ul>
@@ -39,87 +39,87 @@
 
   <introduction permid="eLZ">
     <p permid="LDc">
-      In <xref ref="sec-5-3-substitution">Section</xref>,
-      we learned the technique of <m>u</m>-substitution for evaluating indefinite integrals.
-      For example, the indefinite integral
-      <m>\int x^3 \sin(x^4) \, dx</m> is perfectly suited to <m>u</m>-substitution,
-      because one factor is a composite function and the other factor is the derivative
-      (up to a constant) of the inner function.
-      Recognizing the algebraic structure of a function can help us to find its antiderivative.
+      En <xref ref="sec-5-3-substitution">Sección</xref>,
+      aprendimos la técnica de sustitución <m>u</m> para evaluar integrales indefinidas.
+      Por ejemplo, la integral indefinida
+      <m>\int x^3 \sin(x^4) \, dx</m> es perfectamente adecuada para la sustitución <m>u</m>,
+      porque un factor es una función compuesta y el otro factor es la derivada
+      (hasta una constante) de la función interna.
+      Reconocer la estructura algebraica de una función puede ayudarnos a encontrar su antiderivada.
     </p>
 
     <p permid="rKl">
-      Next we consider integrands with a different elementary algebraic structure:
-      a product of basic functions.
-      For instance,
-      suppose we are interested in evaluating the indefinite integral
+      A continuación, consideramos integrandos con una estructura algebraica elemental diferente:
+      un producto de funciones básicas.
+      Por ejemplo,
+      supón que estamos interesados en evaluar la integral indefinida
       <me permid="CTk">
         \int x \sin(x) \, dx
       </me>.
     </p>
 
     <p permid="XRu">
-      The integrand is the product of the basic functions
-      <m>f(x) = x</m> and <m>g(x) = \sin(x)</m>.
-      We know that it is relatively complicated to compute the derivative of the product of two functions,
-      so we should expect that antidifferentiating a product should be similarly involved.
-      Intuitively, we expect that evaluating
-      <m>\int x \sin(x) \, dx</m> will involve somehow reversing the Product Rule.
+      El integrando es el producto de las funciones básicas
+      <m>f(x) = x</m> y <m>g(x) = \sin(x)</m>.
+      Sabemos que es relativamente complicado calcular la derivada del producto de dos funciones,
+      por lo que deberíamos esperar que antidiferenciar un producto sea igualmente complicado.
+      Intuitivamente, esperamos que evaluar
+      <m>\int x \sin(x) \, dx</m> implique de alguna manera revertir la Regla del Producto.
     </p>
 
     <p permid="DYD">
-      To that end, in <xref ref="PA-5-4">Preview Activity</xref>
-      we refresh our understanding of the Product Rule and then investigate some indefinite integrals that involve products of basic functions.
+      Con ese fin, en <xref ref="PA-5-4">Actividad de Previsualización</xref>
+      refrescamos nuestra comprensión de la Regla del Producto y luego investigamos algunas integrales indefinidas que involucran productos de funciones básicas.
     </p>
 
     <xi:include href="./previews/PA-5-4.xml" />
   </introduction>
 
   <subsection permid="JdV">
-    <title>Reversing the Product Rule: Integration by Parts</title>
-    <idx><h>integration by parts</h></idx>
+    <title>Revirtiendo la Regla del Producto: Integración por Partes</title>
+    <idx><h>integración por partes</h></idx>
 
     <p permid="kfM">
-      Problem (c) in <xref ref="PA-5-4">Preview Activity</xref>
-      provides a clue to the general technique known as Integration by Parts,
-      which comes from reversing the Product Rule.
-      Recall that the Product Rule states that
+      El problema (c) en <xref ref="PA-5-4">Actividad de Previsualización</xref>
+      proporciona una pista sobre la técnica general conocida como Integración por Partes,
+      que proviene de revertir la Regla del Producto.
+      Recuerda que la Regla del Producto establece que
       <me permid="jat">
         \frac{d}{dx} \left[ f(x) g(x) \right] = f(x) g'(x) + g(x)  f'(x)
       </me>.
     </p>
 
     <p permid="QmV">
-      Integrating both sides of this equation indefinitely with respect to <m>x</m>,
-      we find
+      Integrando ambos lados de esta ecuación indefinidamente con respecto a <m>x</m>,
+      encontramos
       <men xml:id="E-intprod" permid="PhC">
         \int \frac{d}{dx} \left[ f(x)  g(x) \right] \, dx = \int f(x) g'(x) \, dx + \int g(x)  f'(x) \, dx
       </men>.
     </p>
 
     <p permid="wue">
-      On the left side of <xref ref="E-intprod">Equation</xref>,
-      we have the indefinite integral of the derivative of a function.
-      Temporarily omitting the constant that may arise, we have
+      En el lado izquierdo de <xref ref="E-intprod">Ecuación</xref>,
+      tenemos la integral indefinida de la derivada de una función.
+      Omitiendo temporalmente la constante que puede surgir, tenemos
       <men xml:id="E-intprod2" permid="voL">
         f(x)  g(x) = \int f(x) g'(x) \, dx + \int g(x)  f'(x) \, dx
       </men>.
     </p>
 
     <p permid="cBn">
-      We solve for the first indefinite integral on the left to generate the rule
+      Resolvemos la primera integral indefinida en la izquierda para generar la regla
       <men xml:id="E-IBP1" permid="bvU">
         \int f(x) g'(x) \, dx  = f(x)  g(x) -  \int g(x)  f'(x) \, dx
       </men>.
     </p>
 
     <p permid="IIw">
-      Often we express <xref ref="E-IBP1">Equation</xref>
-      in terms of the variables <m>u</m> and <m>v</m>,
-      where <m>u = f(x)</m> and <m>v = g(x)</m>.
-      In differential notation,
-      <m>du = f'(x) \, dx</m> and <m>dv = g'(x) \, dx</m>,
-      so we can state the rule for Integration by Parts in its most common form as follows:
+      A menudo expresamos <xref ref="E-IBP1">Ecuación</xref>
+      en términos de las variables <m>u</m> y <m>v</m>,
+      donde <m>u = f(x)</m> y <m>v = g(x)</m>.
+      En notación diferencial,
+      <m>du = f'(x) \, dx</m> y <m>dv = g'(x) \, dx</m>,
+      por lo que podemos enunciar la regla para la Integración por Partes en su forma más común de la siguiente manera:
     </p>
 
     <assemblage permid="tUX">
@@ -131,386 +131,385 @@
     </assemblage>
 
     <p permid="UWO">
-      To apply integration by parts,
-      we look for a product of basic functions that we can identify as <m>u</m> and <m>dv</m>.
-      If we can antidifferentiate <m>dv</m> to find <m>v</m>,
-      and evaluating <m>\int v \, du</m> is not more difficult than evaluating <m>\int u \, dv</m>,
-      then this substitution usually proves to be fruitful.
-      To demonstrate, we consider the following example.
+      Para aplicar la integración por partes,
+      buscamos un producto de funciones básicas que podamos identificar como <m>u</m> y <m>dv</m>.
+      Si podemos antidiferenciar <m>dv</m> para encontrar <m>v</m>,
+      y evaluar <m>\int v \, du</m> no es más difícil que evaluar <m>\int u \, dv</m>,
+      entonces esta sustitución generalmente resulta ser fructífera.
+      Para demostrarlo, consideramos el siguiente ejemplo.
     </p>
 
     <example xml:id="Ex-5-4-IBP" permid="acg">
       <statement>
         <p permid="nas">
-          Evaluate the indefinite integral
+          Evalúa la integral indefinida
           <me permid="nKm">
             \int x\cos(x) \, dx
           </me>
-          using integration by parts.
+          usando integración por partes.
         </p>
       </statement>
       <solution permid="KTi">
         <p permid="Rso">
-          When we use integration by parts,
-          we have a choice for <m>u</m> and <m>dv</m>.
-          In this problem,
-          we can either let <m>u = x</m> and <m>dv = \cos(x) \, dx</m>,
-          or let <m>u = \cos(x)</m> and <m>dv = x \, dx</m>.
-          While there is not a universal rule for how to choose <m>u</m> and <m>dv</m>,
-          a good guideline is this:
-          do so in a way that <m>\int v \, du</m> is at least as simple as the original problem <m>\int u \, dv</m>.
+          Cuando usamos integración por partes,
+          tenemos una elección para <m>u</m> y <m>dv</m>.
+          En este problema,
+          podemos dejar que <m>u = x</m> y <m>dv = \cos(x) \, dx</m>,
+          o dejar que <m>u = \cos(x)</m> y <m>dv = x \, dx</m>.
+          Aunque no hay una regla universal para cómo elegir <m>u</m> y <m>dv</m>,
+          una buena pauta es esta:
+          hazlo de manera que <m>\int v \, du</m> sea al menos tan simple como el problema original <m>\int u \, dv</m>.
         </p>
 
         <p permid="xzx">
-          This leads us to choose<fn>
-          Observe that if we considered the alternate choice,
-          and let <m>u = \cos(x)</m> and <m>dv = x \, dx</m>,
-          then <m>du = -\sin(x) \, dx</m> and <m>v = \frac{1}{2}x^2</m>,
-          from which we would write <m>\int x\cos(x) \, dx = \frac{1}{2}x^2 \cos(x) - \int \frac{1}{2}x^2 (-\sin(x)) \, dx</m>.
-          Thus we have replaced the problem of integrating
-          <m>x \cos(x)</m> with that of integrating <m>\frac{1}{2}x^2 \sin(x)</m>;
-          the latter is clearly more complicated,
-          which shows that this alternate choice is not as helpful as the first choice.
-          </fn> <m>u = x</m> and <m>dv = \cos(x) \, dx</m>,
-          from which it follows that
-          <m>du = 1 \, dx</m> and <m>v = \sin(x)</m>.
-          With this substitution, the rule for integration by parts tells us that
+          Esto nos lleva a elegir<fn>
+          Observa que si consideramos la elección alternativa,
+          y dejamos que <m>u = \cos(x)</m> y <m>dv = x \, dx</m>,
+          entonces <m>du = -\sin(x) \, dx</m> y <m>v = \frac{1}{2}x^2</m>,
+          de lo cual escribiríamos <m>\int x\cos(x) \, dx = \frac{1}{2}x^2 \cos(x) - \int \frac{1}{2}x^2 (-\sin(x)) \, dx</m>.
+          Así hemos reemplazado el problema de integrar
+          <m>x \cos(x)</m> con el de integrar <m>\frac{1}{2}x^2 \sin(x)</m>;
+          este último es claramente más complicado,
+          lo que muestra que esta elección alternativa no es tan útil como la primera elección.
+          </fn> <m>u = x</m> y <m>dv = \cos(x) \, dx</m>,
+          de lo cual se sigue que
+          <m>du = 1 \, dx</m> y <m>v = \sin(x)</m>.
+          Con esta sustitución, la regla para la integración por partes nos dice que
           <me permid="TRv">
             \int x \cos(x) \, dx = x \sin(x) - \int \sin(x) \cdot 1 \, dx
           </me>.
         </p>
 
         <p permid="dGG">
-          All that remains to do is evaluate the (simpler) integral <m>\int \sin(x) \cdot 1 \, dx</m>.
-          Doing so, we find
+          Todo lo que queda por hacer es evaluar la integral (más simple) <m>\int \sin(x) \cdot 1 \, dx</m>.
+          Haciéndolo, encontramos
           <me permid="zYE">
             \int x \cos(x) \, dx = x \sin(x) - (-\cos(x)) + C = x\sin(x) + \cos(x) + C
           </me>.
-          Observe that when we get to the final stage of evaluating the last remaining antiderivative,
-          it is at this step that we include the integration constant,
+          Observa que cuando llegamos a la etapa final de evaluar la última antiderivada restante,
+          es en este paso donde incluimos la constante de integración,
           <m>+C</m>.
         </p>
       </solution>
     </example>
 
     <p permid="BdX">
-      The general technique of integration by parts involves trading the problem of integrating the product of two functions for the problem of integrating the product of two related functions.
-      That is, we convert the problem of evaluating
-      <m>\int u \, dv</m> to that of evaluating <m>\int v \, du</m>.
-      This clearly shapes our choice of <m>u</m> and <m>v</m>.
-      In <xref ref="Ex-5-4-IBP">Example</xref>,
-      the original integral to evaluate was <m>\int x \cos(x) \,dx</m>,
-      and through the substitution provided by integration by parts,
-      we were instead able to evaluate <m>\int \sin(x) \cdot 1 \, dx</m>.
-      Note that the original function <m>x</m> was replaced by its derivative,
-      while <m>\cos(x)</m> was replaced by its antiderivative.
+      La técnica general de integración por partes implica intercambiar el problema de integrar el producto de dos funciones por el problema de integrar el producto de dos funciones relacionadas.
+      Es decir, convertimos el problema de evaluar
+      <m>\int u \, dv</m> en el de evaluar <m>\int v \, du</m>.
+      Esto claramente moldea nuestra elección de <m>u</m> y <m>v</m>.
+      En <xref ref="Ex-5-4-IBP">Ejemplo</xref>,
+      la integral original a evaluar era <m>\int x \cos(x) \,dx</m>,
+      y a través de la sustitución proporcionada por la integración por partes,
+      en su lugar pudimos evaluar <m>\int \sin(x) \cdot 1 \, dx</m>.
+      Nota que la función original <m>x</m> fue reemplazada por su derivada,
+      mientras que <m>\cos(x)</m> fue reemplazada por su antiderivada.
     </p>
 
     <xi:include href="./activities/act-5-4-1.xml" />
   </subsection>
 
   <subsection permid="ple">
-    <title>Some Subtleties with Integration by Parts</title>
+    <title>Algunas Sutilezas con la Integración por Partes</title>
     <p permid="hlg">
-      Sometimes integration by parts is not an obvious choice,
-      but the technique is appropriate nonetheless.
-      Integration by parts allows us to replace one function in a product with its derivative while replacing the other with its antiderivative.
-      For instance, consider evaluating
+      A veces la integración por partes no es una elección obvia,
+      pero la técnica es apropiada de todos modos.
+      La integración por partes nos permite reemplazar una función en un producto con su derivada mientras reemplazamos la otra con su antiderivada.
+      Por ejemplo, considera evaluar
       <me permid="gfN">
         \int \arctan(x) \, dx
       </me>.
     </p>
 
     <p permid="Nsp">
-      Initially, this problem seems ill-suited to integration by parts,
-      since there does not appear to be a product of functions present.
-      But if we note that <m>\arctan(x) = \arctan(x) \cdot 1</m>,
-      and realize that we know the derivative of
-      <m>\arctan(x)</m> as well as the antiderivative of <m>1</m>,
-      we see the possibility for the substitution
-      <m>u = \arctan(x)</m> and <m>dv = 1 \, dx</m>.
-      We explore this substitution further in <xref ref="act-5-4-2">Activity</xref>.
+      Inicialmente, este problema parece poco adecuado para la integración por partes,
+      ya que no parece haber un producto de funciones presente.
+      Pero si notamos que <m>\arctan(x) = \arctan(x) \cdot 1</m>,
+      y nos damos cuenta de que conocemos la derivada de
+      <m>\arctan(x)</m> así como la antiderivada de <m>1</m>,
+      vemos la posibilidad de la sustitución
+      <m>u = \arctan(x)</m> y <m>dv = 1 \, dx</m>.
+      Exploramos esta sustitución más a fondo en <xref ref="act-5-4-2">Actividad</xref>.
     </p>
 
     <p permid="tzy">
-      In a related problem, consider <m>\int t^3 \sin(t^2) \, dt</m>.
-      Observe that
-      there is a composite function present in <m>\sin(t^2)</m>,
-      but there is not an obvious function-derivative pair,
-      as we have <m>t^3</m> 
-      (rather than simply <m>t</m>)
-      multiplying <m>\sin(t^2)</m>.
-      In this problem we use both <m>u</m>-substitution and integration by parts.
-      First we write <m>t^3 = t \cdot t^2</m> and consider the indefinite integral
+      En un problema relacionado, considera <m>\int t^3 \sin(t^2) \, dt</m>.
+      Observa que
+      hay una función compuesta presente en <m>\sin(t^2)</m>,
+      pero no hay un par obvio de función-derivada,
+      ya que tenemos <m>t^3</m> 
+      (en lugar de simplemente <m>t</m>)
+      multiplicando <m>\sin(t^2)</m>.
+      En este problema usamos tanto la sustitución <m>u</m> como la integración por partes.
+      Primero escribimos <m>t^3 = t \cdot t^2</m> y consideramos la integral indefinida
       <me permid="MmW">
         \int t \cdot t^2 \cdot \sin(t^2) \, dt
       </me>.
-      We let <m>z = t^2</m> so that <m>dz = 2t \, dt</m>,
-      and thus <m>t \, dt = \frac{1}{2} \, dz</m>.
-      (We are using the variable <m>z</m> to perform a
-      <q><m>z</m>-substitution</q> first so that we may then apply integration by parts.)
-      Under this <m>z</m>-substitution,
-      we now have
+      Dejamos que <m>z = t^2</m> para que <m>dz = 2t \, dt</m>,
+      y así <m>t \, dt = \frac{1}{2} \, dz</m>.
+      (Estamos usando la variable <m>z</m> para realizar una
+      <q><m>z</m>-sustitución</q> primero para que luego podamos aplicar la integración por partes.)
+      Bajo esta sustitución <m>z</m>,
+      ahora tenemos
       <me permid="suf">
         \int t \cdot t^2 \cdot \sin(t^2) \, dt = \int z \cdot \sin(z) \cdot \frac{1}{2} \, dz
       </me>.
     </p>
 
     <p permid="ZGH">
-      The resulting integral can be evaluated by parts.
-      This, too, is explored further in <xref ref="act-5-4-2">Activity</xref>.
+      La integral resultante puede ser evaluada por partes.
+      Esto también se explora más a fondo en <xref ref="act-5-4-2">Actividad</xref>.
     </p>
 
     <p permid="FNQ">
-      These problems show that we sometimes must think creatively in choosing the variables for substitution in integration by parts,
-      and that we may need to use substitution for an additional change of variables.
+      Estos problemas muestran que a veces debemos pensar creativamente al elegir las variables para la sustitución en la integración por partes,
+      y que podemos necesitar usar la sustitución para un cambio adicional de variables.
     </p>
 
     <xi:include href="./activities/act-5-4-2.xml" />
   </subsection>
 
-  <subsection permid="Vsn">
-    <title>Using Integration by Parts Multiple Times</title>
-    <p permid="lUZ">
-      Integration by parts is well suited to integrating the product of basic functions,
-      allowing us to trade a given integrand for a new one where one function in the product is replaced by its derivative,
-      and the other is replaced by its antiderivative.
-      The goal in this trade of <m>\int u \, dv</m> for
-      <m>\int v \, du</m> is that the new integral be simpler to evaluate than the original one.
-      Sometimes it is necessary to apply integration by parts more than once in order to evaluate a given integral.
-    </p>
+<subsection permid="Vsn">
+  <title>Usando Integración por Partes Múltiples Veces</title>
+  <p permid="lUZ">
+    La integración por partes es muy adecuada para integrar el producto de funciones básicas,
+    permitiéndonos intercambiar un integrando dado por uno nuevo donde una función en el producto es reemplazada por su derivada,
+    y la otra es reemplazada por su antiderivada.
+    El objetivo en este intercambio de <m>\int u \, dv</m> por
+    <m>\int v \, du</m> es que el nuevo integral sea más sencillo de evaluar que el original.
+    A veces es necesario aplicar la integración por partes más de una vez para evaluar un integral dado.
+  </p>
 
-    <example permid="Gjp">
-      <statement>
-        <p permid="ThB">
-          Evaluate
-          <m>\int t^2 e^t \, dt</m>.
+  <example permid="Gjp">
+    <statement>
+      <p permid="ThB">
+        Evalúa
+        <m>\int t^2 e^t \, dt</m>.
+      </p>
+    </statement>
+    <solution permid="rar">
+      <p permid="JNP">
+        Sea <m>u = t^2</m> y <m>dv = e^t \, dt</m>.
+        Entonces <m>du = 2t \, dt</m> y <m>v = e^t</m>, y así
+        <me permid="YBo">
+          \int t^2 e^t \, dt = t^2 e^t - \int 2t e^t \, dt
+        </me>.
+      </p>
+
+      <p permid="pUY">
+        El integral en el lado derecho es más sencillo de evaluar que el del lado izquierdo,
+        pero aún requiere integración por partes.
+        Ahora, dejando <m>u = 2t</m> y <m>dv = e^t \, dt</m>,
+        tenemos <m>du = 2\, dt</m> y <m>v = e^t</m>, así que
+        <me permid="EIx">
+          \int t^2 e^t \, dt = t^2 e^t - \left( 2t e^t - \int 2 e^t \, dt \right)
+        </me>.
+      </p>
+
+      <p permid="Wch">
+        (Nota los paréntesis,
+        que nos recuerdan distribuir el signo menos a todo el valor del integral <m>\int 2t e^t \, dt</m>.)
+        El integral final en el lado derecho es uno básico;
+        evaluando ese integral y distribuyendo el signo menos, encontramos
+        <me permid="kPG">
+          \int t^2 e^t \, dt = t^2 e^t - 2t e^t +  2 e^t + C
+        </me>.
+      </p>
+    </solution>
+  </example>
+
+  <p permid="Sci">
+    Por supuesto, puede ser necesario aplicar la integración por partes más de dos veces.
+    En el ejemplo anterior, si el integrando hubiera sido <m>t^3e^t</m>,
+    habríamos tenido que usar la integración por partes tres veces.
+  </p>
+
+  <p permid="yjr">
+    A continuación, consideramos un escenario ligeramente diferente.
+  </p>
+
+  <example permid="mqy">
+    <statement>
+      <p permid="zoK">
+        Evalúa <m>\int e^t \cos(t) \, dt</m>.
+      </p>
+    </statement>
+    <solution permid="XhA">
+      <p permid="Cjq">
+        Podemos elegir dejar que <m>u</m> sea <m>e^t</m> o <m>\cos(t)</m>;
+        elegimos <m>u = \cos(t)</m>, y así <m>dv = e^t \, dt</m>.
+        Con <m>du = -\sin(t) \, dt</m> y <m>v = e^t</m>,
+        la integración por partes nos dice que
+        <me permid="QWP">
+          \int e^t \cos(t) \, dt = e^t \cos(t) - \int e^t (-\sin(t))\, dt
+        </me>,
+        o equivalentemente que
+        <men xml:id="E_IBPtwice" permid="xdY">
+          \int e^t \cos(t) \, dt = e^t \cos(t) + \int e^t \sin(t) \, dt
+        </men>.
+      </p>
+
+      <p permid="iqz">
+        El nuevo integral tiene la misma estructura algebraica que el original.
+        Aunque la situación general no es necesariamente mejor que con la que empezamos,
+        no ha empeorado.
+        Así que procedemos a integrar por partes de nuevo.
+        Esta vez dejamos <m>u = \sin(t)</m> y <m>dv = e^t \, dt</m>,
+        así que <m>du = \cos(t) \, dt</m> y <m>v = e^t</m>,
+        lo que implica
+        <men xml:id="E_IBPtwice2" permid="dlh">
+          \int e^t \cos(t) \, dt = e^t \cos(t) + \left( e^t \sin(t) - \int e^t \cos(t) \, dt \right)
+        </men>.
+      </p>
+
+      <p permid="OxI">
+        Parecemos estar de vuelta donde empezamos,
+        ya que dos aplicaciones de integración por partes nos han llevado de vuelta al problema original,
+        <m>\int e^t \cos(t) \, dt</m>.
+        Pero si miramos de cerca la <xref ref="E_IBPtwice2">Ecuación</xref>,
+        vemos que podemos usar álgebra para resolver el valor del integral deseado.
+        Sumando <m>\int e^t \cos(t) \, dt</m> a ambos lados de la ecuación, tenemos
+        <me permid="Jsq">
+          2 \int e^t \cos(t) \, dt = e^t \cos(t) +  e^t \sin(t)
+        </me>,
+        y por lo tanto
+        <me permid="pzz">
+          \int e^t \cos(t) \, dt = \frac{1}{2} \left( e^t \cos(t) +  e^t \sin(t) \right) + C
+        </me>.
+      </p>
+
+      <p permid="uER">
+        Nota que como nunca encontramos un integral que pudiéramos evaluar directamente,
+        no tuvimos la oportunidad de agregar la constante de integración <m>C</m> hasta el paso final.
+      </p>
+    </solution>
+  </example>
+
+  <xi:include href="./activities/act-5-4-3.xml" />
+</subsection>
+
+<subsection permid="Bzw">
+  <title>Evaluando Integrales Definidos Usando Integración por Partes</title>
+  <p permid="eqA">
+    Podemos usar la técnica de integración por partes para evaluar un integral definido.
+  </p>
+
+  <example permid="SxH">
+    <statement>
+      <p permid="fvT">
+        Evalúa
+        <me permid="VGI">
+          \int_0^{\pi/2} t\sin(t) \, dt
+        </me>.
+      </p>
+    </statement>
+    <solution permid="DoJ">
+      <p permid="aMa">
+        Una opción es encontrar una antiderivada
+        (usando notación de integral indefinida)
+        y luego aplicar el Teorema Fundamental del Cálculo para encontrar que
+        <md permid="BNR">
+          <mrow>\int_0^{\pi/2} t\sin(t) \, dt =\mathstrut \amp  \left( -t \cos(t) + \sin(t) \right) \bigg\vert_0^{\pi/2}</mrow>
+          <mrow>=\mathstrut \amp  \left( -\frac{\pi}{2} \cos(\frac{\pi}{2}) + \sin(\frac{\pi/2}) \right) - \left( -0 \cos(0) + \sin(0) \right)</mrow>
+          <mrow>=\mathstrut \amp  1</mrow>
+        </md>.
+      </p>
+
+      <p permid="GTj">
+        Alternativamente,
+        podemos aplicar la integración por partes y trabajar con integrales definidos a lo largo de todo el proceso.
+        Con este método,
+        debemos recordar evaluar el producto <m>uv</m> sobre los límites dados de integración.
+        Usando la sustitución <m>u = t</m> y <m>dv = \sin(t) \, dt</m>,
+        así que <m>du = dt</m> y <m>v = -\cos(t)</m>, escribimos
+        <md permid="hVa">
+          <mrow>\int_0^{\pi/2} t\sin(t) \, dt =\mathstrut \amp  -t \cos(t) \bigg\vert_0^{\pi/2} - \int_0^{\pi/2} (-\cos(t)) \, dt</mrow>
+          <mrow>=\mathstrut \amp  -t \cos(t) \bigg\vert_0^{\pi/2}  +  \sin(t) \bigg\vert_0^{\pi/2}</mrow>
+          <mrow>=\mathstrut \amp  \left( -\frac{\pi}{2} \cos(\frac{\pi/2}) + \sin(\frac{\pi/2}) \right) - \left( -0 \cos(0) + \sin(0) \right)</mrow>
+          <mrow>=\mathstrut \amp  1</mrow>
+        </md>.
+      </p>
+    </solution>
+  </example>
+
+  <p permid="KxJ">
+    Como con cualquier técnica de sustitución,
+    es importante usar la notación con cuidado y completamente,
+    y asegurarse de que el resultado final tenga sentido.
+  </p>
+</subsection>
+
+<subsection permid="hGF">
+  <title>Cuando la <m>u</m>-sustitución y la Integración por Partes No Ayudan</title>
+  <p permid="qES">
+    Ambas técnicas de integración que hemos discutido se aplican en circunstancias relativamente limitadas.
+    No es difícil encontrar ejemplos de funciones para las cuales ninguna técnica produce una antiderivada;
+    de hecho, hay muchas,
+    muchas funciones que parecen elementales pero que no tienen una antiderivada algebraica elemental.
+    Por ejemplo,
+    ni la <m>u</m>-sustitución ni la integración por partes resultan fructíferas para los integrales indefinidos
+    <me permid="Ocj">
+      \int e^{x^2} \, dx \ \ \text{y}  \ \ \int x \tan(x) \, dx
+    </me>.
+    Aunque hay otras técnicas de integración,
+    algunas de las cuales consideraremos brevemente,
+    ninguna de ellas nos permite encontrar una antiderivada algebraica para <m>e^{x^2}</m> o <m>x \tan(x)</m>.
+    Sabemos por el Segundo Teorema Fundamental del Cálculo que podemos construir una antiderivada integral para cada función;
+    <m>F(x) = \int_0^x e^{t^2} \, dt</m> es una antiderivada de <m>f(x) = e^{x^2}</m>,
+    y <m>G(x) = \int_0^{x} t \tan(t) \, dt</m> es una antiderivada de <m>g(x) = x \tan(x)</m>.
+    Pero encontrar una fórmula algebraica elemental que no involucre integrales para <m>F</m> o <m>G</m> resulta no solo imposible a través de <m>u</m>-sustitución o integración por partes,
+    sino de hecho imposible en general.
+    La antiderivación es mucho más difícil en general que la diferenciación.
+  </p>
+</subsection>
+
+<subsection permid="NNO">
+  <title>Resumen</title>
+  <p permid="WMb">
+    <ul permid="PDb">
+      <li permid="ofL">
+        <p permid="YWN">
+          A través del método de integración por partes,
+          podemos evaluar integrales indefinidos que involucran productos de funciones básicas como <m>\int x \sin(x) \, dx</m> y
+          <m>\int x \ln(x) \, dx</m>.
+          Usar una sustitución nos permite intercambiar una de las funciones en el producto por su derivada,
+          y la otra por su antiderivada,
+          en un esfuerzo por encontrar un producto diferente de funciones que sea más fácil de integrar.
         </p>
-      </statement>
-      <solution permid="rar">
-        <p permid="JNP">
-          Let <m>u = t^2</m> and <m>dv = e^t \, dt</m>.
-          Then <m>du = 2t \, dt</m> and <m>v = e^t</m>, and thus
-          <me permid="YBo">
-            \int t^2 e^t \, dt = t^2 e^t - \int 2t e^t \, dt
+      </li>
+
+      <li permid="UmU">
+        <p permid="FdW">
+          Si la estructura algebraica de un integrando es un producto de funciones básicas en la forma <m>\int f(x) g'(x) \, dx</m>,
+          podemos usar la sustitución
+          <m>u = f(x)</m> y <m>dv = g'(x) \,dx</m> y aplicar la regla
+          <me permid="ujs">
+            \int u \, dv = uv - \int v \, du
+          </me>
+          para evaluar el integral original
+          <m>\int f(x) g'(x) \, dx</m> evaluando en su lugar
+          <me permid="aqB">
+            \int v \, du = \int f'(x) g(x) \, dx
           </me>.
         </p>
+      </li>
 
-        <p permid="pUY">
-          The integral on the right side is simpler to evaluate than the one on the left,
-          but it still requires integration by parts.
-          Now letting <m>u = 2t</m> and <m>dv = e^t \, dt</m>,
-          we have <m>du = 2\, dt</m> and <m>v = e^t</m>, so that
-          <me permid="EIx">
-            \int t^2 e^t \, dt = t^2 e^t - \left( 2t e^t - \int 2 e^t \, dt \right)
-          </me>.
+      <li permid="Aud">
+        <p permid="llf">
+          Al decidir integrar por partes,
+          tenemos que seleccionar tanto <m>u</m> como <m>dv</m>.
+          Esa selección está guiada por el principio general de que el nuevo integral
+          <m>\int v \, du</m> no sea más difícil que el integral original <m>\int u \, dv</m>.
+          Además,
+          a menudo es útil reconocer si una de las funciones presentes es mucho más fácil de diferenciar que de antidiferenciar (como <m>\ln(x)</m>),
+          en cuyo caso esa función a menudo es mejor asignada a la variable <m>u</m>.
+          Además, <m>dv</m>
+          debe ser una función que podamos antidiferenciar.
         </p>
+      </li>
+    </ul>
+  </p>
+</subsection>
 
-        <p permid="Wch">
-          (Note the parentheses,
-          which remind us to distribute the minus sign to the entire value of the integral <m>\int 2t e^t \, dt</m>.)
-          The final integral on the right is a basic one;
-          evaluating that integral and distributing the minus sign, we find
-          <me permid="kPG">
-            \int t^2 e^t \, dt = t^2 e^t - 2t e^t +  2 e^t + C
-          </me>.
-        </p>
-      </solution>
-    </example>
-
-    <p permid="Sci">
-      Of course, even more than two applications of integration by parts may be necessary.
-      In the preceding example, if the integrand had been <m>t^3e^t</m>,
-      we would have had to use integration by parts three times.
-    </p>
-
-    <p permid="yjr">
-      Next, we consider the slightly different scenario.
-    </p>
-
-    <example permid="mqy">
-      <statement>
-        <p permid="zoK">
-          Evaluate <m>\int e^t \cos(t) \, dt</m>.
-        </p>
-      </statement>
-      <solution permid="XhA">
-        <p permid="Cjq">
-          We can choose to let <m>u</m> be either <m>e^t</m> or <m>\cos(t)</m>;
-          we pick <m>u = \cos(t)</m>, and thus <m>dv = e^t \, dt</m>.
-          With <m>du = -\sin(t) \, dt</m> and <m>v = e^t</m>,
-          integration by parts tells us that
-          <me permid="QWP">
-            \int e^t \cos(t) \, dt = e^t \cos(t) - \int e^t (-\sin(t))\, dt
-          </me>,
-          or equivalently that
-          <men xml:id="E_IBPtwice" permid="xdY">
-            \int e^t \cos(t) \, dt = e^t \cos(t) + \int e^t \sin(t) \, dt
-          </men>.
-        </p>
-
-        <p permid="iqz">
-          The new integral has the same algebraic structure as the original one.
-          While the overall situation isn't necessarily better than what we started with,
-          it hasn't gotten worse.
-          Thus, we proceed to integrate by parts again.
-          This time we let <m>u = \sin(t)</m> and <m>dv = e^t \, dt</m>,
-          so that <m>du = \cos(t) \, dt</m> and <m>v = e^t</m>,
-          which implies
-          <men xml:id="E_IBPtwice2" permid="dlh">
-            \int e^t \cos(t) \, dt = e^t \cos(t) + \left( e^t \sin(t) - \int e^t \cos(t) \, dt \right)
-          </men>.
-        </p>
-
-        <p permid="OxI">
-          We seem to be back where we started,
-          as two applications of integration by parts has led us back to the original problem,
-          <m>\int e^t \cos(t) \, dt</m>.
-          But if we look closely at <xref ref="E_IBPtwice2">Equation</xref>,
-          we see that we can use algebra to solve for the value of the desired integral.
-          Adding <m>\int e^t \cos(t) \, dt</m> to both sides of the equation, we have
-          <me permid="Jsq">
-            2 \int e^t \cos(t) \, dt = e^t \cos(t) +  e^t \sin(t)
-          </me>,
-          and therefore
-          <me permid="pzz">
-            \int e^t \cos(t) \, dt = \frac{1}{2} \left( e^t \cos(t) +  e^t \sin(t) \right) + C
-          </me>.
-        </p>
-
-        <p permid="uER">
-          Note that since we never actually encountered an integral we could evaluate directly,
-          we didn't have the opportunity to add the integration constant <m>C</m> until the final step.
-        </p>
-      </solution>
-    </example>
-
-    <xi:include href="./activities/act-5-4-3.xml" />
-  </subsection>
-
-  <subsection permid="Bzw">
-    <title>Evaluating Definite Integrals Using Integration by Parts</title>
-    <p permid="eqA">
-      We can use the technique of integration by parts to evaluate a definite integral.
-    </p>
-
-    <example permid="SxH">
-      <statement>
-        <p permid="fvT">
-          Evaluate
-          <me permid="VGI">
-            \int_0^{\pi/2} t\sin(t) \, dt
-          </me>.
-        </p>
-      </statement>
-      <solution permid="DoJ">
-        <p permid="aMa">
-          One option is to find an antiderivative
-          (using indefinite integral notation)
-          and then apply the Fundamental Theorem of Calculus to find that
-          <md permid="BNR">
-            <mrow>\int_0^{\pi/2} t\sin(t) \, dt =\mathstrut \amp  \left( -t \cos(t) + \sin(t) \right) \bigg\vert_0^{\pi/2}</mrow>
-            <mrow>=\mathstrut \amp  \left( -\frac{\pi}{2} \cos(\frac{\pi}{2}) + \sin(\frac{\pi}{2}) \right) - \left( -0 \cos(0) + \sin(0) \right)</mrow>
-            <mrow>=\mathstrut \amp  1</mrow>
-          </md>.
-        </p>
-
-        <p permid="GTj">
-          Alternatively,
-          we can apply integration by parts and work with definite integrals throughout.
-          With this method,
-          we must remember to evaluate the product <m>uv</m> over the given limits of integration.
-          Using the substitution <m>u = t</m> and <m>dv = \sin(t) \, dt</m>,
-          so that <m>du = dt</m> and <m>v = -\cos(t)</m>, we write
-          <md permid="hVa">
-            <mrow>\int_0^{\pi/2} t\sin(t) \, dt =\mathstrut \amp  -t \cos(t) \bigg\vert_0^{\pi/2} - \int_0^{\pi/2} (-\cos(t)) \, dt</mrow>
-            <mrow>=\mathstrut \amp  -t \cos(t) \bigg\vert_0^{\pi/2}  +  \sin(t) \bigg\vert_0^{\pi/2}</mrow>
-            <mrow>=\mathstrut \amp  \left( -\frac{\pi}{2} \cos(\frac{\pi}{2}) + \sin(\frac{\pi}{2}) \right) - \left( -0 \cos(0) + \sin(0) \right)</mrow>
-            <mrow>=\mathstrut \amp  1</mrow>
-          </md>.
-        </p>
-      </solution>
-    </example>
-
-    <p permid="KxJ">
-      As with any substitution technique,
-      it is important to use notation carefully and completely,
-      and to ensure that the end result makes sense.
-    </p>
-  </subsection>
-
-  <subsection permid="hGF">
-    <title>When <m>u</m>-substitution and Integration by Parts Fail to Help</title>
-    <p permid="qES">
-      Both integration techniques we have discussed apply in relatively limited circumstances.
-      It is not hard to find examples of functions for which neither technique produces an antiderivative;
-      indeed, there are many,
-      many functions that appear elementary but that do not have an elementary algebraic antiderivative.
-      For instance,
-      neither <m>u</m>-substitution nor integration by parts proves fruitful for the indefinite integrals
-      <me permid="Ocj">
-        \int e^{x^2} \, dx \ \ \text{and}  \ \ \int x \tan(x) \, dx
-      </me>.
-      While there are other integration techniques,
-      some of which we will consider briefly,
-      none of them enables us to find an algebraic antiderivative for <m>e^{x^2}</m> or <m>x \tan(x)</m>.
-      We do know from the Second Fundamental Theorem of Calculus that we can construct an integral antiderivative for each function;
-      <m>F(x) = \int_0^x e^{t^2} \, dt</m> is an antiderivative of <m>f(x) = e^{x^2}</m>,
-      and <m>G(x) = \int_0^{x} t \tan(t) \, dt</m> is an antiderivative of <m>g(x) = x \tan(x)</m>.
-      But finding an elementary algebraic formula that doesn't involve integrals for either <m>F</m> or <m>G</m> turns out not only to be impossible through <m>u</m>-substitution or integration by parts,
-      but indeed impossible altogether.
-      Antidifferentiation is much harder in general than differentiation.
-    </p>
-  </subsection>
-
-  <subsection permid="NNO">
-    <title>Summary</title>
-    <p permid="WMb">
-      <ul permid="PDb">
-        <li permid="ofL">
-          <p permid="YWN">
-            Through the method of integration by parts,
-            we can evaluate indefinite integrals that involve products of basic functions such as <m>\int x \sin(x) \, dx</m> and
-            <m>\int x \ln(x) \, dx</m>.
-            Using a substitution enables us to trade one of the functions in the product for its derivative,
-            and the other for its antiderivative,
-            in an effort to find a different product of functions that is easier to integrate.
-          </p>
-        </li>
-
-        <li permid="UmU">
-          <p permid="FdW">
-            If the algebraic structure of an integrand is a product of basic functions in the form <m>\int f(x) g'(x) \, dx</m>,
-            we can use the substitution
-            <m>u = f(x)</m> and <m>dv = g'(x) \,dx</m> and apply the rule
-            <me permid="ujs">
-              \int u \, dv = uv - \int v \, du
-            </me>
-            to evaluate the original integral
-            <m>\int f(x) g'(x) \, dx</m> by instead evaluating
-            <me permid="aqB">
-              \int v \, du = \int f'(x) g(x) \, dx
-            </me>.
-          </p>
-        </li>
-
-        <li permid="Aud">
-          <p permid="llf">
-            When deciding to integrate by parts,
-            we have to select both <m>u</m> and <m>dv</m>.
-            That selection is guided by the overall principle that the new integral
-            <m>\int v \, du</m> not be more difficult than the original integral <m>\int u \, dv</m>.
-            In addition,
-            it is often helpful to recognize if one of the functions present is much easier to differentiate than antidifferentiate (such as <m>\ln(x)</m>),
-            in which case that function often is best assigned the variable <m>u</m>.
-            In addition, <m>dv</m>
-            must be a function that we can antidifferentiate.
-          </p>
-        </li>
-      </ul>
-    </p>
-  </subsection>
-
-  <xi:include href="./exercises/ez-5-4.xml" />
+<xi:include href="./exercises/ez-5-4.xml" />
 </section>
-

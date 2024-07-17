@@ -14,49 +14,48 @@
 <!-- **********************************************************************-->
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-5-2" permid="udB">
   <p permid="hPj">
-    Consider the function <m>A</m> defined by the rule
+    Considera la función <m>A</m> definida por la regla
     <me permid="NWs">
       A(x) = \int_1^x f(t) \, dt
     </me>,
-    where <m>f(t) = 4-2t</m>.
+    donde <m>f(t) = 4-2t</m>.
 
     <ol marker="a." permid="soo">
       <li permid="Yvx">
         <p permid="dfq">
-          Compute <m>A(1)</m> and <m>A(2)</m> exactly.
+          Calcula <m>A(1)</m> y <m>A(2)</m> exactamente.
         </p>
       </li>
 
       <li permid="ECG">
         <p permid="Jmz">
-          Use the First Fundamental Theorem of Calculus to find a formula for <m>A(x)</m> that does not involve integrals.
-          That is,
-          use the first FTC to evaluate <m>\int_1^x (4-2t) \, dt</m>.
+          Usa el Primer Teorema Fundamental del Cálculo para encontrar una fórmula para <m>A(x)</m> que no involucre integrales.
+          Es decir,
+          usa el primer FTC para evaluar <m>\int_1^x (4-2t) \, dt</m>.
         </p>
       </li>
 
       <li permid="kJP">
         <p permid="ptI">
-          Observe that <m>f</m> is a linear function;
-          what kind of function is <m>A</m>?
+          Observa que <m>f</m> es una función lineal;
+          ¿qué tipo de función es <m>A</m>?
         </p>
       </li>
 
       <li permid="QQY">
         <p permid="VAR">
-          Using the formula you found in (b) that does not involve integrals,
-          compute <m>A'(x)</m>.
+          Usando la fórmula que encontraste en (b) que no involucra integrales,
+          calcula <m>A'(x)</m>.
         </p>
       </li>
 
       <li permid="wYh">
         <p permid="BIa">
-          While we have defined <m>f</m> by the rule <m>f(t) = 4-2t</m>,
-          it is equivalent to say that <m>f</m> is given by the rule <m>f(x) = 4 - 2x</m>.
-          What do you observe about the relationship between <m>A</m> and <m>f</m>?
+          Aunque hemos definido <m>f</m> por la regla <m>f(t) = 4-2t</m>,
+          es equivalente decir que <m>f</m> está dada por la regla <m>f(x) = 4 - 2x</m>.
+          ¿Qué observas sobre la relación entre <m>A</m> y <m>f</m>?
         </p>
       </li>
     </ol>
   </p>
 </exploration>
-

@@ -14,64 +14,63 @@
 <!-- **********************************************************************-->
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-6-4" permid="GUJ">
   <p permid="aNA">
-    A bucket is being lifted from the bottom of a 50-foot deep well;
-    its weight
-    (including the water),
-    <m>B</m>, in pounds at a height <m>h</m> feet above the water is given by the function <m>B(h)</m>.
-    When the bucket leaves the water,
-    the bucket and water together weigh <m>B(0) = 20</m> pounds,
-    and when the bucket reaches the top of the well, <m>B(50) = 12</m> pounds.
-    Assume that the bucket loses water at a constant rate
-    (as a function of height, <m>h</m>)
-    throughout its journey from the bottom to the top of the well.
+    Un cubo está siendo levantado desde el fondo de un pozo de 50 pies de profundidad;
+    su peso
+    (incluyendo el agua),
+    <m>B</m>, en libras a una altura <m>h</m> pies sobre el agua está dado por la función <m>B(h)</m>.
+    Cuando el cubo sale del agua,
+    el cubo y el agua juntos pesan <m>B(0) = 20</m> libras,
+    y cuando el cubo llega a la parte superior del pozo, <m>B(50) = 12</m> libras.
+    Supón que el cubo pierde agua a una tasa constante
+    (como una función de la altura, <m>h</m>)
+    a lo largo de su viaje desde el fondo hasta la parte superior del pozo.
 
     <ol marker="a." permid="YYn">
       <li permid="Ffw">
         <p permid="pWy">
-          Find a formula for <m>B(h)</m>.
+          Encuentra una fórmula para <m>B(h)</m>.
         </p>
       </li>
 
       <li permid="lmF">
         <p permid="WdH">
-          Compute the value of the product <m>B(5) \Delta h</m>,
-          where <m>\Delta h = 2</m> feet.
-          Include units on your answer.
-          Explain why this product represents the approximate work it took to move the bucket of water from <m>h = 5</m> to <m>h = 7</m>.
+          Calcula el valor del producto <m>B(5) \Delta h</m>,
+          donde <m>\Delta h = 2</m> pies.
+          Incluye unidades en tu respuesta.
+          Explica por qué este producto representa el trabajo aproximado que tomó mover el cubo de agua desde <m>h = 5</m> hasta <m>h = 7</m>.
         </p>
       </li>
 
       <li permid="RtO">
         <p permid="CkQ">
-          Is the value in (b) an over- or under-estimate of the actual amount of work it took to move the bucket from <m>h = 5</m> to <m>h = 7</m>?
-          Why?
+          ¿Es el valor en (b) una sobreestimación o subestimación de la cantidad real de trabajo que tomó mover el cubo desde <m>h = 5</m> hasta <m>h = 7</m>?
+          ¿Por qué?
         </p>
       </li>
 
       <li permid="xAX">
         <p permid="irZ">
-          Compute the value of the product <m>B(22) \Delta h</m>,
-          where <m>\Delta h = 0.25</m> feet.
-          Include units on your answer.
-          What is the meaning of the value you found?
+          Calcula el valor del producto <m>B(22) \Delta h</m>,
+          donde <m>\Delta h = 0.25</m> pies.
+          Incluye unidades en tu respuesta.
+          ¿Cuál es el significado del valor que encontraste?
         </p>
       </li>
 
       <li permid="dIg">
         <p permid="Ozi">
-          More generally, what does the quantity
-          <m>W_{\text{slice} } = B(h) \Delta h</m> measure for a given value of <m>h</m> and a small positive value of <m>\Delta h</m>?
+          Más generalmente, ¿qué mide la cantidad
+          <m>W_{\text{slice} } = B(h) \Delta h</m> para un valor dado de <m>h</m> y un valor positivo pequeño de <m>\Delta h</m>?
         </p>
       </li>
 
       <li permid="JPp">
         <p permid="uGr">
-          Evaluate the definite integral <m>\int_0^{50} B(h) \, dh</m>.
-          What is the meaning of the value you find?
-          Why?
+          Evalúa la integral definida <m>\int_0^{50} B(h) \, dh</m>.
+          ¿Cuál es el significado del valor que encuentras?
+          ¿Por qué?
         </p>
       </li>
     </ol>
   </p>
 </exploration>
-

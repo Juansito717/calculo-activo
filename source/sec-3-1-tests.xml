@@ -13,25 +13,24 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-3-1-tests" permid="ubB">
-  <title>Using derivatives to identify extreme values</title>
+  <title>Usando derivadas para identificar valores extremos</title>
   <objectives permid="Dvn">
     <ul permid="omp">
       <li permid="AAH">
         <p permid="lrJ">
-          What are the critical numbers of a function <m>f</m> and how are they connected to identifying the most extreme values the function achieves?
+          ¿Cuáles son los números críticos de una función <m>f</m> y cómo están conectados con la identificación de los valores más extremos que la función alcanza?
         </p>
       </li>
 
       <li permid="gHQ">
         <p permid="RyS">
-          How does the first derivative of a function reveal important information about the behavior of the function,
-          including the function's extreme values?
+          ¿Cómo revela la primera derivada de una función información importante sobre el comportamiento de la función, incluyendo los valores extremos de la función?
         </p>
       </li>
 
       <li permid="MOZ">
         <p permid="xGb">
-          How can the second derivative of a function be used to help identify extreme values of the function?
+          ¿Cómo se puede usar la segunda derivada de una función para ayudar a identificar los valores extremos de la función?
         </p>
       </li>
     </ul>
@@ -39,498 +38,405 @@
 
   <introduction permid="vQO">
     <p permid="Vds">
-      In many different settings,
-      we are interested in knowing where a function achieves its least and greatest values.
-      These can be important in applications <mdash /> say to identify a point at which maximum profit or minimum cost occurs <mdash /> or in theory to characterize the behavior of a function or a family of related functions.
+      En muchos contextos diferentes, estamos interesados en saber dónde una función alcanza sus valores más bajos y más altos. Estos pueden ser importantes en aplicaciones <mdash /> por ejemplo, para identificar un punto en el que ocurre el máximo beneficio o el costo mínimo <mdash /> o en teoría para caracterizar el comportamiento de una función o una familia de funciones relacionadas.
     </p>
 
     <p permid="BkB">
-      Consider the simple and familiar example of a parabolic function such as <m>s(t) = -16t^2 + 24t + 32</m>
-      (shown at left in <xref ref="F-3-1-Intro">Figure</xref>)
-      that represents the height of an object tossed vertically:
-      its maximum value occurs at the vertex of the parabola and represents the greatest height the object reaches.
-      This maximum value is an especially important point on the graph,
-      the point at which the curve changes from increasing to decreasing.
+      Considera el ejemplo simple y familiar de una función parabólica como <m>s(t) = -16t^2 + 24t + 32</m> (mostrada a la izquierda en <xref ref="F-3-1-Intro">Figura</xref>) que representa la altura de un objeto lanzado verticalmente: su valor máximo ocurre en el vértice de la parábola y representa la mayor altura que alcanza el objeto. Este valor máximo es un punto especialmente importante en el gráfico, el punto en el que la curva cambia de creciente a decreciente.
     </p>
 
     <figure xml:id="F-3-1-Intro" permid="ZNl">
-      <caption>At left, <m>s(t) = -16t^2 + 24t + 32</m> whose vertex is <m>(\frac{3}{4}, 41)</m>; at right, a function <m>g</m> that demonstrates several high and low points.</caption>
+      <caption>A la izquierda, <m>s(t) = -16t^2 + 24t + 32</m> cuyo vértice es <m>(\frac{3}{4}, 41)</m>; a la derecha, una función <m>g</m> que demuestra varios puntos altos y bajos.</caption>
       <image width="100%" source="images/3_1_Intro" />
     </figure>
 
     <definition permid="jCw">
       <statement>
         <p permid="kmq">
-          Given a function <m>f</m>,
-          we say that <m>f(c)</m> is a <term>global</term> or
-          <term>absolute maximum</term>
-              <idx><h>maximum</h><h>global</h></idx>
-              <idx><h>maximum</h><h>absolute</h></idx>
-          of <m>f</m> provided that
-          <m>f(c) \ge f(x)</m> for all <m>x</m> in the domain of <m>f</m>,
-          and similarly we call <m>f(c)</m> a <term>global</term>
-              <idx><h>minimum</h><h>global</h></idx>
-          or
-          <term>absolute minimum</term>
-              <idx><h>minimum</h><h>absolute</h></idx>
-          of <m>f</m> whenever <m>f(c) \le f(x)</m> for all <m>x</m> in the domain of <m>f</m>.
+          Dada una función <m>f</m>, decimos que <m>f(c)</m> es un <term>máximo global</term> o <term>máximo absoluto</term>
+              <idx><h>máximo</h><h>global</h></idx>
+              <idx><h>máximo</h><h>absoluto</h></idx>
+          de <m>f</m> siempre que <m>f(c) \ge f(x)</m> para todo <m>x</m> en el dominio de <m>f</m>, y de manera similar llamamos a <m>f(c)</m> un <term>mínimo global</term>
+              <idx><h>mínimo</h><h>global</h></idx>
+          o <term>mínimo absoluto</term>
+              <idx><h>mínimo</h><h>absoluto</h></idx>
+          de <m>f</m> siempre que <m>f(c) \le f(x)</m> para todo <m>x</m> en el dominio de <m>f</m>.
         </p>
       </statement>
     </definition>
 
     <p permid="hrK">
-      For instance, on the right in <xref ref="F-3-1-Intro">Figure</xref>,
-      <m>g</m> has a global maximum of <m>g(c)</m>,
-      but <m>g</m> does not appear to have a global minimum,
-      as the graph of <m>g</m> seems to decrease indefinitely.
-      Note that the point <m>(c,g(c))</m> marks a fundamental change in the behavior of <m>g</m>,
-      where <m>g</m> changes from increasing to decreasing;
-      similar things happen at both <m>(a,g(a))</m> and <m>(b,g(b))</m>,
-      although these points are not global minima or maxima.
+      Por ejemplo, a la derecha en <xref ref="F-3-1-Intro">Figura</xref>, <m>g</m> tiene un máximo global de <m>g(c)</m>, pero <m>g</m> no parece tener un mínimo global, ya que el gráfico de <m>g</m> parece disminuir indefinidamente. Nota que el punto <m>(c,g(c))</m> marca un cambio fundamental en el comportamiento de <m>g</m>, donde <m>g</m> cambia de creciente a decreciente; cosas similares ocurren en <m>(a,g(a))</m> y <m>(b,g(b))</m>, aunque estos puntos no son mínimos o máximos globales.
     </p>
 
     <definition permid="PJF">
       <statement>
         <p permid="Qtz">
-          We say that <m>f(c)</m> is a <term>local maximum</term>
-              <idx><h>maximum</h><h>local</h></idx>
-          or
-          <term>relative maximum</term>
-              <idx><h>maximum</h><h>relative</h></idx>
-          of <m>f</m> provided that
-          <m>f(c) \ge f(x)</m> for all <m>x</m> near <m>c</m>,
-          and <m>f(c)</m> is called a <term>local</term>
-              <idx><h>minimum</h><h>local</h></idx>
-          or
-          <term>relative minimum</term>
-              <idx><h>minimum</h><h>relative</h></idx>
-          of <m>f</m> whenever <m>f(c) \le f(x)</m> for all <m>x</m> near <m>c</m>.
+          Decimos que <m>f(c)</m> es un <term>máximo local</term>
+              <idx><h>máximo</h><h>local</h></idx>
+          o <term>máximo relativo</term>
+              <idx><h>máximo</h><h>relativo</h></idx>
+          de <m>f</m> siempre que <m>f(c) \ge f(x)</m> para todo <m>x</m> cerca de <m>c</m>, y <m>f(c)</m> se llama un <term>mínimo local</term>
+              <idx><h>mínimo</h><h>local</h></idx>
+          o <term>mínimo relativo</term>
+              <idx><h>mínimo</h><h>relativo</h></idx>
+          de <m>f</m> siempre que <m>f(c) \le f(x)</m> para todo <m>x</m> cerca de <m>c</m>.
         </p>
       </statement>
     </definition>
 
     <p permid="NyT">
-      For example, on the right in <xref ref="F-3-1-Intro">Figure</xref>,
-      <m>g</m> has a relative minimum of <m>g(b)</m> at the point
-      <m>(b,g(b))</m> and a relative maximum of <m>g(a)</m> at <m>(a,g(a))</m>.
-      We have already identified the global maximum of <m>g</m> as <m>g(c)</m>;
-      it can also be considered a relative maximum.
-      Any maximum or minimum may also be called an <em>extreme value</em>
-          <idx><h>extreme value</h></idx>
-      of <m>f</m>.
+      Por ejemplo, a la derecha en <xref ref="F-3-1-Intro">Figura</xref>, <m>g</m> tiene un mínimo relativo de <m>g(b)</m> en el punto <m>(b,g(b))</m> y un máximo relativo de <m>g(a)</m> en <m>(a,g(a))</m>. Ya hemos identificado el máximo global de <m>g</m> como <m>g(c)</m>; también puede considerarse un máximo relativo. Cualquier máximo o mínimo también puede llamarse un <em>valor extremo</em>
+          <idx><h>valor extremo</h></idx>
+      de <m>f</m>.
     </p>
 
     <p permid="tGc">
-      We would like to use calculus ideas to identify and classify key function behavior,
-      including the location of relative extremes.
-      Of course, if we are given a graph of a function,
-      it is often straightforward to locate these important behaviors visually.
+      Nos gustaría usar ideas de cálculo para identificar y clasificar el comportamiento clave de la función, incluyendo la ubicación de extremos relativos. Por supuesto, si se nos da un gráfico de una función, a menudo es sencillo localizar estos comportamientos importantes visualmente.
     </p>
 
     <xi:include href="./previews/PA-3-1.xml" />
   </introduction>
 
   <subsection permid="aiK">
-    <title>Critical numbers and the first derivative test</title>
+    <title>Números críticos y la prueba de la primera derivada</title>
     <figure xml:id="F-3-1-extremes" permid="exe">
-      <caption>From left to right, a function with a relative maximum where its derivative is zero; a function with a relative maximum where its derivative is undefined; a function with neither a maximum nor a minimum at a point where its derivative is zero; a function with a relative minimum where its derivative is zero; and a function with a relative minimum where its derivative is undefined.</caption>
+      <caption>De izquierda a derecha, una función con un máximo relativo donde su derivada es cero; una función con un máximo relativo donde su derivada no está definida; una función sin máximo ni mínimo en un punto donde su derivada es cero; una función con un mínimo relativo donde su derivada es cero; y una función con un mínimo relativo donde su derivada no está definida.</caption>
       <image width="100%" source="images/3_1_extremes" />
     </figure>
 
     <p permid="FUu">
-      As seen in <xref ref="F-3-1-extremes">Figure</xref>, when a continuous function defined on <m>(a,b)</m> changes from being always increasing on interval <m>(a,c)</m> to being always decreasing on  interval <m>(c, b)</m> (where <m>a \lt c \lt b</m>), the function has a relative maximum at <m>c</m>.   Similarly, when a continuous function defined on <m>(a,b)</m> changes from being always decreasing on interval <m>(a,c)</m> to being always increasing on  interval <m>(c, b)</m>, the function has a relative minimum at <m>c</m>.
-<!--      If a continuous function has a relative maximum at <m>c</m>,
-      then it is both necessary and sufficient that the function change from being increasing just before <m>c</m> to decreasing just after <m>c</m>.
-      A continuous function has a relative minimum at <m>c</m> if and only if the function changes from decreasing to increasing at <m>c</m>.
-      (See <xref ref="F-3-1-extremes">Figure</xref>.) -->
-      Because the sign of the derivative changes at such locations, there are only two possible ways for these changes in behavior to occur:
-      either <m>f'(c) = 0</m> or <m>f'(c)</m> is undefined.
-      Because these values of <m>c</m> are so important,
-      we call them <em>critical numbers</em>.
+      Como se ve en <xref ref="F-3-1-extremes">Figura</xref>, cuando una función continua definida en <m>(a,b)</m> cambia de ser siempre creciente en el intervalo <m>(a,c)</m> a ser siempre decreciente en el intervalo <m>(c, b)</m> (donde <m>a \lt c \lt b</m>), la función tiene un máximo relativo en <m>c</m>. De manera similar, cuando una función continua definida en <m>(a,b)</m> cambia de ser siempre decreciente en el intervalo <m>(a,c)</m> a ser siempre creciente en el intervalo <m>(c, b)</m>, la función tiene un mínimo relativo en <m>c</m>.
+      Porque el signo de la derivada cambia en tales ubicaciones, solo hay dos formas posibles para que ocurran estos cambios en el comportamiento: o <m>f'(c) = 0</m> o <m>f'(c)</m> no está definida. Debido a que estos valores de <m>c</m> son tan importantes, los llamamos <em>números críticos</em>.
     </p>
 
     <definition permid="eSD">
       <statement>
         <p permid="wAI">
-          We say that a function <m>f</m> has a
-          <term>critical number</term>
-              <idx><h>critical number</h></idx>
-          at <m>x = c</m> provided that <m>c</m> is in the domain of <m>f</m>,
-          and either <m>f'(c) = 0</m> or <m>f'(c)</m> is undefined.
+          Decimos que una función <m>f</m> tiene un <term>número crítico</term>
+              <idx><h>número crítico</h></idx>
+          en <m>x = c</m> siempre que <m>c</m> esté en el dominio de <m>f</m>, y ya sea que <m>f'(c) = 0</m> o <m>f'(c)</m> no esté definida.
         </p>
       </statement>
     </definition>
 
     <p permid="mbD">
-      Critical numbers are the only possible locations where the function <m>f</m> may have relative extremes.
-      Note that not every critical number produces a maximum or minimum;
-      in the middle graph of <xref ref="F-3-1-extremes">Figure</xref>,
-      the function pictured there has a horizontal tangent line at the noted point,
-      but the function is increasing before and increasing after,
-      so the critical number does not yield a maximum or minimum.
+      Los números críticos son las únicas ubicaciones posibles donde la función <m>f</m> puede tener extremos relativos. Nota que no todos los números críticos producen un máximo o mínimo; en el gráfico del medio de <xref ref="F-3-1-extremes">Figura</xref>, la función representada allí tiene una línea tangente horizontal en el punto señalado, pero la función está aumentando antes y aumentando después, por lo que el número crítico no produce un máximo o mínimo.
     </p>
 
     <p permid="SiM">
-      When <m>c</m> is a critical number, we say
-      that <m>(c,f(c))</m> is a <em>critical point</em>
-          <idx><h>critical point</h></idx>
-      of the function,
-      or that <m>f(c)</m> is a <em>critical value</em>.
-          <idx><h>critical value</h></idx>
-      The <em>first derivative test</em>
-          <idx><h>first derivative test</h></idx>
-      summarizes how sign changes in the first derivative
-      (which can only occur at critical numbers)
-      indicate the presence of a local maximum or minimum for a given function.
+      Cuando <m>c</m> es un número crítico, decimos que <m>(c,f(c))</m> es un <em>punto crítico</em>
+          <idx><h>punto crítico</h></idx>
+      de la función, o que <m>f(c)</m> es un <em>valor crítico</em>.
+          <idx><h>valor crítico</h></idx>
+      La <em>prueba de la primera derivada</em>
+          <idx><h>prueba de la primera derivada</h></idx>
+      resume cómo los cambios de signo en la primera derivada (que solo pueden ocurrir en números críticos) indican la presencia de un máximo o mínimo local para una función dada.
     </p>
 
     <assemblage xml:id="First-D-Test" permid="SEl">
-      <title>First Derivative Test</title>
+      <title>Prueba de la Primera Derivada</title>
       <p permid="ypV">
-            <idx><h>first derivative test</h></idx>
-        Let <m>p</m> be a critical number of a continuous function <m>f</m> that is differentiable near <m>p</m>
-        (except possibly at <m>x = p</m>).  If <m>f'</m> changes sign from positive to negative at <m>p</m>,
-        then <m>f</m> has a relative maximum at <m>p</m>.  If <m>f'</m> changes sign from negative to positive at <m>p</m>, then <m>f</m> has a relative minimum at <m>p</m>.
-        <!-- and only<fn>Technically, we also have to assume that <m>f</m> is not piecewise constant on any intervals.  This is because every point on a horizontal line is a relative maximum (and relative minimum) despite the fact that the derivative doesn't change sign at any point along the horizontal line.</fn> if -->
-        <!-- and only if--> 
-        
+            <idx><h>prueba de la primera derivada</h></idx>
+        Sea <m>p</m> un número crítico de una función continua <m>f</m> que es diferenciable cerca de <m>p</m> (excepto posiblemente en <m>x = p</m>). Si <m>f'</m> cambia de signo de positivo a negativo en <m>p</m>, entonces <m>f</m> tiene un máximo relativo en <m>p</m>. Si <m>f'</m> cambia de signo de negativo a positivo en <m>p</m>, entonces <m>f</m> tiene un mínimo relativo en <m>p</m>.
       </p>
     </assemblage>
 
     <p>
-      In <xref ref="Ex-f-from-f-prime">Example</xref>, we show how to apply the First Derivative Test to determine whether relative maxima or minima occur at various critical numbers and introduce the idea of a <em>sign chart</em> to visualize important function and derivative behavior.
-      <idx><h>sign chart</h></idx>
+      En <xref ref="Ex-f-from-f-prime">Ejemplo</xref>, mostramos cómo aplicar la Prueba de la Primera Derivada para determinar si ocurren máximos o mínimos relativos en varios números críticos e introducimos la idea de un <em>diagrama de signos</em> para visualizar el comportamiento importante de la función y la derivada.
+      <idx><h>diagrama de signos</h></idx>
     </p>
 
     <example xml:id="Ex-f-from-f-prime" permid="KZM">
       <statement>
         <p permid="IPa">
-          Let <m>f</m> be a function whose derivative is given by the formula <m>f'(x) = e^{-2x}(3-x)(x+1)^2</m>.
-          Determine all critical numbers of <m>f</m> and decide whether a relative maximum,
-          relative minimum, or neither occurs at each.
+          Sea <m>f</m> una función cuya derivada está dada por la fórmula <m>f'(x) = e^{-2x}(3-x)(x+1)^2</m>. Determina todos los números críticos de <m>f</m> y decide si ocurre un máximo relativo, un mínimo relativo o ninguno en cada uno.
         </p>
       </statement>
       <solution permid="bXX">
         <p permid="WiL">
-          Since we already have <m>f'(x)</m> written in factored form,
-          it is straightforward to find the critical numbers of <m>f</m>.
-          Because <m>f'(x)</m> is defined for all values of <m>x</m>,
-          we need only determine where <m>f'(x) = 0</m>.
-          From the equation
+          Dado que ya tenemos <m>f'(x)</m> escrito en forma factorizada, es sencillo encontrar los números críticos de <m>f</m>. Como <m>f'(x)</m> está definido para todos los valores de <m>x</m>, solo necesitamos determinar dónde <m>f'(x) = 0</m>. De la ecuación
           <me permid="Afi">
             e^{-2x}(3-x)(x+1)^2 = 0
           </me>
-          and the zero product property,
-          it follows that <m>x = 3</m> and <m>x = -1</m> are critical numbers of <m>f</m>.
-          (There is no value of <m>x</m> that makes <m>e^{-2x} = 0</m>.)
+          y la propiedad del producto cero, se sigue que <m>x = 3</m> y <m>x = -1</m> son números críticos de <m>f</m>. (No hay ningún valor de <m>x</m> que haga que <m>e^{-2x} = 0</m>.)
         </p>
 
         <p permid="CpU">
-          Next, to apply the first derivative test,
-          we'd like to know the sign of <m>f'(x)</m> at inputs near the critical numbers.
-          Because the critical numbers are the only locations at which <m>f'</m> can change sign,
-          it follows that the sign of the derivative is the same on each of the intervals created by the critical numbers:
-          for instance,
-          the sign of <m>f'</m> must be the same for every <m>x \lt -1</m>.
-          We create a first derivative sign chart to summarize the sign of <m>f'</m> on the relevant intervals,
-          along with the corresponding behavior of <m>f</m>.
+          A continuación, para aplicar la prueba de la primera derivada, nos gustaría conocer el signo de <m>f'(x)</m> en entradas cercanas a los números críticos. Dado que los números críticos son las únicas ubicaciones en las que <m>f'</m> puede cambiar de signo, se sigue que el signo de la derivada es el mismo en cada uno de los intervalos creados por los números críticos: por ejemplo, el signo de <m>f'</m> debe ser el mismo para cada <m>x \lt -1</m>. Creamos un diagrama de signos de la primera derivada para resumir el signo de <m>f'</m> en los intervalos relevantes, junto con el comportamiento correspondiente de <m>f</m>.
         </p>
 
         <figure xml:id="F-3-1-signchart" permid="uLv">
-          <caption>The first derivative sign chart for a function <m>f</m> whose derivative is given by the formula <m>f'(x) = e^{-2x}(3-x)(x+1)^2</m>.</caption>
+          <caption>El diagrama de signos de la primera derivada para una función <m>f</m> cuya derivada está dada por la fórmula <m>f'(x) = e^{-2x}(3-x)(x+1)^2</m>.</caption>
           <image width="65%" source="images/3_1_signchart" />
         </figure>
 
         <p permid="ixd">
-          To produce the first derivative sign chart in <xref ref="F-3-1-signchart">Figure</xref>
-          we identify the sign of each factor of <m>f'(x)</m> at one selected point in each interval.
-          For instance, for <m>x \lt -1</m>,
-          we could determine the sign of <m>e^{-2x}</m>,
-          <m>(3-x)</m>, and <m>(x+1)^2</m> at the value <m>x = -2</m>.
-          We note that both <m>e^{-2x}</m> and <m>(x+1)^2</m> are positive regardless of the value of <m>x</m>,
-          while <m>(3-x)</m> is also positive at <m>x = -2</m>.
-          Hence, each of the three terms in <m>f'</m> is positive,
-          which we indicate by writing <q><m>+++</m>.</q>
-          Taking the product of three positive terms results in a positive value for <m>f'</m>,
-          which we denote by the <q><m>+</m></q>
-          in the interval to the left of <m>x = -1</m>.
-          And, since <m>f'</m> is positive on that interval,
-          we know that <m>f</m> is increasing,
-          so we write <q>INC</q>
-          to represent the behavior of <m>f</m>.
-          In a similar way,
-          we find that <m>f'</m> is positive and <m>f</m> is increasing on <m>-1 \lt x \lt 3</m>,
-          and <m>f'</m> is negative and <m>f</m> is decreasing for <m>x \gt 3</m>.
+          Para producir el diagrama de signos de la primera derivada en <xref ref="F-3-1-signchart">Figura</xref>, identificamos el signo de cada factor de <m>f'(x)</m> en un punto seleccionado en cada intervalo. Por ejemplo, para <m>x \lt -1</m>, podríamos determinar el signo de <m>e^{-2x}</m>, <m>(3-x)</m> y <m>(x+1)^2</m> en el valor <m>x = -2</m>. Notamos que tanto <m>e^{-2x}</m> como <m>(x+1)^2</m> son positivos sin importar el valor de <m>x</m>, mientras que <m>(3-x)</m> también es positivo en <m>x = -2</m>. Por lo tanto, cada uno de los tres términos en <m>f'</m> es positivo, lo que indicamos escribiendo <q><m>+++</m>.</q> Tomar el producto de tres términos positivos resulta en un valor positivo para <m>f'</m>, lo que denotamos con el <q><m>+</m></q> en el intervalo a la izquierda de <m>x = -1</m>. Y, dado que <m>f'</m> es positivo en ese intervalo, sabemos que <m>f</m> está aumentando, por lo que escribimos <q>INC</q> para representar el comportamiento de <m>f</m>. De manera similar, encontramos que <m>f'</m> es positivo y <m>f</m> está aumentando en <m>-1 \lt x \lt 3</m>, y <m>f'</m> es negativo y <m>f</m> está disminuyendo para <m>x \gt 3</m>.
         </p>
 
         <p permid="OEm">
-          Now we look for critical numbers at which <m>f'</m> changes sign.
-          In this example, <m>f'</m> changes sign only at <m>x = 3</m>,
-          from positive to negative,
-          so <m>f</m> has a relative maximum at <m>x = 3</m>.
-          Although <m>f</m> has a critical number at <m>x = -1</m>,
-          since <m>f</m> is increasing both before and after <m>x = -1</m>,
-          <m>f</m> has neither a minimum nor a maximum at <m>x = -1</m>.
+          Ahora buscamos números críticos en los que <m>f'</m> cambie de signo. En este ejemplo, <m>f'</m> cambia de signo solo en <m>x = 3</m>, de positivo a negativo, por lo que <m>f</m> tiene un máximo relativo en <m>x = 3</m>. Aunque <m>f</m> tiene un número crítico en <m>x = -1</m>, dado que <m>f</m> está aumentando tanto antes como después de <m>x = -1</m>, <m>f</m> no tiene ni un mínimo ni un máximo en <m>x = -1</m>.
         </p>
       </solution>
     </example>
 
     <xi:include href="./activities/act-3-1-1.xml" />
   </subsection>
-
+  
   <subsection permid="GpT">
-    <title>The second derivative test</title>
+    <title>La prueba de la segunda derivada</title>
     <p permid="KEn">
-      Recall that the second derivative of a function tells us several important things about the behavior of the function itself.
-      For instance, if <m>f''</m> is positive on an interval,
-      then we know that <m>f'</m> is increasing on that interval and,
-      consequently, that <m>f</m> is concave up,
-      so throughout that interval the tangent line to
-      <m>y = f(x)</m> lies below the curve at every point.
-      At a point where <m>f'(p) = 0</m>, 
-      the sign of the second derivative determines whether <m>f</m> has a local minimum or local maximum at the critical number <m>p</m>.
+      Recuerda que la segunda derivada de una función nos dice varias cosas importantes sobre el comportamiento de la función misma.
+      Por ejemplo, si <m>f''</m> es positiva en un intervalo,
+      entonces sabemos que <m>f'</m> está aumentando en ese intervalo y,
+      en consecuencia, que <m>f</m> es cóncava hacia arriba,
+      por lo que a lo largo de ese intervalo la línea tangente a
+      <m>y = f(x)</m> se encuentra por debajo de la curva en cada punto.
+      En un punto donde <m>f'(p) = 0</m>,
+      el signo de la segunda derivada determina si <m>f</m> tiene un mínimo local o un máximo local en el número crítico <m>p</m>.
     </p>
-
+  
     <figure xml:id="F-3-1-2Dtest" permid="nQQ">
-      <caption>Four possible graphs of a function <m>f</m> with a horizontal tangent line at a critical point.</caption>
+      <caption>Cuatro posibles gráficos de una función <m>f</m> con una línea tangente horizontal en un punto crítico.</caption>
       <image width="100%" source="images/3_1_2Dtest" />
     </figure>
-
+  
     <p permid="qLw">
-      In <xref ref="F-3-1-2Dtest">Figure</xref>,
-      we see the four possibilities for a function <m>f</m> that has a critical number <m>p</m> at which <m>f'(p) = 0</m>,
-      provided <m>f''(p)</m> is not zero on an interval including <m>p</m>
-      (except possibly at <m>p</m>).
-      On either side of the critical number,
-      <m>f''</m> can be either positive or negative,
-      and hence <m>f</m> can be either concave up or concave down.
-      In the first two graphs,
-      <m>f</m> does not change concavity at <m>p</m>, and in those situations,
-      <m>f</m> has either a local minimum or local maximum.
-      In particular, if <m>f'(p) = 0</m> and <m>f''(p) \lt 0</m>,
-      then <m>f</m> is concave down at <m>p</m> with a horizontal tangent line,
-      so <m>f</m> has a local maximum there.
-      This fact, along with the corresponding statement for when <m>f''(p)</m> is positive,
-      is the substance of the <em>second derivative test</em>.
+      En <xref ref="F-3-1-2Dtest">Figura</xref>,
+      vemos las cuatro posibilidades para una función <m>f</m> que tiene un número crítico <m>p</m> en el cual <m>f'(p) = 0</m>,
+      siempre que <m>f''(p)</m> no sea cero en un intervalo que incluya <m>p</m>
+      (excepto posiblemente en <m>p</m>).
+      A ambos lados del número crítico,
+      <m>f''</m> puede ser positiva o negativa,
+      y por lo tanto <m>f</m> puede ser cóncava hacia arriba o hacia abajo.
+      En los dos primeros gráficos,
+      <m>f</m> no cambia de concavidad en <m>p</m>, y en esas situaciones,
+      <m>f</m> tiene un mínimo local o un máximo local.
+      En particular, si <m>f'(p) = 0</m> y <m>f''(p) \lt 0</m>,
+      entonces <m>f</m> es cóncava hacia abajo en <m>p</m> con una línea tangente horizontal,
+      por lo que <m>f</m> tiene un máximo local allí.
+      Este hecho, junto con la declaración correspondiente para cuando <m>f''(p)</m> es positiva,
+      es la esencia de la <em>prueba de la segunda derivada</em>.
     </p>
-
+  
     <assemblage xml:id="Second-D-Test" permid="yLu">
-      <title>Second Derivative Test</title>
+      <title>Prueba de la Segunda Derivada</title>
       <p permid="WSF">
-            <idx><h>second derivative test</h></idx>
-        If <m>p</m> is a critical number of a continuous function <m>f</m> such that
-        <m>f'(p) = 0</m> and <m>f''(p) \ne 0</m>,
-        then <m>f</m> has a relative maximum at <m>p</m> if and only if <m>f''(p) \lt 0</m>,
-        and <m>f</m> has a relative minimum at <m>p</m> if and only if <m>f''(p) \gt 0</m>.
+        <idx><h>prueba de la segunda derivada</h></idx>
+        Si <m>p</m> es un número crítico de una función continua <m>f</m> tal que
+        <m>f'(p) = 0</m> y <m>f''(p) \ne 0</m>,
+        entonces <m>f</m> tiene un máximo relativo en <m>p</m> si y solo si <m>f''(p) \lt 0</m>,
+        y <m>f</m> tiene un mínimo relativo en <m>p</m> si y solo si <m>f''(p) \gt 0</m>.
       </p>
     </assemblage>
-
+  
     <p permid="CZO">
-      In the event that <m>f''(p) = 0</m>,
-      the second derivative test is inconclusive.
-      That is, the test doesn't provide us any information.
-      This is because if <m>f''(p) = 0</m>,
-      it is possible that <m>f</m> has a local minimum,
-      local maximum, or neither.<fn>
-      Consider the functions <m>f(x) = x^4</m>,
+      En el caso de que <m>f''(p) = 0</m>,
+      la prueba de la segunda derivada es inconclusa.
+      Es decir, la prueba no nos proporciona ninguna información.
+      Esto se debe a que si <m>f''(p) = 0</m>,
+      es posible que <m>f</m> tenga un mínimo local,
+      un máximo local, o ninguno.<fn>
+      Considera las funciones <m>f(x) = x^4</m>,
       <m>g(x) = -x^4</m>,
-      and <m>h(x) = x^3</m> at the critical point <m>p = 0</m>.
+      y <m>h(x) = x^3</m> en el punto crítico <m>p = 0</m>.
       </fn></p>
-
+  
     <p permid="jgX">
-      Just as a first derivative sign chart reveals all of the increasing and decreasing behavior of a function,
-      we can construct a second derivative sign chart that demonstrates all of the important information involving concavity.
+      Así como un gráfico de signos de la primera derivada revela todo el comportamiento de aumento y disminución de una función,
+      podemos construir un gráfico de signos de la segunda derivada que demuestre toda la información importante relacionada con la concavidad.
     </p>
-
+  
     <example xml:id="Ex-3-2" permid="Xoe">
       <statement>
         <p permid="oWj">
-          Let <m>f(x)</m> be a function whose first derivative is <m>f'(x) = 3x^4 - 9x^2</m>.
-          Construct both first and second derivative sign charts for <m>f</m>,
-          fully discuss where <m>f</m> is increasing and decreasing and concave up and concave down,
-          identify all relative extreme values,
-          and sketch a possible graph of <m>f</m>.
+          Sea <m>f(x)</m> una función cuya primera derivada es <m>f'(x) = 3x^4 - 9x^2</m>.
+          Construye gráficos de signos tanto de la primera como de la segunda derivada para <m>f</m>,
+          discute completamente dónde <m>f</m> está aumentando y disminuyendo y es cóncava hacia arriba y hacia abajo,
+          identifica todos los valores extremos relativos,
+          y dibuja un posible gráfico de <m>f</m>.
         </p>
       </statement>
       <solution permid="Ifg">
         <p permid="aSE">
-          Since we know <m>f'(x) = 3x^4 - 9x^2</m>,
-          we can find the critical numbers of <m>f</m> by solving <m>3x^4 - 9x^2 = 0</m>.
-          Factoring, we observe that
+          Dado que sabemos que <m>f'(x) = 3x^4 - 9x^2</m>,
+          podemos encontrar los números críticos de <m>f</m> resolviendo <m>3x^4 - 9x^2 = 0</m>.
+          Factorizando, observamos que
           <me permid="gmr">
             0 = 3x^2(x^2 - 3) = 3x^2(x+\sqrt{3})(x-\sqrt{3})
           </me>,
-          so that <m>x = 0, \pm\sqrt{3}</m> are the three critical numbers of <m>f</m>.
-          The first derivative sign chart for <m>f</m> is given in <xref ref="F-3-1-signchart2">Figure</xref>.
+          por lo que <m>x = 0, \pm\sqrt{3}</m> son los tres números críticos de <m>f</m>.
+          El gráfico de signos de la primera derivada para <m>f</m> se muestra en <xref ref="F-3-1-signchart2">Figura</xref>.
         </p>
-
+  
         <figure xml:id="F-3-1-signchart2" permid="rQP">
-          <caption>The first derivative sign chart for <m>f</m> when <m>f'(x) = 3x^4 - 9x^2 = 3x^2(x^2-3)</m>.</caption>
+          <caption>El gráfico de signos de la primera derivada para <m>f</m> cuando <m>f'(x) = 3x^4 - 9x^2 = 3x^2(x^2-3)</m>.</caption>
           <image width="100%" source="images/3_1_signchart2" />
         </figure>
-
+  
         <p permid="GZN">
-          We see that <m>f</m> is increasing on the intervals
-          <m>(-\infty, -\sqrt{3})</m> and <m>(\sqrt{3}, \infty)</m>,
-          and <m>f</m> is decreasing on
-          <m>(-\sqrt{3},0)</m> and <m>(0, \sqrt{3})</m>.
-          By the first derivative test,
-          this information tells us that <m>f</m> has a local maximum at
-          <m>x = -\sqrt{3}</m> and a local minimum at <m>x = \sqrt{3}</m>.
-          Although <m>f</m> also has a critical number at <m>x = 0</m>,
-          neither a maximum nor minimum occurs there since <m>f'</m> does not change sign at <m>x = 0</m>.
+          Vemos que <m>f</m> está aumentando en los intervalos
+          <m>(-\infty, -\sqrt{3})</m> y <m>(\sqrt{3}, \infty)</m>,
+          y <m>f</m> está disminuyendo en
+          <m>(-\sqrt{3},0)</m> y <m>(0, \sqrt{3})</m>.
+          Según la prueba de la primera derivada,
+          esta información nos dice que <m>f</m> tiene un máximo local en
+          <m>x = -\sqrt{3}</m> y un mínimo local en <m>x = \sqrt{3}</m>.
+          Aunque <m>f</m> también tiene un número crítico en <m>x = 0</m>,
+          no ocurre ni un máximo ni un mínimo allí ya que <m>f'</m> no cambia de signo en <m>x = 0</m>.
         </p>
-
+  
         <p permid="ngW">
-          Next, we move on to investigate concavity.
-          Differentiating <m>f'(x) = 3x^4 - 9x^2</m>,
-          we see that <m>f''(x) = 12x^3 - 18x</m>.
-          Since we are interested in knowing the intervals on which <m>f''</m> is positive and negative,
-          we first find where <m>f''(x) = 0</m>.
-          Observe that
+          A continuación, pasamos a investigar la concavidad.
+          Diferenciando <m>f'(x) = 3x^4 - 9x^2</m>,
+          vemos que <m>f''(x) = 12x^3 - 18x</m>.
+          Dado que estamos interesados en conocer los intervalos en los que <m>f''</m> es positiva y negativa,
+          primero encontramos dónde <m>f''(x) = 0</m>.
+          Observa que
           <me permid="MtA">
             0 = 12x^3 - 18x = 12x\left(x^2 - \frac{3}{2}\right) = 12x\left(x+\sqrt{\frac{3}{2}}\right)\left(x-\sqrt{\frac{3}{2}}\right)
           </me>.
-          This equation has solutions <m>x = 0, \pm\sqrt{\frac{3}{2}}</m>.
-          Building a sign chart for <m>f''</m> in the exact same way we do for <m>f'</m>,
-          we see the result shown in <xref ref="F-3-1-signchart3">Figure</xref>.
+          Esta ecuación tiene soluciones <m>x = 0, \pm\sqrt{\frac{3}{2}}</m>.
+          Construyendo un gráfico de signos para <m>f''</m> de la misma manera que lo hacemos para <m>f'</m>,
+          vemos el resultado mostrado en <xref ref="F-3-1-signchart3">Figura</xref>.
         </p>
-
+  
         <figure xml:id="F-3-1-signchart3" permid="XXY">
-          <caption>The second derivative sign chart for <m>f</m> when <m>f''(x) = 12x^3-18x = 12x^2\left(x^2-\frac{3}{2} \right)</m>.</caption>
+          <caption>El gráfico de signos de la segunda derivada para <m>f</m> cuando <m>f''(x) = 12x^3-18x = 12x^2\left(x^2-\frac{3}{2} \right)</m>.</caption>
           <image width="100%" source="images/3_1_signchart3" />
         </figure>
-
+  
         <p permid="Tof">
-          Therefore, <m>f</m> is concave down on the intervals
-          <m>(-\infty, -\sqrt{\frac{3}{2}})</m> and <m>(0, \sqrt{\frac{3}{2}})</m>,
-          and concave up on <m>(-\sqrt{\frac{3}{2}},0)</m> and <m>(\sqrt{\frac{3}{2}}, \infty)</m>.
+          Por lo tanto, <m>f</m> es cóncava hacia abajo en los intervalos
+          <m>(-\infty, -\sqrt{\frac{3}{2}})</m> y <m>(0, \sqrt{\frac{3}{2}})</m>,
+          y cóncava hacia arriba en <m>(-\sqrt{\frac{3}{2}},0)</m> y <m>(\sqrt{\frac{3}{2}}, \infty)</m>.
         </p>
-
+  
         <p permid="zvo">
-          Putting all of this information together,
-          we now see a complete and accurate possible graph of <m>f</m> in <xref ref="F-3-1-Ex2">Figure</xref>.
+          Juntando toda esta información,
+          ahora vemos un gráfico completo y preciso posible de <m>f</m> en <xref ref="F-3-1-Ex2">Figura</xref>.
         </p>
-
+  
         <figure xml:id="F-3-1-Ex2" permid="Efh">
-          <caption>A possible graph of the function <m>f</m> in <xref ref="Ex-3-2">Example</xref>.</caption>
+          <caption>Un posible gráfico de la función <m>f</m> en <xref ref="Ex-3-2">Ejemplo</xref>.</caption>
           <image width="65%" source="images/3_1_Ex2" />
         </figure>
-
+  
         <p permid="fCx">
-          The point <m>A = (-\sqrt{3}, f(-\sqrt{3}))</m> is a local maximum,
-          because <m>f</m> is increasing prior to <m>A</m> and decreasing after;
-          similarly, the point <m>E = (\sqrt{3}, f(\sqrt{3})</m> is a local minimum.
-          Note, too, that <m>f</m> is concave down at <m>A</m> and concave up at <m>B</m>,
-          which is consistent both with our second derivative sign chart and the second derivative test.
-          At points <m>B</m> and <m>D</m>, concavity changes,
-          as we saw in the results of the second derivative sign chart in <xref ref="F-3-1-signchart3">Figure</xref>.
-          Finally, at point <m>C</m>,
-          <m>f</m> has a critical point with a horizontal tangent line,
-          but neither a maximum nor a minimum occurs there,
-          since <m>f</m> is decreasing both before and after <m>C</m>.
-          It is also the case that concavity changes at <m>C</m>.
+          El punto <m>A = (-\sqrt{3}, f(-\sqrt{3}))</m> es un máximo local,
+          porque <m>f</m> está aumentando antes de <m>A</m> y disminuyendo después;
+          de manera similar, el punto <m>E = (\sqrt{3}, f(\sqrt{3})</m> es un mínimo local.
+          Nota también que <m>f</m> es cóncava hacia abajo en <m>A</m> y cóncava hacia arriba en <m>B</m>,
+          lo cual es consistente tanto con nuestro gráfico de signos de la segunda derivada como con la prueba de la segunda derivada.
+          En los puntos <m>B</m> y <m>D</m>, la concavidad cambia,
+          como vimos en los resultados del gráfico de signos de la segunda derivada en <xref ref="F-3-1-signchart3">Figura</xref>.
+          Finalmente, en el punto <m>C</m>,
+          <m>f</m> tiene un punto crítico con una línea tangente horizontal,
+          pero no ocurre ni un máximo ni un mínimo allí,
+          ya que <m>f</m> está disminuyendo tanto antes como después de <m>C</m>.
+          También es el caso que la concavidad cambia en <m>C</m>.
         </p>
-
+  
         <p permid="LJG">
-          While we completely understand where <m>f</m> is increasing and decreasing,
-          where <m>f</m> is concave up and concave down,
-          and where <m>f</m> has relative extremes,
-          we do not know any specific information about the <m>y</m>-coordinates of points on the curve.
-          For instance,
-          while we know that <m>f</m> has a local maximum at <m>x = -\sqrt{3}</m>,
-          we don't know the value of that maximum because we do not know <m>f(-\sqrt{3})</m>.
-          Any vertical translation of our sketch of <m>f</m> in <xref ref="F-3-1-Ex2">Figure</xref>
-          would satisfy the given criteria for <m>f</m>.
+          Aunque entendemos completamente dónde <m>f</m> está aumentando y disminuyendo,
+          dónde <m>f</m> es cóncava hacia arriba y hacia abajo,
+          y dónde <m>f</m> tiene extremos relativos,
+          no sabemos ninguna información específica sobre las coordenadas <m>y</m> de los puntos en la curva.
+          Por ejemplo,
+          aunque sabemos que <m>f</m> tiene un máximo local en <m>x = -\sqrt{3}</m>,
+          no sabemos el valor de ese máximo porque no conocemos <m>f(-\sqrt{3})</m>.
+          Cualquier traslación vertical de nuestro boceto de <m>f</m> en <xref ref="F-3-1-Ex2">Figura</xref>
+          satisfaría los criterios dados para <m>f</m>.
         </p>
       </solution>
     </example>
-
+  
     <p permid="Pog">
-      Points <m>B</m>, <m>C</m>,
-      and <m>D</m> in <xref ref="F-3-1-Ex2">Figure</xref>
-      are locations at which the concavity of <m>f</m> changes.
-      We give a special name to any such point.
+      Los puntos <m>B</m>, <m>C</m>,
+      y <m>D</m> en <xref ref="F-3-1-Ex2">Figura</xref>
+      son ubicaciones en las que la concavidad de <m>f</m> cambia.
+      Damos un nombre especial a cualquier punto de este tipo.
     </p>
-
+  
     <definition permid="rgV">
       <statement>
         <p permid="cHR">
-          If <m>p</m> is a value in the domain of a continuous function <m>f</m> at which <m>f</m> changes concavity,
-          then we say that <m>(p,f(p))</m> is an
-          <term>inflection point</term>
-              <idx><h>inflection point</h></idx>
-          (or <term>point of inflection</term>)    
-          of <m>f</m>.
+          Si <m>p</m> es un valor en el dominio de una función continua <m>f</m> en el cual <m>f</m> cambia de concavidad,
+          entonces decimos que <m>(p,f(p))</m> es un
+          <term>punto de inflexión</term>
+          <idx><h>punto de inflexión</h></idx>
+          (o <term>punto de inflexión</term>)
+          de <m>f</m>.
         </p>
       </statement>
     </definition>
-
+  
     <p permid="vvp">
-      Just as we look for locations where <m>f</m> changes from increasing to decreasing at points where
-      <m>f'(p) = 0</m> or <m>f'(p)</m> is undefined,
-      so too we find where <m>f''(p) = 0</m> or <m>f''(p)</m> is undefined to see if there are points of inflection at these locations.
+      Así como buscamos ubicaciones donde <m>f</m> cambia de aumentar a disminuir en puntos donde
+      <m>f'(p) = 0</m> o <m>f'(p)</m> no está definida,
+      también encontramos donde <m>f''(p) = 0</m> o <m>f''(p)</m> no está definida para ver si hay puntos de inflexión en estas ubicaciones.
     </p>
-
+  
     <p permid="bCy">
-      At this point in our study,
-      it is important to remind ourselves of the big picture that derivatives help to paint:
-      the sign of the first derivative <m>f'</m> tells us <em>whether</em>
-      the function <m>f</m> is increasing or decreasing,
-      while the sign of the second derivative <m>f''</m> tells us <em>how</em>
-      the function <m>f</m> is increasing or decreasing.
+      En este punto de nuestro estudio,
+      es importante recordarnos la visión general que las derivadas ayudan a pintar:
+      el signo de la primera derivada <m>f'</m> nos dice <em>si</em>
+      la función <m>f</m> está aumentando o disminuyendo,
+      mientras que el signo de la segunda derivada <m>f''</m> nos dice <em>cómo</em>
+      la función <m>f</m> está aumentando o disminuyendo.
     </p>
-
+  
     <xi:include href="./activities/act-3-1-2.xml" />
-
+  
     <p permid="HJH">
-      As we will see in more detail in the following section,
-      derivatives also help us to understand families of functions that differ only by changing one or more parameters.
-      For instance,
-      we might be interested in understanding the behavior of all functions of the form
-      <m>f(x) = a(x-h)^2 + k</m> where <m>a</m>, <m>h</m>,
-      and <m>k</m> are parameters.
-      Each parameter has considerable impact on how the graph appears.
+      Como veremos con más detalle en la siguiente sección,
+      las derivadas también nos ayudan a entender familias de funciones que difieren solo al cambiar uno o más parámetros.
+      Por ejemplo,
+      podríamos estar interesados en entender el comportamiento de todas las funciones de la forma
+      <m>f(x) = a(x-h)^2 + k</m> donde <m>a</m>, <m>h</m>,
+      y <m>k</m> son parámetros.
+      Cada parámetro tiene un impacto considerable en cómo aparece el gráfico.
     </p>
-
+  
     <xi:include href="./activities/act-3-1-3.xml" />
   </subsection>
-
+  
   <subsection permid="mxc">
-    <title>Summary</title>
+    <title>Resumen</title>
     <p permid="TXZ">
       <ul permid="Uty">
         <li permid="sWi">
           <p permid="dNk">
-            The critical numbers of a continuous function <m>f</m> are the values of <m>p</m> for which
-            <m>f'(p) = 0</m> or <m>f'(p)</m> does not exist.
-            These values are important because they identify horizontal tangent lines or corner points on the graph,
-            which are the only possible locations at which a local maximum or local minimum can occur.
+            Los números críticos de una función continua <m>f</m> son los valores de <m>p</m> para los cuales
+            <m>f'(p) = 0</m> o <m>f'(p)</m> no existe.
+            Estos valores son importantes porque identifican líneas tangentes horizontales o puntos de esquina en el gráfico,
+            que son los únicos lugares posibles en los que puede ocurrir un máximo local o un mínimo local.
           </p>
         </li>
-
+  
         <li permid="Zdr">
           <p permid="JUt">
-            Given a differentiable function <m>f</m>,
-            whenever <m>f'</m> is positive, <m>f</m> is increasing;
-            whenever <m>f'</m> is negative, <m>f</m> is decreasing.
-            The first derivative test tells us that at any point where <m>f</m> changes from increasing to decreasing,
-            <m>f</m> has a local maximum,
-            while conversely at any point where <m>f</m> changes from decreasing to increasing <m>f</m> has a local minimum.
+            Dada una función diferenciable <m>f</m>,
+            siempre que <m>f'</m> sea positiva, <m>f</m> está aumentando;
+            siempre que <m>f'</m> sea negativa, <m>f</m> está disminuyendo.
+            La prueba de la primera derivada nos dice que en cualquier punto donde <m>f</m> cambia de aumentar a disminuir,
+            <m>f</m> tiene un máximo local,
+            mientras que, por el contrario, en cualquier punto donde <m>f</m> cambia de disminuir a aumentar <m>f</m> tiene un mínimo local.
           </p>
         </li>
-
+  
         <li permid="FkA">
           <p permid="qbC">
-            Given a twice differentiable function <m>f</m>,
-            if we have a horizontal tangent line at <m>x = p</m> and <m>f''(p)</m> is nonzero,
-            the sign of <m>f''</m> tells us the concavity of <m>f</m> and hence whether <m>f</m> has a maximum or minimum at <m>x = p</m>.
-            In particular, if <m>f'(p) = 0</m> and <m>f''(p) \lt 0</m>,
-            then <m>f</m> is concave down at <m>p</m> and <m>f</m> has a local maximum there,
-            while if <m>f'(p) = 0</m> and <m>f''(p) \gt 0</m>,
-            then <m>f</m> has a local minimum at <m>p</m>.
-            If <m>f'(p) = 0</m> and <m>f''(p) = 0</m>,
-            then the second derivative does not tell us whether <m>f</m> has a local extreme at <m>p</m> or not.
+            Dada una función dos veces diferenciable <m>f</m>,
+            si tenemos una línea tangente horizontal en <m>x = p</m> y <m>f''(p)</m> no es cero,
+            el signo de <m>f''</m> nos dice la concavidad de <m>f</m> y, por lo tanto, si <m>f</m> tiene un máximo o mínimo en <m>x = p</m>.
+            En particular, si <m>f'(p) = 0</m> y <m>f''(p) \lt 0</m>,
+            entonces <m>f</m> es cóncava hacia abajo en <m>p</m> y <m>f</m> tiene un máximo local allí,
+            mientras que si <m>f'(p) = 0</m> y <m>f''(p) \gt 0</m>,
+            entonces <m>f</m> tiene un mínimo local en <m>p</m>.
+            Si <m>f'(p) = 0</m> y <m>f''(p) = 0</m>,
+            entonces la segunda derivada no nos dice si <m>f</m> tiene un extremo local en <m>p</m> o no.
           </p>
         </li>
       </ul>
@@ -539,4 +445,3 @@
 
   <xi:include href="./exercises/ez-3-1.xml" />
 </section>
-

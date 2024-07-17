@@ -14,55 +14,54 @@
 <!-- **********************************************************************-->
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-2-2" permid="xWj">
   <p permid="lHR">
-    Consider the function <m>g(x) = 2^x</m>,
-    which is graphed in <xref ref="F-2-2-PA1">Figure</xref>.
+    Considera la función <m>g(x) = 2^x</m>,
+    que está graficada en <xref ref="F-2-2-PA1">Figura</xref>.
 
     <ol marker="a." permid="wgW">
       <li permid="cof">
         <p permid="gXY">
-          At each of <m>x = -2, -1, 0, 1, 2</m>,
-          use a straightedge to sketch an accurate tangent line to <m>y = g(x)</m>.
+          En cada uno de <m>x = -2, -1, 0, 1, 2</m>,
+          usa una regla para dibujar una línea tangente precisa a <m>y = g(x)</m>.
         </p>
       </li>
 
       <li permid="Ivo">
         <p permid="Nfh">
-          Use the provided grid to estimate the slope of the tangent line you drew at each point in (a).
+          Usa la cuadrícula proporcionada para estimar la pendiente de la línea tangente que dibujaste en cada punto en (a).
         </p>
       </li>
 
       <li permid="oCx">
         <p permid="tmq">
-          Use the limit definition of the derivative to estimate <m>g'(0)</m> by using small values of <m>h</m>,
-          and compare the result to your visual estimate for the slope of the tangent line to
-          <m>y = g(x)</m> at <m>x = 0</m> in (b).
+          Usa la definición del límite de la derivada para estimar <m>g'(0)</m> usando valores pequeños de <m>h</m>,
+          y compara el resultado con tu estimación visual de la pendiente de la línea tangente a
+          <m>y = g(x)</m> en <m>x = 0</m> en (b).
         </p>
       </li>
 
       <li permid="UJG">
         <p permid="Ztz">
-          Based on your work in (a), (b), and (c),
-          sketch an accurate graph of
-          <m>y = g'(x)</m> on the axes adjacent to the graph of <m>y = g(x)</m>.
+          Basado en tu trabajo en (a), (b) y (c),
+          dibuja un gráfico preciso de
+          <m>y = g'(x)</m> en los ejes adyacentes al gráfico de <m>y = g(x)</m>.
         </p>
       </li>
 
       <li permid="AQP">
         <p permid="FAI">
-          Write at least one sentence that explains why it is reasonable to think that <m>g'(x) = cg(x)</m>,
-          where <m>c</m> is a constant.
-          In addition, calculate <m>\ln(2)</m>,
-          and then discuss how this value,
-          combined with your work above,
-          reasonably suggests that <m>g'(x) = 2^x \ln(2)</m>.
+          Escribe al menos una oración que explique por qué es razonable pensar que <m>g'(x) = cg(x)</m>,
+          donde <m>c</m> es una constante.
+          Además, calcula <m>\ln(2)</m>,
+          y luego discute cómo este valor,
+          combinado con tu trabajo anterior,
+          sugiere razonablemente que <m>g'(x) = 2^x \ln(2)</m>.
         </p>
       </li>
     </ol>
   </p>
 
   <figure xml:id="F-2-2-PA1" permid="RPa">
-    <caption>At left, the graph of <m>y = g(x) = 2^x</m>. At right, axes for plotting <m>y = g'(x)</m>.</caption>
+    <caption>A la izquierda, el gráfico de <m>y = g(x) = 2^x</m>. A la derecha, ejes para graficar <m>y = g'(x)</m>.</caption>
     <image width="60%" source="images/2_2_PA1a" />
   </figure>
 </exploration>
-

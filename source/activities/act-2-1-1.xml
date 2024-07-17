@@ -15,13 +15,13 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-1-1" permid="XRq">
   <statement>
     <p permid="rKh">
-      Use the three rules above to determine the derivative of each of the following functions.
-      For each, state your answer using full and proper notation,
-      labeling the derivative with its name.
-      For example, if you are given a function <m>h(z)</m>,
-      you should write <q><m>h'(z) =</m></q>
-      or <q><m>\frac{dh}{dz} =</m></q>
-      as part of your response.
+      Usa las tres reglas anteriores para determinar la derivada de cada una de las siguientes funciones.
+      Para cada una, da tu respuesta usando notación completa y adecuada,
+      etiquetando la derivada con su nombre.
+      Por ejemplo, si te dan una función <m>h(z)</m>,
+      deberías escribir <q><m>h'(z) =</m></q>
+      o <q><m>\frac{dh}{dz} =</m></q>
+      como parte de tu respuesta.
 
       <ol marker="a." cols="3" permid="nvN">
         <li permid="TCW">
@@ -73,44 +73,44 @@
       <ol marker="a." permid="HoE">
         <li permid="kBh">
           <p permid="AtZ">
-            Is <m>\pi</m> a variable or a constant?
+            ¿Es <m>\pi</m> una variable o una constante?
           </p>
         </li>
 
         <li permid="QIq">
           <p permid="gBi">
-            Is <m>g</m> a power or exponential function?
+            ¿Es <m>g</m> una función de potencia o exponencial?
           </p>
         </li>
 
         <li permid="wPz">
           <p permid="MIr">
-            Is <m>h</m> a power or exponential function?
+            ¿Es <m>h</m> una función de potencia o exponencial?
           </p>
         </li>
 
         <li permid="cWI">
           <p permid="sPA">
-            Is <m>3^{1/2}</m> a constant or a variable?
+            ¿Es <m>3^{1/2}</m> una constante o una variable?
           </p>
         </li>
 
         <li permid="JdR">
           <p permid="YWJ">
-            <m>\sqrt{2}</m> is a constant
+            <m>\sqrt{2}</m> es una constante
           </p>
         </li>
 
         <li permid="pla">
           <p permid="FdS">
-            Remember the notation here means
-            <q>take the derivative with respect to <m>q</m> of <m>q^{-1}</m>.</q>
+            Recuerda que la notación aquí significa
+            <q>toma la derivada con respecto a <m>q</m> de <m>q^{-1}</m>.</q>
           </p>
         </li>
 
         <li permid="Vsj">
           <p permid="llb">
-            Rewrite the fraction using a negative exponent.
+            Reescribe la fracción usando un exponente negativo.
           </p>
         </li>
       </ol>
@@ -168,54 +168,53 @@
       <ol marker="a." permid="vam">
         <li permid="SxD">
           <p permid="iqv">
-            <m>f(t) = \pi</m> is constant, so <m>f'(t) = 0</m>.
+            <m>f(t) = \pi</m> es constante, así que <m>f'(t) = 0</m>.
           </p>
         </li>
 
         <li permid="yEM">
           <p permid="OxE">
-            <m>g(z) = 7^z</m> is an exponential function,
-            so <m>g'(z) = 7^z \ln(7)</m>.
+            <m>g(z) = 7^z</m> es una función exponencial,
+            así que <m>g'(z) = 7^z \ln(7)</m>.
           </p>
         </li>
 
         <li permid="eLV">
           <p permid="uEN">
-            <m>h(w) = w^{3/4}</m> is a power function,
-            thus <m>h'(w) = \frac{3}{4} w^{-1/4}</m>.
+            <m>h(w) = w^{3/4}</m> es una función de potencia,
+            por lo tanto <m>h'(w) = \frac{3}{4} w^{-1/4}</m>.
           </p>
         </li>
 
         <li permid="KTe">
           <p permid="aLW">
-            <m>p(x) = 3^{1/2}</m> is constant,
-            and therefore <m>\frac{dp}{dx} = 0</m>.
+            <m>p(x) = 3^{1/2}</m> es constante,
+            y por lo tanto <m>\frac{dp}{dx} = 0</m>.
           </p>
         </li>
 
         <li permid="ran">
           <p permid="GTf">
-            <m>r(t) = (\sqrt{2})^t</m> is exponential
-            (since <m>\sqrt{2}</m> is a constant),
-            and so we have <m>r'(t) = (\sqrt{2})^t \ln (\sqrt{2})</m>.
+            <m>r(t) = (\sqrt{2})^t</m> es exponencial
+            (ya que <m>\sqrt{2}</m> es una constante),
+            y así tenemos <m>r'(t) = (\sqrt{2})^t \ln (\sqrt{2})</m>.
           </p>
         </li>
 
         <li permid="Xhw">
           <p permid="nao">
             <m>\frac{d}{dq}[q^{-1}] = -q^{-2}</m>,
-            by the rule for power functions.
+            por la regla para funciones de potencia.
           </p>
         </li>
 
         <li permid="DoF">
           <p permid="Thx">
             <m>m(t) = \frac{1}{t^3} = t^{-3}</m>,
-            so <m>\frac{dm}{dt} = -3t^{-4} = -\frac{3}{t^4}</m>.
+            así que <m>\frac{dm}{dt} = -3t^{-4} = -\frac{3}{t^4}</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

@@ -13,32 +13,32 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-8-3-series" permid="nbf">
-  <title>Series of Real Numbers</title>
+  <title>Series de Números Reales</title>
   <objectives permid="hlT">
     <ul permid="ZHu">
       <li permid="ern">
         <p permid="kQt">
-          What is an infinite series?
+          ¿Qué es una serie infinita?
         </p>
       </li>
 
       <li permid="Kyw">
         <p permid="QXC">
-          What is the <m>n</m>th partial sum of an infinite series?
+          ¿Cuál es la <m>n</m>-ésima suma parcial de una serie infinita?
         </p>
       </li>
 
       <li permid="qFF">
         <p permid="xeL">
-          How do we add up an infinite number of numbers?
-          In other words,
-          what does it mean for an infinite series of real numbers to converge?
+          ¿Cómo sumamos un número infinito de números?
+          En otras palabras,
+          ¿qué significa que una serie infinita de números reales converja?
         </p>
       </li>
 
       <li permid="WMO">
         <p permid="dlU">
-          What does it mean for an infinite series of real numbers to diverge?
+          ¿Qué significa que una serie infinita de números reales diverja?
         </p>
       </li>
     </ul>
@@ -46,59 +46,59 @@
 
   <introduction permid="Ntc">
     <p permid="jLa">
-      In <xref ref="sec-8-2-geometric">Section</xref>,
-      we encountered infinite geometric series.
-      For example, by writing
+      En <xref ref="sec-8-2-geometric">Section</xref>,
+      encontramos series geométricas infinitas.
+      Por ejemplo, al escribir
       <me permid="NHx">
         N = 0.1212121212 \cdots = \frac{12}{100} + \frac{12}{100} \cdot \frac{1}{100} + \frac{12}{100} \cdot \frac{1}{100^2} + \cdots
       </me>
-      as a geometric series,
-      we found a way to write  <m>N</m> as a single fraction:
+      como una serie geométrica,
+      encontramos una manera de escribir <m>N</m> como una fracción única:
       <m>N = \frac{4}{33}</m>.
-      In this section,
-      we explore other types of infinite sums.
-      In <xref ref="PA-8-3">Preview Activity</xref>
-      we see how one such sum is related to the famous number <m>e</m>.
+      En esta sección,
+      exploramos otros tipos de sumas infinitas.
+      En <xref ref="PA-8-3">Preview Activity</xref>
+      vemos cómo una de esas sumas está relacionada con el famoso número <m>e</m>.
     </p>
 
     <xi:include href="./previews/PA-8-3.xml" />
   </introduction>
 
   <subsection permid="Tio">
-    <title>Infinite Series</title>
+    <title>Series Infinitas</title>
     <p permid="PSj">
       <xref ref="PA-8-3">Preview Activity</xref>
-      shows that an approximation to <m>e</m> using a linear polynomial is 2, an approximation to <m>e</m> using a quadratic polynomial is <m>2.5</m>,
-      and an approximation using a cubic polynomial is 2.6667.
-      If we continue this process we can obtain approximations from quartic (degree 4) and quintic (degree 5) polynomials,
-      giving us the following approximations to <m>e</m>:
+      muestra que una aproximación a <m>e</m> usando un polinomio lineal es 2, una aproximación a <m>e</m> usando un polinomio cuadrático es <m>2.5</m>,
+      y una aproximación usando un polinomio cúbico es 2.6667.
+      Si continuamos este proceso, podemos obtener aproximaciones de polinomios cuárticos (grado 4) y quínticos (grado 5),
+      dándonos las siguientes aproximaciones a <m>e</m>:
     </p>
 
     <sidebyside permid="UXB">
 
       <tabular top="minor" bottom="minor" permid="iki">
         <row>
-          <cell>linear</cell>
+          <cell>lineal</cell>
           <cell><m>1 + 1</m></cell>
           <cell><m>2</m></cell>
         </row>
         <row>
-          <cell>quadratic</cell>
+          <cell>cuadrático</cell>
           <cell><m>1 +1 + \frac{1}{2}</m></cell>
           <cell><m>2.5</m></cell>
         </row>
         <row>
-          <cell>cubic</cell>
+          <cell>cúbico</cell>
           <cell><m>1 + 1 + \frac{1}{2} + \frac{1}{6}</m></cell>
           <cell><m>2.\overline{6}</m></cell>
         </row>
         <row>
-          <cell>quartic</cell>
+          <cell>cuártico</cell>
           <cell><m>1 + 1 +  \frac{1}{2} + \frac{1}{6} + \frac{1}{24}</m></cell>
           <cell><m>2.708\overline{3}</m></cell>
         </row>
         <row>
-          <cell>quintic</cell>
+          <cell>quíntico</cell>
           <cell><m>1 + 1 + \frac{1}{2} + \frac{1}{6} + \frac{1}{24} + \frac{1}{120}</m></cell>
           <cell><m>2.71\overline{6}</m></cell>
         </row>
@@ -107,639 +107,635 @@
     </sidebyside>
 
     <p permid="vZs">
-      We see an interesting pattern here.
-      The number <m>e</m> is being approximated by the sum
+      Vemos un patrón interesante aquí.
+      El número <m>e</m> está siendo aproximado por la suma
       <men xml:id="eq-8-3-e-n" permid="tOG">
         1+1+\frac{1}{2} + \frac{1}{6} + \frac{1}{24} + \frac{1}{120} + \cdots + \frac{1}{n!}
       </men>
-      for increasing values of <m>n</m>.
+      para valores crecientes de <m>n</m>.
     </p>
 
     <p permid="cgB">
-      We can use summation notation as a shorthand<fn>
-      Note that <m>0!</m> appears in Equation<nbsp /><xref ref="eq-8-3-e" />.
-      By definition,
+      Podemos usar la notación de sumatoria como una abreviatura<fn>
+      Nota que <m>0!</m> aparece en la Ecuación<nbsp /><xref ref="eq-8-3-e" />.
+      Por definición,
       <m>0! = 1</m>.
-      </fn> for writing the sum in <xref ref="eq-8-3-e-n">Equation</xref> to get
+      </fn> para escribir la suma en <xref ref="eq-8-3-e-n">Equation</xref> y obtener
       <men xml:id="eq-8-3-e" permid="ZVP">
         e \approx 1+1+\frac{1}{2} + \frac{1}{6} + \frac{1}{24} + \frac{1}{120} + \cdots + \frac{1}{n!} = \sum_{k=0}^n \frac{1}{k!}
       </men>.
     </p>
 
     <p permid="InK">
-      We can calculate this sum using as large an <m>n</m> as we want,
-      and the larger <m>n</m> is the more accurate the approximation <xref ref="eq-8-3-e" /> is.
-      This suggests that we can write the number <m>e</m> as the infinite sum
+      Podemos calcular esta suma usando un <m>n</m> tan grande como queramos,
+      y cuanto más grande sea <m>n</m>, más precisa será la aproximación <xref ref="eq-8-3-e" />.
+      Esto sugiere que podemos escribir el número <m>e</m> como la suma infinita
       <men xml:id="eq-8-3-e-infinite" permid="GcY">
         e = \sum_{k=0}^{\infty} \frac{1}{k!}
       </men>.
     </p>
 
     <p permid="ouT">
-      This sum is an example of an
-      <em>infinite series</em>.
+      Esta suma es un ejemplo de una
+      <em>serie infinita</em>.
           <idx><h>infinite series</h></idx>
-      Note that the series<nbsp /><xref ref="eq-8-3-e-infinite" /> is the sum of the terms of the infinite sequence <m>\left\{\frac{1}{n!}\right\}</m>.
-      In general, we use the following notation and terminology.
+      Nota que la serie<nbsp /><xref ref="eq-8-3-e-infinite" /> es la suma de los términos de la secuencia infinita <m>\left\{\frac{1}{n!}\right\}</m>.
+      En general, usamos la siguiente notación y terminología.
     </p>
 
     <definition permid="cCa">
       <statement>
         <p permid="SMP">
-          An <term>infinite series</term>
-          of real numbers is the sum of the entries in an infinite sequence of real numbers.
-          In other words, an infinite series is sum of the form
+          Una <term>serie infinita</term>
+          de números reales es la suma de los elementos en una secuencia infinita de números reales.
+          En otras palabras, una serie infinita es una suma de la forma
           <me permid="mkh">
             a_1+a_2+ \cdots + a_n + \cdots = \sum_{k=1}^{\infty} a_k
           </me>,
-          where <m>a_1</m>, <m>a_2</m>,
-          <m>\ldots</m>, are real numbers.
+          donde <m>a_1</m>, <m>a_2</m>,
+          <m>\ldots</m>, son números reales.
         </p>
       </statement>
     </definition>
 
     <p permid="UCc">
-      We use summation notation to identify a series.
-      If the series adds the entries of a sequence <m>\{a_n\}_{n \geq 1}</m>,
-      we will write the series as
+      Usamos la notación de sumatoria para identificar una serie.
+      Si la serie suma los elementos de una secuencia <m>\{a_n\}_{n \geq 1}</m>,
+      escribiremos la serie como
       <me permid="Srq">
         \sum_{k \geq 1} a_k
       </me>
-      or
+      o
       <me permid="yyz">
         \sum_{k=1}^{\infty} a_k
       </me>.
     </p>
 
     <p permid="AJl">
-      Each of these notations is simply shorthand for the infinite sum <m>a_1 + a_2 + \cdots + a_n + \cdots</m>.
+      Cada una de estas notaciones es simplemente una abreviatura para la suma infinita <m>a_1 + a_2 + \cdots + a_n + \cdots</m>.
     </p>
 
     <p permid="gQu">
-      Is it even possible to sum an infinite list of numbers?
-      That doing so is possible in some situations shouldn't come as a surprise.
-      We have already examined the special case of geometric series in the previous section.  
-      Moreover, the definite integral is defined as the limit of a sequence of finite sums, 
-      which provides insight into how we'll think of infinite sums generally. 
-      As we investigate other infinite sums,
-      there are two key questions we seek to answer:  
-      (1) is the sum finite? and (2) if yes, what is its value?
+      ¿Es siquiera posible sumar una lista infinita de números?
+      Que hacerlo sea posible en algunas situaciones no debería sorprendernos.
+      Ya hemos examinado el caso especial de las series geométricas en la sección anterior.
+      Además, la integral definida se define como el límite de una secuencia de sumas finitas,
+      lo que proporciona una idea de cómo pensaremos en las sumas infinitas en general.
+      Al investigar otras sumas infinitas,
+      hay dos preguntas clave que buscamos responder:
+      (1) ¿es la suma finita? y (2) si es así, ¿cuál es su valor?
     </p>
 
     <xi:include href="./activities/act-8-3-1.xml" />
 
-    <p permid="MXD">
-      The example in <xref ref="act-8-3-1">Activity</xref>
-      illustrates how we define the sum of an infinite series.
-      We construct a new sequence of numbers (called the
-      <em>sequence of partial sums</em>)
-          <idx><h>partial sum</h></idx>
-          <idx><h>sequence of partial sums</h></idx>
-      where the <m>n</m>th term in the sequence consists of the sum of the first <m>n</m> terms of the series.
-      If this sequence converges,
-      the corresponding infinite series is said to converge,
-      and we say that we can find the sum of the series.
-      More formally, we have the following definition.
+<p permid="MXD">
+  El ejemplo en <xref ref="act-8-3-1">Actividad</xref>
+  ilustra cómo definimos la suma de una serie infinita.
+  Construimos una nueva secuencia de números (llamada la
+  <em>secuencia de sumas parciales</em>)
+      <idx><h>suma parcial</h></idx>
+      <idx><h>secuencia de sumas parciales</h></idx>
+  donde el término <m>n</m>-ésimo en la secuencia consiste en la suma de los primeros <m>n</m> términos de la serie.
+  Si esta secuencia converge,
+  se dice que la serie infinita correspondiente converge,
+  y decimos que podemos encontrar la suma de la serie.
+  Más formalmente, tenemos la siguiente definición.
+</p>
+
+<definition permid="IJj">
+  <statement>
+    <p permid="yTY">
+      La <term><m>n</m>-ésima suma parcial</term>
+      de la serie <m>\sum_{k=1}^{\infty} a_k</m> es la suma finita <m>S_n = \sum_{k=1}^{n} a_k</m>.
     </p>
+  </statement>
+</definition>
 
-    <definition permid="IJj">
-      <statement>
-        <p permid="yTY">
-          The <term><m>n</m>th partial sum</term>
-          of the series <m>\sum_{k=1}^{\infty} a_k</m> is the finite sum <m>S_n = \sum_{k=1}^{n} a_k</m>.
-        </p>
-      </statement>
-    </definition>
+<p permid="teM">
+  En otras palabras,
+  la <m>n</m>-ésima suma parcial <m>S_n</m> de una serie es la suma de los primeros <m>n</m> términos en la serie,
+  <me permid="eFI">
+    S_n = a_1 + a_2 + \cdots + a_n
+  </me>.
+</p>
 
-    <p permid="teM">
-      In other words,
-      the <m>n</m>th partial sum <m>S_n</m> of a series is the sum of the first <m>n</m> terms in the series,
-      <me permid="eFI">
-        S_n = a_1 + a_2 + \cdots + a_n
-      </me>.
-    </p>
+<p permid="ZlV">
+  Investigamos el comportamiento de la serie examinando la secuencia
+  <me permid="KMR">
+    S_1, S_2, \ldots, S_n, \ldots
+  </me>
+  de sus sumas parciales.
+  Si la secuencia de sumas parciales converge a algún número finito,
+  decimos que la serie correspondiente <em>converge</em>.
+      <idx><h>serie</h><h>converge</h></idx>
+  De lo contrario, decimos que la serie <em>diverge</em>.
+      <idx><h>serie</h><h>diverge</h></idx>
+  De nuestro trabajo en <xref ref="act-8-3-1">Actividad</xref>,
+  la serie
+  <me permid="qUa">
+    \sum_{k=1}^{\infty} \frac{1}{k^2}
+  </me>
+  parece converger a algún número cercano a 1.54977.
+  Formalizamos el concepto de convergencia y divergencia de una serie infinita en la siguiente definición.
+</p>
 
-    <p permid="ZlV">
-      We investigate the behavior of the series by examining the sequence
-      <me permid="KMR">
-        S_1, S_2, \ldots, S_n, \ldots
-      </me>
-      of its partial sums.
-      If the sequence of partial sums converges to some finite number,
-      we say that the corresponding series <em>converges</em>.
-          <idx><h>series</h><h>converges</h></idx>
-      Otherwise, we say the series <em>diverges</em>.
-          <idx><h>series</h><h>diverges</h></idx>
-      From our work in <xref ref="act-8-3-1">Activity</xref>,
-      the series
-      <me permid="qUa">
-        \sum_{k=1}^{\infty} \frac{1}{k^2}
-      </me>
-      appears to converge to some number near 1.54977.
-      We formalize the concept of convergence and divergence of an infinite series in the following definition.
-    </p>
-
-    <definition permid="oQs">
-      <statement>
-        <p permid="fbh">
-          The infinite series
-          <me permid="Xbj">
-            \sum_{k=1}^{\infty} a_k
-          </me>
-        </p>
-
-        <p permid="Liq">
-          <term>converges</term>
-          (or is <term>convergent</term>)
-          if the sequence <m>\{S_n\}</m> of partial sums converges, where
-          <me permid="Dis">
-            S_n = \sum_{k=1}^n a_k
-          </me>.
-        </p>
-
-        <p permid="rpz">
-          If <m>\lim_{n \to \infty} S_n = S</m>,
-          then we call <m>S</m> the sum of the series <m>\sum_{k=1}^{\infty} a_k</m>.
-          That is,
-          <me permid="jpB">
-            \sum_{k=1}^{\infty} a_k = \lim_{n \to \infty} S_n = S
-          </me>.
-        </p>
-
-        <p permid="XwI">
-          If the sequence of partial sums does not converge, then the series
-          <me permid="PwK">
-            \sum_{k=1}^{\infty} a_k
-          </me>
-        </p>
-
-        <p permid="DDR">
-          <term>diverges</term>
-          (or is <term>divergent</term>).
-        </p>
-      </statement>
-    </definition>
-
-    <p permid="Fte">
-      The early terms in a series do not influence whether or not the series converges or diverges.
-      Rather, the convergence or divergence of a series
-      <me permid="vDT">
+<definition permid="oQs">
+  <statement>
+    <p permid="fbh">
+      La serie infinita
+      <me permid="Xbj">
         \sum_{k=1}^{\infty} a_k
       </me>
-      is determined by what happens to the terms <m>a_k</m> for very large values of <m>k</m>.
-      To see why,
-      suppose that <m>m</m> is some constant larger than 1.
-      Then
-      <me permid="bLc">
-        \sum_{k=1}^{\infty} a_k = (a_1+a_2+ \cdots + a_m) + \sum_{k=m+1}^{\infty} a_k
+    </p>
+
+    <p permid="Liq">
+      <term>converge</term>
+      (o es <term>convergente</term>)
+      si la secuencia <m>\{S_n\}</m> de sumas parciales converge, donde
+      <me permid="Dis">
+        S_n = \sum_{k=1}^n a_k
       </me>.
     </p>
 
-    <p permid="lAn">
-      Since <m>a_1+a_2+ \cdots + a_m</m> is a finite number,
-      the series <m>\sum_{k=1}^{\infty} a_k</m> will converge if and only if the series <m>\sum_{k=m+1}^{\infty} a_k</m> converges.
-      Because the starting index of the series doesn't affect whether the series converges or diverges,
-      we will often just write
-      <me permid="HSl">
-        \sum a_k
+    <p permid="rpz">
+      Si <m>\lim_{n \to \infty} S_n = S</m>,
+      entonces llamamos <m>S</m> a la suma de la serie <m>\sum_{k=1}^{\infty} a_k</m>.
+      Es decir,
+      <me permid="jpB">
+        \sum_{k=1}^{\infty} a_k = \lim_{n \to \infty} S_n = S
+      </me>.
+    </p>
+
+    <p permid="XwI">
+      Si la secuencia de sumas parciales no converge, entonces la serie
+      <me permid="PwK">
+        \sum_{k=1}^{\infty} a_k
       </me>
-      when we are interested in questions of convergence/divergence as opposed to the exact sum of a series.
     </p>
 
-    <p permid="RHw">
-      In <xref ref="sec-8-2-geometric">Section</xref>
-      we encountered the special family of infinite geometric series.
-      Recall that a geometric series has the form
-      <m>\sum_{k=0}^{\infty} ar^k</m>,
-      where <m>a</m> and <m>r</m> are real numbers
-      (and <m>r \ne 1</m>).
-      We found that the <m>n</m>th partial sum <m>S_n</m> of a geometric series is given by the convenient formula
-      <me permid="nZu">
-        S_n = \frac{1-r^{n}}{1-r}
-      </me>,
-      and thus a geometric series converges if <m>|r| \lt  1</m>.
-      Geometric series diverge for all other values of <m>r</m>.
+    <p permid="DDR">
+      <term>diverge</term>
+      (o es <term>divergente</term>).
     </p>
+  </statement>
+</definition>
 
-    <p permid="xOF">
-      It is generally a difficult question to determine if a given nongeometric series converges or diverges.
-      There are several tests we can use that we will consider in the following sections.
+<p permid="Fte">
+  Los primeros términos de una serie no influyen en si la serie converge o diverge.
+  Más bien, la convergencia o divergencia de una serie
+  <me permid="vDT">
+    \sum_{k=1}^{\infty} a_k
+  </me>
+  se determina por lo que sucede con los términos <m>a_k</m> para valores muy grandes de <m>k</m>.
+  Para ver por qué,
+  supón que <m>m</m> es alguna constante mayor que 1.
+  Entonces
+  <me permid="bLc">
+    \sum_{k=1}^{\infty} a_k = (a_1+a_2+ \cdots + a_m) + \sum_{k=m+1}^{\infty} a_k
+  </me>.
+</p>
+
+<p permid="lAn">
+  Dado que <m>a_1+a_2+ \cdots + a_m</m> es un número finito,
+  la serie <m>\sum_{k=1}^{\infty} a_k</m> convergerá si y solo si la serie <m>\sum_{k=m+1}^{\infty} a_k</m> converge.
+  Debido a que el índice inicial de la serie no afecta si la serie converge o diverge,
+  a menudo solo escribiremos
+  <me permid="HSl">
+    \sum a_k
+  </me>
+  cuando estemos interesados en preguntas de convergencia/divergencia en lugar de la suma exacta de una serie.
+</p>
+
+<p permid="RHw">
+  En <xref ref="sec-8-2-geometric">Sección</xref>
+  encontramos la familia especial de series geométricas infinitas.
+  Recuerda que una serie geométrica tiene la forma
+  <m>\sum_{k=0}^{\infty} ar^k</m>,
+  donde <m>a</m> y <m>r</m> son números reales
+  (y <m>r \ne 1</m>).
+  Encontramos que la <m>n</m>-ésima suma parcial <m>S_n</m> de una serie geométrica se da por la fórmula conveniente
+  <me permid="nZu">
+    S_n = \frac{1-r^{n}}{1-r}
+  </me>,
+  y así una serie geométrica converge si <m>|r| \lt  1</m>.
+  Las series geométricas divergen para todos los demás valores de <m>r</m>.
+</p>
+
+<p permid="xOF">
+  Generalmente es una pregunta difícil determinar si una serie no geométrica dada converge o diverge.
+  Hay varias pruebas que podemos usar y que consideraremos en las siguientes secciones.
+</p>
+</subsection>
+
+<subsection permid="zpx">
+  <title>La Prueba de Divergencia</title>
+  <p permid="dVO">
+    La primera pregunta que hacemos sobre cualquier serie infinita suele ser
+    <q>¿Converge o diverge la serie?</q>
+    Hay una manera sencilla de verificar que ciertas series divergen, y
+    exploramos esta prueba en la siguiente actividad.
+  </p>
+
+  <xi:include href="./activities/act-8-3-2.xml" />
+
+  <p permid="KcX">
+    El resultado de <xref ref="act-8-3-2">Actividad</xref>
+    es la siguiente importante declaración condicional:
+  </p>
+
+  <blockquote permid="tAl">
+    <p permid="mFG">
+      Si la serie <m>\sum_{k = 1}^{\infty} a_k</m> converge,
+      entonces la secuencia <m>\{a_k\}</m> de términos <m>k</m>-ésimos converge a 0.
     </p>
-  </subsection>
+  </blockquote>
 
-  <subsection permid="zpx">
-    <title>The Divergence Test</title>
-    <p permid="dVO">
-      The first question we ask about any infinite series is usually
-      <q>Does the series converge or diverge?</q>
-      There is a straightforward way to check that certain series diverge, and
-      we explore this test in the next activity.
+  <p permid="qkg">
+    Es lógicamente equivalente decir que si la secuencia <m>\{a_k\}</m> no converge a 0, entonces la serie <m>\sum_{k = 1}^{\infty} a_k</m> no puede converger.
+    Esta declaración se llama la Prueba de Divergencia.
+        <idx><h>Prueba de Divergencia</h></idx>
+  </p>
+
+  <assemblage permid="DZq">
+    <title>La Prueba de Divergencia</title>
+    <p permid="Wrp">
+      Si <m>\lim_{k \to \infty} a_k \neq 0</m>,
+      entonces la serie <m>\sum a_k</m> diverge.
     </p>
+  </assemblage>
 
-    <xi:include href="./activities/act-8-3-2.xml" />
+  <xi:include href="./activities/act-8-3-3.xml" />
 
-    <p permid="KcX">
-      The result of <xref ref="act-8-3-2">Activity</xref>
-      is the following important conditional statement:
+  <p permid="Cyy">
+    <em>Nota bien:</em> ten mucho cuidado con la Prueba de Divergencia.
+    Esta prueba solo nos dice qué sucede con una serie si los términos de la secuencia correspondiente no convergen a 0.
+    Si la secuencia de los términos de la serie converge a 0, la Prueba de Divergencia no se aplica:
+    de hecho, como veremos pronto,
+    una serie cuyos términos tienden a cero puede tanto converger como diverger.
+  </p>
+</subsection>
+
+<subsection permid="fwG">
+  <title>La Prueba del Integral</title>
+  <idx><h>prueba del integral</h></idx>
+
+  <p permid="iFH">
+    La Prueba de Divergencia resuelve las preguntas de divergencia o convergencia de series
+    <m>\sum a_k</m> en las que <m>\lim_{k \to \infty} a_k \neq 0</m>.
+    Determinar la convergencia o divergencia de series <m>\sum a_k</m> en las que
+    <m>\lim_{k \to \infty} a_k = 0</m> resulta ser más complicado.
+    A menudo, tenemos que investigar la secuencia de sumas parciales o aplicar alguna otra técnica.
+  </p>
+
+  <p permid="OMQ">
+    A continuación, consideramos la <term>serie armónica</term>
+    <idx><h>serie armónica</h></idx><fn>
+    Esta serie se llama armónica porque cada término en la serie después del primero es la media armónica del término anterior y el término siguiente.
+    La media armónica de dos números <m>a</m> y <m>b</m> es <m>\frac{2ab}{a+b}</m>.
+    Ver <q>What's Harmonic about the Harmonic Series</q>,
+    por David E. Kullman (en el <pubtitle>College Mathematics Journal</pubtitle>, Vol. 32, No. 3 (mayo, 2001), 201-203) para una discusión interesante sobre la media armónica.
+    </fn><me permid="UgD">
+      \sum_{k=1}^{\infty} \frac{1}{k}
+    </me>.
+    Las primeras 9 sumas parciales de esta serie se muestran a continuación.
+    <md permid="AnM">
+      <mrow>\sum_{k=1}^{1} \frac{1}{k} \amp= 1 \amp \sum_{k=1}^{4} \frac{1}{k} \amp= 2.083333333 \amp \sum_{k=1}^{7} \frac{1}{k} \amp= 2.592857143</mrow>
+      <mrow>\sum_{k=1}^{2} \frac{1}{k} \amp= 1.5 \amp \sum_{k=1}^{5} \frac{1}{k} \amp= 2.283333333 \amp \sum_{k=1}^{8} \frac{1}{k} \amp= 2.717857143</mrow>
+      <mrow>\sum_{k=1}^{3} \frac{1}{k} \amp= 1.833333333 \amp \sum_{k=1}^{6} \frac{1}{k} \amp= 2.450000000 \amp \sum_{k=1}^{9} \frac{1}{k} \amp= 2.828968254</mrow>
+    </md>
+  </p>
+
+  <p permid="uTZ">
+    Esta información por sí sola no parece ser suficiente para decirnos si la serie
+    <m>\sum_{k=1}^{\infty} \frac{1}{k}</m> converge o diverge.
+    Las sumas parciales podrían eventualmente estabilizarse en algún número fijo o continuar creciendo sin límite.
+    Incluso si miramos sumas parciales más grandes,
+    como <m>\sum_{n=1}^{1000} \frac{1}{k} \approx 7.485470861</m>,
+    el resultado no es particularmente convincente de una manera u otra.
+    La Prueba del Integral es una forma de determinar si la serie armónica converge o no,
+    y exploramos esta prueba más a fondo en la siguiente actividad.
+  </p>
+
+  <xi:include href="./activities/act-8-3-4.xml" />
+
+  <p permid="bbi">
+    Las ideas de <xref ref="act-8-3-4">Actividad</xref> se aplican de manera más general.
+    Supón que <m>f</m> es una función continua decreciente y que
+    <m>a_k = f(k)</m> para cada valor de <m>k</m>.
+    Considera la serie correspondiente <m>\sum_{k=1}^{\infty} a_k</m>.
+    La suma parcial
+    <me permid="guV">
+      S_n = \sum_{k=1}^{n} a_k
+    </me>
+    siempre se puede ver como una suma de Riemann por la izquierda de <m>f(x)</m>,
+    usando rectángulos con bases de ancho 1 y alturas dadas por los valores <m>a_k</m>.
+    Una imagen representativa se muestra a la izquierda en <xref ref="F-8-3-Integral-Test">Figura</xref>.
+    Dado que <m>f</m> es una función decreciente, tenemos que
+    <me permid="MCe">
+      S_n \gt \int_1^n f(x) \ dx
+    </me>.
+  </p>
+
+  <p permid="Hir">
+    Tomando el límite cuando <m>n</m> tiende a infinito se muestra que
+    <me permid="sJn">
+      \sum_{k=1}^{\infty} a_k \gt \int_{1}^{\infty} f(x) \ dx
+    </me>.
+  </p>
+
+  <p permid="npA">
+    Por lo tanto, si la integral impropia <m>\int_{1}^{\infty} f(x) \ dx</m> diverge,
+    también lo hace la serie <m>\sum_{k=1}^{\infty} a_k</m>.
+  </p>
+
+  <figure xml:id="F-8-3-Integral-Test" permid="rZt">
+    <caption>Comparando una integral impropia con una serie</caption>
+    <sidebyside widths="48% 48%" margins="0%" permid="BeK">
+      <image source="images/8_3_Integral_test1" />
+      <image source="images/8_3_Integral_test2" />
+    </sidebyside>
+  </figure>
+
+  <p permid="TwJ">
+    Además,
+    si miramos las sumas de Riemann por la derecha de <m>f</m> en <m>[1,n]</m> como se muestra a la derecha en <xref ref="F-8-3-Integral-Test">Figura</xref>,
+    vemos que
+    <me permid="YQw">
+      \int_{1}^{\infty} f(x) \ dx \gt  \sum_{k=2}^{\infty} a_k
+    </me>.
+  </p>
+
+  <p permid="zDS">
+    Así que si <m>\int_{1}^{\infty} f(x) \ dx</m> converge,
+    entonces también lo hace <m>\sum_{k=2}^{\infty} a_k</m>,
+    lo que también significa que la serie <m>\sum_{k=1}^{\infty} a_k</m> también converge.
+    Nuestra discusión anterior ha demostrado la veracidad de la Prueba del Integral.
+    <idx><h>prueba del integral</h></idx>
+  </p>
+
+  <assemblage permid="kgz">
+    <title>La Prueba del Integral</title>
+    <p permid="fLb">
+      Sea <m>f</m> una función de valor real y supón que <m>f</m> es decreciente y positiva para todo <m>x</m> mayor que algún número <m>c</m>.
+      Sea <m>a_k = f(k)</m> para cada número entero positivo <m>k</m>.
+
+      <ol marker="a." permid="FOD">
+        <li permid="ggA">
+          <p permid="Jtd">
+            Si la integral impropia <m>\int_{c}^{\infty} f(x) \, dx</m> converge,
+            entonces la serie <m>\sum_{k=1}^{\infty} a_k</m> converge.
+          </p>
+        </li>
+
+        <li permid="MnJ">
+          <p permid="pAm">
+            Si la integral impropia <m>\int_{c}^{\infty} f(x) \, dx</m> diverge,
+            entonces la serie <m>\sum_{k=1}^{\infty} a_k</m> diverge.
+          </p>
+        </li>
+      </ol>
     </p>
+  </assemblage>
 
-    <blockquote permid="tAl">
-      <p permid="mFG">
-        If the series <m>\sum_{k = 1}^{\infty} a_k</m> converges,
-        then the sequence <m>\{a_k\}</m> of <m>k</m>th terms converges to 0.
-      </p>
-    </blockquote>
+  <p permid="LSk">
+    La Prueba del Integral compara una serie infinita dada con una integral impropia natural y correspondiente y dice que la serie infinita y la integral impropia correspondiente tienen el mismo estado de convergencia.
+    En la siguiente actividad,
+    aplicamos la Prueba del Integral para determinar la convergencia o divergencia de una clase de series importantes.
+  </p>
 
-    <p permid="qkg">
-      It is logically equivalent to say that if the sequence <m>\{a_k\}</m> does not converge to 0, then the series <m>\sum_{k = 1}^{\infty} a_k</m> cannot converge.
-      This statement is called the Divergence Test.
-          <idx><h>Divergence Test</h></idx>
-    </p>
+  <xi:include href="./activities/act-8-3-5.xml" />
+</subsection>
 
-    <assemblage permid="DZq">
-      <title>The Divergence Test</title>
-      <p permid="Wrp">
-        If <m>\lim_{k \to \infty} a_k \neq 0</m>,
-        then the series <m>\sum a_k</m> diverges.
-      </p>
-    </assemblage>
+<subsection permid="LDP">
+  <title>La Prueba de Comparación de Límites</title>
+  <idx><h>prueba de comparación de límites</h></idx>
 
-    <xi:include href="./activities/act-8-3-3.xml" />
+  <p permid="YgC">
+    La Prueba Integral nos permite determinar la convergencia de toda una familia de series:
+    las series <m>p</m>.
+    Sin embargo, hemos visto que a menudo es difícil integrar funciones,
+    por lo que la Prueba Integral no es una que podamos usar todo el tiempo.
+    De hecho, incluso para una serie relativamente simple como <m>\sum \frac{k^2+1}{k^4+2k+2}</m>,
+    la Prueba Integral no es una opción.
+    En lo que sigue, desarrollamos una prueba que se aplica a series de funciones racionales comparando su comportamiento con el comportamiento de las series <m>p</m>.
+  </p>
 
-    <p permid="Cyy">
-      <em>Note well:</em> be very careful with the Divergence Test.
-      This test only tells us what happens to a series if the terms of the corresponding sequence do not converge to 0.
-      If the sequence of the terms of the series does converge to 0, the Divergence Test does not apply:
-      indeed, as we will soon see,
-      a series whose terms go to zero may either converge or diverge.
-    </p>
-  </subsection>
+  <xi:include href="./activities/act-8-3-6.xml" />
 
-  <subsection permid="fwG">
-    <title>The Integral Test</title>
-    <idx><h>integral test</h></idx>
+  <p permid="EnL">
+    <xref ref="act-8-3-6">Actividad</xref>
+    ilustra cómo podemos comparar una serie con términos positivos con otra cuyo 
+    estado de convergencia conocemos.
+    Supón que tenemos dos series <m>\sum a_k</m> y
+    <m>\sum b_k</m> con términos positivos y conocemos el estado de convergencia de la serie <m>\sum a_k</m>.
+    Recuerda que la convergencia o divergencia de una serie depende solo de los términos de la serie para valores grandes de <m>k</m>,
+    así que si sabemos que <m>a_k</m> y <m>b_k</m> son proporcionales para valores grandes de <m>k</m>,
+    entonces las dos series <m>\sum a_k</m> y
+    <m>\sum b_k</m> deberían comportarse de la misma manera.
+    En otras palabras,
+    si hay una constante finita positiva <m>c</m> tal que
+    <me permid="EXF">
+      \lim_{k \to \infty} \frac{b_k}{a_k} = c
+    </me>,
+    entonces <m>b_k \approx ca_k</m> para valores grandes de <m>k</m>.
+    Así que
+    <me permid="leO">
+      \sum b_k \approx \sum ca_k = c  \sum a_k
+    </me>.
+  </p>
 
-    <p permid="iFH">
-      The Divergence Test settles the questions of divergence or convergence of series
-      <m>\sum a_k</m> in which <m>\lim_{k \to \infty} a_k \neq 0</m>.
-      Determining the convergence or divergence of series <m>\sum a_k</m> in which
-      <m>\lim_{k \to \infty} a_k = 0</m> turns out to be more complicated.
-      Often, we have to investigate the sequence of partial sums or apply some other technique.
-    </p>
+  <p permid="kuU">
+    Dado que multiplicar por una constante no nula no afecta la convergencia o divergencia de una serie,
+    se sigue que las series <m>\sum a_k</m> y
+    <m>\sum b_k</m> o bien ambas convergen o ambas divergen.
+    La declaración formal de este hecho se llama la Prueba de Comparación de Límites.
+  </p>
 
-    <p permid="OMQ">
-      Next, we consider the <term>harmonic
-      series</term>
-          <idx><h>harmonic series</h></idx><fn>
-      This series is called harmonic because each term in the series after the first is the harmonic mean of the term  before it and the term after it.
-      The harmonic mean of two numbers <m>a</m> and <m>b</m> is <m>\frac{2ab}{a+b}</m>.
-      See <q>What's Harmonic about the Harmonic Series</q>,
-      by David E. Kullman (in the <pubtitle>College Mathematics Journal</pubtitle>, Vol. 32, No. 3 (May, 2001), 201-203) for an interesting discussion of the harmonic mean.
-      </fn><me permid="UgD">
-        \sum_{k=1}^{\infty} \frac{1}{k}
-      </me>.
-      The first 9 partial sums of this series are shown following.
-      <md permid="AnM">
-        <mrow>\sum_{k=1}^{1} \frac{1}{k} \amp= 1 \amp \sum_{k=1}^{4} \frac{1}{k} \amp= 2.083333333 \amp \sum_{k=1}^{7} \frac{1}{k} \amp= 2.592857143</mrow>
-        <mrow>\sum_{k=1}^{2} \frac{1}{k} \amp= 1.5 \amp \sum_{k=1}^{5} \frac{1}{k} \amp= 2.283333333 \amp \sum_{k=1}^{8} \frac{1}{k} \amp= 2.717857143</mrow>
-        <mrow>\sum_{k=1}^{3} \frac{1}{k} \amp= 1.833333333 \amp \sum_{k=1}^{6} \frac{1}{k} \amp= 2.450000000 \amp \sum_{k=1}^{9} \frac{1}{k} \amp= 2.828968254</mrow>
-      </md>
-    </p>
-
-    <p permid="uTZ">
-      This information alone doesn't seem to be enough to tell us if the series
-      <m>\sum_{k=1}^{\infty} \frac{1}{k}</m> converges or diverges.
-      The partial sums could eventually level off to some fixed number or continue to grow without bound.
-      Even if we look at larger partial sums,
-      such as <m>\sum_{n=1}^{1000} \frac{1}{k} \approx 7.485470861</m>,
-      the result isn't particularly convincing one way or another.
-      The Integral Test is one way to determine whether or not the harmonic series converges,
-      and we explore this test further in the next activity.
-    </p>
-
-    <xi:include href="./activities/act-8-3-4.xml" />
-
-    <p permid="bbi">
-      The ideas from <xref ref="act-8-3-4">Activity</xref> hold more generally.
-      Suppose that <m>f</m> is a continuous decreasing function and that
-      <m>a_k = f(k)</m> for each value of <m>k</m>.
-      Consider the corresponding series <m>\sum_{k=1}^{\infty} a_k</m>.
-      The partial sum
-      <me permid="guV">
-        S_n = \sum_{k=1}^{n} a_k
-      </me>
-      can always be viewed as a left hand Riemann sum of <m>f(x)</m>,
-      using rectangles with bases of width 1 and heights given by the values <m>a_k</m>.
-      A representative picture is shown at left in <xref ref="F-8-3-Integral-Test">Figure</xref>.
-      Since <m>f</m> is a decreasing function, we have that
-      <me permid="MCe">
-        S_n \gt \int_1^n f(x) \ dx
-      </me>.
-    </p>
-
-    <p permid="Hir">
-      Taking the limit as <m>n</m> goes to infinity shows that
-      <me permid="sJn">
-        \sum_{k=1}^{\infty} a_k \gt \int_{1}^{\infty} f(x) \ dx
-      </me>.
-    </p>
-
-    <p permid="npA">
-      Therefore, if the improper integral <m>\int_{1}^{\infty} f(x) \ dx</m> diverges,
-      so does the series <m>\sum_{k=1}^{\infty} a_k</m>.
-    </p>
-
-    <figure xml:id="F-8-3-Integral-Test" permid="rZt">
-      <caption>Comparing an improper integral to a series</caption>
-      <sidebyside widths="48% 48%" margins="0%" permid="BeK">
-        <image source="images/8_3_Integral_test1" />
-        <image source="images/8_3_Integral_test2" />
-      </sidebyside>
-
-    </figure>
-
-    <p permid="TwJ">
-      What's more,
-      if we look at the right hand Riemann sums of <m>f</m> on <m>[1,n]</m> as shown at right in <xref ref="F-8-3-Integral-Test">Figure</xref>,
-      we see that
-      <me permid="YQw">
-        \int_{1}^{\infty} f(x) \ dx \gt  \sum_{k=2}^{\infty} a_k
-      </me>.
-    </p>
-
-    <p permid="zDS">
-      So if <m>\int_{1}^{\infty} f(x) \ dx</m> converges,
-      then so does <m>\sum_{k=2}^{\infty} a_k</m>,
-      which also means that the series <m>\sum_{k=1}^{\infty} a_k</m> also converges.
-      Our preceding discussion has demonstrated the truth of the Integral Test.
-          <idx><h>integral test</h></idx>
-    </p>
-
-    <assemblage permid="kgz">
-      <title>The Integral Test</title>
-      <p permid="fLb">
-        Let <m>f</m> be a real valued function and assume <m>f</m> is decreasing and positive for all <m>x</m> larger than some number <m>c</m>.
-        Let <m>a_k = f(k)</m> for each positive integer <m>k</m>.
-
-        <ol marker="a." permid="FOD">
-          <li permid="ggA">
-            <p permid="Jtd">
-              If the improper integral <m>\int_{c}^{\infty} f(x) \, dx</m> converges,
-              then the series <m>\sum_{k=1}^{\infty} a_k</m> converges.
-            </p>
-          </li>
-
-          <li permid="MnJ">
-            <p permid="pAm">
-              If the improper integral <m>\int_{c}^{\infty} f(x) \, dx</m> diverges,
-              then the series <m>\sum_{k=1}^{\infty} a_k</m> diverges.
-            </p>
-          </li>
-        </ol>
-      </p>
-    </assemblage>
-
-    <p permid="LSk">
-      The Integral Test compares a given infinite series to a natural,
-      corresponding improper integral and says that the infinite series and corresponding improper integral both have the same convergence status.
-      In the next activity,
-      we apply the Integral Test to determine the convergence or divergence of a class of important series.
-    </p>
-
-    <xi:include href="./activities/act-8-3-5.xml" />
-  </subsection>
-
-  <subsection permid="LDP">
-    <title>The Limit Comparison Test</title>
-    <idx><h>limit comparison test</h></idx>
-
-    <p permid="YgC">
-      The Integral Test allows us to determine the convergence of an entire family of series:
-      the <m>p</m>-series.
-      However, we have seen that it is often
-      difficult to integrate functions,
-      so the Integral Test is not one that we can use all of the time.
-      In fact, even for a relatively simple series such as <m>\sum \frac{k^2+1}{k^4+2k+2}</m>,
-      the Integral Test is not an option.
-      In what follows we develop a test that applies to series of rational functions by comparing their behavior to the behavior of <m>p</m>-series.
-    </p>
-
-    <xi:include href="./activities/act-8-3-6.xml" />
-
-    <p permid="EnL">
-      <xref ref="act-8-3-6">Activity</xref>
-      illustrates how we can compare one series with positive terms to another whose 
-      convergence status we know.
-      Suppose we have two series <m>\sum a_k</m> and
-      <m>\sum b_k</m> with positive terms and we know the convergence status of the series <m>\sum a_k</m>.
-      Recall that the convergence or divergence of a series depends only on the terms of the series for large values of <m>k</m>,
-      so if we know that <m>a_k</m> and <m>b_k</m> are proportional for large <m>k</m>,
-      then the two series <m>\sum a_k</m> and
-      <m>\sum b_k</m> should behave the same way.
-      In other words,
-      if there is a positive finite constant <m>c</m> such that
-      <me permid="EXF">
+  <assemblage permid="QnI">
+    <title>La Prueba de Comparación de Límites</title>
+    <p permid="QCd">
+      Sea <m>\sum a_k</m> y <m>\sum b_k</m> series con términos positivos.
+      Si
+      <me permid="RlX">
         \lim_{k \to \infty} \frac{b_k}{a_k} = c
-      </me>,
-      then <m>b_k \approx ca_k</m> for large values of <m>k</m>.
-      So
-      <me permid="leO">
-        \sum b_k \approx \sum ca_k = c  \sum a_k
+      </me>
+      para alguna constante positiva (finita) <m>c</m>,
+      entonces <m>\sum a_k</m> y <m>\sum b_k</m> o bien ambas convergen o ambas divergen.
+    </p>
+  </assemblage>
+
+  <p permid="wJm">
+    La Prueba de Comparación de Límites muestra que si tenemos una serie
+    <m>\sum \frac{p(k)}{q(k)}</m> de funciones racionales donde <m>p(k)</m> es un polinomio de grado <m>m</m> y <m>q(k)</m> un polinomio de grado <m>l</m>,
+    entonces la serie <m>\sum \frac{p(k)}{q(k)}</m> se comportará como la serie <m>\sum \frac{k^m}{k^l}</m>.
+    Así que esta prueba nos permite determinar la convergencia o divergencia de series cuyos términos son funciones racionales.
+  </p>
+
+  <xi:include href="./activities/act-8-3-7.xml" />
+</subsection>
+
+<subsection permid="rKY">
+  <title>La Prueba del Cociente</title>
+  <idx><h>prueba del cociente</h></idx>
+
+  <p permid="cQv">
+    La Prueba de Comparación de Límites funciona bien si podemos encontrar una serie con comportamiento conocido para comparar.
+    Pero tales series no siempre son fáciles de encontrar.
+    En esta sección examinaremos una prueba que nos permite examinar el comportamiento de una serie comparándola con una serie geométrica,
+    sin saber de antemano qué serie geométrica necesitamos.
+  </p>
+
+  <xi:include href="./activities/act-8-3-8.xml" />
+
+  <p permid="IXE">
+    Podemos generalizar el argumento en <xref ref="act-8-3-8">Actividad</xref> de la siguiente manera.
+    Considera la serie <m>\sum a_k</m>.
+    Si
+    <me permid="xtg">
+      \frac{a_{k+1}}{a_k} \approx r
+    </me>
+    para valores grandes de <m>k</m>,
+    entonces <m>a_{k+1} \approx ra_k</m> para valores grandes de <m>k</m> y la serie
+    <m>\sum a_k</m> es aproximadamente la serie geométrica <m>\sum ar^k</m> para valores grandes de <m>k</m>.
+    Dado que la serie geométrica con razón <m>r</m> converge solo para <m>-1 \lt   r \lt  1</m>,
+    vemos que la serie <m>\sum a_k</m> convergerá si
+    <me permid="dAp">
+      \lim_{k \to \infty} \frac{a_{k+1}}{a_k} = r
+    </me>
+    para un valor de <m>r</m> tal que <m>|r| \lt  1</m>.
+    Este resultado se conoce como la Prueba del Cociente.
+  </p>
+
+  <assemblage permid="wuR">
+    <title>La Prueba del Cociente</title>
+    <p permid="peN">
+      Sea <m>\sum a_k</m> una serie infinita.
+      Supón
+      <me permid="JHy">
+        \lim_{k \to \infty} \frac{|a_{k+1}|}{|a_k|} = r
       </me>.
-    </p>
-
-    <p permid="kuU">
-      Since multiplying by a nonzero constant does not affect the convergence or divergence of a series,
-      it follows that the series <m>\sum a_k</m> and
-      <m>\sum b_k</m> either both converge or both diverge.
-      The formal statement of this fact is called the Limit Comparison Test.
-    </p>
-
-    <assemblage permid="QnI">
-      <title>The Limit Comparison Test</title>
-      <p permid="QCd">
-        Let <m>\sum a_k</m> and <m>\sum b_k</m> be series with positive terms.
-        If
-        <me permid="RlX">
-          \lim_{k \to \infty} \frac{b_k}{a_k} = c
-        </me>
-        for some positive (finite) constant <m>c</m>,
-        then <m>\sum a_k</m> and <m>\sum b_k</m> either both converge or both diverge.
-      </p>
-    </assemblage>
-
-    <p permid="wJm">
-      The Limit Comparison Test shows that if we have a series
-      <m>\sum \frac{p(k)}{q(k)}</m> of rational functions where <m>p(k)</m> is a polynomial of degree <m>m</m> and <m>q(k)</m> a polynomial of degree <m>l</m>,
-      then the series <m>\sum \frac{p(k)}{q(k)}</m> will behave like the series <m>\sum \frac{k^m}{k^l}</m>.
-      So this test allows us to determine the convergence or divergence of series whose terms are rational functions.
-    </p>
-
-    <xi:include href="./activities/act-8-3-7.xml" />
-  </subsection>
-
-  <subsection permid="rKY">
-    <title>The Ratio Test</title>
-    <idx><h>ratio test</h></idx>
-
-    <p permid="cQv">
-      The Limit Comparison Test works well if we can find a series with known behavior to compare.
-      But such series are not always easy to find.
-      In this section we will examine a test that allows us to examine the behavior of a series by comparing it to a geometric series,
-      without knowing in advance which geometric series we need.
-    </p>
-
-    <xi:include href="./activities/act-8-3-8.xml" />
-
-    <p permid="IXE">
-      We can generalize the argument in <xref ref="act-8-3-8">Activity</xref> in the following way.
-      Consider the series <m>\sum a_k</m>.
-      If
-      <me permid="xtg">
-        \frac{a_{k+1}}{a_k} \approx r
-      </me>
-      for large values of <m>k</m>,
-      then <m>a_{k+1} \approx ra_k</m> for large <m>k</m> and the series
-      <m>\sum a_k</m> is approximately the geometric series <m>\sum ar^k</m> for large <m>k</m>.
-      Since the geometric series with ratio <m>r</m> converges only for <m>-1 \lt   r \lt  1</m>,
-      we see that the series <m>\sum a_k</m> will converge if
-      <me permid="dAp">
-        \lim_{k \to \infty} \frac{a_{k+1}}{a_k} = r
-      </me>
-      for a value of <m>r</m> such that <m>|r| \lt  1</m>.
-      This result is known as the Ratio Test.
-    </p>
-
-    <assemblage permid="wuR">
-      <title>The Ratio Test</title>
-      <p permid="peN">
-        Let <m>\sum a_k</m> be an infinite series.
-        Suppose
-        <me permid="JHy">
-          \lim_{k \to \infty} \frac{|a_{k+1}|}{|a_k|} = r
-        </me>.
-        <ol marker="a." permid="ScV">
-          <li permid="suS">
-            <p permid="VHv">
-              If <m>0 \leq r \lt 1</m>,
-              then the series <m>\sum a_k</m> converges.
-            </p>
-          </li>
-
-          <li permid="YCb">
-            <p permid="BOE">
-              If <m>1 \lt r</m>, then the series <m>\sum a_k</m> diverges.
-            </p>
-          </li>
-
-          <li permid="EJk">
-            <p permid="hVN">
-              If <m>r = 1</m>, then the test is inconclusive.
-            </p>
-          </li>
-        </ol>
-      </p>
-    </assemblage>
-
-    <p permid="VlW">
-      <em>Note well:</em> The Ratio Test looks at the limit of the ratio of consecutive terms
-      of a given series;
-      in so doing, the test is asking,
-      <q>is this series approximately geometric?</q>
-      If so,
-      the test uses the limit of the ratio of consecutive terms to determine if the given series converges.
-    </p>
-
-    <p permid="Btf">
-      We have now encountered several tests for determining convergence or divergence of series.
-
-      <ul permid="lVM">
-        <li permid="CTX">
-          The Divergence Test can be used to show that a series diverges,
-          but never to prove that a series converges.
-        </li>
-
-        <li permid="jbg">
-          We used the Integral Test to determine the convergence status of an entire class of series,
-          the <m>p</m>-series.
-        </li>
-
-        <li permid="Pip">
-          The Limit Comparison Test works well for series that involve rational functions and which can therefore by compared to <m>p</m>-series.
-        </li>
-
-        <li permid="vpy">
-          Finally, the Ratio Test allows us to compare our series to a geometric series;
-          it is particularly useful for series that involve <m>n</m>th powers and factorials.
-        </li>
-
-        <li permid="bwH">
-          Two other tests, the Direct Comparison Test and the Root Test,
-          are discussed in the exercises.
-        </li>
-      </ul>
-
-      One of the challenges of determining whether a series converges or diverges is finding which test answers that question.
-    </p>
-
-    <xi:include href="./activities/act-8-3-9.xml" />
-  </subsection>
-
-  <subsection permid="XSh">
-    <title>Summary</title>
-    <p permid="hAo">
-      <ul permid="yke">
-        <li permid="HDQ">
-          <p permid="OcW">
-            An infinite series is a sum of the elements in an infinite sequence.
-            In other words, an infinite series is a sum of the form
-            <me permid="pOH">
-              a_1 + a_2 + \cdots + a_n + \cdots = \sum_{k=1}^{\infty} a_k
-            </me>
-            where <m>a_k</m> is a real number for each positive integer <m>k</m>.
+      <ol marker="a." permid="ScV">
+        <li permid="suS">
+          <p permid="VHv">
+            Si <m>0 \leq r \lt 1</m>,
+            entonces la serie <m>\sum a_k</m> converge.
           </p>
         </li>
 
-        <li permid="nKZ">
-          <p permid="ukf">
-            The <m>n</m>th partial sum <m>S_n</m> of the series
-            <m>\sum_{k=1}^{\infty} a_k</m> is the sum of the first <m>n</m> terms of the series.
-            That is,
-            <me permid="VVQ">
-              S_n = a_1+a_2+ \cdots + a_n = \sum_{k=1}^{n} a_k
-            </me>.
+        <li permid="YCb">
+          <p permid="BOE">
+            Si <m>1 \lt r</m>, entonces la serie <m>\sum a_k</m> diverge.
           </p>
         </li>
 
-        <li permid="TSi">
-          <p permid="aro">
-            The sequence <m>\{S_n\}</m> of partial sums of a series
-            <m>\sum_{k=1}^{\infty} a_k</m> tells us about the convergence or divergence of the series.
-            In particular
-
-            <ul permid="aFJ">
-              <li permid="uyA">
-                <p permid="Orr">
-                  The series <m>\sum_{k=1}^{\infty} a_k</m> converges if the sequence <m>\{S_n\}</m> of partial sums converges.
-                  In this case we say that the series is the limit of the sequence of partial sums and write
-                  <me permid="CcZ">
-                    \sum_{k=1}^{\infty} a_k =\lim_{n \to \infty} S_n
-                  </me>.
-                </p>
-              </li>
-
-              <li permid="zZr">
-                <p permid="Gyx">
-                  The series <m>\sum_{k=1}^{\infty} a_k</m> diverges if the sequence <m>\{S_n\}</m> of partial sums diverges.
-                </p>
-              </li>
-            </ul>
+        <li permid="EJk">
+          <p permid="hVN">
+            Si <m>r = 1</m>, entonces la prueba es inconclusa.
           </p>
         </li>
-      </ul>
+      </ol>
     </p>
-  </subsection>
+  </assemblage>
 
-  <xi:include href="./exercises/ez-8-3.xml" />
+  <p permid="VlW">
+    <em>Nota bien:</em> La Prueba del Cociente examina el límite del cociente de términos consecutivos
+    de una serie dada;
+    al hacerlo, la prueba pregunta,
+    <q>¿es esta serie aproximadamente geométrica?</q>
+    Si es así,
+    la prueba usa el límite del cociente de términos consecutivos para determinar si la serie dada converge.
+  </p>
+
+  <p permid="Btf">
+    Ahora hemos encontrado varias pruebas para determinar la convergencia o divergencia de series.
+
+    <ul permid="lVM">
+      <li permid="CTX">
+        La Prueba de Divergencia se puede usar para mostrar que una serie diverge,
+        pero nunca para probar que una serie converge.
+      </li>
+
+      <li permid="jbg">
+        Usamos la Prueba Integral para determinar el estado de convergencia de toda una clase de series,
+        las series <m>p</m>.
+      </li>
+
+      <li permid="Pip">
+        La Prueba de Comparación de Límites funciona bien para series que involucran funciones racionales y que por lo tanto pueden compararse con series <m>p</m>.
+      </li>
+
+      <li permid="vpy">
+        Finalmente, la Prueba del Cociente nos permite comparar nuestra serie con una serie geométrica;
+        es particularmente útil para series que involucran potencias <m>n</m> y factoriales.
+      </li>
+
+      <li permid="bwH">
+        Otras dos pruebas, la Prueba de Comparación Directa y la Prueba de la Raíz,
+        se discuten en los ejercicios.
+      </li>
+    </ul>
+
+    Uno de los desafíos de determinar si una serie converge o diverge es encontrar qué prueba responde a esa pregunta.
+  </p>
+
+  <xi:include href="./activities/act-8-3-9.xml" />
+</subsection>
+
+<subsection permid="XSh">
+  <title>Resumen</title>
+  <p permid="hAo">
+    <ul permid="yke">
+      <li permid="HDQ">
+        <p permid="OcW">
+          Una serie infinita es una suma de los elementos en una secuencia infinita.
+          En otras palabras, una serie infinita es una suma de la forma
+          <me permid="pOH">
+            a_1 + a_2 + \cdots + a_n + \cdots = \sum_{k=1}^{\infty} a_k
+          </me>
+          donde <m>a_k</m> es un número real para cada entero positivo <m>k</m>.
+        </p>
+      </li>
+
+      <li permid="nKZ">
+        <p permid="ukf">
+          La <m>n</m>-ésima suma parcial <m>S_n</m> de la serie
+          <m>\sum_{k=1}^{\infty} a_k</m> es la suma de los primeros <m>n</m> términos de la serie.
+          Es decir,
+          <me permid="VVQ">
+            S_n = a_1+a_2+ \cdots + a_n = \sum_{k=1}^{n} a_k
+          </me>.
+        </p>
+      </li>
+
+      <li permid="TSi">
+        <p permid="aro">
+          La secuencia <m>\{S_n\}</m> de sumas parciales de una serie
+          <m>\sum_{k=1}^{\infty} a_k</m> nos dice sobre la convergencia o divergencia de la serie.
+          En particular
+
+          <ul permid="aFJ">
+            <li permid="uyA">
+              <p permid="Orr">
+                La serie <m>\sum_{k=1}^{\infty} a_k</m> converge si la secuencia <m>\{S_n\}</m> de sumas parciales converge.
+                En este caso decimos que la serie es el límite de la secuencia de sumas parciales y escribimos
+                <me permid="CcZ">
+                  \sum_{k=1}^{\infty} a_k =\lim_{n \to \infty} S_n
+                </me>.
+              </p>
+            </li>
+
+            <li permid="zZr">
+              <p permid="Gyx">
+                La serie <m>\sum_{k=1}^{\infty} a_k</m> diverge si la secuencia <m>\{S_n\}</m> de sumas parciales diverge.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </li>
+    </ul>
+  </p>
+</subsection>
+
+<xi:include href="./exercises/ez-8-3.xml" />
 </section>
 

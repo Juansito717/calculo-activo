@@ -13,34 +13,34 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-1-5-units" permid="IVE">
-  <title>Interpreting, estimating, and using the derivative</title>
+  <title>Interpretando, estimando y usando la derivada</title>
   <objectives permid="NFx">
     <ul permid="mih">
       <li permid="ywz">
         <p permid="PuK">
-          In contexts other than the position of a moving object,
-          what does the derivative of a function measure?
+          En contextos distintos a la posición de un objeto en movimiento,
+          ¿qué mide la derivada de una función?
         </p>
       </li>
 
       <li permid="eDI">
         <p permid="vBT">
-          What are the units on the derivative function <m>f'</m>,
-          and how are they related to the units of the original function <m>f</m>?
+          ¿Cuáles son las unidades en la función derivada <m>f'</m>,
+          y cómo se relacionan con las unidades de la función original <m>f</m>?
         </p>
       </li>
 
       <li permid="KKR">
         <p permid="bJc">
-          What is a central difference,
-          and how can one be used to estimate the value of the derivative at a point from given function data?
+          ¿Qué es una diferencia central,
+          y cómo se puede usar para estimar el valor de la derivada en un punto a partir de datos de la función?
         </p>
       </li>
 
       <li permid="qSa">
         <p permid="HQl">
-          Given the value of the derivative of a function at a point,
-          what can we infer about how the value of the function changes nearby?
+          Dado el valor de la derivada de una función en un punto,
+          ¿qué podemos inferir sobre cómo cambia el valor de la función cerca de ese punto?
         </p>
       </li>
     </ul>
@@ -48,129 +48,129 @@
 
   <introduction permid="tMG">
     <p permid="lcO">
-      It is a powerful feature of mathematics that it can be studied both as abstract discipline and as an applied one.
-      For instance,
-      calculus can be developed almost entirely as an abstract collection of ideas that focus on properties of functions.
-      At the same time,
-      if we consider functions that represent meaningful processes,
-      calculus can describe our experience of physical reality.
-      We have already seen that for the position function
-      <m>y = s(t)</m> of a ball being tossed straight up in the air,
-      the derivative of the position function,
-      <m>v(t) = s'(t)</m>, gives the ball's velocity at time <m>t</m>.
+      Es una característica poderosa de las matemáticas que se puede estudiar tanto como una disciplina abstracta como una aplicada.
+      Por ejemplo,
+      el cálculo se puede desarrollar casi enteramente como una colección abstracta de ideas que se enfocan en las propiedades de las funciones.
+      Al mismo tiempo,
+      si consideramos funciones que representan procesos significativos,
+      el cálculo puede describir nuestra experiencia de la realidad física.
+      Ya hemos visto que para la función de posición
+      <m>y = s(t)</m> de una pelota lanzada directamente hacia arriba,
+      la derivada de la función de posición,
+      <m>v(t) = s'(t)</m>, da la velocidad de la pelota en el tiempo <m>t</m>.
     </p>
 
     <p permid="RjX">
-      In this section,
-      we investigate several functions with specific physical meaning,
-      and consider how the units on the independent variable,
-      dependent variable,
-      and the derivative function add to our understanding.
-      To start, we consider the familiar problem of a position function of a moving object.
+      En esta sección,
+      investigamos varias funciones con significado físico específico,
+      y consideramos cómo las unidades en la variable independiente,
+      la variable dependiente,
+      y la función derivada añaden a nuestra comprensión.
+      Para empezar, consideramos el problema familiar de una función de posición de un objeto en movimiento.
     </p>
 
     <xi:include href="./previews/PA-1-5.xml" />
   </introduction>
 
   <subsection permid="pcN">
-    <title>Units of the derivative function</title>
+    <title>Unidades de la función derivada</title>
     <p permid="xrg">
-      As we now know,
-      the derivative of the function <m>f</m> at a fixed value <m>x</m> is given by
+      Como ya sabemos,
+      la derivada de la función <m>f</m> en un valor fijo <m>x</m> se da por
       <me permid="zgt">
         f'(x) = \lim_{h \to 0} \frac{f(x+h)-f(x)}{h}
       </me>,
-      and this value has several different interpretations.
-      If we set <m>x = a</m>,
-      one meaning of <m>f'(a)</m> is the slope of the tangent line at the point <m>(a,f(a))</m>.
+      y este valor tiene varias interpretaciones diferentes.
+      Si establecemos <m>x = a</m>,
+      un significado de <m>f'(a)</m> es la pendiente de la línea tangente en el punto <m>(a,f(a))</m>.
     </p>
 
     <p permid="dyp">
-      We also sometimes write <m>\frac{df}{dx}</m> or
-      <m>\frac{dy}{dx}</m> instead of <m>f'(x)</m>,
-      and these alternate notations help us see the units
-      (and thus the meaning)
-      of the derivative as
-      <em>the instantaneous rate of change of <m>f</m> with respect to <m>x</m></em>.
-          <idx><h>instantaneous rate of change</h></idx>
-      The units on the slope of the secant line,
+      También a veces escribimos <m>\frac{df}{dx}</m> o
+      <m>\frac{dy}{dx}</m> en lugar de <m>f'(x)</m>,
+      y estas notaciones alternativas nos ayudan a ver las unidades
+      (y por lo tanto el significado)
+      de la derivada como
+      <em>la tasa de cambio instantánea de <m>f</m> con respecto a <m>x</m></em>.
+          <idx><h>tasa de cambio instantánea</h></idx>
+      Las unidades en la pendiente de la línea secante,
       <m>\frac{f(x+h)-f(x)}{h}</m>,
-      are <q>units of <m>y</m> per unit of <m>x</m>,</q> and
-      when we take the limit as <m>h</m> goes to zero,
-      the derivative <m>f'(x)</m> has the same units:
-      units of <m>y</m> per unit of <m>x</m>.
+      son <q>unidades de <m>y</m> por unidad de <m>x</m>,</q> y
+      cuando tomamos el límite cuando <m>h</m> tiende a cero,
+      la derivada <m>f'(x)</m> tiene las mismas unidades:
+      unidades de <m>y</m> por unidad de <m>x</m>.
 
-      It is helpful to remember that the units on the derivative function are
-      <q>units of output per unit of input,</q> for the variables
-      of the original function.
+      Es útil recordar que las unidades en la función derivada son
+      <q>unidades de salida por unidad de entrada,</q> para las variables
+      de la función original.
     </p>
 
     <p permid="JFy">
-      For example, suppose that the function <m>y = P(t)</m>
-      measures the population of a city
-      (in thousands)
-      at the start of year <m>t</m>
-      (where <m>t = 0</m> corresponds to 2010 AD).
-      We are told that <m>P'(2) = 21.37</m>.
-      What is the meaning of this value?
-      Well, since <m>P</m> is measured in thousands and <m>t</m> is measured in years,
-      we can say that the instantaneous rate of change of the city's population with respect to time at the start of 2012 is 21.37 thousand people per year.
-      We therefore expect that in the coming year,
-      about 21,370 people will be added to the city's population.
+      Por ejemplo, supón que la función <m>y = P(t)</m>
+      mide la población de una ciudad
+      (en miles)
+      al inicio del año <m>t</m>
+      (donde <m>t = 0</m> corresponde al año 2010 DC).
+      Nos dicen que <m>P'(2) = 21.37</m>.
+      ¿Cuál es el significado de este valor?
+      Bueno, dado que <m>P</m> se mide en miles y <m>t</m> se mide en años,
+      podemos decir que la tasa de cambio instantánea de la población de la ciudad con respecto al tiempo al inicio de 2012 es de 21.37 mil personas por año.
+      Por lo tanto, esperamos que en el próximo año,
+      se añadirán alrededor de 21,370 personas a la población de la ciudad.
     </p>
   </subsection>
 
   <subsection permid="VjW">
-    <title>Toward more accurate derivative estimates</title>
+    <title>Hacia estimaciones más precisas de la derivada</title>
     <p permid="pMH">
-      Recall that to estimate the value of <m>f'(x)</m> at a given <m>x</m>,
-      we calculate a <em>difference quotient</em>
-          <idx><h>difference quotient</h></idx>
-      <m>\frac{f(x+h)-f(x)}{h}</m> with a relatively small value of <m>h</m>.
-      We should use both positive and negative values of <m>h</m> in order to account for the behavior of the function on both sides of the point of interest.
-      To that end, we introduce the notion of a
-      <em>central difference</em>
-      and its role in estimating derivatives.
+      Recuerda que para estimar el valor de <m>f'(x)</m> en un <m>x</m> dado,
+      calculamos un <em>cociente de diferencias</em>
+          <idx><h>cociente de diferencias</h></idx>
+      <m>\frac{f(x+h)-f(x)}{h}</m> con un valor relativamente pequeño de <m>h</m>.
+      Debemos usar tanto valores positivos como negativos de <m>h</m> para tener en cuenta el comportamiento de la función en ambos lados del punto de interés.
+      Con ese fin, introducimos la noción de una
+      <em>diferencia central</em>
+      y su papel en la estimación de derivadas.
     </p>
 
     <example xml:id="Ex-1-5-1" permid="hyo">
       <statement>
         <p permid="EVF">
-          Suppose that <m>y = f(x)</m> is a function for which three values are known:
-          <m>f(1) = 2.5</m>, <m>f(2) = 3.25</m>, and <m>f(3) = 3.625</m>.
-          Estimate <m>f'(2)</m>.
+          Supón que <m>y = f(x)</m> es una función para la cual se conocen tres valores:
+          <m>f(1) = 2.5</m>, <m>f(2) = 3.25</m>, y <m>f(3) = 3.625</m>.
+          Estima <m>f'(2)</m>.
         </p>
       </statement>
       <solution permid="ZTP">
         <p permid="gsV">
-          We know that <m>f'(2) = \lim_{h \to 0} \frac{f(2+h) - f(2)}{h}</m>.
-          But since we don't have a graph or a formula for the function,
-          we can neither sketch a tangent line nor evaluate the limit algebraically.
-          We can't even use smaller and smaller values of <m>h</m> to estimate the limit.
-          Instead, we have just two choices:
-          using <m>h = -1</m> or <m>h = 1</m>,
-          depending on which point we pair with <m>(2,3.25)</m>.
+          Sabemos que <m>f'(2) = \lim_{h \to 0} \frac{f(2+h) - f(2)}{h}</m>.
+          Pero como no tenemos un gráfico o una fórmula para la función,
+          no podemos ni dibujar una línea tangente ni evaluar el límite algebraicamente.
+          Ni siquiera podemos usar valores cada vez más pequeños de <m>h</m> para estimar el límite.
+          En cambio, solo tenemos dos opciones:
+          usar <m>h = -1</m> o <m>h = 1</m>,
+          dependiendo de qué punto emparejamos con <m>(2,3.25)</m>.
         </p>
 
         <p permid="MAe">
-          So, one estimate is
+          Entonces, una estimación es
           <me permid="fnC">
             f'(2) \approx \frac{f(1)-f(2)}{1-2} = \frac{2.5-3.25}{-1} = 0.75
           </me>.
         </p>
 
         <p permid="sHn">
-          The other is
+          La otra es
           <me permid="LuL">
             f'(2) \approx \frac{f(3)-f(2)}{3-2} = \frac{3.625-3.25}{1} = 0.375
           </me>.
         </p>
 
         <p permid="YOw">
-          Because the first approximation looks backward from the point
-          <m>(2,3.25)</m> and the second approximation looks forward,
-          it makes sense to average these two estimates in order to account for behavior on both sides of <m>x=2</m>.
-          Doing so, we find that
+          Debido a que la primera aproximación mira hacia atrás desde el punto
+          <m>(2,3.25)</m> y la segunda aproximación mira hacia adelante,
+          tiene sentido promediar estas dos estimaciones para tener en cuenta el comportamiento en ambos lados de <m>x=2</m>.
+          Haciendo esto, encontramos que
           <me permid="rBU">
             f'(2) \approx \frac{0.75 + 0.375}{2} = 0.5625
           </me>.
@@ -179,51 +179,51 @@
     </example>
 
     <p permid="VTQ">
-      The intuitive approach to average the two estimates found in <xref ref="Ex-1-5-1">Example</xref>
-      is in fact the best possible way estimate to a derivative when we have just two function values for <m>f</m> on opposite sides of the point of interest.
+      El enfoque intuitivo de promediar las dos estimaciones encontradas en <xref ref="Ex-1-5-1">Ejemplo</xref>
+      es de hecho la mejor manera posible de estimar una derivada cuando solo tenemos dos valores de la función para <m>f</m> en lados opuestos del punto de interés.
     </p>
 
     <figure xml:id="F-1-5-Ex1" permid="GKS">
-      <caption>At left, the graph of <m>y = f(x)</m> along with the secant line through <m>(1,2.5)</m> and <m>(2,3.25)</m>, the secant line through <m>(2, 3.25)</m> and <m>(3,3.625)</m>, as well as the tangent line.  At right, the same graph along with the secant line through <m>(1,2.5)</m> and <m>(3,3.625)</m>, plus the tangent line.</caption>
+      <caption>A la izquierda, el gráfico de <m>y = f(x)</m> junto con la línea secante a través de <m>(1,2.5)</m> y <m>(2,3.25)</m>, la línea secante a través de <m>(2, 3.25)</m> y <m>(3,3.625)</m>, así como la línea tangente. A la derecha, el mismo gráfico junto con la línea secante a través de <m>(1,2.5)</m> y <m>(3,3.625)</m>, además de la línea tangente.</caption>
       <image width="100%" source="images/1_5_Ex1" />
     </figure>
 
     <p permid="CaZ">
-      To see why,
-      we think about the diagram in <xref ref="F-1-5-Ex1">Figure</xref>.
-      On the left,
-      we see the two secant lines with slopes that come from computing the
-      <em>backward difference</em>
-          <idx><h>backward difference</h></idx>
-      <m>\frac{f(1)-f(2)}{1-2} = 0.75</m> and from the
-      <em>forward difference</em>
-          <idx><h>forward difference</h></idx>
+      Para ver por qué,
+      pensamos en el diagrama en <xref ref="F-1-5-Ex1">Figura</xref>.
+      A la izquierda,
+      vemos las dos líneas secantes con pendientes que provienen de calcular la
+      <em>diferencia hacia atrás</em>
+          <idx><h>diferencia hacia atrás</h></idx>
+      <m>\frac{f(1)-f(2)}{1-2} = 0.75</m> y de la
+      <em>diferencia hacia adelante</em>
+          <idx><h>diferencia hacia adelante</h></idx>
       <m>\frac{f(3)-f(2)}{3-2} = 0.375</m>.
-      Note how the first slope over-estimates the slope of the tangent line at <m>(2,f(2))</m>,
-      while the second slope underestimates <m>f'(2)</m>.
-      On the right, we see the secant line whose slope is given by the
-      <em>central difference</em>
-          <idx><h>central difference</h></idx>
+      Nota cómo la primera pendiente sobreestima la pendiente de la línea tangente en <m>(2,f(2))</m>,
+      mientras que la segunda pendiente subestima <m>f'(2)</m>.
+      A la derecha, vemos la línea secante cuya pendiente se da por la
+      <em>diferencia central</em>
+          <idx><h>diferencia central</h></idx>
       <me permid="XJd">
         \frac{f(3)-f(1)}{3-1} = \frac{3.625-2.5}{2} = \frac{1.125}{2} = 0.5625
       </me>.
     </p>
 
     <p permid="iii">
-      Note that this central difference has the same value as the average of the forward and backward differences
-      (and it is straightforward to explain why this always holds).
-      The central difference yields a very good approximation to the derivative's value,
-      because it yields a line closer to being parallel to the tangent line.
+      Nota que esta diferencia central tiene el mismo valor que el promedio de las diferencias hacia adelante y hacia atrás
+      (y es sencillo explicar por qué esto siempre se cumple).
+      La diferencia central produce una muy buena aproximación al valor de la derivada,
+      porque produce una línea más cercana a ser paralela a la línea tangente.
     </p>
 
     <p permid="Opr">
-      The <term>central difference approximation</term>
-      to the value of the first derivative is given by
+      La <term>aproximación de diferencia central</term>
+      al valor de la primera derivada se da por
       <me permid="DQm">
         f'(a) \approx \frac{f(a+h) - f(a-h)}{2h}
       </me>.
-      This quantity measures the slope of the secant line to <m>y = f(x)</m> through the points
-      <m>(a-h, f(a-h))</m> and <m>(a+h, f(a+h))</m>.
+      Esta cantidad mide la pendiente de la línea secante a <m>y = f(x)</m> a través de los puntos
+      <m>(a-h, f(a-h))</m> y <m>(a+h, f(a+h))</m>.
     </p>
 
     <xi:include href="./activities/act-1-5-1.xml" />
@@ -233,58 +233,58 @@
     <xi:include href="./activities/act-1-5-3.xml" />
 
     <p permid="uwA">
-      In <xref ref="sec-1-4-derivative-fxn">Section</xref>,
-      we learned how use to the graph of a given function <m>f</m> to plot the graph of its derivative,
+      En <xref ref="sec-1-4-derivative-fxn">Sección</xref>,
+      aprendimos cómo usar el gráfico de una función dada <m>f</m> para trazar el gráfico de su derivada,
       <m>f'</m>.
-      It is important to remember that when we do so,
-      the scale and the units on the vertical axis often have to change to represent <m>f'</m>.
-      For example, suppose that
-      <m>P(t) = 400-330e^{-0.03t}</m> tells us the temperature in degrees Fahrenheit of a potato in an oven at time <m>t</m> in minutes.
-      In <xref ref="F-1-5-PPprime">Figure</xref>,
-      we sketch the graph of <m>P</m> on the left and the graph of <m>P'</m> on the right.
+      Es importante recordar que cuando hacemos esto,
+      la escala y las unidades en el eje vertical a menudo tienen que cambiar para representar <m>f'</m>.
+      Por ejemplo, supón que
+      <m>P(t) = 400-330e^{-0.03t}</m> nos dice la temperatura en grados Fahrenheit de una papa en un horno en el tiempo <m>t</m> en minutos.
+      En <xref ref="F-1-5-PPprime">Figura</xref>,
+      dibujamos el gráfico de <m>P</m> a la izquierda y el gráfico de <m>P'</m> a la derecha.
     </p>
 
     <figure xml:id="F-1-5-PPprime" permid="mSb">
-      <caption>Plot of <m>P(t) = 400-330e^{-0.03t}</m> at left, and its derivative <m>P'(t)</m> at right.</caption>
+      <caption>Gráfico de <m>P(t) = 400-330e^{-0.03t}</m> a la izquierda, y su derivada <m>P'(t)</m> a la derecha.</caption>
       <image width="100%" source="images/1_5_PPprimeplot" />
     </figure>
 
     <p permid="aDJ">
-      Notice that the vertical scales are different in size
-      and different in units,
-      as the units of <m>P</m> are
-      <degree />F, while those of <m>P'</m> are <degree />F/min.
+      Nota que las escalas verticales son diferentes en tamaño
+      y diferentes en unidades,
+      ya que las unidades de <m>P</m> son
+      <degree />F, mientras que las de <m>P'</m> son <degree />F/min.
     </p>
   </subsection>
 
   <subsection permid="Brf">
-    <title>Summary</title>
+    <title>Resumen</title>
     <p permid="SZk">
       <ul permid="Spq">
         <li permid="WZj">
           <p permid="nXu">
-            The derivative of a given function <m>y=f(x)</m> measures the instantaneous rate of change of the output variable with respect to the input variable.
+            La derivada de una función dada <m>y=f(x)</m> mide la tasa de cambio instantánea de la variable de salida con respecto a la variable de entrada.
           </p>
         </li>
 
         <li permid="Dgs">
           <p permid="UeD">
-            The units on the derivative function
-            <m>y = f'(x)</m> are units of <m>y</m> per unit of <m>x</m>.
-            Again,
-            this measures how fast the output of the function <m>f</m> changes when the input of the function changes.
+            Las unidades en la función derivada
+            <m>y = f'(x)</m> son unidades de <m>y</m> por unidad de <m>x</m>.
+            Nuevamente,
+            esto mide qué tan rápido cambia la salida de la función <m>f</m> cuando cambia la entrada de la función.
           </p>
         </li>
 
         <li permid="jnB">
           <p permid="AlM">
-            The central difference approximation to the value of the first derivative is given by
+            La aproximación de diferencia central al valor de la primera derivada se da por
             <me permid="jXv">
               f'(a) \approx \frac{f(a+h) - f(a-h)}{2h}
             </me>.
-            This quantity measures the slope of the secant line to <m>y = f(x)</m> through the points
-            <m>(a-h, f(a-h))</m> and <m>(a+h, f(a+h))</m>.
-            The central difference generates a good approximation of the derivative's value.
+            Esta cantidad mide la pendiente de la línea secante a <m>y = f(x)</m> a través de los puntos
+            <m>(a-h, f(a-h))</m> y <m>(a+h, f(a+h))</m>.
+            La diferencia central genera una buena aproximación del valor de la derivada.
           </p>
         </li>
       </ul>
@@ -293,4 +293,3 @@
 
   <xi:include href="./exercises/ez-1-5.xml" />
 </section>
-

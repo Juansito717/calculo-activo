@@ -15,89 +15,89 @@
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-8-6" permid="Glc">
   <statement>
     <p permid="QKh">
-      In <xref ref="C-7">Chapter</xref>,
-      we learned some of the many important applications of differential equations,
-      and learned some approaches to solve or analyze them.
-      Here, we consider an important approach that will allow us to solve a wider variety of differential equations.
+      En el <xref ref="C-7">Capítulo</xref>,
+      aprendimos algunas de las muchas aplicaciones importantes de las ecuaciones diferenciales,
+      y aprendimos algunos enfoques para resolverlas o analizarlas.
+      Aquí, consideramos un enfoque importante que nos permitirá resolver una variedad más amplia de ecuaciones diferenciales.
     </p>
 
     <p permid="wRq">
-      Let's consider the familiar differential equation from exponential population growth given by
+      Consideremos la ecuación diferencial familiar del crecimiento exponencial de la población dada por
       <men xml:id="eq-PA-8-6-Resistance-ode" permid="pmR">
         y' = ky
       </men>,
-      where <m>k</m> is the constant of proportionality.
-      While we can solve this differential equation using methods we have already learned,
-      we take a different approach now that can be applied to a much larger set of differential equations.
-      For the rest of this activity,
-      let's assume that <m>k=1</m>.
-      We will use our knowledge of Taylor series to find a solution to the differential equation <xref ref="eq-PA-8-6-Resistance-ode" />.
+      donde <m>k</m> es la constante de proporcionalidad.
+      Aunque podemos resolver esta ecuación diferencial usando métodos que ya hemos aprendido,
+      ahora tomamos un enfoque diferente que se puede aplicar a un conjunto mucho más grande de ecuaciones diferenciales.
+      Para el resto de esta actividad,
+      supongamos que <m>k=1</m>.
+      Usaremos nuestro conocimiento de series de Taylor para encontrar una solución a la ecuación diferencial <xref ref="eq-PA-8-6-Resistance-ode" />.
     </p>
 
     <p permid="cYz">
-      To do so, we assume that we have a solution <m>y=f(x)</m> and that <m>f(x)</m> has a Taylor series that can be written in the form
+      Para hacerlo, asumimos que tenemos una solución <m>y=f(x)</m> y que <m>f(x)</m> tiene una serie de Taylor que se puede escribir en la forma
       <me permid="Vua">
         y = f(x) = \sum_{k=0}^{\infty} a_kx^k
       </me>,
-      where the coefficients <m>a_k</m> are undetermined.
-      Our task is to find the coefficients.
+      donde los coeficientes <m>a_k</m> son indeterminados.
+      Nuestra tarea es encontrar los coeficientes.
     </p>
 
     <p permid="JfI">
       <ol marker="a." permid="Qan">
         <li permid="whw">
           <p permid="Klb">
-            Assume that we can differentiate a power series term by term.
-            By taking the derivative of <m>f(x)</m> with respect to <m>x</m> and substituting the result into the differential equation <xref ref="eq-PA-8-6-Resistance-ode" />, show that the equation
+            Supón que podemos diferenciar una serie de potencias término a término.
+            Al tomar la derivada de <m>f(x)</m> con respecto a <m>x</m> y sustituir el resultado en la ecuación diferencial <xref ref="eq-PA-8-6-Resistance-ode" />, muestra que la ecuación
             <me permid="BBj">
               \sum_{k=1}^{\infty} ka_kx^{k-1} = \sum_{k=0}^{\infty} a_kx^{k}
             </me>
-            must be satisfied in order for
-            <m>f(x) = \sum_{k=0}^{\infty} a_kx^k</m> to be a solution of the DE.
+            debe ser satisfecha para que
+            <m>f(x) = \sum_{k=0}^{\infty} a_kx^k</m> sea una solución de la ED.
           </p>
         </li>
 
         <li permid="coF">
           <p permid="qsk">
-            Two series are equal if and only if they have the same coefficients on like power terms.
-            Use this fact to find a relationship between <m>a_1</m> and <m>a_0</m>.
+            Dos series son iguales si y solo si tienen los mismos coeficientes en términos de igual potencia.
+            Usa este hecho para encontrar una relación entre <m>a_1</m> y <m>a_0</m>.
           </p>
         </li>
 
         <li permid="IvO">
           <p permid="Wzt">
-            Now write <m>a_2</m> in terms of <m>a_1</m>.
-            Then write <m>a_2</m> in terms of <m>a_0</m>.
+            Ahora escribe <m>a_2</m> en términos de <m>a_1</m>.
+            Luego escribe <m>a_2</m> en términos de <m>a_0</m>.
           </p>
         </li>
 
         <li permid="oCX">
           <p permid="CGC">
-            Write <m>a_3</m> in terms of <m>a_2</m>.
-            Then write <m>a_3</m> in terms of <m>a_0</m>.
+            Escribe <m>a_3</m> en términos de <m>a_2</m>.
+            Luego escribe <m>a_3</m> en términos de <m>a_0</m>.
           </p>
         </li>
 
         <li permid="UKg">
           <p permid="iNL">
-            Write <m>a_4</m> in terms of <m>a_3</m>.
-            Then write <m>a_4</m> in terms of <m>a_0</m>.
+            Escribe <m>a_4</m> en términos de <m>a_3</m>.
+            Luego escribe <m>a_4</m> en términos de <m>a_0</m>.
           </p>
         </li>
 
         <li permid="ARp">
           <p permid="OUU">
-            Observe that there is a pattern in (b)-(e).
-            Find a general formula for <m>a_k</m> in terms of <m>a_0</m>.
+            Observa que hay un patrón en (b)-(e).
+            Encuentra una fórmula general para <m>a_k</m> en términos de <m>a_0</m>.
           </p>
         </li>
 
         <li permid="gYy">
           <p permid="vcd">
-            Write the series expansion for <m>y</m> using only the unknown coefficient <m>a_0</m>.
-            From this,
-            determine what familiar functions satisfy the differential equation <xref ref="eq-PA-8-6-Resistance-ode" />.
-            (<em>Hint</em>: Compare to a familiar Taylor series.)
+            Escribe la expansión en serie para <m>y</m> usando solo el coeficiente desconocido <m>a_0</m>.
+            A partir de esto,
+            determina qué funciones familiares satisfacen la ecuación diferencial <xref ref="eq-PA-8-6-Resistance-ode" />.
+            (<em>Consejo</em>: Compara con una serie de Taylor familiar.)
           </p>
         </li>
       </ol>
@@ -108,21 +108,21 @@
       <ol marker="a." permid="jTe">
         <li permid="NfH">
           <p permid="bjm">
-            Differentiation term by term gives
+            Diferenciar término a término da
             <me permid="hIs">
               y' = \sum_{k=1}^{\infty} ka_kx_{k-1}
             </me>.
           </p>
 
           <p permid="Hqv">
-            We then substitute this series into the differential equation <xref ref="eq-PA-8-6-Resistance-ode" /> to obtain the equation
+            Luego sustituimos esta serie en la ecuación diferencial <xref ref="eq-PA-8-6-Resistance-ode" /> para obtener la ecuación
           </p>
-          <!--This seems to end prematurely. -->
+          <!--Esto parece terminar prematuramente. -->
         </li>
 
         <li permid="tmQ">
           <p permid="nxE">
-            When we write the first few terms of the series on either side of our differential equation we obtain
+            Cuando escribimos los primeros términos de la serie en ambos lados de nuestra ecuación diferencial obtenemos
             <md permid="NPB">
               <mrow>\amp a_1 + (2)a_2x + (3)a_3x^2 + (4)a_4x^3 + \cdots + (k+1)a_{k+1}x^{k} + \cdots</mrow>
               <mrow>\amp= a_0 + a_1x + a_2x^2 + \cdots + a_kx^k + \cdots</mrow>
@@ -130,43 +130,43 @@
           </p>
 
           <p permid="TEN">
-            Equating the constant terms gives us <m>a_1 = a_0</m>.
+            Igualar los términos constantes nos da <m>a_1 = a_0</m>.
           </p>
         </li>
 
         <li permid="ZtZ">
           <p permid="zLW">
-            Equating the degree 1 terms gives us
-            <m>2a_2 = a_1</m> or <m>a_2 = \frac{a_1}{2}</m>.
-            Since <m>a_1 = a_0</m>,
-            we have <m>a_2 = \frac{a_0}{2}</m>.
+            Igualar los términos de grado 1 nos da
+            <m>2a_2 = a_1</m> o <m>a_2 = \frac{a_1}{2}</m>.
+            Como <m>a_1 = a_0</m>,
+            tenemos <m>a_2 = \frac{a_0}{2}</m>.
           </p>
         </li>
 
         <li permid="lIr">
           <p permid="fTf">
-            Equating the degree 2 terms gives us
-            <m>3a_3 = a_2</m> or <m>a_3 = \frac{a_2}{3}</m>.
-            Since <m>a_2 = \frac{a_0}{2}</m>,
-            we have <m>a_3 = \frac{a_0}{3!}</m>.
+            Igualar los términos de grado 2 nos da
+            <m>3a_3 = a_2</m> o <m>a_3 = \frac{a_2}{3}</m>.
+            Como <m>a_2 = \frac{a_0}{2}</m>,
+            tenemos <m>a_3 = \frac{a_0}{3!}</m>.
           </p>
         </li>
 
         <li permid="RPA">
           <p permid="Mao">
-            Equating the degree 3 terms gives us
-            <m>4a_4 = a_3</m> or <m>a_4 = \frac{a_3}{4}</m>.
-            Since <m>a_3 = \frac{a_0}{3!}</m>,
-            we have <m>a_4 = \frac{a_0}{4!}</m>.
+            Igualar los términos de grado 3 nos da
+            <m>4a_4 = a_3</m> o <m>a_4 = \frac{a_3}{4}</m>.
+            Como <m>a_3 = \frac{a_0}{3!}</m>,
+            tenemos <m>a_4 = \frac{a_0}{4!}</m>.
           </p>
         </li>
 
         <li permid="xWJ">
           <p permid="shx">
-            Equating the degree <m>k-1</m> terms gives us
-            <m>ka_k = a_{k-1}</m> or <m>a_k = \frac{a_{k-1}}{k}</m>.
-            It appears that <m>a_{k-1} = \frac{a_0}{(k-1)!}</m>,
-            so we have
+            Igualar los términos de grado <m>k-1</m> nos da
+            <m>ka_k = a_{k-1}</m> o <m>a_k = \frac{a_{k-1}}{k}</m>.
+            Parece que <m>a_{k-1} = \frac{a_0}{(k-1)!}</m>,
+            así que tenemos
             <me permid="tWK">
               a_k = \frac{a_0}{k!}
             </me>.
@@ -175,18 +175,17 @@
 
         <li permid="edS">
           <p permid="YoG">
-            Since <m>a_k = \frac{a_0}{k!}</m> we have
+            Como <m>a_k = \frac{a_0}{k!}</m> tenemos
             <me permid="adT">
               y = a_0 \sum_{k=0}^{\infty} \frac{x^k}{k!}
             </me>.
           </p>
 
           <p permid="EvP">
-            So the functions that satisfy the differential equation <xref ref="eq-PA-8-6-Resistance-ode" /> are the exponential functions of the form <m>y = a_0e^x</m>.
+            Así que las funciones que satisfacen la ecuación diferencial <xref ref="eq-PA-8-6-Resistance-ode" /> son las funciones exponenciales de la forma <m>y = a_0e^x</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </exploration>
-

@@ -14,13 +14,13 @@
 <!-- **********************************************************************-->
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-1-3" permid="ltw">
   <p permid="sXV">
-    Suppose that <m>f</m> is the function given by the graph below and that <m>a</m> and <m>a+h</m> are the input values as labeled on the <m>x</m>-axis.
-    Use the graph in <xref ref="F-1-3-PA1">Figure</xref>
-    to answer the following questions.
+    Supón que <m>f</m> es la función dada por el gráfico a continuación y que <m>a</m> y <m>a+h</m> son los valores de entrada como se indica en el eje <m>x</m>.
+    Usa el gráfico en <xref ref="F-1-3-PA1">Figura</xref>
+    para responder las siguientes preguntas.
   </p>
 
   <figure xml:id="F-1-3-PA1" permid="Fmn">
-    <caption>Plot of <m>y = f(x)</m> for <xref ref="PA-1-3">Preview Activity</xref>.</caption>
+    <caption>Gráfico de <m>y = f(x)</m> para <xref ref="PA-1-3">Actividad de Vista Previa</xref>.</caption>
     <image width="47%" source="images/1_3_PA1" />
   </figure>
 
@@ -28,32 +28,31 @@
     <ol marker="a." permid="PLs">
       <li permid="vSB">
         <p permid="Uvl">
-          Locate and label the points
-          <m>(a,f(a))</m> and <m>(a+h, f(a+h))</m> on the graph.
+          Ubica y etiqueta los puntos
+          <m>(a,f(a))</m> y <m>(a+h, f(a+h))</m> en el gráfico.
         </p>
       </li>
 
       <li permid="bZK">
         <p permid="ACu">
-          Construct a right triangle whose hypotenuse is the line segment from
-          <m>(a,f(a))</m> to <m>(a+h,f(a+h))</m>.
-          What are the lengths of the respective legs of this triangle?
+          Construye un triángulo rectángulo cuya hipotenusa sea el segmento de línea desde
+          <m>(a,f(a))</m> hasta <m>(a+h,f(a+h))</m>.
+          ¿Cuáles son las longitudes de los respectivos catetos de este triángulo?
         </p>
       </li>
 
       <li permid="IgT">
         <p permid="gJD">
-          What is the slope of the line that connects the points
-          <m>(a,f(a))</m> and <m>(a+h, f(a+h))</m>?
+          ¿Cuál es la pendiente de la línea que conecta los puntos
+          <m>(a,f(a))</m> y <m>(a+h, f(a+h))</m>?
         </p>
       </li>
 
       <li permid="ooc">
         <p permid="MQM">
-          Write a meaningful sentence that explains how the average rate of change of the function on a given interval and the slope of a related line are connected.
+          Escribe una oración significativa que explique cómo se conectan la tasa de cambio promedio de la función en un intervalo dado y la pendiente de una línea relacionada.
         </p>
       </li>
     </ol>
   </p>
 </exploration>
-

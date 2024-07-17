@@ -15,44 +15,44 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-2-3" permid="rvZ">
   <statement>
     <p permid="zay">
-      Answer each of the following questions.
-      Where a derivative is requested,
-      be sure to label the derivative function with its name using proper notation.
+      Responde a cada una de las siguientes preguntas.
+      Cuando se solicite una derivada,
+      asegúrate de etiquetar la función derivada con su nombre usando la notación adecuada.
 
       <ol marker="a." permid="Blk">
         <li permid="hst">
           <p permid="TYI">
-            Determine the derivative of <m>h(t) = 3\cos(t) - 4\sin(t)</m>.
+            Determina la derivada de <m>h(t) = 3\cos(t) - 4\sin(t)</m>.
           </p>
         </li>
 
         <li permid="NzC">
           <p permid="AfR">
-            Find the exact slope of the tangent line to
-            <m>y = f(x) = 2x + \frac{\sin(x)}{2}</m> at the point where <m>x = \frac{\pi}{6}</m>.
+            Encuentra la pendiente exacta de la línea tangente a
+            <m>y = f(x) = 2x + \frac{\sin(x)}{2}</m> en el punto donde <m>x = \frac{\pi}{6}</m>.
           </p>
         </li>
 
         <li permid="tGL">
           <p permid="gna">
-            Find the equation of the tangent line to
-            <m>y = g(x) = x^2 + 2\cos(x)</m> at the point where <m>x = \frac{\pi}{2}</m>.
+            Encuentra la ecuación de la línea tangente a
+            <m>y = g(x) = x^2 + 2\cos(x)</m> en el punto donde <m>x = \frac{\pi}{2}</m>.
           </p>
         </li>
 
         <li permid="ZNU">
           <p permid="Muj">
-            Determine the derivative of <m>p(z) = z^4 + 4^z + 4\cos(z) - \sin(\frac{\pi}{2})</m>.
+            Determina la derivada de <m>p(z) = z^4 + 4^z + 4\cos(z) - \sin(\frac{\pi}{2})</m>.
           </p>
         </li>
 
         <li permid="FVd">
           <p permid="sBs">
-            The function <m>P(t) = 24 + 8\sin(t)</m> represents a population of a particular kind of animal that lives on a small island,
-            where <m>P</m> is measured in hundreds and <m>t</m> is measured in decades since January 1, 2010.
-            What is the instantaneous rate of change of <m>P</m> on January 1, 2030?
-            What are the units of this quantity?
-            Write a sentence in everyday language that explains how the population is behaving at this point in time.
+            La función <m>P(t) = 24 + 8\sin(t)</m> representa una población de un tipo particular de animal que vive en una pequeña isla,
+            donde <m>P</m> se mide en cientos y <m>t</m> se mide en décadas desde el 1 de enero de 2010.
+            ¿Cuál es la tasa de cambio instantánea de <m>P</m> el 1 de enero de 2030?
+            ¿Cuáles son las unidades de esta cantidad?
+            Escribe una oración en lenguaje cotidiano que explique cómo se está comportando la población en este momento.
           </p>
         </li>
       </ol>
@@ -63,32 +63,32 @@
       <ol marker="a." permid="Veb">
         <li permid="mcm">
           <p permid="YIB">
-            Recall the constant multiple and sum rules.
+            Recuerda las reglas del múltiplo constante y de la suma.
           </p>
         </li>
 
         <li permid="Sjv">
           <p permid="EPK">
-            <m>f'(\frac{\pi}{6})</m> tells us the slope of the tangent line at <m>(\frac{\pi}{6},\frac{\pi}{6})</m>.
+            <m>f'(\frac{\pi}{6})</m> nos dice la pendiente de la línea tangente en <m>(\frac{\pi}{6},\frac{\pi}{6})</m>.
           </p>
         </li>
 
         <li permid="yqE">
           <p permid="kWT">
-            Find both <m>(\frac{\pi}{2}, g(\frac{\pi}{2}))</m> and <m>g'(\frac{\pi}{2})</m>.
+            Encuentra tanto <m>(\frac{\pi}{2}, g(\frac{\pi}{2}))</m> como <m>g'(\frac{\pi}{2})</m>.
           </p>
         </li>
 
         <li permid="exN">
           <p permid="Rec">
-            <m>\sin(\frac{\pi}{2})</m> is a constant.
+            <m>\sin(\frac{\pi}{2})</m> es una constante.
           </p>
         </li>
 
         <li permid="KEW">
           <p permid="xll">
-            <m>P'(a)</m> tells us the instantaneous rate of change of <m>P</m> with respect to time at the instant <m>t = a</m>,
-            and its units are <q>units of <m>P</m> per unit of time.</q>
+            <m>P'(a)</m> nos dice la tasa de cambio instantánea de <m>P</m> con respecto al tiempo en el instante <m>t = a</m>,
+            y sus unidades son <q>unidades de <m>P</m> por unidad de tiempo.</q>
           </p>
         </li>
       </ol>
@@ -123,7 +123,7 @@
 
         <li permid="jhG">
           <p permid="VNV">
-            <m>P'(2) = 8\cos(2) \approx -3.329</m> hundred animals per decade.
+            <m>P'(2) = 8\cos(2) \approx -3.329</m> cientos de animales por década.
           </p>
         </li>
       </ol>
@@ -134,38 +134,38 @@
       <ol marker="a." permid="IPJ">
         <li permid="PoP">
           <p permid="BVe">
-            By the sum and constant multiple rules,
+            Por las reglas de la suma y del múltiplo constante,
             <m>\frac{dh}{dt} = 3(-\sin(t)) - 4(\cos(t)) = -3\sin(t) - 4\cos(t)</m>.
           </p>
         </li>
 
         <li permid="vvY">
           <p permid="icn">
-            The exact slope of the tangent line to <m>y = f(x) = 2x + \frac{\sin(x)}{2}</m> at
-            <m>x = \frac{\pi}{6}</m> is given by <m>f'(\frac{\pi}{6})</m>.
-            So, we first compute <m>f'(x)</m>.
-            Using the sum and constant multiple rules,
+            La pendiente exacta de la línea tangente a <m>y = f(x) = 2x + \frac{\sin(x)}{2}</m> en
+            <m>x = \frac{\pi}{6}</m> está dada por <m>f'(\frac{\pi}{6})</m>.
+            Así que, primero calculamos <m>f'(x)</m>.
+            Usando las reglas de la suma y del múltiplo constante,
             <m>f'(x) = 2 + \frac{1}{2}\cos(x)</m>,
-            and thus <m>f'(\frac{\pi}{6}) = 2 + \frac{1}{2} \cos(\frac{\pi}{6}) = 2 + \frac{\sqrt{3}}{4}</m>.
+            y así <m>f'(\frac{\pi}{6}) = 2 + \frac{1}{2} \cos(\frac{\pi}{6}) = 2 + \frac{\sqrt{3}}{4}</m>.
           </p>
         </li>
 
         <li permid="bDh">
           <p permid="Ojw">
-            The tangent line passes through the point
-            <m>(\frac{\pi}{2}, g(\frac{\pi}{2}))</m> with slope <m>g'(\frac{\pi}{2})</m>.
-            We observe first that <m>g(\frac{\pi}{2}) = (\frac{\pi}{2})^2 + 2\cos(\frac{\pi}{2}) = \frac{\pi^2}{4}</m>.
-            Next, we compute the derivative function,
-            <m>g'(x)</m>, and find that
+            La línea tangente pasa por el punto
+            <m>(\frac{\pi}{2}, g(\frac{\pi}{2}))</m> con pendiente <m>g'(\frac{\pi}{2})</m>.
+            Observamos primero que <m>g(\frac{\pi}{2}) = (\frac{\pi}{2})^2 + 2\cos(\frac{\pi}{2}) = \frac{\pi^2}{4}</m>.
+            Luego, calculamos la función derivada,
+            <m>g'(x)</m>, y encontramos que
             <me permid="fhH">
               g'(x) = 2x - 2\sin(x)
             </me>.
-            Thus,
+            Así,
             <m>g(\frac{\pi}{2}) = 2 \cdot \frac{\pi}{2} - 2 \sin(\frac{\pi}{2}) = \pi - 2</m>.
 
-            Hence the equation of the tangent line
-            (in point-slope form)
-            is given by
+            Por lo tanto, la ecuación de la línea tangente
+            (en forma punto-pendiente)
+            está dada por
             <me permid="LoQ">
               y - \frac{\pi^2}{4} = (\pi-2)(x-\frac{\pi}{2})
             </me>.
@@ -174,25 +174,24 @@
 
         <li permid="HKq">
           <p permid="uqF">
-            Noting that <m>\sin(\frac{\pi}{2})</m> is a constant,
-            we have <m>p'(z) = 4z^3 + 4^z \ln(4) - 4\sin(z)</m>.
+            Notando que <m>\sin(\frac{\pi}{2})</m> es una constante,
+            tenemos <m>p'(z) = 4z^3 + 4^z \ln(4) - 4\sin(z)</m>.
           </p>
         </li>
 
         <li permid="nRz">
           <p permid="axO">
-            The value of <m>P'(2)</m> will tell us the instantaneous rate of change of <m>P</m> at the instant two decades have elapsed.
-            Observe that <m>P'(t) = 8\cos(t)</m>,
-            and thus <m>P'(2) = 8\cos(2) \approx -3.329</m> hundred animals per decade.
-            This tells us that the instantaneous rate of change of <m>P</m> on January 1, 2030 is about <m>-3329</m> animals per decade,
-            which tells us that the animal population is shrinking considerably at this point in time.
-            We might say that for whatever the population is on January 1, 2030,
-            we expect that population to drop by about 3300 animals over the next ten years,
-            provided the current population trend continues.
+            El valor de <m>P'(2)</m> nos dirá la tasa de cambio instantánea de <m>P</m> en el instante en que han transcurrido dos décadas.
+            Observa que <m>P'(t) = 8\cos(t)</m>,
+            y así <m>P'(2) = 8\cos(2) \approx -3.329</m> cientos de animales por década.
+            Esto nos dice que la tasa de cambio instantánea de <m>P</m> el 1 de enero de 2030 es de aproximadamente <m>-3329</m> animales por década,
+            lo que nos indica que la población de animales está disminuyendo considerablemente en este momento.
+            Podríamos decir que, sea cual sea la población el 1 de enero de 2030,
+            esperamos que esa población disminuya en unos 3300 animales en los próximos diez años,
+            siempre y cuando la tendencia actual de la población continúe.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

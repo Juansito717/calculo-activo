@@ -15,42 +15,42 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-1-2" permid="Lvh">
   <statement>
     <p permid="zgP">
-      Each of the following questions concern <m>s(t) = 64 - 16(t-1)^2</m>,
-      the position function from Preview <xref ref="PA-1-1">Activity</xref>.
+      Cada una de las siguientes preguntas se refiere a <m>s(t) = 64 - 16(t-1)^2</m>,
+      la función de posición del <xref ref="PA-1-1">Activity</xref> de la vista previa.
     </p>
 
     <p permid="fnY">
       <ol marker="a." permid="miD">
         <li permid="SpM">
           <p permid="MAA">
-            Compute the average velocity of the ball on the time interval <m>[1.5,2]</m>.
-            What is different between this value and the average velocity on the interval <m>[0,0.5]</m>?
+            Calcula la velocidad media de la pelota en el intervalo de tiempo <m>[1.5,2]</m>.
+            ¿Qué diferencia hay entre este valor y la velocidad media en el intervalo <m>[0,0.5]</m>?
           </p>
         </li>
 
         <li permid="ywV">
           <p permid="sHJ">
-            Use appropriate computing technology to estimate the instantaneous velocity of the ball at <m>t = 1.5</m>.
-            Likewise,
-            estimate the instantaneous velocity of the ball at <m>t = 2</m>.
-            Which value is greater?
+            Usa tecnología de cálculo adecuada para estimar la velocidad instantánea de la pelota en <m>t = 1.5</m>.
+            De igual manera,
+            estima la velocidad instantánea de la pelota en <m>t = 2</m>.
+            ¿Cuál valor es mayor?
           </p>
         </li>
 
         <li permid="eEe">
           <p permid="YOS">
-            How is the sign of the instantaneous velocity of the ball related to its behavior at a given point in time?
-            That is,
-            what does positive instantaneous velocity tell you the ball is doing?
-            Negative instantaneous velocity?
+            ¿Cómo se relaciona el signo de la velocidad instantánea de la pelota con su comportamiento en un momento dado?
+            Es decir,
+            ¿qué te dice una velocidad instantánea positiva sobre lo que está haciendo la pelota?
+            ¿Y una velocidad instantánea negativa?
           </p>
         </li>
 
         <li permid="KLn">
           <p permid="EWb">
-            Without doing any computations,
-            what do you expect to be the instantaneous velocity of the ball at <m>t = 1</m>?
-            Why?
+            Sin hacer ningún cálculo,
+            ¿qué esperas que sea la velocidad instantánea de la pelota en <m>t = 1</m>?
+            ¿Por qué?
           </p>
         </li>
       </ol>
@@ -61,29 +61,29 @@
       <ol marker="a." permid="Gbu">
         <li permid="qSw">
           <p permid="ldk">
-            Remember to use the formula for average velocity from above:
+            Recuerda usar la fórmula para la velocidad media de arriba:
             <m>AV_{[a,b]} = \frac{s(b)-s(a)}{b-a}</m>.
-            Think carefully about whether certain quantities are positive or negative.
+            Piensa cuidadosamente si ciertas cantidades son positivas o negativas.
           </p>
         </li>
 
         <li permid="WZF">
           <p permid="Rkt">
-            To estimate the instantaneous velocity at <m>t = 1.5</m>,
-            consider average velocities on the intervals
-            <m>[1.499,1.5]</m> and <m>[1.5,1.501]</m>.
+            Para estimar la velocidad instantánea en <m>t = 1.5</m>,
+            considera las velocidades medias en los intervalos
+            <m>[1.499,1.5]</m> y <m>[1.5,1.501]</m>.
           </p>
         </li>
 
         <li permid="DgO">
           <p permid="xrC">
-            Think about whether the ball is rising or falling.
+            Piensa si la pelota está subiendo o bajando.
           </p>
         </li>
 
         <li permid="jnX">
           <p permid="dyL">
-            What is the average velocity of the ball on small intervals that contain <m>t = 0</m>?
+            ¿Cuál es la velocidad media de la pelota en intervalos pequeños que contienen <m>t = 0</m>?
           </p>
         </li>
       </ol>
@@ -94,31 +94,31 @@
       <ol marker="a." permid="ZUl">
         <li permid="Pvg">
           <p permid="JFU">
-            <m>AV_{[1.5,2]} = -24</m> ft/sec, which is negative.
+            <m>AV_{[1.5,2]} = -24</m> ft/seg, lo cual es negativo.
           </p>
         </li>
 
         <li permid="vCp">
           <p permid="pNd">
-            The instantaneous velocity at <m>t = 1.5</m> is approximately <m>-16</m> ft/sec;
-            at <m>t = 2</m>,
-            the instantaneous velocity is about <m>-32</m> ft/sec,
-            and <m>-16>-32</m>.
+            La velocidad instantánea en <m>t = 1.5</m> es aproximadamente <m>-16</m> ft/seg;
+            en <m>t = 2</m>,
+            la velocidad instantánea es aproximadamente <m>-32</m> ft/seg,
+            y <m>-16>-32</m>.
           </p>
         </li>
 
         <li permid="bJy">
           <p permid="VUm">
-            When the ball is rising,
-            its instantaneous velocity is positive,
-            while when the ball is falling,
-            its instantaneous velocity is negative.
+            Cuando la pelota está subiendo,
+            su velocidad instantánea es positiva,
+            mientras que cuando la pelota está bajando,
+            su velocidad instantánea es negativa.
           </p>
         </li>
 
         <li permid="HQH">
           <p permid="Cbv">
-            Zero.
+            Cero.
           </p>
         </li>
       </ol>
@@ -129,47 +129,46 @@
       <ol marker="a." permid="tNc">
         <li permid="nXQ">
           <p permid="iiE">
-            <m>AV_{[1.5,2]} = \frac{s(2)-s(1.5)}{2-1.5} = -24</m> ft/sec.
-            We note that this average velocity is negative,
-            and in fact is the opposite of the average velocity of 24 ft/sec on the interval <m>[0,0.5]</m>.
+            <m>AV_{[1.5,2]} = \frac{s(2)-s(1.5)}{2-1.5} = -24</m> ft/seg.
+            Notamos que esta velocidad media es negativa,
+            y de hecho es el opuesto de la velocidad media de 24 ft/seg en el intervalo <m>[0,0.5]</m>.
           </p>
         </li>
 
         <li permid="UeZ">
           <p permid="OpN">
-            Since <m>AV_{[1.499,1.5]} = -15.984</m> and <m>AV_{[1.5, 1.501]} = -16.016</m>,
-            it appears that the instantaneous velocity of the ball at <m>t = 1.5</m> is approximately <m>-16</m> ft/sec.
-            Similar computations show that at <m>t = 2</m>,
-            it appears the instantaneous velocity is about <m>-32</m> ft/sec.
-            Note that <m>-16>-32</m>,
-            so the instantaneous velocity at <m>t = 1.5</m> is greater because it is <q>less negative.</q>
-            Asking which number is <q>greater</q>
-            is different from asking which number is <q>more negative.</q>
+            Dado que <m>AV_{[1.499,1.5]} = -15.984</m> y <m>AV_{[1.5, 1.501]} = -16.016</m>,
+            parece que la velocidad instantánea de la pelota en <m>t = 1.5</m> es aproximadamente <m>-16</m> ft/seg.
+            Cálculos similares muestran que en <m>t = 2</m>,
+            parece que la velocidad instantánea es aproximadamente <m>-32</m> ft/seg.
+            Nota que <m>-16>-32</m>,
+            así que la velocidad instantánea en <m>t = 1.5</m> es mayor porque es <q>menos negativa.</q>
+            Preguntar cuál número es <q>mayor</q>
+            es diferente de preguntar cuál número es <q>más negativo.</q>
           </p>
         </li>
 
         <li permid="Ami">
           <p permid="uwW">
-            When the ball is rising,
-            its instantaneous velocity is positive,
-            while when the ball is falling,
-            its instantaneous velocity is negative.
+            Cuando la pelota está subiendo,
+            su velocidad instantánea es positiva,
+            mientras que cuando la pelota está bajando,
+            su velocidad instantánea es negativa.
           </p>
         </li>
 
         <li permid="gtr">
           <p permid="aEf">
-            Note that <m>(1,s(1))</m> is the vertex of the parabola given by <m>s(t)</m>.
-            At this point, the ball is neither rising nor falling.
-            On intervals of the form <m>[a,1]</m>,
-            where <m>a \lt 1</m>, the average velocity of the ball is positive;
-            on intervals of form <m>[1,b]</m>,
-            where <m>b > 1</m>, the average velocity is positive.
-            Hence we expect the instantaneous velocity of the ball at the moment <m>t = 1</m> to be zero.
+            Nota que <m>(1,s(1))</m> es el vértice de la parábola dada por <m>s(t)</m>.
+            En este punto, la pelota no está ni subiendo ni bajando.
+            En intervalos de la forma <m>[a,1]</m>,
+            donde <m>a \lt 1</m>, la velocidad media de la pelota es positiva;
+            en intervalos de la forma <m>[1,b]</m>,
+            donde <m>b > 1</m>, la velocidad media es positiva.
+            Por lo tanto, esperamos que la velocidad instantánea de la pelota en el momento <m>t = 1</m> sea cero.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

@@ -14,31 +14,31 @@
 <!-- **********************************************************************-->
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-7-5" permid="yzm">
   <p permid="Ssd">
-    Any time that the rate of change of a quantity is related to the amount of a quantity,
-    a differential equation naturally arises.
-    In the following two problems,
-    we see two such scenarios;
-    for each, we want to develop a differential equation whose solution is the quantity of interest.
+    Cada vez que la tasa de cambio de una cantidad está relacionada con la cantidad de una cantidad,
+    surge naturalmente una ecuación diferencial.
+    En los siguientes dos problemas,
+    vemos dos de esos escenarios;
+    para cada uno, queremos desarrollar una ecuación diferencial cuya solución sea la cantidad de interés.
 
     <ol marker="a." permid="Yhp">
       <li permid="kvH">
         <p permid="BtS">
-          Suppose you have a bank account in which money grows at an
-          annual rate of 3%.
+          Supón que tienes una cuenta bancaria en la que el dinero crece a una
+          tasa anual del 3%.
 
           <ol marker="i." permid="qUN">
             <li permid="KNE">
               <p permid="eGv">
-                If you have $10,000 in the account,
-                at what rate is your money growing?
+                Si tienes $10,000 en la cuenta,
+                ¿a qué tasa está creciendo tu dinero?
               </p>
             </li>
 
             <li permid="QCQ">
               <p permid="hBb">
-                Suppose that you are also withdrawing money from the account at $1,000 per year.
-                What is the rate of change in the amount of money in the account?
-                What are the units on this rate of change?
+                Supón que también estás retirando dinero de la cuenta a $1,000 por año.
+                ¿Cuál es la tasa de cambio en la cantidad de dinero en la cuenta?
+                ¿Cuáles son las unidades de esta tasa de cambio?
               </p>
             </li>
           </ol>
@@ -47,37 +47,36 @@
 
       <li permid="VmJ">
         <p permid="NIk">
-          Suppose that a water tank holds 100 gallons and that a salty
-          solution,
-          which contains 20 grams of salt in every gallon,
-          enters the
-          tank at 2 gallons per minute.
+          Supón que un tanque de agua contiene 100 galones y que una solución salina,
+          que contiene 20 gramos de sal en cada galón,
+          entra al
+          tanque a 2 galones por minuto.
 
           <ol marker="i." permid="Eoy">
             <li permid="wJZ">
               <p permid="mkU">
-                How much salt enters the tank each minute?
+                ¿Cuánta sal entra al tanque cada minuto?
               </p>
             </li>
 
             <li permid="cRi">
               <p permid="tPt">
-                Suppose that initially there are 300 grams of salt in the tank.
-                How much salt is in each gallon at this point in time?
+                Supón que inicialmente hay 300 gramos de sal en el tanque.
+                ¿Cuánta sal hay en cada galón en este momento?
               </p>
             </li>
 
             <li permid="IYr">
               <p permid="ZWC">
-                Finally,
-                suppose that evenly mixed solution is pumped out of the tank at the rate of 2 gallons per minute.
-                How much salt leaves the tank each minute?
+                Finalmente,
+                supón que la solución mezclada uniformemente se bombea fuera del tanque a una tasa de 2 galones por minuto.
+                ¿Cuánta sal sale del tanque cada minuto?
               </p>
             </li>
 
             <li permid="pfA">
               <p permid="GdL">
-                What is the total rate of change in the amount of salt in the tank?
+                ¿Cuál es la tasa total de cambio en la cantidad de sal en el tanque?
               </p>
             </li>
           </ol>
@@ -86,4 +85,3 @@
     </ol>
   </p>
 </exploration>
-

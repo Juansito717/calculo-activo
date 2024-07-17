@@ -15,12 +15,12 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-8-2" permid="WxC">
   <statement>
     <p permid="RNJ">
-      This activity concerns a function <m>f(x)</m> about which the following information is known:
+      Esta actividad trata sobre una función <m>f(x)</m> sobre la cual se conoce la siguiente información:
 
       <ul permid="tGy">
         <li permid="FUQ">
           <p permid="pGz">
-            <m>f</m> is a differentiable function defined at every real number <m>x</m>
+            <m>f</m> es una función diferenciable definida en cada número real <m>x</m>
           </p>
         </li>
 
@@ -32,66 +32,65 @@
 
         <li permid="Sji">
           <p permid="BUR">
-            <m>y = f'(x)</m> has its graph given in <xref ref="F-1-8-Act2">Figure</xref>
+            <m>y = f'(x)</m> tiene su gráfico dado en <xref ref="F-1-8-Act2">Figura</xref>
           </p>
         </li>
       </ul>
     </p>
 
     <figure xml:id="F-1-8-Act2" permid="ecb">
-      <caption>At center, a graph of <m>y = f'(x)</m>; at left, axes for plotting <m>y = f(x)</m>; at right, axes for plotting <m>y = f''(x)</m>.</caption>
+      <caption>En el centro, un gráfico de <m>y = f'(x)</m>; a la izquierda, ejes para trazar <m>y = f(x)</m>; a la derecha, ejes para trazar <m>y = f''(x)</m>.</caption>
       <image width="100%" source="images/1_8_Act2" />
     </figure>
 
     <p permid="xUS">
-      Your task is to determine as much information as possible about <m>f</m>
-      (especially near the value <m>a = 2</m>)
-      by responding to the questions below.
+      Tu tarea es determinar tanta información como sea posible sobre <m>f</m>
+      (especialmente cerca del valor <m>a = 2</m>)
+      respondiendo a las preguntas a continuación.
 
       <ol marker="a." permid="ZNH">
         <li permid="yqr">
           <p permid="ica">
-            Find a formula for the tangent line approximation,
-            <m>L(x)</m>, to <m>f</m> at the point <m>(2,-1)</m>.
+            Encuentra una fórmula para la aproximación de la línea tangente,
+            <m>L(x)</m>, a <m>f</m> en el punto <m>(2,-1)</m>.
           </p>
         </li>
 
         <li permid="exA">
           <p permid="Ojj">
-            Use the tangent line approximation to estimate the value of <m>f(2.07)</m>.
-            Show your work carefully and clearly.
+            Usa la aproximación de la línea tangente para estimar el valor de <m>f(2.07)</m>.
+            Muestra tu trabajo cuidadosamente y claramente.
           </p>
         </li>
 
         <li permid="KEJ">
           <p permid="uqs">
-            Sketch a graph of <m>y = f''(x)</m> on the righthand grid in <xref ref="F-1-8-Act2">Figure</xref>;
-            label it appropriately.
+            Dibuja un gráfico de <m>y = f''(x)</m> en la cuadrícula de la derecha en <xref ref="F-1-8-Act2">Figura</xref>;
+            etiquétalo apropiadamente.
           </p>
         </li>
 
         <li permid="qLS">
           <p permid="axB">
-            Is the slope of the tangent line to <m>y = f(x)</m> increasing,
-            decreasing, or neither when <m>x = 2</m>?
-            Explain.
+            ¿Está aumentando, disminuyendo o ni una cosa ni la otra la pendiente de la línea tangente a <m>y = f(x)</m> cuando <m>x = 2</m>?
+            Explica.
           </p>
         </li>
 
         <li permid="WTb">
           <p permid="GEK">
-            Sketch a possible graph of
-            <m>y = f(x)</m> near <m>x = 2</m> on the lefthand grid in <xref ref="F-1-8-Act2">Figure</xref>.
-            Include a sketch of <m>y=L(x)</m> (found in part (a)).
-            Explain how you know the graph of
-            <m>y = f(x)</m> looks like you have drawn it.
+            Dibuja un posible gráfico de
+            <m>y = f(x)</m> cerca de <m>x = 2</m> en la cuadrícula de la izquierda en <xref ref="F-1-8-Act2">Figura</xref>.
+            Incluye un dibujo de <m>y=L(x)</m> (encontrado en la parte (a)).
+            Explica cómo sabes que el gráfico de
+            <m>y = f(x)</m> se ve como lo has dibujado.
           </p>
         </li>
 
         <li permid="Dak">
           <p permid="mLT">
-            Does your estimate in (b) over- or under-estimate the true value of <m>f(2.07)</m>?
-            Why?
+            ¿Tu estimación en (b) sobreestima o subestima el valor verdadero de <m>f(2.07)</m>?
+            ¿Por qué?
           </p>
         </li>
       </ol>
@@ -102,39 +101,39 @@
       <ol marker="a." permid="Nzp">
         <li permid="jht">
           <p permid="STc">
-            Find the value of <m>f'(2)</m> from the given graph of <m>f</m>.
+            Encuentra el valor de <m>f'(2)</m> del gráfico dado de <m>f</m>.
           </p>
         </li>
 
         <li permid="PoC">
           <p permid="zal">
-            Remember that <m>f(2.07) \approx L(2.07)</m>.
+            Recuerda que <m>f(2.07) \approx L(2.07)</m>.
           </p>
         </li>
 
         <li permid="vvL">
           <p permid="fhu">
-            The graph of <m>y = f''(x)</m> is the derivative of the graph of <m>y = f'(x)</m>.
+            El gráfico de <m>y = f''(x)</m> es la derivada del gráfico de <m>y = f'(x)</m>.
           </p>
         </li>
 
         <li permid="bCU">
           <p permid="LoD">
-            Is <m>f'</m> increasing, decreasing,
-            or neither when <m>x = 2</m>?
+            ¿Está <m>f'</m> aumentando, disminuyendo,
+            o ni una cosa ni la otra cuando <m>x = 2</m>?
           </p>
         </li>
 
         <li permid="HKd">
           <p permid="rvM">
-            Draw <m>y = L(x)</m> first.
-            Then think about options for <m>f</m> relative to the graph of <m>L</m>.
+            Dibuja <m>y = L(x)</m> primero.
+            Luego piensa en opciones para <m>f</m> en relación con el gráfico de <m>L</m>.
           </p>
         </li>
 
         <li permid="nRm">
           <p permid="XCV">
-            Does the tangent line lie above or below the graph of <m>y = f(x)</m> at <m>(2,3)</m>?
+            ¿La línea tangente está por encima o por debajo del gráfico de <m>y = f(x)</m> en <m>(2,3)</m>?
           </p>
         </li>
       </ol>
@@ -157,30 +156,30 @@
 
         <li permid="gmN">
           <p permid="PYw">
-            See the image in <xref ref="part-1-8-Act2-ans-e">part</xref>.
+            Ver la imagen en <xref ref="part-1-8-Act2-ans-e">parte</xref>.
           </p>
         </li>
 
         <li permid="MtW">
           <p permid="wfF">
-            Neither.
+            Ninguna.
           </p>
         </li>
 
         <li xml:id="part-1-8-Act2-ans-e" permid="sBf">
 
           <p permid="cmO">
-            See the image below, which shows, at left,
-            a possible graph of <m>y = f(x)</m> near <m>x = 2</m>,
-            along with the tangent line
-            <m>y = L(x)</m> through <m>(2, f(2))</m>.
+            Ver la imagen a continuación, que muestra, a la izquierda,
+            un posible gráfico de <m>y = f(x)</m> cerca de <m>x = 2</m>,
+            junto con la línea tangente
+            <m>y = L(x)</m> a través de <m>(2, f(2))</m>.
           </p>
 
           <sidebyside permid="Kjk">
-              <!--<caption>At left,
-            a possible graph of <m>y = f(x)</m> near <m>x = 2</m>,
-            along with the tangent line
-            <m>y = L(x)</m> through <m>(2, f(2))</m>.</caption>-->
+              <!--<caption>En la izquierda,
+            un posible gráfico de <m>y = f(x)</m> cerca de <m>x = 2</m>,
+            junto con la línea tangente
+            <m>y = L(x)</m> a través de <m>(2, f(2))</m>.</caption>-->
             <image width="100%" source="images/1_8_Act2Soln" />
           </sidebyside>
 
@@ -188,7 +187,7 @@
 
         <li permid="YIo">
           <p permid="ItX">
-            Too large.
+            Demasiado grande.
           </p>
         </li>
       </ol>
@@ -199,56 +198,56 @@
       <ol marker="a." permid="BkX">
         <li permid="EPx">
           <p permid="oBg">
-            Since <m>f(2) = -1</m> and <m>f'(2) = 2</m>,
-            we have <m>L(x) = -1 + 2(x-2)</m>.
+            Dado que <m>f(2) = -1</m> y <m>f'(2) = 2</m>,
+            tenemos <m>L(x) = -1 + 2(x-2)</m>.
           </p>
         </li>
 
         <li permid="kWG">
           <p permid="UIp">
-            Using our work in (a),
+            Usando nuestro trabajo en (a),
             <m>f(2.07) \approx L(2.07) = -1 + 2(2.07-2) = -1 + 2\cdot 0.07 = -0.86</m>.
           </p>
         </li>
 
         <li permid="RdP">
           <p permid="APy">
-            See the image in <xref ref="part-1-8-Act2-soln-e">part</xref>.
+            Ver la imagen en <xref ref="part-1-8-Act2-soln-e">parte</xref>.
           </p>
         </li>
 
         <li permid="xkY">
           <p permid="gWH">
-            The slope of the tangent line to
-            <m>y = f(x)</m> is increasing for <m>x \lt 2</m> because
-            <m>y = f'(x)</m> is an increasing function on this interval.
-            Similarly, for <m>x > 2</m>,
-            the slope of the tangent line to <m>y = f(x)</m> is decreasing.
-            Right at <m>x = 2</m>,
-            the slope of the tangent line to
-            <m>y = f(x)</m> is neither increasing nor decreasing.
+            La pendiente de la línea tangente a
+            <m>y = f(x)</m> está aumentando para <m>x \lt 2</m> porque
+            <m>y = f'(x)</m> es una función creciente en este intervalo.
+            De manera similar, para <m>x > 2</m>,
+            la pendiente de la línea tangente a <m>y = f(x)</m> está disminuyendo.
+            Justo en <m>x = 2</m>,
+            la pendiente de la línea tangente a
+            <m>y = f(x)</m> no está ni aumentando ni disminuyendo.
           </p>
         </li>
 
         <li xml:id="part-1-8-Act2-soln-e" permid="dsh">
 
           <p permid="NdQ">
-            See the plot in the image below, which shows, at left,
-            a possible graph of <m>y = f(x)</m> near <m>x = 2</m>,
-            along with the tangent line
-            <m>y = L(x)</m> through <m>(2, f(2))</m>.
+            Ver el gráfico en la imagen a continuación, que muestra, a la izquierda,
+            un posible gráfico de <m>y = f(x)</m> cerca de <m>x = 2</m>,
+            junto con la línea tangente
+            <m>y = L(x)</m> a través de <m>(2, f(2))</m>.
 
-            Note that <m>y = f(x)</m> is concave up for <m>x \lt 2</m> since <m>f'</m> is increasing on that interval,
-            and <m>y = f(x)</m> is concave down for <m>x > 2</m> since <m>f'</m> is decreasing there.
-            Hence <m>y = f(x)</m> changes from concave up to concave down right at <m>x = 2</m>,
-            which is also the point near 2 where the graph of <m>y = f(x)</m> is steepest.
+            Nota que <m>y = f(x)</m> es cóncava hacia arriba para <m>x \lt 2</m> ya que <m>f'</m> está aumentando en ese intervalo,
+            y <m>y = f(x)</m> es cóncava hacia abajo para <m>x > 2</m> ya que <m>f'</m> está disminuyendo allí.
+            Por lo tanto, <m>y = f(x)</m> cambia de cóncava hacia arriba a cóncava hacia abajo justo en <m>x = 2</m>,
+            que es también el punto cerca de 2 donde el gráfico de <m>y = f(x)</m> es más empinado.
           </p>
 
           <sidebyside permid="qqt">
-              <!--<caption>At left,
-            a possible graph of <m>y = f(x)</m> near <m>x = 2</m>,
-            along with the tangent line
-            <m>y = L(x)</m> through <m>(2, f(2))</m>.</caption>-->
+              <!--<caption>En la izquierda,
+            un posible gráfico de <m>y = f(x)</m> cerca de <m>x = 2</m>,
+            junto con la línea tangente
+            <m>y = L(x)</m> a través de <m>(2, f(2))</m>.</caption>-->
             <image width="100%" source="images/1_8_Act2Soln" />
           </sidebyside>
 
@@ -256,13 +255,12 @@
 
         <li permid="Jzq">
           <p permid="tkZ">
-            Because the tangent line to
-            <m>y = f(x)</m> lies above the graph  of <m>f</m> to the right of <m>x = 2</m>,
-            our estimate of <m>f(2.07)</m> is too large <mdash /> the local linearization overshoots the true value of <m>f</m> at this point.
+            Debido a que la línea tangente a
+            <m>y = f(x)</m> está por encima del gráfico de <m>f</m> a la derecha de <m>x = 2</m>,
+            nuestra estimación de <m>f(2.07)</m> es demasiado grande <mdash /> la linealización local sobreestima el valor verdadero de <m>f</m> en este punto.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

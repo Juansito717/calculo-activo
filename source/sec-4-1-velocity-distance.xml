@@ -13,32 +13,32 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-4-1-velocity-distance" permid="YPj">
-  <title>Determining distance traveled from velocity</title>
+  <title>Determinando la distancia recorrida a partir de la velocidad</title>
   <objectives permid="JGl">
     <ul permid="VUD">
       <li permid="iiV">
         <p permid="fop">
-          If we know the velocity of a moving body at every point in a given interval,
-          can we determine the distance the object has traveled on the time interval?
+          Si conocemos la velocidad de un cuerpo en movimiento en cada punto de un intervalo dado,
+          ¿podemos determinar la distancia que el objeto ha recorrido en el intervalo de tiempo?
         </p>
       </li>
 
       <li permid="Oqe">
         <p permid="Lvy">
-          How is the problem of finding distance traveled related to finding the area under a certain curve?
+          ¿Cómo se relaciona el problema de encontrar la distancia recorrida con encontrar el área bajo una cierta curva?
         </p>
       </li>
 
       <li permid="uxn">
         <p permid="rCH">
-          What does it mean to antidifferentiate a function and why is this process relevant to finding distance traveled?
+          ¿Qué significa antidiferenciar una función y por qué es relevante este proceso para encontrar la distancia recorrida?
         </p>
       </li>
 
       <li permid="aEw">
         <p permid="XJQ">
-          If velocity is negative,
-          how does this impact the problem of finding distance traveled?
+          Si la velocidad es negativa,
+          ¿cómo afecta esto al problema de encontrar la distancia recorrida?
         </p>
       </li>
     </ul>
@@ -46,432 +46,431 @@
 
   <introduction permid="pNu">
     <p permid="IAS">
-      In the first section of the text,
-      we considered a moving object with known position at time <m>t</m>, namely,
-      a tennis ball tossed into the air with height <m>s</m>
-      (in feet)
-      at time <m>t</m>
-      (in seconds)
-      given by <m>s(t) = 64 - 16(t-1)^2</m>.
-      We investigated the average velocity of the ball on an interval <m>[a,b]</m>,
-      computed by the difference quotient <m>\frac{s(b)-s(a)}{b-a}</m>.
-      We found that we could determine the instantaneous velocity of the ball at time <m>t</m> by taking the derivative of the position function,
+      En la primera sección del texto,
+      consideramos un objeto en movimiento con posición conocida en el tiempo <m>t</m>, a saber,
+      una pelota de tenis lanzada al aire con altura <m>s</m>
+      (en pies)
+      en el tiempo <m>t</m>
+      (en segundos)
+      dada por <m>s(t) = 64 - 16(t-1)^2</m>.
+      Investigamos la velocidad promedio de la pelota en un intervalo <m>[a,b]</m>,
+      calculada por el cociente de diferencias <m>\frac{s(b)-s(a)}{b-a}</m>.
+      Descubrimos que podíamos determinar la velocidad instantánea de la pelota en el tiempo <m>t</m> tomando la derivada de la función de posición,
       <me permid="BGn">
         s'(t) = \lim_{h \to 0} \frac{s(t+h)-s(t)}{h}
       </me>.
     </p>
 
     <p permid="oIb">
-      Thus, if its position function is differentiable,
-      we can find the velocity of a moving object at any point in time.
+      Así, si su función de posición es diferenciable,
+      podemos encontrar la velocidad de un objeto en movimiento en cualquier punto en el tiempo.
     </p>
 
     <p permid="UPk">
-      From this study of position and velocity we have learned a great deal.
-      We can use the derivative to find a function's instantaneous rate of change at any point in the domain,
-      to find where the function is increasing or decreasing,
-      where it is concave up or concave down,
-      and to locate relative extremes.
-      The vast majority of the problems and applications we have considered have involved the situation where a particular function is known and we seek information that relies on knowing the function's instantaneous rate of change.
-      For all these tasks,
-      we proceed from a function <m>f</m> to its derivative,
+      De este estudio de posición y velocidad hemos aprendido mucho.
+      Podemos usar la derivada para encontrar la tasa de cambio instantánea de una función en cualquier punto del dominio,
+      para encontrar dónde la función está aumentando o disminuyendo,
+      dónde es cóncava hacia arriba o hacia abajo,
+      y para localizar extremos relativos.
+      La gran mayoría de los problemas y aplicaciones que hemos considerado han involucrado la situación en la que se conoce una función particular y buscamos información que depende de conocer la tasa de cambio instantánea de la función.
+      Para todas estas tareas,
+      procedemos de una función <m>f</m> a su derivada,
       <m>f'</m>,
-      and use the meaning of the derivative to help us answer important questions.
+      y usamos el significado de la derivada para ayudarnos a responder preguntas importantes.
     </p>
 
     <p permid="AWt">
-      We have also encountered the reverse situation,
-      where we know the derivative of a function,
-      <m>f'</m>, and try to deduce information about <m>f</m>.
-      We will focus our attention in <xref ref="C-4">Chapter</xref> on this problem:
-      if we know the instantaneous rate of change of a function,
-      can we find the function itself?
-      We start with a more specific question:
-      if we know the instantaneous velocity of an object moving along a straight line path,
-      can we find its corresponding position function?
+      También hemos encontrado la situación inversa,
+      donde conocemos la derivada de una función,
+      <m>f'</m>, y tratamos de deducir información sobre <m>f</m>.
+      Nos enfocaremos en <xref ref="C-4">Capítulo</xref> en este problema:
+      si conocemos la tasa de cambio instantánea de una función,
+      ¿podemos encontrar la función misma?
+      Comenzamos con una pregunta más específica:
+      si conocemos la velocidad instantánea de un objeto que se mueve a lo largo de una trayectoria recta,
+      ¿podemos encontrar su función de posición correspondiente?
     </p>
 
     <xi:include href="./previews/PA-4-1.xml" />
   </introduction>
 
   <subsection permid="EWs">
-    <title>Area under the graph of the velocity function</title>
-    <idx><h>area</h><h>under velocity function</h></idx>
+    <title>Área bajo la gráfica de la función de velocidad</title>
+    <idx><h>área</h><h>bajo la función de velocidad</h></idx>
 
     <p permid="hdC">
-      In <xref ref="PA-4-1">Preview Activity</xref>,
-      we learned that
-      when the velocity of a moving object's velocity is constant
-      (and positive),
-      the area under the velocity curve over an interval of time tells us the distance the object traveled.
+      En <xref ref="PA-4-1">Actividad de Previsualización</xref>,
+      aprendimos que
+      cuando la velocidad de un objeto en movimiento es constante
+      (y positiva),
+      el área bajo la curva de velocidad en un intervalo de tiempo nos dice la distancia que el objeto ha recorrido.
     </p>
 
     <figure xml:id="F-4-1-VelArea" permid="ybN">
-      <caption>At left, a constant velocity function; at right, a non-constant velocity function.</caption>
+      <caption>A la izquierda, una función de velocidad constante; a la derecha, una función de velocidad no constante.</caption>
       <image width="74%" source="images/4_1_VelArea" />
     </figure>
 
     <p permid="NkL">
-      The left-hand graph of <xref ref="F-4-1-VelArea">Figure</xref>
-      shows the velocity of an object moving at 2 miles per hour over the time interval <m>[1,1.5]</m>.
-      The area <m>A_1</m> of the shaded region under <m>y = v(t)</m> on <m>[1,1.5]</m> is
+      La gráfica de la izquierda de <xref ref="F-4-1-VelArea">Figura</xref>
+      muestra la velocidad de un objeto que se mueve a 2 millas por hora en el intervalo de tiempo <m>[1,1.5]</m>.
+      El área <m>A_1</m> de la región sombreada bajo <m>y = v(t)</m> en <m>[1,1.5]</m> es
       <me permid="hNw">
-        A_1= 2 \, \frac{\text{miles} }{\text{hour} } \cdot \frac{1}{2} \, \text{hours}  = 1 \, \text{mile}
+        A_1= 2 \, \frac{\text{millas} }{\text{hora} } \cdot \frac{1}{2} \, \text{horas}  = 1 \, \text{milla}
       </me>.
     </p>
 
     <p permid="trU">
-      This result is simply the fact that distance equals rate times time,
-      provided the rate is constant.
-      Thus, if <m>v(t)</m> is constant on the interval <m>[a,b]</m>,
-      the distance traveled on <m>[a,b]</m> is equal to the area <m>A</m> given by
+      Este resultado es simplemente el hecho de que la distancia es igual a la tasa por el tiempo,
+      siempre que la tasa sea constante.
+      Así, si <m>v(t)</m> es constante en el intervalo <m>[a,b]</m>,
+      la distancia recorrida en <m>[a,b]</m> es igual al área <m>A</m> dada por
       <me permid="NUF">
         A = v(a) (b-a) = v(a) \Delta t
       </me>,
-      where <m>\Delta t</m> is the change in <m>t</m> over the interval.
-      (Since the velocity is constant,
-      we can use any value of <m>v(t)</m> on the interval <m>[a,b]</m>,
-      we simply chose <m>v(a)</m>,
-      the value at the interval's left endpoint.)
-      For several examples where the velocity function is piecewise constant, see
-      <url href="https://gvsu.edu/s/9T" visual="gvsu.edu/s/9T">this applet</url>.</p>
+      donde <m>\Delta t</m> es el cambio en <m>t</m> en el intervalo.
+      (Dado que la velocidad es constante,
+      podemos usar cualquier valor de <m>v(t)</m> en el intervalo <m>[a,b]</m>,
+      simplemente elegimos <m>v(a)</m>,
+      el valor en el extremo izquierdo del intervalo.)
+      Para varios ejemplos donde la función de velocidad es constante por tramos, ve
+      <url href="https://gvsu.edu/s/9T" visual="gvsu.edu/s/9T">este applet</url>.</p>
 
     <p permid="Zzd">
-      The situation is more complicated when the velocity function is not constant.
-      But on relatively small intervals where <m>v(t)</m> does not vary much,
-      we can use 
-      the area principle to estimate the distance traveled.
-      The graph at right in <xref ref="F-4-1-VelArea">Figure</xref>
-      shows a non-constant velocity function.
-      On the interval <m>[1,1.5]</m>, the
-      velocity varies from <m>v(1) = 2.5</m> down to <m>v(1.5) \approx 2.1</m>.
-      One estimate for the distance traveled is the area of the pictured rectangle,
+      La situación es más complicada cuando la función de velocidad no es constante.
+      Pero en intervalos relativamente pequeños donde <m>v(t)</m> no varía mucho,
+      podemos usar 
+      el principio del área para estimar la distancia recorrida.
+      La gráfica a la derecha en <xref ref="F-4-1-VelArea">Figura</xref>
+      muestra una función de velocidad no constante.
+      En el intervalo <m>[1,1.5]</m>, la
+      velocidad varía de <m>v(1) = 2.5</m> hasta <m>v(1.5) \approx 2.1</m>.
+      Una estimación de la distancia recorrida es el área del rectángulo representado,
       <me permid="ubO">
-        A_2 = v(1) \Delta t = 2.5 \, \frac{\text{miles} }{\text{hour} } \cdot \frac{1}{2} \, \text{hours}  = 1.25 \, \text{miles}
+        A_2 = v(1) \Delta t = 2.5 \, \frac{\text{millas} }{\text{hora} } \cdot \frac{1}{2} \, \text{horas}  = 1.25 \, \text{millas}
       </me>.
     </p>
 
     <p permid="FGm">
-      Note that because <m>v</m> is decreasing on <m>[1,1.5]</m>,
-      <m>A_2 = 1.25</m> is an over-estimate of the actual distance traveled.
+      Nota que debido a que <m>v</m> está disminuyendo en <m>[1,1.5]</m>,
+      <m>A_2 = 1.25</m> es una sobreestimación de la distancia real recorrida.
     </p>
     <!--<sidebyside widths="47% 47%" margins="0%" valign="bottom">-->
     <p permid="lNv">
-      To estimate the area under this non-constant velocity function on a wider interval,
-      say <m>[0,3]</m>, one rectangle will not give a good approximation.
-      Instead, we could use the six rectangles pictured in <xref ref="F-4-1-VelArea2">Figure</xref>,
-      find the area of each rectangle, and add up the total.
-      Obviously there are choices to make and issues to understand:
-      How many rectangles should we use?
-      Where should we evaluate the function to decide the rectangle's height?
-      What happens if the velocity is sometimes negative?
-      Can we find the exact area under any non-constant curve?
+      Para estimar el área bajo esta función de velocidad no constante en un intervalo más amplio,
+      digamos <m>[0,3]</m>, un rectángulo no dará una buena aproximación.
+      En su lugar, podríamos usar los seis rectángulos representados en <xref ref="F-4-1-VelArea2">Figura</xref>,
+      encontrar el área de cada rectángulo y sumar el total.
+      Obviamente hay decisiones que tomar y cuestiones que entender:
+      ¿Cuántos rectángulos deberíamos usar?
+      ¿Dónde deberíamos evaluar la función para decidir la altura del rectángulo?
+      ¿Qué pasa si la velocidad es a veces negativa?
+      ¿Podemos encontrar el área exacta bajo cualquier curva no constante?
     </p>
 
     <figure xml:id="F-4-1-VelArea2" permid="eiW">
-      <caption>Using six rectangles to estimate the area under <m>y = v(t)</m> on <m>[0,3]</m>.</caption>
+      <caption>Usando seis rectángulos para estimar el área bajo <m>y = v(t)</m> en <m>[0,3]</m>.</caption>
       <image width="47%" source="images/4_1_VelArea2" />
     </figure>
 <!--</sidebyside>-->
     <p permid="RUE">
-      We will study these questions and more in what follows;
-      for now it suffices to observe that the simple idea of the area of a rectangle gives us a powerful tool for estimating distance traveled from a velocity function,
-      as well as for estimating the area under an arbitrary curve.
-      To explore the use of multiple rectangles to approximate area under a non-constant velocity function,
-      see <url href="https://gvsu.edu/s/9U" visual="gvsu.edu/s/9U">this applet</url>.</p>
+      Estudiaremos estas preguntas y más en lo que sigue;
+      por ahora basta con observar que la simple idea del área de un rectángulo nos da una herramienta poderosa para estimar la distancia recorrida a partir de una función de velocidad,
+      así como para estimar el área bajo una curva arbitraria.
+      Para explorar el uso de múltiples rectángulos para aproximar el área bajo una función de velocidad no constante,
+      ve <url href="https://gvsu.edu/s/9U" visual="gvsu.edu/s/9U">este applet</url>.</p>
 
     <xi:include href="./activities/act-4-1-1.xml" />
   </subsection>
 
   <subsection permid="ldB">
-    <title>Two approaches: area and antidifferentiation</title>
-    <idx><h>antidifferentiation</h></idx>
-    <idx><h>distance traveled</h></idx>
+    <title>Dos enfoques: área y antidiferenciación</title>
+    <idx><h>antidiferenciación</h></idx>
+    <idx><h>distancia recorrida</h></idx>
 
     <p permid="Kqf">
-      When the velocity of a moving object is positive,
-      the object's position is always increasing.
-      (We will soon consider situations where velocity is negative;
-      for now, we focus on the situation where velocity is always positive.) We have established that whenever <m>v</m> is constant on an interval,
-      the exact distance traveled is the area under the velocity curve.
-      When <m>v</m> is not constant,
-      we can estimate the total distance traveled by finding the areas of rectangles that approximate the area under the velocity curve.
+      Cuando la velocidad de un objeto en movimiento es positiva,
+      la posición del objeto siempre está aumentando.
+      (Pronto consideraremos situaciones donde la velocidad es negativa;
+      por ahora, nos enfocamos en la situación donde la velocidad es siempre positiva.) Hemos establecido que siempre que <m>v</m> es constante en un intervalo,
+      la distancia exacta recorrida es el área bajo la curva de velocidad.
+      Cuando <m>v</m> no es constante,
+      podemos estimar la distancia total recorrida encontrando las áreas de los rectángulos que aproximan el área bajo la curva de velocidad.
     </p>
 
     <p permid="qxo">
-      Thus, we see that finding the area between a curve and the horizontal axis is an important exercise:
-      besides being an interesting geometric question,
-      if the curve gives the velocity of a moving object,
-      the area under the curve tells us the exact distance traveled on an interval.
-      We can estimate this area if we have a graph or a table of values for the velocity function.
+      Así, vemos que encontrar el área entre una curva y el eje horizontal es un ejercicio importante:
+      además de ser una pregunta geométrica interesante,
+      si la curva da la velocidad de un objeto en movimiento,
+      el área bajo la curva nos dice la distancia exacta recorrida en un intervalo.
+      Podemos estimar esta área si tenemos una gráfica o una tabla de valores para la función de velocidad.
     </p>
 
     <p permid="WEx">
-      In <xref ref="act-4-1-1">Activity</xref>,
-      we encountered an alternate approach to finding the distance traveled.
-      If <m>y = v(t)</m> is a formula for the instantaneous velocity
-      of a moving object,
-      then <m>v</m> must be the derivative of the object's position function,
+      En <xref ref="act-4-1-1">Actividad</xref>,
+      encontramos un enfoque alternativo para encontrar la distancia recorrida.
+      Si <m>y = v(t)</m> es una fórmula para la velocidad instantánea
+      de un objeto en movimiento,
+      entonces <m>v</m> debe ser la derivada de la función de posición del objeto,
       <m>s</m>.
-      If we can find a formula for <m>s(t)</m> from the formula for <m>v(t)</m>,
-      we will know the position of the object at time <m>t</m>,
-      and the change in position over a particular time interval tells us the distance traveled on that interval.
+      Si podemos encontrar una fórmula para <m>s(t)</m> a partir de la fórmula para <m>v(t)</m>,
+      sabremos la posición del objeto en el tiempo <m>t</m>,
+      y el cambio en la posición en un intervalo de tiempo particular nos dice la distancia recorrida en ese intervalo.
     </p>
 
     <p permid="CLG">
-      For a simple example,
-      consider the situation from <xref ref="PA-4-1">Preview Activity</xref>,
-      where a person is walking along a straight line with velocity function <m>v(t) = 3</m> mph.
+      Para un ejemplo simple,
+      considera la situación de <xref ref="PA-4-1">Actividad de Previsualización</xref>,
+      donde una persona está caminando a lo largo de una línea recta con una función de velocidad <m>v(t) = 3</m> mph.
     </p>
 
     <figure xml:id="F-4-1-PA1Soln" permid="Hvz">
-      <caption>The velocity function <m>v(t) = 3</m> and corresponding position function <m>s(t) = 3t</m>.</caption>
+      <caption>La función de velocidad <m>v(t) = 3</m> y la función de posición correspondiente <m>s(t) = 3t</m>.</caption>
       <image width="100%" source="images/4_1_PA1Soln" />
     </figure>
 
-    <p permid="iSP">
-      On the left-hand graph of the velocity function in <xref ref="F-4-1-PA1Soln">Figure</xref>,
-      we see the relationship between area and distance traveled,
-      <me permid="aiX">
-        A= 3 \, \frac{\text{miles} }{\text{hour} } \cdot 1.25 \, \text{hours}  = 3.75 \, \text{miles}
-      </me>.
-      In addition, we observe<fn>
-      Here we are making the implicit assumption that <m>s(0) = 0</m>;
-      we will discuss different possibilities for values of <m>s(0)</m> in subsequent study.
-      </fn> that if <m>s(t) = 3t</m>,
-      then <m>s'(t) = 3</m>, 
-      so <m>s(t) = 3t</m> is the position function whose derivative is the given velocity function,
-      <m>v(t) = 3</m>.
-      The respective locations of the person at times
-      <m>t = 0.25</m> and <m>t = 1.5</m> are
-      <m>s(1.5) = 4.5</m> and <m>s(0.25) = 0.75</m>, and therefore
-      <me permid="Gqg">
-        s(1.5) - s(0.25) = 4.5 - 0.75 = 3.75 \ \text{miles}
-      </me>.
-    </p>
+<p permid="iSP">
+  En el gráfico de la izquierda de la función de velocidad en <xref ref="F-4-1-PA1Soln">Figura</xref>,
+  vemos la relación entre el área y la distancia recorrida,
+  <me permid="aiX">
+    A= 3 \, \frac{\text{millas} }{\text{hora} } \cdot 1.25 \, \text{horas}  = 3.75 \, \text{millas}
+  </me>.
+  Además, observamos<fn>
+  Aquí estamos haciendo la suposición implícita de que <m>s(0) = 0</m>;
+  discutiremos diferentes posibilidades para los valores de <m>s(0)</m> en estudios posteriores.
+  </fn> que si <m>s(t) = 3t</m>,
+  entonces <m>s'(t) = 3</m>,
+  así que <m>s(t) = 3t</m> es la función de posición cuya derivada es la función de velocidad dada,
+  <m>v(t) = 3</m>.
+  Las respectivas ubicaciones de la persona en los momentos
+  <m>t = 0.25</m> y <m>t = 1.5</m> son
+  <m>s(1.5) = 4.5</m> y <m>s(0.25) = 0.75</m>, y por lo tanto
+  <me permid="Gqg">
+    s(1.5) - s(0.25) = 4.5 - 0.75 = 3.75 \ \text{millas}
+  </me>.
+</p>
 
-    <p permid="OZY">
-      This is the person's change in position on <m>[0.25,1.5]</m>,
-      which is precisely the distance traveled.
-      In this example there are profound ideas and connections that we will study throughout <xref ref="C-4">Chapter</xref>.
-    </p>
+<p permid="OZY">
+  Este es el cambio de posición de la persona en <m>[0.25,1.5]</m>,
+  que es precisamente la distancia recorrida.
+  En este ejemplo hay ideas y conexiones profundas que estudiaremos a lo largo del <xref ref="C-4">Capítulo</xref>.
+</p>
 
-    <p permid="vhh">
-      For now, observe that if we know a formula for a velocity function <m>v</m>,
-      it can be very helpful to find a function <m>s</m> that satisfies <m>s' = v</m>.
-      We say that <m>s</m> is an
-      <em>antiderivative</em> of <m>v</m>.
-      More generally, we have the following formal definition.
-    </p>
+<p permid="vhh">
+  Por ahora, observa que si conocemos una fórmula para una función de velocidad <m>v</m>,
+  puede ser muy útil encontrar una función <m>s</m> que satisfaga <m>s' = v</m>.
+  Decimos que <m>s</m> es una
+  <em>antiderivada</em> de <m>v</m>.
+  Más generalmente, tenemos la siguiente definición formal.
+</p>
 
-    <definition permid="dzc">
-      <statement>
-        <p permid="ctJ">
-          If <m>g</m> and <m>G</m> are functions such that <m>G' = g</m>,
-          we say that <m>G</m> is an <term>antiderivative</term>
-              <idx><h>antiderivative</h></idx>
-          of <m>g</m>.
+<definition permid="dzc">
+  <statement>
+    <p permid="ctJ">
+      Si <m>g</m> y <m>G</m> son funciones tales que <m>G' = g</m>,
+      decimos que <m>G</m> es una <term>antiderivada</term>
+          <idx><h>antiderivada</h></idx>
+      de <m>g</m>.
+    </p>
+  </statement>
+</definition>
+
+<p permid="boq">
+  Por ejemplo, si <m>g(x) = 3x^2 + 2x</m>,
+  <m>G(x) = x^3 + x^2</m> es una antiderivada de <m>g</m>,
+  porque <m>G'(x) = g(x)</m>.
+  Nota que decimos <q>una</q>
+  antiderivada de <m>g</m> en lugar de <q>la</q>
+  antiderivada de <m>g</m>, porque
+  <m>H(x) = x^3 + x^2 + 5</m> es también una función cuya derivada es <m>g</m>,
+  y por lo tanto <m>H</m> es otra antiderivada de <m>g</m>.
+</p>
+
+<xi:include href="./activities/act-4-1-2.xml" />
+</subsection>
+
+<subsection permid="RkK">
+  <title>Cuando la velocidad es negativa</title>
+  <p permid="nCI">
+    La suposición de que la velocidad es positiva en un intervalo dado garantiza que el movimiento de un objeto sea siempre en una sola dirección,
+    y por lo tanto asegura que su cambio de posición sea el mismo que la distancia que recorre.
+    Como vimos en <xref ref="act-4-1-2">Actividad</xref>,
+    hay situaciones naturales en las que la velocidad de un objeto es negativa, y
+    nos gustaría entender este escenario también.
+  </p>
+
+  <p permid="TJR">
+    Considera un ejemplo simple donde una mujer va a caminar por la playa a lo largo de un tramo de costa muy recta que corre de este a oeste.
+    Suponemos que su posición inicial es <m>s(0) = 0</m>,
+    y que su función de posición aumenta a medida que se mueve hacia el este desde su ubicación inicial.
+    Por ejemplo,
+    <m>s = 1</m> milla representa una milla al este de la ubicación inicial,
+    mientras que <m>s = -1</m> nos dice que está una milla al oeste de donde comenzó a caminar por la playa.
+  </p>
+
+  <p permid="zRa">
+    Ahora supón que camina de la siguiente manera.
+    Desde el inicio en <m>t = 0</m>,
+    camina hacia el este a una velocidad constante de <m>3</m> mph durante 1.5 horas.
+    Después de 1.5 horas,
+    se detiene abruptamente y comienza a caminar hacia el oeste a una velocidad constante de <m>4</m> mph y lo hace durante 0.5 horas.
+    Luego, después de otra parada y arranque abruptos,
+    reanuda su caminata a una velocidad constante de <m>3</m> mph hacia el este durante una hora más.
+    ¿Cuál es la distancia total que recorrió en el intervalo de tiempo de <m>t = 0</m> a <m>t = 3</m>?
+    ¿Cuál es el cambio total en su posición durante ese tiempo?
+  </p>
+
+  <p permid="fYj">
+    Estas preguntas se pueden responder sin cálculo porque la velocidad es constante en cada intervalo.
+    De <m>t = 0</m> a <m>t = 1.5</m>, ella recorrió
+    <me permid="mxp">
+      D_{[0,1.5]} = 3 \ \text{millas por hora}  \cdot 1.5 \ \text{horas}  = 4.5 \ \text{millas}
+    </me>.
+  </p>
+
+  <p permid="Mfs">
+    De <m>t = 1.5</m> a <m>t = 2</m>,
+    la distancia recorrida es
+    <me permid="SEy">
+      D_{[1.5,2]} = 4 \ \text{millas por hora}  \cdot 0.5 \ \text{horas}  = 2 \ \text{millas}
+    </me>.
+  </p>
+
+  <p permid="smB">
+    Finalmente, en la última hora caminó
+    <me permid="yLH">
+      D_{[2,3]} = 3 \ \text{millas por hora}  \cdot 1 \ \text{hora}  = 3 \ \text{millas}
+    </me>,
+    así que la distancia total que recorrió es
+    <me permid="eSQ">
+      D = D_{[0,1.5]} + D_{[1.5,2]} + D_{[2,3]} = 4.5 + 2 + 3 = 9.5 \ \text{millas}
+    </me>.
+  </p>
+
+  <p permid="YtK">
+    Dado que la velocidad para <m>1.5 \lt  t \lt  2</m> es <m>v = -4</m>,
+    indicando movimiento en dirección oeste,
+    la mujer primero caminó 4.5 millas hacia el este,
+    luego 2 millas hacia el oeste, seguidas de 3 millas más hacia el este.
+    Así, el cambio total en su posición es
+    <me permid="KZZ">
+      \text{cambio en la posición}  = 4.5 - 2 + 3 = 5.5 \ \text{millas}
+    </me>.
+  </p>
+
+  <p permid="EAT">
+    Hemos podido responder estas preguntas con bastante facilidad,
+    y si pensamos en el problema gráficamente,
+    podemos generalizar nuestra solución al escenario más complicado cuando la velocidad no es constante,
+    y posiblemente negativa.
+  </p>
+
+  <figure xml:id="F-4-1-NegVel" permid="prV">
+    <caption>A la izquierda, la función de velocidad de la persona caminando; a la derecha, la función de posición correspondiente.</caption>
+    <image width="100%" source="images/4_1_NegVel" />
+  </figure>
+
+  <p permid="kIc">
+    En <xref ref="F-4-1-NegVel">Figura</xref>,
+    vemos cómo las distancias que calculamos pueden ser vistas como áreas:
+    <m>A_1 = 4.5</m> proviene de multiplicar la tasa por el tiempo (<m>3 \cdot 1.5</m>),
+    al igual que <m>A_2</m> y <m>A_3</m>.
+    Pero mientras <m>A_2</m> es un área
+    (y por lo tanto positiva),
+    porque la función de velocidad es negativa para <m>1.5 \lt t \lt 2</m>,
+    esta área tiene un signo negativo asociado.
+    El área negativa distingue entre distancia recorrida y cambio en la posición.
+  </p>
+
+  <p permid="QPl">
+    La distancia recorrida es la suma de las áreas,
+    <me permid="rhi">
+      D = A_1 + A_2 + A_3 = 4.5 + 2 + 3 = 9.5 \ \text{millas}
+    </me>.
+  </p>
+
+  <p permid="wWu">
+    Pero el cambio en la posición tiene que tener en cuenta el viaje en la dirección negativa.
+    Un área por encima del eje <m>t</m> se considera positiva porque representa la distancia recorrida en la dirección positiva,
+    mientras que una por debajo del eje <m>t</m> se ve como negativa porque representa el viaje en la dirección negativa.
+    Así, el cambio en la posición de la mujer es
+    <me permid="Xor">
+      s(3) - s(0) = (+4.5) + (-2) + (+3) = 5.5 \ \text{millas}
+    </me>.
+    En otras palabras,
+    la mujer camina 4.5 millas en la dirección positiva,
+    seguidas de dos millas en la dirección negativa,
+    y luego 3 millas más en la dirección positiva.
+  </p>
+
+  <p permid="ddD">
+    La velocidad negativa también se ve en el gráfico de la función de posición <m>y=s(t)</m>.
+    Su pendiente es negativa (específicamente,
+    <m>-4</m>) en el intervalo
+    <m>1.5\lt t\lt 2</m> porque la velocidad es <m>-4</m> en ese intervalo.
+    La pendiente negativa muestra que la función de posición está disminuyendo porque la mujer está caminando hacia el este,
+    en lugar de hacia el oeste.
+  </p>
+
+  <p permid="JkM">
+    Para resumir, vemos que si la velocidad es a veces negativa,
+    el cambio en la posición de un objeto en movimiento es diferente de la distancia recorrida.
+    Si calculamos por separado la distancia recorrida en cada intervalo donde la velocidad es positiva o negativa,
+    podemos calcular ya sea la distancia total recorrida o el cambio total en la posición.
+    Asignamos un valor negativo a las distancias recorridas en la dirección negativa cuando calculamos el cambio en la posición,
+    pero un valor positivo cuando calculamos la distancia total recorrida.
+  </p>
+
+  <xi:include href="./activities/act-4-1-3.xml" />
+</subsection>
+
+<subsection permid="xrT">
+  <title>Resumen</title>
+  <p permid="Vze">
+    <ul permid="CbM">
+      <li permid="GLF">
+        <p permid="DQZ">
+          Si conocemos la velocidad de un cuerpo en movimiento en cada punto de un intervalo dado y la velocidad es positiva en todo momento,
+          podemos estimar la distancia recorrida por el objeto y en algunas circunstancias determinar este valor exactamente.
         </p>
-      </statement>
-    </definition>
+      </li>
 
-    <p permid="boq">
-      For example, if <m>g(x) = 3x^2 + 2x</m>,
-      <m>G(x) = x^3 + x^2</m> is an antiderivative of <m>g</m>,
-      because <m>G'(x) = g(x)</m>.
-      Note that we say <q>an</q>
-      antiderivative of <m>g</m> rather than <q>the</q>
-      antiderivative of <m>g</m>, because
-      <m>H(x) = x^3 + x^2 + 5</m> is also a function whose derivative is <m>g</m>,
-      and thus <m>H</m> is another antiderivative of <m>g</m>.
-    </p>
+      <li permid="mSO">
+        <p permid="jYi">
+          En particular, cuando la velocidad es positiva en un intervalo,
+          podemos encontrar la distancia total recorrida encontrando el área bajo la curva de velocidad y sobre el eje <m>t</m> en el intervalo de tiempo dado.
+          Puede que solo podamos estimar esta área,
+          dependiendo de la forma de la curva de velocidad.
+        </p>
+      </li>
 
-    <xi:include href="./activities/act-4-1-2.xml" />
-  </subsection>
+      <li permid="SZX">
+        <p permid="Qfr">
+          Una antiderivada de una función <m>f</m> es una nueva función <m>F</m> cuya derivada es <m>f</m>.
+          Es decir,
+          <m>F</m> es una antiderivada de <m>f</m> siempre que <m>F' = f</m>.
+          En el contexto de velocidad y posición,
+          si conocemos una función de velocidad <m>v</m>,
+          una antiderivada de <m>v</m> es una función de posición <m>s</m> que satisface <m>s' = v</m>.
+          Si <m>v</m> es positiva en un intervalo dado,
+          digamos <m>[a,b]</m>, entonces el cambio en la posición, <m>s(b) - s(a)</m>,
+          mide la distancia que el objeto en movimiento recorrió en <m>[a,b]</m>.
+        </p>
+      </li>
 
-  <subsection permid="RkK">
-    <title>When velocity is negative</title>
-    <p permid="nCI">
-      The assumption that the velocity is positive on a given interval guarantees that the movement of an object is always in a single direction,
-      and hence ensures that its change in position is the same as the distance it travels.
-      As we saw in <xref ref="act-4-1-2">Activity</xref>,
-      there are natural settings in which an object's velocity is negative, and
-      we would like to understand this scenario as well.
-    </p>
+      <li permid="zhg">
+        <p permid="wmA">
+          Si su velocidad es a veces negativa,
+          un objeto en movimiento a veces viaja en la dirección opuesta
+          o retrocede.
+          Para determinar la distancia recorrida,
+          tenemos que calcular la distancia por separado en intervalos donde la velocidad es positiva o negativa,
+          y tener en cuenta el cambio en la posición en cada uno de esos intervalos.
+        </p>
+      </li>
+    </ul>
+  </p>
+</subsection>
 
-    <p permid="TJR">
-      Consider a simple example where a woman goes for a walk on the beach along a stretch of very straight shoreline that runs east-west.
-      We assume that her initial position is <m>s(0) = 0</m>,
-      and that her position function increases as she moves east from her starting location.
-      For instance,
-      <m>s = 1</m> mile represents one mile east of the start location,
-      while <m>s = -1</m> tells us she is one mile west of where she began walking on the beach.
-    </p>
-
-    <p permid="zRa">
-      Now suppose she walks in the following manner.
-      From the outset at <m>t = 0</m>,
-      she walks due east at a constant rate of <m>3</m> mph for 1.5 hours.
-      After 1.5 hours,
-      she stops abruptly and begins walking due west at a constant rate of <m>4</m> mph and does so for 0.5 hours.
-      Then, after another abrupt stop and start,
-      she resumes walking at a constant rate of <m>3</m> mph to the east for one more hour.
-      What is the total distance she traveled on the time interval from <m>t = 0</m> to <m>t = 3</m>?
-      What is the total change in her position over that time?
-    </p>
-
-    <p permid="fYj">
-      These questions are possible to answer without calculus because the velocity is constant on each interval.
-      From <m>t = 0</m> to <m>t = 1.5</m>, she traveled
-      <me permid="mxp">
-        D_{[0,1.5]} = 3 \ \text{miles per hour}  \cdot 1.5 \ \text{hours}  = 4.5 \ \text{miles}
-      </me>.
-    </p>
-
-    <p permid="Mfs">
-      On <m>t = 1.5</m> to <m>t = 2</m>,
-      the distance traveled is
-      <me permid="SEy">
-        D_{[1.5,2]} = 4 \ \text{miles per hour}  \cdot 0.5 \ \text{hours}  = 2 \ \text{miles}
-      </me>.
-    </p>
-
-    <p permid="smB">
-      Finally, in the last hour she walked
-      <me permid="yLH">
-        D_{[2,3]} = 3 \ \text{miles per hour}  \cdot 1 \ \text{hour}  = 3 \ \text{miles}
-      </me>,
-      so the total distance she traveled is
-      <me permid="eSQ">
-        D = D_{[0,1.5]} + D_{[1.5,2]} + D_{[2,3]} = 4.5 + 2 + 3 = 9.5 \ \text{miles}
-      </me>.
-    </p>
-
-    <p permid="YtK">
-      Since the velocity for <m>1.5 \lt  t \lt  2</m> is <m>v = -4</m>,
-      indicating motion in the westward direction,
-      the woman first walked 4.5 miles east,
-      then 2 miles west, followed by 3 more miles east.
-      Thus, the total change in her position is
-      <me permid="KZZ">
-        \text{change in position}  = 4.5 - 2 + 3 = 5.5 \ \text{miles}
-      </me>.
-    </p>
-
-    <p permid="EAT">
-      We have been able to answer these questions fairly easily,
-      and if we think about the problem graphically,
-      we can generalize our solution to the more complicated setting when velocity is not constant,
-      and possibly negative.
-    </p>
-
-    <figure xml:id="F-4-1-NegVel" permid="prV">
-      <caption>At left, the velocity function of the person walking; at right, the corresponding position function.</caption>
-      <image width="100%" source="images/4_1_NegVel" />
-    </figure>
-
-    <p permid="kIc">
-      In <xref ref="F-4-1-NegVel">Figure</xref>,
-      we see how the distances we computed can be viewed as areas:
-      <m>A_1 = 4.5</m> comes from multiplying rate times time (<m>3 \cdot 1.5</m>),
-      as do <m>A_2</m> and <m>A_3</m>.
-      But while <m>A_2</m> is an area
-      (and is therefore positive),
-      because the velocity function is negative for <m>1.5 \lt t \lt 2</m>,
-      this area has a negative sign associated with it.
-      The negative area distinguishes between distance traveled and change in position.
-    </p>
-
-    <p permid="QPl">
-      The distance traveled is the sum of the areas,
-      <me permid="rhi">
-        D = A_1 + A_2 + A_3 = 4.5 + 2 + 3 = 9.5 \ \text{miles}
-      </me>.
-    </p>
-
-    <p permid="wWu">
-      But the change in position has to account for travel in the negative direction.  
-      An area above the <m>t</m>-axis is considered positive because it represents distance traveled in the positive direction,
-      while one below the <m>t</m>-axis is viewed as negative because it represents travel in thenegative direction.
-      Thus, the change in the woman's position is
-      <me permid="Xor">
-        s(3) - s(0) = (+4.5) + (-2) + (+3) = 5.5 \ \text{miles}
-      </me>.
-      In other words,
-      the woman walks 4.5 miles in the positive direction,
-      followed by two miles in the negative direction,
-      and then 3 more miles in the positive direction.
-    </p>
-
-    <p permid="ddD">
-      Negative velocity is also seen in the graph of the position function <m>y=s(t)</m>.
-      Its slope is negative (specifically,
-      <m>-4</m>) on the interval
-      <m>1.5\lt t\lt 2</m> because the velocity is <m>-4</m> on that interval.
-      The negative slope shows the position function is decreasing because the woman is walking east,
-      rather than west.
-    </p>
-
-    <p permid="JkM">
-      To summarize, we see that if velocity is sometimes negative,
-      a moving object's change in position is different from its distance traveled.
-      If we compute separately the distance traveled on each interval where velocity is positive or negative,
-      we can calculate either the total distance traveled or the total change in position.
-      We assign a negative value to distances traveled in the negative direction when we calculate change in position,
-      but a positive value when we calculate the total distance traveled.
-    </p>
-
-    <xi:include href="./activities/act-4-1-3.xml" />
-  </subsection>
-
-  <subsection permid="xrT">
-    <title>Summary</title>
-    <p permid="Vze">
-      <ul permid="CbM">
-        <li permid="GLF">
-          <p permid="DQZ">
-            If we know the velocity of a moving body at every point in a given interval and the velocity is positive throughout,
-            we can estimate the object's distance traveled and in some circumstances determine this value exactly.
-          </p>
-        </li>
-
-        <li permid="mSO">
-          <p permid="jYi">
-            In particular, when velocity is positive on an interval,
-            we can find the total distance traveled by finding the area under the velocity curve and above the <m>t</m>-axis on the given time interval.
-            We may only be able to estimate this area,
-            depending on the shape of the velocity curve.
-          </p>
-        </li>
-
-        <li permid="SZX">
-          <p permid="Qfr">
-            An antiderivative of a function <m>f</m> is a new function <m>F</m> whose derivative is <m>f</m>.
-            That is,
-            <m>F</m> is an antiderivative of <m>f</m> provided that <m>F' = f</m>.
-            In the context of velocity and position,
-            if we know a velocity function <m>v</m>,
-            an antiderivative of <m>v</m> is a position function <m>s</m> that satisfies <m>s' = v</m>.
-            If <m>v</m> is positive on a given interval,
-            say <m>[a,b]</m>, then the change in position, <m>s(b) - s(a)</m>,
-            measures the distance the moving object traveled on <m>[a,b]</m>.
-          </p>
-        </li>
-
-        <li permid="zhg">
-          <p permid="wmA">
-            If its velocity is sometimes negative,
-            a moving object is sometimes traveling in the opposite direction
-            or backtracking.
-            To determine distance traveled,
-            we have to compute the distance separately on intervals where velocity is positive or negative,
-            and account for the change in position on each such interval.
-          </p>
-        </li>
-      </ul>
-    </p>
-  </subsection>
-
-  <xi:include href="./exercises/ez-4-1.xml" />
+<xi:include href="./exercises/ez-4-1.xml" />
 </section>
-

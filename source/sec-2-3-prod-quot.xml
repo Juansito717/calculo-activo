@@ -13,30 +13,30 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-2-3-prod-quot" permid="gOH">
-  <title>The product and quotient rules</title>
+  <title>Las reglas del producto y del cociente</title>
   <objectives permid="WpC">
     <ul permid="OLd">
       <li permid="HgE">
         <p permid="wHz">
-          How does the algebraic structure of a function guide us in computing its derivative using shortcut rules?
+          ¿Cómo nos guía la estructura algebraica de una función en el cálculo de su derivada usando reglas abreviadas?
         </p>
       </li>
 
       <li permid="nnN">
         <p permid="cOI">
-          How do we compute the derivative of a product of two basic functions in terms of the derivatives of the basic functions?
+          ¿Cómo calculamos la derivada de un producto de dos funciones básicas en términos de las derivadas de las funciones básicas?
         </p>
       </li>
 
       <li permid="TuW">
         <p permid="IVR">
-          How do we compute the derivative of a quotient of two basic functions in terms of the derivatives of the basic functions?
+          ¿Cómo calculamos la derivada de un cociente de dos funciones básicas en términos de las derivadas de las funciones básicas?
         </p>
       </li>
 
       <li permid="zCf">
         <p permid="pda">
-          How do the product and quotient rules combine with the sum and constant multiple rules to expand the library of functions we can differentiate quickly?
+          ¿Cómo se combinan las reglas del producto y del cociente con las reglas de la suma y del múltiplo constante para expandir la biblioteca de funciones que podemos diferenciar rápidamente?
         </p>
       </li>
     </ul>
@@ -44,176 +44,176 @@
 
   <introduction permid="iDU">
     <p permid="KLe">
-      So far, we can differentiate power functions (<m>x^n</m>),
-      exponential functions (<m>a^x</m>),
-      and the two fundamental trigonometric functions (<m>\sin(x)</m> and <m>\cos(x)</m>).
-      With the sum rule and constant multiple rules,
-      we can also compute the derivative of combined functions.
+      Hasta ahora, podemos diferenciar funciones de potencia (<m>x^n</m>),
+      funciones exponenciales (<m>a^x</m>),
+      y las dos funciones trigonométricas fundamentales (<m>\sin(x)</m> y <m>\cos(x)</m>).
+      Con la regla de la suma y las reglas de múltiplo constante,
+      también podemos calcular la derivada de funciones combinadas.
     </p>
 
     <example permid="CwL">
       <statement>
         <p permid="tMT">
-          Differentiate
+          Diferencia
           <me permid="uwN">
             f(x) = 7x^{11} - 4 \cdot 9^x + \pi \sin(x) - \sqrt{3}\cos(x)
           </me>
-          Because <m>f</m> is  a sum of basic functions,
-          we can now quickly say that <m>f'(x) = 77x^{10} - 4 \cdot 9^x \ln(9) + \pi \cos(x) + \sqrt{3} \sin(x)</m>.
+          Debido a que <m>f</m> es una suma de funciones básicas,
+          ahora podemos decir rápidamente que <m>f'(x) = 77x^{10} - 4 \cdot 9^x \ln(9) + \pi \cos(x) + \sqrt{3} \sin(x)</m>.
         </p>
       </statement>
     </example>
 
     <p permid="qSn">
-      What about a product or quotient of two basic functions, such as
+      ¿Qué pasa con un producto o cociente de dos funciones básicas, como
       <me permid="aDW">
         p(z) = z^3 \cos(z)
       </me>,
-      or
+      o
       <me permid="GLf">
         q(t) = \frac{\sin(t)}{2^t}
       </me>?
     </p>
 
     <p permid="WZw">
-      While the derivative of a sum is the sum of the derivatives,
-      it turns out that the rules for computing derivatives of products and quotients are more complicated.
+      Mientras que la derivada de una suma es la suma de las derivadas,
+      resulta que las reglas para calcular derivadas de productos y cocientes son más complicadas.
     </p>
 
     <xi:include href="./previews/PA-2-3.xml" />
   </introduction>
 
   <subsection permid="MVQ">
-    <title>The product rule</title>
+    <title>La regla del producto</title>
     <p permid="DgF">
-      As part (b) of <xref ref="PA-2-3">Preview Activity</xref> shows,
-      it is not true in general that the derivative of a product of two functions is the product of the derivatives of those functions.      
-      To see why this is the case,
-      we consider an example involving meaningful functions.
+      Como muestra la parte (b) de <xref ref="PA-2-3">Actividad de Previsualización</xref>,
+      no es cierto en general que la derivada de un producto de dos funciones sea el producto de las derivadas de esas funciones.
+      Para ver por qué este es el caso,
+      consideramos un ejemplo que involucra funciones significativas.
     </p>
 
     <p permid="jnO">
-      Say that an investor is regularly purchasing stock in a particular company.
-      Let <m>N(t)</m> represent the number of shares owned on day <m>t</m>,
-      where <m>t = 0</m> represents the first day on which shares were purchased.
-      Let <m>S(t)</m> give the value of one share of the stock on day <m>t</m>;
-      note that the units on <m>S(t)</m> are dollars per share.
-      To compute the total value of the stock on day <m>t</m>,
-      we take the product
+      Supón que un inversor está comprando regularmente acciones en una empresa en particular.
+      Sea <m>N(t)</m> el número de acciones poseídas en el día <m>t</m>,
+      donde <m>t = 0</m> representa el primer día en que se compraron acciones.
+      Sea <m>S(t)</m> el valor de una acción de la empresa en el día <m>t</m>;
+      nota que las unidades de <m>S(t)</m> son dólares por acción.
+      Para calcular el valor total de las acciones en el día <m>t</m>,
+      tomamos el producto
       <me permid="mSo">
-        V(t) = N(t) \, \text{shares}  \cdot S(t) \, \text{dollars per share}
+        V(t) = N(t) \, \text{acciones}  \cdot S(t) \, \text{dólares por acción}
       </me>.
-      Observe that over time,
-      both the number of shares and the value of a given share will vary.
-      The derivative <m>N'(t)</m> measures the rate at which the number of shares is changing,
-      while <m>S'(t)</m> measures the rate at which the value per share is changing.
-      How do these respective rates of change affect the rate of change of the total value function?
+      Observa que con el tiempo,
+      tanto el número de acciones como el valor de una acción dada variarán.
+      La derivada <m>N'(t)</m> mide la tasa a la que cambia el número de acciones,
+      mientras que <m>S'(t)</m> mide la tasa a la que cambia el valor por acción.
+      ¿Cómo afectan estas respectivas tasas de cambio a la tasa de cambio de la función de valor total?
     </p>
 
     <p permid="PuX">
-      To help us understand the relationship among changes in <m>N</m>,
-      <m>S</m>, and <m>V</m>, let's consider some specific data.
+      Para ayudarnos a entender la relación entre los cambios en <m>N</m>,
+      <m>S</m> y <m>V</m>, consideremos algunos datos específicos.
 
       <ul permid="uSm">
         <li permid="fJo">
-          Suppose that on day 100,
-          the investor owns 520 shares of stock and the stock's current value is $27.50 per share.
-          This tells us that <m>N(100) = 520</m> and <m>S(100) = 27.50</m>.
+          Supón que en el día 100,
+          el inversor posee 520 acciones y el valor actual de la acción es $27.50 por acción.
+          Esto nos dice que <m>N(100) = 520</m> y <m>S(100) = 27.50</m>.
         </li>
 
         <li permid="LQx">
-          On day 100,
-          the investor purchases an additional 12 shares
-          (so the number of shares held is rising at a rate of 12 shares per day).
+          En el día 100,
+          el inversor compra 12 acciones adicionales
+          (así que el número de acciones está aumentando a una tasa de 12 acciones por día).
         </li>
 
         <li permid="rXG">
-          On that same day the price of the stock is rising at a rate of 0.75 dollars per share per day.
+          Ese mismo día el precio de la acción está aumentando a una tasa de 0.75 dólares por acción por día.
         </li>
       </ul>
     </p>
 
     <p permid="vCg">
-      In calculus notation, the latter two facts tell us 
-      that <m>N'(100) = 12</m>
-      (shares per day)
-      and <m>S'(100) = 0.75</m>
-      (dollars per share per day).
-      At what rate is the value of the investor's total holdings changing on day 100?
+      En notación de cálculo, los dos últimos hechos nos dicen
+      que <m>N'(100) = 12</m>
+      (acciones por día)
+      y <m>S'(100) = 0.75</m>
+      (dólares por acción por día).
+      ¿A qué tasa está cambiando el valor total de las tenencias del inversor en el día 100?
     </p>
 
     <p permid="bJp">
-      Observe that the increase in total value comes from two sources:
-      the growing number of shares,
-      and the rising value of each share.
-      If only the number of shares is increasing
-      (and the value of each share is constant),
-      the rate at which which total value would rise is the product of the current value of the shares and the rate at which the number of shares is changing.
-      That is, the rate at which total value would change is given by
+      Observa que el aumento en el valor total proviene de dos fuentes:
+      el creciente número de acciones,
+      y el aumento del valor de cada acción.
+      Si solo el número de acciones está aumentando
+      (y el valor de cada acción es constante),
+      la tasa a la que aumentaría el valor total es el producto del valor actual de las acciones y la tasa a la que cambia el número de acciones.
+      Es decir, la tasa a la que cambiaría el valor total está dada por
       <me permid="SZx">
-        S(100) \cdot N'(100) = 27.50 \, \frac{\text{dollars} }{\text{share} } \cdot 12 \, \frac{\text{shares} }{\text{day} } = 330 \, \frac{\text{dollars} }{\text{day} }
+        S(100) \cdot N'(100) = 27.50 \, \frac{\text{dólares} }{\text{acción} } \cdot 12 \, \frac{\text{acciones} }{\text{día} } = 330 \, \frac{\text{dólares} }{\text{día} }
       </me>.
     </p>
 
     <p permid="HQy">
-      Note particularly how the units make sense and show the rate at which the total value <m>V</m> is changing,
-      measured in dollars per day.
+      Nota particularmente cómo las unidades tienen sentido y muestran la tasa a la que está cambiando el valor total <m>V</m>,
+      medida en dólares por día.
     </p>
 
     <p permid="nXH">
-      If instead the number of shares is constant,
-      but the value of each share is rising,
-      the rate at which the total value would rise is  the product of the number of shares and the rate of change of share value.
-      The total value is rising at a rate of
+      Si en cambio el número de acciones es constante,
+      pero el valor de cada acción está aumentando,
+      la tasa a la que aumentaría el valor total es el producto del número de acciones y la tasa de cambio del valor de la acción.
+      El valor total está aumentando a una tasa de
       <me permid="zgG">
-        N(100) \cdot S'(100) = 520 \, \text{shares}  \cdot 0.75 \, \frac{\text{dollars per share} }{\text{day} } = 390 \, \frac{\text{dollars} }{\text{day} }
+        N(100) \cdot S'(100) = 520 \, \text{acciones}  \cdot 0.75 \, \frac{\text{dólares por acción} }{\text{día} } = 390 \, \frac{\text{dólares} }{\text{día} }
       </me>.
     </p>
 
     <p permid="UeQ">
-      Of course, when both the number of shares and the value of each share are changing,
-      we have to include both of these sources.
-      In that case the rate at which the total value is rising is
+      Por supuesto, cuando tanto el número de acciones como el valor de cada acción están cambiando,
+      tenemos que incluir ambas fuentes.
+      En ese caso la tasa a la que está aumentando el valor total es
       <me permid="fnP">
-        V'(100) = S(100) \cdot N'(100) + N(100) \cdot S'(100) = 330 + 390 = 720 \, \frac{\text{dollars} }{\text{day} }
+        V'(100) = S(100) \cdot N'(100) + N(100) \cdot S'(100) = 330 + 390 = 720 \, \frac{\text{dólares} }{\text{día} }
       </me>.
     </p>
 
     <p permid="AlZ">
-      We expect the total value of the investor's holdings to rise by about $720 on the 100th day.<fn>
-      While this example highlights why the product rule is true,
-      there are some subtle issues to recognize.
-      For one, if the stock's value really does rise exactly $0.75 on day 100,
-      and the number of shares really rises by 12 on day 100,
-      then we'd expect that <m>V(101) = N(101) \cdot S(101) = 532 \cdot 28.25 = 15029</m>.
-      If, as noted above,
-      we expect the total value to rise by $720,
-      then with <m>V(100) = N(100) \cdot S(100) = 520 \cdot 27.50 = 14300</m>,
-      then it seems we should find that <m>V(101) = V(100) + 720 = 15020</m>.
-      Why do the two results differ by 9?
-      One way to understand why this difference occurs is to recognize that <m>N'(100) = 12</m> represents an
-      <em>instantaneous</em> rate of change,
-      while our (informal) discussion has also thought of this number as the total change in the number of shares over the course of a single day.
-      The formal proof of the product rule reconciles this issue by taking the limit as the change in the input tends to zero.
+      Esperamos que el valor total de las tenencias del inversor aumente en unos $720 en el día 100.<fn>
+      Aunque este ejemplo destaca por qué la regla del producto es cierta,
+      hay algunos problemas sutiles a reconocer.
+      Por un lado, si el valor de la acción realmente aumenta exactamente $0.75 en el día 100,
+      y el número de acciones realmente aumenta en 12 en el día 100,
+      entonces esperaríamos que <m>V(101) = N(101) \cdot S(101) = 532 \cdot 28.25 = 15029</m>.
+      Si, como se mencionó anteriormente,
+      esperamos que el valor total aumente en $720,
+      entonces con <m>V(100) = N(100) \cdot S(100) = 520 \cdot 27.50 = 14300</m>,
+      parece que deberíamos encontrar que <m>V(101) = V(100) + 720 = 15020</m>.
+      ¿Por qué los dos resultados difieren en 9?
+      Una forma de entender por qué ocurre esta diferencia es reconocer que <m>N'(100) = 12</m> representa una
+      tasa de cambio <em>instantánea</em>,
+      mientras que nuestra discusión (informal) también ha considerado este número como el cambio total en el número de acciones a lo largo de un solo día.
+      La prueba formal de la regla del producto reconcilia este problema tomando el límite cuando el cambio en la entrada tiende a cero.
       </fn></p>
 
     <p permid="gti">
-      Next, we expand our perspective from the specific example above to the more general and abstract setting of a product <m>p</m> of two differentiable functions,
-      <m>f</m> and <m>g</m>.
-      If <m>P(x) = f(x) \cdot g(x)</m>,
-      our work above suggests that <m>P'(x) = f(x) g'(x) + g(x) f'(x)</m>.
-      Indeed, a formal proof using the limit definition of the derivative can be given to show that the following rule,
-      called the <em>product rule</em>,
-          <idx><h>product rule</h></idx>
-      holds in general.
+      A continuación, ampliamos nuestra perspectiva desde el ejemplo específico anterior al entorno más general y abstracto de un producto <m>p</m> de dos funciones diferenciables,
+      <m>f</m> y <m>g</m>.
+      Si <m>P(x) = f(x) \cdot g(x)</m>,
+      nuestro trabajo anterior sugiere que <m>P'(x) = f(x) g'(x) + g(x) f'(x)</m>.
+      De hecho, se puede dar una prueba formal usando la definición de límite de la derivada para mostrar que la siguiente regla,
+      llamada la <em>regla del producto</em>,
+          <idx><h>regla del producto</h></idx>
+      se cumple en general.
     </p>
 
     <assemblage xml:id="prod-rule" permid="lyA">
-      <title>Product Rule</title>
+      <title>Regla del Producto</title>
       <p permid="MAr">
-            <idx><h>product rule</h></idx>
-        If <m>f</m> and <m>g</m> are differentiable functions,
-        then their product <m>P(x) = f(x) \cdot g(x)</m> is also a differentiable function, and
+            <idx><h>regla del producto</h></idx>
+        Si <m>f</m> y <m>g</m> son funciones diferenciables,
+        entonces su producto <m>P(x) = f(x) \cdot g(x)</m> también es una función diferenciable, y
         <me permid="LuY">
           P'(x) = f(x) g'(x) + g(x) f'(x)
         </me>.
@@ -221,32 +221,32 @@
     </assemblage>
 
     <p permid="sHA">
-      In light of the earlier example involving shares of stock,
-      the product rule also makes sense intuitively:
-      the rate of change of <m>P</m> should take into account both how fast <m>f</m> and <m>g</m> are changing,
-      as well as how large <m>f</m> and <m>g</m> are at the point of interest.
-      In words the product rule says:
-      if <m>P</m> is the product of two functions <m>f</m>
-      (the first function)
-      and <m>g</m>
-      (the second),
-      then <q>the derivative of <m>P</m> is the first times the derivative of the second,
-      plus the second times the derivative of the first.</q>
-      It is often a helpful mental exercise to say this phrasing aloud when executing the product rule.
+      A la luz del ejemplo anterior que involucra acciones,
+      la regla del producto también tiene sentido intuitivamente:
+      la tasa de cambio de <m>P</m> debería tener en cuenta tanto la rapidez con la que cambian <m>f</m> y <m>g</m>,
+      como el tamaño de <m>f</m> y <m>g</m> en el punto de interés.
+      En palabras, la regla del producto dice:
+      si <m>P</m> es el producto de dos funciones <m>f</m>
+      (la primera función)
+      y <m>g</m>
+      (la segunda),
+      entonces <q>la derivada de <m>P</m> es la primera por la derivada de la segunda,
+      más la segunda por la derivada de la primera.</q>
+      A menudo es un ejercicio mental útil decir esta frase en voz alta al ejecutar la regla del producto.
     </p>
 
     <example permid="xMS">
       <statement>
         <p permid="ZUc">
-          If <m>P(z) = z^3 \cdot \cos(z)</m>,
-          we can use the product rule to differentiate <m>P</m>.
-          The first function is <m>z^3</m> and the second function is <m>\cos(z)</m>.
-          By the product rule, <m>P'</m> will be given by the first,
+          Si <m>P(z) = z^3 \cdot \cos(z)</m>,
+          podemos usar la regla del producto para diferenciar <m>P</m>.
+          La primera función es <m>z^3</m> y la segunda función es <m>\cos(z)</m>.
+          Por la regla del producto, <m>P'</m> estará dada por la primera,
           <m>z^3</m>,
-          times the derivative of the second,
-          <m>-\sin(z)</m>, plus the second,
-          <m>\cos(z)</m>, times the derivative of the first, <m>3z^2</m>.
-          That is,
+          por la derivada de la segunda,
+          <m>-\sin(z)</m>, más la segunda,
+          <m>\cos(z)</m>, por la derivada de la primera, <m>3z^2</m>.
+          Es decir,
           <me permid="rCh">
             P'(z) = z^3(-\sin(z)) + \cos(z) 3z^2 = -z^3 \sin(z) + 3z^2 \cos(z)
           </me>.
@@ -257,259 +257,258 @@
     <xi:include href="./activities/act-2-3-1.xml" />
   </subsection>
 
-  <subsection permid="tcZ">
-    <title>The quotient rule</title>
-    <p permid="YOJ">
-      Because quotients and products are closely linked,
-      we can use the product rule to understand how to take the derivative of a quotient.
-      Let <m>Q(x)</m> be defined by <m>Q(x) = f(x)/g(x)</m>,
-      where <m>f</m> and <m>g</m> are both differentiable functions.
-      It turns out that <m>Q</m> is differentiable everywhere that <m>g(x) \ne 0</m>.
-      We would like a formula for <m>Q'</m> in terms of <m>f</m>,
-      <m>g</m>, <m>f'</m>, and <m>g'</m>.
+<subsection permid="tcZ">
+  <title>La regla del cociente</title>
+  <p permid="YOJ">
+    Debido a que los cocientes y los productos están estrechamente vinculados,
+    podemos usar la regla del producto para entender cómo tomar la derivada de un cociente.
+    Sea <m>Q(x)</m> definido por <m>Q(x) = f(x)/g(x)</m>,
+    donde <m>f</m> y <m>g</m> son funciones diferenciables.
+    Resulta que <m>Q</m> es diferenciable en todas partes donde <m>g(x) \ne 0</m>.
+    Nos gustaría una fórmula para <m>Q'</m> en términos de <m>f</m>,
+    <m>g</m>, <m>f'</m> y <m>g'</m>.
 
-      Multiplying both sides of the formula <m>Q = f/g</m> by <m>g</m>,
-      we observe that
-      <me permid="XJq">
-        f(x) = Q(x) \cdot g(x)
+    Multiplicando ambos lados de la fórmula <m>Q = f/g</m> por <m>g</m>,
+    observamos que
+    <me permid="XJq">
+      f(x) = Q(x) \cdot g(x)
+    </me>.
+  </p>
+
+  <p permid="EVS">
+    Ahora podemos usar la regla del producto para diferenciar <m>f</m>.
+    <me permid="DQz">
+      f'(x) = Q(x) g'(x) + g(x) Q'(x)
+    </me>.
+  </p>
+
+  <p permid="ldb">
+    Queremos saber una fórmula para <m>Q'</m>, así que
+    resolvemos esta ecuación para <m>Q'(x)</m>.
+    <me permid="jXI">
+      Q'(x) g(x) = f'(x) - Q(x) g'(x)
+    </me>
+    y dividiendo ambos lados por <m>g(x)</m>, tenemos
+    <me permid="QeR">
+      Q'(x) = \frac{f'(x) - Q(x) g'(x)}{g(x)}
+    </me>.
+  </p>
+
+  <p permid="Rkk">
+    Finalmente, recordamos que <m>Q(x) = \frac{f(x)}{g(x)}</m>.
+    Sustituyendo esta expresión en la ecuación anterior, tenemos
+    <md permid="wma">
+      <mrow>Q'(x) =\mathstrut \amp  \frac{f'(x) - \frac{f(x)}{g(x)} g'(x)}{g(x)}</mrow>
+      <mrow>=\mathstrut \amp  \frac{f'(x) - \frac{f(x)}{g(x)} g'(x)}{g(x)} \cdot \frac{g(x)}{g(x)}</mrow>
+      <mrow>=\mathstrut \amp  \frac{g(x) f'(x) -  f(x) g'(x)}{g(x)^2}</mrow>
+    </md>.
+  </p>
+
+  <p permid="xrt">
+    Este cálculo nos da la
+    <em>regla del cociente</em>.
+  </p>
+
+  <assemblage xml:id="quot-rule" permid="RFJ">
+    <title>Regla del Cociente</title>
+    <p permid="dyC">
+      <idx><h>regla del cociente</h></idx>
+      Si <m>f</m> y <m>g</m> son funciones diferenciables,
+      entonces su cociente <m>Q(x) = \frac{f(x)}{g(x)}</m> también es una función diferenciable para todo <m>x</m> donde <m>g(x) \ne 0</m> y
+      <me permid="ctj">
+        Q'(x) = \frac{g(x) f'(x) -  f(x) g'(x)}{g(x)^2}
       </me>.
     </p>
+  </assemblage>
 
-    <p permid="EVS">
-      Now we can use the product rule to differentiate <m>f</m>.
-      <me permid="DQz">
-        f'(x) = Q(x) g'(x) + g(x) Q'(x)
-      </me>.
-    </p>
+  <p permid="JFL">
+    Al igual que con la regla del producto,
+    puede ser útil pensar en la regla del cociente verbalmente.
+    Si una función <m>Q</m> es el cociente de una función superior <m>f</m> y una función inferior <m>g</m>,
+    entonces <m>Q'</m> se da por <q>el inferior por la derivada del superior,
+    menos el superior por la derivada del inferior,
+    todo sobre el inferior al cuadrado.</q>
+  </p>
 
-    <p permid="ldb">
-      We want to know a formula for <m>Q'</m>, so
-      we solve this equation for <m>Q'(x)</m>.
-      <me permid="jXI">
-        Q'(x) g(x) = f'(x) - Q(x) g'(x)
-      </me>
-      and dividing both sides by <m>g(x)</m>, we have
-      <me permid="QeR">
-        Q'(x) = \frac{f'(x) - Q(x) g'(x)}{g(x)}
-      </me>.
-    </p>
-
-    <p permid="Rkk">
-      Finally, we recall that <m>Q(x) = \frac{f(x)}{g(x)}</m>.
-      Substituting this expression in the preceding equation, we have
-      <md permid="wma">
-        <mrow>Q'(x) =\mathstrut \amp  \frac{f'(x) - \frac{f(x)}{g(x)} g'(x)}{g(x)}</mrow>
-        <mrow>=\mathstrut \amp  \frac{f'(x) - \frac{f(x)}{g(x)} g'(x)}{g(x)} \cdot \frac{g(x)}{g(x)}</mrow>
-        <mrow>=\mathstrut \amp  \frac{g(x) f'(x) -  f(x) g'(x)}{g(x)^2}</mrow>
-      </md>.
-    </p>
-
-    <p permid="xrt">
-      This calculation gives us the
-      <em>quotient rule</em>.
-    </p>
-
-    <assemblage xml:id="quot-rule" permid="RFJ">
-      <title>Quotient Rule</title>
-      <p permid="dyC">
-            <idx><h>quotient rule</h></idx>
-        If <m>f</m> and <m>g</m> are differentiable functions,
-        then their quotient <m>Q(x) = \frac{f(x)}{g(x)}</m> is also a differentiable function for all <m>x</m> where <m>g(x) \ne 0</m> and
-        <me permid="ctj">
-          Q'(x) = \frac{g(x) f'(x) -  f(x) g'(x)}{g(x)^2}
+  <example permid="dUb">
+    <statement>
+      <p permid="Gbl">
+        Si <m>Q(t) = \sin(t)/2^t</m>,
+        llamamos a <m>\sin(t)</m> la función superior y <m>2^t</m> la función inferior.
+        Por la regla del cociente,
+        <m>Q'</m> se da por el inferior,
+        <m>2^t</m>,
+        por la derivada del superior, <m>\cos(t)</m>,
+        menos el superior, <m>\sin(t)</m>,
+        por la derivada del inferior,
+        <m>2^t \ln(2)</m>, todo sobre el inferior al cuadrado, <m>(2^t)^2</m>.
+        Es decir,
+        <me permid="IAs">
+          Q'(t) = \frac{2^t \cos(t) - \sin(t) 2^t \ln(2)}{(2^t)^2}
         </me>.
       </p>
-    </assemblage>
 
-    <p permid="JFL">
-      As with the product rule,
-      it can be helpful to think of the quotient rule verbally.
-      If a function <m>Q</m> is the quotient of a top function <m>f</m> and a bottom function <m>g</m>,
-      then <m>Q'</m> is given by <q>the bottom times the derivative of the top,
-      minus the top times the derivative of the bottom,
-      all over the bottom squared.</q>
-    </p>
+      <p permid="miu">
+        En este ejemplo particular,
+        es posible simplificar <m>Q'(t)</m> eliminando un factor de <m>2^t</m> tanto del numerador como del denominador,
+        de modo que
+        <me permid="oHB">
+          Q'(t) = \frac{\cos(t) - \sin(t) \ln(2)}{2^t}
+        </me>.
+      </p>
+    </statement>
+  </example>
 
-    <example permid="dUb">
-      <statement>
-        <p permid="Gbl">
-          If <m>Q(t) = \sin(t)/2^t</m>,
-          we call  <m>\sin(t)</m> the top function and <m>2^t</m> the bottom function.
-          By the quotient rule,
-          <m>Q'</m> is given by the bottom,
-          <m>2^t</m>,
-          times the derivative of the top, <m>\cos(t)</m>,
-          minus the top, <m>\sin(t)</m>,
-          times the derivative of the bottom,
-          <m>2^t \ln(2)</m>, all over the bottom squared, <m>(2^t)^2</m>.
-          That is,
-          <me permid="IAs">
-            Q'(t) = \frac{2^t \cos(t) - \sin(t) 2^t \ln(2)}{(2^t)^2}
+  <p permid="pMU">
+    En general,
+    debemos tener cuidado al hacer cualquier simplificación de este tipo,
+    ya que no queremos ejecutar la regla del cociente correctamente pero luego cometer un error algebraico.
+  </p>
+
+  <xi:include href="./activities/act-2-3-2.xml" />
+</subsection>
+
+<subsection permid="Zki">
+  <title>Combinando reglas</title>
+  <p permid="VUd">
+    Para aplicar correctamente las reglas de atajo de derivadas, debemos reconocer la estructura fundamental de una función.
+  </p>
+
+  <example permid="Kbk">
+    <statement>
+      <p permid="SpD">
+        Determina la derivada de la función
+        <me permid="UOK">
+          f(x) = x\sin(x) + \frac{x^2}{\cos(x) + 2}
+        </me>.
+        ¿Cómo decidimos qué reglas aplicar?
+        Nuestra primera tarea es reconocer la estructura de la función.
+        Esta función <m>f</m> es una suma de dos funciones ligeramente menos complicadas,
+        por lo que podemos aplicar la regla de la suma<fn>
+        Al tomar una derivada que involucra el uso de múltiples reglas de derivadas,
+        a menudo es útil usar la notación
+        <m>\frac{d}{dx} \left[ ~~\right]</m> para esperar a aplicar reglas subsecuentes.
+        Esto se demuestra en cada uno de los dos ejemplos presentados aquí.
+        </fn> para obtener
+        <md permid="AVT">
+          <mrow>f'(x) =\mathstrut \amp  \frac{d}{dx} \left[ x\sin(x) + \frac{x^2}{\cos(x) + 2} \right]</mrow>
+          <mrow>=\mathstrut \amp  \frac{d}{dx} \left[ x\sin(x) \right] + \frac{d}{dx}\left[ \frac{x^2}{\cos(x) + 2} \right]</mrow>
+        </md>
+      </p>
+
+      <p permid="ywM">
+        Ahora, el término de la izquierda arriba es un producto,
+        por lo que se necesita la regla del producto allí,
+        mientras que el término de la derecha es un cociente,
+        por lo que se requiere la regla del cociente.
+        Aplicando estas reglas respectivamente, encontramos que
+        <md permid="hdc">
+          <mrow>f'(x) =\mathstrut \amp  \left( x \cos(x) + \sin(x) \right) + \frac{(\cos(x) + 2) 2x - x^2(-\sin(x))}{(\cos(x) + 2)^2}</mrow>
+          <mrow>=\mathstrut \amp  x \cos(x) + \sin(x) + \frac{2x\cos(x) + 4x + x^2\sin(x)}{(\cos(x) + 2)^2}</mrow>
+        </md>.
+      </p>
+    </statement>
+  </example>
+
+  <example permid="qit">
+    <statement>
+      <p permid="eDV">
+        Diferencia
+        <me permid="Nkl">
+          s(y) = \frac{y \cdot 7^y}{y^2 + 1}
+        </me>.
+        La función <m>s</m> es un cociente de dos funciones más simples,
+        por lo que se necesitará la regla del cociente.
+        Para empezar, configuramos la regla del cociente y usamos la notación
+        <m>\frac{d}{dy}</m> para indicar las derivadas del numerador y el denominador.
+        Así,
+        <me permid="tru">
+          s'(y) = \frac{(y^2 + 1) \cdot \frac{d}{dy}\left[ y \cdot 7^y \right] - y \cdot 7^y \cdot \frac{d}{dy}\left[y^2 + 1 \right]}{(y^2 + 1)^2}
+        </me>.
+        Ahora, quedan dos derivadas por calcular.
+        La primera,
+        <m>\frac{d}{dy}\left[ y \cdot 7^y \right]</m> requiere el uso de la regla del producto,
+        mientras que la segunda,
+        <m>\frac{d}{dy}\left[y^2 + 1 \right]</m> solo necesita la regla de la suma.
+        Aplicando estas reglas, ahora tenemos
+        <me permid="ZyD">
+          s'(y) = \frac{(y^2 + 1) [y \cdot 7^y \ln(7) + 7^y \cdot 1] - y \cdot 7^y [2y]}{(y^2 + 1)^2}
+        </me>.
+        Aunque es posible alguna simplificación,
+        estamos contentos de dejar <m>s'(y)</m> en su forma actual.
+      </p>
+    </statement>
+  </example>
+
+  <p permid="Cbm">
+    El éxito en la aplicación de las reglas de derivadas comienza con reconocer la estructura de la función,
+    seguido de la aplicación cuidadosa y diligente de las reglas de derivadas relevantes.
+    La mejor manera de volverse competente en este proceso es hacer un gran número de ejemplos.
+  </p>
+
+  <xi:include href="./activities/act-2-3-3.xml" />
+
+  <p permid="iiv">
+    A medida que la complejidad algebraica de las funciones que podemos diferenciar continúa aumentando,
+    es importante recordar que todo el significado de la derivada sigue siendo válido.
+    Independientemente de la estructura de la función <m>f</m>,
+    el valor de <m>f'(a)</m> nos dice la tasa de cambio instantánea de <m>f</m> con respecto a <m>x</m> en el momento <m>x = a</m>,
+    así como la pendiente de la línea tangente a
+    <m>y = f(x)</m> en el punto <m>(a,f(a))</m>.
+  </p>
+</subsection>
+
+<subsection permid="Frr">
+  <title>Resumen</title>
+  <p permid="OpE">
+    <ul permid="aZv">
+      <li permid="YeP">
+        <p permid="Vkj">
+          Si una función es una suma, producto,
+          o cociente de funciones más simples,
+          entonces podemos usar las reglas de la suma, producto,
+          o cociente para diferenciarla en términos de las funciones más simples y sus derivadas.
+        </p>
+      </li>
+
+      <li permid="ElY">
+        <p permid="Brs">
+          La regla del producto nos dice que si <m>P</m> es un producto de funciones diferenciables <m>f</m> y <m>g</m> según la regla <m>P(x) = f(x) g(x)</m>, entonces
+          <me permid="FFM">
+            P'(x) = f(x)g'(x) + g(x)f'(x)
           </me>.
         </p>
+      </li>
 
-        <p permid="miu">
-          In this particular example,
-          it is possible to simplify <m>Q'(t)</m> by removing a factor of <m>2^t</m> from both the numerator and denominator,
-          so that
-          <me permid="oHB">
-            Q'(t) = \frac{\cos(t) - \sin(t) \ln(2)}{2^t}
+      <li permid="kth">
+        <p permid="hyB">
+          La regla del cociente nos dice que si <m>Q</m> es un cociente de funciones diferenciables <m>f</m> y <m>g</m> según la regla <m>Q(x) = \frac{f(x)}{g(x)}</m>, entonces
+          <me permid="lMV">
+            Q'(x) = \frac{g(x)f'(x) - f(x)g'(x)}{g(x)^2}
           </me>.
         </p>
-      </statement>
-    </example>
+      </li>
 
-    <p permid="pMU">
-      In general,
-      we must be careful in doing any such simplification,
-      as we don't want to execute the quotient rule correctly but then make an algebra error.
-    </p>
-
-    <xi:include href="./activities/act-2-3-2.xml" />
-  </subsection>
-
-  <subsection permid="Zki">
-    <title>Combining rules</title>
-    <p permid="VUd">
-      In order to apply the derivative shortcut rules correctly we must recognize the fundamental structure of a function.
-    </p>
-
-    <example permid="Kbk">
-      <statement>
-        <p permid="SpD">
-          Determine the derivative of the function
-          <me permid="UOK">
-            f(x) = x\sin(x) + \frac{x^2}{\cos(x) + 2}
-          </me>.
-          How do we decide which rules to apply?
-          Our first task is to recognize the structure of the function.
-          This function <m>f</m> is a sum of two slightly less complicated functions,
-          so we can apply the sum rule<fn>
-          When taking a derivative that involves the use of multiple derivative rules,
-          it is often helpful to use the notation
-          <m>\frac{d}{dx} \left[ ~~\right]</m> to wait to apply subsequent rules.
-          This is demonstrated in each of the two examples presented here.
-          </fn> to get
-          <md permid="AVT">
-            <mrow>f'(x) =\mathstrut \amp  \frac{d}{dx} \left[ x\sin(x) + \frac{x^2}{\cos(x) + 2} \right]</mrow>
-            <mrow>=\mathstrut \amp  \frac{d}{dx} \left[ x\sin(x) \right] + \frac{d}{dx}\left[ \frac{x^2}{\cos(x) + 2} \right]</mrow>
-          </md>
+      <li permid="QAq">
+        <p permid="NFK">
+          Junto con las reglas del múltiplo constante y de la suma,
+          las reglas del producto y del cociente nos permiten calcular la derivada de cualquier función que consista en sumas,
+          múltiplos constantes, productos,
+          y cocientes de funciones básicas.
+          Por ejemplo, si <m>F</m> tiene la forma
+          <me permid="RUe">
+            F(x) = \frac{2a(x) - 5b(x)}{c(x) \cdot d(x)}
+          </me>,
+          entonces <m>F</m> es un cociente,
+          en el cual el numerador es una suma de múltiplos constantes y el denominador es un producto.
+          Así, la derivada de <m>F</m> se puede encontrar aplicando la regla del cociente y luego usando las reglas de la suma y del múltiplo constante para diferenciar el numerador y la regla del producto para diferenciar el denominador.
         </p>
+      </li>
+    </ul>
+  </p>
+</subsection>
 
-        <p permid="ywM">
-          Now, the left-hand term above is a product,
-          so the product rule is needed there,
-          while the right-hand term is a quotient,
-          so the quotient rule is required.
-          Applying these rules respectively, we find that
-          <md permid="hdc">
-            <mrow>f'(x) =\mathstrut \amp  \left( x \cos(x) + \sin(x) \right) + \frac{(\cos(x) + 2) 2x - x^2(-\sin(x))}{(\cos(x) + 2)^2}</mrow>
-            <mrow>=\mathstrut \amp  x \cos(x) + \sin(x) + \frac{2x\cos(x) + 4x + x^2\sin(x)}{(\cos(x) + 2)^2}</mrow>
-          </md>.
-        </p>
-      </statement>
-    </example>
-
-    <example permid="qit">
-      <statement>
-        <p permid="eDV">
-          Differentiate
-          <me permid="Nkl">
-            s(y) = \frac{y \cdot 7^y}{y^2 + 1}
-          </me>.
-          The function <m>s</m> is a quotient of two simpler functions,
-          so the quotient rule will be needed.
-          To begin, we set up the quotient rule and use the notation
-          <m>\frac{d}{dy}</m> to indicate the derivatives of the numerator and denominator.
-          Thus,
-          <me permid="tru">
-            s'(y) = \frac{(y^2 + 1) \cdot \frac{d}{dy}\left[ y \cdot 7^y \right] - y \cdot 7^y \cdot \frac{d}{dy}\left[y^2 + 1 \right]}{(y^2 + 1)^2}
-          </me>.
-          Now, there remain two derivatives to calculate.
-          The first one,
-          <m>\frac{d}{dy}\left[ y \cdot 7^y \right]</m> calls for use of the product rule,
-          while the second,
-          <m>\frac{d}{dy}\left[y^2 + 1 \right]</m> needs only the sum rule.
-          Applying these rules, we now have
-          <me permid="ZyD">
-            s'(y) = \frac{(y^2 + 1) [y \cdot 7^y \ln(7) + 7^y \cdot 1] - y \cdot 7^y [2y]}{(y^2 + 1)^2}
-          </me>.
-          While some simplification is possible,
-          we are content to leave <m>s'(y)</m> in its current form.
-        </p>
-      </statement>
-    </example>
-
-    <p permid="Cbm">
-      Success in applying derivative rules begins with recognizing the structure of the function,
-      followed by the careful and diligent application of the relevant derivative rules.
-      The best way to become proficient at this process is to do a large number of examples.
-    </p>
-
-    <xi:include href="./activities/act-2-3-3.xml" />
-
-    <p permid="iiv">
-      As the algebraic complexity of the functions we are able to differentiate continues to increase,
-      it is important to remember that all of the derivative's meaning continues to hold.
-      Regardless of the structure of the function <m>f</m>,
-      the value of <m>f'(a)</m> tells us the instantaneous rate of change of <m>f</m> with respect to <m>x</m> at the moment <m>x = a</m>,
-      as well as the slope of the tangent line to
-      <m>y = f(x)</m> at the point <m>(a,f(a))</m>.
-    </p>
-  </subsection>
-
-  <subsection permid="Frr">
-    <title>Summary</title>
-    <p permid="OpE">
-      <ul permid="aZv">
-        <li permid="YeP">
-          <p permid="Vkj">
-            If a function is a sum, product,
-            or quotient of simpler functions,
-            then we can use the sum, product,
-            or quotient rules to differentiate it in terms of the simpler functions and their derivatives.
-          </p>
-        </li>
-
-        <li permid="ElY">
-          <p permid="Brs">
-            The product rule tells us that if <m>P</m> is a product of differentiable functions <m>f</m> and <m>g</m> according to the rule <m>P(x) = f(x) g(x)</m>, then
-            <me permid="FFM">
-              P'(x) = f(x)g'(x) + g(x)f'(x)
-            </me>.
-          </p>
-        </li>
-
-        <li permid="kth">
-          <p permid="hyB">
-            The quotient rule tells us that if <m>Q</m> is a quotient of differentiable functions <m>f</m> and <m>g</m> according to the rule <m>Q(x) = \frac{f(x)}{g(x)}</m>, then
-            <me permid="lMV">
-              Q'(x) = \frac{g(x)f'(x) - f(x)g'(x)}{g(x)^2}
-            </me>.
-          </p>
-        </li>
-
-        <li permid="QAq">
-          <p permid="NFK">
-            Along with the constant multiple and sum rules,
-            the product and quotient rules enable us to compute the derivative of any function that consists of sums,
-            constant multiples, products,
-            and quotients of basic functions.
-            For instance, if <m>F</m> has the form
-            <me permid="RUe">
-              F(x) = \frac{2a(x) - 5b(x)}{c(x) \cdot d(x)}
-            </me>,
-            then <m>F</m> is a quotient,
-            in which the numerator is a sum of constant multiples and the denominator is a product.
-            This, the derivative of <m>F</m> can be found by applying the quotient rule and then using the sum and constant multiple rules to differentiate the numerator and the product rule to differentiate the denominator.
-          </p>
-        </li>
-      </ul>
-    </p>
-  </subsection>
-
-  <xi:include href="./exercises/ez-2-3.xml" />
-  <!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
-  <!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
+<xi:include href="./exercises/ez-2-3.xml" />
+<!-- <xi:include href="./activities/act-1-1-1.xml" /> -->
+<!-- <xi:include href="./exercises/ez-1-1.xml" /> -->
 </section>
-

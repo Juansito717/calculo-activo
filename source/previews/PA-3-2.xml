@@ -14,51 +14,50 @@
 <!-- **********************************************************************-->
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-3-2" permid="ukF">
   <p permid="Odw">
-    Let <m>a</m>, <m>h</m>,
-    and <m>k</m> be arbitrary real numbers with <m>a \ne 0</m>,
-    and let <m>f</m> be the function given by the rule <m>f(x) = a(x-h)^2 + k</m>.
+    Sea <m>a</m>, <m>h</m>,
+    y <m>k</m> números reales arbitrarios con <m>a \ne 0</m>,
+    y sea <m>f</m> la función dada por la regla <m>f(x) = a(x-h)^2 + k</m>.
 
     <ol marker="a." permid="YCB">
       <li permid="EJK">
         <p permid="JtD">
-          What familiar type of function is <m>f</m>?
-          What information do you know about <m>f</m> just by looking at its form? (Think about the roles of <m>a</m>,
+          ¿Qué tipo familiar de función es <m>f</m>?
+          ¿Qué información sabes sobre <m>f</m> solo con mirar su forma? (Piensa en los roles de <m>a</m>,
           <m>h</m>,
-          and <m>k</m>.)
+          y <m>k</m>.)
         </p>
       </li>
 
       <li permid="kQT">
         <p permid="pAM">
-          Next we use some calculus to develop familiar ideas from a different perspective.
-          To start, treat <m>a</m>, <m>h</m>,
-          and <m>k</m> as constants and compute <m>f'(x)</m>.
+          A continuación, usamos algo de cálculo para desarrollar ideas familiares desde una perspectiva diferente.
+          Para empezar, trata <m>a</m>, <m>h</m>,
+          y <m>k</m> como constantes y calcula <m>f'(x)</m>.
         </p>
       </li>
 
       <li permid="QYc">
         <p permid="VHV">
-          Find all critical numbers of <m>f</m>.
-          (These will depend on at least one of <m>a</m>,
+          Encuentra todos los números críticos de <m>f</m>.
+          (Estos dependerán de al menos uno de <m>a</m>,
           <m>h</m>,
-          and <m>k</m>.)
+          y <m>k</m>.)
         </p>
       </li>
 
       <li permid="xfl">
         <p permid="BPe">
-          Assume that <m>a \lt 0</m>.
-          Construct a first derivative sign chart for <m>f</m>.
+          Supón que <m>a \lt 0</m>.
+          Construye un gráfico de signos de la primera derivada para <m>f</m>.
         </p>
       </li>
 
       <li permid="dmu">
         <p permid="hWn">
-          Based on the information you've found above,
-          classify the critical values of <m>f</m> as maxima or minima.
+          Basado en la información que has encontrado arriba,
+          clasifica los valores críticos de <m>f</m> como máximos o mínimos.
         </p>
       </li>
     </ol>
   </p>
 </exploration>
-

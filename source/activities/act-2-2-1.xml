@@ -15,15 +15,15 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-2-1" permid="smX">
   <statement>
     <p permid="TKn">
-      Consider the function <m>f(x) = \sin(x)</m>,
-      which is graphed in <xref ref="F-2-2-A1">Figure</xref> below.
-      Note carefully that the grid in the diagram does not have boxes that are <m>1 \times 1</m>,
-      but rather approximately <m>1.57 \times 1</m>,
-      as the horizontal scale of the grid is <m>\pi/2</m> units per box.
+      Considera la función <m>f(x) = \sin(x)</m>,
+      que está graficada en la <xref ref="F-2-2-A1">Figura</xref> abajo.
+      Nota cuidadosamente que la cuadrícula en el diagrama no tiene cuadros que son <m>1 \times 1</m>,
+      sino aproximadamente <m>1.57 \times 1</m>,
+      ya que la escala horizontal de la cuadrícula es de <m>\pi/2</m> unidades por cuadro.
     </p>
 
     <figure xml:id="F-2-2-A1" permid="fYF">
-      <caption>At left, the graph of <m>y = f(x) = \sin(x)</m>.</caption>
+      <caption>A la izquierda, el gráfico de <m>y = f(x) = \sin(x)</m>.</caption>
       <image width="100%" source="images/2_2_sine" />
     </figure>
 
@@ -31,39 +31,39 @@
       <ol marker="a." permid="xsp">
         <li permid="dzy">
           <p permid="wmW">
-            At each of <m>x = -2\pi, -\frac{3\pi}{2}, -\pi, -\frac{\pi}{2}, 0, \frac{\pi}{2}, \pi, \frac{3\pi}{2}, 2\pi</m>,
-            use a straightedge to sketch an accurate tangent line to <m>y = f(x)</m>.
+            En cada uno de <m>x = -2\pi, -\frac{3\pi}{2}, -\pi, -\frac{\pi}{2}, 0, \frac{\pi}{2}, \pi, \frac{3\pi}{2}, 2\pi</m>,
+            usa una regla para dibujar una línea tangente precisa a <m>y = f(x)</m>.
           </p>
         </li>
 
         <li permid="JGH">
           <p permid="cuf">
-            Use the provided grid to estimate the slope of the tangent line you drew at each point.
-            Pay careful attention to the scale of the grid.
+            Usa la cuadrícula proporcionada para estimar la pendiente de la línea tangente que dibujaste en cada punto.
+            Presta mucha atención a la escala de la cuadrícula.
           </p>
         </li>
 
         <li permid="pNQ">
           <p permid="IBo">
-            Use the limit definition of the derivative to estimate <m>f'(0)</m> by using small values of <m>h</m>,
-            and compare the result to your visual estimate for the slope of the tangent line to
-            <m>y = f(x)</m> at <m>x = 0</m> in (b).
-            Using periodicity, what does this result suggest about
-            <m>f'(2\pi)</m>? about <m>f'(-2\pi)</m>?
+            Usa la definición del límite de la derivada para estimar <m>f'(0)</m> usando valores pequeños de <m>h</m>,
+            y compara el resultado con tu estimación visual de la pendiente de la línea tangente a
+            <m>y = f(x)</m> en <m>x = 0</m> en (b).
+            Usando la periodicidad, ¿qué sugiere este resultado sobre
+            <m>f'(2\pi)</m>? ¿sobre <m>f'(-2\pi)</m>?
           </p>
         </li>
 
         <li permid="VUZ">
           <p permid="oIx">
-            Based on your work in (a), (b), and (c),
-            sketch an accurate graph of
-            <m>y = f'(x)</m> on the axes adjacent to the graph of <m>y = f(x)</m>.
+            Basado en tu trabajo en (a), (b) y (c),
+            dibuja un gráfico preciso de
+            <m>y = f'(x)</m> en los ejes adyacentes al gráfico de <m>y = f(x)</m>.
           </p>
         </li>
 
         <li permid="Cci">
           <p permid="UPG">
-            What familiar function do you think is the derivative of <m>f(x) = \sin(x)</m>?
+            ¿Qué función familiar crees que es la derivada de <m>f(x) = \sin(x)</m>?
           </p>
         </li>
       </ol>
@@ -74,33 +74,33 @@
       <ol marker="a." permid="Rlg">
         <li permid="ijr">
           <p permid="AWP">
-            It's very important to use a straightedge for accuracy.
+            Es muy importante usar una regla para mayor precisión.
           </p>
         </li>
 
         <li permid="OqA">
           <p permid="hdY">
-            First determine the slopes that appear to be zero.
-            Then estimate <m>f'(0)</m> carefully using the grid.
-            Use symmetry and periodicity to help you estimate other nonzero slopes on the graph.
+            Primero determina las pendientes que parecen ser cero.
+            Luego estima <m>f'(0)</m> cuidadosamente usando la cuadrícula.
+            Usa la simetría y la periodicidad para ayudarte a estimar otras pendientes no nulas en el gráfico.
           </p>
         </li>
 
         <li permid="uxJ">
           <p permid="Nlh">
-            <m>f'(0) \approx \frac{\sin(h)}{h}</m> for small values of <m>h</m>.
+            <m>f'(0) \approx \frac{\sin(h)}{h}</m> para valores pequeños de <m>h</m>.
           </p>
         </li>
 
         <li permid="aES">
           <p permid="tsq">
-            Recall that heights on <m>f'</m> come from slopes on <m>f</m>.
+            Recuerda que las alturas en <m>f'</m> provienen de las pendientes en <m>f</m>.
           </p>
         </li>
 
         <li permid="GMb">
           <p permid="Zzz">
-            It might be reasonable to expect that the derivative of a trigonometric function is another trigonometric function.
+            Podría ser razonable esperar que la derivada de una función trigonométrica sea otra función trigonométrica.
           </p>
         </li>
       </ol>
@@ -111,7 +111,7 @@
       <ol marker="a." permid="ldX">
         <li permid="mTk">
           <p permid="FGI">
-            <xref ref="F-2-2-A1-soln-a">Figure</xref>.
+            <xref ref="F-2-2-A1-soln-a">Figura</xref>.
           </p>
         </li>
 
@@ -129,7 +129,7 @@
 
         <li permid="foL">
           <p permid="ycj">
-            <xref ref="F-2-2-A1-soln-a">Figure</xref>.
+            <xref ref="F-2-2-A1-soln-a">Figura</xref>.
           </p>
         </li>
 
@@ -142,7 +142,7 @@
     </p>
 
     <figure xml:id="F-2-2-A1-soln-a" permid="HvV">
-      <caption>At left, the graph of <m>y = f(x) = \sin(x)</m>.  At right, the graph of <m>y=f'(x)</m>.</caption>
+      <caption>A la izquierda, el gráfico de <m>y = f(x) = \sin(x)</m>. A la derecha, el gráfico de <m>y=f'(x)</m>.</caption>
       <image width="100%" source="images/2_2_sineSoln" />
     </figure>
   </answer>
@@ -151,56 +151,55 @@
       <ol marker="a." permid="EWO">
         <li permid="rDd">
           <p permid="KqB">
-            See <xref ref="F-2-2-A1-soln">Figure</xref>.
+            Ver <xref ref="F-2-2-A1-soln">Figura</xref>.
           </p>
         </li>
 
         <li permid="XKm">
           <p permid="qxK">
-            Reading left to right from
-            <m>-2\pi, \ldots, 2\pi</m> with stepsize <m>\pi/2</m>,
-            the respective slopes of tangent lines appear to be <m>1,0,-1,0,1,0,-1,0,1</m>.
+            Leyendo de izquierda a derecha desde
+            <m>-2\pi, \ldots, 2\pi</m> con un tamaño de paso de <m>\pi/2</m>,
+            las pendientes respectivas de las líneas tangentes parecen ser <m>1,0,-1,0,1,0,-1,0,1</m>.
           </p>
         </li>
 
         <li permid="DRv">
           <p permid="WET">
-            From the limit definition,
+            Desde la definición del límite,
             <md permid="MfO">
               <mrow>f'(0) =\mathstrut \amp  \lim_{h \to 0} \frac{f(0 + h) - f(0)}{h}</mrow>
               <mrow>=\mathstrut \amp  \lim_{h \to 0} \frac{\sin(0 + h) - \sin(0)}{h}</mrow>
               <mrow>=\mathstrut \amp  \lim_{h \to 0} \frac{\sin(h)}{h}</mrow>
             </md>
-            Because we cannot simplify the fraction
-            <m>\frac{\sin(h)}{h}</m> any further algebraically,
-            we estimate the value of the limit using small values of <m>h</m>.
-            Doing so,
-            it appears that <m>\lim_{h \to 0} \frac{\sin(h)}{h}  = 1</m>,
-            and thus <m>f'(0) = 1</m>.
-            This matches the estimate generated visually by sketching the tangent line at <m>(0,f(0))</m>.
-            Finally, by the periodicity of the sine function,
-            we expect the value of the derivative at 0 to match the derivative value at <m>-2\pi</m> and <m>2\pi</m>.
+            Como no podemos simplificar la fracción
+            <m>\frac{\sin(h)}{h}</m> más algebraicamente,
+            estimamos el valor del límite usando valores pequeños de <m>h</m>.
+            Haciendo esto,
+            parece que <m>\lim_{h \to 0} \frac{\sin(h)}{h}  = 1</m>,
+            y así <m>f'(0) = 1</m>.
+            Esto coincide con la estimación generada visualmente al dibujar la línea tangente en <m>(0,f(0))</m>.
+            Finalmente, por la periodicidad de la función seno,
+            esperamos que el valor de la derivada en 0 coincida con el valor de la derivada en <m>-2\pi</m> y <m>2\pi</m>.
           </p>
         </li>
 
         <li permid="jYE">
           <p permid="CMc">
-            See the figure below.
+            Ver la figura abajo.
           </p>
         </li>
 
         <li permid="QfN">
           <p permid="iTl">
-            It appears that <m>\frac{d}{dx}[\sin(x)] = \cos(x)</m>.
+            Parece que <m>\frac{d}{dx}[\sin(x)] = \cos(x)</m>.
           </p>
         </li>
       </ol>
     </p>
 
     <figure xml:id="F-2-2-A1-soln" permid="vhD">
-      <caption>At left, the graph of <m>y = f(x) = \sin(x)</m>.  At right, the graph of <m>y=f'(x)</m>.</caption>
+      <caption>A la izquierda, el gráfico de <m>y = f(x) = \sin(x)</m>. A la derecha, el gráfico de <m>y=f'(x)</m>.</caption>
       <image width="100%" source="images/2_2_sineSoln" />
     </figure>
   </solution>
 </activity>
-

@@ -13,7 +13,7 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="C-2" permid="AVt">
-  <title>Computing Derivatives</title>
+  <title>Calculando Derivadas</title>
   <xi:include  href="./sec-2-1-elem-rules.xml" />
   <xi:include  href="./sec-2-2-sin-cos.xml" />
   <xi:include  href="./sec-2-3-prod-quot.xml" />
@@ -23,4 +23,3 @@
   <xi:include  href="./sec-2-7-implicit.xml" />
   <xi:include  href="./sec-2-8-LHR.xml" />
 </chapter>
-

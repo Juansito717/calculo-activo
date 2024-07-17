@@ -14,12 +14,12 @@
 <!-- **********************************************************************-->
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-2-7" permid="zpX">
   <p permid="TiO">
-    Let <m>f</m> be a differentiable function of <m>x</m>
-    (whose formula is not known)
-    and recall that <m>\frac{d}{dx}[f(x)]</m> and <m>f'(x)</m> are interchangeable notations.
-    Determine each of the following derivatives of combinations of explicit functions of <m>x</m>,
-    the unknown function <m>f</m>,
-    and an arbitrary constant <m>c</m>.
+    Sea <m>f</m> una función diferenciable de <m>x</m>
+    (cuya fórmula no se conoce)
+    y recuerda que <m>\frac{d}{dx}[f(x)]</m> y <m>f'(x)</m> son notaciones intercambiables.
+    Determina cada una de las siguientes derivadas de combinaciones de funciones explícitas de <m>x</m>,
+    la función desconocida <m>f</m>,
+    y una constante arbitraria <m>c</m>.
 
     <ol marker="a." cols="2" permid="dHT">
       <li permid="JPc">
@@ -54,4 +54,3 @@
     </ol>
   </p>
 </exploration>
-

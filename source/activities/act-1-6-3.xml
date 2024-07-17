@@ -15,46 +15,46 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-6-3" permid="fvC">
   <statement>
     <p permid="uEA">
-      This activity builds on our experience and understanding of how to sketch the graph of <m>f'</m> given the graph of <m>f</m>.
+      Esta actividad se basa en nuestra experiencia y comprensión de cómo esbozar el gráfico de <m>f'</m> dado el gráfico de <m>f</m>.
     </p>
 
     <p permid="aLJ">
-      In <xref ref="F-1-6-A2">Figure</xref>,
-      given the respective graphs of two different functions <m>f</m>,
-      sketch the corresponding graph of <m>f'</m> on the first axes below,
-      and then sketch <m>f''</m> on the second set of axes.
-      In addition, for each,
-      write several careful sentences in the spirit of those in <xref ref="act-1-6-1">Activity</xref>
-      that connect the behaviors of <m>f</m>,
-      <m>f'</m>, and <m>f''</m>.
-      For instance, write something such as
+      En <xref ref="F-1-6-A2">Figura</xref>,
+      dados los gráficos respectivos de dos funciones diferentes <m>f</m>,
+      esboza el gráfico correspondiente de <m>f'</m> en los primeros ejes a continuación,
+      y luego esboza <m>f''</m> en el segundo conjunto de ejes.
+      Además, para cada uno,
+      escribe varias oraciones cuidadosas en el espíritu de aquellas en <xref ref="act-1-6-1">Actividad</xref>
+      que conecten los comportamientos de <m>f</m>,
+      <m>f'</m> y <m>f''</m>.
+      Por ejemplo, escribe algo como
     </p>
 
     <blockquote permid="WbQ">
       <p permid="Oxr">
-        <m>f'</m> is <fillin /> on the interval <fillin />,
-        which is connected to the fact that <m>f</m> is <fillin /> on the same interval <fillin />, and <m>f''</m> is <fillin /> on the interval.
+        <m>f'</m> es <fillin /> en el intervalo <fillin />,
+        lo cual está conectado con el hecho de que <m>f</m> es <fillin /> en el mismo intervalo <fillin />, y <m>f''</m> es <fillin /> en el intervalo.
       </p>
     </blockquote>
 
     <p permid="GSS">
-      but of course with the blanks filled in.
-      Throughout,
-      view the scale of the grid for the graph of <m>f</m> as being <m>1 \times 1</m>,
-      and assume the horizontal scale of the grid for the graph of <m>f'</m> is identical to that for <m>f</m>.
-      If you need to adjust the vertical scale on the axes for the graph of <m>f'</m> or <m>f''</m>,
-      you should label that accordingly.
+      pero, por supuesto, con los espacios en blanco llenos.
+      A lo largo,
+      considera la escala de la cuadrícula para el gráfico de <m>f</m> como <m>1 \times 1</m>,
+      y asume que la escala horizontal de la cuadrícula para el gráfico de <m>f'</m> es idéntica a la de <m>f</m>.
+      Si necesitas ajustar la escala vertical en los ejes para el gráfico de <m>f'</m> o <m>f''</m>,
+      deberías etiquetarlo en consecuencia.
     </p>
 
     <figure xml:id="F-1-6-A2" permid="nab">
-      <caption>Two given functions <m>f</m>, with axes provided for plotting <m>f'</m> and <m>f''</m> below.</caption>
+      <caption>Dos funciones dadas <m>f</m>, con ejes proporcionados para trazar <m>f'</m> y <m>f''</m> a continuación.</caption>
       <image width="100%" source="images/1_6_Act2" />
     </figure>
   </statement>
   <hint permid="pUH">
     <p permid="iqi">
-      Remember that to plot <m>y = f'(x)</m>,
-      it is helpful to first identify where <m>f'(x) = 0</m>.
+      Recuerda que para trazar <m>y = f'(x)</m>,
+      es útil identificar primero dónde <m>f'(x) = 0</m>.
     </p>
   </hint>
   <answer permid="JNy">
@@ -64,7 +64,7 @@
   </answer>
   <solution permid="dGp">
     <p permid="CiZ">
-      The graphs of <m>f'</m> and <m>f''</m> are plotted below.
+      Los gráficos de <m>f'</m> y <m>f''</m> están trazados a continuación.
     </p>
 
     <sidebyside widths="100%" permid="zot">
@@ -72,4 +72,3 @@
     </sidebyside>
   </solution>
 </activity>
-

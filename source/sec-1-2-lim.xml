@@ -13,31 +13,31 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-1-2-lim" permid="VMz">
-  <title>The notion of limit</title>
+  <title>La noción de límite</title>
   <objectives permid="yZc">
     <ul permid="ruD">
       <li permid="PXn">
         <p permid="lFr">
-          What is the mathematical notion of <em>limit</em>
-          and what role do limits play in the study of functions?
+          ¿Cuál es la noción matemática de <em>límite</em>
+          y qué papel juegan los límites en el estudio de funciones?
         </p>
       </li>
 
       <li permid="wew">
         <p permid="RMA">
-          What is the meaning of the notation <m>\lim_{x \to a} f(x) = L</m>?
+          ¿Qué significa la notación <m>\lim_{x \to a} f(x) = L</m>?
         </p>
       </li>
 
       <li permid="clF">
         <p permid="xTJ">
-          How do we go about determining the value of the limit of a function at a point?
+          ¿Cómo determinamos el valor del límite de una función en un punto?
         </p>
       </li>
 
       <li permid="IsO">
         <p permid="eaS">
-          How do we manipulate average velocity to compute instantaneous velocity?
+          ¿Cómo manipulamos la velocidad promedio para calcular la velocidad instantánea?
         </p>
       </li>
     </ul>
@@ -45,90 +45,90 @@
 
   <introduction permid="fgl">
     <p permid="pjR">
-      In Section 1.1 we used a function, <m>s(t)</m>,
-      to model the location of a moving object at a given time.
-      Functions can model other interesting phenomena,
-      such as the rate at which an automobile consumes gasoline at a given velocity,
-      or the reaction of a patient to a given dosage of a drug.
-      We can use calculus to study how a function value changes in response to changes in the input variable.
+      En la Sección 1.1 usamos una función, <m>s(t)</m>,
+      para modelar la ubicación de un objeto en movimiento en un momento dado.
+      Las funciones pueden modelar otros fenómenos interesantes,
+      como la tasa a la que un automóvil consume gasolina a una velocidad dada,
+      o la reacción de un paciente a una dosis determinada de un medicamento.
+      Podemos usar el cálculo para estudiar cómo cambia el valor de una función en respuesta a cambios en la variable de entrada.
     </p>
 
     <p permid="Vra">
-      Think about the falling ball whose position function is given by <m>s(t) = 64 - 16t^2</m>.
-      Its average velocity on the interval <m>[1,x]</m> is given by
+      Piensa en la pelota que cae cuya función de posición está dada por <m>s(t) = 64 - 16t^2</m>.
+      Su velocidad promedio en el intervalo <m>[1,x]</m> está dada por
       <me permid="Xgn">
         AV_{[1,x]} = \frac{s(x) - s(1)}{x-1} = \frac{(64-16x^2) - (64-16)}{x-1} = \frac{16 - 16x^2}{x-1}
       </me>.
     </p>
 
     <p permid="Byj">
-      Note that the average velocity is a function of <m>x</m>.
-      That is, the function <m>g(x) = \frac{16 - 16x^2}{x-1}</m> tells us the average velocity of the ball on the interval from <m>t = 1</m> to <m>t = x</m>.
-      To find the instantaneous velocity of the ball when <m>t = 1</m>,
-      we need to know what happens to <m>g(x)</m> as <m>x</m> gets closer and closer to <m>1</m>.
-      But also notice that <m>g(1)</m> is not defined,
-      because it leads to the quotient <m>0/0</m>.
+      Nota que la velocidad promedio es una función de <m>x</m>.
+      Es decir, la función <m>g(x) = \frac{16 - 16x^2}{x-1}</m> nos dice la velocidad promedio de la pelota en el intervalo de <m>t = 1</m> a <m>t = x</m>.
+      Para encontrar la velocidad instantánea de la pelota cuando <m>t = 1</m>,
+      necesitamos saber qué pasa con <m>g(x)</m> a medida que <m>x</m> se acerca cada vez más a <m>1</m>.
+      Pero también nota que <m>g(1)</m> no está definida,
+      porque lleva al cociente <m>0/0</m>.
     </p>
 
     <p permid="hFs">
-      This is where the notion of a <em>limit</em> comes in.
-      By using a limit,
-      we can investigate the behavior of <m>g(x)</m> as <m>x</m> gets arbitrarily close,
-      but not equal, to <m>1</m>.
-      We first use the graph of a function to explore points where interesting behavior occurs.
+      Aquí es donde entra la noción de un <em>límite</em>.
+      Usando un límite,
+      podemos investigar el comportamiento de <m>g(x)</m> a medida que <m>x</m> se acerca arbitrariamente,
+      pero no igual, a <m>1</m>.
+      Primero usamos el gráfico de una función para explorar puntos donde ocurre un comportamiento interesante.
     </p>
 
     <xi:include href="./previews/PA-1-2.xml" />
   </introduction>
 
   <subsection permid="BTI">
-    <title>The Notion of Limit</title>
+    <title>La Noción de Límite</title>
     <p permid="NMB">
-      Limits give us a way to identify a trend in the values of a function as its input variable approaches a particular value of interest.
-      We need a precise understanding of what it means to say 
-      <q>a function <m>f</m> has limit <m>L</m> as <m>x</m> approaches <m>a</m>.</q> To begin,
-      think about a recent example.
+      Los límites nos dan una forma de identificar una tendencia en los valores de una función a medida que su variable de entrada se acerca a un valor particular de interés.
+      Necesitamos una comprensión precisa de lo que significa decir 
+      <q>una función <m>f</m> tiene límite <m>L</m> a medida que <m>x</m> se acerca a <m>a</m>.</q> Para empezar,
+      piensa en un ejemplo reciente.
     </p>
 
     <p permid="tTK">
-      In <xref ref="PA-1-2">Preview Activity</xref>,
-      we saw that 
-      as <m>x</m> gets closer and closer
-      (but not equal)
-      to 0, <m>g(x)</m> gets as close as we want to the value 4.
-      At first, this may feel counterintuitive,
-      because the value of <m>g(0)</m> is <m>1</m>, not <m>4</m>.
-      But limits describe the behavior of a function
-      <em>arbitrarily close to</em> a fixed input,
-      and the value of the function <em>at</em>
-      the fixed input does not matter.
-      More formally,<fn>
-      What follows here is not what mathematicians consider the formal definition of a limit.
-      To be completely precise,
-      it is necessary to quantify both what it means to say
-      <q>as close to <m>L</m> as we like</q>
-      and <q>sufficiently close to <m>a</m>.</q>
-      That can be accomplished through what is traditionally called the epsilon-delta definition of limits.
-      The definition presented here is sufficient for the purposes of this text.
-      </fn> we say the following.
+      En <xref ref="PA-1-2">Preview Activity</xref>,
+      vimos que 
+      a medida que <m>x</m> se acerca cada vez más
+      (pero no igual)
+      a 0, <m>g(x)</m> se acerca tanto como queramos al valor 4.
+      Al principio, esto puede parecer contraintuitivo,
+      porque el valor de <m>g(0)</m> es <m>1</m>, no <m>4</m>.
+      Pero los límites describen el comportamiento de una función
+      <em>arbitrariamente cerca de</em> una entrada fija,
+      y el valor de la función <em>en</em>
+      la entrada fija no importa.
+      Más formalmente,<fn>
+      Lo que sigue aquí no es lo que los matemáticos consideran la definición formal de un límite.
+      Para ser completamente precisos,
+      es necesario cuantificar tanto lo que significa decir
+      <q>tan cerca de <m>L</m> como queramos</q>
+      y <q>suficientemente cerca de <m>a</m>.</q>
+      Eso se puede lograr a través de lo que tradicionalmente se llama la definición epsilon-delta de límites.
+      La definición presentada aquí es suficiente para los propósitos de este texto.
+      </fn> decimos lo siguiente.
     </p>
 
     <definition permid="upj">
       <statement>
         <p permid="kzY">
-          Given a function <m>f</m>,
-          a fixed input <m>x = a</m>, and a real number <m>L</m>,
-          we say that <term><m>f</m> has limit <m>L</m> as <m>x</m> approaches <m>a</m></term>,
-              <idx><h>limit</h><h>definition</h></idx>
-          and write
+          Dada una función <m>f</m>,
+          una entrada fija <m>x = a</m>, y un número real <m>L</m>,
+          decimos que <term><m>f</m> tiene límite <m>L</m> a medida que <m>x</m> se acerca a <m>a</m></term>,
+              <idx><h>límite</h><h>definición</h></idx>
+          y escribimos
           <me permid="Dnw">
             \lim_{x \to a} f(x) = L
           </me>
-          provided that we can make <m>f(x)</m> as close to <m>L</m> as we like by taking <m>x</m> sufficiently close
-          (but not equal)
-          to <m>a</m>.
-          If we cannot make <m>f(x)</m> as close to a single value as we would like as <m>x</m> approaches <m>a</m>,
-          then we say that <term><m>f</m> does not have a limit as <m>x</m> approaches <m>a</m>.</term>
+          siempre que podamos hacer que <m>f(x)</m> se acerque tanto como queramos a <m>L</m> tomando <m>x</m> suficientemente cerca
+          (pero no igual)
+          a <m>a</m>.
+          Si no podemos hacer que <m>f(x)</m> se acerque a un solo valor tanto como queramos a medida que <m>x</m> se acerca a <m>a</m>,
+          entonces decimos que <term><m>f</m> no tiene un límite a medida que <m>x</m> se acerca a <m>a</m>.</term>
         </p>
       </statement>
     </definition>
@@ -136,64 +136,64 @@
     <example permid="aws">
       <statement>
         <p permid="QHh">
-          For the function <m>g</m> pictured in <xref ref="F-1-2-PA1">Figure</xref>,
-          we make the following observations:
+          Para la función <m>g</m> representada en <xref ref="F-1-2-PA1">Figura</xref>,
+          hacemos las siguientes observaciones:
           <me permid="juF">
-            \lim_{x \to -1} g(x) = 3, \  \lim_{x \to 0} g(x) = 4, \ \text{and}  \  \lim_{x \to 2} g(x) = 1
+            \lim_{x \to -1} g(x) = 3, \  \lim_{x \to 0} g(x) = 4, \ \text{y}  \  \lim_{x \to 2} g(x) = 1
           </me>.
-          When working from a graph,
-          it suffices to ask if the function <em>approaches</em>
-          a single value from each side of the fixed input.
-          The function value <em>at</em> the fixed input is irrelevant.
-          This reasoning explains the values of the three limits stated above.
+          Al trabajar con un gráfico,
+          basta con preguntar si la función <em>se acerca</em>
+          a un solo valor desde cada lado de la entrada fija.
+          El valor de la función <em>en</em> la entrada fija es irrelevante.
+          Este razonamiento explica los valores de los tres límites mencionados anteriormente.
         </p>
 
         <p permid="wOq">
-          However, <m>g</m> does not have a limit as <m>x \to 1</m>.  
-          There is a jump in the graph at <m>x = 1</m>.
-          If we approach <m>x = 1</m> from the left,
-          the function values tend to get close to 3,
-          but if we approach <m>x = 1</m> from the right,
-          the function values get close to 2.
-          There is no single number that all of these function values approach.
-          This is why the limit of <m>g</m> does not exist at <m>x = 1</m>.
+          Sin embargo, <m>g</m> no tiene un límite a medida que <m>x \to 1</m>.  
+          Hay un salto en el gráfico en <m>x = 1</m>.
+          Si nos acercamos a <m>x = 1</m> desde la izquierda,
+          los valores de la función tienden a acercarse a 3,
+          pero si nos acercamos a <m>x = 1</m> desde la derecha,
+          los valores de la función se acercan a 2.
+          No hay un solo número al que se acerquen todos estos valores de la función.
+          Por eso el límite de <m>g</m> no existe en <m>x = 1</m>.
         </p>
       </statement>
     </example>
 
     <p permid="aaT">
-      For any function <m>f</m>,
-      there are typically three ways to answer the question
-      <q>does <m>f</m> have a limit at <m>x = a</m>, and if so,
-      what is the limit?</q> The first is to reason graphically as we have just done with the example from <xref ref="PA-1-2">Preview Activity</xref>.
-      If we have a formula for <m>f(x)</m>,
-      there are two additional possibilities:
+      Para cualquier función <m>f</m>,
+      hay típicamente tres formas de responder a la pregunta
+      <q>¿tiene <m>f</m> un límite en <m>x = a</m>, y si es así,
+      ¿cuál es el límite?</q> La primera es razonar gráficamente como acabamos de hacer con el ejemplo de <xref ref="PA-1-2">Preview Activity</xref>.
+      Si tenemos una fórmula para <m>f(x)</m>,
+      hay dos posibilidades adicionales:
 
       <ol marker="1" permid="DIV">
         <li permid="NcH">
-          Evaluate the function at a sequence of inputs that approach <m>a</m> on either side
-          (typically using some sort of computing technology),
-          and ask if the sequence of outputs seems to approach a single value.
+          Evaluar la función en una secuencia de entradas que se acercan a <m>a</m> en ambos lados
+          (típicamente usando algún tipo de tecnología de computación),
+          y preguntar si la secuencia de salidas parece acercarse a un solo valor.
         </li>
 
         <li permid="tjQ">
-          Use the algebraic form of the function to understand the trend in its output values as the input values approach <m>a</m>.
+          Usar la forma algebraica de la función para entender la tendencia en sus valores de salida a medida que los valores de entrada se acercan a <m>a</m>.
         </li>
       </ol>
 
-      The first approach produces only an approximation of the value of the limit,
-      while the latter can often be used to determine the limit exactly.
+      El primer enfoque produce solo una aproximación del valor del límite,
+      mientras que el último a menudo se puede usar para determinar el límite exactamente.
     </p>
 
     <example xml:id="Ex-1-2-Limits" permid="GDB">
-      <title>Limits of Two Functions</title>
+      <title>Límites de Dos Funciones</title>
       <statement>
         <p permid="cVz">
-          For each of the following functions,
-          we'd like to know whether or not the function has a limit at the stated <m>a</m>-values.
-          Use both numerical and algebraic approaches to investigate and,
-          if possible, estimate or determine the value of the limit.
-          Compare the results with a careful graph of the function on an interval containing the points of interest.
+          Para cada una de las siguientes funciones,
+          nos gustaría saber si la función tiene un límite en los valores de <m>a</m> indicados.
+          Usa enfoques tanto numéricos como algebraicos para investigar y,
+          si es posible, estima o determina el valor del límite.
+          Compara los resultados con un gráfico cuidadoso de la función en un intervalo que contenga los puntos de interés.
         </p>
 
         <p permid="JcI">
@@ -212,13 +212,13 @@
       </statement>
       <solution permid="Lnu">
         <p permid="iKL">
-          a. We first construct a graph of <m>f</m> along with tables of values near <m>a = -1</m> and <m>a = -2</m>.
+          a. Primero construimos un gráfico de <m>f</m> junto con tablas de valores cerca de <m>a = -1</m> y <m>a = -2</m>.
         </p>
 
         <sidebyside widths="23% 23% 42%" valign="middle" permid="mKK">
 
           <table xml:id="table-1-F-1-2-Ex1f" permid="AsQ">
-            <title>Table of <m>f</m> values near <m>x=-1</m>.</title>
+            <title>Tabla de valores de <m>f</m> cerca de <m>x=-1</m>.</title>
             <tabular permid="YVA">
               <row bottom="minor" halign="center">
                 <cell><m>x</m></cell>
@@ -261,7 +261,7 @@
           </table>
           <!--  -->
           <table xml:id="table-2-F-1-2-Ex1f" permid="gzZ">
-            <title>Table of <m>f</m> values near <m>x=-2</m>.</title>
+            <title>Tabla de valores de <m>f</m> cerca de <m>x=-2</m>.</title>
             <tabular permid="FcJ">
               <row bottom="minor" halign="center">
                 <cell><m>x</m></cell>
@@ -304,314 +304,313 @@
           </table>
           <!--  -->
           <figure xml:id="plot-F-1-2-Ex1f" permid="YlG">
-            <caption>Plot of <m>f(x)</m> on <m>[-4,2]</m>.</caption>
+            <caption>Gráfico de <m>f(x)</m> en <m>[-4,2]</m>.</caption>
             <image source="images/1_2_Ex1f"/>
           </figure>
         </sidebyside>
 
-        <p permid="ORU">
-          From <xref ref="table-1-F-1-2-Ex1f">Table</xref>,
-          it appears that we can make <m>f</m> as close as we want to 3 by taking <m>x</m> sufficiently close to <m>-1</m>,
-          which suggests that <m>\lim_{x \to -1} f(x) = 3</m>.
-          This is also consistent with the graph of <m>f</m>.
-          To see this a bit more rigorously and from an algebraic point of view,
-          consider the formula for <m>f</m>:
-          <m>f(x) = \frac{4-x^2}{x+2}</m>.
-          As <m>x \to -1</m>,
-          <m>(4-x^2) \to (4 - (-1)^2) = 3</m>,
-          and <m>(x+2) \to (-1 + 2) = 1</m>, so as <m>x \to -1</m>,
-          the numerator of <m>f</m> tends to 3 and the denominator tends to 1, hence <m>\lim_{x \to -1} f(x) = \frac{3}{1} = 3</m>.
+<p permid="ORU">
+  De <xref ref="table-1-F-1-2-Ex1f">Tabla</xref>,
+  parece que podemos hacer <m>f</m> tan cercano como queramos a 3 tomando <m>x</m> suficientemente cercano a <m>-1</m>,
+  lo que sugiere que <m>\lim_{x \to -1} f(x) = 3</m>.
+  Esto también es consistente con el gráfico de <m>f</m>.
+  Para ver esto un poco más rigurosamente y desde un punto de vista algebraico,
+  considera la fórmula para <m>f</m>:
+  <m>f(x) = \frac{4-x^2}{x+2}</m>.
+  A medida que <m>x \to -1</m>,
+  <m>(4-x^2) \to (4 - (-1)^2) = 3</m>,
+  y <m>(x+2) \to (-1 + 2) = 1</m>, así que a medida que <m>x \to -1</m>,
+  el numerador de <m>f</m> tiende a 3 y el denominador tiende a 1, por lo tanto <m>\lim_{x \to -1} f(x) = \frac{3}{1} = 3</m>.
+</p>
+
+<p permid="uZd">
+  La situación es más complicada cuando <m>x \to -2</m>,
+  porque <m>f(-2)</m> no está definido.
+  Si intentamos usar un argumento algebraico similar respecto al numerador y denominador,
+  observamos que a medida que <m>x \to -2</m>,
+  <m>(4-x^2) \to (4 - (-2)^2) = 0</m>,
+  y <m>(x+2) \to (-2 + 2) = 0</m>, así que a medida que <m>x \to -2</m>,
+  el numerador y el denominador de <m>f</m> tienden a 0.
+  Llamamos a <m>0/0</m> una <em>forma indeterminada</em>.
+      <idx><h>forma indeterminada</h></idx>
+  Esto nos dice que de alguna manera hay más trabajo por hacer.
+  De <xref ref="table-2-F-1-2-Ex1f">Tabla</xref>
+  y <xref ref="plot-F-1-2-Ex1f">Figura</xref>,
+  parece que <m>f</m> debería tener un límite de <m>4</m> en <m>x = -2</m>.
+</p>
+
+<p permid="bgm">
+  Para ver algebraicamente por qué este es el caso, observa que
+  <md permid="PBO">
+    <mrow>\lim_{x \to -2} f(x) = \amp  \lim_{x \to -2} \frac{4-x^2}{x+2}</mrow>
+    <mrow>= \amp  \lim_{x \to -2} \frac{(2-x)(2+x)}{x+2}</mrow>
+  </md>.
+</p>
+
+<p permid="Hnv">
+  Es importante observar que,
+  dado que estamos tomando el límite a medida que <m>x \to -2</m>,
+  estamos considerando valores de <m>x</m> que están cerca,
+  pero no iguales, a <m>-2</m>.
+  Porque nunca permitimos realmente que <m>x</m> sea igual a <m>-2</m>,
+  el cociente <m>\frac{2+x}{x+2}</m> tiene valor 1 para cada valor posible de <m>x</m>.
+  Así, podemos simplificar la expresión más reciente arriba,
+  y encontrar que
+  <me permid="vIX">
+    \lim_{x \to -2} f(x) = \lim_{x \to -2} 2-x
+  </me>.
+  Este límite ahora es fácil de determinar,
+  y su valor claramente es <m>4</m>.
+  Así, desde varios puntos de vista hemos visto que <m>\lim_{x \to -2} f(x) = 4</m>.
+</p>
+
+<p permid="nuE">
+  b. A continuación nos dirigimos a la función <m>g</m>,
+  y construimos dos tablas y un gráfico.
+</p>
+
+<sidebyside widths="23% 23% 42%" permid="SRT">
+
+  <table xml:id="table-1-F-1-2-Ex1g" permid="MHi">
+    <title>Tabla de valores de <m>g</m> cerca de <m>x=3</m>.</title>
+    <tabular permid="ljS">
+      <row bottom="minor" halign="center">
+        <cell><m>x</m></cell>
+        <cell><m>g(x)</m></cell>
+      </row>
+      <row>
+        <cell><m>2.9</m></cell>
+        <cell><m>0.88351</m></cell>
+      </row>
+      <row>
+        <cell><m>2.99</m></cell>
+        <cell><m>0.86777</m></cell>
+      </row>
+      <row>
+        <cell><m>2.999</m></cell>
+        <cell><m>0.86620</m></cell>
+      </row>
+      <row>
+        <cell><m>2.9999</m></cell>
+        <cell><m>0.86604</m></cell>
+      </row>
+      <row>
+        <cell><m>3.1</m></cell>
+        <cell><m>0.84864</m></cell>
+      </row>
+      <row>
+        <cell><m>3.01</m></cell>
+        <cell><m>0.86428</m></cell>
+      </row>
+      <row>
+        <cell><m>3.001</m></cell>
+        <cell><m>0.86585</m></cell>
+      </row>
+      <row>
+        <cell><m>3.0001</m></cell>
+        <cell><m>0.86601</m></cell>
+      </row>
+    </tabular>
+
+  </table>
+  <!--  -->
+  <table xml:id="table-2-F-1-2-Ex1g" permid="sOr">
+    <title>Tabla de valores de <m>g</m> cerca de <m>x=0</m>.</title>
+    <tabular permid="Rrb">
+      <row bottom="minor" halign="center">
+        <cell><m>x</m></cell>
+        <cell><m>g(x)</m></cell>
+      </row>
+      <row>
+        <cell><m>-0.1</m></cell>
+        <cell><m>0</m></cell>
+      </row>
+      <row>
+        <cell><m>-0.01</m></cell>
+        <cell><m>0</m></cell>
+      </row>
+      <row>
+        <cell><m>-0.001</m></cell>
+        <cell><m>0</m></cell>
+      </row>
+      <row>
+        <cell><m>-0.0001</m></cell>
+        <cell><m>0</m></cell>
+      </row>
+      <row>
+        <cell><m>0.1</m></cell>
+        <cell><m>0</m></cell>
+      </row>
+      <row>
+        <cell><m>0.01</m></cell>
+        <cell><m>0</m></cell>
+      </row>
+      <row>
+        <cell><m>0.001</m></cell>
+        <cell><m>0</m></cell>
+      </row>
+      <row>
+        <cell><m>0.0001</m></cell>
+        <cell><m>0</m></cell>
+      </row>
+    </tabular>
+
+  </table>
+  <!--  -->
+  <figure xml:id="plot-F-1-2-Ex1g" permid="EsP">
+    <caption>Gráfico de <m>g(x)</m> en <m>[-4,4]</m>.</caption>
+    <image source="images/1_2_Ex1g"/>
+  </figure>
+</sidebyside>
+
+<p permid="TBN">
+  Primero, a medida que <m>x \to 3</m>, parece por los valores de la tabla
+  que la función se está acercando a un número entre <m>0.86601</m> y <m>0.86604</m>.
+  Por el gráfico parece que <m>g(x) \to g(3)</m> a medida que <m>x \to 3</m>.
+  El valor exacto de <m>g(3) = \sin(\frac{\pi}{3})</m> es <m>\frac{\sqrt{3}}{2}</m>,
+  que es aproximadamente 0.8660254038.
+  Esto es una evidencia convincente de que
+  <me permid="bQg">
+    \lim_{x \to 3} g(x) = \frac{\sqrt{3}}{2}
+  </me>.
+</p>
+
+<p permid="zIW">
+  A medida que <m>x \to 0</m>, observamos que
+  <m>\frac{\pi}{x}</m> no se comporta de una manera elemental.
+  Cuando <m>x</m> es positivo y se acerca a cero,
+  estamos dividiendo por valores positivos cada vez más pequeños,
+  y <m>\frac{\pi}{x}</m> aumenta sin límite.
+  Cuando <m>x</m> es negativo y se acerca a cero,
+  <m>\frac{\pi}{x}</m> disminuye sin límite.
+  En este sentido, a medida que nos acercamos a <m>x = 0</m>,
+  las entradas a la función seno están creciendo rápidamente,
+  y esto lleva a oscilaciones cada vez más rápidas en el gráfico de <m>g</m> entre <m>1</m> y <m>-1</m>.
+  Si graficamos la función
+  <m>g(x) = \sin\left(\frac{\pi}{x}\right)</m> con una herramienta de graficación y luego hacemos zoom en <m>x = 0</m>,
+  vemos que la función nunca se estabiliza en un solo valor cerca del origen,
+  lo que sugiere que <m>g</m> no tiene un límite en <m>x = 0</m>.
+</p>
+
+<p permid="fQf">
+  ¿Cómo reconciliamos el gráfico con la tabla de la derecha arriba,
+  que parece sugerir que el límite de <m>g</m> a medida que <m>x</m> se acerca a <m>0</m> puede de hecho ser <m>0</m>?
+  Los datos nos engañan debido a la naturaleza especial de la secuencia de valores de entrada <m>\{0.1, 0.01, 0.001, \ldots\}</m>.
+  Cuando evaluamos <m>g(10^{-k})</m>,
+  obtenemos <m>g(10^{-k}) = \sin\left(\frac{\pi}{10^{-k}}\right) = \sin(10^k \pi) = 0</m> para cada valor entero positivo de <m>k</m>.
+  Pero si tomamos una secuencia diferente de valores que se acercan a cero,
+  digamos <m>\{0.3, 0.03, 0.003, \ldots\}</m>, entonces encontramos que
+  <me permid="HXp">
+    g(3 \cdot 10^{-k}) = \sin\left(\frac{\pi}{3 \cdot 10^{-k}}\right) = \sin\left(\frac{10^k \pi}{3}\right) = \frac{\sqrt{3}}{2} \approx 0.866025
+  </me>.
+</p>
+
+<p permid="LXo">
+  Esa secuencia de valores de la función sugiere que el valor del límite es <m>\frac{\sqrt{3}}{2}</m>.
+  Claramente la función no puede tener dos valores diferentes para el límite,
+  así que <m>g</m> no tiene límite a medida que <m>x \to 0</m>.
+</p>
+</solution>
+</example>
+
+<p permid="Gic">
+  Una lección importante que tomar de <xref ref="Ex-1-2-Limits">Ejemplo</xref>
+  es que las tablas pueden ser engañosas al determinar el valor de un límite.
+  Mientras que una tabla de valores es útil para investigar el posible valor de un límite,
+  también deberíamos usar otras herramientas para confirmar el valor.
+</p>
+
+<xi:include href="./activities/act-1-2-1.xml" />
+
+<p permid="mpl">
+  Recuerda que nuestra motivación principal para considerar los límites de funciones proviene de nuestro interés en estudiar la tasa de cambio de una función.
+  Con ese fin,
+  cerramos esta sección revisando nuestro trabajo previo con velocidad promedio e instantánea y destacando el papel que juegan los límites.
+</p>
+</subsection>
+
+<subsection permid="iaR">
+  <title>Velocidad Instantánea</title>
+  <p permid="Swu">
+    Supón que tenemos un objeto en movimiento cuya posición en el tiempo <m>t</m> está dada por una función <m>s</m>.
+    Sabemos que la velocidad promedio del objeto en el intervalo de tiempo <m>[a,b]</m> es <m>AV_{[a,b]} = \frac{s(b)-s(a)}{b-a}</m>.
+    Definimos la <em>velocidad instantánea</em>
+        <idx><h>velocidad instantánea</h></idx>
+    en <m>a</m> como el límite de la velocidad promedio a medida que <m>b</m> se acerca a <m>a</m>.
+    Nota particularmente que a medida que <m>b \to a</m>,
+    la longitud del intervalo de tiempo se hace más corta y más corta
+    (mientras siempre incluye <m>a</m>).
+    Escribiremos <m>IV_{t=a}</m> para la velocidad instantánea en <m>t = a</m>, y así
+    <me permid="oey">
+      IV_{t=a} = \lim_{b \to a} AV_{[a,b]} = \lim_{b \to a} \frac{s(b)-s(a)}{b-a}
+    </me>.
+  </p>
+
+  <p permid="yDD">
+    De manera equivalente,
+    si pensamos en el valor cambiante <m>b</m> como de la forma <m>b = a + h</m>,
+    donde <m>h</m> es un número pequeño, entonces podemos escribir
+    <me permid="UlH">
+      IV_{t=a} = \lim_{h \to 0} AV_{[a,a+h]} = \lim_{h \to 0} \frac{s(a+h)-s(a)}{h}
+    </me>.
+  </p>
+
+  <p permid="eKM">
+    Nuevamente, la idea más importante aquí es que para calcular la velocidad instantánea,
+    tomamos un límite de velocidades promedio a medida que el intervalo de tiempo se reduce.
+  </p>
+
+  <xi:include href="./activities/act-1-2-2.xml" />
+
+  <p permid="KRV">
+    La actividad de cierre de esta sección te pide que hagas algunas conexiones entre velocidad promedio,
+    velocidad instantánea y pendientes de ciertas líneas.
+  </p>
+
+  <xi:include href="./activities/act-1-2-3.xml" />
+</subsection>
+
+<subsection permid="Oia">
+  <title>Resumen</title>
+  <p permid="qZe">
+    <ul permid="jQe">
+      <li permid="ozX">
+        <p permid="Kib">
+          Los límites nos permiten examinar tendencias en el comportamiento de la función cerca de un punto específico.
+          En particular,
+          tomar un límite en un punto dado pregunta si los valores de la función cercanos tienden a acercarse a un valor fijo particular.
         </p>
+      </li>
 
-        <p permid="uZd">
-          The situation is more complicated when <m>x \to -2</m>,
-          because <m>f(-2)</m> is not defined.
-          If we try to use a similar algebraic argument regarding the numerator and denominator,
-          we observe that as <m>x \to -2</m>,
-          <m>(4-x^2) \to (4 - (-2)^2) = 0</m>,
-          and <m>(x+2) \to (-2 + 2) = 0</m>, so as <m>x \to -2</m>,
-          the numerator and denominator of <m>f</m> both tend to 0.
-          We call <m>0/0</m> an <em>indeterminate form</em>.
-              <idx><h>indeterminate form</h></idx>
-          This tells us that there is somehow more work to do.
-          From <xref ref="table-2-F-1-2-Ex1f">Table</xref>
-          and <xref ref="plot-F-1-2-Ex1f">Figure</xref>,
-          it appears that <m>f</m> should have a limit of <m>4</m> at <m>x = -2</m>.
+      <li permid="UHg">
+        <p permid="qpk">
+          Leemos <m>\lim_{x \to a} f(x) = L</m>,
+          como <q>el límite de <m>f</m> a medida que <m>x</m> se acerca a <m>a</m> es <m>L</m>,</q>
+          lo que significa que podemos hacer el valor de <m>f(x)</m> tan cercano a <m>L</m> como queramos tomando <m>x</m> suficientemente cercano
+          (pero no igual)
+          a <m>a</m>.
         </p>
+      </li>
 
-        <p permid="bgm">
-          To see algebraically why this is the case, observe that
-          <md permid="PBO">
-            <mrow>\lim_{x \to -2} f(x) = \amp  \lim_{x \to -2} \frac{4-x^2}{x+2}</mrow>
-            <mrow>= \amp  \lim_{x \to -2} \frac{(2-x)(2+x)}{x+2}</mrow>
-          </md>.
+      <li permid="AOp">
+        <p permid="Wwt">
+          Para encontrar
+          <m>\lim_{x \to a} f(x)</m> para un valor dado de <m>a</m> y una función conocida <m>f</m>,
+          podemos estimar este valor a partir del gráfico de <m>f</m>,
+          o podemos hacer una tabla de valores de la función para valores de <m>x</m> que estén más y más cerca de <m>a</m>.
+          Si queremos el valor exacto del límite,
+          podemos trabajar con la función algebraicamente para entender cómo cambian las diferentes partes de la fórmula para <m>f</m> a medida que <m>x \to a</m>.
         </p>
+      </li>
 
-        <p permid="Hnv">
-          It is important to observe that,
-          since we are taking the limit as <m>x \to -2</m>,
-          we are considering <m>x</m> values that are close,
-          but not equal, to <m>-2</m>.
-          Because we never actually allow <m>x</m> to equal <m>-2</m>,
-          the quotient <m>\frac{2+x}{x+2}</m> has value 1 for every possible value of <m>x</m>.
-          Thus, we can simplify the most recent expression above,
-          and find that
-          <me permid="vIX">
-            \lim_{x \to -2} f(x) = \lim_{x \to -2} 2-x
-          </me>.
-          This limit is now easy to determine,
-          and its value clearly is <m>4</m>.
-          Thus, from several points of view we've seen that <m>\lim_{x \to -2} f(x) = 4</m>.
+      <li permid="gVy">
+        <p permid="CDC">
+          Encontramos la velocidad instantánea de un objeto en movimiento en un tiempo fijo tomando el límite de las velocidades promedio del objeto sobre intervalos de tiempo más y más cortos que contienen el tiempo de interés.
         </p>
+      </li>
+    </ul>
+  </p>
+</subsection>
 
-        <p permid="nuE">
-          b. Next we turn to the function <m>g</m>,
-          and construct two tables and a graph.
-        </p>
-
-        <sidebyside widths="23% 23% 42%" permid="SRT">
-
-          <table xml:id="table-1-F-1-2-Ex1g" permid="MHi">
-            <title>Table of <m>g</m> values near <m>x=3</m>.</title>
-            <tabular permid="ljS">
-              <row bottom="minor" halign="center">
-                <cell><m>x</m></cell>
-                <cell><m>g(x)</m></cell>
-              </row>
-              <row>
-                <cell><m>2.9</m></cell>
-                <cell><m>0.88351</m></cell>
-              </row>
-              <row>
-                <cell><m>2.99</m></cell>
-                <cell><m>0.86777</m></cell>
-              </row>
-              <row>
-                <cell><m>2.999</m></cell>
-                <cell><m>0.86620</m></cell>
-              </row>
-              <row>
-                <cell><m>2.9999</m></cell>
-                <cell><m>0.86604</m></cell>
-              </row>
-              <row>
-                <cell><m>3.1</m></cell>
-                <cell><m>0.84864</m></cell>
-              </row>
-              <row>
-                <cell><m>3.01</m></cell>
-                <cell><m>0.86428</m></cell>
-              </row>
-              <row>
-                <cell><m>3.001</m></cell>
-                <cell><m>0.86585</m></cell>
-              </row>
-              <row>
-                <cell><m>3.0001</m></cell>
-                <cell><m>0.86601</m></cell>
-              </row>
-            </tabular>
-
-          </table>
-          <!--  -->
-          <table xml:id="table-2-F-1-2-Ex1g" permid="sOr">
-            <title>Table of <m>g</m> values near <m>x=0</m>.</title>
-            <tabular permid="Rrb">
-              <row bottom="minor" halign="center">
-                <cell><m>x</m></cell>
-                <cell><m>g(x)</m></cell>
-              </row>
-              <row>
-                <cell><m>-0.1</m></cell>
-                <cell><m>0</m></cell>
-              </row>
-              <row>
-                <cell><m>-0.01</m></cell>
-                <cell><m>0</m></cell>
-              </row>
-              <row>
-                <cell><m>-0.001</m></cell>
-                <cell><m>0</m></cell>
-              </row>
-              <row>
-                <cell><m>-0.0001</m></cell>
-                <cell><m>0</m></cell>
-              </row>
-              <row>
-                <cell><m>0.1</m></cell>
-                <cell><m>0</m></cell>
-              </row>
-              <row>
-                <cell><m>0.01</m></cell>
-                <cell><m>0</m></cell>
-              </row>
-              <row>
-                <cell><m>0.001</m></cell>
-                <cell><m>0</m></cell>
-              </row>
-              <row>
-                <cell><m>0.0001</m></cell>
-                <cell><m>0</m></cell>
-              </row>
-            </tabular>
-
-          </table>
-          <!--  -->
-          <figure xml:id="plot-F-1-2-Ex1g" permid="EsP">
-            <caption>Plot of <m>g(x)</m> on <m>[-4,4]</m>.</caption>
-            <image source="images/1_2_Ex1g"/>
-          </figure>
-        </sidebyside>
-
-        <p permid="TBN">
-          First, as <m>x \to 3</m>, it appears from the table values
-          that the function is approaching a number between <m>0.86601</m> and <m>0.86604</m>.
-          From the graph it appears that <m>g(x) \to g(3)</m> as <m>x \to 3</m>.
-          The exact value of <m>g(3) = \sin(\frac{\pi}{3})</m> is <m>\frac{\sqrt{3}}{2}</m>,
-          which is approximately 0.8660254038.
-          This is convincing evidence that
-          <me permid="bQg">
-            \lim_{x \to 3} g(x) = \frac{\sqrt{3}}{2}
-          </me>.
-        </p>
-
-        <p permid="zIW">
-          As <m>x \to 0</m>, we observe that
-          <m>\frac{\pi}{x}</m> does not behave in an elementary way.
-          When <m>x</m> is positive and approaching zero,
-          we are dividing by smaller and smaller positive values,
-          and <m>\frac{\pi}{x}</m> increases without bound.
-          When <m>x</m> is negative and approaching zero,
-          <m>\frac{\pi}{x}</m> decreases without bound.
-          In this sense, as we get close to <m>x = 0</m>,
-          the inputs to the sine function are growing rapidly,
-          and this leads to increasingly rapid oscillations in the graph of <m>g</m> betweem <m>1</m> and <m>-1</m>.
-          If we plot the function
-          <m>g(x) = \sin\left(\frac{\pi}{x}\right)</m> with a graphing utility and then zoom in on <m>x = 0</m>,
-          we see that the function never settles down to a single value near the origin,
-          which suggests that <m>g</m> does not have a limit at <m>x = 0</m>.
-        </p>
-
-        <p permid="fQf">
-          How do we reconcile the graph with the righthand table above,
-          which seems to suggest that the limit of <m>g</m> as <m>x</m> approaches <m>0</m> may in fact be <m>0</m>?
-          The data misleads us because of the special nature of the sequence of input values <m>\{0.1, 0.01, 0.001, \ldots\}</m>.
-          When we evaluate <m>g(10^{-k})</m>,
-          we get <m>g(10^{-k}) = \sin\left(\frac{\pi}{10^{-k}}\right) = \sin(10^k \pi) = 0</m> for each positive integer value of <m>k</m>.
-          But if we take a different sequence of values approaching zero,
-          say <m>\{0.3, 0.03, 0.003, \ldots\}</m>, then we find that
-          <me permid="HXp">
-            g(3 \cdot 10^{-k}) = \sin\left(\frac{\pi}{3 \cdot 10^{-k}}\right) = \sin\left(\frac{10^k \pi}{3}\right) = \frac{\sqrt{3}}{2} \approx 0.866025
-          </me>.
-        </p>
-
-        <p permid="LXo">
-          That sequence of function values suggests that the value of the limit is <m>\frac{\sqrt{3}}{2}</m>.
-          Clearly the function cannot have two different values for the limit,
-          so <m>g</m> has no limit as <m>x \to 0</m>.
-        </p>
-      </solution>
-    </example>
-
-    <p permid="Gic">
-      An important lesson to take from <xref ref="Ex-1-2-Limits">Example</xref>
-      is that tables can be misleading when determining the value of a limit.
-      While a table of values is useful for investigating the possible value of a limit,
-      we should also use other tools to confirm the value.
-    </p>
-
-    <xi:include href="./activities/act-1-2-1.xml" />
-
-    <p permid="mpl">
-      Recall that our primary motivation for considering limits of functions comes from our interest in studying the rate of change of a function.
-      To that end,
-      we close this section by revisiting our previous work with average and instantaneous velocity and highlighting the role that limits play.
-    </p>
-  </subsection>
-
-  <subsection permid="iaR">
-    <title>Instantaneous Velocity</title>
-    <p permid="Swu">
-      Suppose that we have a moving object whose position at time <m>t</m> is given by a function <m>s</m>.
-      We know that the average velocity of the object on the time interval <m>[a,b]</m> is <m>AV_{[a,b]} = \frac{s(b)-s(a)}{b-a}</m>.
-      We define the <em>instantaneous velocity</em>
-          <idx><h>instantaneous velocity</h></idx>
-      at <m>a</m> to be the limit of average velocity as <m>b</m> approaches <m>a</m>.
-      Note particularly that as <m>b \to a</m>,
-      the length of the time interval gets shorter and shorter
-      (while always including <m>a</m>).
-      We will write <m>IV_{t=a}</m> for the instantaneous velocity at <m>t = a</m>, and thus
-      <me permid="oey">
-        IV_{t=a} = \lim_{b \to a} AV_{[a,b]} = \lim_{b \to a} \frac{s(b)-s(a)}{b-a}
-      </me>.
-    </p>
-
-    <p permid="yDD">
-      Equivalently,
-      if we think of the changing value <m>b</m> as being of the form <m>b = a + h</m>,
-      where <m>h</m> is some small number, then we may instead write
-      <me permid="UlH">
-        IV_{t=a} = \lim_{h \to 0} AV_{[a,a+h]} = \lim_{h \to 0} \frac{s(a+h)-s(a)}{h}
-      </me>.
-    </p>
-
-    <p permid="eKM">
-      Again, the most important idea here is that to compute instantaneous velocity,
-      we take a limit of average velocities as the time interval shrinks.
-    </p>
-
-    <xi:include href="./activities/act-1-2-2.xml" />
-
-    <p permid="KRV">
-      The closing activity of this section asks you to make some connections among average velocity,
-      instantaneous velocity, and slopes of certain lines.
-    </p>
-
-    <xi:include href="./activities/act-1-2-3.xml" />
-  </subsection>
-
-  <subsection permid="Oia">
-    <title>Summary</title>
-    <p permid="qZe">
-      <ul permid="jQe">
-        <li permid="ozX">
-          <p permid="Kib">
-            Limits enable us to examine trends in function behavior near a specific point.
-            In particular,
-            taking a limit at a given point asks if the function values nearby tend to approach a particular fixed value.
-          </p>
-        </li>
-
-        <li permid="UHg">
-          <p permid="qpk">
-            We read <m>\lim_{x \to a} f(x) = L</m>,
-            as <q>the limit of <m>f</m> as <m>x</m> approaches <m>a</m> is <m>L</m>,</q>
-            which means that we can make the value of <m>f(x)</m> as close to <m>L</m> as we want by taking <m>x</m> sufficiently close
-            (but not equal)
-            to <m>a</m>.
-          </p>
-        </li>
-
-        <li permid="AOp">
-          <p permid="Wwt">
-            To find
-            <m>\lim_{x \to a} f(x)</m> for a given value of <m>a</m> and a known function <m>f</m>,
-            we can estimate this value from the graph of <m>f</m>,
-            or we can make a table of function values for <m>x</m>-values that are closer and closer to <m>a</m>.
-            If we want the exact value of the limit,
-            we can work with the function algebraically to understand how different parts of the formula for <m>f</m> change as <m>x \to a</m>.
-          </p>
-        </li>
-
-        <li permid="gVy">
-          <p permid="CDC">
-            We find the instantaneous velocity of a moving object at a fixed time by taking the limit of average velocities of the object over shorter and shorter time intervals containing the time of interest.
-          </p>
-        </li>
-      </ul>
-    </p>
-  </subsection>
-
-  <xi:include href="./exercises/ez-1-2.xml" />
+<xi:include href="./exercises/ez-1-2.xml" />
 </section>
-

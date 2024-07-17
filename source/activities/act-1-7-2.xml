@@ -15,13 +15,13 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-7-2" permid="Ufz">
   <statement>
     <p permid="bJY">
-      This activity builds on your work in <xref ref="PA-1-7">Preview Activity</xref>,
-      using the same function <m>f</m> as given by the graph that is repeated in <xref ref="F-1-7-A2">Figure</xref>.
-      Assume that <m>f(2) = -2.5</m>.
+      Esta actividad se basa en tu trabajo en <xref ref="PA-1-7">Preview Activity</xref>,
+      usando la misma función <m>f</m> como se muestra en el gráfico que se repite en <xref ref="F-1-7-A2">Figure</xref>.
+      Supón que <m>f(2) = -2.5</m>.
     </p>
 
     <figure xml:id="F-1-7-A2" permid="nYq">
-      <caption>The graph of <m>y = f(x)</m> for <xref ref="act-1-7-2">Activity</xref>.</caption>
+      <caption>El gráfico de <m>y = f(x)</m> para <xref ref="act-1-7-2">Activity</xref>.</caption>
       <image width="47%" source="images/1_7_PA1" />
     </figure>
 
@@ -29,39 +29,39 @@
       <ol marker="a." permid="RGs">
         <li permid="xNB">
           <p permid="QAZ">
-            At which values of <m>a</m> does <m>\lim_{x \to a} f(x)</m> not exist?
+            ¿En qué valores de <m>a</m> no existe <m>\lim_{x \to a} f(x)</m>?
           </p>
         </li>
 
         <li permid="dUK">
           <p permid="wIi">
-            At which values of <m>a</m> is <m>f(a)</m> not defined?
+            ¿En qué valores de <m>a</m> no está definida <m>f(a)</m>?
           </p>
         </li>
 
         <li permid="KbT">
           <p permid="cPr">
-            At which values of <m>a</m> does <m>f</m> have a limit,
-            but <m>\lim_{x \to a} f(x) \ne f(a)</m>?
+            ¿En qué valores de <m>a</m> tiene <m>f</m> un límite,
+            pero <m>\lim_{x \to a} f(x) \ne f(a)</m>?
           </p>
         </li>
 
         <li permid="qjc">
           <p permid="IWA">
-            State all values of <m>a</m> for which <m>f</m> is not continuous at <m>x = a</m>.
+            Indica todos los valores de <m>a</m> para los cuales <m>f</m> no es continua en <m>x = a</m>.
           </p>
         </li>
 
         <li permid="Wql">
           <p permid="pdJ">
-            Which condition is stronger,
-            and hence implies the other:
-            <m>f</m> has a limit at <m>x = a</m> or <m>f</m> is continuous at <m>x = a</m>?
-            Explain, and hence complete the following sentence:
-            <q>If <m>f</m> <fillin /> at <m>x = a</m>,
-            then <m>f</m> <fillin /> at <m>x = a</m>,</q>
-            where you complete the blanks with <em>has a limit</em>
-            and <em>is continuous</em>, using each phrase once.
+            ¿Cuál condición es más fuerte,
+            y por lo tanto implica la otra:
+            <m>f</m> tiene un límite en <m>x = a</m> o <m>f</m> es continua en <m>x = a</m>?
+            Explica, y completa la siguiente oración:
+            <q>Si <m>f</m> <fillin /> en <m>x = a</m>,
+            entonces <m>f</m> <fillin /> en <m>x = a</m>,</q>
+            donde completas los espacios en blanco con <em>tiene un límite</em>
+            y <em>es continua</em>, usando cada frase una vez.
           </p>
         </li>
       </ol>
@@ -72,35 +72,35 @@
       <ol marker="a." permid="lzj">
         <li permid="Cxu">
           <p permid="VkS">
-            Consider the left- and right-hand limits at each value.
+            Considera los límites laterales en cada valor.
           </p>
         </li>
 
         <li permid="iED">
           <p permid="Bsb">
-            Carefully examine places on the graph where there's an open circle.
+            Examina cuidadosamente los lugares en el gráfico donde hay un círculo abierto.
           </p>
         </li>
 
         <li permid="OLM">
           <p permid="hzk">
-            Are there locations on the graph where the function has a limit but there's a hole in the graph?
+            ¿Hay ubicaciones en el gráfico donde la función tiene un límite pero hay un agujero en el gráfico?
           </p>
         </li>
 
         <li permid="uSV">
           <p permid="NGt">
-            Remember that at least one of three conditions must fail:
-            if the function lacks a limit,
-            if the function is undefined,
-            or if the limit exists but does not equal the function value,
-            then <m>f</m> is not continuous at the point.
+            Recuerda que al menos una de tres condiciones debe fallar:
+            si la función no tiene un límite,
+            si la función no está definida,
+            o si el límite existe pero no es igual al valor de la función,
+            entonces <m>f</m> no es continua en el punto.
           </p>
         </li>
 
         <li permid="bae">
           <p permid="tNC">
-            Note that the definition of being continuous requires the limit to exist.
+            Nota que la definición de ser continua requiere que el límite exista.
           </p>
         </li>
       </ol>
@@ -136,8 +136,8 @@
 
         <li permid="fJX">
           <p permid="yxv">
-            <q>If <m>f</m> <em>is continuous</em> at <m>x = a</m>,
-            then <m>f</m> <em>has a limit</em> at <m>x = a</m>.</q>
+            <q>Si <m>f</m> <em>es continua</em> en <m>x = a</m>,
+            entonces <m>f</m> <em>tiene un límite</em> en <m>x = a</m>.</q>
           </p>
         </li>
       </ol>
@@ -148,50 +148,49 @@
       <ol marker="a." permid="ZkR">
         <li permid="LRg">
           <p permid="eEE">
-            <m>\lim_{x \to a} f(x)</m> does not exist at <m>a = -2</m> since <m>\lim_{x \to -2^-} f(x) = 2 \ne -1 = \lim_{x \to -2^+}</m> and
-            <m>\lim_{x \to a} f(x)</m> does not exist at <m>a = +2</m> since
-            <m>\lim_{x \to 2^+} f(x)</m> does not exist due to the infinitely oscillatory behavior of <m>f</m>.
+            <m>\lim_{x \to a} f(x)</m> no existe en <m>a = -2</m> ya que <m>\lim_{x \to -2^-} f(x) = 2 \ne -1 = \lim_{x \to -2^+}</m> y
+            <m>\lim_{x \to a} f(x)</m> no existe en <m>a = +2</m> ya que
+            <m>\lim_{x \to 2^+} f(x)</m> no existe debido al comportamiento infinitamente oscilatorio de <m>f</m>.
           </p>
         </li>
 
         <li permid="rYp">
           <p permid="KLN">
-            The only point at which <m>f</m> is not defined is at <m>a = 3</m>.
+            El único punto en el que <m>f</m> no está definida es en <m>a = 3</m>.
           </p>
         </li>
 
         <li permid="Yfy">
           <p permid="qSW">
-            At <m>a = -1</m>, note that <m>\lim_{x \to -1} f(x)</m> exists
-            (and appears to have value approximately <m>-3.25</m>),
-            but <m>f(-1) = 1</m>, and thus <m>\lim_{x \to -1} f(x) \ne f(-1)</m>.
-            At <m>a = 3</m>, <m>\lim_{x \to 3} f(x) = -2.5</m>,
-            but <m>f(3)</m> is not defined,
-            so the limit exists but does not equal the function value.
+            En <m>a = -1</m>, nota que <m>\lim_{x \to -1} f(x)</m> existe
+            (y parece tener un valor aproximadamente de <m>-3.25</m>),
+            pero <m>f(-1) = 1</m>, y por lo tanto <m>\lim_{x \to -1} f(x) \ne f(-1)</m>.
+            En <m>a = 3</m>, <m>\lim_{x \to 3} f(x) = -2.5</m>,
+            pero <m>f(3)</m> no está definida,
+            así que el límite existe pero no es igual al valor de la función.
           </p>
         </li>
 
         <li permid="EmH">
           <p permid="Xaf">
-            Based on our work in (a), (b), and (c),
-            <m>f</m> is not continuous at <m>a=-2</m> and <m>a = 2</m> because <m>f</m> does not have a limit at those points;
-            <m>f</m> is not continuous at <m>a = 3</m> since <m>f</m> is not defined there;
-            and <m>f</m> is not continuous at <m>a = -1</m> because at that point its limit does not equal its function value.
+            Basándonos en nuestro trabajo en (a), (b) y (c),
+            <m>f</m> no es continua en <m>a=-2</m> y <m>a = 2</m> porque <m>f</m> no tiene un límite en esos puntos;
+            <m>f</m> no es continua en <m>a = 3</m> ya que <m>f</m> no está definida allí;
+            y <m>f</m> no es continua en <m>a = -1</m> porque en ese punto su límite no es igual al valor de la función.
           </p>
         </li>
 
         <li permid="ktQ">
           <p permid="Dho">
-            <q>If <m>f</m> <em>is continuous</em> at <m>x = a</m>,
-            then <m>f</m> <em>has a limit</em> at <m>x = a</m>,</q>
-            since one of the defining properties of
-            <q>being continuous</q>
-            at <m>x = a</m> is that the function has a limit at that input value.
-            This shows that being continuous is a stronger condition than having a limit.
+            <q>Si <m>f</m> <em>es continua</em> en <m>x = a</m>,
+            entonces <m>f</m> <em>tiene un límite</em> en <m>x = a</m>,</q>
+            ya que una de las propiedades definitorias de
+            <q>ser continua</q>
+            en <m>x = a</m> es que la función tiene un límite en ese valor de entrada.
+            Esto muestra que ser continua es una condición más fuerte que tener un límite.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

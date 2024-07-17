@@ -13,26 +13,25 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-3-3-optimization" permid="bgZ">
-  <title>Global Optimization</title>
+  <title>Optimización Global</title>
   <objectives permid="LYb">
     <ul permid="cWm">
       <li permid="VrN">
         <p permid="jvs">
-          What are the differences between finding relative extreme values and global extreme values of a function?
+          ¿Cuáles son las diferencias entre encontrar valores extremos relativos y valores extremos globales de una función?
         </p>
       </li>
 
       <li permid="ByW">
         <p permid="PCB">
-          How is the process of finding the global maximum or minimum of a function over the function's entire domain different from determining the global maximum or minimum on a restricted domain?
+          ¿Cómo es diferente el proceso de encontrar el máximo o mínimo global de una función en todo el dominio de la función en comparación con determinar el máximo o mínimo global en un dominio restringido?
         </p>
       </li>
 
       <li permid="hGf">
         <p permid="vJK">
-          For a function that is guaranteed to have both a global maximum and global minimum on a closed,
-          bounded interval,
-          what are the possible points at which these extreme values occur?
+          Para una función que garantiza tener tanto un máximo global como un mínimo global en un intervalo cerrado y acotado,
+          ¿cuáles son los posibles puntos en los que ocurren estos valores extremos?
         </p>
       </li>
     </ul>
@@ -40,130 +39,129 @@
 
   <introduction permid="Ymt">
     <p permid="Thb">
-      We have seen that we can use the first derivative of a function to determine where the function is increasing or decreasing,
-      and the second derivative to know where the function is concave up or concave down.
-      This information helps us determine the overall shape and behavior of the graph,
-      as well as whether the function has relative extrema.
+      Hemos visto que podemos usar la primera derivada de una función para determinar dónde la función está aumentando o disminuyendo,
+      y la segunda derivada para saber dónde la función es cóncava hacia arriba o hacia abajo.
+      Esta información nos ayuda a determinar la forma y el comportamiento general del gráfico,
+      así como si la función tiene extremos relativos.
     </p>
 
     <p permid="zok">
-      Remember the difference between a relative maximum and a global maximum:
-      there is a <em>relative</em> maximum of <m>f</m> at <m>x = p</m> if
-      <m>f(p) \ge f(x)</m> for all <m>x</m> <em>near</em> <m>p</m>,
-      while there is a <em>global</em> maximum at <m>p</m> if
-      <m>f(p) \ge f(x)</m> for <em>all</em>
-      <m>x</m> in the domain of <m>f</m>.
+      Recuerda la diferencia entre un máximo relativo y un máximo global:
+      hay un máximo <em>relativo</em> de <m>f</m> en <m>x = p</m> si
+      <m>f(p) \ge f(x)</m> para todo <m>x</m> <em>cerca</em> de <m>p</m>,
+      mientras que hay un máximo <em>global</em> en <m>p</m> si
+      <m>f(p) \ge f(x)</m> para <em>todos</em>
+      <m>x</m> en el dominio de <m>f</m>.
     </p>
 
     <sidebyside widths="50% 44%" margins="0%" permid="sfk">
       <p permid="GSJ">
-        For instance, in <xref ref="F-3-3-Intro">Figure</xref>,
-        we see a function <m>f</m> that has a global maximum at <m>x = c</m> and a relative maximum at <m>x = a</m>,
-        since <m>f(c)</m> is greater than <m>f(x)</m> for every value of <m>x</m>,
-        while <m>f(a)</m> is only greater than the value of <m>f(x)</m> for <m>x</m> near <m>a</m>.
-        Since the function appears to decrease without bound,
-        <m>f</m> has no global minimum,
-        though clearly <m>f</m> has a relative minimum at <m>x = b</m>.
+        Por ejemplo, en <xref ref="F-3-3-Intro">Figura</xref>,
+        vemos una función <m>f</m> que tiene un máximo global en <m>x = c</m> y un máximo relativo en <m>x = a</m>,
+        ya que <m>f(c)</m> es mayor que <m>f(x)</m> para cada valor de <m>x</m>,
+        mientras que <m>f(a)</m> es solo mayor que el valor de <m>f(x)</m> para <m>x</m> cerca de <m>a</m>.
+        Dado que la función parece disminuir sin límite,
+        <m>f</m> no tiene un mínimo global,
+        aunque claramente <m>f</m> tiene un mínimo relativo en <m>x = b</m>.
       </p>
 
       <figure xml:id="F-3-3-Intro" permid="mZS">
-        <caption>A function <m>f</m> with a global maximum, but no global minimum.</caption>
+        <caption>Una función <m>f</m> con un máximo global, pero sin un mínimo global.</caption>
         <image source="images/3_3_Intro" />
       </figure>
     </sidebyside>
 
     <p permid="fvt">
-      Our emphasis in this section is on finding the global extreme values of a function
-      (if they exist),
-      either over its entire domain or on some restricted portion.
+      Nuestro énfasis en esta sección es encontrar los valores extremos globales de una función
+      (si existen),
+      ya sea en todo su dominio o en alguna porción restringida.
     </p>
 
     <xi:include href="./previews/PA-3-3.xml" />
   </introduction>
 
   <subsection permid="Hoi">
-    <title>Global Optimization</title>
+    <title>Optimización Global</title>
     <p permid="LCC">
-      In <xref ref="F-3-3-Intro">Figure</xref>
-      and <xref ref="PA-3-3">Preview Activity</xref>,
-      we were interested in finding the global minimum and global maximum for <m>f</m> on its entire domain.
-      At other times, we might focus on some restriction of the domain.
+      En <xref ref="F-3-3-Intro">Figura</xref>
+      y <xref ref="PA-3-3">Actividad de Previsualización</xref>,
+      estábamos interesados en encontrar el mínimo global y el máximo global para <m>f</m> en todo su dominio.
+      En otras ocasiones, podríamos enfocarnos en alguna restricción del dominio.
     </p>
 
     <p permid="rJL">
-      For example, rather than considering
-      <m>f(x) = 2 + \frac{3}{1+(x+1)^2}</m> for every value of <m>x</m>,
-      perhaps instead we are only interested in those <m>x</m> for which <m>0 \le x \le 4</m>,
-      and we would like to know which values of <m>x</m> in the interval <m>[0,4]</m> produce the largest possible and smallest possible values of <m>f</m>.
-      We are accustomed to critical numbers playing a key role in determining the location of extreme values of a function;
-      now, by restricting the domain to an interval,
-      it makes sense that the endpoints of the interval will also be important to consider,
-      as we see in the following activity.
-      When limiting ourselves to a particular interval,
-      we will often refer to the <em>absolute</em>
-      maximum or minimum value,
-      rather than the <em>global</em> maximum or minimum.
+      Por ejemplo, en lugar de considerar
+      <m>f(x) = 2 + \frac{3}{1+(x+1)^2}</m> para cada valor de <m>x</m>,
+      tal vez en su lugar solo estamos interesados en aquellos <m>x</m> para los cuales <m>0 \le x \le 4</m>,
+      y nos gustaría saber qué valores de <m>x</m> en el intervalo <m>[0,4]</m> producen los valores más grandes y más pequeños posibles de <m>f</m>.
+      Estamos acostumbrados a que los números críticos jueguen un papel clave en la determinación de la ubicación de los valores extremos de una función;
+      ahora, al restringir el dominio a un intervalo,
+      tiene sentido que los extremos del intervalo también sean importantes a considerar,
+      como vemos en la siguiente actividad.
+      Al limitarnos a un intervalo particular,
+      a menudo nos referiremos al valor <em>absoluto</em>
+      máximo o mínimo,
+      en lugar del máximo o mínimo <em>global</em>.
     </p>
 
     <xi:include href="./activities/act-3-3-1.xml" />
 
     <p permid="XQU">
-      In <xref ref="act-3-3-1">Activity</xref>,
-      we saw how the absolute maximum and absolute minimum of a function on a closed,
-      bounded interval <m>[a,b]</m>,
-      depend not only on the critical numbers of the function,
-      but also on the values of <m>a</m> and <m>b</m>.
-      These observations demonstrate several important facts that hold more generally.
-      First, we state an important result called the Extreme Value Theorem.
+      En <xref ref="act-3-3-1">Actividad</xref>,
+      vimos cómo el máximo absoluto y el mínimo absoluto de una función en un intervalo cerrado y acotado <m>[a,b]</m>,
+      dependen no solo de los números críticos de la función,
+      sino también de los valores de <m>a</m> y <m>b</m>.
+      Estas observaciones demuestran varios hechos importantes que se aplican de manera más general.
+      Primero, enunciamos un resultado importante llamado el Teorema del Valor Extremo.
     </p>
 
     <assemblage xml:id="extreme-value-theorem" permid="zJJ">
-      <title>The Extreme Value Theorem</title>
+      <title>El Teorema del Valor Extremo</title>
       <p permid="DYd">
-            <idx><h>extreme value theorem</h></idx>
-        If <m>f</m> is a continuous function on a closed interval <m>[a,b]</m>,
-        then <m>f</m> attains both an absolute minimum and absolute maximum on <m>[a,b]</m>.
-        <!--That is, for some value <m>x_m</m> such that <m>a \le x_m \le b</m>,
-        it follows that <m>f(x_m) \le f(x)</m> for all <m>x</m> in <m>[a,b]</m>.
-        Similarly, there is a value <m>x_M</m> in <m>[a,b]</m> such that
-        <m>f(x_M) \ge f(x)</m> for all <m>x</m> in <m>[a,b]</m>.
-        Letting <m>m = f(x_m)</m> and <m>M = f(x_M)</m>,
-        it follows that <m>m \le f(x) \le M</m> for all <m>x</m> in <m>[a,b]</m>.-->
+            <idx><h>teorema del valor extremo</h></idx>
+        Si <m>f</m> es una función continua en un intervalo cerrado <m>[a,b]</m>,
+        entonces <m>f</m> alcanza tanto un mínimo absoluto como un máximo absoluto en <m>[a,b]</m>.
+        <!--Es decir, para algún valor <m>x_m</m> tal que <m>a \le x_m \le b</m>,
+        se sigue que <m>f(x_m) \le f(x)</m> para todo <m>x</m> en <m>[a,b]</m>.
+        De manera similar, hay un valor <m>x_M</m> en <m>[a,b]</m> tal que
+        <m>f(x_M) \ge f(x)</m> para todo <m>x</m> en <m>[a,b]</m>.
+        Dejando <m>m = f(x_m)</m> y <m>M = f(x_M)</m>,
+        se sigue que <m>m \le f(x) \le M</m> para todo <m>x</m> en <m>[a,b]</m>.-->
       </p>
     </assemblage>
 
     <p permid="kfm">
-      The Extreme Value Theorem tells us that 
-      on any closed interval <m>[a,b]</m>,
-      a continuous function has to achieve both an absolute minimum and an absolute maximum.
-      The theorem does not tell us where these extreme values occur,
-      but rather only that they must exist.
-      As we saw in <xref ref="act-3-3-1">Activity</xref>,
-      the only possible locations for relative extremes are at the endpoints of the interval or at a critical number.
+      El Teorema del Valor Extremo nos dice que 
+      en cualquier intervalo cerrado <m>[a,b]</m>,
+      una función continua tiene que alcanzar tanto un mínimo absoluto como un máximo absoluto.
+      El teorema no nos dice dónde ocurren estos valores extremos,
+      sino solo que deben existir.
+      Como vimos en <xref ref="act-3-3-1">Actividad</xref>,
+      las únicas ubicaciones posibles para los extremos relativos son en los extremos del intervalo o en un número crítico.
     </p>
 
     <note permid="kAL">
       <p permid="uEr">
-        Thus, we have the following approach to finding the absolute maximum and minimum of a continuous function <m>f</m> on the interval <m>[a,b]</m>:
+        Por lo tanto, tenemos el siguiente enfoque para encontrar el máximo y mínimo absoluto de una función continua <m>f</m> en el intervalo <m>[a,b]</m>:
 
         <ul permid="wPd">
           <li permid="NNo">
             <p permid="bQT">
-              find all critical numbers of <m>f</m> that lie in the interval;
+              encuentra todos los números críticos de <m>f</m> que se encuentran en el intervalo;
             </p>
           </li>
 
           <li permid="tUx">
             <p permid="HYc">
-              evaluate the function <m>f</m> at each critical number in the interval and at each endpoint of the interval;
+              evalúa la función <m>f</m> en cada número crítico en el intervalo y en cada extremo del intervalo;
             </p>
           </li>
 
           <li permid="abG">
             <p permid="ofl">
-              from among those function values,
-              the smallest is the absolute minimum of <m>f</m> on the interval,
-              while the largest is the absolute maximum.
+              de entre esos valores de la función,
+              el más pequeño es el mínimo absoluto de <m>f</m> en el intervalo,
+              mientras que el más grande es el máximo absoluto.
             </p>
           </li>
         </ul>
@@ -173,140 +171,139 @@
     <xi:include href="./activities/act-3-3-2.xml" />
 
     <p permid="Qmv">
-      The interval we choose has nearly the same influence on extreme values as the function under consideration.
-      Consider, for instance,
-      the function pictured in <xref ref="F-3-3-Interval">Figure</xref>.
+      El intervalo que elegimos tiene casi la misma influencia en los valores extremos que la función en consideración.
+      Considera, por ejemplo,
+      la función representada en <xref ref="F-3-3-Interval">Figura</xref>.
     </p>
 
     <figure xml:id="F-3-3-Interval" permid="IHW">
-      <caption>A function <m>g</m> considered on three different intervals.</caption>
+      <caption>Una función <m>g</m> considerada en tres intervalos diferentes.</caption>
       <image width="100%" source="images/3_3_Interval" />
     </figure>
 
     <p permid="wtE">
-      In sequence, from left to right,
-      the interval under consideration is changed from <m>[-2,3]</m> to <m>[-2,2]</m> to <m>[-2,1]</m>.
+      En secuencia, de izquierda a derecha,
+      el intervalo considerado cambia de <m>[-2,3]</m> a <m>[-2,2]</m> a <m>[-2,1]</m>.
 
       <ul permid="Jdv">
         <li permid="GiP">
-          On the interval <m>[-2,3]</m>,
-          there are two critical numbers,
-          with the absolute minimum at one critical number and the absolute maximum at the right endpoint.
+          En el intervalo <m>[-2,3]</m>,
+          hay dos números críticos,
+          con el mínimo absoluto en un número crítico y el máximo absoluto en el extremo derecho.
         </li>
 
         <li permid="mpY">
-          On the interval <m>[-2,2]</m>,
-          both critical numbers are in the interval,
-          with the absolute minimum and maximum at the two critical numbers.
+          En el intervalo <m>[-2,2]</m>,
+          ambos números críticos están en el intervalo,
+          con el mínimo absoluto y el máximo absoluto en los dos números críticos.
         </li>
 
         <li permid="Sxh">
-          On the interval <m>[-2,1]</m>,
-          just one critical number lies in the interval,
-          with the absolute maximum at one critical number and the absolute minimum at one endpoint.
+          En el intervalo <m>[-2,1]</m>,
+          solo un número crítico se encuentra en el intervalo,
+          con el máximo absoluto en un número crítico y el mínimo absoluto en un extremo.
         </li>
       </ul>
     </p>
 
     <p permid="cAN">
-      Remember to consider only the critical numbers that lie within the interval.
+      Recuerda considerar solo los números críticos que se encuentran dentro del intervalo.
     </p>
   </subsection>
-
+  
   <subsection permid="nvr">
-    <title>Moving toward applications</title>
+    <title>Avanzando hacia aplicaciones</title>
     <p permid="oPf">
-      We conclude this section with an example of an applied optimization problem.
-      It highlights the role that a closed,
-      bounded domain can play in finding absolute extrema.
+      Concluimos esta sección con un ejemplo de un problema de optimización aplicada.
+      Destaca el papel que puede jugar un dominio cerrado y acotado en encontrar extremos absolutos.
     </p>
-
+  
     <example xml:id="Ex-3-3-1" permid="fQS">
       <statement>
         <p permid="aLA">
-          A 20 cm piece of wire is cut into two pieces.
-          One piece is used to form a square and the other to form an equilateral triangle.
-          How should the wire be cut to maximize the total area enclosed by the square and triangle? to minimize the area?
+          Un trozo de alambre de 20 cm se corta en dos piezas.
+          Una pieza se usa para formar un cuadrado y la otra para formar un triángulo equilátero.
+          ¿Cómo se debe cortar el alambre para maximizar el área total encerrada por el cuadrado y el triángulo? ¿Para minimizar el área?
         </p>
       </statement>
       <solution permid="EtC">
         <p permid="Fdw">
-          We begin by sketching a picture that illustrates the situation.
-          The variable in the problem is where we decide to cut the wire.
-          We thus label the cut point at a distance <m>x</m> from one end of the wire,
-          and note that the remaining portion of the wire then has length <m>20-x</m>
+          Comenzamos dibujando una imagen que ilustra la situación.
+          La variable en el problema es dónde decidimos cortar el alambre.
+          Así, etiquetamos el punto de corte a una distancia <m>x</m> de un extremo del alambre,
+          y notamos que la porción restante del alambre tiene entonces una longitud de <m>20-x</m>.
         </p>
         <!--<sidebyside widths="39% 56%" margins="0%">-->
         <p permid="lkF">
-          As shown in <xref ref="F-3-3-Ex1">Figure</xref>,
-          we see that the <m>x</m> cm of wire that is used to form the equilateral triangle with three sides of length <m>\frac{x}{3}</m>.
-          For the remaining <m>20-x</m> cm of wire,
-          the square that results will have each side of length <m>\frac{20-x}{4}</m>.
+          Como se muestra en <xref ref="F-3-3-Ex1">Figura</xref>,
+          vemos que los <m>x</m> cm de alambre se usan para formar el triángulo equilátero con tres lados de longitud <m>\frac{x}{3}</m>.
+          Para los <m>20-x</m> cm restantes de alambre,
+          el cuadrado resultante tendrá cada lado de longitud <m>\frac{20-x}{4}</m>.
         </p>
-
+  
         <figure xml:id="F-3-3-Ex1" permid="ipZ">
-          <caption>A 20 cm piece of wire cut into two pieces, one of which forms an equilateral triangle, the other which yields a square.</caption>
+          <caption>Un trozo de alambre de 20 cm cortado en dos piezas, una de las cuales forma un triángulo equilátero, la otra forma un cuadrado.</caption>
           <image width="56%" source="images/3_3_Ex1" />
         </figure>
-      <!--</sidebyside>-->
+        <!--</sidebyside>-->
         <p permid="RrO">
-          At this point,
-          we note that there are obvious restrictions on <m>x</m>:
-          in particular, <m>0 \le x \le 20</m>.
-          In the extreme cases,
-          all of the wire is being used to make just one figure.
-          For instance, if <m>x = 0</m>,
-          then all 20 cm of wire are used to make a square that is <m>5 \times 5</m>.
+          En este punto,
+          notamos que hay restricciones obvias en <m>x</m>:
+          en particular, <m>0 \le x \le 20</m>.
+          En los casos extremos,
+          todo el alambre se usa para hacer solo una figura.
+          Por ejemplo, si <m>x = 0</m>,
+          entonces los 20 cm de alambre se usan para hacer un cuadrado de <m>5 \times 5</m>.
         </p>
-
+  
         <p permid="xyX">
-          Now, our overall goal is to find the minimum and maximum areas that can be enclosed.
-          Because the height of an equilateral triangle is
-          <m>\sqrt{3}</m> times half the length of the base,
-          the area of the triangle is
+          Ahora, nuestro objetivo general es encontrar las áreas mínima y máxima que se pueden encerrar.
+          Debido a que la altura de un triángulo equilátero es
+          <m>\sqrt{3}</m> veces la mitad de la longitud de la base,
+          el área del triángulo es
           <me permid="hkG">
             A_{\Delta} = \frac{1}{2} bh = \frac{1}{2} \cdot \frac{x}{3} \cdot \frac{x\sqrt{3}}{6}
           </me>.
-          The area of the square is <m>A_{\Box} = s^2 = \left( \frac{20-x}{4} \right)^2</m>.
-          Therefore, the total area function is
+          El área del cuadrado es <m>A_{\Box} = s^2 = \left( \frac{20-x}{4} \right)^2</m>.
+          Por lo tanto, la función del área total es
           <me permid="NrP">
             A(x) = \frac{\sqrt{3}x^2}{36} + \left( \frac{20-x}{4} \right)^2
           </me>.
         </p>
-
+  
         <p permid="dGg">
-          Remember that we are considering this function only on the restricted domain <m>[0,20]</m>.
+          Recuerda que estamos considerando esta función solo en el dominio restringido <m>[0,20]</m>.
         </p>
-
+  
         <p permid="JNp">
-          Differentiating <m>A(x)</m>, we have
+          Diferenciando <m>A(x)</m>, tenemos
           <me permid="tyY">
             A'(x) = \frac{\sqrt{3}x}{18} + 2\left( \frac{20-x}{4} \right)\left( -\frac{1}{4} \right) = \frac{\sqrt{3}}{18} x + \frac{1}{8}x - \frac{5}{2}
           </me>.
         </p>
-
+  
         <p permid="pUy">
-          When we set <m>A'(x) = 0</m>,
-          we find that <m>x = \frac{180}{4\sqrt{3}+9} \approx 11.3007</m> is the only critical number of <m>A</m> in the interval <m>[0,20]</m>.
+          Cuando establecemos <m>A'(x) = 0</m>,
+          encontramos que <m>x = \frac{180}{4\sqrt{3}+9} \approx 11.3007</m> es el único número crítico de <m>A</m> en el intervalo <m>[0,20]</m>.
         </p>
-
+  
         <p permid="WbH">
-          Evaluating <m>A</m> at the critical number and endpoints,
-          we see that
-
+          Evaluando <m>A</m> en el número crítico y en los extremos,
+          vemos que
+  
           <ul permid="QHU">
             <li permid="yEq">
               <p permid="Umu">
                 <m>A\left(\frac{180}{4\sqrt{3}+9}\right) = \frac{\sqrt{3}(\frac{180}{4\sqrt{3}+9})^2}{4} + \left( \frac{20-\frac{180}{4\sqrt{3}+9}}{4} \right)^2 \approx 10.8741</m>
               </p>
             </li>
-
+  
             <li permid="eLz">
               <p permid="AtD">
                 <m>A(0) = 25</m>
               </p>
             </li>
-
+  
             <li permid="KSI">
               <p permid="gAM">
                 <m>A(20) = \frac{\sqrt{3}}{36}(400) = \frac{100}{9} \sqrt{3} \approx 19.2450</m>
@@ -316,77 +313,76 @@
         </p>
         <!--<sidebyside widths="47% 47%" margins="0%">-->
         <p permid="CiQ">
-          Thus, the absolute minimum occurs when
-          <m>x \approx 11.3007</m> and results in the minimum area of approximately <m>10.8741</m> square centimeters.
-          The absolute maximum occurs when we invest all of the wire in the square
-          (and none in the triangle),
-          resulting in 25 square centimeters of area.
-          These results are confirmed by a plot of
-          <m>y = A(x)</m> on the interval <m>[0,20]</m>,
-          as shown in <xref ref="F-3-3-Ex1Plot">Figure</xref>.
+          Así, el mínimo absoluto ocurre cuando
+          <m>x \approx 11.3007</m> y resulta en un área mínima de aproximadamente <m>10.8741</m> centímetros cuadrados.
+          El máximo absoluto ocurre cuando invertimos todo el alambre en el cuadrado
+          (y nada en el triángulo),
+          resultando en 25 centímetros cuadrados de área.
+          Estos resultados se confirman con una gráfica de
+          <m>y = A(x)</m> en el intervalo <m>[0,20]</m>,
+          como se muestra en <xref ref="F-3-3-Ex1Plot">Figura</xref>.
         </p>
-
+  
         <figure xml:id="F-3-3-Ex1Plot" permid="Oxi">
-          <caption>A plot of the area function from <xref ref="Ex-3-3-1">Example</xref>.</caption>
+          <caption>Una gráfica de la función del área del <xref ref="Ex-3-3-1">Ejemplo</xref>.</caption>
           <image width="47%" source="images/3_3_Ex1Plot" />
         </figure>
-      <!--</sidebyside>-->
+        <!--</sidebyside>-->
       </solution>
     </example>
-
+  
     <xi:include href="./activities/act-3-3-3.xml" />
-
+  
     <p permid="UWo">
-      <xref ref="Ex-3-3-1">Example</xref>
-      and <xref ref="act-3-3-3">Activity</xref>
-      illustrate standard steps that we undertake in almost every applied optimization problem:
-      we draw a picture to demonstrate the situation,
-      introduce one or more variables to represent quantities that are changing,
-      find a function that models the quantity to be optimized,
-      and then decide on an appropriate domain for that function.
-      Once that is done,
-      we are in the familiar situation of finding the absolute minimum and maximum of a function over a particular domain,
-      so we apply the calculus ideas that we have been studying to this point in <xref ref="C-3">Chapter</xref>.
+      <xref ref="Ex-3-3-1">Ejemplo</xref>
+      y <xref ref="act-3-3-3">Actividad</xref>
+      ilustran los pasos estándar que seguimos en casi todos los problemas de optimización aplicada:
+      dibujamos una imagen para demostrar la situación,
+      introducimos una o más variables para representar cantidades que están cambiando,
+      encontramos una función que modela la cantidad a optimizar,
+      y luego decidimos un dominio apropiado para esa función.
+      Una vez hecho esto,
+      estamos en la situación familiar de encontrar el mínimo y máximo absolutos de una función sobre un dominio particular,
+      así que aplicamos las ideas de cálculo que hemos estado estudiando hasta este punto en <xref ref="C-3">Capítulo</xref>.
     </p>
   </subsection>
-
+  
   <subsection permid="TCA">
-    <title>Summary</title>
+    <title>Resumen</title>
     <p permid="Bdx">
       <ul permid="pkE">
         <li permid="qZR">
           <p permid="MHV">
-            To find relative extreme values of a function,
-            we use a first derivative sign chart and classify all of the function's critical numbers.
-            If instead we are interested in absolute extreme values,
-            we first decide whether we are considering the entire domain of the function or a particular interval.
+            Para encontrar valores extremos relativos de una función,
+            usamos un gráfico de signos de la primera derivada y clasificamos todos los números críticos de la función.
+            Si en cambio estamos interesados en valores extremos absolutos,
+            primero decidimos si estamos considerando todo el dominio de la función o un intervalo particular.
           </p>
         </li>
-
+  
         <li permid="Xha">
           <p permid="sPe">
-            In the case of finding global extremes over the function's entire domain,
-            we again use a first or second derivative sign chart.
-            If we are working to find absolute extremes on a restricted interval,
-            then we first identify all critical numbers of the function that lie in the interval.
+            En el caso de encontrar extremos globales sobre todo el dominio de la función,
+            nuevamente usamos un gráfico de signos de la primera o segunda derivada.
+            Si estamos trabajando para encontrar extremos absolutos en un intervalo restringido,
+            entonces primero identificamos todos los números críticos de la función que se encuentran en el intervalo.
           </p>
         </li>
-
+  
         <li permid="Doj">
           <p permid="YWn">
-            For a continuous function on a closed, bounded interval,
-            the only possible points at which absolute extreme values occur are the critical numbers and the endpoints.
-            Thus, we simply evaluate the function at each endpoint and each critical number in the interval,
-            and compare the results to decide which is largest
-            (the absolute maximum)
-            and which is smallest
-            (the absolute minimum).
+            Para una función continua en un intervalo cerrado y acotado,
+            los únicos puntos posibles en los que ocurren valores extremos absolutos son los números críticos y los extremos.
+            Así, simplemente evaluamos la función en cada extremo y en cada número crítico en el intervalo,
+            y comparamos los resultados para decidir cuál es el mayor
+            (el máximo absoluto)
+            y cuál es el menor
+            (el mínimo absoluto).
           </p>
         </li>
       </ul>
     </p>
   </subsection>
-
+  
   <xi:include href="./exercises/ez-3-3.xml" />
 </section>
-

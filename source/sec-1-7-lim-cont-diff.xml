@@ -13,35 +13,35 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-1-7-lim-cont-diff" permid="UsY">
-  <title>Limits, Continuity, and Differentiability</title>
+  <title>Límites, Continuidad y Derivabilidad</title>
   <objectives permid="xFB">
     <ul permid="JTT">
       <li permid="iwD">
         <p permid="QsZ">
-          What does it mean graphically to say that <m>f</m> has limit <m>L</m> as <m>x \to a</m>?
-          How is this connected to having a left-hand limit at <m>x = a</m> and having a right-hand limit at <m>x = a</m>?
+          ¿Qué significa gráficamente decir que <m>f</m> tiene límite <m>L</m> cuando <m>x \to a</m>?
+          ¿Cómo se conecta esto con tener un límite por la izquierda en <m>x = a</m> y tener un límite por la derecha en <m>x = a</m>?
         </p>
       </li>
 
       <li permid="ODM">
         <p permid="wAi">
-          What does it mean to say that a function <m>f</m> is continuous at <m>x = a</m>?
-          What role do limits play in determining whether or not a function is continuous at a point?
+          ¿Qué significa decir que una función <m>f</m> es continua en <m>x = a</m>?
+          ¿Qué papel juegan los límites en determinar si una función es continua en un punto?
         </p>
       </li>
 
       <li permid="uKV">
         <p permid="cHr">
-          What does it mean graphically to say that a function <m>f</m> is differentiable at <m>x = a</m>?
-          How is this connected to the function being locally linear?
+          ¿Qué significa gráficamente decir que una función <m>f</m> es derivable en <m>x = a</m>?
+          ¿Cómo se conecta esto con que la función sea localmente lineal?
         </p>
       </li>
 
       <li permid="aSe">
         <p permid="IOA">
-          How are the characteristics of a function having a limit,
-          being continuous,
-          and being differentiable at a given point related to one another?
+          ¿Cómo se relacionan entre sí las características de una función que tiene un límite,
+          ser continua,
+          y ser derivable en un punto dado?
         </p>
       </li>
     </ul>
@@ -49,103 +49,102 @@
 
   <introduction permid="dMK">
     <p permid="KDN">
-      In <xref ref="sec-1-2-lim">Section</xref>,
-      we learned how limits can be used to study the trend of a function near a fixed input value.
-      In this section,  
-      we aim to quantify how the function acts and how its values change near a particular point.
-      If the function has a limit <m>L</m> at <m>x = a</m>,
-      we will consider how the value of the function <m>f(a)</m> is related to <m>\lim_{x \to a} f(x)</m>,
-      and whether or not the function has a derivative <m>f'(a)</m> at <m>x = a</m>.
+      En <xref ref="sec-1-2-lim">Section</xref>,
+      aprendimos cómo los límites pueden usarse para estudiar la tendencia de una función cerca de un valor de entrada fijo.
+      En esta sección,
+      nuestro objetivo es cuantificar cómo actúa la función y cómo cambian sus valores cerca de un punto particular.
+      Si la función tiene un límite <m>L</m> en <m>x = a</m>,
+      consideraremos cómo el valor de la función <m>f(a)</m> se relaciona con <m>\lim_{x \to a} f(x)</m>,
+      y si la función tiene o no una derivada <m>f'(a)</m> en <m>x = a</m>.
     </p>
 
     <xi:include href="./previews/PA-1-7.xml" />
   </introduction>
 
   <subsection permid="AAh">
-    <title>Having a limit at a point</title>
+    <title>Tener un límite en un punto</title>
     <p permid="qKW">
-      In <xref ref="sec-1-2-lim">Section</xref>,
-      we learned that <m>f</m> has limit <m>L</m> as <m>x</m> approaches <m>a</m> provided that we can make the value of <m>f(x)</m> as close to <m>L</m> as we like by taking <m>x</m> sufficiently close
-      (but not equal to)
+      En <xref ref="sec-1-2-lim">Section</xref>,
+      aprendimos que <m>f</m> tiene límite <m>L</m> cuando <m>x</m> se aproxima a <m>a</m> siempre que podamos hacer que el valor de <m>f(x)</m> sea tan cercano a <m>L</m> como queramos tomando <m>x</m> suficientemente cerca
+      (pero no igual a)
       <m>a</m>.
-      If so, we write
+      Si es así, escribimos
       <m>\lim_{x \to a} f(x) = L</m>.
     </p>
 
     <p permid="WSf">
-      Essentially there are two behaviors that a function can exhibit near a point where it fails to have a limit.
-      In <xref ref="F-1-7-NoLimit">Figure</xref>,
-      at left we see a function <m>f</m> whose graph shows a jump at <m>a = 1</m>.
-      If we let <m>x</m> approach 1 from the left side,
-      the value of <m>f</m> approaches 2, but if we let <m>x</m> approach <m>1</m> from the right,
-      the value of <m>f</m> tends to 3.
-      Because the value of <m>f</m> does not approach a single number as <m>x</m> gets arbitrarily close to 1 from both sides,
-      we know that <m>f</m> does not have a limit at <m>a = 1</m>.
+      Esencialmente hay dos comportamientos que una función puede exhibir cerca de un punto donde no tiene un límite.
+      En <xref ref="F-1-7-NoLimit">Figure</xref>,
+      a la izquierda vemos una función <m>f</m> cuyo gráfico muestra un salto en <m>a = 1</m>.
+      Si dejamos que <m>x</m> se acerque a 1 desde el lado izquierdo,
+      el valor de <m>f</m> se aproxima a 2, pero si dejamos que <m>x</m> se acerque a <m>1</m> desde la derecha,
+      el valor de <m>f</m> tiende a 3.
+      Debido a que el valor de <m>f</m> no se aproxima a un solo número cuando <m>x</m> se acerca arbitrariamente a 1 desde ambos lados,
+      sabemos que <m>f</m> no tiene un límite en <m>a = 1</m>.
     </p>
 
     <p permid="CZo">
-      For such cases, we introduce the notion of
-      <em>left</em> and <em>right</em>
-      (or <em>one-sided</em>)
-      limits.
-          <idx><h>left limit</h></idx>
-          <idx><h>right limit</h></idx> 
-          <idx><h>limit</h><h>one-sided</h></idx>
+      Para tales casos, introducimos la noción de
+      <em>límite por la izquierda</em> y <em>límite por la derecha</em>
+      (o <em>límite unilateral</em>).
+          <idx><h>límite por la izquierda</h></idx>
+          <idx><h>límite por la derecha</h></idx> 
+          <idx><h>límite</h><h>unilateral</h></idx>
     </p>
 
     <definition permid="lrj">
       <statement>
         <p permid="ypv">
-          We say that <em><m>f</m> has limit <m>L_1</m> as <m>x</m> approaches <m>a</m> from the left</em> and write
+          Decimos que <em><m>f</m> tiene límite <m>L_1</m> cuando <m>x</m> se aproxima a <m>a</m> desde la izquierda</em> y escribimos
           <me permid="upw">
             \lim_{x \to a^-} f(x) = L_1
           </me>
-          provided that we can make the value of <m>f(x)</m> as close to <m>L_1</m> as we like by taking <m>x</m> sufficiently close to <m>a</m> while always having <m>x \lt  a</m>.
-          We call <m>L_1</m> the left-hand limit of <m>f</m> as <m>x</m> approaches <m>a</m>.
-          Similarly, we say <em><m>L_2</m> is the right-hand limit of <m>f</m> as <m>x</m> approaches <m>a</m></em> and write
+          siempre que podamos hacer que el valor de <m>f(x)</m> sea tan cercano a <m>L_1</m> como queramos tomando <m>x</m> suficientemente cerca de <m>a</m> mientras siempre tengamos <m>x \lt  a</m>.
+          Llamamos <m>L_1</m> el límite por la izquierda de <m>f</m> cuando <m>x</m> se aproxima a <m>a</m>.
+          De manera similar, decimos que <em><m>L_2</m> es el límite por la derecha de <m>f</m> cuando <m>x</m> se aproxima a <m>a</m></em> y escribimos
           <me permid="awF">
             \lim_{x \to a^+} f(x) = L_2
           </me>
-          provided that we can make the value of <m>f(x)</m> as close to <m>L_2</m> as we like by taking <m>x</m> sufficiently close to <m>a</m> while always having <m>x \gt a</m>.
+          siempre que podamos hacer que el valor de <m>f(x)</m> sea tan cercano a <m>L_2</m> como queramos tomando <m>x</m> suficientemente cerca de <m>a</m> mientras siempre tengamos <m>x \gt a</m>.
         </p>
       </statement>
     </definition>
 
     <p permid="jgx">
-      In the graph of the function <m>f</m> in <xref ref="F-1-7-NoLimit">Figure</xref>,
-      we see that
+      En el gráfico de la función <m>f</m> en <xref ref="F-1-7-NoLimit">Figure</xref>,
+      vemos que
       <me permid="GDO">
-        \lim_{x \to 1^-} f(x) = 2 \ \ \text{and}  \ \lim_{x \to 1^+} f(x) = 3
+        \lim_{x \to 1^-} f(x) = 2 \ \ \text{y}  \ \lim_{x \to 1^+} f(x) = 3
       </me>.
-      Precisely because the left and right limits are not equal,
-      the overall limit of <m>f</m> as <m>x \to 1</m> fails to exist.
+      Precisamente porque los límites por la izquierda y por la derecha no son iguales,
+      el límite general de <m>f</m> cuando <m>x \to 1</m> no existe.
     </p>
 
     <figure xml:id="F-1-7-NoLimit" permid="TXz">
-      <caption>Functions <m>f</m> and <m>g</m> that each fail to have a limit at <m>a = 1</m>.</caption>
+      <caption>Funciones <m>f</m> y <m>g</m> que no tienen un límite en <m>a = 1</m>.</caption>
       <image width="100%" source="images/1_7_NoLimit" />
     </figure>
 
     <p permid="PnG">
-      For the function <m>g</m> pictured at right in <xref ref="F-1-7-NoLimit">Figure</xref>,
-      the function fails to have a limit at <m>a = 1</m> for a different reason.
-      While the function does not have a jump in its graph at <m>a = 1</m>,
-      it is still not the case that <m>g</m> approaches a single value as <m>x</m> approaches 1.
-      In particular,
-      due to the infinitely oscillating behavior of <m>g</m> to the right of <m>a = 1</m>,
-      we say that the right-hand limit of <m>g</m> as <m>x \to 1^+</m> does not exist,
-      and thus <m>\lim_{x \to 1} g(x) \ \text{does not exist} </m>.
+      Para la función <m>g</m> representada a la derecha en <xref ref="F-1-7-NoLimit">Figure</xref>,
+      la función no tiene un límite en <m>a = 1</m> por una razón diferente.
+      Aunque la función no tiene un salto en su gráfico en <m>a = 1</m>,
+      aún no es el caso que <m>g</m> se aproxime a un solo valor cuando <m>x</m> se aproxima a 1.
+      En particular,
+      debido al comportamiento de oscilación infinita de <m>g</m> a la derecha de <m>a = 1</m>,
+      decimos que el límite por la derecha de <m>g</m> cuando <m>x \to 1^+</m> no existe,
+      y por lo tanto <m>\lim_{x \to 1} g(x) \ \text{no existe} </m>.
     </p>
 
     <p permid="vuP">
-      To summarize,
-      if either a left- or right-hand limit fails to exist or if the left- and right-hand limits are not equal to each other,
-      the overall limit does not exist.
+      En resumen,
+      si un límite por la izquierda o por la derecha no existe o si los límites por la izquierda y por la derecha no son iguales entre sí,
+      el límite general no existe.
     </p>
 
     <assemblage xml:id="limit-left-right" permid="ZcR">
       <p permid="bBY">
-        A function <m>f</m> has limit <m>L</m> as <m>x \to a</m> if and only if
+        Una función <m>f</m> tiene límite <m>L</m> cuando <m>x \to a</m> si y solo si
         <me permid="mKX">
           \lim_{x \to a^-} f(x) = L = \lim_{x \to a^+} f(x)
         </me>.
@@ -153,89 +152,89 @@
     </assemblage>
 
     <p permid="HJh">
-      That is, a function has a limit at <m>x = a</m> if and only if both the left- and right-hand limits at <m>x = a</m> exist and have the same value.
+      Es decir, una función tiene un límite en <m>x = a</m> si y solo si tanto el límite por la izquierda como el límite por la derecha en <m>x = a</m> existen y tienen el mismo valor.
     </p>
 
     <p permid="nQq">
-      In <xref ref="PA-1-7">Preview Activity</xref>,
-      the function <m>f</m> given in <xref ref="F-1-7-PA1">Figure</xref>
-      fails to have a limit at only two values:
-      at <m>a = -2</m>
-      (where the left- and right-hand limits are 2 and <m>-1</m>,
-      respectively)
-      and at <m>x = 2</m>,
-      where <m>\lim_{x \to 2^+} f(x)</m> does not exist).
-      Note well that even at values such as <m>a = -1</m> and <m>a = 0</m> where there are holes in the graph,
-      the limit still exists.
+      En <xref ref="PA-1-7">Preview Activity</xref>,
+      la función <m>f</m> dada en <xref ref="F-1-7-PA1">Figure</xref>
+      no tiene un límite en solo dos valores:
+      en <m>a = -2</m>
+      (donde los límites por la izquierda y por la derecha son 2 y <m>-1</m>,
+      respectivamente)
+      y en <m>x = 2</m>,
+      donde <m>\lim_{x \to 2^+} f(x)</m> no existe).
+      Nota bien que incluso en valores como <m>a = -1</m> y <m>a = 0</m> donde hay huecos en el gráfico,
+      el límite aún existe.
     </p>
 
     <xi:include href="./activities/act-1-7-1.xml" />
   </subsection>
 
   <subsection permid="gHq">
-    <title>Being continuous at a point</title>
-    <idx><h>continuous</h></idx>
+    <title>Ser continuo en un punto</title>
+    <idx><h>continuo</h></idx>
 
     <p permid="AeI">
-      Intuitively,
-      a function is continuous if we can draw its graph without ever lifting our pencil from the page.
-      Alternatively,
-      we might say that the graph of a continuous function has no jumps or holes in it.
-      In <xref ref="F-1-7-Cont">Figure</xref> we consider
-      three functions that have a limit at <m>a = 1</m>,
-      and use them to make the idea of continuity more precise.
+      Intuitivamente,
+      una función es continua si podemos dibujar su gráfico sin levantar el lápiz de la página.
+      Alternativamente,
+      podríamos decir que el gráfico de una función continua no tiene saltos ni huecos.
+      En <xref ref="F-1-7-Cont">Figure</xref> consideramos
+      tres funciones que tienen un límite en <m>a = 1</m>,
+      y las usamos para hacer más precisa la idea de continuidad.
     </p>
 
     <figure xml:id="F-1-7-Cont" permid="kVK">
-      <caption>Functions <m>f</m>, <m>g</m>, and <m>h</m> that demonstrate subtly different behaviors at <m>a = 1</m>.</caption>
+      <caption>Funciones <m>f</m>, <m>g</m> y <m>h</m> que demuestran comportamientos sutilmente diferentes en <m>a = 1</m>.</caption>
       <image width="100%" source="images/1_7_Cont" />
     </figure>
 
     <p permid="glR">
-      First consider the function in the left-most graph.
-      Note that <m>f(1)</m> is not defined,
-      which leads to the resulting hole in the graph of <m>f</m> at <m>a = 1</m>.
-      We will naturally say that <m>f</m> is
-      <em>not continuous at <m>a = 1</m></em>.
-      For the function <m>g</m>,
-      we observe that while <m>\lim_{x \to 1} g(x) = 3</m>,
-      the value of <m>g(1) = 2</m>,
-      and thus the limit does not equal the function value.
-      Here, too, we will say that <m>g</m> is
-      <em>not continuous</em>,
-      even though the function is defined at <m>a = 1</m>.
-      Finally, the function <m>h</m> appears to be the most well-behaved of all three,
-      since at <m>a = 1</m> its limit and its function value agree.
-      That is,
+      Primero considera la función en el gráfico más a la izquierda.
+      Nota que <m>f(1)</m> no está definida,
+      lo que lleva al hueco resultante en el gráfico de <m>f</m> en <m>a = 1</m>.
+      Naturalmente diremos que <m>f</m> es
+      <em>no continua en <m>a = 1</m></em>.
+      Para la función <m>g</m>,
+      observamos que aunque <m>\lim_{x \to 1} g(x) = 3</m>,
+      el valor de <m>g(1) = 2</m>,
+      y por lo tanto el límite no es igual al valor de la función.
+      Aquí también diremos que <m>g</m> es
+      <em>no continua</em>,
+      aunque la función esté definida en <m>a = 1</m>.
+      Finalmente, la función <m>h</m> parece ser la más bien comportada de las tres,
+      ya que en <m>a = 1</m> su límite y su valor de función coinciden.
+      Es decir,
       <me permid="SSg">
         \lim_{x \to 1} h(x) = 3 = h(1)
       </me>.
     </p>
 
     <p permid="Mta">
-      With no hole or jump in the graph of <m>h</m> at <m>a = 1</m>,
-      we say that <m>h</m> is
-      <em>continuous</em> there.
-      More formally, we make the following definition.
+      Sin hueco ni salto en el gráfico de <m>h</m> en <m>a = 1</m>,
+      decimos que <m>h</m> es
+      <em>continua</em> allí.
+      Más formalmente, hacemos la siguiente definición.
     </p>
 
     <definition permid="Rys">
       <statement>
         <p permid="ewE">
-          A function <m>f</m> is <term>continuous at <m>x = a</m></term>
-              <idx><h>continuous at <m>x = a</m></h></idx>
-          provided that
+          Una función <m>f</m> es <term>continua en <m>x = a</m></term>
+              <idx><h>continua en <m>x = a</m></h></idx>
+          siempre que
 
           <ol marker="a." permid="qbc">
             <li permid="XXy">
               <p permid="oVJ">
-                <m>f</m> has a limit as <m>x \to a</m>,
+                <m>f</m> tiene un límite cuando <m>x \to a</m>,
               </p>
             </li>
 
             <li permid="EeH">
               <p permid="VcS">
-                <m>f</m> is defined at <m>x = a</m>, and
+                <m>f</m> está definida en <m>x = a</m>, y
               </p>
             </li>
 
@@ -249,214 +248,213 @@
       </statement>
     </definition>
 
-    <p permid="sAj">
-      Conditions (a) and (b) are technically contained implicitly in (c),
-      but we state them explicitly to emphasize their individual importance.
-      The definition says that a function is continuous at <m>x = a</m> provided that its limit as <m>x \to a</m> exists and equals its function value at <m>x = a</m>.
-      If a function is continuous at every point in an interval <m>[a,b]</m>,
-      we say the function is <q>continuous on <m>[a,b]</m>.</q>
-      If a function is continuous at every point in its domain,
-      we simply say the function is <q>continuous.</q> Thus,
-      continuous functions are particularly nice:
-      to evaluate the limit of a continuous function at a point,
-      all we need to do is evaluate the function.
-    </p>
+<p permid="sAj">
+  Las condiciones (a) y (b) están técnicamente contenidas implícitamente en (c),
+  pero las indicamos explícitamente para enfatizar su importancia individual.
+  La definición dice que una función es continua en <m>x = a</m> siempre que su límite cuando <m>x \to a</m> exista y sea igual a su valor funcional en <m>x = a</m>.
+  Si una función es continua en cada punto de un intervalo <m>[a,b]</m>,
+  decimos que la función es <q>continua en <m>[a,b]</m>.</q>
+  Si una función es continua en cada punto de su dominio,
+  simplemente decimos que la función es <q>continua.</q> Así,
+  las funciones continuas son particularmente agradables:
+  para evaluar el límite de una función continua en un punto,
+  todo lo que necesitamos hacer es evaluar la función.
+</p>
 
-    <p permid="YHs">
-      For example, consider <m>p(x) = x^2 - 2x + 3</m>.
-      It can be proved that every polynomial is a continuous function at every real number,
-      and thus if we would like to know <m>\lim_{x \to 2} p(x)</m>,
-      we simply compute
-      <me permid="yZp">
-        \lim_{x \to 2} (x^2 - 2x + 3) = 2^2 - 2 \cdot 2 + 3 = 3
-      </me>.
-    </p>
+<p permid="YHs">
+  Por ejemplo, considera <m>p(x) = x^2 - 2x + 3</m>.
+  Se puede probar que cada polinomio es una función continua en cada número real,
+  y así si queremos saber <m>\lim_{x \to 2} p(x)</m>,
+  simplemente calculamos
+  <me permid="yZp">
+    \lim_{x \to 2} (x^2 - 2x + 3) = 2^2 - 2 \cdot 2 + 3 = 3
+  </me>.
+</p>
 
-    <p permid="EOB">
-      This route of substituting an input value to evaluate a limit works whenever we know that the function being considered is continuous.
-      Besides polynomial functions,
-      all exponential functions and the sine and cosine functions are continuous at every point,
-      as are many other familiar functions and combinations thereof.
-    </p>
+<p permid="EOB">
+  Esta ruta de sustituir un valor de entrada para evaluar un límite funciona siempre que sepamos que la función considerada es continua.
+  Además de las funciones polinómicas,
+  todas las funciones exponenciales y las funciones seno y coseno son continuas en cada punto,
+  al igual que muchas otras funciones familiares y sus combinaciones.
+</p>
 
-    <xi:include href="./activities/act-1-7-2.xml" />
-  </subsection>
+<xi:include href="./activities/act-1-7-2.xml" />
+</subsection>
 
-  <subsection permid="MOz">
-    <title>Being differentiable at a point</title>
-    <idx><h>differentiable</h></idx>
+<subsection permid="MOz">
+  <title>Ser diferenciable en un punto</title>
+  <idx><h>diferenciable</h></idx>
 
-    <p permid="RcT">
-      We recall that a function <m>f</m> is said to be differentiable at <m>x = a</m> if <m>f'(a)</m> exists.
-      Moreover, for <m>f'(a)</m> to exist,
-      we know that the function
-      <m>y = f(x)</m> must have a tangent line at the point <m>(a,f(a))</m>,
-      since <m>f'(a)</m> is precisely the slope of this line.
-      In order to even ask if <m>f</m> has a tangent line at <m>(a,f(a))</m>,
-      it is necessary that <m>f</m> be continuous at <m>x = a</m>:
-      if <m>f</m> fails to have a limit at <m>x = a</m>,
-      if <m>f(a)</m> is not defined,
-      or if <m>f(a)</m> does not equal the value of <m>\lim_{x \to a} f(x)</m>,
-      then it doesn't make sense to talk about a tangent line to the curve at this point.
-    </p>
+  <p permid="RcT">
+    Recordamos que se dice que una función <m>f</m> es diferenciable en <m>x = a</m> si <m>f'(a)</m> existe.
+    Además, para que <m>f'(a)</m> exista,
+    sabemos que la función
+    <m>y = f(x)</m> debe tener una línea tangente en el punto <m>(a,f(a))</m>,
+    ya que <m>f'(a)</m> es precisamente la pendiente de esta línea.
+    Para siquiera preguntar si <m>f</m> tiene una línea tangente en <m>(a,f(a))</m>,
+    es necesario que <m>f</m> sea continua en <m>x = a</m>:
+    si <m>f</m> no tiene un límite en <m>x = a</m>,
+    si <m>f(a)</m> no está definido,
+    o si <m>f(a)</m> no es igual al valor de <m>\lim_{x \to a} f(x)</m>,
+    entonces no tiene sentido hablar de una línea tangente a la curva en este punto.
+  </p>
 
-    <p permid="xkc">
-      Indeed, it can be proved formally that if a function <m>f</m> is differentiable at <m>x = a</m>,
-      then it must be continuous at <m>x = a</m>.
-      So, if <m>f</m> is not continuous at <m>x = a</m>,
-      then it is automatically the case that <m>f</m> is not differentiable there.
-      For example, in <xref ref="F-1-7-Cont">Figure</xref>,
-      both <m>f</m> and <m>g</m> fail to be differentiable at <m>x = 1</m> because neither function is continuous at <m>x = 1</m>.
-      But can a function fail to be differentiable at a point where the function is continuous?
-    </p>
+  <p permid="xkc">
+    De hecho, se puede probar formalmente que si una función <m>f</m> es diferenciable en <m>x = a</m>,
+    entonces debe ser continua en <m>x = a</m>.
+    Así que, si <m>f</m> no es continua en <m>x = a</m>,
+    entonces automáticamente <m>f</m> no es diferenciable allí.
+    Por ejemplo, en <xref ref="F-1-7-Cont">Figura</xref>,
+    tanto <m>f</m> como <m>g</m> no son diferenciables en <m>x = 1</m> porque ninguna de las funciones es continua en <m>x = 1</m>.
+    Pero, ¿puede una función no ser diferenciable en un punto donde la función es continua?
+  </p>
 
-    <p permid="drl">
-      In <xref ref="F-1-7-NotDiff">Figure</xref>,
-      the function has a sharp corner at a point.
-      For the pictured function <m>f</m>,
-      we observe that <m>f</m> is clearly continuous at <m>a = 1</m>,
-      since <m>\lim_{x \to 1} f(x) = 1 = f(1)</m>.
-    </p>
+  <p permid="drl">
+    En <xref ref="F-1-7-NotDiff">Figura</xref>,
+    la función tiene una esquina aguda en un punto.
+    Para la función representada <m>f</m>,
+    observamos que <m>f</m> es claramente continua en <m>a = 1</m>,
+    ya que <m>\lim_{x \to 1} f(x) = 1 = f(1)</m>.
+  </p>
 
-    <figure xml:id="F-1-7-NotDiff" permid="ibe">
-      <caption>A function <m>f</m> that is continuous at <m>a = 1</m> but not differentiable at <m>a = 1</m>; at right, we zoom in on the point <m>(1,1)</m> in a magnified version of the box in the left-hand plot.</caption>
-      <image width="70%" source="images/1_7_NotDiff" />
-    </figure>
+  <figure xml:id="F-1-7-NotDiff" permid="ibe">
+    <caption>Una función <m>f</m> que es continua en <m>a = 1</m> pero no diferenciable en <m>a = 1</m>; a la derecha, ampliamos el punto <m>(1,1)</m> en una versión ampliada del cuadro en el gráfico de la izquierda.</caption>
+    <image width="70%" source="images/1_7_NotDiff" />
+  </figure>
 
-    <p permid="Jyu">
-      But the function <m>f</m> in <xref ref="F-1-7-NotDiff">Figure</xref>
-      is not differentiable at <m>a = 1</m> because <m>f'(1)</m> fails to exist.
-      One way to see this is to observe that
-      <m>f'(x) = -1</m> for every value of <m>x</m> that is less than 1, while
-      <m>f'(x) = +1</m> for every value of <m>x</m> that is greater than 1.
-      That makes it seem that either <m>+1</m> or <m>-1</m> would be equally good candidates for the value of the derivative at <m>x = 1</m>.
-      Alternately,
-      we could use the limit definition of the derivative to attempt to compute <m>f'(1)</m>,
-      and discover that the derivative does not exist.
-      Finally, we can see visually that the function <m>f</m> in <xref ref="F-1-7-NotDiff">Figure</xref> does not have a tangent line.
-      When we zoom in on <m>(1,1)</m> on the graph of <m>f</m>,
-      no matter how closely we examine the function,
-      it will always look like a <q>V</q>,
-      and never like a single line,
-      which tells us there is no possibility for a tangent line there.
-    </p>
+  <p permid="Jyu">
+    Pero la función <m>f</m> en <xref ref="F-1-7-NotDiff">Figura</xref>
+    no es diferenciable en <m>a = 1</m> porque <m>f'(1)</m> no existe.
+    Una forma de ver esto es observar que
+    <m>f'(x) = -1</m> para cada valor de <m>x</m> que es menor que 1, mientras que
+    <m>f'(x) = +1</m> para cada valor de <m>x</m> que es mayor que 1.
+    Eso hace que parezca que tanto <m>+1</m> como <m>-1</m> serían igualmente buenos candidatos para el valor de la derivada en <m>x = 1</m>.
+    Alternativamente,
+    podríamos usar la definición de límite de la derivada para intentar calcular <m>f'(1)</m>,
+    y descubrir que la derivada no existe.
+    Finalmente, podemos ver visualmente que la función <m>f</m> en <xref ref="F-1-7-NotDiff">Figura</xref> no tiene una línea tangente.
+    Cuando ampliamos <m>(1,1)</m> en el gráfico de <m>f</m>,
+    no importa cuán de cerca examinemos la función,
+    siempre se verá como una <q>V</q>,
+    y nunca como una sola línea,
+    lo que nos dice que no hay posibilidad de una línea tangente allí.
+  </p>
 
-    <p permid="pFD">
-      If a function does have a tangent line at a given point,
-      when we zoom in on the point of tangency,
-      the function and the tangent line should appear essentially indistinguishable<fn>
-      See,
-      for instance,
-      <url href="https://gvsu.edu/s/6J" visual="gvsu.edu/s/6J">this applet</url>,
-      where zooming in shows the increasing similarity between the tangent line and the curve.
-      </fn>.
-      Conversely,
-      if we zoom in on a point and the function looks like a single straight line,
-      then the function should have a tangent line there,
-      and thus be differentiable.
-      Hence, a function that is differentiable at <m>x = a</m> will,
-      up close, look more and more like its tangent line at <m>(a,f(a))</m>.
-      Therefore, we say that a function that is differentiable at <m>x = a</m> is
-      <em>locally linear</em>.
-          <idx><h>locally linear</h></idx>
-    </p>
+  <p permid="pFD">
+    Si una función tiene una línea tangente en un punto dado,
+    cuando ampliamos el punto de tangencia,
+    la función y la línea tangente deberían parecer esencialmente indistinguibles<fn>
+    Ver,
+    por ejemplo,
+    <url href="https://gvsu.edu/s/6J" visual="gvsu.edu/s/6J">este applet</url>,
+    donde al ampliar se muestra la creciente similitud entre la línea tangente y la curva.
+    </fn>.
+    Por el contrario,
+    si ampliamos un punto y la función se ve como una sola línea recta,
+    entonces la función debería tener una línea tangente allí,
+    y por lo tanto ser diferenciable.
+    Por lo tanto, una función que es diferenciable en <m>x = a</m>,
+    de cerca, se verá más y más como su línea tangente en <m>(a,f(a))</m>.
+    Por lo tanto, decimos que una función que es diferenciable en <m>x = a</m> es
+    <em>linealmente local</em>.
+    <idx><h>linealmente local</h></idx>
+  </p>
 
-    <p permid="VMM">
-      To summarize the preceding discussion of differentiability and continuity,
-      we make several important observations.
-    </p>
+  <p permid="VMM">
+    Para resumir la discusión anterior sobre diferenciabilidad y continuidad,
+    hacemos varias observaciones importantes.
+  </p>
 
-    <assemblage xml:id="cont-diff-summary" permid="Fka">
-      <p permid="BTV">
-        <ul permid="Wil">
-          <li permid="GZn">
-            <p permid="hrk">
-              If <m>f</m> is differentiable at <m>x = a</m>,
-              then <m>f</m> is continuous at <m>x = a</m>.
-              Equivalently, if<m>f</m> fails to be continuous at <m>x = a</m>,
-              then <m>f</m> will not be differentiable at <m>x = a</m>.
-            </p>
-          </li>
-
-          <li permid="ngw">
-            <p permid="Nyt">
-              A function can be continuous at a point,
-              but not be differentiable there.
-              In particular,
-              a function <m>f</m> is not differentiable at <m>x = a</m> if the graph has a sharp corner (or <em>cusp</em>)
-                <idx><h>cusp</h></idx>
-              at the point <m>(a,f(a))</m>.
-            </p>
-          </li>
-
-          <li permid="TnF">
-            <p permid="tFC">
-              If <m>f</m> is differentiable at <m>x = a</m>,
-              then <m>f</m> is locally linear at <m>x = a</m>.
-              That is, when a function is differentiable,
-              it looks linear when viewed up close because it resembles its tangent line there.
-            </p>
-          </li>
-        </ul>
-      </p>
-    </assemblage>
-
-    <xi:include href="./activities/act-1-7-3.xml" />
-  </subsection>
-
-  <subsection permid="sVI">
-    <title>Summary</title>
-    <p permid="Oin">
-      <ul permid="Cpu">
-        <li permid="zuO">
-          <p permid="ZML">
-            A function <m>f</m> has limit <m>L</m> as <m>x \to a</m> if and only if <m>f</m> has a left-hand limit at <m>x = a</m>,
-            <m>f</m> has a right-hand limit at <m>x = a</m>,
-            and the left- and right-hand limits are equal.
-            Visually,
-            this means that there can be a hole in the graph at <m>x = a</m>,
-            but the function must approach the same single value from either side of <m>x = a</m>.
+  <assemblage xml:id="cont-diff-summary" permid="Fka">
+    <p permid="BTV">
+      <ul permid="Wil">
+        <li permid="GZn">
+          <p permid="hrk">
+            Si <m>f</m> es diferenciable en <m>x = a</m>,
+            entonces <m>f</m> es continua en <m>x = a</m>.
+            De manera equivalente, si <m>f</m> no es continua en <m>x = a</m>,
+            entonces <m>f</m> no será diferenciable en <m>x = a</m>.
           </p>
         </li>
 
-        <li permid="fBX">
-          <p permid="FTU">
-            A function <m>f</m> is continuous at <m>x = a</m> whenever <m>f(a)</m> is defined,
-            <m>f</m> has a limit as <m>x \to a</m>,
-            and the value of the limit and the value of the function agree.
-            This guarantees that there is not a hole or jump in the graph of <m>f</m> at <m>x = a</m>.
+        <li permid="ngw">
+          <p permid="Nyt">
+            Una función puede ser continua en un punto,
+            pero no ser diferenciable allí.
+            En particular,
+            una función <m>f</m> no es diferenciable en <m>x = a</m> si el gráfico tiene una esquina aguda (o <em>cúspide</em>)
+            <idx><h>cúspide</h></idx>
+            en el punto <m>(a,f(a))</m>.
           </p>
         </li>
 
-        <li permid="LJg">
-          <p permid="mbd">
-            A function <m>f</m> is differentiable at <m>x = a</m> whenever <m>f'(a)</m> exists,
-            which means that <m>f</m> has a tangent line at
-            <m>(a,f(a))</m> and thus <m>f</m> is locally linear at <m>x = a</m>.
-            Informally,
-            this means that the function looks like a line when viewed up close at
-            <m>(a,f(a))</m> and that there is not a corner point or cusp at <m>(a,f(a))</m>.
-          </p>
-        </li>
-
-        <li permid="rQp">
-          <p permid="Sim">
-            Of the three conditions discussed in this section
-            (having a limit at <m>x = a</m>,
-            being continuous at <m>x = a</m>,
-            and being differentiable at <m>x = a</m>),
-            the strongest condition is being differentiable,
-            and the next strongest is being continuous.
-            In particular, if <m>f</m> is differentiable at <m>x = a</m>,
-            then <m>f</m> is also continuous at <m>x = a</m>,
-            and if <m>f</m> is continuous at <m>x = a</m>,
-            then <m>f</m> has a limit at <m>x = a</m>.
+        <li permid="TnF">
+          <p permid="tFC">
+            Si <m>f</m> es diferenciable en <m>x = a</m>,
+            entonces <m>f</m> es linealmente local en <m>x = a</m>.
+            Es decir, cuando una función es diferenciable,
+            se ve lineal cuando se observa de cerca porque se asemeja a su línea tangente allí.
           </p>
         </li>
       </ul>
     </p>
-  </subsection>
+  </assemblage>
 
-  <xi:include href="./exercises/ez-1-7.xml" />
+  <xi:include href="./activities/act-1-7-3.xml" />
+</subsection>
+
+<subsection permid="sVI">
+  <title>Resumen</title>
+  <p permid="Oin">
+    <ul permid="Cpu">
+      <li permid="zuO">
+        <p permid="ZML">
+          Una función <m>f</m> tiene límite <m>L</m> cuando <m>x \to a</m> si y solo si <m>f</m> tiene un límite por la izquierda en <m>x = a</m>,
+          <m>f</m> tiene un límite por la derecha en <m>x = a</m>,
+          y los límites por la izquierda y por la derecha son iguales.
+          Visualmente,
+          esto significa que puede haber un agujero en el gráfico en <m>x = a</m>,
+          pero la función debe acercarse al mismo valor desde ambos lados de <m>x = a</m>.
+        </p>
+      </li>
+
+      <li permid="fBX">
+        <p permid="FTU">
+          Una función <m>f</m> es continua en <m>x = a</m> siempre que <m>f(a)</m> esté definido,
+          <m>f</m> tenga un límite cuando <m>x \to a</m>,
+          y el valor del límite y el valor de la función coincidan.
+          Esto garantiza que no haya un agujero o salto en el gráfico de <m>f</m> en <m>x = a</m>.
+        </p>
+      </li>
+
+      <li permid="LJg">
+        <p permid="mbd">
+          Una función <m>f</m> es diferenciable en <m>x = a</m> siempre que <m>f'(a)</m> exista,
+          lo que significa que <m>f</m> tiene una línea tangente en
+          <m>(a,f(a))</m> y por lo tanto <m>f</m> es linealmente local en <m>x = a</m>.
+          Informalmente,
+          esto significa que la función se ve como una línea cuando se observa de cerca en
+          <m>(a,f(a))</m> y que no hay un punto de esquina o cúspide en <m>(a,f(a))</m>.
+        </p>
+      </li>
+
+      <li permid="rQp">
+        <p permid="Sim">
+          De las tres condiciones discutidas en esta sección
+          (tener un límite en <m>x = a</m>,
+          ser continua en <m>x = a</m>,
+          y ser diferenciable en <m>x = a</m>),
+          la condición más fuerte es ser diferenciable,
+          y la siguiente más fuerte es ser continua.
+          En particular, si <m>f</m> es diferenciable en <m>x = a</m>,
+          entonces <m>f</m> también es continua en <m>x = a</m>,
+          y si <m>f</m> es continua en <m>x = a</m>,
+          entonces <m>f</m> tiene un límite en <m>x = a</m>.
+        </p>
+      </li>
+    </ul>
+  </p>
+</subsection>
+
+<xi:include href="./exercises/ez-1-7.xml" />
 </section>
-

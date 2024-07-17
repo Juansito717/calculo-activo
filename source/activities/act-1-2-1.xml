@@ -15,9 +15,9 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-2-1" permid="QOU">
   <statement>
     <p permid="Ytt">
-      Estimate the value of each of the following limits by constructing appropriate tables of values.
-      Then determine the exact value of the limit by using algebra to simplify the function.
-      Finally, plot each function on an appropriate interval to check your result visually.
+      Estima el valor de cada uno de los siguientes límites construyendo tablas de valores apropiadas.
+      Luego determina el valor exacto del límite usando álgebra para simplificar la función.
+      Finalmente, grafica cada función en un intervalo apropiado para verificar tu resultado visualmente.
 
       <ol marker="a." cols="3" permid="ybw">
         <li permid="eiF"><m>\lim_{x \to 1} \frac{x^2 - 1}{x-1}</m></li>
@@ -31,15 +31,15 @@
   <hint permid="ZyM">
     <p permid="smk">
       <ol marker="a." permid="RUn">
-        <li permid="WEg"><m>(x^2 - 1)</m> can be factored.</li>
+        <li permid="WEg"><m>(x^2 - 1)</m> se puede factorizar.</li>
 
         <li permid="CLp">
-          Expand the expression <m>(2+x)^3</m>,
-          and then combine like terms in the numerator.
+          Expande la expresión <m>(2+x)^3</m>,
+          y luego combina términos semejantes en el numerador.
         </li>
 
         <li permid="iSy">
-          Try multiplying the given function by this fancy form of 1:
+          Intenta multiplicar la función dada por esta forma elegante de 1:
           <m>\frac{\sqrt{x+1} + 1}{\sqrt{x+1} + 1}</m>.
         </li>
       </ol>
@@ -58,7 +58,7 @@
   </answer>
   <solution permid="Nku">
     <p permid="zQJ">
-      Estimating the values of the limits with tables is straightforward and should suggest the exact values stated below.
+      Estimar los valores de los límites con tablas es sencillo y debería sugerir los valores exactos indicados a continuación.
     </p>
 
     <p permid="fXS">
@@ -84,4 +84,3 @@
     </p>
   </solution>
 </activity>
-

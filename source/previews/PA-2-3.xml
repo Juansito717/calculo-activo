@@ -14,46 +14,45 @@
 <!-- **********************************************************************-->
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-2-3" permid="zLw">
   <p permid="TEn">
-    Let <m>f</m> and <m>g</m> be the functions defined by
-    <m>f(t) = 2t^2</m> and <m>g(t) = t^3 + 4t</m>.
+    Sean <m>f</m> y <m>g</m> las funciones definidas por
+    <m>f(t) = 2t^2</m> y <m>g(t) = t^3 + 4t</m>.
 
     <ol marker="a." permid="eds">
       <li permid="KkB">
         <p permid="OUu">
-          Determine <m>f'(t)</m> and <m>g'(t)</m>.
+          Determina <m>f'(t)</m> y <m>g'(t)</m>.
         </p>
       </li>
 
       <li permid="qrK">
         <p permid="vbD">
-          Let <m>p(t) = 2t^2 (t^3 + 4t)</m> and observe that <m>p(t) = f(t) \cdot g(t)</m>.
-          Rewrite the formula for <m>p</m> by distributing the <m>2t^2</m> term.
-          Then,
-          compute <m>p'(t)</m> using the sum and constant multiple rules.
+          Sea <m>p(t) = 2t^2 (t^3 + 4t)</m> y observa que <m>p(t) = f(t) \cdot g(t)</m>.
+          Reescribe la fórmula para <m>p</m> distribuyendo el término <m>2t^2</m>.
+          Luego,
+          calcula <m>p'(t)</m> usando las reglas de la suma y del múltiplo constante.
         </p>
       </li>
 
       <li permid="WyT">
         <p permid="biM">
-          True or false: <m>p'(t) = f'(t) \cdot g'(t)</m>.
+          Verdadero o falso: <m>p'(t) = f'(t) \cdot g'(t)</m>.
         </p>
       </li>
 
       <li permid="CGc">
         <p permid="HpV">
-          Let <m>q(t) = \frac{t^3 + 4t}{2t^2}</m> and observe that <m>q(t) = \frac{g(t)}{f(t)}</m>.
-          Rewrite the formula for <m>q</m> by dividing each term in the numerator by the denominator and simplify to write <m>q</m> as a sum of constant multiples of powers of <m>t</m>.
-          Then,
-          compute <m>q'(t)</m> using the sum and constant multiple rules.
+          Sea <m>q(t) = \frac{t^3 + 4t}{2t^2}</m> y observa que <m>q(t) = \frac{g(t)}{f(t)}</m>.
+          Reescribe la fórmula para <m>q</m> dividiendo cada término en el numerador por el denominador y simplifica para escribir <m>q</m> como una suma de múltiplos constantes de potencias de <m>t</m>.
+          Luego,
+          calcula <m>q'(t)</m> usando las reglas de la suma y del múltiplo constante.
         </p>
       </li>
 
       <li permid="iNl">
         <p permid="nxe">
-          True or false: <m>q'(t) = \frac{g'(t)}{f'(t)}</m>.
+          Verdadero o falso: <m>q'(t) = \frac{g'(t)}{f'(t)}</m>.
         </p>
       </li>
     </ol>
   </p>
 </exploration>
-

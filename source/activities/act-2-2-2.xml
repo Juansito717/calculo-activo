@@ -15,15 +15,15 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-2-2" permid="EfQ">
   <statement>
     <p permid="fDg">
-      Consider the function <m>g(x) = \cos(x)</m>,
-      which is graphed in <xref ref="F-2-2-A2">Figure</xref> below.
-      Note carefully that the grid in the diagram does not have boxes that are <m>1 \times 1</m>,
-      but rather approximately <m>1.57 \times 1</m>,
-      as the horizontal scale of the grid is <m>\pi/2</m> units per box.
+      Considera la función <m>g(x) = \cos(x)</m>,
+      que está graficada en la <xref ref="F-2-2-A2">Figura</xref> abajo.
+      Nota cuidadosamente que la cuadrícula en el diagrama no tiene cuadros que son <m>1 \times 1</m>,
+      sino aproximadamente <m>1.57 \times 1</m>,
+      ya que la escala horizontal de la cuadrícula es de <m>\pi/2</m> unidades por cuadro.
     </p>
 
     <figure xml:id="F-2-2-A2" permid="rRy">
-      <caption>At left, the graph of <m>y = g(x) = \cos(x)</m>.</caption>
+      <caption>A la izquierda, el gráfico de <m>y = g(x) = \cos(x)</m>.</caption>
       <image width="100%" source="images/2_2_cosine" />
     </figure>
 
@@ -31,40 +31,40 @@
       <ol marker="a." permid="Jli">
         <li permid="psr">
           <p permid="IfP">
-            At each of <m>x = -2\pi, -\frac{3\pi}{2}, -\pi, -\frac{\pi}{2}, 0, \frac{\pi}{2}, \pi, \frac{3\pi}{2}, 2\pi</m>,
-            use a straightedge to sketch an accurate tangent line to <m>y = g(x)</m>.
+            En cada uno de <m>x = -2\pi, -\frac{3\pi}{2}, -\pi, -\frac{\pi}{2}, 0, \frac{\pi}{2}, \pi, \frac{3\pi}{2}, 2\pi</m>,
+            usa una regla para dibujar una línea tangente precisa a <m>y = g(x)</m>.
           </p>
         </li>
 
         <li permid="VzA">
           <p permid="omY">
-            Use the provided grid to estimate the slope of the tangent line you drew at each point.
-            Again, note the scale of the axes and grid.
+            Usa la cuadrícula proporcionada para estimar la pendiente de la línea tangente que dibujaste en cada punto.
+            Nuevamente, nota la escala de los ejes y la cuadrícula.
           </p>
         </li>
 
         <li permid="BGJ">
           <p permid="Uuh">
-            Use the limit definition of the derivative to estimate
-            <m>g'(\frac{\pi}{2})</m> by using small values of <m>h</m>,
-            and compare the result to your visual estimate for the slope of the tangent line to
-            <m>y = g(x)</m> at <m>x = \frac{\pi}{2}</m> in (b).
-            Using periodicity, what does this result suggest about
-            <m>g'(-\frac{3\pi}{2})</m>? can symmetry on the graph help you estimate other slopes easily?
+            Usa la definición del límite de la derivada para estimar
+            <m>g'(\frac{\pi}{2})</m> usando valores pequeños de <m>h</m>,
+            y compara el resultado con tu estimación visual de la pendiente de la línea tangente a
+            <m>y = g(x)</m> en <m>x = \frac{\pi}{2}</m> en (b).
+            Usando la periodicidad, ¿qué sugiere este resultado sobre
+            <m>g'(-\frac{3\pi}{2})</m>? ¿puede la simetría en el gráfico ayudarte a estimar otras pendientes fácilmente?
           </p>
         </li>
 
         <li permid="hNS">
           <p permid="ABq">
-            Based on your work in (a), (b), and (c),
-            sketch an accurate graph of
-            <m>y = g'(x)</m> on the axes adjacent to the graph of <m>y = g(x)</m>.
+            Basado en tu trabajo en (a), (b) y (c),
+            dibuja un gráfico preciso de
+            <m>y = g'(x)</m> en los ejes adyacentes al gráfico de <m>y = g(x)</m>.
           </p>
         </li>
 
         <li permid="NVb">
           <p permid="gIz">
-            What familiar function do you think is the derivative of <m>g(x) = \cos(x)</m>?
+            ¿Qué función familiar crees que es la derivada de <m>g(x) = \cos(x)</m>?
           </p>
         </li>
       </ol>
@@ -75,33 +75,33 @@
       <ol marker="a." permid="ddZ">
         <li permid="uck">
           <p permid="MPI">
-            It's very important to use a straightedge for accuracy.
+            Es muy importante usar una regla para la precisión.
           </p>
         </li>
 
         <li permid="ajt">
           <p permid="sWR">
-            First determine the slopes that appear to be zero.
-            Then estimate <m>g'(\frac{\pi}{2})</m> carefully using the grid.
-            Use symmetry and periodicity to help you estimate other nonzero slopes on the graph.
+            Primero determina las pendientes que parecen ser cero.
+            Luego estima <m>g'(\frac{\pi}{2})</m> cuidadosamente usando la cuadrícula.
+            Usa la simetría y la periodicidad para ayudarte a estimar otras pendientes no nulas en el gráfico.
           </p>
         </li>
 
         <li permid="GqC">
           <p permid="Zea">
-            <m>g'(\frac{\pi}{2}) \approx \frac{\cos(\frac{\pi}{2}+h)}{h}</m> for small values of <m>h</m>.
+            <m>g'(\frac{\pi}{2}) \approx \frac{\cos(\frac{\pi}{2}+h)}{h}</m> para valores pequeños de <m>h</m>.
           </p>
         </li>
 
         <li permid="mxL">
           <p permid="Flj">
-            Recall that heights on <m>g'</m> come from slopes on <m>g</m>.
+            Recuerda que las alturas en <m>g'</m> provienen de las pendientes en <m>g</m>.
           </p>
         </li>
 
         <li permid="SEU">
           <p permid="lss">
-            It might be reasonable to expect that the derivative of a trigonometric function is another trigonometric function.
+            Podría ser razonable esperar que la derivada de una función trigonométrica sea otra función trigonométrica.
           </p>
         </li>
       </ol>
@@ -112,7 +112,7 @@
       <ol marker="a." permid="wWQ">
         <li permid="yMd">
           <p permid="RzB">
-            <xref ref="F-2-2-A2-soln-a">Figure</xref>.
+            <xref ref="F-2-2-A2-soln-a">Figura</xref>.
           </p>
         </li>
 
@@ -130,7 +130,7 @@
 
         <li permid="rhE">
           <p permid="JVc">
-            <xref ref="F-2-2-A2-soln-a">Figure</xref>.
+            <xref ref="F-2-2-A2-soln-a">Figura</xref>.
           </p>
         </li>
 
@@ -143,7 +143,7 @@
     </p>
 
     <figure xml:id="F-2-2-A2-soln-a" permid="ToO">
-      <caption>At left, the graph of <m>y = g(x) = \cos(x)</m>.  At right, the graph of <m>y = g'(x)</m></caption>
+      <caption>A la izquierda, el gráfico de <m>y = g(x) = \cos(x)</m>. A la derecha, el gráfico de <m>y = g'(x)</m></caption>
       <image width="100%" source="images/2_2_cosineSoln" />
     </figure>
   </answer>
@@ -152,57 +152,56 @@
       <ol marker="a." permid="QPH">
         <li permid="DvW">
           <p permid="Wju">
-            See <xref ref="F-2-2-A2-soln">Figure</xref>..
+            Ver <xref ref="F-2-2-A2-soln">Figura</xref>.
           </p>
         </li>
 
         <li permid="jDf">
           <p permid="CqD">
-            Reading left to right from
-            <m>-2\pi, \ldots, 2\pi</m> with stepsize <m>\pi/2</m>,
-            the respective slopes of tangent lines appear to be <m>0,-1,0,1,0,-1,0,1,0</m>.
+            Leyendo de izquierda a derecha desde
+            <m>-2\pi, \ldots, 2\pi</m> con un tamaño de paso de <m>\pi/2</m>,
+            las pendientes respectivas de las líneas tangentes parecen ser <m>0,-1,0,1,0,-1,0,1,0</m>.
           </p>
         </li>
 
         <li permid="PKo">
           <p permid="ixM">
-            From the limit definition,
+            Desde la definición del límite,
             <md permid="XYH">
               <mrow>g'(\frac{\pi}{2}) =\mathstrut \amp  \lim_{h \to 0} \frac{g(\frac{\pi}{2} + h) - g(\frac{\pi}{2})}{h}</mrow>
               <mrow>=\mathstrut \amp  \lim_{h \to 0} \frac{\cos(\frac{\pi}{2} + h) - \cos(\frac{\pi}{2})}{h}</mrow>
               <mrow>=\mathstrut \amp  \lim_{h \to 0} \frac{\cos(\frac{\pi}{2}h)}{h}</mrow>
             </md>
-            Because we cannot simplify the fraction
-            <m>\frac{\cos(\frac{\pi}{2}+h)}{h}</m> any further algebraically,
-            we estimate the value of the limit using small values of <m>h</m>.
-            Doing so,
-            it appears that <m>\lim_{h \to 0} \frac{\cos(\frac{\pi}{2}+h)}{h}  = -1</m>,
-            and thus <m>g'(\frac{\pi}{2}) = -1</m>.
-            This matches the estimate generated visually by sketching the tangent line at <m>(\frac{\pi}{2},g(\frac{\pi}{2}))</m>.
-            Finally, by the periodicity of the sine function,
-            we expect the value of the derivative at
-            <m>\frac{\pi}{2}</m> to match the derivative value at <m>-\frac{3\pi}{2}</m>.
+            Como no podemos simplificar la fracción
+            <m>\frac{\cos(\frac{\pi}{2}+h)}{h}</m> más algebraicamente,
+            estimamos el valor del límite usando valores pequeños de <m>h</m>.
+            Haciendo esto,
+            parece que <m>\lim_{h \to 0} \frac{\cos(\frac{\pi}{2}+h)}{h}  = -1</m>,
+            y así <m>g'(\frac{\pi}{2}) = -1</m>.
+            Esto coincide con la estimación generada visualmente al dibujar la línea tangente en <m>(\frac{\pi}{2},g(\frac{\pi}{2}))</m>.
+            Finalmente, por la periodicidad de la función seno,
+            esperamos que el valor de la derivada en
+            <m>\frac{\pi}{2}</m> coincida con el valor de la derivada en <m>-\frac{3\pi}{2}</m>.
           </p>
         </li>
 
         <li permid="vRx">
           <p permid="OEV">
-            See <xref ref="F-2-2-A2-soln-a">Figure</xref>.
+            Ver <xref ref="F-2-2-A2-soln-a">Figura</xref>.
           </p>
         </li>
 
         <li permid="bYG">
           <p permid="uMe">
-            It appears that <m>\frac{d}{dx}[\cos(x)] = -\sin(x)</m>.
+            Parece que <m>\frac{d}{dx}[\cos(x)] = -\sin(x)</m>.
           </p>
         </li>
       </ol>
     </p>
 
     <figure xml:id="F-2-2-A2-soln" permid="Haw">
-      <caption>At left, the graph of <m>y = g(x) = \cos(x)</m>.  At right, the graph of <m>y = g'(x)</m></caption>
+      <caption>A la izquierda, el gráfico de <m>y = g(x) = \cos(x)</m>. A la derecha, el gráfico de <m>y = g'(x)</m></caption>
       <image width="100%" source="images/2_2_cosineSoln" />
     </figure>
   </solution>
 </activity>
-

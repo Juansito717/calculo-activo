@@ -15,50 +15,49 @@
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-1-2" permid="jEj">
   <statement>
     <p permid="riI">
-      Suppose that <m>g</m> is the function given by the graph below.
-      Use the graph in <xref ref="F-1-2-PA1">Figure</xref>
-      to answer each of the following questions.
+      Supón que <m>g</m> es la función dada por el gráfico a continuación.
+      Usa el gráfico en <xref ref="F-1-2-PA1">Figura</xref>
+      para responder cada una de las siguientes preguntas.
     </p>
 
     <p permid="XpR">
       <ol marker="a." permid="akx">
         <li permid="GrG">
           <p permid="yNh">
-            Determine the values <m>g(-2)</m>, <m>g(-1)</m>,
+            Determina los valores <m>g(-2)</m>, <m>g(-1)</m>,
             <m>g(0)</m>, <m>g(1)</m>,
-            and <m>g(2)</m>, if defined.
-            If the function value is not defined,
-            explain what feature of the graph tells you this.
+            y <m>g(2)</m>, si están definidos.
+            Si el valor de la función no está definido,
+            explica qué característica del gráfico te dice esto.
           </p>
         </li>
 
         <li permid="myP">
           <p permid="eUq">
-            For each of the values <m>a = -1</m>,
-            <m>a = 0</m>, and <m>a = 2</m>,
-            complete the following sentence:
-            <q>As <m>x</m> gets closer and closer
-            (but not equal)
-            to <m>a</m>,
-            <m>g(x)</m> gets as close as we want to <fillin />.</q>
+            Para cada uno de los valores <m>a = -1</m>,
+            <m>a = 0</m>, y <m>a = 2</m>,
+            completa la siguiente oración:
+            <q>Cuando <m>x</m> se acerca cada vez más
+            (pero no es igual)
+            a <m>a</m>,
+            <m>g(x)</m> se acerca tanto como queramos a <fillin />.</q>
           </p>
         </li>
 
         <li permid="SFY">
           <p permid="Lbz">
-            What happens as <m>x</m> gets closer and closer
-            (but not equal)
-            to <m>a = 1</m>?
-            Does the function <m>g(x)</m> get as close as we would like to a single value?
+            ¿Qué pasa cuando <m>x</m> se acerca cada vez más
+            (pero no es igual)
+            a <m>a = 1</m>?
+            ¿La función <m>g(x)</m> se acerca tanto como nos gustaría a un solo valor?
           </p>
         </li>
       </ol>
     </p>
 
     <figure xml:id="F-1-2-PA1" permid="Dxa">
-      <caption>Graph of <m>y = g(x)</m> for <xref ref="PA-1-2">Preview Activity</xref>.</caption>
+      <caption>Gráfico de <m>y = g(x)</m> para <xref ref="PA-1-2">Actividad de Vista Previa</xref>.</caption>
       <image width="47%" source="images/1_2_PA1" />
     </figure>
   </statement>
 </exploration>
-

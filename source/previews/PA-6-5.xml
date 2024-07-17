@@ -14,53 +14,53 @@
 <!-- **********************************************************************-->
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-6-5" permid="tAY">
   <p permid="Bfx">
-    A company with a large customer base has a call center that receives thousands of calls a day.
-    After studying the data that represents how long callers wait for assistance,
-    they find that the function
-    <m>p(t) = 0.25e^{-0.25t}</m> models the time customers wait in the following way:
-    the fraction of customers who wait between <m>t = a</m> and <m>t = b</m> minutes is given by
+    Una empresa con una gran base de clientes tiene un centro de llamadas que recibe miles de llamadas al día.
+    Después de estudiar los datos que representan cuánto tiempo esperan los clientes para recibir asistencia,
+    encuentran que la función
+    <m>p(t) = 0.25e^{-0.25t}</m> modela el tiempo de espera de los clientes de la siguiente manera:
+    la fracción de clientes que esperan entre <m>t = a</m> y <m>t = b</m> minutos se da por
     <me permid="NtP">
       \int_a^b p(t) \, dt
     </me>.
   </p>
 
   <p permid="hmG">
-    Use this information to answer the following questions.
+    Usa esta información para responder las siguientes preguntas.
 
     <ol marker="a." permid="nbS">
       <li permid="Tjb">
         <p permid="khm">
-          Determine the fraction of callers who wait between 5 and 10 minutes.
+          Determina la fracción de clientes que esperan entre 5 y 10 minutos.
         </p>
       </li>
 
       <li permid="zqk">
         <p permid="Qov">
-          Determine the fraction of callers who wait between 10 and 20 minutes.
+          Determina la fracción de clientes que esperan entre 10 y 20 minutos.
         </p>
       </li>
 
       <li permid="fxt">
         <p permid="wvE">
-          Next, let's study the fraction who wait up to a certain number of minutes:
+          A continuación, estudiemos la fracción que espera hasta un cierto número de minutos:
 
           <ol marker="i." permid="lWz">
             <li permid="FPq">
               <p permid="ZIh">
-                What is the fraction of callers who wait between 0 and 5 minutes?
+                ¿Cuál es la fracción de clientes que esperan entre 0 y 5 minutos?
               </p>
             </li>
 
             <li permid="LEC">
               <p permid="cCN">
-                What is the fraction of callers who wait between 0 and 10 minutes?
+                ¿Cuál es la fracción de clientes que esperan entre 0 y 10 minutos?
               </p>
             </li>
 
             <li permid="rLL">
               <p permid="IJW">
-                Between 0 and 15 minutes?
-                Between 0 and 20?
+                ¿Entre 0 y 15 minutos?
+                ¿Entre 0 y 20?
               </p>
             </li>
           </ol>
@@ -69,19 +69,18 @@
 
       <li permid="XSU">
         <p permid="oRf">
-          Let <m>F(b)</m> represent the fraction of callers who wait between <m>0</m> and <m>b</m> minutes.
-          Find a formula for <m>F(b)</m> that involves a definite integral,
-          and then use the First FTC to find a formula for <m>F(b)</m> that does not involve a definite integral.
+          Sea <m>F(b)</m> la fracción de clientes que esperan entre <m>0</m> y <m>b</m> minutos.
+          Encuentra una fórmula para <m>F(b)</m> que involucre una integral definida,
+          y luego usa el Primer Teorema Fundamental del Cálculo para encontrar una fórmula para <m>F(b)</m> que no involucre una integral definida.
         </p>
       </li>
 
       <li permid="Ead">
         <p permid="UYo">
-          What is the value of the limit <m>\lim_{b \to \infty} F(b)</m>?
-          What is its meaning in the context of the problem?
+          ¿Cuál es el valor del límite <m>\lim_{b \to \infty} F(b)</m>?
+          ¿Cuál es su significado en el contexto del problema?
         </p>
       </li>
     </ol>
   </p>
 </exploration>
-

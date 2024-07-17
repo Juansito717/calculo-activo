@@ -13,27 +13,27 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-5-1-antid-graphs" permid="mjh">
-  <title>Constructing Accurate Graphs of Antiderivatives</title>
+  <title>Construyendo Gráficos Precisos de Antiderivadas</title>
   <objectives permid="Dhs">
     <ul permid="vCT">
       <li permid="HRl">
         <p permid="sIn">
-          Given the graph of a function's derivative,
-          how can we construct a completely accurate graph of the original function?
+          Dado el gráfico de la derivada de una función,
+          ¿cómo podemos construir un gráfico completamente preciso de la función original?
         </p>
       </li>
 
       <li permid="nYu">
         <p permid="YPw">
-          How many antiderivatives does a given function have?
-          What do those antiderivatives all have in common?
+          ¿Cuántas antiderivadas tiene una función dada?
+          ¿Qué tienen en común todas esas antiderivadas?
         </p>
       </li>
 
       <li permid="UfD">
         <p permid="EWF">
-          Given a function <m>f</m>,
-          how does the rule <m>A(x) = \int_0^x f(t) \, dt</m> define a new function <m>A</m>?
+          Dada una función <m>f</m>,
+          ¿cómo define la regla <m>A(x) = \int_0^x f(t) \, dt</m> una nueva función <m>A</m>?
         </p>
       </li>
     </ul>
@@ -41,78 +41,78 @@
 
   <introduction permid="joB">
     <p permid="pNH">
-      A recurring theme in our discussion of differential calculus has been the question
-      <q>Given information about the derivative of an unknown function <m>f</m>,
-      how much information can we obtain about <m>f</m> itself?</q>
-      In <xref ref="act-1-8-2">Activity</xref>,
-      the graph of <m>y = f'(x)</m> was known
-      (along with the value of <m>f</m> at a single point)
-      and we endeavored to sketch a possible graph of <m>f</m> near the known point.
-      In <xref ref="Ex-f-from-f-prime">Example</xref>
-      <mdash /> we investigated how the first derivative test enables us to use information about <m>f'</m> to determine where the original function <m>f</m> is increasing and decreasing,
-      as well as where <m>f</m> has relative extreme values.
-      If we know a formula or graph of <m>f'</m>,
-      by computing <m>f''</m> we can find where the original function <m>f</m> is concave up and concave down.
-      Thus, knowing <m>f'</m> and <m>f''</m> enables us to understand the shape of the graph of <m>f</m>.
+      Un tema recurrente en nuestra discusión sobre cálculo diferencial ha sido la pregunta
+      <q>Dada la información sobre la derivada de una función desconocida <m>f</m>,
+      ¿cuánta información podemos obtener sobre la propia <m>f</m>?</q>
+      En <xref ref="act-1-8-2">Actividad</xref>,
+      se conocía el gráfico de <m>y = f'(x)</m>
+      (junto con el valor de <m>f</m> en un solo punto)
+      y nos esforzamos por esbozar un posible gráfico de <m>f</m> cerca del punto conocido.
+      En <xref ref="Ex-f-from-f-prime">Ejemplo</xref>
+      <mdash /> investigamos cómo la prueba de la primera derivada nos permite usar información sobre <m>f'</m> para determinar dónde la función original <m>f</m> está aumentando y disminuyendo,
+      así como dónde <m>f</m> tiene valores extremos relativos.
+      Si conocemos una fórmula o gráfico de <m>f'</m>,
+      al calcular <m>f''</m> podemos encontrar dónde la función original <m>f</m> es cóncava hacia arriba y cóncava hacia abajo.
+      Así, conocer <m>f'</m> y <m>f''</m> nos permite entender la forma del gráfico de <m>f</m>.
     </p>
 
     <p permid="VUQ">
-      We returned to this question in even more detail in <xref ref="sec-4-1-velocity-distance">Section</xref>.
-      In that setting,
-      we knew the instantaneous velocity of a moving object and worked to determine as much as possible about the object's position function.
-      We found connections between the net signed area under the velocity function and the corresponding change in position of the function, and 
-      the Total Change Theorem further illuminated these connections between <m>f'</m> and <m>f</m>,
-      showing that the total change in the value of <m>f</m> over an interval <m>[a,b]</m> is determined by the net signed area bounded by <m>f'</m> and the <m>x</m>-axis on the same interval.
+      Volvimos a esta pregunta con aún más detalle en <xref ref="sec-4-1-velocity-distance">Sección</xref>.
+      En ese contexto,
+      conocíamos la velocidad instantánea de un objeto en movimiento y trabajamos para determinar lo más posible sobre la función de posición del objeto.
+      Encontramos conexiones entre el área neta firmada bajo la función de velocidad y el cambio correspondiente en la posición de la función, y 
+      el Teorema del Cambio Total iluminó aún más estas conexiones entre <m>f'</m> y <m>f</m>,
+      mostrando que el cambio total en el valor de <m>f</m> en un intervalo <m>[a,b]</m> está determinado por el área neta firmada delimitada por <m>f'</m> y el eje <m>x</m> en el mismo intervalo.
     </p>
 
     <p permid="CbZ">
-      In what follows,
-      we explore the situation where we possess an accurate graph of the derivative function along with a single value of the function <m>f</m>.
-      From that information,
-      we'd like to determine a graph of <m>f</m> that shows where <m>f</m> is increasing,
-      decreasing, concave up, and concave down,
-      and also provides an accurate function value at any point.
+      En lo que sigue,
+      exploramos la situación en la que poseemos un gráfico preciso de la función derivada junto con un solo valor de la función <m>f</m>.
+      A partir de esa información,
+      nos gustaría determinar un gráfico de <m>f</m> que muestre dónde <m>f</m> está aumentando,
+      disminuyendo, cóncava hacia arriba y cóncava hacia abajo,
+      y también proporcione un valor de función preciso en cualquier punto.
     </p>
 
     <xi:include href="./previews/PA-5-1.xml" />
   </introduction>
 
   <subsection permid="Sqq">
-    <title>Constructing the graph of an antiderivative</title>
-    <idx><h>antiderivative</h><h>graph</h></idx>
+    <title>Construyendo el gráfico de una antiderivada</title>
+    <idx><h>antiderivada</h><h>gráfico</h></idx>
 
     <p permid="iji">
-      <xref ref="PA-5-1">Preview Activity</xref>
-      demonstrates that when we can find the exact area under the graph of a function on any given interval,
-      it is possible to construct a graph of the function's antiderivative.
-      That is, we can find a function whose derivative is given.
-      We can now determine not only the overall shape of the antiderivative graph,
-      but also the actual <em>height</em>
-      of the graph at any point of interest.
+      <xref ref="PA-5-1">Actividad de Vista Previa</xref>
+      demuestra que cuando podemos encontrar el área exacta bajo el gráfico de una función en cualquier intervalo dado,
+      es posible construir un gráfico de la antiderivada de la función.
+      Es decir, podemos encontrar una función cuya derivada se da.
+      Ahora podemos determinar no solo la forma general del gráfico de la antiderivada,
+      sino también la <em>altura</em> real
+      del gráfico en cualquier punto de interés.
     </p>
 
     <p permid="Oqr">
-      This is a consequence of the Fundamental Theorem of Calculus:
-      if we know a function <m>f</m> and the value of the antiderivative <m>F</m> at some starting point <m>a</m>, 
-      we can determine the value of <m>F(b)</m> via the definite integral.
-      Since <m>F(b) - F(a) = \int_a^b f(x) \, dx</m>, it follows that
+      Esto es una consecuencia del Teorema Fundamental del Cálculo:
+      si conocemos una función <m>f</m> y el valor de la antiderivada <m>F</m> en algún punto de partida <m>a</m>, 
+      podemos determinar el valor de <m>F(b)</m> a través de la integral definida.
+      Dado que <m>F(b) - F(a) = \int_a^b f(x) \, dx</m>, se sigue que
       <men xml:id="E-FTCTCT" permid="AWG">
         F(b) = F(a) + \int_a^b f(x) \, dx
       </men>.
     </p>
 
     <p permid="uxA">
-      We can also interpret the equation
-      <m>F(b) - F(a) = \int_a^b f(x) \, dx</m> in terms of the graphs of <m>f</m> and <m>F</m> as follows.
-      On an interval <m>[a,b]</m>,
+      También podemos interpretar la ecuación
+      <m>F(b) - F(a) = \int_a^b f(x) \, dx</m> en términos de los gráficos de <m>f</m> y <m>F</m> de la siguiente manera.
+      En un intervalo <m>[a,b]</m>,
     </p>
 
     <blockquote permid="PvK">
       <p permid="dzp">
-        <em>differences in heights on the graph of the antiderivative</em>
-        <em>given by <m>F(b) - F(a)</m></em>
-        <em>correspond to the net signed area bounded by the original function on the interval <m>[a,b]</m>,</em>
-        <em>which is given by</em> <m>\int_a^b f(x) \, dx</m>.
+        <em>diferencias en alturas en el gráfico de la antiderivada</em>
+        <em>dadas por <m>F(b) - F(a)</m></em>
+        <em>corresponden al área neta firmada delimitada por la función original en el intervalo <m>[a,b]</m>,</em>
+        <em>que se da por</em> <m>\int_a^b f(x) \, dx</m>.
       </p>
     </blockquote>
 
@@ -120,234 +120,233 @@
   </subsection>
 
   <subsection permid="yxz">
-    <title>Multiple antiderivatives of a single function</title>
+    <title>Múltiples antiderivadas de una sola función</title>
     <p permid="aEJ">
-      In the final question of <xref ref="act-5-1-1">Activity</xref>,
-      we encountered a very important idea:
-      a function <m>f</m> has more than one antiderivative.
-      Each antiderivative of <m>f</m> is determined uniquely by its value at a single point.
-      For example,
-      suppose that <m>f</m> is the function given at left in <xref ref="F-5-1-Ex1">Figure</xref>,
-      and suppose further that <m>F</m> is an antiderivative of <m>f</m> that satisfies <m>F(0) = 1</m>.
+      En la última pregunta de <xref ref="act-5-1-1">Actividad</xref>,
+      encontramos una idea muy importante:
+      una función <m>f</m> tiene más de una antiderivada.
+      Cada antiderivada de <m>f</m> se determina de manera única por su valor en un solo punto.
+      Por ejemplo,
+      supón que <m>f</m> es la función dada a la izquierda en <xref ref="F-5-1-Ex1">Figura</xref>,
+      y supón además que <m>F</m> es una antiderivada de <m>f</m> que satisface <m>F(0) = 1</m>.
     </p>
 
     <figure xml:id="F-5-1-Ex1" permid="XKd">
-      <caption>At left, the graph of <m>y = f(x)</m>.  At right, three different antiderivatives of <m>f</m>.</caption>
+      <caption>A la izquierda, el gráfico de <m>y = f(x)</m>. A la derecha, tres antiderivadas diferentes de <m>f</m>.</caption>
       <image width="75%" source="images/5_1_Ex1" />
     </figure>
 
     <p permid="GLS">
-      Then, using <xref ref="E-FTCTCT">Equation</xref>,
-      we can compute
+      Luego, usando <xref ref="E-FTCTCT">Ecuación</xref>,
+      podemos calcular
       <md permid="hdP">
         <mrow>F(1) &amp;= F(0) + \int_0^1 f(x) \, dx</mrow>
         <mrow>&amp;= 1 + 0.5</mrow>
         <mrow>&amp;= 1.5</mrow>
       </md>.
-      Similarly, <m>F(2) = 1.5</m>,
+      De manera similar, <m>F(2) = 1.5</m>,
       <m>F(3) = -0.5</m>, <m>F(4) = -2</m>,
-      <m>F(5) = -0.5</m>, and <m>F(6) = 1</m>.
-      In addition,
-      we can use the fact that <m>F' = f</m> to ascertain where <m>F</m> is increasing and decreasing,
-      concave up and concave down,
-      and has relative extremes and inflection points.
-      We ultimately find that the graph of <m>F</m> is the one given in blue in <xref ref="F-5-1-Ex1">Figure</xref>.
+      <m>F(5) = -0.5</m>, y <m>F(6) = 1</m>.
+      Además,
+      podemos usar el hecho de que <m>F' = f</m> para determinar dónde <m>F</m> está aumentando y disminuyendo,
+      cóncava hacia arriba y cóncava hacia abajo,
+      y tiene extremos relativos y puntos de inflexión.
+      Finalmente encontramos que el gráfico de <m>F</m> es el que se da en azul en <xref ref="F-5-1-Ex1">Figura</xref>.
     </p>
 
     <p permid="mTb">
-      If we want an antiderivative <m>G</m> for which <m>G(0) = 3</m>,
-      then <m>G</m> will have the exact same shape as <m>F</m>
-      (since both share the derivative <m>f</m>),
-      but <m>G</m> will be shifted vertically from the graph of <m>F</m>,
-      as pictured in red in <xref ref="F-5-1-Ex1">Figure</xref>.
-      Note that <m>G(1) - G(0) = \int_0^1 f(x) \, dx = 0.5</m>,
-      just as <m>F(1) - F(0) = 0.5</m>,
-      but since <m>G(0) = 3</m>,
+      Si queremos una antiderivada <m>G</m> para la cual <m>G(0) = 3</m>,
+      entonces <m>G</m> tendrá la misma forma exacta que <m>F</m>
+      (ya que ambas comparten la derivada <m>f</m>),
+      pero <m>G</m> se desplazará verticalmente desde el gráfico de <m>F</m>,
+      como se muestra en rojo en <xref ref="F-5-1-Ex1">Figura</xref>.
+      Nota que <m>G(1) - G(0) = \int_0^1 f(x) \, dx = 0.5</m>,
+      al igual que <m>F(1) - F(0) = 0.5</m>,
+      pero como <m>G(0) = 3</m>,
       <m>G(1) = G(0) + 0.5 = 3.5</m>,
-      whereas <m>F(1) = 1.5</m>.
-      In the same way,
-      if we assigned a different initial value to the antiderivative,
-      say <m>H(0) = -1</m>, we would get still another antiderivative,
-      as shown in magenta in <xref ref="F-5-1-Ex1">Figure</xref>.
+      mientras que <m>F(1) = 1.5</m>.
+      De la misma manera,
+      si asignamos un valor inicial diferente a la antiderivada,
+      digamos <m>H(0) = -1</m>, obtendríamos otra antiderivada,
+      como se muestra en magenta en <xref ref="F-5-1-Ex1">Figura</xref>.
     </p>
 
     <p permid="Tak">
-      This example demonstrates an important fact that holds more generally:
+      Este ejemplo demuestra un hecho importante que se cumple de manera más general:
     </p>
 
     <assemblage permid="qTa">
       <p permid="zht">
-        If <m>G</m> and <m>H</m> are both antiderivatives of a function <m>f</m> on an interval <m>(a,b)</m>,
-        then the function <m>G - H</m> must be constant on the interval <m>(a,b)</m>.
+        Si <m>G</m> y <m>H</m> son ambas antiderivadas de una función <m>f</m> en un intervalo <m>(a,b)</m>,
+        entonces la función <m>G - H</m> debe ser constante en el intervalo <m>(a,b)</m>.
       </p>
     </assemblage>
 
-    <p permid="foC">
-      To see why this result holds,
-      observe that if <m>G</m> and <m>H</m> are both antiderivatives of <m>f</m>,
-      then <m>G' = f</m> and <m>H' = f</m>.
-      Hence,
-      <me permid="NkY">
-        \frac{d}{dx}[ G(x) - H(x) ] = G'(x) - H'(x) = f(x) - f(x) = 0
-      </me>.
-      Since the only way a function can have derivative zero is by being a constant function,
-      it follows that the function <m>G - H</m> must be constant.
-    </p>
+<p permid="foC">
+  Para ver por qué se cumple este resultado,
+  observa que si <m>G</m> y <m>H</m> son ambas antiderivadas de <m>f</m>,
+  entonces <m>G' = f</m> y <m>H' = f</m>.
+  Por lo tanto,
+  <me permid="NkY">
+    \frac{d}{dx}[ G(x) - H(x) ] = G'(x) - H'(x) = f(x) - f(x) = 0
+  </me>.
+  Dado que la única manera en que una función puede tener derivada cero es siendo una función constante,
+  se sigue que la función <m>G - H</m> debe ser constante.
+</p>
 
-    <p permid="LvL">
-      We now see that if a function has at least one antiderivative,
-      it must have infinitely many:
-      we can add any constant of our choice to the antiderivative and get another antiderivative.
-      For this reason, we sometimes refer to the
-      <em>general antiderivative</em>
-          <idx><h>antiderivative</h><h>general</h></idx>
-      of a function <m>f</m>.
-    </p>
+<p permid="LvL">
+  Ahora vemos que si una función tiene al menos una antiderivada,
+  debe tener infinitas:
+  podemos sumar cualquier constante de nuestra elección a la antiderivada y obtener otra antiderivada.
+  Por esta razón, a veces nos referimos a la
+  <em>antiderivada general</em>
+      <idx><h>antiderivative</h><h>general</h></idx>
+  de una función <m>f</m>.
+</p>
 
-    <p permid="rCU">
-      To identify a particular antiderivative of <m>f</m>,
-      we must know a single value of the antiderivative <m>F</m>
-      (this value is often called an
-      <em>initial condition</em>).
-          <idx><h>initial condition</h></idx>
-      For example, if <m>f(x) = x^2</m>,
-      its general antiderivative is <m>F(x) = \frac{1}{3}x^3 + C</m>,
-      where we include the <q><m>+C</m></q>
-      to indicate that <m>F</m> includes <em>all</em>
-      of the possible antiderivatives of <m>f</m>.
-      If we know that <m>F(2) = 3</m>,
-      we substitute 2 for <m>x</m> in <m>F(x) = \frac{1}{3}x^3 + C</m>,
-      and find that
-      <me permid="tsh">
-        3 = \frac{1}{3}(2)^3 + C
-      </me>,
-      or <m>C = 3 - \frac{8}{3} = \frac{1}{3}</m>.
-      Therefore, the particular antiderivative in this case is <m>F(x) = \frac{1}{3}x^3 + \frac{1}{3}</m>.
-    </p>
+<p permid="rCU">
+  Para identificar una antiderivada particular de <m>f</m>,
+  debemos conocer un solo valor de la antiderivada <m>F</m>
+  (este valor a menudo se llama una
+  <em>condición inicial</em>).
+      <idx><h>initial condition</h></idx>
+  Por ejemplo, si <m>f(x) = x^2</m>,
+  su antiderivada general es <m>F(x) = \frac{1}{3}x^3 + C</m>,
+  donde incluimos el <q><m>+C</m></q>
+  para indicar que <m>F</m> incluye <em>todas</em>
+  las posibles antiderivadas de <m>f</m>.
+  Si sabemos que <m>F(2) = 3</m>,
+  sustituimos 2 por <m>x</m> en <m>F(x) = \frac{1}{3}x^3 + C</m>,
+  y encontramos que
+  <me permid="tsh">
+    3 = \frac{1}{3}(2)^3 + C
+  </me>,
+  o <m>C = 3 - \frac{8}{3} = \frac{1}{3}</m>.
+  Por lo tanto, la antiderivada particular en este caso es <m>F(x) = \frac{1}{3}x^3 + \frac{1}{3}</m>.
+</p>
 
-    <xi:include href="./activities/act-5-1-2.xml" />
-  </subsection>
+<xi:include href="./activities/act-5-1-2.xml" />
+</subsection>
 
-  <subsection permid="eEI">
-    <title>Functions defined by integrals</title>
-    <p permid="DRm">
-      Equation<nbsp /><xref ref="E-FTCTCT" /> allows us to compute the value of the antiderivative <m>F</m> at a point <m>b</m>,
-      provided that we know <m>F(a)</m> and can evaluate the definite integral from <m>a</m> to <m>b</m> of <m>f</m>.
-      That is,
-      <me permid="Zzq">
-        F(b) = F(a) + \int_a^b f(x) \, dx
-      </me>.
-    </p>
+<subsection permid="eEI">
+  <title>Funciones definidas por integrales</title>
+  <p permid="DRm">
+    La ecuación<nbsp /><xref ref="E-FTCTCT" /> nos permite calcular el valor de la antiderivada <m>F</m> en un punto <m>b</m>,
+    siempre que sepamos <m>F(a)</m> y podamos evaluar la integral definida desde <m>a</m> hasta <m>b</m> de <m>f</m>.
+    Es decir,
+    <me permid="Zzq">
+      F(b) = F(a) + \int_a^b f(x) \, dx
+    </me>.
+  </p>
 
-    <p permid="jYv">
-      In several situations,
-      we have used this formula to compute <m>F(b)</m> for several different values of <m>b</m>,
-      and then plotted the points
-      <m>(b,F(b))</m> to help us draw an accurate graph of <m>F</m>.
-      This suggests that we may want to think of <m>b</m>,
-      the upper limit of integration, as a variable itself.
-      To that end, we introduce the idea of an
-      <em>integral function</em>,
-          <idx><h>integral function</h></idx>
-      a function whose formula involves a definite integral.
-    </p>
+  <p permid="jYv">
+    En varias situaciones,
+    hemos usado esta fórmula para calcular <m>F(b)</m> para varios valores diferentes de <m>b</m>,
+    y luego hemos trazado los puntos
+    <m>(b,F(b))</m> para ayudarnos a dibujar un gráfico preciso de <m>F</m>.
+    Esto sugiere que podríamos querer pensar en <m>b</m>,
+    el límite superior de integración, como una variable en sí misma.
+    Con ese fin, introducimos la idea de una
+    <em>función integral</em>,
+        <idx><h>integral function</h></idx>
+    una función cuya fórmula implica una integral definida.
+  </p>
 
-    <definition permid="Xaj">
-      <statement>
-        <p permid="JGy">
-          If <m>f</m> is a continuous function,
-          we define the corresponding <term>integral function</term>
-          <m>A</m> according to the rule
-          <men xml:id="E-intfxn" permid="FGz">
-            A(x) = \int_a^x f(t) \, dt
-          </men>.
+  <definition permid="Xaj">
+    <statement>
+      <p permid="JGy">
+        Si <m>f</m> es una función continua,
+        definimos la correspondiente <term>función integral</term>
+        <m>A</m> según la regla
+        <men xml:id="E-intfxn" permid="FGz">
+          A(x) = \int_a^x f(t) \, dt
+        </men>.
+      </p>
+    </statement>
+  </definition>
+
+  <p permid="QfE">
+    Nota que debido a que <m>x</m> es la variable independiente en la función <m>A</m>,
+    y determina el punto final del intervalo de integración,
+    necesitamos usar una variable diferente como la variable de integración.
+    Una elección estándar es <m>t</m>,
+    pero cualquier variable que no sea <m>x</m> es aceptable.
+  </p>
+
+  <p permid="wmN">
+    Una forma de pensar en la función <m>A</m> es como la
+    <q>área neta firmada desde <m>a</m> hasta <m>x</m></q> función,
+    donde consideramos la región delimitada por
+    <m>y = f(t)</m>.
+    Por ejemplo, en <xref ref="F-5-1-IntFxn">Figura</xref>,
+    vemos una función <m>f</m> representada a la izquierda,
+    y su correspondiente función de área
+    (eligiendo <m>a = 0</m>),
+    <m>A(x) = \int_0^x f(t) \, dt</m> mostrada a la derecha.
+  </p>
+
+  <figure xml:id="F-5-1-IntFxn" permid="oIo">
+    <caption>A la izquierda, el gráfico de la función dada <m>f</m>. A la derecha, la función de área <m>A(x) = \int_0^x f(t) \  dt</m>.</caption>
+    <image width="100%" source="images/5_1_IntFxn" />
+  </figure>
+
+  <p permid="ctW">
+    La función <m>A</m> mide el área neta firmada desde <m>t = 0</m> hasta <m>t = x</m> delimitada por la curva <m>y = f(t)</m>;
+    este valor se reporta luego como la altura correspondiente en el gráfico de <m>y = A(x)</m>.
+    <url href="https://gvsu.edu/s/cz" visual="gvsu.edu/s/cz">Este applet</url>,
+    da vida a la imagen estática en <xref ref="F-5-1-IntFxn">Figura</xref>.
+    Allí, el usuario puede mover el punto rojo en la función <m>f</m> y ver cómo cambia la altura correspondiente en el punto azul claro en el gráfico de <m>A</m>.
+  </p>
+
+  <p permid="IBf">
+    La elección de <m>a</m> es algo arbitraria.
+    En la actividad que sigue,
+    exploramos cómo el valor de <m>a</m> afecta el gráfico de la función integral.
+  </p>
+
+  <xi:include href="./activities/act-5-1-3.xml" />
+</subsection>
+
+<subsection permid="KLR">
+  <title>Resumen</title>
+  <p permid="UPx">
+    <ul permid="bKc">
+      <li permid="AmM">
+        <p permid="ldO">
+          Dado el gráfico de una función <m>f</m>,
+          podemos construir el gráfico de su antiderivada <m>F</m> siempre que (a) sepamos un valor inicial de <m>F</m>,
+          digamos <m>F(a)</m>,
+          y (b) podamos evaluar la integral
+          <m>\int_a^b f(x) \, dx</m> exactamente para elecciones relevantes de <m>a</m> y <m>b</m>.
+          Por ejemplo, si deseamos saber <m>F(3)</m>,
+          podemos calcular <m>F(3) = F(a) + \int_a^3 f(x) \, dx</m>.
+          Cuando combinamos esta información sobre los valores de la función de <m>F</m> junto con nuestra comprensión de cómo el comportamiento de <m>F' = f</m> afecta la forma general de <m>F</m>,
+          podemos desarrollar un gráfico completamente preciso de la antiderivada <m>F</m>.
         </p>
-      </statement>
-    </definition>
+      </li>
 
-    <p permid="QfE">
-      Note that because <m>x</m> is the independent variable in the function <m>A</m>,
-      and determines the endpoint of the interval of integration,
-      we need to use a different variable as the variable of integration.
-      A standard choice is <m>t</m>,
-      but any variable other than <m>x</m> is acceptable.
-    </p>
+      <li permid="gtV">
+        <p permid="RkX">
+          Debido a que la derivada de una constante es cero,
+          si <m>F</m> es una antiderivada de <m>f</m>,
+          se sigue que <m>G(x) = F(x) + C</m> también será una antiderivada de <m>f</m>.
+          Además,
+          cualquier dos antiderivadas de una función <m>f</m> difieren precisamente por una constante.
+          Por lo tanto, cualquier función con al menos una antiderivada de hecho tiene infinitas,
+          y los gráficos de cualquier dos antiderivadas diferirán solo por una traslación vertical.
+        </p>
+      </li>
 
-    <p permid="wmN">
-      One way to think of the function <m>A</m> is as the
-      <q>net signed area from <m>a</m> up to <m>x</m></q> function,
-      where we consider the region bounded by
-      <m>y = f(t)</m>.
-      For example, in <xref ref="F-5-1-IntFxn">Figure</xref>,
-      we see a function <m>f</m> pictured at left,
-      and its corresponding area function
-      (choosing <m>a = 0</m>),
-      <m>A(x) = \int_0^x f(t) \, dt</m> shown at right.
-    </p>
+      <li permid="MBe">
+        <p permid="xsg">
+          Dada una función <m>f</m>,
+          la regla <m>A(x) = \int_a^x f(t) \, dt</m> define una nueva función <m>A</m> que mide el área neta firmada delimitada por <m>f</m> en el intervalo <m>[a,x]</m>.
+          Llamamos a la función <m>A</m> la función integral correspondiente a <m>f</m>.
+        </p>
+      </li>
+    </ul>
+  </p>
+</subsection>
 
-    <figure xml:id="F-5-1-IntFxn" permid="oIo">
-      <caption>At left, the graph of the given function <m>f</m>.  At right, the area function <m>A(x) = \int_0^x f(t) \  dt</m>.</caption>
-      <image width="100%" source="images/5_1_IntFxn" />
-    </figure>
-
-    <p permid="ctW">
-      The function <m>A</m> measures the net signed area from <m>t = 0</m> to <m>t = x</m> bounded by the curve <m>y = f(t)</m>;
-      this value is then reported as the corresponding height on the graph of <m>y = A(x)</m>.
-      <url href="https://gvsu.edu/s/cz" visual="gvsu.edu/s/cz">This applet</url>,
-      brings the static picture in <xref ref="F-5-1-IntFxn">Figure</xref> to life.
-      There, the user can move the red point on the function <m>f</m> and see how the corresponding height changes at the light blue point on the graph of <m>A</m>.
-    </p>
-
-    <p permid="IBf">
-      The choice of <m>a</m> is somewhat arbitrary.
-      In the activity that follows,
-      we explore how the value of <m>a</m> affects the graph of the integral function.
-    </p>
-
-    <xi:include href="./activities/act-5-1-3.xml" />
-  </subsection>
-
-  <subsection permid="KLR">
-    <title>Summary</title>
-    <p permid="UPx">
-      <ul permid="bKc">
-        <li permid="AmM">
-          <p permid="ldO">
-            Given the graph of a function <m>f</m>,
-            we can construct the graph of its antiderivative <m>F</m> provided that (a) we know a starting value of <m>F</m>,
-            say <m>F(a)</m>,
-            and (b) we can evaluate the integral
-            <m>\int_a^b f(x) \, dx</m> exactly for relevant choices of <m>a</m> and <m>b</m>.
-            For instance, if we wish to know <m>F(3)</m>,
-            we can compute <m>F(3) = F(a) + \int_a^3 f(x) \, dx</m>.
-            When we combine this information about the function values of <m>F</m> together with our understanding of how the behavior of <m>F' = f</m> affects the overall shape of <m>F</m>,
-            we can develop a completely accurate graph of the antiderivative <m>F</m>.
-          </p>
-        </li>
-
-        <li permid="gtV">
-          <p permid="RkX">
-            Because the derivative of a constant is zero,
-            if <m>F</m> is an antiderivative of <m>f</m>,
-            it follows that <m>G(x) = F(x) + C</m> will also be an antiderivative of <m>f</m>.
-            Moreover,
-            any two antiderivatives of a function <m>f</m> differ precisely by a constant.
-            Thus, any function with at least one antiderivative in fact has infinitely many,
-            and the graphs of any two antiderivatives will differ only by a vertical translation.
-          </p>
-        </li>
-
-        <li permid="MBe">
-          <p permid="xsg">
-            Given a function <m>f</m>,
-            the rule <m>A(x) = \int_a^x f(t) \, dt</m> defines a new function <m>A</m> that measures the net-signed area bounded by <m>f</m> on the interval <m>[a,x]</m>.
-            We call the function <m>A</m> the integral function corresponding to <m>f</m>.
-          </p>
-        </li>
-      </ul>
-    </p>
-  </subsection>
-
-  <xi:include href="./exercises/ez-5-1.xml" />
+<xi:include href="./exercises/ez-5-1.xml" />
 </section>
-

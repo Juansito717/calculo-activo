@@ -15,58 +15,58 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-4-3" permid="qcy">
   <statement>
     <p permid="MPV">
-      Answer each of the following questions.
-      Where a derivative is requested,
-      be sure to label the derivative function with its name using proper notation.
+      Responde a cada una de las siguientes preguntas.
+      Donde se solicite una derivada,
+      asegúrate de etiquetar la función derivada con su nombre usando la notación adecuada.
 
       <ol marker="a." permid="CMp">
         <li permid="iTy">
           <p permid="BGW">
-            Let <m>f(x) = 5 \sec(x) - 2\csc(x)</m>.
-            Find the slope of the tangent line to <m>f</m> at the point where <m>x =\frac{\pi}{3}</m>.
+            Sea <m>f(x) = 5 \sec(x) - 2\csc(x)</m>.
+            Encuentra la pendiente de la línea tangente a <m>f</m> en el punto donde <m>x =\frac{\pi}{3}</m>.
           </p>
         </li>
 
         <li permid="PaH">
           <p permid="hOf">
-            Let <m>p(z) = z^2\sec(z) - z\cot(z)</m>.
-            Find the instantaneous rate of change of <m>p</m> at the point where <m>z = \frac{\pi}{4}</m>.
+            Sea <m>p(z) = z^2\sec(z) - z\cot(z)</m>.
+            Encuentra la tasa de cambio instantánea de <m>p</m> en el punto donde <m>z = \frac{\pi}{4}</m>.
           </p>
         </li>
 
         <li permid="vhQ">
           <p permid="NVo">
-            Let <m>h(t) = \displaystyle \frac{\tan (t)}{t^2+1} - 2e^t \cos(t)</m>.
-            Find <m>h'(t)</m>.
+            Sea <m>h(t) = \displaystyle \frac{\tan (t)}{t^2+1} - 2e^t \cos(t)</m>.
+            Encuentra <m>h'(t)</m>.
           </p>
         </li>
 
         <li permid="boZ">
           <p permid="ucx">
-            Let <m>g(r) = \displaystyle \frac{r \sec(r) }{5^r}</m>.
-            Find <m>g'(r)</m>.
+            Sea <m>g(r) = \displaystyle \frac{r \sec(r) }{5^r}</m>.
+            Encuentra <m>g'(r)</m>.
           </p>
         </li>
 
         <li permid="Hwi">
           <p permid="ajG">
-            When a mass hangs from a spring and is set in motion,
-            the object's position oscillates in a way that the size of the oscillations decrease.
-            This is usually called a
-            <em>damped oscillation</em>.
-            Suppose that for a particular object,
-            its displacement from equilibrium
-            (where the object sits at rest)
-            is modeled by the function
+            Cuando una masa cuelga de un resorte y se pone en movimiento,
+            la posición del objeto oscila de manera que el tamaño de las oscilaciones disminuye.
+            Esto se llama usualmente una
+            <em>oscilación amortiguada</em>.
+            Supón que para un objeto en particular,
+            su desplazamiento desde el equilibrio
+            (donde el objeto está en reposo)
+            está modelado por la función
             <me permid="sXe">
               s(t) = \frac{15 \sin(t)}{e^t}
             </me>.
-            Assume that <m>s</m> is measured in inches and <m>t</m> in seconds.
-            Sketch a graph of this function for <m>t \ge 0</m> to see how it represents the situation described.
-            Then compute <m>ds/dt</m>,
-            state the units on this function,
-            and explain what it tells you about the object's motion.
-            Finally, compute and interpret <m>s'(2)</m>.
+            Supón que <m>s</m> se mide en pulgadas y <m>t</m> en segundos.
+            Dibuja un gráfico de esta función para <m>t \ge 0</m> para ver cómo representa la situación descrita.
+            Luego calcula <m>ds/dt</m>,
+            indica las unidades de esta función,
+            y explica qué te dice sobre el movimiento del objeto.
+            Finalmente, calcula e interpreta <m>s'(2)</m>.
           </p>
         </li>
       </ol>
@@ -77,35 +77,35 @@
       <ol marker="a." permid="WFg">
         <li permid="nDr">
           <p permid="GqP">
-            What rule(s) can help you determine <m>f'(x)</m>?
+            ¿Qué regla(s) pueden ayudarte a determinar <m>f'(x)</m>?
           </p>
         </li>
 
         <li permid="TKA">
           <p permid="mxY">
-            Note that <m>p</m> is a sum of two functions.
-            What rule is needed to differentiate each term in the sum?
+            Nota que <m>p</m> es una suma de dos funciones.
+            ¿Qué regla se necesita para diferenciar cada término en la suma?
           </p>
         </li>
 
         <li permid="zRJ">
           <p permid="SFh">
-            Observe that <m>h</m> is a sum of two functions;
-            the first term in the sum is a quotient,
-            while the second is a product.
+            Observa que <m>h</m> es una suma de dos funciones;
+            el primer término en la suma es un cociente,
+            mientras que el segundo es un producto.
           </p>
         </li>
 
         <li permid="fYS">
           <p permid="yMq">
-            What is the overall structure of <m>g</m>?
-            What is the algebraic structure of the numerator of <m>g</m>?
+            ¿Cuál es la estructura general de <m>g</m>?
+            ¿Cuál es la estructura algebraica del numerador de <m>g</m>?
           </p>
         </li>
 
         <li permid="Mgb">
           <p permid="eTz">
-            Keep in mind that the derivative of position tells us the instantaneous velocity.
+            Ten en cuenta que la derivada de la posición nos dice la velocidad instantánea.
           </p>
         </li>
       </ol>
@@ -140,7 +140,7 @@
 
         <li permid="QPU">
           <p permid="jDs">
-            <m>s'(2) = \frac{15\cos(2) - 15\sin(2)}{e^2} \approx -2.69</m> inches per second.
+            <m>s'(2) = \frac{15\cos(2) - 15\sin(2)}{e^2} \approx -2.69</m> pulgadas por segundo.
           </p>
         </li>
       </ol>
@@ -151,13 +151,13 @@
       <ol marker="a." permid="KqO">
         <li permid="wXd">
           <p permid="PKB">
-            Using the sum and constant multiple rules along with the formulas for the derivatives of <m>\sec(x)</m> and <m>\csc(x)</m>,
-            we find that
+            Usando las reglas de la suma y del múltiplo constante junto con las fórmulas para las derivadas de <m>\sec(x)</m> y <m>\csc(x)</m>,
+            encontramos que
             <me permid="Zen">
               f'(x) = 5 \sec(x)\tan(x) + 2\csc(x)\cot(x)
             </me>.
-            Therefore,
-            the slope of the tangent line to <m>f</m> at the point where <m>x =\frac{\pi}{3}</m> is given by
+            Por lo tanto,
+            la pendiente de la línea tangente a <m>f</m> en el punto donde <m>x =\frac{\pi}{3}</m> está dada por
             <md permid="Flw">
               <mrow>m =\mathstrut \amp f'(\frac{\pi}{3}) =  5 \sec(\frac{\pi}{3})\tan(\frac{\pi}{3}) + 2\csc(\frac{\pi}{3})\cot(\frac{\pi}{3})</mrow>
               <mrow>=\mathstrut \amp 5 \cdot 2 \cdot \sqrt{3} + 2 \cdot \frac{2}{\sqrt{3}} \cdot \frac{1}{\sqrt{3}} = 10\sqrt{3} + \frac{4}{3}</mrow>
@@ -167,14 +167,14 @@
 
         <li permid="dem">
           <p permid="vRK">
-            By the sum rule and two applications of the product rule, we have
+            Por la regla de la suma y dos aplicaciones de la regla del producto, tenemos
             <md permid="lsF">
               <mrow>p'(z) =\mathstrut \amp  \frac{d}{dz}[z^2\sec(z)] - \frac{d}{dz}[z\cot(z)]</mrow>
               <mrow>=\mathstrut \amp  [z^2 \sec(z) \tan(z) + \sec(z) \cdot 2z] - [z(-\csc^2(z)) + \cot(z) \cdot 1]</mrow>
               <mrow>=\mathstrut \amp  z^2 \sec(z) \tan(z) + 2z\sec(z) + z\csc^2(z) - \cot(z)</mrow>
             </md>.
-            Thus,
-            the instantaneous rate of change of <m>p</m> at the point where <m>z = \frac{\pi}{4}</m> is
+            Así,
+            la tasa de cambio instantánea de <m>p</m> en el punto donde <m>z = \frac{\pi}{4}</m> es
             <md permid="RzO">
               <mrow>p'(\frac{\pi}{4}) =\mathstrut \amp  (\frac{\pi}{4})^2 \sec(\frac{\pi}{4}) \tan(\frac{\pi}{4}) + 2\frac{\pi}{4}\sec(\frac{\pi}{4}) + \frac{\pi}{4}\csc^2(\frac{\pi}{4}) - \cot(\frac{\pi}{4})</mrow>
               <mrow>=\mathstrut \amp  \frac{\pi^2}{16} \sqrt{2} + 2\frac{\pi}{4}\sqrt{2} + \frac{\pi}{4}2 - 1</mrow>
@@ -185,9 +185,9 @@
 
         <li permid="Jlv">
           <p permid="bYT">
-            Using the sum and constant multiple rules,
-            followed by the quotient rule on the first term and the product rule on the second,
-            we find that
+            Usando las reglas de la suma y del múltiplo constante,
+            seguido por la regla del cociente en el primer término y la regla del producto en el segundo,
+            encontramos que
             <md permid="xGX">
               <mrow>h'(t) =\mathstrut \amp  \frac{d}{dt}\left[ \frac{\tan (t)}{t^2+1} \right] - 2\frac{d}{dt}\left[e^t \cos(t)\right]</mrow>
               <mrow>=\mathstrut \amp  \frac{(t^2+1) \sec^2(t) - \tan(t) (2t)}{(t^2 + 1)^2} - 2(e^t(-\sin(t)) + \cos(t)e^t)</mrow>
@@ -198,11 +198,11 @@
 
         <li permid="psE">
           <p permid="Igc">
-            Note that <m>g</m> is fundamentally a quotient,
-            so we need to use the quotient rule.
-            But the numerator of <m>g</m> is a product,
-            so the product rule will be required to compute the derivative of the top function.
-            Executing the quotient rule and proceeding, we find that
+            Nota que <m>g</m> es fundamentalmente un cociente,
+            por lo que necesitamos usar la regla del cociente.
+            Pero el numerador de <m>g</m> es un producto,
+            por lo que se requerirá la regla del producto para calcular la derivada de la función superior.
+            Ejecutando la regla del cociente y procediendo, encontramos que
             <md permid="dOg">
               <mrow>g'(r) =\mathstrut \amp  \frac{5^r \frac{d}{dr}[r \sec(r)] - r\sec(r) \cdot 5^r \ln(5) }{(5^r)^2}</mrow>
               <mrow>=\mathstrut \amp  \frac{5^r [r \sec(r) \tan(r) + \sec(r) \cdot 1] - r\sec(r) \cdot 5^r \ln(5) }{(5^r)^2}</mrow>
@@ -213,19 +213,18 @@
 
         <li permid="VzN">
           <p permid="onl">
-            By the quotient rule,
+            Por la regla del cociente,
             <me permid="JVp">
               \frac{ds}{dt} = \frac{e^t \cdot 15 \cos(t) - 15\sin(t) \cdot e^t}{(e^t)^2} = \frac{15\cos(t) - 15\sin(t)}{e^t}
             </me>.
-            The function <m>\frac{ds}{dt} = s'(t)</m> measures the instantaneous vertical velocity of the mass that is attached to the spring.
-            In particular,
-            <m>s'(2) = \frac{15\cos(2) - 15\sin(2)}{e^2} \approx -2.69</m> inches per second,
-            which tells us at the instant <m>t = 2</m>,
-            the mass is moving downward at an instantaneous rate of 2.69 inches per second.
+            La función <m>\frac{ds}{dt} = s'(t)</m> mide la velocidad vertical instantánea de la masa que está unida al resorte.
+            En particular,
+            <m>s'(2) = \frac{15\cos(2) - 15\sin(2)}{e^2} \approx -2.69</m> pulgadas por segundo,
+            lo que nos dice que en el instante <m>t = 2</m>,
+            la masa se está moviendo hacia abajo a una velocidad instantánea de 2.69 pulgadas por segundo.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

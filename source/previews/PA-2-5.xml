@@ -14,15 +14,15 @@
 <!-- **********************************************************************-->
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-2-5" permid="vLx">
   <p permid="PEo">
-    For each function given below,
-    identify its fundamental algebraic structure.
-    In particular, is the given function a sum,
-    product, quotient, or composition of basic functions?
-    If the function is a composition of basic functions,
-    state a formula for the inner function <m>g</m> and the outer function <m>f</m> so that the overall composite function can be written in the form <m>f(g(x))</m>.
-    If the function is a sum, product,
-    or quotient of basic functions,
-    use the appropriate rule to determine its derivative.
+    Para cada función dada a continuación,
+    identifica su estructura algebraica fundamental.
+    En particular, ¿es la función dada una suma,
+    producto, cociente o composición de funciones básicas?
+    Si la función es una composición de funciones básicas,
+    indica una fórmula para la función interna <m>g</m> y la función externa <m>f</m> de manera que la función compuesta total pueda escribirse en la forma <m>f(g(x))</m>.
+    Si la función es una suma, producto,
+    o cociente de funciones básicas,
+    usa la regla apropiada para determinar su derivada.
 
     <ol marker="a." cols="2" permid="NPb">
       <li permid="tWk">
@@ -63,4 +63,3 @@
     </ol>
   </p>
 </exploration>
-

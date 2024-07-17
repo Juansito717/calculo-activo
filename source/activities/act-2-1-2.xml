@@ -15,14 +15,7 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-1-2" permid="Fsn">
   <statement>
     <p permid="Zle">
-      Use only the rules for constant, power,
-      and exponential functions, together with the Constant Multiple and Sum Rules,
-      to compute the derivative of each function below with respect to the given independent variable.
-      Note well that we do not yet know any rules for how to differentiate the product or quotient of functions.
-      This means that you may have to do some algebra first on the functions below before you can actually use existing rules to compute the desired derivative formula.
-      In each case,
-      label the derivative you calculate with its name using proper notation such as <m>f'(x)</m>,
-      <m>h'(z)</m>, <m>dr/dt</m>, etc.
+      Usa solo las reglas para funciones constantes, de potencia y exponenciales, junto con las reglas del múltiplo constante y de la suma, para calcular la derivada de cada función a continuación con respecto a la variable independiente dada. Nota bien que aún no conocemos ninguna regla para diferenciar el producto o cociente de funciones. Esto significa que puede que tengas que hacer algo de álgebra primero en las funciones a continuación antes de que puedas usar las reglas existentes para calcular la fórmula de la derivada deseada. En cada caso, etiqueta la derivada que calcules con su nombre usando la notación adecuada como <m>f'(x)</m>, <m>h'(z)</m>, <m>dr/dt</m>, etc.
 
       <ol marker="a." cols="2" permid="oPB">
         <li permid="UWK">
@@ -74,44 +67,43 @@
       <ol marker="a." permid="IIs">
         <li permid="lUV">
           <p permid="hUW">
-            Use the sum rule.
+            Usa la regla de la suma.
           </p>
         </li>
 
         <li permid="Sce">
           <p permid="Ocf">
-            Use the sum rule together with the constant multiple rule.
+            Usa la regla de la suma junto con la regla del múltiplo constante.
           </p>
         </li>
 
         <li permid="yjn">
           <p permid="ujo">
-            How can you rewrite <m>\sqrt{z}</m> using exponents?
+            ¿Cómo puedes reescribir <m>\sqrt{z}</m> usando exponentes?
           </p>
         </li>
 
         <li permid="eqw">
           <p permid="aqx">
-            Is <m>e^4</m> a constant or variable?
+            ¿Es <m>e^4</m> una constante o una variable?
           </p>
         </li>
 
         <li permid="KxF">
           <p permid="GxG">
-            Expand the product before attempting to find the derivative.
+            Expande el producto antes de intentar encontrar la derivada.
           </p>
         </li>
 
         <li permid="qEO">
           <p permid="mEP">
-            Rewrite the single fraction as a sum of three fractions,
-            and simplify.
+            Reescribe la fracción única como una suma de tres fracciones y simplifica.
           </p>
         </li>
 
         <li permid="WLX">
           <p permid="SLY">
-            Note that <q><m>a</m></q> is the independent variable.
+            Nota que <q><m>a</m></q> es la variable independiente.
           </p>
         </li>
       </ol>
@@ -169,7 +161,7 @@
       <ol marker="a." permid="wua">
         <li permid="zYA">
           <p permid="PRs">
-            <m>f(x) = x^{5/3} - x^4 + 2^x</m>, so by the sum rule,
+            <m>f(x) = x^{5/3} - x^4 + 2^x</m>, así que por la regla de la suma,
             <m>f'(x) = \frac{5}{3}x^{2/3} - 4 x^3 + 2^x \ln(2)</m>.
           </p>
         </li>
@@ -177,7 +169,7 @@
         <li permid="gfJ">
           <p permid="vYB">
             <m>g(x) = 14e^x + 3x^5 - x</m>,
-            so by the sum and constant multiple rules,
+            así que por las reglas de la suma y del múltiplo constante,
             <m>g'(x) = 14e^x + 3 \cdot 5x^4 - 1</m>.
           </p>
         </li>
@@ -185,44 +177,43 @@
         <li permid="MmS">
           <p permid="cfK">
             <m>h(z) = \sqrt{z} + \frac{1}{z^4} + 5^z = z^{1/2} + z^{-4} + 5^z</m>,
-            thus <m>h'(z) = \frac{1}{2}z^{-1/2} - 4z^{-5} + 5^z \ln(5)</m>.
+            por lo tanto <m>h'(z) = \frac{1}{2}z^{-1/2} - 4z^{-5} + 5^z \ln(5)</m>.
           </p>
         </li>
 
         <li permid="sub">
           <p permid="ImT">
-            Since <m>r(t) = \sqrt{53} \, t^7 - \pi e^t + e^4</m> and <m>\sqrt{53}</m>,
+            Dado que <m>r(t) = \sqrt{53} \, t^7 - \pi e^t + e^4</m> y <m>\sqrt{53}</m>,
             <m>\pi</m>,
-            and <m>e^4</m> are all constants,
-            it follows from the sum and constant multiple rules,
-            as well as the derivative of a constant rule,
-            that <m>\frac{dr}{dt} = \sqrt{53} \cdot 7 t^6 - \pi e^t</m>. (Note particularly that
-            <m>\frac{d}{dt}[e^4] = 0</m> since <m>e^4</m> is constant.
+            y <m>e^4</m> son todas constantes,
+            se sigue de las reglas de la suma y del múltiplo constante,
+            así como de la regla de la derivada de una constante,
+            que <m>\frac{dr}{dt} = \sqrt{53} \cdot 7 t^6 - \pi e^t</m>. (Nota particularmente que
+            <m>\frac{d}{dt}[e^4] = 0</m> ya que <m>e^4</m> es constante.
           </p>
         </li>
 
         <li permid="YBk">
           <p permid="ouc">
             <m>s(y) = (y^2 + 1)(y^2 - 1)= y^4 - 1</m>,
-            thus <m>\frac{ds}{dy} = 4y^3</m>.
+            por lo tanto <m>\frac{ds}{dy} = 4y^3</m>.
           </p>
         </li>
 
         <li permid="EIt">
           <p permid="UBl">
             <m>q(x) = \frac{x^3 - x + 2}{x} = \frac{x^3}{x} - \frac{x}{x} + \frac{2}{x} = x^2 - 1 + 2x^{-1}</m>.
-            Now it follows that <m>q'(x) = 2x - 2x^{-2}</m>.
+            Ahora se sigue que <m>q'(x) = 2x - 2x^{-2}</m>.
           </p>
         </li>
 
         <li permid="kPC">
           <p permid="AIu">
             <m>p(a) = 3a^4 - 2a^3 + 7a^2 - a + 12</m>,
-            so <m>p'(a) = 12a^3 - 6 a^2 + 14a - 1</m>.
+            así que <m>p'(a) = 12a^3 - 6 a^2 + 14a - 1</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

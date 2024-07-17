@@ -14,13 +14,13 @@
 <!-- **********************************************************************-->
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-5-5" permid="XEz">
   <p permid="rxq">
-    For each of the indefinite integrals below,
-    the main question is to decide whether the integral can be evaluated using <m>u</m>-substitution,
-    integration by parts, a combination of the two, or neither.
-    For integrals for which your answer is affirmative,
-    state the substitution(s) you would use.
-    It is not necessary to actually evaluate any of the integrals completely,
-    unless the integral can be evaluated immediately using a familiar basic antiderivative.
+    Para cada una de las integrales indefinidas a continuación,
+    la pregunta principal es decidir si la integral se puede evaluar usando <m>u</m>-sustitución,
+    integración por partes, una combinación de las dos, o ninguna.
+    Para las integrales para las que tu respuesta sea afirmativa,
+    indica la(s) sustitución(es) que usarías.
+    No es necesario evaluar completamente ninguna de las integrales,
+    a menos que la integral se pueda evaluar inmediatamente usando una antiderivada básica familiar.
 
     <ol marker="a." permid="OkN">
       <li permid="urW">
@@ -61,4 +61,3 @@
     </ol>
   </p>
 </exploration>
-

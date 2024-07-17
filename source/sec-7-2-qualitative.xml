@@ -13,24 +13,24 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-7-2-qualitative" permid="Wyg">
-  <title>Qualitative behavior of solutions to DEs</title>
+  <title>Comportamiento cualitativo de las soluciones a las EDO</title>
   <objectives permid="nwr">
     <ul permid="zKJ">
       <li permid="LZb">
         <p permid="wQd">
-          What is a slope field?
+          ¿Qué es un campo de pendientes?
         </p>
       </li>
 
       <li permid="sgk">
         <p permid="cXm">
-          How can we use a slope field to obtain qualitative information about the solutions of a differential equation?
+          ¿Cómo podemos usar un campo de pendientes para obtener información cualitativa sobre las soluciones de una ecuación diferencial?
         </p>
       </li>
 
       <li permid="Ynt">
         <p permid="Jev">
-          What are stable and unstable equilibrium solutions of an autonomous differential equation?
+          ¿Cuáles son las soluciones de equilibrio estables e inestables de una ecuación diferencial autónoma?
         </p>
       </li>
     </ul>
@@ -38,116 +38,115 @@
 
   <introduction permid="TDA">
     <p permid="GjP">
-      In earlier work, we have used the tangent line to the graph of a
-      function <m>f</m> at a point <m>a</m> to approximate the values of <m>f</m> near <m>a</m>.
-      The usefulness of this approximation is that we need to know very
-      little about the function;
-      armed with only the value <m>f(a)</m> and the
-      derivative <m>f'(a)</m>,
-      we may find the equation of the tangent line and
-      the approximation
+      En trabajos anteriores, hemos usado la línea tangente al gráfico de una
+      función <m>f</m> en un punto <m>a</m> para aproximar los valores de <m>f</m> cerca de <m>a</m>.
+      La utilidad de esta aproximación es que necesitamos saber muy poco sobre la función;
+      armados solo con el valor <m>f(a)</m> y la
+      derivada <m>f'(a)</m>,
+      podemos encontrar la ecuación de la línea tangente y
+      la aproximación
       <me permid="AuD">
         f(x) \approx f(a) + f'(a)(x-a)
       </me>.
     </p>
 
     <p permid="mqY">
-      Remember that a first-order differential equation gives us information about the derivative of an unknown function.
-      Since the derivative at a point tells us the slope of the tangent line at this point,
-      a differential equation gives us crucial information about the tangent lines to the graph of a solution.
-      We will use this information about the tangent lines to create a <em>slope field</em>
-      for the differential equation,
-      which enables us to sketch solutions to initial value problems.
-      Our aim will be to understand the solutions qualitatively.
-      That is, we would like to understand the basic nature of solutions,
-      such as their long-range behavior,
-      without precisely determining the value of a solution at a particular point.
+      Recuerda que una ecuación diferencial de primer orden nos da información sobre la derivada de una función desconocida.
+      Dado que la derivada en un punto nos dice la pendiente de la línea tangente en este punto,
+      una ecuación diferencial nos da información crucial sobre las líneas tangentes al gráfico de una solución.
+      Usaremos esta información sobre las líneas tangentes para crear un <em>campo de pendientes</em>
+      para la ecuación diferencial,
+      lo que nos permite esbozar soluciones a problemas de valor inicial.
+      Nuestro objetivo será entender las soluciones cualitativamente.
+      Es decir, nos gustaría entender la naturaleza básica de las soluciones,
+      como su comportamiento a largo plazo,
+      sin determinar precisamente el valor de una solución en un punto particular.
     </p>
 
     <xi:include href="./previews/PA-7-2.xml" />
   </introduction>
 
   <subsection permid="CFp">
-    <title>Slope fields</title>
-    <idx><h>slope field</h></idx>
+    <title>Campos de pendientes</title>
+    <idx><h>campo de pendientes</h></idx>
 
     <p permid="Syh">
-      <xref ref="PA-7-2">Preview Activity</xref>
-      shows that we can sketch the solution to an initial value problem if we know an appropriate collection of tangent lines.
-      We can use the differential equation to find the slope of the tangent line at any point of interest,
-      and hence plot such a collection.
+      <xref ref="PA-7-2">Actividad de Previsualización</xref>
+      muestra que podemos esbozar la solución a un problema de valor inicial si conocemos una colección apropiada de líneas tangentes.
+      Podemos usar la ecuación diferencial para encontrar la pendiente de la línea tangente en cualquier punto de interés,
+      y por lo tanto trazar dicha colección.
     </p>
 
     <p permid="yFq">
-      Let's continue looking at the differential equation <m>\frac{dy}{dt} = t-2</m>.
-      If <m>t=0</m>, this equation says that <m>dy/dt = 0-2=-2</m>.
-      Note that this value holds regardless of the value of <m>y</m>.
-      We will therefore sketch tangent lines for several values of <m>y</m> and <m>t=0</m> with a slope of <m>-2</m>,
-      as shown in <xref ref="F-7-2-field-0">Figure</xref>.
+      Sigamos mirando la ecuación diferencial <m>\frac{dy}{dt} = t-2</m>.
+      Si <m>t=0</m>, esta ecuación dice que <m>dy/dt = 0-2=-2</m>.
+      Nota que este valor se mantiene independientemente del valor de <m>y</m>.
+      Por lo tanto, esbozaremos líneas tangentes para varios valores de <m>y</m> y <m>t=0</m> con una pendiente de <m>-2</m>,
+      como se muestra en <xref ref="F-7-2-field-0">Figura</xref>.
     </p>
 
     <sidebyside widths="47% 47%" margins="0%" permid="vaQ">
       <figure xml:id="F-7-2-field-0" permid="hHf">
-        <caption>Tangent lines at points with <m>t=0</m>.</caption>
+        <caption>Líneas tangentes en puntos con <m>t=0</m>.</caption>
         <image source="images/7_2_field_0" />
       </figure>
 
       <figure xml:id="F-7-2-field-1" permid="NOo">
-        <caption>Adding tangent lines at points with <m>t=1</m>.</caption>
+        <caption>Agregando líneas tangentes en puntos con <m>t=1</m>.</caption>
         <image source="images/7_2_field_1" />
       </figure>
     </sidebyside>
 
     <p permid="eMz">
-      Let's continue in the same way:
-      if <m>t=1</m>,
-      the differential equation tells us that <m>dy/dt = 1-2=-1</m>,
-      and this holds regardless of the value of <m>y</m>.
-      We now sketch tangent lines for several values of <m>y</m> and <m>t=1</m> with a slope of <m>-1</m> in 
-      <xref ref="F-7-2-field-1">Figure</xref>.
+      Sigamos de la misma manera:
+      si <m>t=1</m>,
+      la ecuación diferencial nos dice que <m>dy/dt = 1-2=-1</m>,
+      y esto se mantiene independientemente del valor de <m>y</m>.
+      Ahora esbozamos líneas tangentes para varios valores de <m>y</m> y <m>t=1</m> con una pendiente de <m>-1</m> en 
+      <xref ref="F-7-2-field-1">Figura</xref>.
     </p>
 
     <p permid="KTI">
-      Similarly, we see that when <m>t=2</m>,
-      <m>dy/dt = 0</m> and when <m>t=3</m>, <m>dy/dt=1</m>.
-      We may therefore add to our growing collection of tangent line plots to achieve <xref ref="F-7-2-field-2">Figure</xref>.
+      De manera similar, vemos que cuando <m>t=2</m>,
+      <m>dy/dt = 0</m> y cuando <m>t=3</m>, <m>dy/dt=1</m>.
+      Por lo tanto, podemos agregar a nuestra creciente colección de gráficos de líneas tangentes para lograr <xref ref="F-7-2-field-2">Figura</xref>.
     </p>
 
     <sidebyside widths="47% 47%" margins="0%" permid="bhZ">
       <figure xml:id="F-7-2-field-2" permid="tVx">
-        <caption>Adding tangent lines at points with <m>t=2</m> and <m>t=3</m>.</caption>
+        <caption>Agregando líneas tangentes en puntos con <m>t=2</m> y <m>t=3</m>.</caption>
         <image source="images/7_2_field_3" />
       </figure>
 
       <figure xml:id="F-7-2-field-23" permid="acG">
-        <caption>A completed slope field.</caption>
+        <caption>Un campo de pendientes completo.</caption>
         <image source="images/7_2_field_23" />
       </figure>
     </sidebyside>
 
     <p permid="raR">
-      In <xref ref="F-7-2-field-2">Figure</xref>,
-      we begin to see the solutions to the differential equation emerge.
-      For the sake of even greater clarity,
-      we add more tangent lines to provide the more complete picture shown at right in <xref ref="F-7-2-field-23">Figure</xref>.
+      En <xref ref="F-7-2-field-2">Figura</xref>,
+      comenzamos a ver emerger las soluciones a la ecuación diferencial.
+      Para mayor claridad,
+      agregamos más líneas tangentes para proporcionar la imagen más completa que se muestra a la derecha en <xref ref="F-7-2-field-23">Figura</xref>.
     </p>
 
     <p permid="Xia">
-      <xref ref="F-7-2-field-23">Figure</xref>
-      is called a <em>slope field</em>
-          <idx><h>slope field</h></idx>
-      for the differential equation.
-      It
-      allows us to sketch solutions just as we did in the preview activity.
-      We can begin with the initial value
-      <m>y(0) = 1</m> and start sketching the solution by following the tangent line.
-      Whenever the solution passes through a point at which a tangent line is drawn,
-      that line is tangent to the solution.
-      This principle leads us to the sequence of images in <xref ref="F-7-2-IVP-soln">Figure</xref>.
+      <xref ref="F-7-2-field-23">Figura</xref>
+      se llama un <em>campo de pendientes</em>
+          <idx><h>campo de pendientes</h></idx>
+      para la ecuación diferencial.
+      Nos
+      permite esbozar soluciones tal como lo hicimos en la actividad de previsualización.
+      Podemos comenzar con el valor inicial
+      <m>y(0) = 1</m> y empezar a esbozar la solución siguiendo la línea tangente.
+      Siempre que la solución pase por un punto en el que se haya dibujado una línea tangente,
+      esa línea es tangente a la solución.
+      Este principio nos lleva a la secuencia de imágenes en <xref ref="F-7-2-IVP-soln">Figura</xref>.
     </p>
     <!-- <sbsgroup> -->
     <figure xml:id="F-7-2-IVP-soln" permid="PDB">
-      <caption>A sequence of images that show how to sketch the IVP solution that satisfies <m>y(0)=1</m>.</caption>
+      <caption>Una secuencia de imágenes que muestra cómo esbozar la solución del PVI que satisface <m>y(0)=1</m>.</caption>
       <sidebyside widths="30% 30% 30%" margins="0%" permid="Hpi">
       <!--
 
@@ -173,76 +172,76 @@
     </figure>
 
     <p permid="Dpj">
-      In fact, we can draw solutions for any initial value.
-      <xref ref="F-7-2-field-4">Figure</xref>
-      shows solutions for several different initial values for <m>y(0)</m>.
+      De hecho, podemos dibujar soluciones para cualquier valor inicial.
+      <xref ref="F-7-2-field-4">Figura</xref>
+      muestra soluciones para varios valores iniciales diferentes para <m>y(0)</m>.
     </p>
 
     <figure xml:id="F-7-2-field-4" permid="vKK">
-      <caption>Different solutions to <m>\frac{dy}{dt} = t-2</m> that correspond to different initial values.</caption>
+      <caption>Diferentes soluciones a <m>\frac{dy}{dt} = t-2</m> que corresponden a diferentes valores iniciales.</caption>
       <image width="40%" source="images/7_2_field_4" />
     </figure>
     <!-- </sbsgroup> -->
     <p permid="jws">
-      Just as we did for the equation <m>\frac{dy}{dt} = t-2</m>,
-      we can construct a slope field for any differential equation of interest.
-      The slope field provides us with visual information about how we expect solutions to the differential equation to behave.
+      Así como lo hicimos para la ecuación <m>\frac{dy}{dt} = t-2</m>,
+      podemos construir un campo de pendientes para cualquier ecuación diferencial de interés.
+      El campo de pendientes nos proporciona información visual sobre cómo esperamos que se comporten las soluciones de la ecuación diferencial.
     </p>
 
     <xi:include href="./activities/act-7-2-1.xml" />
   </subsection>
 
   <subsection permid="iMy">
-    <title>Equilibrium solutions and stability</title>
+    <title>Soluciones de equilibrio y estabilidad</title>
     <p permid="bRT">
-      As our work in <xref ref="act-7-2-1">Activity</xref> demonstrates,
-      first-order autonomous equations may have solutions that are constant.
-      These are simple to detect by inspecting the differential equation <m>dy/dt = f(y)</m>:
-      constant solutions necessarily have a zero derivative,
-      so <m>dy/dt = 0 = f(y)</m>.
+      Como nuestro trabajo en <xref ref="act-7-2-1">Actividad</xref> demuestra,
+      las ecuaciones autónomas de primer orden pueden tener soluciones que son constantes.
+      Estas son simples de detectar inspeccionando la ecuación diferencial <m>dy/dt = f(y)</m>:
+      las soluciones constantes necesariamente tienen una derivada cero,
+      así que <m>dy/dt = 0 = f(y)</m>.
     </p>
 
     <p permid="HZc">
-      For example, in <xref ref="act-7-2-1">Activity</xref>,
-      we considered the equation <m>\frac{dy}{dt} = f(y)=-\frac12(y-4)</m>.
-      Constant solutions are found by setting <m>f(y) = -\frac12(y-4) = 0</m>,
-      which we immediately see implies that <m>y = 4</m>.
+      Por ejemplo, en <xref ref="act-7-2-1">Actividad</xref>,
+      consideramos la ecuación <m>\frac{dy}{dt} = f(y)=-\frac12(y-4)</m>.
+      Las soluciones constantes se encuentran estableciendo <m>f(y) = -\frac12(y-4) = 0</m>,
+      lo que inmediatamente vemos que implica que <m>y = 4</m>.
     </p>
 
     <p permid="ogl">
-      Values of <m>y</m> for which
-      <m>f(y) = 0</m> in an autonomous differential equation
-      <m>\frac{dy}{dt} = f(y)</m> are called 
-      <em>equilibrium solutions</em>
-          <idx><h>equilibrium solution</h></idx>
-      of the differential equation.
+      Valores de <m>y</m> para los cuales
+      <m>f(y) = 0</m> en una ecuación diferencial autónoma
+      <m>\frac{dy}{dt} = f(y)</m> se llaman 
+      <em>soluciones de equilibrio</em>
+          <idx><h>solución de equilibrio</h></idx>
+      de la ecuación diferencial.
     </p>
 
     <xi:include href="./activities/act-7-2-2.xml" />
   </subsection>
 
   <subsection permid="OTH">
-    <title>Summary</title>
+    <title>Resumen</title>
     <p permid="Unu">
       <ul permid="fRS">
         <li permid="EuC">
           <p permid="plE">
-            A slope field is a plot created by graphing the tangent lines of many different solutions to a differential equation.
+            Un campo de pendientes es un gráfico creado trazando las líneas tangentes de muchas soluciones diferentes a una ecuación diferencial.
           </p>
         </li>
 
         <li permid="kBL">
           <p permid="VsN">
-            Once we have a slope field,
-            we may sketch the graph of solutions by drawing a curve that is always tangent to the lines in the slope field.
+            Una vez que tenemos un campo de pendientes,
+            podemos esbozar el gráfico de soluciones dibujando una curva que siempre sea tangente a las líneas en el campo de pendientes.
           </p>
         </li>
 
         <li permid="QIU">
           <p permid="BzW">
-            Autonomous differential equations sometimes have constant solutions that we call equilibrium solutions.
-            These may be classified as stable or unstable,
-            depending on the behavior of nearby solutions.
+            Las ecuaciones diferenciales autónomas a veces tienen soluciones constantes que llamamos soluciones de equilibrio.
+            Estas pueden clasificarse como estables o inestables,
+            dependiendo del comportamiento de las soluciones cercanas.
           </p>
         </li>
       </ul>

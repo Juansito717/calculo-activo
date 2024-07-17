@@ -15,31 +15,31 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-4-2" permid="lOe">
   <statement>
     <p permid="tsD">
-      Let <m>p(x) = \csc(x)</m> and recall that <m>\csc(x) = \frac{1}{\sin(x)}</m>.
+      Sea <m>p(x) = \csc(x)</m> y recuerda que <m>\csc(x) = \frac{1}{\sin(x)}</m>.
 
       <ol marker="a." permid="gur">
         <li permid="MBA">
           <p permid="GMo">
-            What is the domain of <m>p</m>?
+            ¿Cuál es el dominio de <m>p</m>?
           </p>
         </li>
 
         <li permid="sIJ">
           <p permid="mTx">
-            Use the quotient rule to develop a formula for <m>p'(x)</m> that is expressed completely in terms of <m>\sin(x)</m> and <m>\cos(x)</m>.
+            Usa la regla del cociente para desarrollar una fórmula para <m>p'(x)</m> que esté expresada completamente en términos de <m>\sin(x)</m> y <m>\cos(x)</m>.
           </p>
         </li>
 
         <li permid="YPS">
           <p permid="TaG">
-            How can you use other relationships among trigonometric functions to write <m>p'(x)</m> only in terms of <m>\cot(x)</m> and <m>\csc(x)</m>?
+            ¿Cómo puedes usar otras relaciones entre funciones trigonométricas para escribir <m>p'(x)</m> solo en términos de <m>\cot(x)</m> y <m>\csc(x)</m>?
           </p>
         </li>
 
         <li permid="EXb">
           <p permid="zhP">
-            What is the domain of <m>p'</m>?
-            How does this compare to the domain of <m>p</m>?
+            ¿Cuál es el dominio de <m>p'</m>?
+            ¿Cómo se compara esto con el dominio de <m>p</m>?
           </p>
         </li>
       </ol>
@@ -50,25 +50,25 @@
       <ol marker="a." permid="Ani">
         <li permid="lek">
           <p permid="foY">
-            For what values of <m>x</m> is <m>\sin(x) = 0</m>?
+            ¿Para qué valores de <m>x</m> es <m>\sin(x) = 0</m>?
           </p>
         </li>
 
         <li permid="Rlt">
           <p permid="Lwh">
-            Don't forget that <m>\frac{d}{dx}[1] = 0</m>.
+            No olvides que <m>\frac{d}{dx}[1] = 0</m>.
           </p>
         </li>
 
         <li permid="xsC">
           <p permid="rDq">
-            Consider rewriting <m>\frac{\cos(x)}{\sin^2(x)}</m> as <m>\frac{1}{\sin(x)} \cdot \frac{\cos(x)}{\sin(x)}</m>.
+            Considera reescribir <m>\frac{\cos(x)}{\sin^2(x)}</m> como <m>\frac{1}{\sin(x)} \cdot \frac{\cos(x)}{\sin(x)}</m>.
           </p>
         </li>
 
         <li permid="dzL">
           <p permid="XKz">
-            Observe that <m>\sin(x)</m> is still present in the denominator of <m>h'(x)</m>.
+            Observa que <m>\sin(x)</m> sigue presente en el denominador de <m>h'(x)</m>.
           </p>
         </li>
       </ol>
@@ -79,8 +79,8 @@
       <ol marker="a." permid="UfZ">
         <li permid="JGU">
           <p permid="DRI">
-            All real numbers <m>x</m> such that <m>x \ne k\pi</m>,
-            where <m>k = 0, \pm 1, \pm 2, \ldots</m>.
+            Todos los números reales <m>x</m> tales que <m>x \ne k\pi</m>,
+            donde <m>k = 0, \pm 1, \pm 2, \ldots</m>.
           </p>
         </li>
 
@@ -98,9 +98,9 @@
 
         <li permid="Ccv">
           <p permid="wnj">
-            <m>p</m> and <m>p'</m> have the same domain:
-            all real numbers <m>x</m> such that <m>x \ne k\pi</m>,
-            where <m>k = 0, \pm 1, \pm 2, \ldots</m>.
+            <m>p</m> y <m>p'</m> tienen el mismo dominio:
+            todos los números reales <m>x</m> tales que <m>x \ne k\pi</m>,
+            donde <m>k = 0, \pm 1, \pm 2, \ldots</m>.
           </p>
         </li>
       </ol>
@@ -111,15 +111,15 @@
       <ol marker="a." permid="nYQ">
         <li permid="ijE">
           <p permid="cus">
-            <m>p(x) = \csc(x)</m> is defined for all <m>x</m> for which <m>\sin(x) \ne 0</m>.
-            Hence the domain of <m>h</m> is all real numbers <m>x</m> such that <m>x \ne k\pi</m>,
-            where <m>k = 0, \pm 1, \pm 2, \ldots</m>.
+            <m>p(x) = \csc(x)</m> está definida para todos los <m>x</m> para los cuales <m>\sin(x) \ne 0</m>.
+            Por lo tanto, el dominio de <m>h</m> es todos los números reales <m>x</m> tales que <m>x \ne k\pi</m>,
+            donde <m>k = 0, \pm 1, \pm 2, \ldots</m>.
           </p>
         </li>
 
         <li permid="OqN">
           <p permid="IBB">
-            By the quotient rule,
+            Por la regla del cociente,
             <me permid="ZzM">
               h'(x) = \frac{0 - 1 \cdot (\cos(x))}{\sin^2(x)} = -\frac{\cos(x)}{\sin^2(x)}
             </me>.
@@ -128,7 +128,7 @@
 
         <li permid="uxW">
           <p permid="oIK">
-            Observe that <m>h'(x) = -\frac{\cos(x)}{\sin^2(x)} = -\frac{1}{\sin(x)} \cdot \frac{\cos(x)}{\sin(x)}</m>, so
+            Observa que <m>h'(x) = -\frac{\cos(x)}{\sin^2(x)} = -\frac{1}{\sin(x)} \cdot \frac{\cos(x)}{\sin(x)}</m>, así que
             <me permid="FGV">
               h'(x) = -\csc(x) \cot(x)
             </me>.
@@ -137,15 +137,14 @@
 
         <li permid="aFf">
           <p permid="UPT">
-            The derivative <m>p'(x)</m> is, like <m>p(x)</m>,
-            defined for all values of <m>x</m> for which <m>\sin(x) \ne 0</m>.
-            Therefore, <m>p</m> and <m>p'</m> have the same domain:
-            all real numbers <m>x</m> such that <m>x \ne k\pi</m>,
-            where <m>k = 0, \pm 1, \pm 2, \ldots</m>.
+            La derivada <m>p'(x)</m> es, al igual que <m>p(x)</m>,
+            definida para todos los valores de <m>x</m> para los cuales <m>\sin(x) \ne 0</m>.
+            Por lo tanto, <m>p</m> y <m>p'</m> tienen el mismo dominio:
+            todos los números reales <m>x</m> tales que <m>x \ne k\pi</m>,
+            donde <m>k = 0, \pm 1, \pm 2, \ldots</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

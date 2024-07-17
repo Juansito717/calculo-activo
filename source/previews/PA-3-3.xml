@@ -14,51 +14,50 @@
 <!-- **********************************************************************-->
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-3-3" permid="Iok">
   <p permid="chb">
-    Let <m>f(x) = 2 + \frac{3}{1+(x+1)^2}</m>.
+    Sea <m>f(x) = 2 + \frac{3}{1+(x+1)^2}</m>.
 
     <ol marker="a." permid="arO">
       <li permid="GyX">
         <p permid="rpZ">
-          Determine all of the critical numbers of <m>f</m>.
+          Determina todos los números críticos de <m>f</m>.
         </p>
       </li>
 
       <li permid="mGg">
         <p permid="Xxi">
-          Construct a first derivative sign chart for <m>f</m> and thus determine all intervals on which <m>f</m> is increasing or decreasing.
+          Construye un gráfico de signos de la primera derivada para <m>f</m> y así determina todos los intervalos en los que <m>f</m> está aumentando o disminuyendo.
         </p>
       </li>
 
       <li permid="SNp">
         <p permid="DEr">
-          Does <m>f</m> have a global maximum?
-          If so, why,
-          and what is its value and where is the maximum attained?
-          If not, explain why.
+          ¿Tiene <m>f</m> un máximo global?
+          Si es así, ¿por qué?,
+          ¿cuál es su valor y dónde se alcanza el máximo?
+          Si no, explica por qué.
         </p>
       </li>
 
       <li permid="yUy">
         <p permid="jLA">
-          Determine <m>\lim_{x \to \infty} f(x)</m> and <m>\lim_{x \to -\infty} f(x)</m>.
+          Determina <m>\lim_{x \to \infty} f(x)</m> y <m>\lim_{x \to -\infty} f(x)</m>.
         </p>
       </li>
 
       <li permid="fbH">
         <p permid="PSJ">
-          Explain why <m>f(x) \gt 2</m> for every value of <m>x</m>.
+          Explica por qué <m>f(x) \gt 2</m> para cada valor de <m>x</m>.
         </p>
       </li>
 
       <li permid="LiQ">
         <p permid="vZS">
-          Does <m>f</m> have a global minimum?
-          If so, why,
-          and what is its value and where is the minimum attained?
-          If not, explain why.
+          ¿Tiene <m>f</m> un mínimo global?
+          Si es así, ¿por qué?,
+          ¿cuál es su valor y dónde se alcanza el mínimo?
+          Si no, explica por qué.
         </p>
       </li>
     </ol>
   </p>
 </exploration>
-

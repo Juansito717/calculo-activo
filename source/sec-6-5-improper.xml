@@ -13,24 +13,24 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-6-5-improper" permid="EBG">
-  <title>Improper Integrals</title>
+  <title>Integrales Impropias</title>
   <objectives permid="psI">
     <ul permid="BHa">
       <li permid="NVs">
         <p permid="yMu">
-          What are improper integrals and why are they important?
+          ¿Qué son las integrales impropias y por qué son importantes?
         </p>
       </li>
 
       <li permid="ucB">
         <p permid="eTD">
-          What does it mean to say that an improper integral converges or diverges?
+          ¿Qué significa decir que una integral impropia converge o diverge?
         </p>
       </li>
 
       <li permid="ajK">
         <p permid="LaM">
-          What are some typical improper integrals that we can classify as convergent or divergent?
+          ¿Cuáles son algunas integrales impropias típicas que podemos clasificar como convergentes o divergentes?
         </p>
       </li>
     </ul>
@@ -38,22 +38,22 @@
 
   <introduction permid="VzR">
     <p permid="jDw">
-      Another important application of the definite integral
-      measures the likelihood of certain events.
-      For instance,
-      consider a company that manufactures incandescent light bulbs.
-      Based on a large volume of test results,
-      they have determined that the fraction of light bulbs that fail between times <m>t = a</m> and <m>t = b</m> of use
-      (where <m>t</m> is measured in months)
-      is given by
+      Otra aplicación importante de la integral definida
+      mide la probabilidad de ciertos eventos.
+      Por ejemplo,
+      considera una empresa que fabrica bombillas incandescentes.
+      Basándose en un gran volumen de resultados de pruebas,
+      han determinado que la fracción de bombillas que fallan entre los tiempos <m>t = a</m> y <m>t = b</m> de uso
+      (donde <m>t</m> se mide en meses)
+      está dada por
       <me permid="WjL">
         \int_a^b 0.3 e^{-0.3t} \, dt
       </me>.
     </p>
 
     <p permid="PKF">
-      For example,
-      the fraction of light bulbs that fail during their third month of use is given by
+      Por ejemplo,
+      la fracción de bombillas que fallan durante su tercer mes de uso está dada por
       <md permid="CqU">
         <mrow>\int_2^3 0.3e^{-0.3t} \, dt \amp = -e^{-0.3t} \bigg \vert_2^3</mrow>
         <mrow>\amp = -e^{-0.9} + e^{-0.6}</mrow>
@@ -62,238 +62,238 @@
     </p>
 
     <p permid="vRO">
-      Thus about 14.22% of all lightbulbs fail between <m>t = 2</m> and <m>t = 3</m>.
-      Clearly we could adjust the limits of integration to measure the fraction of light bulbs that fail during any time period of interest.
+      Así que aproximadamente el 14.22% de todas las bombillas fallan entre <m>t = 2</m> y <m>t = 3</m>.
+      Claramente podríamos ajustar los límites de integración para medir la fracción de bombillas que fallan durante cualquier período de tiempo de interés.
     </p>
 
     <xi:include href="./previews/PA-6-5.xml" />
   </introduction>
 
   <subsection permid="kIP">
-    <title>Improper Integrals Involving Unbounded Intervals</title>
-    <idx><h>improper integral</h></idx>
+    <title>Integrales Impropias que Involucran Intervalos Ilimitados</title>
+    <idx><h>integral impropia</h></idx>
 
     <p permid="bYX">
-      In view of the above examples, 
-      we see that we may want to integrate over an interval whose upper limit grows without bound.
-      For example,
-      to find the fraction of light bulbs that fail <em>eventually</em>,
-      we wish to find
+      En vista de los ejemplos anteriores,
+      vemos que podríamos querer integrar sobre un intervalo cuyo límite superior crece sin límite.
+      Por ejemplo,
+      para encontrar la fracción de bombillas que fallan <em>eventualmente</em>,
+      deseamos encontrar
       <me permid="iyd">
         \lim_{b \to \infty} \int_0^b 0.3e^{-0.3t} \, dt
       </me>,
-      for which we will also use the notation
+      para lo cual también usaremos la notación
       <men xml:id="E-ImpInt1" permid="OFm">
         \int_0^\infty 0.3e^{-0.3t} \, dt
       </men>.
     </p>
 
     <p permid="Igg">
-      Such an integral can be interpreted as the area of an unbounded region,
-      as pictured at right in <xref ref="F-6-5-InfReg">Figure</xref>.
+      Tal integral puede interpretarse como el área de una región ilimitada,
+      como se muestra a la derecha en <xref ref="F-6-5-InfReg">Figura</xref>.
     </p>
 
     <figure xml:id="F-6-5-InfReg" permid="ABH">
-      <caption>At left, the area bounded by <m>p(t) = 0.3e^{-0.3t}</m> on the finite interval <m>[0,b]</m>; at right, the result of letting <m>b \to \infty</m>.  By <q><m>\cdots</m></q> in the righthand figure, we mean that the region extends to the right without bound.</caption>
+      <caption>A la izquierda, el área delimitada por <m>p(t) = 0.3e^{-0.3t}</m> en el intervalo finito <m>[0,b]</m>; a la derecha, el resultado de dejar que <m>b \to \infty</m>. Por <q><m>\cdots</m></q> en la figura de la derecha, queremos decir que la región se extiende hacia la derecha sin límite.</caption>
       <image width="80%" source="images/6_5_InfReg" />
     </figure>
 
     <p permid="onp">
-      We call an integral for which the interval of integration is unbounded <em>improper</em>.
-          <idx><h>improper integral</h><h>unbounded region of integration</h></idx>
-      For instance, the integrals
+      Llamamos a una integral cuyo intervalo de integración es ilimitado <em>impropia</em>.
+          <idx><h>integral impropia</h><h>región de integración ilimitada</h></idx>
+      Por ejemplo, las integrales
       <me permid="uMv">
-        \int_1^{\infty} \frac{1}{x^2} \, dx, \ \ \int_{-\infty}^0 \frac{1}{1+x^2} \, dx, \ \ \text{and}  \int_{-\infty}^{\infty} e^{-x^2} \, dx
+        \int_1^{\infty} \frac{1}{x^2} \, dx, \ \ \int_{-\infty}^0 \frac{1}{1+x^2} \, dx, \ \ \text{y}  \int_{-\infty}^{\infty} e^{-x^2} \, dx
       </me>
-      are all improper because they have limits of integration that involve <m>\infty</m>.
-      To evaluate an improper integral we replace it with a limit of proper integrals.
-      That is,
+      son todas impropias porque tienen límites de integración que involucran <m>\infty</m>.
+      Para evaluar una integral impropia la reemplazamos con un límite de integrales propias.
+      Es decir,
       <me permid="aTE">
         \int_0^\infty f(x) \, dx = \lim_{b \to \infty} \int_0^b f(x) \,dx
       </me>.
     </p>
 
     <p permid="Uuy">
-      We first attempt to evaluate
-      <m>\int_0^b f(x) \,dx</m> using the First FTC, and then evaluate the limit.
-      Is it even possible for the area of an unbounded region to be finite?
-      The following activity explores this issue and others in more detail.
+      Primero intentamos evaluar
+      <m>\int_0^b f(x) \,dx</m> usando el Primer TFC, y luego evaluamos el límite.
+      ¿Es siquiera posible que el área de una región ilimitada sea finita?
+      La siguiente actividad explora este tema y otros en más detalle.
     </p>
 
     <xi:include href="./activities/act-6-5-1.xml" />
   </subsection>
 
   <subsection permid="QPY">
-    <title>Convergence and Divergence</title>
+    <title>Convergencia y Divergencia</title>
     <p permid="gIQ">
-      <xref ref="act-6-5-1">Activity</xref>
-      suggests that <m>\lim_{b \to \infty} \int_1^b f(x) \, dx</m> is either finite or infinite
-      (or it doesn't exist).
-      With these possibilities in mind,
-      we introduce the following terminology.
+      <xref ref="act-6-5-1">Actividad</xref>
+      sugiere que <m>\lim_{b \to \infty} \int_1^b f(x) \, dx</m> es finito o infinito
+      (o no existe).
+      Con estas posibilidades en mente,
+      introducimos la siguiente terminología.
     </p>
 
     <assemblage permid="Jlz">
       <p permid="MPZ">
-        If <m>f(x)</m> is nonnegative for <m>x \ge a</m>,
-        then we say that the improper integral <m>\int_a^{\infty} f(x) \, dx</m>
-        <term>converges</term>
-            <idx><h>improper integral</h><h>converges</h></idx>
-        provided that
+        Si <m>f(x)</m> es no negativa para <m>x \ge a</m>,
+        entonces decimos que la integral impropia <m>\int_a^{\infty} f(x) \, dx</m>
+        <term>converge</term>
+            <idx><h>integral impropia</h><h>converge</h></idx>
+        siempre que
         <me permid="HaN">
           \lim_{b \to \infty} \int_a^{b} f(x) \, dx
         </me>
-        exists and is finite.
-        Otherwise, we say that <m>\int_a^{\infty} f(x) \, dx</m> <term>diverges</term>.
-            <idx><h>improper integral</h><h>diverges</h></idx>
+        exista y sea finita.
+        De lo contrario, decimos que <m>\int_a^{\infty} f(x) \, dx</m> <term>diverge</term>.
+            <idx><h>integral impropia</h><h>diverge</h></idx>
       </p>
     </assemblage>
 
     <p permid="sXi">
-      We will restrict our interest to improper integrals for which the integrand is nonnegative.
-      Also, we require that <m>\lim_{x \to \infty} f(x) = 0</m>,
-      for if <m>f</m> does not approach <m>0</m> as <m>x \to \infty</m>,
-      then it is impossible for <m>\int_a^{\infty} f(x) \, dx</m> to converge.
+      Restringiremos nuestro interés a integrales impropias para las cuales el integrando es no negativo.
+      Además, requerimos que <m>\lim_{x \to \infty} f(x) = 0</m>,
+      porque si <m>f</m> no se aproxima a <m>0</m> cuando <m>x \to \infty</m>,
+      entonces es imposible que <m>\int_a^{\infty} f(x) \, dx</m> converja.
     </p>
 
     <xi:include href="./activities/act-6-5-2.xml" />
   </subsection>
 
   <subsection permid="wXh">
-    <title>Improper Integrals Involving Unbounded Integrands</title>
+    <title>Integrales Impropias con Integrandos No Acotados</title>
     <p permid="Zer">
-      An integral is also called improper if the integrand is unbounded on the interval of integration.
-      For example, consider
+      Una integral también se llama impropia si el integrando no está acotado en el intervalo de integración.
+      Por ejemplo, considera
       <me permid="nhW">
         \int_0^1 \frac{1}{\sqrt{x}} \, dx
       </me>.
-      Because <m>f(x) = \frac{1}{\sqrt{x}}</m> has a vertical asymptote at <m>x = 0</m>,
-      <m>f</m> is not continuous on <m>[0,1]</m>,
-      and the integral represents the area of the unbounded region shown at right in <xref ref="F-6-5-InfIntegrand">Figure</xref>.
+      Debido a que <m>f(x) = \frac{1}{\sqrt{x}}</m> tiene una asíntota vertical en <m>x = 0</m>,
+      <m>f</m> no es continua en <m>[0,1]</m>,
+      y la integral representa el área de la región no acotada mostrada a la derecha en <xref ref="F-6-5-InfIntegrand">Figura</xref>.
     </p>
 
     <figure xml:id="F-6-5-InfIntegrand" permid="dOk">
-      <caption>At left, the area bounded by <m>f(x) = \frac{1}{\sqrt{x}}</m> on the finite interval <m>[a,1]</m>; at right, the result of letting <m>a \to 0^+</m>, where we see that the shaded region will extend vertically without bound.</caption>
+      <caption>A la izquierda, el área delimitada por <m>f(x) = \frac{1}{\sqrt{x}}</m> en el intervalo finito <m>[a,1]</m>; a la derecha, el resultado de dejar que <m>a \to 0^+</m>, donde vemos que la región sombreada se extenderá verticalmente sin límite.</caption>
       <image width="80%" source="images/6_5_InfIntegrand" />
     </figure>
 
     <p permid="FlA">
-      We address the problem of the integrand being unbounded
-          <idx><h>improper integral</h><h>unbounded integrand</h></idx>
-      by replacing the improper integral with a limit of proper integrals.
-      For example,
-      to evaluate <m>\int_0^1 \frac{1}{\sqrt{x}} \, dx</m>,
-      we replace <m>0</m> with <m>a</m> and let <m>a</m> approach 0 from the right.
-      Thus,
+      Abordamos el problema del integrando no acotado
+          <idx><h>integral impropia</h><h>integrando no acotado</h></idx>
+      reemplazando la integral impropia con un límite de integrales propias.
+      Por ejemplo,
+      para evaluar <m>\int_0^1 \frac{1}{\sqrt{x}} \, dx</m>,
+      reemplazamos <m>0</m> con <m>a</m> y dejamos que <m>a</m> se acerque a 0 desde la derecha.
+      Así,
       <me permid="Tpf">
         \int_0^1 \frac{1}{\sqrt{x}} \, dx = \lim_{a \to 0^+} \int_a^1 \frac{1}{\sqrt{x}} \, dx
       </me>.
-      We evaluate the proper integral <m>\int_a^1 \frac{1}{\sqrt{x}} \, dx</m>,
-      and then take the limit.
-      We will say that the improper integral converges if this limit exists,
-      and diverges otherwise.
-      In this example, we observe that
+      Evaluamos la integral propia <m>\int_a^1 \frac{1}{\sqrt{x}} \, dx</m>,
+      y luego tomamos el límite.
+      Diremos que la integral impropia converge si este límite existe,
+      y diverge de lo contrario.
+      En este ejemplo, observamos que
       <md permid="zwo">
         <mrow>\int_0^1 \frac{1}{\sqrt{x}} \, dx &amp;=  \lim_{a \to 0^+} \int_a^1 \frac{1}{\sqrt{x}} \, dx</mrow>
         <mrow>&amp;= \lim_{a \to 0^+} \left. 2\sqrt{x}\, \right\vert_a^1</mrow>
         <mrow>&amp;= \lim_{a \to 0^+} 2\sqrt{1} - 2\sqrt{a}</mrow>
         <mrow>&amp;= 2</mrow>
       </md>,
-      so the improper integral
-      <m>\int_0^1 \frac{1}{\sqrt{x}} \, dx</m> converges
-      (to the value 2).
+      así que la integral impropia
+      <m>\int_0^1 \frac{1}{\sqrt{x}} \, dx</m> converge
+      (al valor 2).
     </p>
 
     <p permid="lsJ">
-      We have to be particularly careful with unbounded integrands,
-      for they may arise in ways that may not initially be obvious.
-      Consider, for instance, the integral
+      Tenemos que ser particularmente cuidadosos con los integrandos no acotados,
+      porque pueden surgir de maneras que inicialmente no son obvias.
+      Considera, por ejemplo, la integral
       <me permid="fDx">
         \int_1^3 \frac{1}{(x-2)^2} \, dx
       </me>.
     </p>
 
     <p permid="RzS">
-      At first glance we might think that we can simply apply the Fundamental Theorem of Calculus by antidifferentiating <m>\frac{1}{(x-2)^2}</m> to get
-      <m>-\frac{1}{x-2}</m> and then evaluating from <m>1</m> to <m>3</m>.
-      Were we to do so, we would be erroneously applying the FTC because
-      <m>f(x) = \frac{1}{(x-2)^2}</m> fails to be continuous throughout the interval,
-      as seen in <xref ref="F-6-5-InfIntegrand2">Figure</xref>.
+      A primera vista podríamos pensar que simplemente podemos aplicar el Teorema Fundamental del Cálculo antidiferenciando <m>\frac{1}{(x-2)^2}</m> para obtener
+      <m>-\frac{1}{x-2}</m> y luego evaluando de <m>1</m> a <m>3</m>.
+      Si hiciéramos eso, estaríamos aplicando erróneamente el TFC porque
+      <m>f(x) = \frac{1}{(x-2)^2}</m> no es continua en todo el intervalo,
+      como se ve en <xref ref="F-6-5-InfIntegrand2">Figura</xref>.
     </p>
 
     <figure xml:id="F-6-5-InfIntegrand2" permid="JVt">
-      <caption>The function <m>f(x) = \frac{1}{(x-2)^2}</m> on an interval including <m>x = 2</m>.</caption>
+      <caption>La función <m>f(x) = \frac{1}{(x-2)^2}</m> en un intervalo que incluye <m>x = 2</m>.</caption>
       <image width="47%" source="images/6_5_InfIntegrand2" />
     </figure>
 
     <p permid="xHb">
-      Such an incorrect application of the FTC leads to an impossible result (<m>-2</m>),
-      which would itself suggest that something we did must be wrong.
-      Instead, we must address the vertical asymptote at <m>x = 2</m> by writing
+      Tal aplicación incorrecta del TFC lleva a un resultado imposible (<m>-2</m>),
+      lo cual sugeriría que algo que hicimos debe estar mal.
+      En su lugar, debemos abordar la asíntota vertical en <m>x = 2</m> escribiendo
       <me permid="LKG">
         \int_1^3 \frac{1}{(x-2)^2} \, dx = \lim_{a \to 2^-} \int_1^a \frac{1}{(x-2)^2} \, dx + \lim_{b \to 2^+} \int_b^3 \frac{1}{(x-2)^2} \, dx
       </me>.
-      We then evaluate two separate limits of proper integrals.
-      For instance,
-      doing so for the integral with <m>a</m> approaching <m>2</m> from the left, we find
+      Luego evaluamos dos límites separados de integrales propias.
+      Por ejemplo,
+      haciendo esto para la integral con <m>a</m> acercándose a <m>2</m> desde la izquierda, encontramos
       <md permid="rRP">
         <mrow>\int_1^2 \frac{1}{(x-2)^2} \, dx&amp;= \lim_{a \to 2^-} \int_1^a \frac{1}{(x-2)^2} \, dx</mrow>
         <mrow>&amp;= \lim_{a \to 2^-} -\frac{1}{(x-2)} \bigg\vert_1^a</mrow>
         <mrow>&amp;= \lim_{a \to 2^-} -\frac{1}{(a-2)} + \frac{1}{1-2}</mrow>
-        <mrow>&amp;= \infty</mrow>
+        <mrow>&amp;= \infin</mrow>
       </md>,
-      since <m>\frac{1}{a-2} \to -\infty</m> as <m>a</m> approaches 2 from the left.
-      Thus, the improper integral <m>\int_1^2 \frac{1}{(x-2)^2} \, dx</m> diverges;
-      similar work shows that <m>\int_2^3 \frac{1}{(x-2)^2} \, dx</m> also diverges.
-      From either of these two results,
-      we can conclude that that the original integral,
-      <m>\int_1^3 \frac{1}{(x-2)^2} \, dx</m> diverges, too.
+      ya que <m>\frac{1}{a-2} \to -\infin</m> cuando <m>a</m> se acerca a 2 desde la izquierda.
+      Así, la integral impropia <m>\int_1^2 \frac{1}{(x-2)^2} \, dx</m> diverge;
+      un trabajo similar muestra que <m>\int_2^3 \frac{1}{(x-2)^2} \, dx</m> también diverge.
+      A partir de cualquiera de estos dos resultados,
+      podemos concluir que la integral original,
+      <m>\int_1^3 \frac{1}{(x-2)^2} \, dx</m> también diverge.
     </p>
 
     <xi:include href="./activities/act-6-5-3.xml" />
   </subsection>
 
   <subsection permid="deq">
-    <title>Summary</title>
+    <title>Resumen</title>
     <p permid="qcC">
       <ul permid="hOj">
         <li permid="GqT">
           <p permid="rhV">
-            An integral <m>\int_a^b f(x) \, dx</m> can be improper if at least one of <m>a</m> or <m>b</m> is <m>\pm \infty</m>,
-            making the interval unbounded,
-            or if <m>f</m> has a vertical asymptote at <m>x = c</m> for some value of <m>c</m> that satisfies <m>a \le c \le b</m>.
-            One reason that improper integrals are important is that certain probabilities can be represented by integrals that involve infinite limits.
+            Una integral <m>\int_a^b f(x) \, dx</m> puede ser impropia si al menos uno de <m>a</m> o <m>b</m> es <m>\pm \infin</m>,
+            haciendo el intervalo no acotado,
+            o si <m>f</m> tiene una asíntota vertical en <m>x = c</m> para algún valor de <m>c</m> que satisface <m>a \le c \le b</m>.
+            Una razón por la que las integrales impropias son importantes es que ciertas probabilidades pueden ser representadas por integrales que involucran límites infinitos.
           </p>
         </li>
 
         <li permid="myc">
           <p permid="Xpe">
-            When we encounter an improper integral,
-            we work to understand it by replacing the improper integral with a limit of proper integrals.
-            For instance, we write
+            Cuando encontramos una integral impropia,
+            trabajamos para entenderla reemplazando la integral impropia con un límite de integrales propias.
+            Por ejemplo, escribimos
             <me permid="XYY">
-              \int_a^\infty f(x) \, dx = \lim_{b \to \infty} \int_a^b f(x) \, dx
+              \int_a^\infin f(x) \, dx = \lim_{b \to \infin} \int_a^b f(x) \, dx
             </me>,
-            and then work to determine whether the limit exists and is finite.
-            For any improper integral,
-            if the resulting limit of proper integrals exists and is finite,
-            we say the improper integral converges.
-            Otherwise, the improper integral diverges.
+            y luego trabajamos para determinar si el límite existe y es finito.
+            Para cualquier integral impropia,
+            si el límite resultante de las integrales propias existe y es finito,
+            decimos que la integral impropia converge.
+            De lo contrario, la integral impropia diverge.
           </p>
         </li>
 
         <li permid="SFl">
           <p permid="Dwn">
-            An important class of improper integrals is given by
+            Una clase importante de integrales impropias está dada por
             <me permid="Egh">
-              \int_1^{\infty} \frac{1}{x^p} \, dx
+              \int_1^{\infin} \frac{1}{x^p} \, dx
             </me>
-            where <m>p</m> is a positive real number.
-            We can show that this improper integral converges whenever <m>p \gt 1</m>,
-            and diverges whenever <m>0 \lt  p \le 1</m>.
-            A related class of improper integrals is <m>\int_0^1 \frac{1}{x^p} \, dx</m>,
-            which converges for <m>0 \lt  p \lt  1</m>,
-            and diverges for <m>p \ge 1</m>.
+            donde <m>p</m> es un número real positivo.
+            Podemos mostrar que esta integral impropia converge siempre que <m>p \gt 1</m>,
+            y diverge siempre que <m>0 \lt  p \le 1</m>.
+            Una clase relacionada de integrales impropias es <m>\int_0^1 \frac{1}{x^p} \, dx</m>,
+            que converge para <m>0 \lt  p \lt  1</m>,
+            y diverge para <m>p \ge 1</m>.
           </p>
         </li>
       </ul>
@@ -302,4 +302,3 @@
 
   <xi:include href="./exercises/ez-6-5.xml"/>
 </section>
-

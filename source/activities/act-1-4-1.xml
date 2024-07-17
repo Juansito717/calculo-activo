@@ -15,22 +15,22 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-4-1" permid="ipV">
   <statement>
     <p permid="Atz">
-      For each given graph of <m>y = f(x)</m>,
-      sketch an approximate graph of its derivative function,
-      <m>y = f'(x)</m>, on the axes immediately below.
-      The scale of the grid for the graph of <m>f</m> is <m>1 \times 1</m>;
-      assume the horizontal scale of the grid for the graph of <m>f'</m> is identical to that for <m>f</m>.
-      If necessary,
-      adjust and label the vertical scale on the axes for <m>f'</m>.
+      Para cada gráfico dado de <m>y = f(x)</m>,
+      dibuja un gráfico aproximado de su función derivada,
+      <m>y = f'(x)</m>, en los ejes inmediatamente abajo.
+      La escala de la cuadrícula para el gráfico de <m>f</m> es <m>1 \times 1</m>;
+      asume que la escala horizontal de la cuadrícula para el gráfico de <m>f'</m> es idéntica a la de <m>f</m>.
+      Si es necesario,
+      ajusta y etiqueta la escala vertical en los ejes para <m>f'</m>.
     </p>
 
     <p permid="gAI">
-      When you are finished with all 8 graphs,
-      write several sentences that describe your overall process for sketching the graph of the derivative function,
-      given the graph the original function.
-      What are the values of the derivative function that you tend to identify first?
-      What do you do thereafter?
-      How do key traits of the graph of the derivative function exemplify properties of the graph of the original function?
+      Cuando termines con los 8 gráficos,
+      escribe varias oraciones que describan tu proceso general para dibujar el gráfico de la función derivada,
+      dado el gráfico de la función original.
+      ¿Cuáles son los valores de la función derivada que tiendes a identificar primero?
+      ¿Qué haces después?
+      ¿Cómo ejemplifican los rasgos clave del gráfico de la función derivada las propiedades del gráfico de la función original?
     </p>
 
     <sidebyside widths="100%" permid="MHR">
@@ -51,9 +51,9 @@
   </statement>
   <hint permid="ofh">
     <p permid="Umq">
-      Points where the slope of the tangent line is equal to zero are particularly important.
-      Try finding these points first in your effort to plot
-      <m>y = f'(x)</m> and plotting those zero values on the axes where you'll graph <m>y = f'(x)</m>.
+      Los puntos donde la pendiente de la línea tangente es igual a cero son particularmente importantes.
+      Intenta encontrar estos puntos primero en tu esfuerzo por trazar
+      <m>y = f'(x)</m> y traza esos valores cero en los ejes donde dibujarás <m>y = f'(x)</m>.
     </p>
   </hint>
   <answer permid="HXY">
@@ -91,4 +91,3 @@
     </sidebyside>
   </solution>
 </activity>
-

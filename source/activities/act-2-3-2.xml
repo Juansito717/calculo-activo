@@ -15,46 +15,46 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-3-2" permid="IIF">
   <statement>
     <p permid="XRD">
-      Use the quotient rule to answer each of the questions below.
-      Throughout,
-      be sure to carefully label any derivative you find by name.
-      That is, if you're given a formula for <m>f(x)</m>,
-      clearly label the formula you find for <m>f'(x)</m>.
-      It is not necessary to algebraically simplify any of the derivatives you compute.
+      Usa la regla del cociente para responder cada una de las preguntas a continuación.
+      A lo largo del ejercicio,
+      asegúrate de etiquetar cuidadosamente cualquier derivada que encuentres por nombre.
+      Es decir, si te dan una fórmula para <m>f(x)</m>,
+      etiqueta claramente la fórmula que encuentres para <m>f'(x)</m>.
+      No es necesario simplificar algebraicamente ninguna de las derivadas que calcules.
 
       <ol marker="a." permid="KTr">
         <li permid="raA">
           <p permid="llo">
-            Let <m>r(z)=\frac{3^z}{z^4 + 1}</m>.
-            Find <m>r'(z)</m>.
+            Sea <m>r(z)=\frac{3^z}{z^4 + 1}</m>.
+            Encuentra <m>r'(z)</m>.
           </p>
         </li>
 
         <li permid="XhJ">
           <p permid="Rsx">
-            Let <m>v(t) = \frac{\sin(t)}{\cos(t) + t^2}</m>.
-            Find <m>v'(t)</m>.
+            Sea <m>v(t) = \frac{\sin(t)}{\cos(t) + t^2}</m>.
+            Encuentra <m>v'(t)</m>.
           </p>
         </li>
 
         <li permid="DoS">
           <p permid="xzG">
-            Determine the slope of the tangent line to the curve
-            <m>\displaystyle R(x) = \frac{x^2 - 2x - 8}{x^2 - 9}</m> at the point where <m>x = 0</m>.
+            Determina la pendiente de la línea tangente a la curva
+            <m>\displaystyle R(x) = \frac{x^2 - 2x - 8}{x^2 - 9}</m> en el punto donde <m>x = 0</m>.
           </p>
         </li>
 
         <li permid="jwb">
           <p permid="dGP">
-            When a camera flashes,
-            the intensity <m>I</m> of light seen by the eye is given by the function
+            Cuando una cámara destella,
+            la intensidad <m>I</m> de la luz vista por el ojo está dada por la función
             <me permid="DYM">
               I(t) = \frac{100t}{e^t}
             </me>,
-            where <m>I</m> is measured in candles and <m>t</m> is measured in milliseconds.
-            Compute <m>I'(0.5)</m>, <m>I'(2)</m>,
-            and <m>I'(5)</m>; include appropriate units on each value;
-            and discuss the meaning of each.
+            donde <m>I</m> se mide en candelas y <m>t</m> se mide en milisegundos.
+            Calcula <m>I'(0.5)</m>, <m>I'(2)</m>,
+            y <m>I'(5)</m>; incluye las unidades apropiadas en cada valor;
+            y discute el significado de cada uno.
           </p>
         </li>
       </ol>
@@ -65,31 +65,31 @@
       <ol marker="a." permid="eMi">
         <li permid="PDk">
           <p permid="JNY">
-            When applying the quotient rule,
-            use parentheses around the bottom function, <m>z^4 + 1</m>,
-            to ensure that when you compute
-            <q>the bottom times the derivative of the top</q>
-            that the rule is applied correctly.
+            Al aplicar la regla del cociente,
+            usa paréntesis alrededor de la función del denominador, <m>z^4 + 1</m>,
+            para asegurarte de que cuando calcules
+            <q>el denominador por la derivada del numerador</q>
+            la regla se aplique correctamente.
           </p>
         </li>
 
         <li permid="vKt">
           <p permid="pVh">
-            When applying the quotient rule,
-            use parentheses around the bottom function, <m>\cos(t) + t^2</m>,
-            and its derivative to ensure that the rule is applied correctly.
+            Al aplicar la regla del cociente,
+            usa paréntesis alrededor de la función del denominador, <m>\cos(t) + t^2</m>,
+            y su derivada para asegurarte de que la regla se aplique correctamente.
           </p>
         </li>
 
         <li permid="bRC">
           <p permid="Wcq">
-            Remember one of the key interpretations of the derivative.
+            Recuerda una de las interpretaciones clave de la derivada.
           </p>
         </li>
 
         <li permid="HYL">
           <p permid="Cjz">
-            Let the top function be <m>100t</m> and simply use the constant multiple rule to find its derivative.
+            Deja que la función del numerador sea <m>100t</m> y simplemente usa la regla del múltiplo constante para encontrar su derivada.
           </p>
         </li>
       </ol>
@@ -120,8 +120,8 @@
           <p permid="aMj">
             <m>I'(0.5) = \frac{50}{e^{0.5}} \approx 30.327</m>,
             <m>I'(2) = \frac{-100}{e^{2}} \approx -13.534</m>,
-            and <m>I'(5) = \frac{-400}{e^5} \approx -2.695</m>,
-            each in candles per millisecond.
+            y <m>I'(5) = \frac{-400}{e^5} \approx -2.695</m>,
+            cada uno en candelas por milisegundo.
           </p>
         </li>
       </ol>
@@ -132,7 +132,7 @@
       <ol marker="a." permid="SxQ">
         <li permid="MIE">
           <p permid="GTs">
-            By the quotient rule,
+            Por la regla del cociente,
             <me permid="kfV">
               r'(z)=\frac{(z^4+1) 3^z \ln(3) - 3^z(4z^3)}{(z^4 + 1)^2}
             </me>.
@@ -141,7 +141,7 @@
 
         <li permid="sPN">
           <p permid="naB">
-            By the quotient rule,
+            Por la regla del cociente,
             <me permid="Qne">
               v'(t) = \frac{(\cos(t) + t^2)\cos(t) - \sin(t)(-\sin(t) + 2t)}{(\cos(t) + t^2)^2}
             </me>.
@@ -150,37 +150,36 @@
 
         <li permid="YWW">
           <p permid="ThK">
-            We first compute <m>R'(x)</m>.
-            By the quotient rule,
+            Primero calculamos <m>R'(x)</m>.
+            Por la regla del cociente,
             <me permid="wun">
               R'(x) = \frac{(x^2 - 9)(2x - 2) - (x^2 - 2x - 8)(2x)}{(x^2 - 9)^2}
             </me>.
-            From this,
-            it follows that <m>R'(0) = \frac{(-9)(-2)-(-8)(0)}{(-9)^2} = \frac{2}{9}</m>,
-            which is the slope of the tangent line to the curve at the point where <m>x = 0</m>.
+            A partir de esto,
+            se sigue que <m>R'(0) = \frac{(-9)(-2)-(-8)(0)}{(-9)^2} = \frac{2}{9}</m>,
+            que es la pendiente de la línea tangente a la curva en el punto donde <m>x = 0</m>.
           </p>
         </li>
 
         <li permid="Fef">
           <p permid="zoT">
-            By the quotient rule and algebraic simplification,
+            Por la regla del cociente y simplificación algebraica,
             <me permid="cBw">
               I'(t) = \frac{e^t 100 - 100te^t}{(e^t)^2} = \frac{100-100t}{e^t}
             </me>.
-            Thus,
+            Así,
             <m>I'(0.5) = \frac{50}{e^{0.5}} \approx 30.327</m>,
             <m>I'(2) = \frac{-100}{e^{2}} \approx -13.534</m>,
-            and <m>I'(5) = \frac{-400}{e^5} \approx -2.695</m>,
-            each measured in candles per millisecond.
-            These results show that at <m>t = 0.5</m>,
-            the intensity of the flash is increasing rapidly,
-            while at <m>t = 2</m> and <m>t = 5</m>,
-            the intensity is decreasing,
-            with the intensity decreasing more rapidly when <m>t = 2</m>.
+            y <m>I'(5) = \frac{-400}{e^5} \approx -2.695</m>,
+            cada uno medido en candelas por milisegundo.
+            Estos resultados muestran que en <m>t = 0.5</m>,
+            la intensidad del destello está aumentando rápidamente,
+            mientras que en <m>t = 2</m> y <m>t = 5</m>,
+            la intensidad está disminuyendo,
+            con la intensidad disminuyendo más rápidamente cuando <m>t = 2</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

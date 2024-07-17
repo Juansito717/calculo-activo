@@ -13,24 +13,24 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-6-1-area" permid="HaA">
-  <title>Using Definite Integrals to Find Area and Length</title>
+  <title>Usando Integrales Definidas para Encontrar Área y Longitud</title>
   <objectives permid="Qum">
     <ul permid="oWW">
       <li permid="Blo">
         <p permid="mcq">
-          How can we use definite integrals to measure the area between two curves?
+          ¿Cómo podemos usar integrales definidas para medir el área entre dos curvas?
         </p>
       </li>
 
       <li permid="hsx">
         <p permid="Sjz">
-          How do we decide whether to integrate with respect to <m>x</m> or with respect to <m>y</m> when we try to find the area of a region?
+          ¿Cómo decidimos si integrar con respecto a <m>x</m> o con respecto a <m>y</m> cuando intentamos encontrar el área de una región?
         </p>
       </li>
 
       <li permid="NzG">
         <p permid="yqI">
-          How can a definite integral be used to measure the length of a curve?
+          ¿Cómo puede usarse una integral definida para medir la longitud de una curva?
         </p>
       </li>
     </ul>
@@ -38,76 +38,76 @@
 
   <introduction permid="wBv">
     <p permid="EPO">
-      Early on in our work with the definite integral,
-      we learned that for an object moving along an axis,
-      the area under a non-negative velocity function <m>v</m> between <m>a</m> and <m>b</m> tells us the distance the object traveled on that time interval,
-      and that area is given precisely by the definite integral <m>\int_a^b v(t) \, dt</m>.
-      In general, for any nonnegative function <m>f</m> on an interval <m>[a,b]</m>,
-      <m>\int_a^b f(x) \, dx</m> measures the area bounded by the curve and the <m>x</m>-axis between <m>x = a</m> and <m>x = b</m>.
+      Al principio de nuestro trabajo con la integral definida,
+      aprendimos que para un objeto que se mueve a lo largo de un eje,
+      el área bajo una función de velocidad no negativa <m>v</m> entre <m>a</m> y <m>b</m> nos dice la distancia que el objeto recorrió en ese intervalo de tiempo,
+      y esa área se da precisamente por la integral definida <m>\int_a^b v(t) \, dt</m>.
+      En general, para cualquier función no negativa <m>f</m> en un intervalo <m>[a,b]</m>,
+      <m>\int_a^b f(x) \, dx</m> mide el área delimitada por la curva y el eje <m>x</m> entre <m>x = a</m> y <m>x = b</m>.
     </p>
 
     <p permid="kWX">
-      Next,
-      we will explore how definite integrals can be used to represent other physically important properties.
-      In <xref ref="PA-6-1">Preview Activity</xref>,
-      we investigate how a single definite integral may be used to represent the area between two curves.
+      A continuación,
+      exploraremos cómo las integrales definidas pueden usarse para representar otras propiedades físicamente importantes.
+      En <xref ref="PA-6-1">Preview Activity</xref>,
+      investigamos cómo una sola integral definida puede usarse para representar el área entre dos curvas.
     </p>
 
     <xi:include href="./previews/PA-6-1.xml" />
   </introduction>
 
   <subsection permid="nhJ">
-    <title>The Area Between Two Curves</title>
-    <idx><h>area</h></idx>
+    <title>El Área Entre Dos Curvas</title>
+    <idx><h>área</h></idx>
 
     <p permid="Reg">
-      In <xref ref="PA-6-1">Preview Activity</xref>,
-      we saw a natural way to think about the area between two curves:
-      it is the area beneath the upper curve minus the area below the lower curve.
+      En <xref ref="PA-6-1">Preview Activity</xref>,
+      vimos una manera natural de pensar en el área entre dos curvas:
+      es el área debajo de la curva superior menos el área debajo de la curva inferior.
     </p>
 
     <example permid="EfU">
       <statement>
         <p permid="gne">
-          Find the area bounded between the graphs of
-          <m>f(x) = (x-1)^2 + 1</m> and <m>g(x) = x+2</m>.
+          Encuentra el área delimitada entre los gráficos de
+          <m>f(x) = (x-1)^2 + 1</m> y <m>g(x) = x+2</m>.
         </p>
 
         <figure xml:id="F-6-1-PA1revisited" permid="Mun">
-          <caption>The areas bounded by the functions <m>f(x) = (x-1)^2 + 1</m> and <m>g(x) = x+2</m> on the interval <m>[0,3]</m>.</caption>
+          <caption>Las áreas delimitadas por las funciones <m>f(x) = (x-1)^2 + 1</m> y <m>g(x) = x+2</m> en el intervalo <m>[0,3]</m>.</caption>
           <image width="100%" source="images/6_1_PA1revisited" />
         </figure>
       </statement>
       <solution permid="cIE">
         <p permid="WTs">
-          In <xref ref="F-6-1-PA1revisited">Figure</xref>,
-          we see that the graphs intersect at <m>(0,2)</m> and <m>(3,5)</m>.
-          We can find these intersection points algebraically by solving the system of equations given by
-          <m>y = x+2</m> and <m>y = (x-1)^2 + 1</m>:
-          substituting <m>x+2</m> for <m>y</m> in the second equation yields <m>x+2 = (x-1)^2 + 1</m>,
-          so <m>x+2 = x^2 - 2x + 1 + 1</m>, and thus
+          En <xref ref="F-6-1-PA1revisited">Figura</xref>,
+          vemos que los gráficos se intersectan en <m>(0,2)</m> y <m>(3,5)</m>.
+          Podemos encontrar estos puntos de intersección algebraicamente resolviendo el sistema de ecuaciones dado por
+          <m>y = x+2</m> y <m>y = (x-1)^2 + 1</m>:
+          sustituyendo <m>x+2</m> por <m>y</m> en la segunda ecuación obtenemos <m>x+2 = (x-1)^2 + 1</m>,
+          así que <m>x+2 = x^2 - 2x + 1 + 1</m>, y por lo tanto
           <me permid="DKv">
             x^2 - 3x = x(x-3) = 0
           </me>,
-          from which it follows that <m>x = 0</m> or <m>x = 3</m>.
-          Using <m>y = x+2</m>,
-          we find the corresponding <m>y</m>-values of the intersection points.
+          de lo cual se sigue que <m>x = 0</m> o <m>x = 3</m>.
+          Usando <m>y = x+2</m>,
+          encontramos los valores correspondientes de <m>y</m> de los puntos de intersección.
         </p>
 
         <p permid="DaB">
-          On the interval <m>[0,3]</m>,
-          the area beneath <m>g</m> is
+          En el intervalo <m>[0,3]</m>,
+          el área bajo <m>g</m> es
           <me permid="jRE">
             \int_0^3 (x+2) \, dx = \frac{21}{2}
           </me>,
-          while the area under <m>f</m> on the same interval is
+          mientras que el área bajo <m>f</m> en el mismo intervalo es
           <me permid="PYN">
             \int_0^3 [(x-1)^2 + 1] \, dx = 6
           </me>.
         </p>
 
         <p permid="jhK">
-          Thus, the area between the curves is
+          Así, el área entre las curvas es
           <men xml:id="E-DiffOfInt" permid="wfW">
             A = \int_0^3 (x+2) \, dx -  \int_0^3 [(x-1)^2 + 1] \, dx = \frac{21}{2} - 6 = \frac{9}{2}
           </men>.
@@ -116,66 +116,66 @@
     </example>
 
     <p permid="xlp">
-      We can also think of the area this way:
-      if we slice up the region between two curves into thin vertical rectangles
-      (in the same spirit as we originally sliced the region between a single curve and the <m>x</m>-axis in <xref ref="sec-4-2-Riemann">Section</xref>),
-      we see (as shown in <xref ref="F-6-1-PA1revisited2">Figure</xref>) that the height of a typical rectangle is given by the difference between the two functions,
+      También podemos pensar en el área de esta manera:
+      si dividimos la región entre dos curvas en delgados rectángulos verticales
+      (en el mismo espíritu en que originalmente dividimos la región entre una sola curva y el eje <m>x</m> en <xref ref="sec-4-2-Riemann">Sección</xref>),
+      vemos (como se muestra en <xref ref="F-6-1-PA1revisited2">Figura</xref>) que la altura de un rectángulo típico está dada por la diferencia entre las dos funciones,
       <m>g(x) - f(x)</m>,
-      and its width is <m>\Delta x</m>.
-      Thus the area of the rectangle is
+      y su ancho es <m>\Delta x</m>.
+      Así, el área del rectángulo es
       <me permid="cnf">
         A_{\text{rect} } = (g(x) - f(x)) \Delta x
       </me>.
     </p>
 
     <figure xml:id="F-6-1-PA1revisited2" permid="icr">
-      <caption>The area bounded by the functions <m>f(x) = (x-1)^2 + 1</m> and <m>g(x) = x+2</m> on the interval <m>[0,3]</m>.</caption>
+      <caption>El área delimitada por las funciones <m>f(x) = (x-1)^2 + 1</m> y <m>g(x) = x+2</m> en el intervalo <m>[0,3]</m>.</caption>
       <image width="100%" source="images/6_1_PA1revisited2" />
     </figure>
 
     <p permid="dsy">
-      The area between the two curves on <m>[0,3]</m> is thus approximated by the Riemann sum
+      El área entre las dos curvas en <m>[0,3]</m> se aproxima así por la suma de Riemann
       <me permid="Iuo">
         A \approx \sum_{i=1}^{n} (g(x_i) - f(x_i)) \Delta x
       </me>,
-      and as we let <m>n \to \infty</m>,
-      it follows that the area is given by the single definite integral
+      y a medida que dejamos que <m>n \to \infty</m>,
+      se sigue que el área está dada por la única integral definida
       <men xml:id="E-IntOfDiff" permid="oBx">
         A = \int_0^3 (g(x) - f(x)) \, dx
       </men>.
     </p>
 
     <p permid="JzH">
-      In many applications of the definite integral,
-      we will find it helpful to think of a
-      <q>representative slice</q>
-      and use the definite integral to add these slices.
-      Here, the integral sums the areas of thin rectangles.
+      En muchas aplicaciones de la integral definida,
+      nos será útil pensar en una
+      <q>rebanada representativa</q>
+      y usar la integral definida para sumar estas rebanadas.
+      Aquí, la integral suma las áreas de delgados rectángulos.
     </p>
 
     <p permid="pGQ">
-      Finally, it doesn't matter whether we think of the area between two curves as the difference between the area bounded by the individual curves
-      (as in<nbsp /><xref ref="E-DiffOfInt" />)
-      or as the limit of a Riemann sum of the areas of thin rectangles between the curves
-      (as in<nbsp /><xref ref="E-IntOfDiff" />).
-      These two results are the same,
-      since the difference of two integrals is the integral of the difference:
+      Finalmente, no importa si pensamos en el área entre dos curvas como la diferencia entre el área delimitada por las curvas individuales
+      (como en<nbsp /><xref ref="E-DiffOfInt" />)
+      o como el límite de una suma de Riemann de las áreas de delgados rectángulos entre las curvas
+      (como en<nbsp /><xref ref="E-IntOfDiff" />).
+      Estos dos resultados son los mismos,
+      ya que la diferencia de dos integrales es la integral de la diferencia:
       <me permid="UIG">
         \int_0^3 g(x) \, dx -  \int_0^3 f(x) \, dx = \int_0^3 (g(x) - f(x)) \, dx
       </me>.
     </p>
 
     <p permid="VNZ">
-      Our work so far in this section illustrates the following general principle.
+      Nuestro trabajo hasta ahora en esta sección ilustra el siguiente principio general.
     </p>
 
     <assemblage permid="LKt">
       <p permid="BVi">
-        If two curves <m>y = g(x)</m> and
-        <m>y = f(x)</m> intersect at <m>(a,g(a))</m> and <m>(b,g(b))</m>,
-        and for all <m>x</m> such that
+        Si dos curvas <m>y = g(x)</m> y
+        <m>y = f(x)</m> se intersectan en <m>(a,g(a))</m> y <m>(b,g(b))</m>,
+        y para todo <m>x</m> tal que
         <m>a \le x \le b</m>, <m>g(x) \ge f(x)</m>,
-        then the area between the curves is <m>A = \int_a^b (g(x) - f(x)) \, dx</m>.
+        entonces el área entre las curvas es <m>A = \int_a^b (g(x) - f(x)) \, dx</m>.
       </p>
     </assemblage>
 
@@ -183,94 +183,94 @@
   </subsection>
 
   <subsection permid="ToS">
-    <title>Finding Area with Horizontal Slices</title>
+    <title>Encontrar el Área con Cortes Horizontales</title>
     <p permid="OjA">
-      At times, the shape of a region may dictate that we use horizontal rectangular slices,
-      instead of vertical ones.
+      A veces, la forma de una región puede dictar que usemos cortes rectangulares horizontales,
+      en lugar de verticales.
     </p>
 
     <example permid="knd">
       <statement>
         <p permid="sBw">
-          Find the area of the region bounded by the parabola
-          <m>x = y^2 - 1</m> and the line <m>y = x-1</m>,
-          shown at left in <xref ref="F-6-1-IntWRTy">Figure</xref>.
+          Encuentra el área de la región delimitada por la parábola
+          <m>x = y^2 - 1</m> y la línea <m>y = x-1</m>,
+          mostrada a la izquierda en <xref ref="F-6-1-IntWRTy">Figura</xref>.
         </p>
 
         <figure xml:id="F-6-1-IntWRTy" permid="YIF">
-          <caption>The area bounded by the functions <m>x = y^2-1</m> and <m>y = x-1</m> (at left), with the region sliced vertically (center) and horizontally (at right).</caption>
+          <caption>El área delimitada por las funciones <m>x = y^2-1</m> y <m>y = x-1</m> (a la izquierda), con la región cortada verticalmente (centro) y horizontalmente (a la derecha).</caption>
           <image width="100%" source="images/6_1_IntWRTy" />
         </figure>
       </statement>
       <solution permid="IPN">
         <p permid="vwc">
-          By solving the second equation for <m>x</m> and writing <m>x = y + 1</m>,
-          we find that <m>y+1 = y^2 - 1</m>.
-          Hence the curves intersect where <m>y^2 - y - 2 = 0</m>.
-          Thus, we find <m>y = -1</m> or <m>y = 2</m>,
-          so the intersection points of the two curves are <m>(0,-1)</m> and <m>(3,2)</m>.
+          Al resolver la segunda ecuación para <m>x</m> y escribir <m>x = y + 1</m>,
+          encontramos que <m>y+1 = y^2 - 1</m>.
+          Por lo tanto, las curvas se intersectan donde <m>y^2 - y - 2 = 0</m>.
+          Así, encontramos <m>y = -1</m> o <m>y = 2</m>,
+          por lo que los puntos de intersección de las dos curvas son <m>(0,-1)</m> y <m>(3,2)</m>.
         </p>
 
         <p permid="bDl">
-          If we attempt to use vertical rectangles to slice up the area
-          (as in the center graph 
-          of <xref ref="F-6-1-IntWRTy">Figure</xref>),
-          we see that
-          from <m>x = -1</m> to <m>x = 0</m>
-          the curves that bound the top and bottom of the rectangle are one and the same.
-          This suggests, as shown in the rightmost graph in the figure,
-          that we try using horizontal rectangles.
+          Si intentamos usar rectángulos verticales para cortar el área
+          (como en el gráfico central 
+          de <xref ref="F-6-1-IntWRTy">Figura</xref>),
+          vemos que
+          desde <m>x = -1</m> hasta <m>x = 0</m>
+          las curvas que delimitan la parte superior e inferior del rectángulo son las mismas.
+          Esto sugiere, como se muestra en el gráfico más a la derecha en la figura,
+          que intentemos usar rectángulos horizontales.
         </p>
 
         <p permid="HKu">
-          Note that the width of a horizontal rectangle depends on <m>y</m>.
-          Between <m>y = -1</m> and <m>y = 2</m>,
-          the right end of a representative rectangle is determined by the line 
+          Nota que el ancho de un rectángulo horizontal depende de <m>y</m>.
+          Entre <m>y = -1</m> y <m>y = 2</m>,
+          el extremo derecho de un rectángulo representativo está determinado por la línea 
           <m>x = y+1</m>,
-          and the left end is determined by the parabola, <m>x = y^2-1</m>.
-          The thickness of the rectangle is <m>\Delta y</m>.
+          y el extremo izquierdo está determinado por la parábola, <m>x = y^2-1</m>.
+          El grosor del rectángulo es <m>\Delta y</m>.
         </p>
 
         <p permid="nRD">
-          Therefore, the area of the rectangle is
+          Por lo tanto, el área del rectángulo es
           <me permid="APP">
             A_{\text{rect} } = [(y+1) - (y^2-1)] \Delta y
           </me>,
-          and the area between the two curves on the <m>y</m>-interval <m>[-1,2]</m> is approximated by the Riemann sum
+          y el área entre las dos curvas en el intervalo <m>y</m> <m>[-1,2]</m> se aproxima mediante la suma de Riemann
           <me permid="gWY">
             A \approx \sum_{i=1}^{n} [(y_i+1)-(y_i^2-1)] \Delta y
           </me>.
         </p>
 
         <p permid="TYM">
-          Taking the limit of the Riemann sum,
-          it follows that the area of the region is
+          Tomando el límite de la suma de Riemann,
+          se sigue que el área de la región es
           <men xml:id="E-IntWRTy" permid="Neh">
             A = \int_{y=-1}^{y=2} [(y+1) - (y^2-1)] \, dy
           </men>.
         </p>
 
         <p permid="AfV">
-          We emphasize that we are integrating with respect to <m>y</m>;
-          this is because we chose to use horizontal rectangles whose widths depend on <m>y</m> and whose thickness is denoted <m>\Delta y</m>.
-          It is a straightforward exercise to evaluate the integral in <xref ref="E-IntWRTy">Equation</xref>
-          and find that <m>A = \frac{9}{2}</m>.
+          Enfatizamos que estamos integrando con respecto a <m>y</m>;
+          esto es porque elegimos usar rectángulos horizontales cuyos anchos dependen de <m>y</m> y cuyo grosor se denota <m>\Delta y</m>.
+          Es un ejercicio sencillo evaluar la integral en <xref ref="E-IntWRTy">Ecuación</xref>
+          y encontrar que <m>A = \frac{9}{2}</m>.
         </p>
       </solution>
     </example>
 
     <p permid="uqJ">
-      Just as with the use of vertical rectangles of thickness <m>\Delta x</m>,
-      we have a general principle for finding the area between two curves,
-      which we state as follows.
+      Al igual que con el uso de rectángulos verticales de grosor <m>\Delta x</m>,
+      tenemos un principio general para encontrar el área entre dos curvas,
+      que enunciamos de la siguiente manera.
     </p>
 
     <assemblage permid="rRC">
       <p permid="axS">
-        If two curves <m>x = g(y)</m> and
-        <m>x = f(y)</m> intersect at <m>(g(c),c)</m> and <m>(g(d),d)</m>,
-        and for all <m>y</m> such that <m>c \le y \le d</m>,
-        <m>g(y) \ge f(y)</m>, then the area between the curves is
+        Si dos curvas <m>x = g(y)</m> y
+        <m>x = f(y)</m> se intersectan en <m>(g(c),c)</m> y <m>(g(d),d)</m>,
+        y para todo <m>y</m> tal que <m>c \le y \le d</m>,
+        <m>g(y) \ge f(y)</m>, entonces el área entre las curvas es
         <me permid="tlq">
           A = \int_{y=c}^{y=d} (g(y) - f(y)) \, dy
         </me>.
@@ -281,42 +281,42 @@
   </subsection>
 
   <subsection permid="zwb">
-    <title>Finding the length of a curve</title>
-    <idx><h>arc length</h></idx>
+    <title>Encontrar la longitud de una curva</title>
+    <idx><h>longitud de arco</h></idx>
 
     <p permid="GFb">
-      We can also use the definite integral to find the length of a portion of a curve.
-      We use the same fundamental principle:
-      we slice the curve up into small pieces whose lengths we can easily approximate.
-      Specifically,
-      we subdivide the curve into small approximating line segments,
-      as shown at left in <xref ref="F-6-1-ArcLength">Figure</xref>.
+      También podemos usar la integral definida para encontrar la longitud de una porción de una curva.
+      Usamos el mismo principio fundamental:
+      cortamos la curva en pequeños trozos cuyas longitudes podemos aproximar fácilmente.
+      Específicamente,
+      subdividimos la curva en pequeños segmentos de línea aproximados,
+      como se muestra a la izquierda en <xref ref="F-6-1-ArcLength">Figura</xref>.
     </p>
 
     <figure xml:id="F-6-1-ArcLength" permid="rwd">
-      <caption>At left, a continuous function <m>y = f(x)</m> whose length we seek on the interval <m>a = x_0</m> to <m>b = x_3</m>.  At right, a close up view of a portion of the curve.</caption>
+      <caption>A la izquierda, una función continua <m>y = f(x)</m> cuya longitud buscamos en el intervalo <m>a = x_0</m> a <m>b = x_3</m>. A la derecha, una vista de cerca de una porción de la curva.</caption>
       <image width="100%" source="images/6_1_ArcLength" />
     </figure>
 
     <p permid="mMk">
-      We estimate the length
-      <m>L_{\text{slice} }</m> of each portion of the curve on a small interval of length <m>\Delta x</m>.
-      We use the right triangle with legs parallel to the coordinate axes and hypotenuse connecting the endpoints of the slice,
-      as seen at right in <xref ref="F-6-1-ArcLength">Figure</xref>.
-      The length, <m>h</m>,
-      of the hypotenuse approximates the length,
-      <m>L_{\text{slice} }</m>, of the curve between the two selected points.
-      Thus,
+      Estimamos la longitud
+      <m>L_{\text{slice} }</m> de cada porción de la curva en un pequeño intervalo de longitud <m>\Delta x</m>.
+      Usamos el triángulo rectángulo con catetos paralelos a los ejes de coordenadas y la hipotenusa conectando los extremos del corte,
+      como se ve a la derecha en <xref ref="F-6-1-ArcLength">Figura</xref>.
+      La longitud, <m>h</m>,
+      de la hipotenusa aproxima la longitud,
+      <m>L_{\text{slice} }</m>, de la curva entre los dos puntos seleccionados.
+      Así,
       <me permid="Zsz">
         L_{\text{slice} } \approx h = \sqrt{ (\Delta x)^2 + (\Delta y)^2 }
       </me>.
     </p>
 
     <p permid="STt">
-      Next we use algebra to rearrange the expression for the length of the hypotenuse
-      into a form that we can integrate.
-      By removing a factor of <m>(\Delta x)^2</m>,
-      we find
+      Luego usamos álgebra para reorganizar la expresión de la longitud de la hipotenusa
+      en una forma que podamos integrar.
+      Al eliminar un factor de <m>(\Delta x)^2</m>,
+      encontramos
       <md permid="FzI">
         <mrow>L_{\text{slice}} &amp;\approx  \sqrt{ (\Delta x)^2 + (\Delta y)^2 }</mrow>
         <mrow>&amp;= \sqrt{ (\Delta x)^2\left(1 + \frac{(\Delta y)^2}{(\Delta x)^2} \right)}</mrow>
@@ -325,26 +325,26 @@
     </p>
 
     <p permid="zaC">
-      Then, as <m>n \to \infty</m> and <m>\Delta x \to 0</m>,
-      we have that <m>\frac{\Delta y}{\Delta x} \to \frac{dy}{dx} = f'(x)</m>.
-      Thus, we can say that
+      Luego, como <m>n \to \infty</m> y <m>\Delta x \to 0</m>,
+      tenemos que <m>\frac{\Delta y}{\Delta x} \to \frac{dy}{dx} = f'(x)</m>.
+      Así, podemos decir que
       <me permid="lGR">
         L_{\text{slice} } \approx \sqrt{1 + f'(x)^2} \Delta x
       </me>.
     </p>
 
     <p permid="fhL">
-      Taking a Riemann sum of all of these slices and letting <m>n \to \infty</m>,
-      we arrive at the following fact.
+      Tomando una suma de Riemann de todos estos cortes y dejando que <m>n \to \infty</m>,
+      llegamos al siguiente hecho.
     </p>
 
     <assemblage permid="XYL">
       <p permid="LoU">
-        Given a differentiable function <m>f</m> on an interval <m>[a,b]</m>,
-        the total arc length,
-            <idx><h>arc length</h></idx>
-        <m>L</m>, along the curve
-        <m>y = f(x)</m> from <m>x = a</m> to <m>x = b</m> is given by
+        Dada una función diferenciable <m>f</m> en un intervalo <m>[a,b]</m>,
+        la longitud total del arco,
+            <idx><h>longitud de arco</h></idx>
+        <m>L</m>, a lo largo de la curva
+        <m>y = f(x)</m> desde <m>x = a</m> hasta <m>x = b</m> se da por
         <me permid="ROa">
           L = \int_a^b \sqrt{1+f'(x)^2} \, dx
         </me>.
@@ -355,16 +355,16 @@
   </subsection>
 
   <subsection permid="fDk">
-    <title>Summary</title>
+    <title>Resumen</title>
     <p permid="XDm">
       <ul permid="Vef">
         <li permid="tGP">
           <p permid="exR">
-            To find the area between two curves,
-            we think about slicing the region into thin rectangles.
-            If, for instance,
-            the area of a typical rectangle on the interval <m>x = a</m> to <m>x = b</m> is given by <m>A_{\text{rect} } = (g(x) - f(x)) \Delta x</m>,
-            then the exact area of the region is given by the definite integral
+            Para encontrar el área entre dos curvas,
+            pensamos en cortar la región en rectángulos delgados.
+            Si, por ejemplo,
+            el área de un rectángulo típico en el intervalo <m>x = a</m> a <m>x = b</m> se da por <m>A_{\text{rect} } = (g(x) - f(x)) \Delta x</m>,
+            entonces el área exacta de la región se da por la integral definida
             <me permid="xVj">
               A = \int_a^b (g(x)-f(x))\, dx
             </me>.
@@ -373,20 +373,20 @@
 
         <li permid="ZNY">
           <p permid="KFa">
-            The shape of the region usually dictates whether we should use vertical rectangles of thickness
-            <m>\Delta x</m> or horizontal rectangles of thickness <m>\Delta y</m>.
-            We want the height of the rectangle given by the difference between two curves:
-            if those curves are best thought of as functions of <m>y</m>,
-            we use horizontal rectangles,
-            whereas if those curves are best viewed as functions of <m>x</m>,
-            we use vertical rectangles.
+            La forma de la región usualmente dicta si debemos usar rectángulos verticales de grosor
+            <m>\Delta x</m> o rectángulos horizontales de grosor <m>\Delta y</m>.
+            Queremos que la altura del rectángulo esté dada por la diferencia entre dos curvas:
+            si esas curvas se piensan mejor como funciones de <m>y</m>,
+            usamos rectángulos horizontales,
+            mientras que si esas curvas se ven mejor como funciones de <m>x</m>,
+            usamos rectángulos verticales.
           </p>
         </li>
 
         <li permid="FVh">
           <p permid="qMj">
-            The arc length, <m>L</m>,
-            along the curve <m>y = f(x)</m> from <m>x = a</m> to <m>x = b</m> is given by
+            La longitud del arco, <m>L</m>,
+            a lo largo de la curva <m>y = f(x)</m> desde <m>x = a</m> hasta <m>x = b</m> se da por
             <me permid="ecs">
               L = \int_a^b \sqrt{1 + f'(x)^2} \, dx
             </me>.
@@ -398,4 +398,3 @@
 
   <xi:include href="./exercises/ez-6-1.xml" />
 </section>
-

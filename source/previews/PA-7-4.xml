@@ -14,18 +14,18 @@
 <!-- **********************************************************************-->
 <exploration xml:id="PA-7-4" permid="zEF">
   <p permid="bbV">
-    In this preview activity,
-    we explore whether certain differential equations are separable or not,
-    and then revisit some key ideas from earlier work in integral calculus.
+    En esta actividad de vista previa,
+    exploramos si ciertas ecuaciones diferenciales son separables o no,
+    y luego revisamos algunas ideas clave de trabajos anteriores en cálculo integral.
   </p>
 
   <p permid="Hje">
     <ol marker="a." permid="gRh">
       <li permid="MYq">
         <p permid="dWB">
-          Which of the following differential equations are separable?
-          If the equation is separable,
-          write the equation in the revised form <m>g(y) \frac{dy}{dt} = h(t)</m>.
+          ¿Cuáles de las siguientes ecuaciones diferenciales son separables?
+          Si la ecuación es separable,
+          escribe la ecuación en la forma revisada <m>g(y) \frac{dy}{dt} = h(t)</m>.
         </p>
 
         <p permid="KdK">
@@ -59,14 +59,14 @@
 
       <li permid="lBa">
         <p permid="iGu">
-          Explain why any autonomous differential equation is guaranteed to be separable.
+          Explica por qué cualquier ecuación diferencial autónoma está garantizada a ser separable.
         </p>
       </li>
 
       <li permid="RIj">
         <p permid="OND">
-          Why do we include the term
-          <q><m>+C</m></q> in the expression
+          ¿Por qué incluimos el término
+          <q><m>+C</m></q> en la expresión
           <me permid="nqn">
             \int x~dx =
             \frac{x^2}{2} + C?
@@ -76,14 +76,13 @@
 
       <li permid="xPs">
         <p permid="uUM">
-          Suppose we know that a certain function <m>f</m> satisfies the equation
+          Supón que sabemos que una cierta función <m>f</m> satisface la ecuación
           <me permid="Txw">
             \int f'(x)~dx = \int x~dx
           </me>.
-          What can you conclude about <m>f</m>?
+          ¿Qué puedes concluir sobre <m>f</m>?
         </p>
       </li>
     </ol>
   </p>
 </exploration>
-

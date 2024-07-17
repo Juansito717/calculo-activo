@@ -13,34 +13,34 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-1-3-derivative-pt" permid="xyk">
-  <title>The derivative of a function at a point</title>
+  <title>La derivada de una función en un punto</title>
   <objectives permid="Cid">
     <ul permid="Tgo">
       <li permid="fuG">
         <p permid="hjT">
-          How is the average rate of change of a function on a given interval defined,
-          and what does this quantity measure?
+          ¿Cómo se define la tasa de cambio promedio de una función en un intervalo dado,
+          y qué mide esta cantidad?
         </p>
       </li>
 
       <li permid="LBP">
         <p permid="Nrc">
-          How is the instantaneous rate of change of a function at a particular point defined?
-          How is the instantaneous rate of change linked to average rate of change?
+          ¿Cómo se define la tasa de cambio instantánea de una función en un punto particular?
+          ¿Cómo se vincula la tasa de cambio instantánea con la tasa de cambio promedio?
         </p>
       </li>
 
       <li permid="rIY">
         <p permid="tyl">
-          What is the derivative of a function at a given point?
-          What does this derivative value measure?
-          How do we interpret the derivative value graphically?
+          ¿Qué es la derivada de una función en un punto dado?
+          ¿Qué mide este valor de la derivada?
+          ¿Cómo interpretamos gráficamente el valor de la derivada?
         </p>
       </li>
 
       <li permid="XQh">
         <p permid="ZFu">
-          How are limits used formally in the computation of derivatives?
+          ¿Cómo se usan los límites formalmente en el cálculo de derivadas?
         </p>
       </li>
     </ul>
@@ -48,38 +48,38 @@
 
   <introduction permid="Owv">
     <p permid="buH">
-      The <em>instantaneous rate of change</em>
-      of a function is an idea that sits at the foundation of calculus.
-      It is a generalization of the notion of instantaneous velocity and measures how fast a particular function is changing at a given point.
-      If the original function represents the position of a moving object,
-      this instantaneous rate of change is precisely the velocity of the object.
-      In other contexts,
-      instantaneous rate of change could measure the number of cells added to a bacteria culture per day,
-      the number of additional gallons of gasoline consumed by increasing a car's velocity one mile per hour,
-      or the number of dollars added to a mortgage payment for each percentage point increase in interest rate.
-      The instantaneous rate of change can also be interpreted geometrically on the function's graph,
-      and this connection is fundamental to many of the main ideas in calculus.
+      La <em>tasa de cambio instantánea</em>
+      de una función es una idea que se encuentra en la base del cálculo.
+      Es una generalización de la noción de velocidad instantánea y mide qué tan rápido está cambiando una función particular en un punto dado.
+      Si la función original representa la posición de un objeto en movimiento,
+      esta tasa de cambio instantánea es precisamente la velocidad del objeto.
+      En otros contextos,
+      la tasa de cambio instantánea podría medir el número de células añadidas a un cultivo de bacterias por día,
+      el número de galones adicionales de gasolina consumidos al aumentar la velocidad de un coche una milla por hora,
+      o el número de dólares añadidos a un pago hipotecario por cada punto porcentual de aumento en la tasa de interés.
+      La tasa de cambio instantánea también puede interpretarse geométricamente en el gráfico de la función,
+      y esta conexión es fundamental para muchas de las ideas principales en el cálculo.
     </p>
 
     <p permid="HBQ">
-      Recall that for a moving object with position function <m>s</m>,
-      its average velocity on the time interval <m>t = a</m> to <m>t = a+h</m> is given by the quotient
+      Recuerda que para un objeto en movimiento con función de posición <m>s</m>,
+      su velocidad promedio en el intervalo de tiempo <m>t = a</m> a <m>t = a+h</m> se da por el cociente
       <me permid="VFv">
         AV_{[a,a+h]} = \frac{s(a+h)-s(a)}{h}
       </me>.
     </p>
 
     <p permid="nIZ">
-      In a similar way,
-      we make the following definition for an arbitrary function <m>y = f(x)</m>.
+      De manera similar,
+      hacemos la siguiente definición para una función arbitraria <m>y = f(x)</m>.
     </p>
 
     <definition permid="ipm">
       <statement>
         <p permid="iZg">
-          For a function <m>f</m>, the <term>average rate of change</term>
-              <idx><h>average rate of change</h></idx>
-          of <m>f</m> on the interval <m>[a,a+h]</m> is given by the value
+          Para una función <m>f</m>, la <term>tasa de cambio promedio</term>
+              <idx><h>tasa de cambio promedio</h></idx>
+          de <m>f</m> en el intervalo <m>[a,a+h]</m> se da por el valor
           <me permid="BME">
             AV_{[a,a+h]} = \frac{f(a+h)-f(a)}{h}
           </me>.
@@ -88,318 +88,317 @@
     </definition>
 
     <p permid="TQi">
-      Equivalently,
-      if we want to consider the average rate of change of <m>f</m> on <m>[a,b]</m>,
-      we compute
+      De manera equivalente,
+      si queremos considerar la tasa de cambio promedio de <m>f</m> en <m>[a,b]</m>,
+      calculamos
       <me permid="hTN">
         AV_{[a,b]} = \frac{f(b)-f(a)}{b-a}
       </me>.
     </p>
 
     <p permid="zXr">
-      It is essential that you understand how the average rate of change of <m>f</m> on an interval is connected to its graph.
+      Es esencial que entiendas cómo la tasa de cambio promedio de <m>f</m> en un intervalo está conectada con su gráfico.
     </p>
 
     <xi:include href="./previews/PA-1-3.xml" />
   </introduction>
 
   <subsection permid="dFt">
-    <title>The Derivative of a Function at a Point</title>
+    <title>La Derivada de una Función en un Punto</title>
     <p permid="geA">
-      Just as we defined instantaneous velocity in terms of average velocity,
-      we now define the instantaneous rate of change of a function at a point in terms of the average rate of change of the function <m>f</m> over related intervals.
+      Así como definimos la velocidad instantánea en términos de la velocidad promedio,
+      ahora definimos la tasa de cambio instantánea de una función en un punto en términos de la tasa de cambio promedio de la función <m>f</m> sobre intervalos relacionados.
 
-      This instantaneous rate of change of <m>f</m> at <m>a</m>
-          <idx><h>instantaneous rate of change</h></idx>
-      is called <q>the <em>derivative</em>
-      of <m>f</m> at <m>a</m>,</q>
-      and is denoted by <m>f'(a)</m>.
+      Esta tasa de cambio instantánea de <m>f</m> en <m>a</m>
+          <idx><h>tasa de cambio instantánea</h></idx>
+      se llama <q>la <em>derivada</em>
+      de <m>f</m> en <m>a</m>,</q>
+      y se denota por <m>f'(a)</m>.
     </p>
 
     <definition xml:id="def-derivative" permid="pTL">
       <statement>
         <p permid="Pgp">
-          Let <m>f</m> be a function and <m>x = a</m> a value in the function's domain.
-          We define the <term>derivative of <m>f</m> with respect to <m>x</m> evaluated at <m>x = a</m></term>,
-              <idx><h>derivative</h><h>definition</h></idx>
-          denoted <m>f'(a)</m>, by the formula
+          Sea <m>f</m> una función y <m>x = a</m> un valor en el dominio de la función.
+          Definimos la <term>derivada de <m>f</m> con respecto a <m>x</m> evaluada en <m>x = a</m></term>,
+              <idx><h>derivada</h><h>definición</h></idx>
+          denotada <m>f'(a)</m>, por la fórmula
           <me permid="OaW">
             f'(a) = \lim_{h \to 0} \frac{f(a+h)-f(a)}{h}
           </me>,
-          provided this limit exists.
+          siempre que este límite exista.
         </p>
       </statement>
     </definition>
 
     <p permid="MlJ">
-      Aloud, we read the symbol <m>f'(a)</m> as either
-      <q><m>f</m>-prime at <m>a</m></q>
-      or <q>the derivative of <m>f</m> evaluated at <m>x = a</m>.</q>
-      Much of the next several chapters will be devoted to understanding,
-      computing,
-      applying, and interpreting derivatives.
-      For now, we observe the following important things.
+      En voz alta, leemos el símbolo <m>f'(a)</m> como
+      <q><m>f</m>-prima en <m>a</m></q>
+      o <q>la derivada de <m>f</m> evaluada en <m>x = a</m>.</q>
+      Gran parte de los próximos capítulos se dedicará a entender,
+      calcular,
+      aplicar e interpretar derivadas.
+      Por ahora, observamos las siguientes cosas importantes.
     </p>
 
     <note permid="aKN">
       <p permid="WKO">
         <ul permid="mZf">
           <li permid="DXq">
-            The derivative of <m>f</m> at the value <m>x = a</m> is defined as the limit of the average rate of change of <m>f</m> on the interval <m>[a,a+h]</m> as <m>h \to 0</m>.
-            This limit may not exist,
-            so not every function has a derivative at every point.
+            La derivada de <m>f</m> en el valor <m>x = a</m> se define como el límite de la tasa de cambio promedio de <m>f</m> en el intervalo <m>[a,a+h]</m> cuando <m>h \to 0</m>.
+            Este límite puede no existir,
+            por lo que no todas las funciones tienen una derivada en cada punto.
           </li>
 
           <li permid="kez">
-            We say that a function is <em>differentiable</em>
-                <idx><h>differentiable</h></idx>
-            at <m>x = a</m> if it has a derivative at <m>x = a</m>.
+            Decimos que una función es <em>diferenciable</em>
+                <idx><h>diferenciable</h></idx>
+            en <m>x = a</m> si tiene una derivada en <m>x = a</m>.
           </li>
 
           <li permid="QlI">
-            The derivative is a generalization of the instantaneous velocity of a position function:
-            if <m>y = s(t)</m> is a position function of a moving body,
-            <m>s'(a)</m> tells us the instantaneous velocity of the body at time <m>t=a</m>.
+            La derivada es una generalización de la velocidad instantánea de una función de posición:
+            si <m>y = s(t)</m> es una función de posición de un cuerpo en movimiento,
+            <m>s'(a)</m> nos dice la velocidad instantánea del cuerpo en el tiempo <m>t=a</m>.
           </li>
 
           <li permid="wsR">
-            Because the units on <m>\frac{f(a+h)-f(a)}{h}</m> are
-            <q>units of <m>f(x)</m> per unit of <m>x</m>,</q>
-            the derivative has these very same units.
-            For instance,
-            if <m>s</m> measures position in feet and <m>t</m> measures time in seconds,
-            the units on <m>s'(a)</m> are feet per second.
+            Debido a que las unidades en <m>\frac{f(a+h)-f(a)}{h}</m> son
+            <q>unidades de <m>f(x)</m> por unidad de <m>x</m>,</q>
+            la derivada tiene estas mismas unidades.
+            Por ejemplo,
+            si <m>s</m> mide la posición en pies y <m>t</m> mide el tiempo en segundos,
+            las unidades en <m>s'(a)</m> son pies por segundo.
           </li>
 
           <li permid="cAa">
-            Because the quantity
-            <m>\frac{f(a+h)-f(a)}{h}</m> represents the slope of the line through
-            <m>(a,f(a))</m> and <m>(a+h, f(a+h))</m>,
-            when we compute the derivative we are taking the limit of a collection of slopes of lines.
-            Thus, the derivative itself represents the slope of a particularly important line.
+            Debido a que la cantidad
+            <m>\frac{f(a+h)-f(a)}{h}</m> representa la pendiente de la línea a través de
+            <m>(a,f(a))</m> y <m>(a+h, f(a+h))</m>,
+            cuando calculamos la derivada estamos tomando el límite de una colección de pendientes de líneas.
+            Por lo tanto, la derivada en sí misma representa la pendiente de una línea particularmente importante.
           </li>
         </ul>
       </p>
     </note>
 
-    <p permid="ssS">
-      We first consider the derivative at a given value as the slope of a certain line.
+<p permid="ssS">
+  Primero consideramos la derivada en un valor dado como la pendiente de una cierta línea.
+</p>
+
+<p permid="YAb">
+  Cuando calculamos una tasa de cambio instantánea,
+  permitimos que el intervalo <m>[a,a+h]</m> se reduzca a medida que
+  <m>h \to 0</m>.
+  Podemos pensar en un extremo del intervalo como
+  <q>deslizándose hacia</q> el otro.
+  En particular,
+  siempre que <m>f</m> tenga una derivada en <m>(a,f(a))</m>,
+  el punto <m>(a+h,f(a+h))</m> se acercará a <m>(a,f(a))</m> a medida que <m>h \to 0</m>.
+  Debido a que el proceso de tomar un límite es dinámico,
+  puede ser útil usar tecnología informática para visualizarlo.
+  Una opción es un applet de java en el que el usuario puede controlar el punto que se está moviendo.
+  Para una colección útil de ejemplos,
+  considera el
+  <url href="http://gvsu.edu/s/5r" visual="gvsu.edu/s/5r">trabajo de David Austin</url>
+  de la Universidad Estatal de Grand Valley,
+  y
+  <url href="http://gvsu.edu/s/5s" visual="gvsu.edu/s/5s">este ejemplo particularmente relevante</url>.
+  Para applets que se han construido en Geogebra<fn>
+  Incluso puedes considerar construir tus propios ejemplos;
+  el fantástico programa Geogebra está disponible para
+  <url href="http://geogebra.org" visual="geogebra.org">descarga gratuita</url>
+  y es fácil de aprender y usar.
+  </fn>,
+  ve
+  <url href="http://gvsu.edu/s/5p" visual="gvsu.edu/s/5p">la biblioteca de Marc Renault</url>
+  a través de la Universidad de Shippensburg,
+  con
+  <url href="http://gvsu.edu/s/5q" visual="gvsu.edu/s/5q">este ejemplo</url>
+  siendo especialmente adecuado para nuestro trabajo en esta sección.
+</p>
+
+<p permid="EHk">
+  <xref ref="F-1-3-SecToTanSeq">Figura</xref>
+  muestra una secuencia de figuras con varias líneas diferentes a través de los puntos <m>(a, f(a))</m> y
+  <m>(a+h,f(a+h))</m>, generadas por diferentes valores de <m>h</m>.
+  Estas líneas
+  (mostradas en las primeras tres figuras en magenta),
+  a menudo se llaman <em>líneas secantes</em>
+      <idx><h>línea secante</h></idx>
+  a la curva <m>y = f(x)</m>.
+  Una línea secante a una curva es simplemente una línea que pasa por dos puntos en la curva.
+  Para cada una de estas líneas,
+  la pendiente de la línea secante es <m>m = \frac{f(a+h) - f(a)}{h}</m>,
+  donde el valor de <m>h</m> depende de la ubicación del punto que elegimos.
+  Podemos ver en el diagrama cómo, a medida que <m>h \to 0</m>,
+  las líneas secantes comienzan a acercarse a una sola línea que pasa por el punto <m>(a,f(a))</m>.
+  Si el límite de las pendientes de las líneas secantes existe,
+  decimos que el valor resultante es la pendiente de la
+  <em>línea tangente</em> a la curva.
+  Esta línea tangente
+      <idx><h>línea tangente</h></idx>
+  (mostrada en la figura más a la derecha en verde) al gráfico de
+  <m>y = f(x)</m> en el punto
+  <m>(a,f(a))</m> tiene pendiente <m>m = f'(a)</m>.
+</p>
+
+<figure xml:id="F-1-3-SecToTanSeq" permid="djU">
+  <caption>Una secuencia de líneas secantes acercándose a la línea tangente a <m>f</m> en <m>(a,f(a))</m>.</caption>
+  <image width="100%" source="images/1_3_SecToTanSeq" />
+</figure>
+
+<p permid="kOt">
+  Si la línea tangente en <m>x = a</m> existe,
+  el gráfico de <m>f</m> se ve como una línea recta cuando se observa de cerca en <m>(a,f(a))</m>.
+  En <xref ref="F-1-3-SecToTan">Figura</xref>
+  combinamos los cuatro gráficos en <xref ref="F-1-3-SecToTanSeq">Figura</xref>
+  en uno solo a la izquierda,
+  y ampliamos la caja centrada en <m>(a,f(a))</m>
+  a la derecha.
+  Nota cómo la línea tangente se sitúa en relación con la curva <m>y = f(x)</m> en
+  <m>(a,f(a))</m> y cómo se parece mucho a la curva cerca de <m>x = a</m>.
+</p>
+
+<figure xml:id="F-1-3-SecToTan" permid="Jrd">
+  <caption>Una secuencia de líneas secantes acercándose a la línea tangente a <m>f</m> en <m>(a,f(a))</m>. A la derecha, ampliamos el punto <m>(a,f(a))</m>. La pendiente de la línea tangente (en verde) a <m>f</m> en <m>(a,f(a))</m> está dada por <m>f'(a)</m>.</caption>
+  <image width="60%" source="images/1_3_SecToTan" />
+</figure>
+
+<note permid="GRW">
+  <p permid="CRX">
+    La tasa de cambio instantánea de <m>f</m> con respecto a <m>x</m> en <m>x = a</m>,
+    <m>f'(a)</m>,
+    también mide la pendiente de la línea tangente a la curva <m>y = f(x)</m> en <m>(a,f(a))</m>.
+  </p>
+</note>
+
+<p permid="QVC">
+  El siguiente ejemplo demuestra varias ideas clave relacionadas con la derivada de una función.
+</p>
+
+<example permid="WaU">
+  <title>Usando la definición de límite de la derivada</title>
+  <statement>
+    <p permid="vny">
+      Para la función <m>f(x) = x - x^2</m>,
+      usa la definición de límite de la derivada para calcular <m>f'(2)</m>.
+      Además,
+      discute el significado de este valor y dibuja un gráfico etiquetado que apoye tu explicación.
+    </p>
+  </statement>
+  <solution permid="uDE">
+    <p permid="FMD">
+      A partir de la definición de límite, sabemos que
+      <me permid="uif">
+        f'(2) = \lim_{h \to 0} \frac{f(2+h)-f(2)}{h}
+      </me>.
     </p>
 
-    <p permid="YAb">
-      When we compute an instantaneous rate of change,
-      we allow the interval <m>[a,a+h]</m> to shrink as 
-      <m>h \to 0</m>.
-      We can think of one endpoint of the interval as
-      <q>sliding towards</q> the other.
-      In particular,
-      provided that <m>f</m> has a derivative at <m>(a,f(a))</m>,
-      the point <m>(a+h,f(a+h))</m> will approach <m>(a,f(a))</m> as <m>h \to 0</m>.
-      Because the process of taking a limit is a dynamic one,
-      it can be helpful to use computing technology to visualize it.
-      One option is a java applet in which the user is able to control the point that is moving.
-      For a helpful collection of examples,
-      consider the
-      <url href="http://gvsu.edu/s/5r" visual="gvsu.edu/s/5r">work of David Austin</url>
-      of Grand Valley State University,
-      and
-      <url href="http://gvsu.edu/s/5s" visual="gvsu.edu/s/5s">this particularly relevant example</url>.
-      For applets that have been built in Geogebra<fn>
-      You can even consider building your own examples;
-      the fantastic program Geogebra is available for
-      <url href="http://geogebra.org" visual="geogebra.org">free download</url>
-      and is easy to learn and use.
-      </fn>,
-      see
-      <url href="http://gvsu.edu/s/5p" visual="gvsu.edu/s/5p">Marc Renault's library</url>
-      via Shippensburg University,
-      with
-      <url href="http://gvsu.edu/s/5q" visual="gvsu.edu/s/5q">this example</url>
-      being especially fitting for our work in this section.
+    <p permid="lTM">
+      Ahora usamos la regla para <m>f</m>,
+      y observamos que <m>f(2) = 2 - 2^2 = -2</m> y <m>f(2+h) = (2+h) - (2+h)^2</m>.
+      Sustituyendo estos valores en la definición de límite, tenemos que
+      <me permid="apo">
+        f'(2) = \lim_{h \to 0} \frac{(2+h) - (2+h)^2 -  (-2)}{h}
+      </me>.
     </p>
 
-    <p permid="EHk">
-      <xref ref="F-1-3-SecToTanSeq">Figure</xref>
-      shows a sequence of figures with several different lines through the points <m>(a, f(a))</m> and
-      <m>(a+h,f(a+h))</m>, generated by different values of <m>h</m>.
-      These lines
-      (shown in the first three figures in magenta),
-      are often called <em>secant lines</em>
-          <idx><h>secant line</h></idx>
-      to the curve <m>y = f(x)</m>.
-      A secant line to a curve is simply a line that passes through two points on the curve.
-      For each such line,
-      the slope of the secant line is <m>m = \frac{f(a+h) - f(a)}{h}</m>,
-      where the value of <m>h</m> depends on the location of the point we choose.
-      We can see in the diagram how, as <m>h \to 0</m>,
-      the secant lines start to approach a single line that passes through the point <m>(a,f(a))</m>.
-      If the limit of the slopes of the secant lines exists,
-      we say that the resulting value is the slope of the
-      <em>tangent line</em> to the curve.
-      This tangent line
-          <idx><h>tangent line</h></idx>
-      (shown in the right-most figure in green) to the graph of
-      <m>y = f(x)</m> at the point
-      <m>(a,f(a))</m> has slope <m>m = f'(a)</m>.
+    <p permid="SaV">
+      Para permitir que <m>h \to 0</m>,
+      debemos simplificar el cociente.
+      Expandiendo y distribuyendo en el numerador,
+      <me permid="Gwx">
+        f'(2) = \lim_{h \to 0} \frac{2+h - 4 - 4h - h^2 + 2}{h}
+      </me>.
     </p>
 
-    <figure xml:id="F-1-3-SecToTanSeq" permid="djU">
-      <caption>A sequence of secant lines approaching the tangent line to <m>f</m> at <m>(a,f(a))</m>.</caption>
-      <image width="100%" source="images/1_3_SecToTanSeq" />
+    <p permid="yie">
+      Combinando términos semejantes, tenemos
+      <me permid="mDG">
+        f'(2) = \lim_{h \to 0} \frac{ -3h - h^2}{h}
+      </me>.
+    </p>
+
+    <p permid="epn">
+      A continuación, eliminamos un factor común de <m>h</m> tanto en el numerador como en el denominador y encontramos que
+      <me permid="SKP">
+        f'(2) = \lim_{h \to 0} (-3-h)
+      </me>.
+    </p>
+
+    <p permid="Kww">
+      Finalmente, podemos tomar el límite a medida que <m>h \to 0</m>,
+      y así concluimos que <m>f'(2) = -3</m>.
+      Notamos que <m>f'(2)</m> es la tasa de cambio instantánea
+      de <m>f</m> en el punto <m>(2,-2)</m>.
+      También es la pendiente de la línea tangente al gráfico de
+      <m>y = x - x^2</m> en el punto <m>(2,-2)</m>.
+      <xref ref="F-1-3-Ex1">Figura</xref>
+      muestra tanto la función como la línea
+      a través de <m>(2,-2)</m> con pendiente <m>m = f'(2) = -3</m>.
+    </p>
+
+    <figure xml:id="F-1-3-Ex1" permid="qDF">
+      <caption>La línea tangente a <m>y = x - x^2</m> en el punto <m>(2,-2)</m>.</caption>
+      <image width = "40%" source="images/1_3_Ex1" />
     </figure>
+  </solution>
+</example>
 
-    <p permid="kOt">
-      If the tangent line at <m>x = a</m> exists,
-      the graph of <m>f</m> looks like a straight line when viewed up close at <m>(a,f(a))</m>.
-      In <xref ref="F-1-3-SecToTan">Figure</xref>
-      we combine the four graphs in <xref ref="F-1-3-SecToTanSeq">Figure</xref>
-      into the single one on the left,
-      and zoom in on the box centered at <m>(a,f(a))</m>
-      on the right.
-      Note how the tangent line sits relative to the curve <m>y = f(x)</m> at
-      <m>(a,f(a))</m> and how closely it resembles the curve near <m>x = a</m>.
-    </p>
+<p permid="xcL">
+  Las siguientes actividades te ayudarán a explorar una variedad de ideas clave relacionadas con las derivadas.
+</p>
 
-    <figure xml:id="F-1-3-SecToTan" permid="Jrd">
-      <caption>A sequence of secant lines approaching the tangent line to <m>f</m> at <m>(a,f(a))</m>.  At right, we zoom in on the point <m>(a,f(a))</m>.  The slope of the tangent line (in green) to <m>f</m> at <m>(a,f(a))</m> is given by <m>f'(a)</m>.</caption>
-      <image width="60%" source="images/1_3_SecToTan" />
-    </figure>
+<xi:include href="./activities/act-1-3-1.xml" />
 
-    <note permid="GRW">
-      <p permid="CRX">
-        The instantaneous rate of change of <m>f</m> with respect to <m>x</m> at <m>x = a</m>,
-        <m>f'(a)</m>,
-        also measures the slope of the tangent line to the curve <m>y = f(x)</m> at <m>(a,f(a))</m>.
-      </p>
-    </note>
+<xi:include href="./activities/act-1-3-2.xml" />
 
-    <p permid="QVC">
-      The following example demonstrates several key ideas involving the derivative of a function.
-    </p>
+<xi:include href="./activities/act-1-3-3.xml" />
+</subsection>
 
-    <example permid="WaU">
-      <title>Using the limit definition of the derivative</title>
-      <statement>
-        <p permid="vny">
-          For the function <m>f(x) = x - x^2</m>,
-          use the limit definition of the derivative to compute <m>f'(2)</m>.
-          In addition,
-          discuss the meaning of this value and draw a labeled graph that supports your explanation.
-        </p>
-      </statement>
-      <solution permid="uDE">
-        <p permid="FMD">
-          From the limit definition, we know that
-          <me permid="uif">
-            f'(2) = \lim_{h \to 0} \frac{f(2+h)-f(2)}{h}
-          </me>.
-        </p>
+<subsection permid="JMC">
+  <title>Resumen</title>
+  <p permid="pym">
+    <ul permid="znx">
+      <li permid="IHj">
+        La tasa de cambio promedio de una función <m>f</m> en el intervalo <m>[a,b]</m> es <m>\frac{f(b)-f(a)}{b-a}</m>.
+        Las unidades en la tasa de cambio promedio son unidades de <m>f(x)</m> por unidad de <m>x</m>,
+        y el valor numérico de la tasa de cambio promedio representa la pendiente de la línea secante entre los puntos <m>(a,f(a))</m> y
+        <m>(b,f(b))</m> en el gráfico de <m>y = f(x)</m>.
+        Si vemos el intervalo como <m>[a,a+h]</m> en lugar de <m>[a,b]</m>,
+        el significado sigue siendo el mismo,
+        pero la tasa de cambio promedio ahora se calcula por <m>\frac{f(a+h)-f(a)}{h}</m>.
+      </li>
 
-        <p permid="lTM">
-          Now we use the rule for <m>f</m>,
-          and observe that <m>f(2) = 2 - 2^2 = -2</m> and <m>f(2+h) = (2+h) - (2+h)^2</m>.
-          Substituting these values into the limit definition, we have that
-          <me permid="apo">
-            f'(2) = \lim_{h \to 0} \frac{(2+h) - (2+h)^2 -  (-2)}{h}
-          </me>.
-        </p>
+      <li permid="oOs">
+        La tasa de cambio instantánea con respecto a <m>x</m> de una función <m>f</m> en un valor <m>x = a</m> se denota <m>f'(a)</m>
+        (se lee <q>la derivada de <m>f</m> evaluada en <m>a</m></q>
+        o <q><m>f</m>-prima en <m>a</m></q>)
+        y se define por la fórmula
+        <me permid="yRY">
+          f'(a) = \lim_{h \to 0} \frac{f(a+h)-f(a)}{h}
+        </me>,
+        siempre que el límite exista.
+        Nota particularmente que la tasa de cambio instantánea en <m>x = a</m> es el límite de la tasa de cambio promedio en <m>[a,a+h]</m> a medida que <m>h \to 0</m>.
+      </li>
 
-        <p permid="SaV">
-          In order to let <m>h \to 0</m>,
-          we must simplify the quotient.
-          Expanding and distributing in the numerator,
-          <me permid="Gwx">
-            f'(2) = \lim_{h \to 0} \frac{2+h - 4 - 4h - h^2 + 2}{h}
-          </me>.
-        </p>
+      <li permid="UVB">
+        Siempre que la derivada <m>f'(a)</m> exista,
+        su valor nos dice la tasa de cambio instantánea de <m>f</m> con respecto a <m>x</m> en <m>x = a</m>,
+        que geométricamente es la pendiente de la línea tangente a la curva
+        <m>y = f(x)</m> en el punto <m>(a,f(a))</m>.
+        Incluso decimos que <m>f'(a)</m> es la
+        <q>pendiente de la curva</q>
+        en el punto <m>(a,f(a))</m>.
+      </li>
 
-        <p permid="yie">
-          Combining like terms, we have
-          <me permid="mDG">
-            f'(2) = \lim_{h \to 0} \frac{ -3h - h^2}{h}
-          </me>.
-        </p>
+      <li permid="BcK">
+        Los límites nos permiten pasar de la tasa de cambio sobre un intervalo a la tasa de cambio en un solo punto.
+      </li>
+    </ul>
+  </p>
+</subsection>
 
-        <p permid="epn">
-          Next, we remove a common factor of <m>h</m> in both the numerator and denominator and find that
-          <me permid="SKP">
-            f'(2) = \lim_{h \to 0} (-3-h)
-          </me>.
-        </p>
-
-        <p permid="Kww">
-          Finally, we are able to take the limit as <m>h \to 0</m>,
-          and thus conclude that <m>f'(2) = -3</m>.
-          We note that <m>f'(2)</m> is the instantaneous 
-          rate of change of <m>f</m> at the point <m>(2,-2)</m>.
-          It is also the slope of the tangent line to the graph of
-          <m>y = x - x^2</m> at the point <m>(2,-2)</m>.
-          <xref ref="F-1-3-Ex1">Figure</xref>
-          shows both the function and the line 
-          through <m>(2,-2)</m> with slope <m>m = f'(2) = -3</m>.
-        </p>
-
-        <figure xml:id="F-1-3-Ex1" permid="qDF">
-          <caption>The tangent line to <m>y = x - x^2</m> at the point <m>(2,-2)</m>.</caption>
-          <image width = "40%" source="images/1_3_Ex1" />
-        </figure>
-      </solution>
-    </example>
-
-    <p permid="xcL">
-      The following activities will help you explore a variety of key ideas related to derivatives.
-    </p>
-
-    <xi:include href="./activities/act-1-3-1.xml" />
-
-    <xi:include href="./activities/act-1-3-2.xml" />
-
-    <xi:include href="./activities/act-1-3-3.xml" />
-  </subsection>
-
-  <subsection permid="JMC">
-    <title>Summary</title>
-    <p permid="pym">
-      <ul permid="znx">
-        <li permid="IHj">
-          The average rate of change of a function <m>f</m> on the interval <m>[a,b]</m> is <m>\frac{f(b)-f(a)}{b-a}</m>.
-          The units on the average rate of change are units of <m>f(x)</m> per unit of <m>x</m>,
-          and the numerical value of the average rate of change represents the slope of the secant line between the points <m>(a,f(a))</m> and
-          <m>(b,f(b))</m> on the graph of <m>y = f(x)</m>.
-          If we view the interval as being <m>[a,a+h]</m> instead of <m>[a,b]</m>,
-          the meaning is still the same,
-          but the average rate of change is now computed by <m>\frac{f(a+h)-f(a)}{h}</m>.
-        </li>
-
-        <li permid="oOs">
-          The instantaneous rate of change with respect to <m>x</m> of a function <m>f</m> at a value <m>x = a</m> is denoted <m>f'(a)</m>
-          (read <q>the derivative of <m>f</m> evaluated at <m>a</m></q>
-          or <q><m>f</m>-prime at <m>a</m></q>)
-          and is defined by the formula
-          <me permid="yRY">
-            f'(a) = \lim_{h \to 0} \frac{f(a+h)-f(a)}{h}
-          </me>,
-          provided the limit exists.
-          Note particularly that the instantaneous rate of change at <m>x = a</m> is the limit of the average rate of change on <m>[a,a+h]</m> as <m>h \to 0</m>.
-        </li>
-
-        <li permid="UVB">
-          Provided the derivative <m>f'(a)</m> exists,
-          its value tells us the instantaneous rate of change of <m>f</m> with respect to <m>x</m> at <m>x = a</m>,
-          which geometrically is the slope of the tangent line to the curve
-          <m>y = f(x)</m> at the point <m>(a,f(a))</m>.
-          We even say that <m>f'(a)</m> is the
-          <q>slope of the curve</q>
-          at the point <m>(a,f(a))</m>.
-        </li>
-
-        <li permid="BcK">
-          Limits allow us to move from the rate of change over an interval to the rate of change at a single point.
-        </li>
-      </ul>
-    </p>
-  </subsection>
-
-  <xi:include href="./exercises/ez-1-3.xml" />
+<xi:include href="./exercises/ez-1-3.xml" />
 </section>
-

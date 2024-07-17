@@ -14,32 +14,32 @@
 <!-- **********************************************************************-->
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-5-3" permid="fEx">
   <p permid="HbN">
-    In <xref ref="sec-2-5-chain">Section</xref>,
-    we learned the Chain Rule and how it can be applied to find the derivative of a composite function.
-    In particular,
-    if <m>u</m> is a differentiable function of <m>x</m>,
-    and <m>f</m> is a differentiable function of <m>u(x)</m>, then
+    En <xref ref="sec-2-5-chain">Sección</xref>,
+    aprendimos la Regla de la Cadena y cómo se puede aplicar para encontrar la derivada de una función compuesta.
+    En particular,
+    si <m>u</m> es una función diferenciable de <m>x</m>,
+    y <m>f</m> es una función diferenciable de <m>u(x)</m>, entonces
     <me permid="zxo">
       \frac{d}{dx} \left[ f(u(x))  \right] = f'(u(x)) \cdot u'(x)
     </me>.
   </p>
 
   <p permid="niW">
-    In words, we say that the derivative of a composite function <m>c(x) = f(u(x))</m>,
-    where <m>f</m> is considered the <q>outer</q>
-    function and <m>u</m> the <q>inner</q> function,
-    is <q>the derivative of the outer function,
-    evaluated at the inner function,
-    times the derivative of the inner function.</q>
+    En palabras, decimos que la derivada de una función compuesta <m>c(x) = f(u(x))</m>,
+    donde <m>f</m> es considerada la función <q>externa</q>
+    y <m>u</m> la función <q>interna</q>,
+    es <q>la derivada de la función externa,
+    evaluada en la función interna,
+    multiplicada por la derivada de la función interna.</q>
   </p>
 
   <p permid="Tqf">
     <ol marker="a." permid="akK">
       <li permid="SGl">
         <p permid="MQZ">
-          For each of the following functions,
-          use the Chain Rule to find the function's derivative.
-          Be sure to label each derivative by name (e.g., the derivative of <m>g(x)</m> should be labeled <m>g'(x)</m>).
+          Para cada una de las siguientes funciones,
+          usa la Regla de la Cadena para encontrar la derivada de la función.
+          Asegúrate de etiquetar cada derivada por nombre (por ejemplo, la derivada de <m>g(x)</m> debe ser etiquetada como <m>g'(x)</m>).
         </p>
 
         <p permid="sYi">
@@ -79,14 +79,14 @@
 
       <li permid="ACH">
         <p permid="xIb">
-          For each of the following functions,
-          use your work in (a) to help you determine the general antiderivative<fn>
-          Recall that the general antiderivative of a function includes <q><m>+C</m></q>
-          to reflect the entire family of functions that share the same derivative.
-          </fn> of the function.
-          Label each antiderivative by name (e.g., the antiderivative of <m>m</m> should be called <m>M</m>).
-          In addition,
-          check your work by computing the derivative of each proposed antiderivative.
+          Para cada una de las siguientes funciones,
+          usa tu trabajo en (a) para ayudarte a determinar la antiderivada general<fn>
+          Recuerda que la antiderivada general de una función incluye <q><m>+C</m></q>
+          para reflejar toda la familia de funciones que comparten la misma derivada.
+          </fn> de la función.
+          Etiqueta cada antiderivada por nombre (por ejemplo, la antiderivada de <m>m</m> debe llamarse <m>M</m>).
+          Además,
+          verifica tu trabajo calculando la derivada de cada antiderivada propuesta.
 
           <ol marker="i." cols="2" permid="GrT">
             <li permid="Xqe">
@@ -124,9 +124,9 @@
 
       <li permid="gJQ">
         <p permid="CrU">
-          Based on your experience in parts (a) and (b),
-          conjecture an antiderivative for each of the following functions.
-          Test your conjectures by computing the derivative of each proposed antiderivative.
+          Basado en tu experiencia en las partes (a) y (b),
+          conjetura una antiderivada para cada una de las siguientes funciones.
+          Prueba tus conjeturas calculando la derivada de cada antiderivada propuesta.
 
           <ol marker="i." cols="2" permid="mzc">
             <li permid="Ihg">
@@ -152,4 +152,3 @@
     </ol>
   </p>
 </exploration>
-

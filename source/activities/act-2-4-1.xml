@@ -15,31 +15,31 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-4-1" permid="Pwg">
   <statement>
     <p permid="XaF">
-      Let <m>h(x) = \sec(x)</m> and recall that <m>\sec(x) = \frac{1}{\cos(x)}</m>.
+      Sea <m>h(x) = \sec(x)</m> y recuerda que <m>\sec(x) = \frac{1}{\cos(x)}</m>.
 
       <ol marker="a." permid="Kct">
         <li permid="qjC">
           <p permid="kuq">
-            What is the domain of <m>h</m>?
+            ¿Cuál es el dominio de <m>h</m>?
           </p>
         </li>
 
         <li permid="WqL">
           <p permid="QBz">
-            Use the quotient rule to develop a formula for <m>h'(x)</m> that is expressed completely in terms of <m>\sin(x)</m> and <m>\cos(x)</m>.
+            Usa la regla del cociente para desarrollar una fórmula para <m>h'(x)</m> que esté expresada completamente en términos de <m>\sin(x)</m> y <m>\cos(x)</m>.
           </p>
         </li>
 
         <li permid="CxU">
           <p permid="wII">
-            How can you use other relationships among trigonometric functions to write <m>h'(x)</m> only in terms of <m>\tan(x)</m> and <m>\sec(x)</m>?
+            ¿Cómo puedes usar otras relaciones entre funciones trigonométricas para escribir <m>h'(x)</m> solo en términos de <m>\tan(x)</m> y <m>\sec(x)</m>?
           </p>
         </li>
 
         <li permid="iFd">
           <p permid="cPR">
-            What is the domain of <m>h'</m>?
-            How does this compare to the domain of <m>h</m>?
+            ¿Cuál es el dominio de <m>h'</m>?
+            ¿Cómo se compara esto con el dominio de <m>h</m>?
           </p>
         </li>
       </ol>
@@ -50,25 +50,25 @@
       <ol marker="a." permid="dVk">
         <li permid="OMm">
           <p permid="IXa">
-            For what values of <m>x</m> is <m>\cos(x) = 0</m>?
+            ¿Para qué valores de <m>x</m> es <m>\cos(x) = 0</m>?
           </p>
         </li>
 
         <li permid="uTv">
           <p permid="pej">
-            Don't forget that <m>\frac{d}{dx}[1] = 0</m>.
+            No olvides que <m>\frac{d}{dx}[1] = 0</m>.
           </p>
         </li>
 
         <li permid="baE">
           <p permid="Vls">
-            Consider rewriting <m>\frac{\sin(x)}{\cos^2(x)}</m> as <m>\frac{1}{\cos(x)} \cdot \frac{\sin(x)}{\cos(x)}</m>.
+            Considera reescribir <m>\frac{\sin(x)}{\cos^2(x)}</m> como <m>\frac{1}{\cos(x)} \cdot \frac{\sin(x)}{\cos(x)}</m>.
           </p>
         </li>
 
         <li permid="HhN">
           <p permid="BsB">
-            Observe that <m>\cos(x)</m> is still present in the denominator of <m>h'(x)</m>.
+            Observa que <m>\cos(x)</m> sigue presente en el denominador de <m>h'(x)</m>.
           </p>
         </li>
       </ol>
@@ -79,8 +79,8 @@
       <ol marker="a." permid="xOb">
         <li permid="noW">
           <p permid="hzK">
-            All real numbers <m>x</m> such that <m>x \ne \frac{\pi}{2} + k\pi</m>,
-            where <m>k = \pm 1, \pm 2, \ldots</m>.
+            Todos los números reales <m>x</m> tales que <m>x \ne \frac{\pi}{2} + k\pi</m>,
+            donde <m>k = \pm 1, \pm 2, \ldots</m>.
           </p>
         </li>
 
@@ -98,9 +98,9 @@
 
         <li permid="fKx">
           <p permid="ZVl">
-            <m>h</m> and <m>h'</m> have the same domain:
-            all real numbers <m>x</m> such that <m>x \ne \frac{\pi}{2}+k\pi</m>,
-            where <m>k = 0, \pm 1, \pm 2, \ldots</m>.
+            <m>h</m> y <m>h'</m> tienen el mismo dominio:
+            todos los números reales <m>x</m> tales que <m>x \ne \frac{\pi}{2}+k\pi</m>,
+            donde <m>k = 0, \pm 1, \pm 2, \ldots</m>.
           </p>
         </li>
       </ol>
@@ -111,15 +111,15 @@
       <ol marker="a." permid="RGS">
         <li permid="LRG">
           <p permid="Gcu">
-            <m>h(x) = \sec(x)</m> is defined for all <m>x</m> for which <m>\cos(x) \ne 0</m>.
-            Hence the domain of <m>h</m> is all real numbers <m>x</m> such that <m>x \ne \frac{\pi}{2}+k\pi</m>,
-            where <m>k = \pm 1, \pm 2, \ldots</m>.
+            <m>h(x) = \sec(x)</m> está definida para todos los <m>x</m> para los cuales <m>\cos(x) \ne 0</m>.
+            Por lo tanto, el dominio de <m>h</m> son todos los números reales <m>x</m> tales que <m>x \ne \frac{\pi}{2}+k\pi</m>,
+            donde <m>k = \pm 1, \pm 2, \ldots</m>.
           </p>
         </li>
 
         <li permid="rYP">
           <p permid="mjD">
-            By the quotient rule,
+            Por la regla del cociente,
             <me permid="DhO">
               h'(x) = \frac{0 - 1  (-\sin(x))}{\cos^2(x)} = \frac{\sin(x)}{\cos^2(x)}
             </me>.
@@ -128,7 +128,7 @@
 
         <li permid="YfY">
           <p permid="SqM">
-            Observe that <m>h'(x) = \frac{\sin(x)}{\cos^2(x)} = \frac{1}{\cos(x)} \cdot \frac{\sin(x)}{\cos(x)}</m>, so
+            Observa que <m>h'(x) = \frac{\sin(x)}{\cos^2(x)} = \frac{1}{\cos(x)} \cdot \frac{\sin(x)}{\cos(x)}</m>, así que
             <me permid="joX">
               h'(x) = \sec(x) \tan(x)
             </me>.
@@ -137,15 +137,14 @@
 
         <li permid="Enh">
           <p permid="yxV">
-            The derivative <m>h'(x)</m> is, like <m>h(x)</m>,
-            defined for all values of <m>x</m> for which <m>\cos(x) \ne 0</m>.
-            Therefore, <m>h</m> and <m>h'</m> have the same domain:
-            all real numbers <m>x</m> such that <m>x \ne \frac{\pi}{2} + k\pi</m>,
-            where <m>k = 0, \pm 1, \pm 2, \ldots</m>.
+            La derivada <m>h'(x)</m> es, al igual que <m>h(x)</m>,
+            está definida para todos los valores de <m>x</m> para los cuales <m>\cos(x) \ne 0</m>.
+            Por lo tanto, <m>h</m> y <m>h'</m> tienen el mismo dominio:
+            todos los números reales <m>x</m> tales que <m>x \ne \frac{\pi}{2} + k\pi</m>,
+            donde <m>k = 0, \pm 1, \pm 2, \ldots</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

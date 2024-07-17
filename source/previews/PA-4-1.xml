@@ -14,60 +14,59 @@
 <!-- **********************************************************************-->
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-4-1" permid="KNr">
   <p permid="eGi">
-    Suppose that a person is taking a walk along a long straight path and walks at a constant rate of 3 miles per hour.
+    Supón que una persona está dando un paseo por un camino largo y recto y camina a una velocidad constante de 3 millas por hora.
 
     <ol marker="a." permid="cQV">
       <li permid="IYe">
         <p permid="NHX">
-          On the left-hand axes provided in <xref ref="F-4-1-PA1">Figure</xref>,
-          sketch a labeled graph of the velocity function <m>v(t) = 3</m>.
+          En los ejes de la izquierda proporcionados en <xref ref="F-4-1-PA1">Figura</xref>,
+          dibuja un gráfico etiquetado de la función de velocidad <m>v(t) = 3</m>.
         </p>
 
         <figure xml:id="F-4-1-PA1" permid="ZWp">
-          <caption>At left,
-          axes for plotting <m>y = v(t)</m>;
-          at right, for plotting
+          <caption>A la izquierda,
+          ejes para trazar <m>y = v(t)</m>;
+          a la derecha, para trazar
           <m>y = s(t)</m>.</caption>
           <image width="100%" source="images/4_1_PA1" />
         </figure>
 
         <p permid="tPg">
-          Note that while the scale on the two sets of axes is the same,
-          the units on the right-hand axes differ from those on the left.
-          The right-hand axes will be used in question (d).
+          Nota que aunque la escala en los dos conjuntos de ejes es la misma,
+          las unidades en los ejes de la derecha difieren de las de la izquierda.
+          Los ejes de la derecha se usarán en la pregunta (d).
         </p>
       </li>
 
       <li permid="pfn">
         <p permid="Gdy">
-          How far did the person travel during the two hours?
-          How is this distance related to the area of a certain region under the graph of <m>y = v(t)</m>?
+          ¿Qué distancia recorrió la persona durante las dos horas?
+          ¿Cómo se relaciona esta distancia con el área de una cierta región bajo el gráfico de <m>y = v(t)</m>?
         </p>
       </li>
 
       <li permid="Vmw">
         <p permid="mkH">
-          Find an algebraic formula, <m>s(t)</m>,
-          for the position of the person at time <m>t</m>,
-          assuming that <m>s(0) = 0</m>.
-          Explain your thinking.
+          Encuentra una fórmula algebraica, <m>s(t)</m>,
+          para la posición de la persona en el tiempo <m>t</m>,
+          asumiendo que <m>s(0) = 0</m>.
+          Explica tu razonamiento.
         </p>
       </li>
 
       <li permid="BtF">
         <p permid="SrQ">
-          On the right-hand axes provided in <xref ref="F-4-1-PA1">Figure</xref>,
-          sketch a labeled graph of the position function <m>y = s(t)</m>.
+          En los ejes de la derecha proporcionados en <xref ref="F-4-1-PA1">Figura</xref>,
+          dibuja un gráfico etiquetado de la función de posición <m>y = s(t)</m>.
         </p>
       </li>
 
       <li permid="hAO">
         <p permid="yyZ">
-          For what values of <m>t</m> is the position function <m>s</m> increasing?
-          Explain why this is the case using relevant information about the velocity function <m>v</m>.
+          ¿Para qué valores de <m>t</m> está aumentando la función de posición <m>s</m>?
+          Explica por qué es así usando información relevante sobre la función de velocidad <m>v</m>.
         </p>
       </li>
     </ol>
   </p>
 </exploration>
-

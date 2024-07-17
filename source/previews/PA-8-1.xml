@@ -14,49 +14,49 @@
 <!-- **********************************************************************-->
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-8-1" permid="XLQ">
   <p permid="mUO">
-    Suppose you receive <m>\dollar5000</m> through an inheritance.
-    You decide to invest this money into a fund that pays <m>8\%</m> annually,
-    compounded monthly.
-    That means that each month your investment earns <m>\frac{0.08}{12} \cdot P</m> additional dollars,
-    where <m>P</m> is your principal balance at the start of the month.
-    So in the first month your investment earns
+    Supón que recibes <m>\dollar5000</m> a través de una herencia.
+    Decides invertir este dinero en un fondo que paga <m>8\%</m> anualmente,
+    compuesto mensualmente.
+    Eso significa que cada mes tu inversión gana <m>\frac{0.08}{12} \cdot P</m> dólares adicionales,
+    donde <m>P</m> es tu saldo principal al inicio del mes.
+    Así que en el primer mes tu inversión gana
     <me permid="zjg">
       5000 \left(\frac{0.08}{12}\right)
     </me>
-    or <m>\dollar33.33</m>.
-    If you reinvest this money,
-    you will then have <m>\dollar5033.33</m> in your account at the end of the first month.
-    From this point on,
-    assume that you reinvest all of the interest you earn.
+    o <m>\dollar33.33</m>.
+    Si reinviertes este dinero,
+    entonces tendrás <m>\dollar5033.33</m> en tu cuenta al final del primer mes.
+    A partir de este punto,
+    asume que reinviertes todos los intereses que ganas.
   </p>
 
   <p permid="TbX">
     <ol marker="a." permid="JIl">
       <li permid="pPu">
         <p permid="Ose">
-          How much interest will you earn in the second month?
-          How much money will you have in your account at the end of the second month?
+          ¿Cuánto interés ganarás en el segundo mes?
+          ¿Cuánto dinero tendrás en tu cuenta al final del segundo mes?
         </p>
       </li>
 
       <li permid="VWD">
         <p permid="uzn">
-          Complete <xref ref="T-PA-8-1-Interest">Table</xref>
-          to determine the interest earned and total amount of money in this investment each month for one year.
+          Completa <xref ref="T-PA-8-1-Interest">Table</xref>
+          para determinar el interés ganado y la cantidad total de dinero en esta inversión cada mes durante un año.
         </p>
 
         <table xml:id="T-PA-8-1-Interest" permid="Lxy">
-          <title>Interest</title>
+          <title>Interés</title>
           <tabular top="minor" bottom="minor" halign="right" permid="rEH">
             <row halign="center" valign="top">
-              <cell>Month</cell>
+              <cell>Mes</cell>
               <cell>
-                <line>Interest</line>
-                <line>earned</line></cell>
+                <line>Interés</line>
+                <line>ganado</line></cell>
               <cell>
-                <line>Total amount</line>
-                <line>of money</line>
-                <line>in the account</line></cell>
+                <line>Cantidad total</line>
+                <line>de dinero</line>
+                <line>en la cuenta</line></cell>
             </row>
             <row>
               <cell><m>0</m></cell>
@@ -131,22 +131,21 @@
 
       <li permid="CdM">
         <p permid="aGw">
-          As we will see later,
-          the amount of money <m>P_n</m> in the account after month <m>n</m> is given by
+          Como veremos más adelante,
+          la cantidad de dinero <m>P_n</m> en la cuenta después del mes <m>n</m> se da por
           <me permid="fqp">
             P_n = 5000\left(1+\frac{0.08}{12}\right)^{n}
           </me>.
-          Use this formula to check your calculations in <xref ref="T-PA-8-1-Interest">Table</xref>.
-          Then find the amount of money in the account after 5 years.
+          Usa esta fórmula para verificar tus cálculos en <xref ref="T-PA-8-1-Interest">Table</xref>.
+          Luego encuentra la cantidad de dinero en la cuenta después de 5 años.
         </p>
       </li>
 
       <li permid="ikV">
         <p permid="GNF">
-          How many years will it be before the account has doubled in value to $10000?
+          ¿Cuántos años pasarán antes de que la cuenta se haya duplicado en valor a $10000?
         </p>
       </li>
     </ol>
   </p>
 </exploration>
-

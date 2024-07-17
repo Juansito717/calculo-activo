@@ -13,21 +13,18 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-2-4-other-trig" permid="ybn">
-  <title>Derivatives of other trigonometric functions</title>
+  <title>Derivadas de otras funciones trigonométricas</title>
   <objectives permid="CLg">
     <ul permid="OZy">
       <li permid="HuZ">
         <p permid="EAt">
-          What are the derivatives of the tangent, cotangent,
-          secant, and cosecant functions?
+          ¿Cuáles son las derivadas de las funciones tangente, cotangente, secante y cosecante?
         </p>
       </li>
 
       <li permid="nCi">
         <p permid="kHC">
-          How do the derivatives of <m>\tan(x)</m>,
-          <m>\cot(x)</m>, <m>\sec(x)</m>,
-          and <m>\csc(x)</m> combine with other derivative rules we have developed to expand the library of functions we can quickly differentiate?
+          ¿Cómo se combinan las derivadas de <m>\tan(x)</m>, <m>\cot(x)</m>, <m>\sec(x)</m> y <m>\csc(x)</m> con otras reglas de derivación que hemos desarrollado para expandir la biblioteca de funciones que podemos diferenciar rápidamente?
         </p>
       </li>
     </ul>
@@ -35,95 +32,95 @@
 
   <introduction permid="iSp">
     <p permid="ddd">
-      One of the powerful themes in trigonometry
-          <idx><h>trigonometry</h></idx>
-      comes from a very simple idea:
-      locating a point on the unit circle.
+      Uno de los temas poderosos en trigonometría
+          <idx><h>trigonometría</h></idx>
+      proviene de una idea muy simple:
+      localizar un punto en el círculo unitario.
     </p>
 
     <figure xml:id="F-2-4-UnitCircle" permid="BFN">
-      <caption>The unit circle and the definition of the sine and cosine functions.</caption>
+      <caption>El círculo unitario y la definición de las funciones seno y coseno.</caption>
       <image width="47%" source="images/2_4_UnitCircle" />
     </figure>
 
     <p permid="Jkm">
-      Because each angle <m>\theta</m> in standard position corresponds to one and only one point <m>(x,y)</m> on the unit circle,
-      the <m>x</m>- and <m>y</m>-coordinates of this point are each functions of <m>\theta</m>.
-      In fact, this is the very definition of
-      <m>\cos(\theta)</m> and <m>\sin(\theta)</m>:
-      <m>\cos(\theta)</m> is the <m>x</m>-coordinate of the point on the unit circle corresponding to the angle <m>\theta</m>,
-      and <m>\sin(\theta)</m> is the <m>y</m>-coordinate.
-      From this simple definition,
-      all of trigonometry is founded.
-      For instance, the Fundamental Trigonometric Identity,
-          <idx><h>trigonometry</h><h>fundamental trigonometric identity</h></idx>
+      Debido a que cada ángulo <m>\theta</m> en posición estándar corresponde a un único punto <m>(x,y)</m> en el círculo unitario,
+      las coordenadas <m>x</m> y <m>y</m> de este punto son funciones de <m>\theta</m>.
+      De hecho, esta es la misma definición de
+      <m>\cos(\theta)</m> y <m>\sin(\theta)</m>:
+      <m>\cos(\theta)</m> es la coordenada <m>x</m> del punto en el círculo unitario correspondiente al ángulo <m>\theta</m>,
+      y <m>\sin(\theta)</m> es la coordenada <m>y</m>.
+      A partir de esta simple definición,
+      se funda toda la trigonometría.
+      Por ejemplo, la Identidad Trigonométrica Fundamental,
+          <idx><h>trigonometría</h><h>identidad trigonométrica fundamental</h></idx>
       <me permid="XnR">
         \sin^2(\theta) + \cos^2(\theta) = 1
       </me>,
-      is a restatement of the Pythagorean Theorem,
-      applied to the right triangle shown in <xref ref="F-2-4-UnitCircle">Figure</xref>.
+      es una reafirmación del Teorema de Pitágoras,
+      aplicado al triángulo rectángulo mostrado en <xref ref="F-2-4-UnitCircle">Figura</xref>.
     </p>
 
     <p permid="prv">
-      There are four other trigonometric functions,
-      each defined in terms of the sine and/or cosine functions.
+      Hay otras cuatro funciones trigonométricas,
+      cada una definida en términos de las funciones seno y/o coseno.
 
       <ul permid="vgH">
         <li permid="TJr">
-          The tangent function
-              <idx><h>tangent</h></idx>
-          is defined by <m>\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}</m>;
+          La función tangente
+              <idx><h>tangente</h></idx>
+          se define por <m>\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}</m>;
         </li>
 
         <li permid="zQA">
-          the cotangent function is its reciprocal:
+          la función cotangente es su recíproca:
           <m>\cot(\theta) = \frac{\cos(\theta)}{\sin(\theta)}</m>.
         </li>
 
         <li permid="fXJ">
-          The secant function is the reciprocal of the cosine function,
+          La función secante es la recíproca de la función coseno,
           <m>\sec(\theta) = \frac{1}{\cos(\theta)}</m>;
         </li>
 
         <li permid="MeS">
-          and the cosecant function is the reciprocal of the sine function,
+          y la función cosecante es la recíproca de la función seno,
           <m>\csc(\theta) = \frac{1}{\sin(\theta)}</m>.
         </li>
       </ul>
 
-      These six trigonometric functions together offer us a wide range of flexibility in problems involving right triangles.
+      Estas seis funciones trigonométricas juntas nos ofrecen una amplia gama de flexibilidad en problemas que involucran triángulos rectángulos.
     </p>
 
     <p permid="VyE">
-      Because we know the derivatives of the sine and cosine function,
-      we can now develop shortcut differentiation rules for the tangent,
-      cotangent,
-      secant, and cosecant functions.
-      In this section's preview activity,
-      we work through the steps to find the derivative of <m>y = \tan(x)</m>.
+      Debido a que conocemos las derivadas de las funciones seno y coseno,
+      ahora podemos desarrollar reglas de diferenciación abreviadas para las funciones tangente,
+      cotangente,
+      secante y cosecante.
+      En la actividad de vista previa de esta sección,
+      trabajamos los pasos para encontrar la derivada de <m>y = \tan(x)</m>.
     </p>
 
     <xi:include href="./previews/PA-2-4.xml" />
   </introduction>
 
   <subsection permid="eiw">
-    <title>Derivatives of the cotangent, secant, and cosecant functions</title>
-    <idx><h>cotangent</h></idx>
-    <idx><h>secant</h></idx>
-    <idx><h>cosecant</h></idx>
+    <title>Derivadas de las funciones cotangente, secante y cosecante</title>
+    <idx><h>cotangente</h></idx>
+    <idx><h>secante</h></idx>
+    <idx><h>cosecante</h></idx>
 
     <p permid="hMW">
-      In <xref ref="PA-2-4">Preview Activity</xref>,
-      we found that the derivative of the tangent function can be expressed in several ways,
-      but most simply in terms of the secant function.
-      Next, we develop the derivative of the cotangent function.
+      En <xref ref="PA-2-4">Actividad de Vista Previa</xref>,
+      encontramos que la derivada de la función tangente puede expresarse de varias maneras,
+      pero más simplemente en términos de la función secante.
+      A continuación, desarrollamos la derivada de la función cotangente.
     </p>
 
     <p permid="NUf">
-      Let <m>g(x) = \cot(x)</m>.
-      To find <m>g'(x)</m>, we observe that
-      <m>g(x) = \frac{\cos(x)}{\sin(x)}</m> and apply the quotient rule.
-      Hence
+      Sea <m>g(x) = \cot(x)</m>.
+      Para encontrar <m>g'(x)</m>, observamos que
+      <m>g(x) = \frac{\cos(x)}{\sin(x)}</m> y aplicamos la regla del cociente.
+      Por lo tanto
       <md permid="Dva">
         <mrow>g'(x) =\mathstrut \amp  \frac{\sin(x)(-\sin(x)) - \cos(x) \cos(x)}{\sin^2(x)}</mrow>
         <mrow>=\mathstrut \amp  -\frac{\sin^2(x) + \cos^2(x)}{\sin^2(x)}</mrow>
@@ -131,27 +128,27 @@
     </p>
 
     <p permid="ubo">
-      By the Fundamental Trigonometric Identity,
-      we see that <m>g'(x) = -\frac{1}{\sin^2(x)}</m>, and
-      recalling that <m>\csc(x) = \frac{1}{\sin(x)}</m>,
-      it follows that we can express <m>g'</m> by the rule
+      Por la Identidad Trigonométrica Fundamental,
+      vemos que <m>g'(x) = -\frac{1}{\sin^2(x)}</m>, y
+      recordando que <m>\csc(x) = \frac{1}{\sin(x)}</m>,
+      se sigue que podemos expresar <m>g'</m> por la regla
       <me permid="jCj">
         g'(x) = -\csc^2(x)
       </me>.
     </p>
 
     <p permid="aix">
-      Note that neither <m>g</m> nor <m>g'</m> is defined when <m>\sin(x) = 0</m>,
-      which occurs at every integer multiple of <m>\pi</m>.
-      Hence we have the following rule.
+      Nota que ni <m>g</m> ni <m>g'</m> están definidos cuando <m>\sin(x) = 0</m>,
+      lo cual ocurre en cada múltiplo entero de <m>\pi</m>.
+      Por lo tanto, tenemos la siguiente regla.
     </p>
 
     <assemblage xml:id="cotangent-rule" permid="qwO">
-      <title>Cotangent Function</title>
+      <title>Función Cotangente</title>
       <p permid="GpG">
-            <idx><h>derivative</h><h>cotangent</h></idx>
-        For all real numbers <m>x</m> such that <m>x \ne k\pi</m>,
-        where <m>k = 0, \pm 1, \pm 2, \ldots</m>,
+            <idx><h>derivada</h><h>cotangente</h></idx>
+        Para todos los números reales <m>x</m> tales que <m>x \ne k\pi</m>,
+        donde <m>k = 0, \pm 1, \pm 2, \ldots</m>,
         <me permid="PJs">
           \frac{d}{dx} [\cot(x)] = -\csc^2(x)
         </me>.
@@ -159,15 +156,15 @@
     </assemblage>
 
     <p permid="mwP">
-      Notice that the derivative of the cotangent function is very similar to the derivative of the tangent function we discovered in <xref ref="PA-2-4">Preview Activity</xref>.
+      Nota que la derivada de la función cotangente es muy similar a la derivada de la función tangente que descubrimos en <xref ref="PA-2-4">Actividad de Vista Previa</xref>.
     </p>
 
     <assemblage xml:id="tangent-rule" permid="WDX">
-      <title>Tangent Function</title>
+      <title>Función Tangente</title>
       <p permid="SDY">
-            <idx><h>derivative</h><h>tangent</h></idx>
-        For all real numbers <m>x</m> such that <m>x \ne \frac{(2k+1)\pi}{2}</m>,
-        where <m>k = \pm 1, \pm 2, \ldots</m>,
+            <idx><h>derivada</h><h>tangente</h></idx>
+        Para todos los números reales <m>x</m> tales que <m>x \ne \frac{(2k+1)\pi}{2}</m>,
+        donde <m>k = \pm 1, \pm 2, \ldots</m>,
         <me permid="vQB">
           \frac{d}{dx} [\tan(x)] = \sec^2(x)
         </me>.
@@ -175,8 +172,8 @@
     </assemblage>
 
     <p permid="yLh">
-      In the next two activities,
-      we develop the rules for differentiating the secant and cosecant functions.
+      En las siguientes dos actividades,
+      desarrollamos las reglas para diferenciar las funciones secante y cosecante.
     </p>
 
     <xi:include href="./activities/act-2-4-1.xml" />
@@ -184,53 +181,53 @@
     <xi:include href="./activities/act-2-4-2.xml" />
 
     <p permid="eSq">
-      Using the quotient rule we have determined the derivatives of the tangent,
-      cotangent,
-      secant, and cosecant functions,
-      expanding our overall library of functions we can differentiate.
-      Observe that just as the derivative of any polynomial function is a polynomial,
-      and the derivative of any exponential function is another exponential function,
-      so it is that the derivative of any basic trigonometric function is another function that consists of basic trigonometric functions.
-      This makes sense because all trigonometric functions are periodic,
-      and hence their derivatives will be periodic, too.
+      Usando la regla del cociente hemos determinado las derivadas de las funciones tangente,
+      cotangente,
+      secante y cosecante,
+      expandiendo nuestra biblioteca general de funciones que podemos diferenciar.
+      Observa que así como la derivada de cualquier función polinómica es un polinomio,
+      y la derivada de cualquier función exponencial es otra función exponencial,
+      así es que la derivada de cualquier función trigonométrica básica es otra función que consiste en funciones trigonométricas básicas.
+      Esto tiene sentido porque todas las funciones trigonométricas son periódicas,
+      y por lo tanto sus derivadas también serán periódicas.
     </p>
 
     <p permid="KZz">
-      The derivative retains all of its fundamental meaning as an instantaneous rate of change and as the slope of the tangent line to the function under consideration.
+      La derivada conserva todo su significado fundamental como una tasa de cambio instantánea y como la pendiente de la línea tangente a la función en consideración.
     </p>
 
     <xi:include href="./activities/act-2-4-3.xml" />
   </subsection>
 
   <subsection permid="KpF">
-    <title>Summary</title>
+    <title>Resumen</title>
     <p permid="rgI">
       <ul permid="bnQ">
         <li permid="smb">
           <p permid="QOL">
-            The derivatives of the other four trigonometric functions are
+            Las derivadas de las otras cuatro funciones trigonométricas son
             <me permid="bXK">
               \frac{d}{dx}[\tan(x)] = \sec^2(x), \ \ \frac{d}{dx}[\cot(x)] = -\csc^2(x)
             </me>,
             <me permid="IeT">
-              \frac{d}{dx}[\sec(x)] = \sec(x)\tan(x), \ \text{and}  \ \frac{d}{dx}[\csc(x)] = -\csc(x)\cot(x)
+              \frac{d}{dx}[\sec(x)] = \sec(x)\tan(x), \ \text{y}  \ \frac{d}{dx}[\csc(x)] = -\csc(x)\cot(x)
             </me>.
-            Each derivative exists and is defined on the same domain as the original function.
-            For example,
-            both the tangent function and its derivative are defined for all real numbers <m>x</m> such that <m>x \ne \frac{k\pi}{2}</m>,
-            where <m>k = \pm 1, \pm 2, \ldots</m>.
+            Cada derivada existe y está definida en el mismo dominio que la función original.
+            Por ejemplo,
+            tanto la función tangente como su derivada están definidas para todos los números reales <m>x</m> tales que <m>x \ne \frac{k\pi}{2}</m>,
+            donde <m>k = \pm 1, \pm 2, \ldots</m>.
           </p>
         </li>
 
         <li permid="Ytk">
           <p permid="wVU">
-            The four rules for the derivatives of the tangent,
-            cotangent, secant,
-            and cosecant can be used along with the rules for power functions,
-            exponential functions, and the sine and cosine,
-            as well as the sum, constant multiple,
-            product, and quotient rules,
-            to quickly differentiate a wide range of different functions.
+            Las cuatro reglas para las derivadas de las funciones tangente,
+            cotangente, secante,
+            y cosecante pueden usarse junto con las reglas para funciones de potencia,
+            funciones exponenciales, y el seno y coseno,
+            así como las reglas de suma, múltiplo constante,
+            producto y cociente,
+            para diferenciar rápidamente una amplia gama de diferentes funciones.
           </p>
         </li>
       </ul>
@@ -239,4 +236,3 @@
 
   <xi:include href="./exercises/ez-2-4.xml" />
 </section>
-

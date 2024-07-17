@@ -13,24 +13,24 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-7-1-diff-eq-intro" permid="knq">
-  <title>An Introduction to Differential Equations</title>
+  <title>Una Introducción a las Ecuaciones Diferenciales</title>
   <objectives permid="Ves">
     <ul permid="tHc">
       <li permid="FVu">
         <p permid="qMw">
-          What is a differential equation and what kinds of information can it tell us?
+          ¿Qué es una ecuación diferencial y qué tipo de información nos puede dar?
         </p>
       </li>
 
       <li permid="mcD">
         <p permid="DaO">
-          How do differential equations arise in the world around us?
+          ¿Cómo surgen las ecuaciones diferenciales en el mundo que nos rodea?
         </p>
       </li>
 
       <li permid="SjM">
         <p permid="jhX">
-          What do we mean by a solution to a differential equation?
+          ¿Qué queremos decir con una solución a una ecuación diferencial?
         </p>
       </li>
     </ul>
@@ -38,379 +38,376 @@
 
   <introduction permid="BlB">
     <p permid="TYZ">
-      In previous chapters,
-      we have seen that a function's derivative tells us the rate at which the function is changing.
-      The Fundamental Theorem of Calculus helped us determine the total change of a function over an interval from the function's rate of change.
-      For instance,
-      an object's velocity tells us the rate of change of that object's position.
-      By integrating the velocity over a time interval,
-      we can determine how much the position changes over that time interval.
-      If we know where the object is at the beginning of that interval,
-      we have enough information to predict where it will be at the end of the interval.
+      En capítulos anteriores,
+      hemos visto que la derivada de una función nos dice la tasa a la que la función está cambiando.
+      El Teorema Fundamental del Cálculo nos ayudó a determinar el cambio total de una función en un intervalo a partir de la tasa de cambio de la función.
+      Por ejemplo,
+      la velocidad de un objeto nos dice la tasa de cambio de la posición de ese objeto.
+      Al integrar la velocidad en un intervalo de tiempo,
+      podemos determinar cuánto cambia la posición durante ese intervalo de tiempo.
+      Si sabemos dónde está el objeto al comienzo de ese intervalo,
+      tenemos suficiente información para predecir dónde estará al final del intervalo.
     </p>
 
     <p permid="Agi">
-      In this chapter, we introduce the concept of
-      <em>differential equations</em>.
-      A differential equation is an equation that provides a description of a function's derivative,
-      which means that it tells us the function's rate of change.
-      Using this information,
-      we would like to learn as much as possible about the function itself.
-      Ideally we would like to have an algebraic description of the function.
-      As we'll see, this may be too much to ask in some situations,
-      but we will still be able to make accurate approximations.
+      En este capítulo, introducimos el concepto de
+      <em>ecuaciones diferenciales</em>.
+      Una ecuación diferencial es una ecuación que proporciona una descripción de la derivada de una función,
+      lo que significa que nos dice la tasa de cambio de la función.
+      Usando esta información,
+      nos gustaría aprender tanto como sea posible sobre la función misma.
+      Idealmente, nos gustaría tener una descripción algebraica de la función.
+      Como veremos, esto puede ser demasiado pedir en algunas situaciones,
+      pero aún así podremos hacer aproximaciones precisas.
     </p>
 
     <xi:include href="./previews/PA-7-1.xml" />
   </introduction>
 
   <subsection permid="Quz">
-    <title>What is a differential equation?</title>
-    <idx><h>differential equation</h></idx>
+    <title>¿Qué es una ecuación diferencial?</title>
+    <idx><h>ecuación diferencial</h></idx>
 
     <p permid="gnr">
-      A differential equation is an equation that describes the derivative,
-      or derivatives, of a function that is unknown to us.
-      For instance, the equation
+      Una ecuación diferencial es una ecuación que describe la derivada,
+      o derivadas, de una función que nos es desconocida.
+      Por ejemplo, la ecuación
       <me permid="cns">
         \frac{dy}{dx} = x\sin x
       </me>
-      describes the derivative of a
-      function <m>y(x)</m> that is unknown to us.
+      describe la derivada de una
+      función <m>y(x)</m> que nos es desconocida.
     </p>
 
     <p permid="MuA">
-      As many important examples of differential equations involve quantities
-      that change in time, the independent variable in our discussion will
-      frequently be time
+      Como muchos ejemplos importantes de ecuaciones diferenciales involucran cantidades
+      que cambian en el tiempo, la variable independiente en nuestra discusión será
+      frecuentemente el tiempo
       <m>t</m>.
-      In the preview activity, we considered the
-      differential equation
+      En la actividad de vista previa, consideramos la
+      ecuación diferencial
       <me permid="IuB">
         \frac{ds}{dt} = 4t + 1
       </me>.
     </p>
 
     <p permid="sBJ">
-      Knowing the velocity and the starting position of a moving object,
-      we were able to find its position at any later time.
+      Sabiendo la velocidad y la posición inicial de un objeto en movimiento,
+      pudimos encontrar su posición en cualquier momento posterior.
     </p>
 
     <p permid="YIS">
-      Because differential equations describe the derivative of a function,
-      they give us information about how that function changes.
-      Our goal will be to use this information to predict the value of the function in the future;
-      in this way,
-      differential equations provide us with something like a crystal ball.
+      Debido a que las ecuaciones diferenciales describen la derivada de una función,
+      nos dan información sobre cómo cambia esa función.
+      Nuestro objetivo será usar esta información para predecir el valor de la función en el futuro;
+      de esta manera,
+      las ecuaciones diferenciales nos proporcionan algo así como una bola de cristal.
     </p>
 
     <p permid="EQb">
-      Differential equations arise frequently in our every day world.
-      For instance, you may hear a bank advertising:
+      Las ecuaciones diferenciales surgen frecuentemente en nuestro mundo cotidiano.
+      Por ejemplo, puedes escuchar a un banco anunciando:
     </p>
 
     <blockquote permid="hsK">
       <p permid="HKH">
-        <em>Your money will grow at a 3% annual interest rate with us.</em>
+        <em>Tu dinero crecerá a una tasa de interés anual del 3% con nosotros.</em>
       </p>
     </blockquote>
 
     <p permid="kXk">
-      This innocuous statement is really a differential equation.
-      Let's
-      translate: <m>A(t)</m> will be amount of money you have in your account at
-      time <m>t</m>.
-      The rate at which your money grows is the
-      derivative <m>dA/dt</m>, and we are told that this rate is
+      Esta declaración inocua es realmente una ecuación diferencial.
+      Vamos a
+      traducir: <m>A(t)</m> será la cantidad de dinero que tienes en tu cuenta en
+      el tiempo <m>t</m>.
+      La tasa a la que tu dinero crece es la
+      derivada <m>dA/dt</m>, y se nos dice que esta tasa es
       <m>0.03 A</m>.
-      This leads to the differential equation
+      Esto lleva a la ecuación diferencial
       <me permid="oBK">
         \frac{dA}{dt} = 0.03 A
       </me>.
     </p>
 
     <p permid="Ret">
-      This differential equation has a slightly different feel than the previous equation <m>\frac{ds}{dt} = 4t+1</m>.
-      In the earlier example,
-      the rate of change depends only on the independent variable <m>t</m>,
-      and we may find <m>s(t)</m> by integrating the velocity <m>4t+1</m>.
-      In the banking example, however,
-      the rate of change depends on the dependent variable <m>A</m>,
-      so we'll need some new techniques in order to find <m>A(t)</m>.
+      Esta ecuación diferencial tiene una sensación ligeramente diferente a la ecuación anterior <m>\frac{ds}{dt} = 4t+1</m>.
+      En el ejemplo anterior,
+      la tasa de cambio depende solo de la variable independiente <m>t</m>,
+      y podemos encontrar <m>s(t)</m> integrando la velocidad <m>4t+1</m>.
+      En el ejemplo del banco, sin embargo,
+      la tasa de cambio depende de la variable dependiente <m>A</m>,
+      por lo que necesitaremos algunas técnicas nuevas para encontrar <m>A(t)</m>.
     </p>
 
     <xi:include href="./activities/act-7-1-1.xml" />
   </subsection>
 
   <subsection permid="wBI">
-    <title>Differential equations in the world around us</title>
+    <title>Ecuaciones diferenciales en el mundo que nos rodea</title>
     <p permid="xlC">
-      Differential equations give a natural way to describe phenomena we see in the real world.
-      For instance,
-      physical principles are frequently expressed as a description of how a quantity changes.
-      A good example is Newton's Second Law,
-      which says:
+      Las ecuaciones diferenciales dan una forma natural de describir los fenómenos que vemos en el mundo real.
+      Por ejemplo,
+      los principios físicos se expresan frecuentemente como una descripción de cómo cambia una cantidad.
+      Un buen ejemplo es la Segunda Ley de Newton,
+      que dice:
     </p>
 
     <blockquote permid="NzT">
       <p permid="nRQ">
-        <em>The product of an object's mass and acceleration equals the force applied to it. </em>
+        <em>El producto de la masa de un objeto y su aceleración es igual a la fuerza aplicada a él.</em>
       </p>
     </blockquote>
 
     <p permid="dsL">
-      For instance,
-      when gravity acts on an object near the earth's surface,
-      it exerts a force equal to <m>mg</m>,
-      the mass of the object times the
-      gravitational constant <m>g</m>.
-      We therefore have
+      Por ejemplo,
+      cuando la gravedad actúa sobre un objeto cerca de la superficie de la tierra,
+      ejerce una fuerza igual a <m>mg</m>,
+      la masa del objeto por el
+      constante gravitacional <m>g</m>.
+      Por lo tanto, tenemos
       <md permid="UIT">
         <mrow>ma =\mathstrut \amp  mg, \ \text{or}</mrow>
         <mrow>\frac{dv}{dt} =\mathstrut \amp  g</mrow>
       </md>,
-      where <m>v</m> is the velocity of the object,
-      and <m>g = 9.8</m> meters per
-      second squared.
-      Notice that this physical principle does not tell us
-      what the object's
-      velocity is, but rather how the object's velocity changes.
+      donde <m>v</m> es la velocidad del objeto,
+      y <m>g = 9.8</m> metros por
+      segundo al cuadrado.
+      Nota que este principio físico no nos dice
+      cuál es la velocidad del objeto, sino cómo cambia la velocidad del objeto.
     </p>
 
     <xi:include href="./activities/act-7-1-2.xml" />
 
     <p permid="JzU">
-      The point of this activity is to demonstrate how differential equations model processes in the real world.
-      In this example, two factors influence the velocities:
-      gravity and wind resistance.
-      The differential equation describes how these factors influence the rate of change of the velocities.
+      El objetivo de esta actividad es demostrar cómo las ecuaciones diferenciales modelan procesos en el mundo real.
+      En este ejemplo, dos factores influyen en las velocidades:
+      la gravedad y la resistencia del viento.
+      La ecuación diferencial describe cómo estos factores influyen en la tasa de cambio de las velocidades.
     </p>
   </subsection>
 
-  <subsection permid="cIR">
-    <title>Solving a differential equation</title>
-    <idx><h>differential equation</h><h>solution</h></idx>
+<subsection permid="cIR">
+  <title>Resolviendo una ecuación diferencial</title>
+  <idx><h>ecuación diferencial</h><h>solución</h></idx>
 
-    <p permid="pHd">
-      A differential equation describes the derivative,
-      or derivatives, of a function that is unknown to us.
-      By a <em>solution</em> to a differential equation,
-      we mean simply a function that satisfies this description.
+  <p permid="pHd">
+    Una ecuación diferencial describe la derivada,
+    o derivadas, de una función que nos es desconocida.
+    Por una <em>solución</em> a una ecuación diferencial,
+    nos referimos simplemente a una función que satisface esta descripción.
+  </p>
+
+  <p permid="VOm">
+    Por ejemplo, la primera ecuación diferencial que vimos es
+    <me permid="AQc">
+      \frac{ds}{dt} = 4t+1
+    </me>,
+    que describe una función desconocida <m>s(t)</m>.
+    Podemos comprobar que <m>s(t) =
+    2t^2+t</m> es una solución porque satisface esta descripción.
+    Nota
+    que <m>s(t) = 2t^2+t+4</m> también es una solución.
+  </p>
+
+  <p permid="BVv">
+    Si tenemos un candidato para una solución, es sencillo
+    comprobar si es una solución o no.
+    Antes de demostrarlo,
+    sin embargo, consideremos el mismo problema en un contexto más simple.
+    Supón que nos dan la ecuación
+    <m>2x^2 - 2x = 2x+6</m> y nos preguntan si <m>x=3</m> es una solución.
+    Para responder
+    a esta pregunta,
+    podríamos reescribir la variable <m>x</m> en la ecuación con
+    el símbolo <m>\Box</m>:
+    <me permid="gXl">
+      2\Box^2 - 2\Box = 2\Box + 6
+    </me>.
+  </p>
+
+  <p permid="icE">
+    Para determinar si <m>x=3</m> es una solución,
+    podemos investigar el valor de cada lado de la ecuación por separado cuando el valor <m>3</m> se coloca en <m>\Box</m> y ver si efectivamente los dos valores resultantes son iguales.
+    Haciendo esto, observamos que
+    <me permid="Neu">
+      2\Box^2 - 2\Box = 2\cdot3^2 - 2\cdot3 = 12
+    </me>,
+    y
+    <me permid="tlD">
+      2\Box + 6 = 2\cdot3 + 6 = 12
+    </me>.
+  </p>
+
+  <p permid="OjN">
+    Por lo tanto, <m>x=3</m> es efectivamente una solución.
+  </p>
+
+  <p permid="uqW">
+    Haremos lo mismo con las ecuaciones diferenciales.
+    Considera
+    la ecuación diferencial
+    <md permid="ZsM">
+      <mrow>\frac{dv}{dt} =\mathstrut \amp  1.5 - 0.5v, \ \text{or}</mrow>
+      <mrow>\frac{d\Box}{dt} =\mathstrut \amp  1.5 - 0.5\Box</mrow>
+    </md>.
+  </p>
+
+  <p permid="ayf">
+    Preguntemos si <m>v(t) = 3 - 2e^{-0.5t}</m> es una solución<fn>
+    En este momento,
+    no te preocupes por por qué elegimos esta función; pronto aprenderemos
+    técnicas para encontrar soluciones a ecuaciones diferenciales.
+    </fn>.
+    Usando esta fórmula para <m>v</m>, observa primero que
+    <me permid="FzV">
+      \frac{dv}{dt} =  \frac{d\Box}{dt}  = \frac{d}{dt}[3 - 2e^{-0.5t}] = -2e^{-0.5t} \cdot (-0.5) = e^{-0.5t}
+    </me>
+    y
+    <me permid="lHe">
+      1.5 - 0.5v = 1.5 - 0.5\Box= 1.5 - 0.5(3 - 2e^{-0.5t}) = 1.5 - 1.5 + e^{-0.5t} = e^{-0.5t}
+    </me>.
+  </p>
+
+  <p permid="GFo">
+    Dado que <m>\frac{dv}{dt}</m> y
+    <m>1.5 - 0.5v</m> coinciden para todos los valores de <m>t</m> cuando <m>v = 3-2e^{-0.5t}</m>,
+    hemos encontrado efectivamente una solución a la ecuación diferencial.
+  </p>
+
+  <xi:include href="./activities/act-7-1-3.xml" />
+
+  <p permid="mMx">
+    Esta actividad nos muestra algo interesante.
+    Nota que la ecuación diferencial tiene infinitas soluciones,
+    que están parametrizadas por la constante <m>C</m> en <m>v(t) = 3+Ce^{-0.5t}</m>.
+    En <xref ref="F-7-1-family">Figura</xref>,
+    vemos los gráficos de estas soluciones para algunos valores de <m>C</m>,
+    como se indica.
+  </p>
+
+  <figure xml:id="F-7-1-family" permid="PZa">
+    <caption>La familia de soluciones a la ecuación diferencial <m>\frac{dv}{dt} = 1.5 - 0.5v</m>.</caption>
+    <image width="47%" source="images/7_1_family" />
+  </figure>
+
+  <p permid="STG">
+    Nota que el valor de <m>C</m> está conectado al valor inicial de la velocidad <m>v(0)</m>,
+    ya que <m>v(0) = 3+C</m>.
+    En otras palabras,
+    mientras que la ecuación diferencial describe cómo cambia la velocidad como una función de la propia velocidad,
+    esto no es suficiente información para determinar la velocidad de manera única:
+    también necesitamos conocer la velocidad inicial.
+    Por esta razón,
+    las ecuaciones diferenciales típicamente tendrán infinitas soluciones,
+    una correspondiente a cada valor inicial.
+    Hemos visto este fenómeno antes:
+    dada la velocidad de un objeto en movimiento <m>v(t)</m>,
+    no podemos determinar de manera única la función de posición del objeto a menos que también conozcamos su posición inicial.
+  </p>
+
+  <p permid="zaP">
+    Si nos dan una ecuación diferencial y un valor inicial para la
+    función desconocida, decimos que tenemos un
+    <em>problema de valor inicial.</em>
+    Por ejemplo,
+    <me permid="ROn">
+      \frac{dv}{dt} = 1.5-0.5v, \ v(0) = 0.5
+    </me>
+    es un problema de valor inicial.
+    En este problema, conocemos el valor de
+    <m>v</m> en un momento y sabemos cómo <m>v</m> está cambiando.
+    En consecuencia, debería
+    haber exactamente una función <m>v</m> que satisfaga el problema de valor inicial.
+  </p>
+
+  <p permid="fhY">
+    Esto demuestra la siguiente propiedad general importante de los problemas de valor inicial.
+  </p>
+
+  <assemblage permid="oXj">
+    <p permid="Lph">
+      Los problemas de valor inicial que son
+      <q>bien comportados</q> tienen exactamente una solución,
+      que existe en algún intervalo alrededor del punto inicial.
     </p>
+  </assemblage>
 
-    <p permid="VOm">
-      For instance, the first differential equation we looked at is
-      <me permid="AQc">
-        \frac{ds}{dt} = 4t+1
-      </me>,
-      which describes an unknown function <m>s(t)</m>.
-      We may check that <m>s(t) =
-      2t^2+t</m> is a solution because it satisfies this description.
-      Notice
-      that <m>s(t) = 2t^2+t+4</m> is also a solution.
-    </p>
+  <p permid="rwq">
+    No nos preocuparemos por lo que significa <q>bien comportados</q>
+    <mdash />es una condición técnica que será satisfecha por todas las ecuaciones diferenciales que
+    consideremos.
+  </p>
 
-    <p permid="BVv">
-      If we have a candidate for a solution, it is straightforward to
-      check whether it is a solution or not.
-      Before we demonstrate,
-      however, let's consider the same issue in a simpler context.
-      Suppose we are given the equation
-      <m>2x^2 - 2x = 2x+6</m> and asked whether <m>x=3</m> is a solution.
-      To answer
-      this question,
-      we could rewrite the variable <m>x</m> in the equation with
-      the symbol <m>\Box</m>:
-      <me permid="gXl">
-        2\Box^2 - 2\Box = 2\Box + 6
-      </me>.
-    </p>
+  <p permid="XDz">
+    Para cerrar esta sección,
+    notamos que las ecuaciones diferenciales pueden clasificarse según ciertas características que pueden poseer.
+    Puedes ver muchos tipos diferentes de ecuaciones diferenciales en un curso posterior de ecuaciones diferenciales.
+    Por ahora, nos gustaría introducir algunos términos que se usan para describir ecuaciones diferenciales.
+  </p>
 
-    <p permid="icE">
-      To determine whether <m>x=3</m> is a solution,
-      we can investigate the value of each side of the equation separately when the value <m>3</m> is placed in <m>\Box</m> and see if indeed the two resulting values are equal.
-      Doing so, we observe that
-      <me permid="Neu">
-        2\Box^2 - 2\Box = 2\cdot3^2 - 2\cdot3 = 12
-      </me>,
-      and
-      <me permid="tlD">
-        2\Box + 6 = 2\cdot3 + 6 = 12
-      </me>.
-    </p>
+  <p permid="DKI">
+    Una ecuación diferencial de <em>primer orden</em>
+        <idx><h>ecuación diferencial</h><h>primer orden</h></idx>
+    es aquella en la que solo aparece la
+    primera derivada de la función.
+    Por esta razón,
+    <me permid="xVw">
+      \frac{dv}{dt} = 1.5-0.5v
+    </me>
+    es una ecuación de primer orden mientras que
+    <me permid="ecF">
+      \frac{d^2 y}{dt^2} = -10y
+    </me>
+    es una ecuación de segundo orden.
+  </p>
 
-    <p permid="OjN">
-      Therefore, <m>x=3</m> is indeed a solution.
-    </p>
+  <p permid="jRR">
+    Una ecuación diferencial es <em>autónoma</em>
+        <idx><h>autónoma</h></idx>
+        <idx><h>ecuación diferencial</h><h>autónoma</h></idx>
+    si la variable independiente no aparece en la descripción de la derivada.
+    Por ejemplo,
+    <me permid="KjO">
+      \frac{dv}{dt} = 1.5-0.5v
+    </me>
+    es autónoma porque la descripción de la derivada <m>dv/dt</m> no
+    depende del tiempo.
+    La ecuación
+    <me permid="qqX">
+      \frac{dy}{dt} = 1.5t - 0.5y
+    </me>,
+    sin embargo, no es autónoma.
+  </p>
+</subsection>
 
-    <p permid="uqW">
-      We will do the same thing with differential equations.
-      Consider
-      the differential equation
-      <md permid="ZsM">
-        <mrow>\frac{dv}{dt} =\mathstrut \amp  1.5 - 0.5v, \ \text{or}</mrow>
-        <mrow>\frac{d\Box}{dt} =\mathstrut \amp  1.5 - 0.5\Box</mrow>
-      </md>.
-    </p>
+<subsection permid="IQa">
+  <title>Resumen</title>
+  <p permid="wgj">
+    <ul permid="ZOl">
+      <li permid="yqV">
+        <p permid="Ppg">
+          Una ecuación diferencial es simplemente una ecuación que describe la(s) derivada(s) de una función desconocida.
+        </p>
+      </li>
 
-    <p permid="ayf">
-      Let's ask whether <m>v(t) = 3 - 2e^{-0.5t}</m> is a solution<fn>
-      At this time,
-      don't worry about why we chose this function;  we will learn
-      techniques for finding solutions to differential equations soon enough.
-      </fn>.
-      Using this formula for <m>v</m>, observe first that
-      <me permid="FzV">
-        \frac{dv}{dt} =  \frac{d\Box}{dt}  = \frac{d}{dt}[3 - 2e^{-0.5t}] = -2e^{-0.5t} \cdot (-0.5) = e^{-0.5t}
-      </me>
-      and
-      <me permid="lHe">
-        1.5 - 0.5v = 1.5 - 0.5\Box= 1.5 - 0.5(3 - 2e^{-0.5t}) = 1.5 - 1.5 + e^{-0.5t} = e^{-0.5t}
-      </me>.
-    </p>
+      <li permid="eye">
+        <p permid="vwp">
+          Los principios físicos, así como algunas situaciones cotidianas,
+          a menudo describen cómo cambia una cantidad,
+          lo que lleva a ecuaciones diferenciales.
+        </p>
+      </li>
 
-    <p permid="GFo">
-      Since <m>\frac{dv}{dt}</m> and
-      <m>1.5 - 0.5v</m> agree for all values of <m>t</m> when <m>v = 3-2e^{-0.5t}</m>,
-      we have indeed found a solution to the differential equation.
-    </p>
-
-    <xi:include href="./activities/act-7-1-3.xml" />
-
-    <p permid="mMx">
-      This activity shows us something interesting.
-      Notice that the differential equation has infinitely many solutions,
-      which are parametrized by the constant <m>C</m> in <m>v(t) = 3+Ce^{-0.5t}</m>.
-      In <xref ref="F-7-1-family">Figure</xref>,
-      we see the graphs of these solutions for a few values of <m>C</m>,
-      as labeled.
-    </p>
-
-    <figure xml:id="F-7-1-family" permid="PZa">
-      <caption>The family of solutions to the differential equation <m>\frac{dv}{dt} = 1.5 - 0.5v</m>.</caption>
-      <image width="47%" source="images/7_1_family" />
-    </figure>
-
-    <p permid="STG">
-      Notice that the value of <m>C</m> is connected to the initial value of the velocity <m>v(0)</m>,
-      since <m>v(0) = 3+C</m>.
-      In other words,
-      while the differential equation describes how the velocity changes as a function of the velocity itself,
-      this is not enough information to determine the velocity uniquely:
-      we also need to know the initial velocity.
-      For this reason,
-      differential equations will typically have infinitely many solutions,
-      one corresponding to each initial value.
-      We have seen this phenomenon before:
-      given the velocity of a moving object <m>v(t)</m>,
-      we cannot uniquely determine the object's position function unless we also know its initial position.
-    </p>
-
-    <p permid="zaP">
-      If we are given a differential equation and an initial value for the
-      unknown function, we say that we have an
-      <em>initial value problem.</em>
-      For instance,
-      <me permid="ROn">
-        \frac{dv}{dt} = 1.5-0.5v, \ v(0) = 0.5
-      </me>
-      is an initial value problem.
-      In this problem, we know the value of
-      <m>v</m> at one time and we know how <m>v</m> is changing.
-      Consequently, there should
-      be exactly one function <m>v</m> that satisfies the initial value problem.
-    </p>
-
-    <p permid="fhY">
-      This demonstrates the following important general property of initial value problems.
-    </p>
-
-    <assemblage permid="oXj">
-      <p permid="Lph">
-        Initial value problems that are
-        <q>well behaved</q> have exactly one solution,
-        which exists in some interval around the initial point.
-      </p>
-    </assemblage>
-
-    <p permid="rwq">
-      We won't worry about what <q>well behaved</q>
-      means<mdash />it is a technical
-      condition that will be satisfied by all the differential equations we
-      consider.
-    </p>
-
-    <p permid="XDz">
-      To close this section,
-      we note that differential equations may be classified based on certain characteristics they may possess.
-      You may see many different types of differential equations in a later course in differential equations.
-      For now, we would like to introduce a few terms that are used to describe differential equations.
-    </p>
-
-    <p permid="DKI">
-      A <em>first-order</em> differential equation
-          <idx><h>differential equation</h><h>first order</h></idx>
-      is one in which only the
-      first derivative of the function occurs.
-      For this reason,
-      <me permid="xVw">
-        \frac{dv}{dt} = 1.5-0.5v
-      </me>
-      is a first-order equation while
-      <me permid="ecF">
-        \frac{d^2 y}{dt^2} = -10y
-      </me>
-      is a second-order equation.
-    </p>
-
-    <p permid="jRR">
-      A differential equation is <em>autonomous</em>
-          <idx><h>autonomous</h></idx>
-          <idx><h>differential equation</h><h>autonomous</h></idx>
-      if the independent
-      variable does not appear in the description of the derivative.
-      For instance,
-      <me permid="KjO">
-        \frac{dv}{dt} = 1.5-0.5v
-      </me>
-      is autonomous because the description of the derivative <m>dv/dt</m> does
-      not depend on time.
-      The equation
-      <me permid="qqX">
-        \frac{dy}{dt} = 1.5t - 0.5y
-      </me>,
-      however, is not autonomous.
-    </p>
-  </subsection>
-
-  <subsection permid="IQa">
-    <title>Summary</title>
-    <p permid="wgj">
-      <ul permid="ZOl">
-        <li permid="yqV">
-          <p permid="Ppg">
-            A differential equation is simply an equation that describes the derivative(s) of an unknown function.
-          </p>
-        </li>
-
-        <li permid="eye">
-          <p permid="vwp">
-            Physical principles, as well as some everyday situations,
-            often describe how a quantity changes,
-            which lead to differential equations.
-          </p>
-        </li>
-
-        <li permid="KFn">
-          <p permid="bDy">
-            A solution to a differential equation is a function whose derivatives satisfy the equation's description.
-            Differential equations typically have infinitely many solutions,
-            parametrized by the initial values.
-          </p>
-        </li>
-      </ul>
-    </p>
-  </subsection>
+      <li permid="KFn">
+        <p permid="bDy">
+          Una solución a una ecuación diferencial es una función cuyas derivadas satisfacen la descripción de la ecuación.
+          Las ecuaciones diferenciales típicamente tienen infinitas soluciones,
+          parametrizadas por los valores iniciales.
+        </p>
+      </li>
+    </ul>
+  </p>
+</subsection>
 
   <xi:include href="./exercises/ez-7-1.xml" />
 </section>

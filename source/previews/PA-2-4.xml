@@ -14,19 +14,19 @@
 <!-- **********************************************************************-->
 <exploration xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-2-4" permid="hHS">
   <p permid="VtA">
-    Consider the function <m>f(x) = \tan(x)</m>, and remember that
+    Considera la función <m>f(x) = \tan(x)</m>, y recuerda que
     <m>\tan(x) = \frac{\sin(x)}{\cos(x)}</m>.
 
     <ol marker="a." permid="fSF">
       <li permid="LZO">
         <p permid="QJH">
-          What is the domain of <m>f</m>?
+          ¿Cuál es el dominio de <m>f</m>?
         </p>
       </li>
 
       <li permid="sgX">
         <p permid="wQQ">
-          Use the quotient rule to show that one expression for <m>f'(x)</m> is
+          Usa la regla del cociente para mostrar que una expresión para <m>f'(x)</m> es
           <me permid="BAJ">
             f'(x) = \frac{\cos(x)\cos(x) + \sin(x)\sin(x)}{\cos^2(x)}
           </me>.
@@ -35,25 +35,24 @@
 
       <li permid="Yog">
         <p permid="cXZ">
-          What is the Fundamental Trigonometric Identity?
-          How can this identity be used to find a simpler form for <m>f'(x)</m>?
+          ¿Cuál es la Identidad Trigonométrica Fundamental?
+          ¿Cómo se puede usar esta identidad para encontrar una forma más simple de <m>f'(x)</m>?
         </p>
       </li>
 
       <li permid="Evp">
         <p permid="Jfi">
-          Recall that <m>\sec(x) = \frac{1}{\cos(x)}</m>.
-          How can we express <m>f'(x)</m> in terms of the secant function?
+          Recuerda que <m>\sec(x) = \frac{1}{\cos(x)}</m>.
+          ¿Cómo podemos expresar <m>f'(x)</m> en términos de la función secante?
         </p>
       </li>
 
       <li permid="kCy">
         <p permid="pmr">
-          For what values of <m>x</m> is <m>f'(x)</m> defined?
-          How does this set compare to the domain of <m>f</m>?
+          ¿Para qué valores de <m>x</m> está definida <m>f'(x)</m>?
+          ¿Cómo se compara este conjunto con el dominio de <m>f</m>?
         </p>
       </li>
     </ol>
   </p>
 </exploration>
-

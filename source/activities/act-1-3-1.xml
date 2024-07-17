@@ -15,35 +15,35 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-1-3-1" permid="Mtw">
   <statement>
     <p permid="nQM">
-      Consider the function <m>f</m> whose formula is <m>\displaystyle f(x) = 3 - 2x</m>.
+      Considera la función <m>f</m> cuya fórmula es <m>\displaystyle f(x) = 3 - 2x</m>.
     </p>
 
     <p permid="TXV">
       <ol marker="a." permid="Bkx">
         <li permid="hrG">
-          What familiar type of function is <m>f</m>?
-          What can you say about the slope of <m>f</m> at every value of <m>x</m>?
+          ¿Qué tipo familiar de función es <m>f</m>?
+          ¿Qué puedes decir sobre la pendiente de <m>f</m> en cada valor de <m>x</m>?
         </li>
 
         <li permid="NyP">
-          Compute the average rate of change of <m>f</m> on the intervals <m>[1,4]</m>,
-          <m>[3,7]</m>, and <m>[5,5+h]</m>;
-          simplify each result as much as possible.
-          What do you notice about these quantities?
+          Calcula la tasa de cambio promedio de <m>f</m> en los intervalos <m>[1,4]</m>,
+          <m>[3,7]</m>, y <m>[5,5+h]</m>;
+          simplifica cada resultado tanto como sea posible.
+          ¿Qué notas sobre estas cantidades?
         </li>
 
         <li permid="tFY">
-          Use the limit definition of the derivative to compute the exact instantaneous rate of change of <m>f</m> with respect to <m>x</m> at the value <m>a = 1</m>.
-          That is, compute <m>f'(1)</m> using the limit definition.
-          Show your work.
-          Is your result surprising?
+          Usa la definición del límite de la derivada para calcular la tasa de cambio instantánea exacta de <m>f</m> con respecto a <m>x</m> en el valor <m>a = 1</m>.
+          Es decir, calcula <m>f'(1)</m> usando la definición del límite.
+          Muestra tu trabajo.
+          ¿Te sorprende el resultado?
         </li>
 
         <li permid="ZNh">
-          Without doing any additional computations,
-          what are the values of <m>f'(2)</m>,
-          <m>f'(\pi)</m>, and <m>f'(-\sqrt{2})</m>?
-          Why?
+          Sin hacer cálculos adicionales,
+          ¿cuáles son los valores de <m>f'(2)</m>,
+          <m>f'(\pi)</m>, y <m>f'(-\sqrt{2})</m>?
+          ¿Por qué?
         </li>
       </ol>
     </p>
@@ -52,25 +52,25 @@
     <p permid="HJD">
       <ol marker="a." permid="Vdo">
         <li permid="FUq">
-          If <m>f(x) = 3x^2 + 2x - 4</m>,
-          we say <q><m>f</m> is quadratic.</q>
-          If <m>f(x) = 5 e^{2x-1}</m>,
-          we say <q><m>f</m> is exponential.</q>
-          What do we say about <m>f(x) = 3-2x</m>?
+          Si <m>f(x) = 3x^2 + 2x - 4</m>,
+          decimos <q><m>f</m> es cuadrática.</q>
+          Si <m>f(x) = 5 e^{2x-1}</m>,
+          decimos <q><m>f</m> es exponencial.</q>
+          ¿Qué decimos sobre <m>f(x) = 3-2x</m>?
         </li>
 
         <li permid="mbz">
-          Remember that to compute the average rate of change of <m>f</m> on <m>[a,b]</m>,
-          we calculate <m>\frac{f(b)-f(a)}{b-a}</m>.
+          Recuerda que para calcular la tasa de cambio promedio de <m>f</m> en <m>[a,b]</m>,
+          calculamos <m>\frac{f(b)-f(a)}{b-a}</m>.
         </li>
 
         <li permid="SiI">
-          Observe that <m>f(1+h) = 3 - 2(1+h) = 3 - 2 - 2h = 1 - 2h</m>.
+          Observa que <m>f(1+h) = 3 - 2(1+h) = 3 - 2 - 2h = 1 - 2h</m>.
         </li>
 
         <li permid="ypR">
-          Think about the how the graph of <m>f</m> appears.
-          What is the same at every point?
+          Piensa en cómo aparece el gráfico de <m>f</m>.
+          ¿Qué es lo mismo en cada punto?
         </li>
       </ol>
     </p>
@@ -78,19 +78,19 @@
   <answer permid="wAE">
     <p permid="bCu">
       <ol marker="a." permid="oWf">
-        <li permid="exa"><m>f</m> is linear.</li>
+        <li permid="exa"><m>f</m> es lineal.</li>
 
         <li oldpermid="qLs" permid="SQn">
-          The average rate of change on <m>[1,4]</m>,
-          <m>[3,7]</m>, and <m>[5,5+h]</m> is <m>-2</m>.
+          La tasa de cambio promedio en <m>[1,4]</m>,
+          <m>[3,7]</m>, y <m>[5,5+h]</m> es <m>-2</m>.
         </li>
 
         <li oldpermid="KEj" permid="yXw"><m>f'(1)=-2</m>.</li>
 
         <li permid="WSB">
           <m>f'(2)=-2</m>, <m>f'(\pi)=-2</m>,
-          and <m>f'(-\sqrt{2})=-2</m>,
-          since the slope of a linear function is the same at every point.
+          y <m>f'(-\sqrt{2})=-2</m>,
+          ya que la pendiente de una función lineal es la misma en cada punto.
         </li>
       </ol>
     </p>
@@ -99,14 +99,14 @@
     <p permid="vvl">
       <ol marker="a." permid="IOW">
         <li permid="CZK">
-          Because <m>f(x) = 3 - 2x</m> is of the form <m>f(x) = mx + b</m>,
-          we call <m>f</m> a <em>linear</em> function.
+          Porque <m>f(x) = 3 - 2x</m> es de la forma <m>f(x) = mx + b</m>,
+          llamamos a <m>f</m> una función <em>lineal</em>.
         </li>
 
         <li permid="jgT">
-          The average rate of change on <m>[1,4]</m> is <m>\frac{f(4)-f(1)}{4-1} = \frac{-5 - 1}{3} = -2</m>.
-          Similar calculations show the average rate of change on <m>[3,7]</m> is also <m>-2</m>.
-          On <m>[5,5+h]</m>, observe that
+          La tasa de cambio promedio en <m>[1,4]</m> es <m>\frac{f(4)-f(1)}{4-1} = \frac{-5 - 1}{3} = -2</m>.
+          Cálculos similares muestran que la tasa de cambio promedio en <m>[3,7]</m> también es <m>-2</m>.
+          En <m>[5,5+h]</m>, observa que
           <md permid="Afe">
             <mrow>\frac{f(5+h)-f(5)}{h} \amp = \frac{3-2(5+h) - (3-10)}{h}</mrow>
             <mrow>\amp = \frac{3 - 10 - 2h + 7}{h}</mrow>
@@ -116,7 +116,7 @@
         </li>
 
         <li permid="Poc">
-          Using the limit definition of the derivative, we find that
+          Usando la definición del límite de la derivada, encontramos que
           <md permid="gmn">
             <mrow>f'(1) = \amp  \lim_{h \to 0} \frac{f(1+h) - f(1)}{h}</mrow>
             <mrow>= \amp  \lim_{h \to 0} \frac{(3 - 2(1+h)) - (3-2)}{h}</mrow>
@@ -130,4 +130,3 @@
     </p>
   </solution>
 </activity>
-

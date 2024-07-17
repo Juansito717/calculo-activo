@@ -16,7 +16,7 @@
   <xi:include href="./bookinfo.xml" />
     <!-- ISBN, website, other metadata -->
   <book permid="qaP">
-    <title>Active Calculus</title>
+    <title>Cálculo Activo</title>
     <xi:include href="./frontmatter.xml" />
 
     <xi:include href="./chap-1.xml" />

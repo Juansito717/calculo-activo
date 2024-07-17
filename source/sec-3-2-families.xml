@@ -13,19 +13,19 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-3-2-families" permid="sAJ">
-  <title>Using derivatives to describe families of functions</title>
+  <title>Usando derivadas para describir familias de funciones</title>
   <objectives permid="Rdt">
     <ul permid="JyU">
       <li permid="VNm">
         <p permid="upW">
-          Given a family of functions that depends on one or more parameters,
-          how does the shape of the graph of a typical function in the family depend on the value of the parameters?
+          Dada una familia de funciones que depende de uno o más parámetros,
+          ¿cómo depende la forma del gráfico de una función típica en la familia del valor de los parámetros?
         </p>
       </li>
 
       <li permid="BUv">
         <p permid="axf">
-          How can we construct first and second derivative sign charts of functions that depend on one or more parameters while allowing those parameters to remain arbitrary constants?
+          ¿Cómo podemos construir gráficos de signos de la primera y segunda derivada de funciones que dependen de uno o más parámetros mientras permitimos que esos parámetros permanezcan como constantes arbitrarias?
         </p>
       </li>
     </ul>
@@ -33,255 +33,254 @@
 
   <introduction permid="xkC">
     <p permid="Ndu">
-      Mathematicians are often interested in making general observations,
-      say by describing patterns that hold in a large number of cases.
-      Think about the Pythagorean Theorem:
-      it doesn't tell us something about a single right triangle,
-      but rather a fact about <em>every</em> right triangle.
-      In the next part of our studies,
-      we use calculus to make general observations about families of functions that depend on one or more parameters.
-      People who use applied mathematics,
-      such as engineers and economists,
-      often encounter the same types of functions where only small changes to certain constants occur.
-      These constants are called <em>parameters</em>.
+      Los matemáticos a menudo están interesados en hacer observaciones generales,
+      por ejemplo, describiendo patrones que se mantienen en un gran número de casos.
+      Piensa en el Teorema de Pitágoras:
+      no nos dice algo sobre un solo triángulo rectángulo,
+      sino más bien un hecho sobre <em>todos</em> los triángulos rectángulos.
+      En la siguiente parte de nuestros estudios,
+      usamos cálculo para hacer observaciones generales sobre familias de funciones que dependen de uno o más parámetros.
+      Las personas que usan matemáticas aplicadas,
+      como ingenieros y economistas,
+      a menudo encuentran los mismos tipos de funciones donde solo ocurren pequeños cambios en ciertas constantes.
+      Estas constantes se llaman <em>parámetros</em>.
     </p>
 
     <figure xml:id="F-3-2-SineFam" permid="lGe">
-      <caption>The graph of <m>f(t) = a \sin(b(t-c)) + d</m> based on parameters <m>a</m>, <m>b</m>, <m>c</m>, and <m>d</m>.</caption>
+      <caption>El gráfico de <m>f(t) = a \sin(b(t-c)) + d</m> basado en los parámetros <m>a</m>, <m>b</m>, <m>c</m>, y <m>d</m>.</caption>
       <image width="65%" source="images/3_2_SineFam" />
     </figure>
 
     <p permid="tkD">
-      You are already familiar with certain families of functions.
-      For example,
-      <m>f(t) = a \sin(b(t-c)) + d</m> is a stretched and shifted version of the sine function with amplitude <m>a</m>,
-      period <m>\frac{2\pi}{b}</m>,
-      phase shift <m>c</m>, and vertical shift <m>d</m>.
-      We know that <m>a</m> affects the size of the oscillation,
-      <m>b</m> the rapidity of oscillation,
-      and <m>c</m> where the oscillation starts,
-      as shown in <xref ref="F-3-2-SineFam">Figure</xref>,
-      while <m>d</m> affects the vertical positioning of the graph.
+      Ya estás familiarizado con ciertas familias de funciones.
+      Por ejemplo,
+      <m>f(t) = a \sin(b(t-c)) + d</m> es una versión estirada y desplazada de la función seno con amplitud <m>a</m>,
+      período <m>\frac{2\pi}{b}</m>,
+      desplazamiento de fase <m>c</m>, y desplazamiento vertical <m>d</m>.
+      Sabemos que <m>a</m> afecta el tamaño de la oscilación,
+      <m>b</m> la rapidez de la oscilación,
+      y <m>c</m> dónde comienza la oscilación,
+      como se muestra en <xref ref="F-3-2-SineFam">Figura</xref>,
+      mientras que <m>d</m> afecta la posición vertical del gráfico.
     </p>
 
     <p permid="ZrM">
-      As another example, every function of the form
-      <m>y = mx + b</m> is a line with slope <m>m</m> and <m>y</m>-intercept <m>(0,b)</m>.
-      The value of <m>m</m> affects the line's steepness,
-      and the value of <m>b</m> situates the line vertically on the coordinate axes.
-      These two parameters describe all possible non-vertical lines.
+      Como otro ejemplo, cada función de la forma
+      <m>y = mx + b</m> es una línea con pendiente <m>m</m> e intersección en <m>y</m> <m>(0,b)</m>.
+      El valor de <m>m</m> afecta la inclinación de la línea,
+      y el valor de <m>b</m> sitúa la línea verticalmente en los ejes de coordenadas.
+      Estos dos parámetros describen todas las posibles líneas no verticales.
     </p>
 
     <p permid="FyV">
-      For other less familiar families of functions,
-      we can use calculus to discover where key behavior occurs:
-      where members of the family are increasing or decreasing,
-      concave up or concave down,
-      where relative extremes occur, and more,
-      all in terms of the parameters involved.
-      To get started,
-      we revisit a common collection of functions to see how calculus confirms things we already know.
+      Para otras familias de funciones menos familiares,
+      podemos usar cálculo para descubrir dónde ocurre el comportamiento clave:
+      dónde los miembros de la familia están aumentando o disminuyendo,
+      cóncavos hacia arriba o hacia abajo,
+      dónde ocurren los extremos relativos, y más,
+      todo en términos de los parámetros involucrados.
+      Para empezar,
+      revisamos una colección común de funciones para ver cómo el cálculo confirma cosas que ya sabemos.
     </p>
 
     <xi:include href="./previews/PA-3-2.xml" />
   </introduction>
 
   <subsection permid="YHS">
-    <title>Describing families of functions in terms of parameters</title>
+    <title>Describiendo familias de funciones en términos de parámetros</title>
     <p permid="RNn">
-      Our goal is to describe the key characteristics of the overall behavior of each member of a family of functions in terms of its parameters.
-      By finding the first and second derivatives and constructing sign charts
-      (each of which may depend on one or more of the parameters),
-      we can often make broad conclusions about how each member of the family will appear.
+      Nuestro objetivo es describir las características clave del comportamiento general de cada miembro de una familia de funciones en términos de sus parámetros.
+      Al encontrar las primeras y segundas derivadas y construir gráficos de signos
+      (cada uno de los cuales puede depender de uno o más de los parámetros),
+      a menudo podemos hacer conclusiones amplias sobre cómo aparecerá cada miembro de la familia.
     </p>
 
     <example xml:id="Ex-3-2-1" permid="kWk">
       <statement>
         <p permid="gWl">
-          Consider the two-parameter family of functions given by <m>g(x) = axe^{-bx}</m>,
-          where <m>a</m> and <m>b</m> are positive real numbers.
-          Fully describe the behavior of a typical member of the family in terms of <m>a</m> and <m>b</m>,
-          including the location of all critical numbers,
-          where <m>g</m> is increasing, decreasing, concave up,
-          and concave down, and the long term behavior of <m>g</m>.
+          Considera la familia de funciones de dos parámetros dada por <m>g(x) = axe^{-bx}</m>,
+          donde <m>a</m> y <m>b</m> son números reales positivos.
+          Describe completamente el comportamiento de un miembro típico de la familia en términos de <m>a</m> y <m>b</m>,
+          incluyendo la ubicación de todos los números críticos,
+          dónde <m>g</m> está aumentando, disminuyendo, cóncavo hacia arriba,
+          y cóncavo hacia abajo, y el comportamiento a largo plazo de <m>g</m>.
         </p>
       </statement>
       <solution permid="drL">
         <p permid="SSG">
-          We begin by computing <m>g'(x)</m>.
-          By the product rule,
+          Comenzamos calculando <m>g'(x)</m>.
+          Por la regla del producto,
           <me permid="KiO">
             g'(x) = ax \frac{d}{dx}\left[e^{-bx}\right] + e^{-bx} \frac{d}{dx}[ax]
           </me>.
-          By applying the chain rule and constant multiple rule,
-          we find that
+          Al aplicar la regla de la cadena y la regla del múltiplo constante,
+          encontramos que
           <me permid="qpX">
             g'(x) = axe^{-bx}(-b) + e^{-bx}(a)
           </me>.
         </p>
 
         <p permid="yZP">
-          To find the critical numbers of <m>g</m>,
-          we solve the equation <m>g'(x) = 0</m>.
-          By factoring <m>g'(x)</m>, we find
+          Para encontrar los números críticos de <m>g</m>,
+          resolvemos la ecuación <m>g'(x) = 0</m>.
+          Al factorizar <m>g'(x)</m>, encontramos
           <me permid="Wxg">
             0 = ae^{-bx}(-bx + 1)
           </me>.
         </p>
 
         <p permid="fgY">
-          Since we are given that <m>a \ne 0</m> and we know that
-          <m>e^{-bx} \ne 0</m> for all values of <m>x</m>,
-          the only way this equation can hold is when <m>-bx + 1 = 0</m>.
-          Solving for <m>x</m>, we find <m>x = \frac{1}{b}</m>,
-          and this is therefore the only critical number of <m>g</m>.
+          Dado que se nos da que <m>a \ne 0</m> y sabemos que
+          <m>e^{-bx} \ne 0</m> para todos los valores de <m>x</m>,
+          la única forma en que esta ecuación puede mantenerse es cuando <m>-bx + 1 = 0</m>.
+          Resolviendo para <m>x</m>, encontramos <m>x = \frac{1}{b}</m>,
+          y este es por lo tanto el único número crítico de <m>g</m>.
         </p>
 
         <p permid="Loh">
-          We construct the first derivative sign chart for <m>g</m> that is shown in <xref ref="F-3-2-signchartg">Figure</xref>.
+          Construimos el gráfico de signos de la primera derivada para <m>g</m> que se muestra en <xref ref="F-3-2-signchartg">Figura</xref>.
         </p>
 
         <figure xml:id="F-3-2-signchartg" permid="oAK">
-          <caption>The first derivative sign chart for <m>g(x) = axe^{-bx}</m>.</caption>
+          <caption>El gráfico de signos de la primera derivada para <m>g(x) = axe^{-bx}</m>.</caption>
           <image width="50%" source="images/3_2_signchartg" />
         </figure>
 
         <p permid="rvq">
-          Because the factor <m>ae^{-bx}</m> is always positive,
-          the sign of <m>g'</m> depends on the linear factor <m>(1-bx)</m>,
-          which is positive for
-          <m>x \lt \frac{1}{b}</m> and negative for <m>x \gt \frac{1}{b}</m>.
-          Hence we can not only conclude that <m>g</m> is always increasing for
-          <m>x \lt \frac{1}{b}</m> and decreasing for <m>x \gt \frac{1}{b}</m>,
-          but also that <m>g</m> has a global maximum at
-          <m>(\frac{1}{b}, g(\frac{1}{b}))</m> and no local minimum.
+          Debido a que el factor <m>ae^{-bx}</m> es siempre positivo,
+          el signo de <m>g'</m> depende del factor lineal <m>(1-bx)</m>,
+          que es positivo para
+          <m>x \lt \frac{1}{b}</m> y negativo para <m>x \gt \frac{1}{b}</m>.
+          Por lo tanto, no solo podemos concluir que <m>g</m> está siempre aumentando para
+          <m>x \lt \frac{1}{b}</m> y disminuyendo para <m>x \gt \frac{1}{b}</m>,
+          sino también que <m>g</m> tiene un máximo global en
+          <m>(\frac{1}{b}, g(\frac{1}{b}))</m> y ningún mínimo local.
         </p>
 
         <p permid="XCz">
-          We turn next to analyzing the concavity of <m>g</m>.
-          With <m>g'(x) = -abxe^{-bx} + ae^{-bx}</m>,
-          we differentiate to find that
+          A continuación, pasamos a analizar la concavidad de <m>g</m>.
+          Con <m>g'(x) = -abxe^{-bx} + ae^{-bx}</m>,
+          diferenciamos para encontrar que
           <me permid="CEp">
             g''(x) = -abxe^{-bx}(-b) + e^{-bx}(-ab) + ae^{-bx}(-b)
           </me>.
         </p>
 
         <p permid="DJI">
-          Combining like terms and factoring, we now have
+          Combinando términos similares y factorizando, ahora tenemos
           <me permid="iLy">
             g''(x) = ab^2xe^{-bx} - 2abe^{-bx} = abe^{-bx}(bx - 2)
           </me>.
         </p>
 
         <figure xml:id="F-3-2-signchartg2" permid="UHT">
-          <caption>The second derivative sign chart for <m>g(x) = axe^{-bx}</m>.</caption>
+          <caption>El gráfico de signos de la segunda derivada para <m>g(x) = axe^{-bx}</m>.</caption>
           <image width="50%" source="images/3_2_signchartg2" />
         </figure>
+      
+<p permid="jQR">
+  Observamos que <m>abe^{-bx}</m> es siempre positivo,
+  y así el signo de <m>g''</m> depende del signo de <m>(bx-2)</m>,
+  que es cero cuando <m>x = \frac{2}{b}</m>.
+  Dado que <m>b</m> es positivo,
+  el valor de <m>(bx-2)</m> es negativo para
+  <m>x \lt \frac{2}{b}</m> y positivo para <m>x \gt \frac{2}{b}</m>.
+  El gráfico de signos para <m>g''</m> se muestra en <xref ref="F-3-2-signchartg2">Figura</xref>.
+  Así, <m>g</m> es cóncavo hacia abajo para todo
+  <m>x \lt \frac{2}{b}</m> y cóncavo hacia arriba para todo <m>x \gt \frac{2}{b}</m>.
+</p>
 
-        <p permid="jQR">
-          We observe that <m>abe^{-bx}</m> is always positive,
-          and thus the sign of <m>g''</m> depends on the sign of <m>(bx-2)</m>,
-          which is zero when <m>x = \frac{2}{b}</m>.
-          Since <m>b</m> is positive,
-          the value of <m>(bx-2)</m> is negative for
-          <m>x \lt \frac{2}{b}</m> and positive for <m>x \gt \frac{2}{b}</m>.
-          The sign chart for <m>g''</m> is shown in <xref ref="F-3-2-signchartg2">Figure</xref>.
-          Thus, <m>g</m> is concave down for all
-          <m>x \lt \frac{2}{b}</m> and concave up for all <m>x \gt \frac{2}{b}</m>.
+<p permid="PYa">
+  Finalmente, analizamos el comportamiento a largo plazo de <m>g</m> considerando dos límites.
+  Primero, notamos que
+  <me permid="OSH">
+    \lim_{x \to \infty} g(x) = \lim_{x \to \infty} axe^{-bx} = \lim_{x \to \infty} \frac{ax}{e^{bx}}
+  </me>.
+</p>
+
+<p permid="wfj">
+  Este límite tiene forma indeterminada <m>\frac{\infty}{\infty}</m>, así que
+  aplicamos la Regla de L'Hôpital y encontramos que <m>\lim_{x \to \infty} g(x) = 0</m>.
+  En la otra dirección,
+  <me permid="uZQ">
+    \lim_{x \to -\infty} g(x) = \lim_{x \to -\infty} axe^{-bx} = -\infty
+  </me>,
+  porque <m>ax \to -\infty</m> y
+  <m>e^{-bx} \to \infty</m> cuando <m>x \to -\infty</m>.
+  Por lo tanto, a medida que nos movemos hacia la izquierda en su gráfico,
+  <m>g</m> disminuye sin límite,
+  mientras que a medida que nos movemos hacia la derecha, <m>g(x) \to 0</m>.
+</p>
+
+<p permid="cms">
+  Toda esta información ahora nos ayuda a producir el gráfico de un miembro típico de esta familia de funciones sin usar una utilidad de graficación
+  (y sin elegir valores particulares para <m>a</m> y <m>b</m>),
+  como se muestra en <xref ref="F-3-2-SurgeFam">Figura</xref>.
+</p>
+
+<figure xml:id="F-3-2-SurgeFam" permid="APc">
+  <caption>El gráfico de <m>g(x) = axe^{-bx}</m>.</caption>
+  <image width="80%" source="images/3_2_SurgeFam" />
+</figure>
+
+<p permid="ItB">
+  Nota que el valor de <m>b</m> controla la ubicación horizontal del máximo global y el punto de inflexión,
+  ya que ninguno depende de <m>a</m>.
+  El valor de <m>a</m> afecta la extensión vertical del gráfico.
+  Por ejemplo,
+  el máximo global ocurre en el punto <m>(\frac{1}{b}, g(\frac{1}{b})) = (\frac{1}{b}, \frac{a}{b}e^{-1})</m>,
+  así que cuanto mayor sea el valor de <m>a</m>,
+  mayor será el valor del máximo global.
+</p>
+</solution>
+</example>
+
+<p permid="xUw">
+  El trabajo que hemos completado en <xref ref="Ex-3-2-1">Ejemplo</xref>
+  a menudo se puede replicar para otras familias de funciones que dependen de parámetros.
+  Normalmente estamos más interesados en determinar todos los números críticos,
+  un gráfico de signos de la primera derivada,
+  un gráfico de signos de la segunda derivada,
+  y el límite de la función cuando <m>x \to \infty</m>.
+  A lo largo,
+  preferimos trabajar con los parámetros como constantes arbitrarias.
+  Además,
+  podemos experimentar con algunos valores particulares de los parámetros presentes para reducir la complejidad algebraica de nuestro trabajo.
+  Las siguientes actividades ofrecen varios ejemplos clave donde vemos que los valores de los parámetros afectan sustancialmente el comportamiento de funciones individuales dentro de una familia dada.
+</p>
+
+<xi:include href="./activities/act-3-2-1.xml" />
+
+<xi:include href="./activities/act-3-2-2.xml" />
+
+<xi:include href="./activities/act-3-2-3.xml" />
+</subsection>
+
+<subsection permid="EPb">
+  <title>Resumen</title>
+  <p permid="ebF">
+    <ul permid="pGd">
+      <li permid="ibE">
+        <p permid="GEo">
+          Dada una familia de funciones que depende de uno o más parámetros,
+          al investigar cómo los números críticos y las ubicaciones donde la segunda derivada es cero dependen de los valores de estos parámetros,
+          a menudo podemos describir con precisión la forma de la función en términos de los parámetros.
         </p>
+      </li>
 
-        <p permid="PYa">
-          Finally, we analyze the long term behavior of <m>g</m> by considering two limits.
-          First, we note that
-          <me permid="OSH">
-            \lim_{x \to \infty} g(x) = \lim_{x \to \infty} axe^{-bx} = \lim_{x \to \infty} \frac{ax}{e^{bx}}
-          </me>.
+      <li permid="OiN">
+        <p permid="mLx">
+          En particular,
+          así como podemos crear gráficos de signos de la primera y segunda derivada para una sola función,
+          a menudo podemos hacerlo para familias enteras de funciones donde los números críticos y los posibles puntos de inflexión dependen de constantes arbitrarias.
+          Estos gráficos de signos luego revelan dónde los miembros de la familia están aumentando o disminuyendo,
+          cóncavos hacia arriba o hacia abajo,
+          y nos ayudan a identificar extremos relativos y puntos de inflexión.
         </p>
+      </li>
+    </ul>
+  </p>
+</subsection>
 
-        <p permid="wfj">
-          This limit has indeterminate form <m>\frac{\infty}{\infty}</m>, so 
-          we apply L'Hôpital's Rule and find that <m>\lim_{x \to \infty} g(x) = 0</m>.
-          In the other direction,
-          <me permid="uZQ">
-            \lim_{x \to -\infty} g(x) = \lim_{x \to -\infty} axe^{-bx} = -\infty
-          </me>,
-          because <m>ax \to -\infty</m> and
-          <m>e^{-bx} \to \infty</m> as <m>x \to -\infty</m>.
-          Hence, as we move left on its graph,
-          <m>g</m> decreases without bound,
-          while as we move to the right, <m>g(x) \to 0</m>.
-        </p>
-
-        <p permid="cms">
-          All of this information now helps us produce the graph of a typical member of this family of functions without using a graphing utility
-          (and without choosing particular values for <m>a</m> and <m>b</m>),
-          as shown in <xref ref="F-3-2-SurgeFam">Figure</xref>.
-        </p>
-
-        <figure xml:id="F-3-2-SurgeFam" permid="APc">
-          <caption>The graph of <m>g(x) = axe^{-bx}</m>.</caption>
-          <image width="80%" source="images/3_2_SurgeFam" />
-        </figure>
-
-        <p permid="ItB">
-          Note that the value of <m>b</m> controls the horizontal location of the global maximum and the inflection point,
-          as neither depends on <m>a</m>.
-          The value of <m>a</m> affects the vertical stretch of the graph.
-          For example,
-          the global maximum occurs at the point <m>(\frac{1}{b}, g(\frac{1}{b})) = (\frac{1}{b}, \frac{a}{b}e^{-1})</m>,
-          so the larger the value of <m>a</m>,
-          the greater the value of the global maximum.
-        </p>
-      </solution>
-    </example>
-
-    <p permid="xUw">
-      The work we've completed in <xref ref="Ex-3-2-1">Example</xref>
-      can often be replicated for other families of functions that depend on parameters.
-      Normally we are most interested in determining all critical numbers,
-      a first derivative sign chart,
-      a second derivative sign chart,
-      and the limit of the function as <m>x \to \infty</m>.
-      Throughout,
-      we prefer to work with the parameters as arbitrary constants.
-      In addition,
-      we can experiment with some particular values of the parameters present to reduce the algebraic complexity of our work.
-      The following activities offer several key examples where we see that the values of the parameters substantially affect the behavior of individual functions within a given family.
-    </p>
-
-    <xi:include href="./activities/act-3-2-1.xml" />
-
-    <xi:include href="./activities/act-3-2-2.xml" />
-
-    <xi:include href="./activities/act-3-2-3.xml" />
-  </subsection>
-
-  <subsection permid="EPb">
-    <title>Summary</title>
-    <p permid="ebF">
-      <ul permid="pGd">
-        <li permid="ibE">
-          <p permid="GEo">
-            Given a family of functions that depends on one or more parameters,
-            by investigating how critical numbers and locations where the second derivative is zero depend on the values of these parameters,
-            we can often accurately describe the shape of the function in terms of the parameters.
-          </p>
-        </li>
-
-        <li permid="OiN">
-          <p permid="mLx">
-            In particular,
-            just as we can created first and second derivative sign charts for a single function,
-            we often can do so for entire families of functions where critical numbers and possible inflection points depend on arbitrary constants.
-            These sign charts then reveal where members of the family are increasing or decreasing,
-            concave up or concave down,
-            and help us to identify relative extremes and inflection points.
-          </p>
-        </li>
-      </ul>
-    </p>
-  </subsection>
-
-  <xi:include href="./exercises/ez-3-2.xml" />
+<xi:include href="./exercises/ez-3-2.xml" />
 </section>
-

@@ -13,25 +13,24 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-4-2-Riemann" permid="DvA">
-  <title>Riemann Sums</title>
+  <title>Sumas de Riemann</title>
   <objectives permid="Ift">
     <ul permid="AAU">
       <li permid="MPm">
         <p permid="xGo">
-          How can we use a Riemann sum to estimate the area between a given curve and the horizontal axis over a particular interval?
+          ¿Cómo podemos usar una suma de Riemann para estimar el área entre una curva dada y el eje horizontal sobre un intervalo particular?
         </p>
       </li>
 
       <li permid="sWv">
         <p permid="dNx">
-          What are the differences among left, right,
-          middle, and random Riemann sums?
+          ¿Cuáles son las diferencias entre las sumas de Riemann izquierda, derecha, media y aleatoria?
         </p>
       </li>
 
       <li permid="ZdE">
         <p permid="JUG">
-          How can we write Riemann sums in an abbreviated form?
+          ¿Cómo podemos escribir las sumas de Riemann en una forma abreviada?
         </p>
       </li>
     </ul>
@@ -39,422 +38,421 @@
 
   <introduction permid="UtL">
     <p permid="uLI">
-      In <xref ref="sec-4-1-velocity-distance">Section</xref>,
-      we learned that if an object moves with positive velocity <m>v</m>,
-      the area between <m>y = v(t)</m> and the <m>t</m>-axis over a given time interval tells us the distance traveled by the object over that time period.
-      If <m>v(t)</m> is sometimes negative and we view the area of any region below the <m>t</m>-axis as having an associated negative sign,
-      then the sum of these signed areas tells us the moving object's change in position over a given time interval.
+      En <xref ref="sec-4-1-velocity-distance">Sección</xref>,
+      aprendimos que si un objeto se mueve con velocidad positiva <m>v</m>,
+      el área entre <m>y = v(t)</m> y el eje <m>t</m> sobre un intervalo de tiempo dado nos dice la distancia recorrida por el objeto durante ese período de tiempo.
+      Si <m>v(t)</m> es a veces negativo y vemos el área de cualquier región debajo del eje <m>t</m> como teniendo un signo negativo asociado,
+      entonces la suma de estas áreas con signo nos dice el cambio en la posición del objeto en movimiento durante un intervalo de tiempo dado.
     </p>
 
     <sidebyside widths="47% 47%" margins="0%" permid="omC">
       <p permid="ixq">
-        For instance,
-        for the velocity function given in <xref ref="F-4-2-Intro">Figure</xref>,
-        if the areas of shaded regions are <m>A_1</m>,
-        <m>A_2</m>, and <m>A_3</m> as labeled,
-        then the total distance <m>D</m> traveled by the moving object on <m>[a,b]</m> is
+        Por ejemplo,
+        para la función de velocidad dada en <xref ref="F-4-2-Intro">Figura</xref>,
+        si las áreas de las regiones sombreadas son <m>A_1</m>,
+        <m>A_2</m> y <m>A_3</m> como se indica,
+        entonces la distancia total <m>D</m> recorrida por el objeto en movimiento en <m>[a,b]</m> es
         <me permid="nRd">
           D = A_1 + A_2 + A_3
         </me>,
-        while the total change in the object's position on <m>[a,b]</m> is
+        mientras que el cambio total en la posición del objeto en <m>[a,b]</m> es
         <me permid="TYm">
           s(b) - s(a) = A_1 - A_2 + A_3
         </me>.
       </p>
 
       <figure xml:id="F-4-2-Intro" permid="OEz">
-        <caption>A velocity function that is sometimes negative.</caption>
+        <caption>Una función de velocidad que es a veces negativa.</caption>
         <image source="images/4_2_Intro" />
       </figure>
     </sidebyside>
 
     <p permid="aSR">
-      Because the motion is in the negative direction on the interval where <m>v(t) \lt 0</m>,
-      we subtract <m>A_2</m> to determine the object's total change in position.
+      Debido a que el movimiento es en la dirección negativa en el intervalo donde <m>v(t) \lt 0</m>,
+      restamos <m>A_2</m> para determinar el cambio total en la posición del objeto.
     </p>
 
     <p permid="Haa">
-      Of course, finding <m>D</m> and
-      <m>s(b)-s(a)</m> for the graph in <xref ref="F-4-2-Intro">Figure</xref>
-      presumes that we can actually find the areas <m>A_1</m>,
-      <m>A_2</m>, and <m>A_3</m>.
-      So far,
-      we have worked with velocity functions that were either constant or linear,
-      so that the area bounded by the velocity function and the horizontal axis is a combination of rectangles and triangles,
-      and we can find the area exactly.
-      But when the curve bounds a region that is not a familiar geometric shape,
-      we cannot find its area exactly.
-      Indeed, this is one of our biggest goals in <xref ref="C-4">Chapter</xref>:
-      to learn how to find the exact area bounded between a curve and the horizontal axis for as many different types of functions as possible.
+      Por supuesto, encontrar <m>D</m> y
+      <m>s(b)-s(a)</m> para el gráfico en <xref ref="F-4-2-Intro">Figura</xref>
+      supone que realmente podemos encontrar las áreas <m>A_1</m>,
+      <m>A_2</m> y <m>A_3</m>.
+      Hasta ahora,
+      hemos trabajado con funciones de velocidad que eran constantes o lineales,
+      de modo que el área delimitada por la función de velocidad y el eje horizontal es una combinación de rectángulos y triángulos,
+      y podemos encontrar el área exactamente.
+      Pero cuando la curva delimita una región que no es una forma geométrica familiar,
+      no podemos encontrar su área exactamente.
+      De hecho, este es uno de nuestros mayores objetivos en <xref ref="C-4">Capítulo</xref>:
+      aprender cómo encontrar el área exacta delimitada entre una curva y el eje horizontal para tantos tipos diferentes de funciones como sea posible.
     </p>
 
     <p permid="nhj">
-      In <xref ref="act-4-1-1">Activity</xref>,
-      we approximated the area under a nonlinear velocity function using rectangles.
-      In the following preview activity,
-      we consider three different options for the heights of the rectangles we will use.
+      En <xref ref="act-4-1-1">Actividad</xref>,
+      aproximamos el área bajo una función de velocidad no lineal usando rectángulos.
+      En la siguiente actividad de vista previa,
+      consideramos tres opciones diferentes para las alturas de los rectángulos que usaremos.
     </p>
 
     <xi:include href="./previews/PA-4-2.xml" />
   </introduction>
 
   <subsection permid="jCJ">
-    <title>Sigma Notation</title>
+    <title>Notación Sigma</title>
     <p permid="Tos">
-      We have used sums of areas of rectangles to approximate the area under a curve.
-      Intuitively,
-      we expect that using a larger number of thinner rectangles will provide a better estimate for the area.
-      Consequently,
-      we anticipate dealing with sums of a large number of terms.
-      To do so, we introduce <em>sigma notation</em>,
-          <idx><h>sigma notation</h></idx>
-      named for the Greek letter <m>\Sigma</m>,
-      which is the capital letter <m>S</m> in the Greek alphabet.
+      Hemos usado sumas de áreas de rectángulos para aproximar el área bajo una curva.
+      Intuitivamente,
+      esperamos que usar un mayor número de rectángulos más delgados proporcione una mejor estimación del área.
+      En consecuencia,
+      anticipamos tratar con sumas de un gran número de términos.
+      Para hacerlo, introducimos la <em>notación sigma</em>,
+          <idx><h>notación sigma</h></idx>
+      nombrada por la letra griega <m>\Sigma</m>,
+      que es la letra mayúscula <m>S</m> en el alfabeto griego.
     </p>
 
     <p permid="zvB">
-      For example, say we are interested in the sum
+      Por ejemplo, digamos que estamos interesados en la suma
       <me permid="Afv">
         1 + 2 + 3 + \cdots + 100
       </me>,
-      the sum of the first 100 natural numbers.
-      In sigma notation we write
+      la suma de los primeros 100 números naturales.
+      En notación sigma escribimos
       <me permid="gmE">
         \sum_{k=1}^{100} k =  1 + 2 + 3 + \cdots + 100
       </me>.
     </p>
 
     <p permid="fCK">
-      We read the symbol <m>\sum_{k=1}^{100} k</m> as
-      <q>the sum from <m>k</m> equals 1 to 100 of <m>k</m>.</q>
-      The variable <m>k</m> is called the index of summation,
-      and any letter can be used for this variable.
-      The pattern in the terms of the sum is denoted by a function of the index;
-      for example,
+      Leemos el símbolo <m>\sum_{k=1}^{100} k</m> como
+      <q>la suma desde <m>k</m> igual a 1 hasta 100 de <m>k</m>.</q>
+      La variable <m>k</m> se llama el índice de sumación,
+      y cualquier letra puede ser usada para esta variable.
+      El patrón en los términos de la suma se denota por una función del índice;
+      por ejemplo,
       <me permid="MtN">
         \sum_{k=1}^{10} (k^2 + 2k) =  (1^2 + 2\cdot 1) + (2^2 + 2\cdot 2) + (3^2 + 2\cdot 3) + \cdots + (10^2 + 2\cdot 10)
       </me>,
-      and more generally,
+      y más generalmente,
       <me permid="sAW">
         \sum_{k=1}^n f(k) = f(1) + f(2) + \cdots + f(n)
       </me>.
     </p>
 
     <p permid="LJT">
-      Sigma notation allows us to vary easily the function being used to describe the terms in the sum,
-      and to adjust the number of terms in the sum simply by changing the value of <m>n</m>.
-      We test our understanding of this new notation in the following activity.
+      La notación sigma nos permite variar fácilmente la función que se usa para describir los términos en la suma,
+      y ajustar el número de términos en la suma simplemente cambiando el valor de <m>n</m>.
+      Probamos nuestra comprensión de esta nueva notación en la siguiente actividad.
     </p>
 
     <xi:include href="./activities/act-4-2-1.xml" />
   </subsection>
 
   <subsection permid="PJS">
-    <title>Riemann Sums</title>
+    <title>Sumas de Riemann</title>
     <p permid="rRc">
-      When a moving body has a positive velocity function
-      <m>y = v(t)</m> on a given interval <m>[a,b]</m>,
-      the area under the curve over the interval gives the total distance the body travels on <m>[a,b]</m>.
-      We are also interested in finding the exact area bounded by
-      <m>y = f(x)</m> on an interval <m>[a,b]</m>,
-      regardless of the meaning or context of the function <m>f</m>.
-      For now, we continue to focus on finding an accurate estimate of this area by using a sum of the areas of rectangles.
-      Unless otherwise indicated,
-      we assume that <m>f</m> is continuous and non-negative on <m>[a,b]</m>.
+      Cuando un cuerpo en movimiento tiene una función de velocidad positiva
+      <m>y = v(t)</m> en un intervalo dado <m>[a,b]</m>,
+      el área bajo la curva sobre el intervalo da la distancia total que el cuerpo recorre en <m>[a,b]</m>.
+      También estamos interesados en encontrar el área exacta delimitada por
+      <m>y = f(x)</m> en un intervalo <m>[a,b]</m>,
+      independientemente del significado o contexto de la función <m>f</m>.
+      Por ahora, seguimos enfocándonos en encontrar una estimación precisa de esta área usando una suma de las áreas de los rectángulos.
+      A menos que se indique lo contrario,
+      asumimos que <m>f</m> es continua y no negativa en <m>[a,b]</m>.
     </p>
 
     <p permid="XYl">
-      The first choice we make in such an approximation is the number of rectangles.
+      La primera elección que hacemos en tal aproximación es el número de rectángulos.
     </p>
 
     <figure xml:id="F-4-2-Interval" permid="SiZ">
-      <caption>Subdividing the interval <m>[a,b]</m> into <m>n</m> subintervals of equal length <m>\Delta x</m>.</caption>
+      <caption>Subdividiendo el intervalo <m>[a,b]</m> en <m>n</m> subintervalos de igual longitud <m>\Delta x</m>.</caption>
       <image width="80%" source="images/4_2_Interval" />
     </figure>
 
     <p permid="Efu">
-      If we desire <m>n</m> rectangles of equal width to subdivide the interval <m>[a,b]</m>,
-      then each rectangle must have width <m>\Delta x = \frac{b-a}{n}</m>.
-      We let <m>x_0 = a</m>, <m>x_n = b</m>,
-      and define <m>x_{i} = a + i\Delta x</m>,
-      so that <m>x_1 = x_0 + \Delta x</m>,
+      Si deseamos <m>n</m> rectángulos de igual ancho para subdividir el intervalo <m>[a,b]</m>,
+      entonces cada rectángulo debe tener un ancho de <m>\Delta x = \frac{b-a}{n}</m>.
+      Dejamos que <m>x_0 = a</m>, <m>x_n = b</m>,
+      y definimos <m>x_{i} = a + i\Delta x</m>,
+      de modo que <m>x_1 = x_0 + \Delta x</m>,
       <m>x_2 = x_0 + 2 \Delta x</m>,
-      and so on, as pictured in <xref ref="F-4-2-Interval">Figure</xref>.
+      y así sucesivamente, como se muestra en <xref ref="F-4-2-Interval">Figura</xref>.
     </p>
 
     <p permid="kmD">
-      We use each subinterval <m>[x_i, x_{i+1}]</m> as the base of a rectangle,
-      and next choose the height of the rectangle on that subinterval.
-      There are three standard choices: we can
-      use the left endpoint of each subinterval,
-      the right endpoint of each subinterval, or the midpoint of each.
-      These are precisely the options encountered in <xref ref="PA-4-2">Preview Activity</xref>
-      and seen in <xref ref="F-4-2-PA1">Figure</xref>.
-      We next explore how these choices can be described in sigma notation.
+      Usamos cada subintervalo <m>[x_i, x_{i+1}]</m> como la base de un rectángulo,
+      y luego elegimos la altura del rectángulo en ese subintervalo.
+      Hay tres opciones estándar: podemos
+      usar el extremo izquierdo de cada subintervalo,
+      el extremo derecho de cada subintervalo, o el punto medio de cada uno.
+      Estas son precisamente las opciones encontradas en <xref ref="PA-4-2">Actividad de Vista Previa</xref>
+      y vistas en <xref ref="F-4-2-PA1">Figura</xref>.
+      A continuación exploramos cómo estas opciones pueden ser descritas en notación sigma.
     </p>
 
     <p permid="QtM">
-      Consider an arbitrary positive function <m>f</m> on <m>[a,b]</m> with the interval subdivided as shown in <xref ref="F-4-2-Interval">Figure</xref>,
-      and choose to use left endpoints.
-      Then on each interval <m>[x_{i}, x_{i+1}]</m>,
-      the area of the rectangle formed is given by
+      Considera una función positiva arbitraria <m>f</m> en <m>[a,b]</m> con el intervalo subdividido como se muestra en <xref ref="F-4-2-Interval">Figura</xref>,
+      y elige usar los extremos izquierdos.
+      Entonces en cada intervalo <m>[x_{i}, x_{i+1}]</m>,
+      el área del rectángulo formado se da por
       <me permid="YIf">
         A_{i+1} = f(x_i) \cdot \Delta x
       </me>,
-      as seen in <xref ref="F-4-2-LeftSum">Figure</xref>.
+      como se ve en <xref ref="F-4-2-LeftSum">Figura</xref>.
     </p>
 
     <figure xml:id="F-4-2-LeftSum" permid="yqi">
-      <caption>Subdividing the interval <m>[a,b]</m> into <m>n</m> subintervals of equal length <m>\Delta x</m> and approximating the area under <m>y = f(x)</m> over <m>[a,b]</m> using left rectangles.</caption>
+      <caption>Subdividiendo el intervalo <m>[a,b]</m> en <m>n</m> subintervalos de igual longitud <m>\Delta x</m> y aproximando el área bajo <m>y = f(x)</m> sobre <m>[a,b]</m> usando rectángulos izquierdos.</caption>
       <image width="73%" source="images/4_2_LeftSum" />
     </figure>
 
     <p permid="wAV">
-      If we let <m>L_n</m> denote the sum of the areas of these rectangles,
-      we see that
+      Si dejamos que <m>L_n</m> denote la suma de las áreas de estos rectángulos,
+      vemos que
       <md permid="kWx">
         <mrow>L_n =\mathstrut \amp  A_1 + A_2 + \cdots + A_{i+1} + \cdots + A_n</mrow>
         <mrow>=\mathstrut \amp  f(x_0) \cdot \Delta x + f(x_1) \cdot \Delta x + \cdots + f(x_i) \cdot \Delta x + \cdots + f(x_{n-1}) \cdot \Delta x</mrow>
       </md>.
-      In the more compact sigma notation, we have
+      En la notación sigma más compacta, tenemos
       <me permid="EPo">
         L_n = \sum_{i = 0}^{n-1} f(x_i) \Delta x
       </me>.
     </p>
 
     <p permid="cIe">
-      Note that since the index of summation begins at <m>0</m> and ends at <m>n-1</m>,
-      there are indeed <m>n</m> terms in this sum.
-      We call <m>L_n</m> the <em>left Riemann sum</em>
-          <idx><h>Riemann sum</h></idx>
-          <idx><h>Riemann sum</h><h>left</h></idx>
-      for the function <m>f</m> on the interval <m>[a,b]</m>.
+      Nota que dado que el índice de sumación comienza en <m>0</m> y termina en <m>n-1</m>,
+      hay de hecho <m>n</m> términos en esta suma.
+      Llamamos a <m>L_n</m> la <em>suma de Riemann izquierda</em>
+          <idx><h>suma de Riemann</h></idx>
+          <idx><h>suma de Riemann</h><h>izquierda</h></idx>
+      para la función <m>f</m> en el intervalo <m>[a,b]</m>.
     </p>
 
     <p permid="IPn">
-      To see how the Riemann sums for right endpoints and midpoints are constructed,
-      we consider <xref ref="F-4-2-RightMidSum">Figure</xref>.
+      Para ver cómo se construyen las sumas de Riemann para los extremos derechos y los puntos medios,
+      consideramos <xref ref="F-4-2-RightMidSum">Figura</xref>.
     </p>
 
     <figure xml:id="F-4-2-RightMidSum" permid="exr">
-      <caption>Riemann sums using right endpoints and midpoints.</caption>
+      <caption>Sumas de Riemann usando extremos derechos y puntos medios.</caption>
       <image width="100%" source="images/4_2_RightMidSum" />
     </figure>
 
-    <p permid="oWw">
-      For the sum with right endpoints,
-      we see that the area of the rectangle on an arbitrary interval
-      <m>[x_i, x_{i+1}]</m> is given by <m>B_{i+1} = f(x_{i+1}) \cdot \Delta x</m>,
-      and that the sum of all such areas of rectangles is given by
-      <md permid="RdG">
-        <mrow>R_n =\mathstrut \amp  B_1 + B_2 + \cdots + B_{i+1} + \cdots + B_n</mrow>
-        <mrow>=\mathstrut \amp  f(x_1) \cdot \Delta x + f(x_2) \cdot \Delta x + \cdots + f(x_{i+1}) \cdot \Delta x + \cdots + f(x_{n}) \cdot \Delta x</mrow>
-        <mrow>=\mathstrut \amp  \sum_{i=1}^{n} f(x_i) \Delta x</mrow>
-      </md>.
-    </p>
+<p permid="oWw">
+  Para la suma con puntos finales derechos,
+  vemos que el área del rectángulo en un intervalo arbitrario
+  <m>[x_i, x_{i+1}]</m> está dada por <m>B_{i+1} = f(x_{i+1}) \cdot \Delta x</m>,
+  y que la suma de todas esas áreas de rectángulos está dada por
+  <md permid="RdG">
+    <mrow>R_n =\mathstrut \amp  B_1 + B_2 + \cdots + B_{i+1} + \cdots + B_n</mrow>
+    <mrow>=\mathstrut \amp  f(x_1) \cdot \Delta x + f(x_2) \cdot \Delta x + \cdots + f(x_{i+1}) \cdot \Delta x + \cdots + f(x_{n}) \cdot \Delta x</mrow>
+    <mrow>=\mathstrut \amp  \sum_{i=1}^{n} f(x_i) \Delta x</mrow>
+  </md>.
+</p>
 
-    <p permid="VdF">
-      We call <m>R_n</m> the <em>right Riemann sum</em>
-          <idx><h>Riemann sum</h><h>right</h></idx>
-      for the function <m>f</m> on the interval <m>[a,b]</m>.
-    </p>
+<p permid="VdF">
+  Llamamos <m>R_n</m> la <em>suma de Riemann derecha</em>
+      <idx><h>suma de Riemann</h><h>derecha</h></idx>
+  para la función <m>f</m> en el intervalo <m>[a,b]</m>.
+</p>
 
-    <p permid="BkO">
-      For the sum that uses midpoints, we introduce the notation
-      <me permid="xkP">
-        \overline{x}_{i+1} = \frac{x_{i} + x_{i+1}}{2}
-      </me>
-      so that <m>\overline{x}_{i+1}</m> is the midpoint of the interval <m>[x_i, x_{i+1}]</m>.
-      For instance,
-      for the rectangle with area <m>C_1</m> in <xref ref="F-4-2-RightMidSum">Figure</xref>,
-      we now have
-      <me permid="drY">
-        C_1 = f(\overline{x}_1) \cdot \Delta x
-      </me>.
-    </p>
+<p permid="BkO">
+  Para la suma que usa puntos medios, introducimos la notación
+  <me permid="xkP">
+    \overline{x}_{i+1} = \frac{x_{i} + x_{i+1}}{2}
+  </me>
+  de modo que <m>\overline{x}_{i+1}</m> es el punto medio del intervalo <m>[x_i, x_{i+1}]</m>.
+  Por ejemplo,
+  para el rectángulo con área <m>C_1</m> en <xref ref="F-4-2-RightMidSum">Figura</xref>,
+  ahora tenemos
+  <me permid="drY">
+    C_1 = f(\overline{x}_1) \cdot \Delta x
+  </me>.
+</p>
 
-    <p permid="hrX">
-      Hence, the sum of all the areas of rectangles that use midpoints is
-      <md permid="Jzh">
-        <mrow>M_n =\mathstrut \amp  C_1 + C_2 + \cdots + C_{i+1} + \cdots + C_n</mrow>
-        <mrow>=\mathstrut \amp  f(\overline{x_1}) \cdot \Delta x + f(\overline{x_2}) \cdot \Delta x + \cdots + f(\overline{x}_{i+1}) \cdot \Delta x + \cdots + f(\overline{x}_{n}) \cdot \Delta x</mrow>
-        <mrow>=\mathstrut \amp  \sum_{i=1}^{n} f(\overline{x}_i) \Delta x</mrow>
-      </md>,
-      and we say that <m>M_n</m> is the
-      <em>middle Riemann sum</em>
-          <idx><h>Riemann sum</h><h>middle</h></idx>
-      for <m>f</m> on <m>[a,b]</m>.
-    </p>
+<p permid="hrX">
+  Por lo tanto, la suma de todas las áreas de rectángulos que usan puntos medios es
+  <md permid="Jzh">
+    <mrow>M_n =\mathstrut \amp  C_1 + C_2 + \cdots + C_{i+1} + \cdots + C_n</mrow>
+    <mrow>=\mathstrut \amp  f(\overline{x_1}) \cdot \Delta x + f(\overline{x_2}) \cdot \Delta x + \cdots + f(\overline{x}_{i+1}) \cdot \Delta x + \cdots + f(\overline{x}_{n}) \cdot \Delta x</mrow>
+    <mrow>=\mathstrut \amp  \sum_{i=1}^{n} f(\overline{x}_i) \Delta x</mrow>
+  </md>,
+  y decimos que <m>M_n</m> es la
+  <em>suma de Riemann media</em>
+      <idx><h>suma de Riemann</h><h>media</h></idx>
+  para <m>f</m> en <m>[a,b]</m>.
+</p>
 
-    <p permid="Nzg">
-      Thus, we have two variables to explore:
-      the number of rectangles and the height of each rectangle.
-      We can explore these choices dynamically,
-      and <url href="https://gvsu.edu/s/a9" visual="gvsu.edu/s/a9">this applet</url>
-      is a particularly useful one.
-      There we see the image shown in <xref ref="F-4-2-RenaultAppletRS">Figure</xref>,
-      but with the opportunity to adjust the slider bars for the heights and the number of rectangles.
-    </p>
+<p permid="Nzg">
+  Así, tenemos dos variables para explorar:
+  el número de rectángulos y la altura de cada rectángulo.
+  Podemos explorar estas opciones dinámicamente,
+  y <url href="https://gvsu.edu/s/a9" visual="gvsu.edu/s/a9">este applet</url>
+  es particularmente útil.
+  Allí vemos la imagen mostrada en <xref ref="F-4-2-RenaultAppletRS">Figura</xref>,
+  pero con la oportunidad de ajustar las barras deslizantes para las alturas y el número de rectángulos.
+</p>
 
-    <figure xml:id="F-4-2-RenaultAppletRS" permid="KEA">
-      <caption>A snapshot of the applet found at <url href="https://gvsu.edu/s/a9" visual="">gvsu.edu/s/a9</url>.</caption>
-      <image width="71%" source="images/4_2_RenaultAppletRS" />
-    </figure>
+<figure xml:id="F-4-2-RenaultAppletRS" permid="KEA">
+  <caption>Una captura del applet encontrado en <url href="https://gvsu.edu/s/a9" visual="">gvsu.edu/s/a9</url>.</caption>
+  <image width="71%" source="images/4_2_RenaultAppletRS" />
+</figure>
 
-    <p permid="tGp">
-      By moving the sliders,
-      we can see how the heights of the rectangles change as we consider left endpoints,
-      midpoints, and right endpoints,
-      as well as the impact that a larger number of narrower rectangles has on the approximation of the exact area bounded by the function and the horizontal axis.
-    </p>
+<p permid="tGp">
+  Moviendo los deslizadores,
+  podemos ver cómo cambian las alturas de los rectángulos al considerar puntos finales izquierdos,
+  puntos medios y puntos finales derechos,
+  así como el impacto que tiene un mayor número de rectángulos más estrechos en la aproximación del área exacta delimitada por la función y el eje horizontal.
+</p>
 
-    <p permid="ZNy">
-      When <m>f(x) \ge 0</m> on <m>[a,b]</m>,
-      each of the Riemann sums <m>L_n</m>, <m>R_n</m>,
-      and <m>M_n</m> provides an estimate of the area under the curve
-      <m>y = f(x)</m> over the interval <m>[a,b]</m>.
-      We also recall that in the context of a nonnegative velocity function <m>y = v(t)</m>,
-      the corresponding Riemann sums approximate the distance traveled on <m>[a,b]</m> by a moving object with velocity function <m>v</m>.
-    </p>
+<p permid="ZNy">
+  Cuando <m>f(x) \ge 0</m> en <m>[a,b]</m>,
+  cada una de las sumas de Riemann <m>L_n</m>, <m>R_n</m>,
+  y <m>M_n</m> proporciona una estimación del área bajo la curva
+  <m>y = f(x)</m> sobre el intervalo <m>[a,b]</m>.
+  También recordamos que en el contexto de una función de velocidad no negativa <m>y = v(t)</m>,
+  las sumas de Riemann correspondientes aproximan la distancia recorrida en <m>[a,b]</m> por un objeto en movimiento con función de velocidad <m>v</m>.
+</p>
 
-    <p permid="FUH">
-      There is a more general way to think of Riemann sums,
-      and that is to allow any choice of where the function is evaluated to determine the rectangle heights.
-      Rather than saying we'll always choose left endpoints,
-      or always choose midpoints,
-      we simply say that a point
-      <m>x_{i+1}^*</m> will be selected at random in the interval <m>[x_i, x_{i+1}]</m>
-      (so that <m>x_i \le x_{i+1}^* \le x_{i+1}</m>).
-      The Riemann sum is then given by
-      <me permid="pGq">
-        f(x_1^*) \cdot \Delta x + f(x_2^*) \cdot \Delta x + \cdots + f(x_{i+1}^*) \cdot \Delta x + \cdots + f(x_n^*) \cdot \Delta x = \sum_{i=1}^{n} f(x_i^*) \Delta x
-      </me>.
-    </p>
+<p permid="FUH">
+  Hay una forma más general de pensar en las sumas de Riemann,
+  y es permitir cualquier elección de dónde se evalúa la función para determinar las alturas de los rectángulos.
+  En lugar de decir que siempre elegiremos puntos finales izquierdos,
+  o siempre elegiremos puntos medios,
+  simplemente decimos que un punto
+  <m>x_{i+1}^*</m> será seleccionado al azar en el intervalo <m>[x_i, x_{i+1}]</m>
+  (de modo que <m>x_i \le x_{i+1}^* \le x_{i+1}</m>).
+  La suma de Riemann está entonces dada por
+  <me permid="pGq">
+    f(x_1^*) \cdot \Delta x + f(x_2^*) \cdot \Delta x + \cdots + f(x_{i+1}^*) \cdot \Delta x + \cdots + f(x_n^*) \cdot \Delta x = \sum_{i=1}^{n} f(x_i^*) \Delta x
+  </me>.
+</p>
 
-    <p permid="mbQ">
-      <url href="https://gvsu.edu/s/a9" visual="gvsu.edu/s/a9">
-      The applet noted earlier
-      </url> and referenced in <xref ref="F-4-2-RenaultAppletRS">Figure</xref>,
-      by unchecking the <q>relative</q> box at the top left,
-      and instead checking <q>random,</q>
-      we can easily explore the effect of using random point locations in subintervals on a Riemann sum.
-      In computational practice, we most often use <m>L_n</m>,
-      <m>R_n</m>, or <m>M_n</m>,
-      while the random Riemann sum is useful in theoretical discussions.
-      In the following activity,
-      we investigate several different Riemann sums for a particular velocity function.
-    </p>
+<p permid="mbQ">
+  <url href="https://gvsu.edu/s/a9" visual="gvsu.edu/s/a9">
+  El applet mencionado anteriormente
+  </url> y referenciado en <xref ref="F-4-2-RenaultAppletRS">Figura</xref>,
+  desmarcando la casilla <q>relativa</q> en la parte superior izquierda,
+  y en su lugar marcando <q>aleatorio,</q>
+  podemos explorar fácilmente el efecto de usar ubicaciones de puntos aleatorios en subintervalos en una suma de Riemann.
+  En la práctica computacional, usamos más a menudo <m>L_n</m>,
+  <m>R_n</m>, o <m>M_n</m>,
+  mientras que la suma de Riemann aleatoria es útil en discusiones teóricas.
+  En la siguiente actividad,
+  investigamos varias sumas de Riemann diferentes para una función de velocidad particular.
+</p>
 
-    <xi:include href="./activities/act-4-2-2.xml" />
-  </subsection>
+<xi:include href="./activities/act-4-2-2.xml" />
+</subsection>
 
-  <subsection permid="vRb">
-    <title>When the function is sometimes negative</title>
-    <p permid="qLJ">
-      For a Riemann sum such as
-      <me permid="VNz">
-        L_n = \sum_{i=0}^{n-1} f(x_i) \Delta x
-      </me>,
-      we can of course compute the sum even when <m>f</m> takes on negative values.
-      We know that when <m>f</m> is positive on <m>[a,b]</m>,
-      a Riemann sum estimates the area bounded between <m>f</m> and the horizontal axis over the interval.
-    </p>
+<subsection permid="vRb">
+  <title>Cuando la función es a veces negativa</title>
+  <p permid="qLJ">
+    Para una suma de Riemann como
+    <me permid="VNz">
+      L_n = \sum_{i=0}^{n-1} f(x_i) \Delta x
+    </me>,
+    por supuesto podemos calcular la suma incluso cuando <m>f</m> toma valores negativos.
+    Sabemos que cuando <m>f</m> es positiva en <m>[a,b]</m>,
+    una suma de Riemann estima el área delimitada entre <m>f</m> y el eje horizontal sobre el intervalo.
+  </p>
 
-    <figure xml:id="F-4-2-NegF" permid="bCL">
-      <caption>At left and center, two left Riemann sums for a function <m>f</m> that is sometimes negative; at right, the areas bounded by <m>f</m> on the interval <m>[a,d]</m>.</caption>
-      <image width="100%" source="images/4_2_NegF" />
-    </figure>
+  <figure xml:id="F-4-2-NegF" permid="bCL">
+    <caption>A la izquierda y en el centro, dos sumas de Riemann izquierdas para una función <m>f</m> que a veces es negativa; a la derecha, las áreas delimitadas por <m>f</m> en el intervalo <m>[a,d]</m>.</caption>
+    <image width="100%" source="images/4_2_NegF" />
+  </figure>
 
-    <p permid="WSS">
-      For the function pictured in the first graph of <xref ref="F-4-2-NegF">Figure</xref>,
-      a left Riemann sum with 12 subintervals over <m>[a,d]</m> is shown.
-      The function is negative on the interval <m>b \le x \le c</m>,
-      so at the four left endpoints that fall in <m>[b,c]</m>,
-      the terms <m>f(x_i) \Delta x</m> are negative.
-      This means that those four terms in the Riemann sum produce an estimate of the <em>opposite</em>
-      of the area bounded by <m>y = f(x)</m> and the <m>x</m>-axis on <m>[b,c]</m>.
-    </p>
+  <p permid="WSS">
+    Para la función representada en el primer gráfico de <xref ref="F-4-2-NegF">Figura</xref>,
+    se muestra una suma de Riemann izquierda con 12 subintervalos sobre <m>[a,d]</m>.
+    La función es negativa en el intervalo <m>b \le x \le c</m>,
+    por lo que en los cuatro puntos finales izquierdos que caen en <m>[b,c]</m>,
+    los términos <m>f(x_i) \Delta x</m> son negativos.
+    Esto significa que esos cuatro términos en la suma de Riemann producen una estimación del <em>opuesto</em>
+    del área delimitada por <m>y = f(x)</m> y el eje <m>x</m> en <m>[b,c]</m>.
+  </p>
 
-    <p permid="Dab">
-      In the middle graph of <xref ref="F-4-2-NegF">Figure</xref>,
-      we see that by increasing the number of rectangles the approximation of the area
-      (or the opposite of the area)
-      bounded by the curve appears to improve.
-    </p>
+  <p permid="Dab">
+    En el gráfico del medio de <xref ref="F-4-2-NegF">Figura</xref>,
+    vemos que al aumentar el número de rectángulos la aproximación del área
+    (o el opuesto del área)
+    delimitada por la curva parece mejorar.
+  </p>
 
-    <p permid="jhk">
-      In general,
-      any Riemann sum of a continuous function <m>f</m> on an interval <m>[a,b]</m> approximates the difference between the area that lies above the horizontal axis on <m>[a,b]</m> and under <m>f</m> and the area that lies below the horizontal axis on <m>[a,b]</m> and above <m>f</m>.
-      In the notation of <xref ref="F-4-2-NegF">Figure</xref>,
-      we may say that
-      <me permid="BUI">
-        L_{24} \approx A_1 - A_2 + A_3
-      </me>,
-      where <m>L_{24}</m> is the left Riemann sum using 24 subintervals shown in the middle graph.
-      <m>A_1</m> and <m>A_3</m> are the areas of the regions where <m>f</m> is positive,
-      and <m>A_2</m> is the area where <m>f</m> is negative.
-      We will call the quantity <m>A_1 - A_2 + A_3</m> the
-      <em>net signed area</em>
-          <idx><h>net signed area</h></idx>
-      bounded by <m>f</m> over the interval <m>[a,d]</m>,
-      where by the phrase <q>signed area</q>
-      we indicate that we are attaching a minus sign to the areas of regions that fall below the horizontal axis.
-    </p>
+  <p permid="jhk">
+    En general,
+    cualquier suma de Riemann de una función continua <m>f</m> en un intervalo <m>[a,b]</m> aproxima la diferencia entre el área que se encuentra por encima del eje horizontal en <m>[a,b]</m> y bajo <m>f</m> y el área que se encuentra por debajo del eje horizontal en <m>[a,b]</m> y sobre <m>f</m>.
+    En la notación de <xref ref="F-4-2-NegF">Figura</xref>,
+    podemos decir que
+    <me permid="BUI">
+      L_{24} \approx A_1 - A_2 + A_3
+    </me>,
+    donde <m>L_{24}</m> es la suma de Riemann izquierda usando 24 subintervalos mostrados en el gráfico del medio.
+    <m>A_1</m> y <m>A_3</m> son las áreas de las regiones donde <m>f</m> es positiva,
+    y <m>A_2</m> es el área donde <m>f</m> es negativa.
+    Llamaremos a la cantidad <m>A_1 - A_2 + A_3</m> el
+    <em>área neta firmada</em>
+        <idx><h>área neta firmada</h></idx>
+    delimitada por <m>f</m> sobre el intervalo <m>[a,d]</m>,
+    donde con la frase <q>área firmada</q>
+    indicamos que estamos adjuntando un signo menos a las áreas de las regiones que caen por debajo del eje horizontal.
+  </p>
 
-    <p permid="vvC">
-      Finally, we recall that if the function <m>f</m> represents the velocity of a moving object,
-      the sum of the areas bounded by the curve tells us the total distance traveled over the relevant time interval,
-      while the net signed area bounded by the curve computes the object's change in position on the interval.
-    </p>
+  <p permid="vvC">
+    Finalmente, recordamos que si la función <m>f</m> representa la velocidad de un objeto en movimiento,
+    la suma de las áreas delimitadas por la curva nos dice la distancia total recorrida durante el intervalo de tiempo relevante,
+    mientras que el área neta firmada delimitada por la curva calcula el cambio de posición del objeto en el intervalo.
+  </p>
 
-    <xi:include href="./activities/act-4-2-3.xml" />
-  </subsection>
+  <xi:include href="./activities/act-4-2-3.xml" />
+</subsection>
 
-  <subsection permid="bYk">
-    <title>Summary</title>
-    <p permid="HJU">
-      <ul permid="gId">
-        <li permid="FkN">
-          <p permid="qbP">
-            A Riemann sum is simply a sum of products of the form
-            <m>f(x_i^*) \Delta x</m> that estimates the area between a positive function and the horizontal axis over a given interval.
-            If the function is sometimes negative on the interval,
-            the Riemann sum estimates the difference between the areas that lie above the horizontal axis and those that lie below the axis.
-          </p>
-        </li>
+<subsection permid="bYk">
+  <title>Resumen</title>
+  <p permid="HJU">
+    <ul permid="gId">
+      <li permid="FkN">
+        <p permid="qbP">
+          Una suma de Riemann es simplemente una suma de productos de la forma
+          <m>f(x_i^*) \Delta x</m> que estima el área entre una función positiva y el eje horizontal sobre un intervalo dado.
+          Si la función es a veces negativa en el intervalo,
+          la suma de Riemann estima la diferencia entre las áreas que se encuentran por encima del eje horizontal y las que se encuentran por debajo del eje.
+        </p>
+      </li>
 
-        <li permid="lrW">
-          <p permid="WiY">
-            The three most common types of Riemann sums are left, right,
-            and middle sums,
-            but we can also work with a more general Riemann sum.
-            The only difference among these sums is the location of the point at which the function is evaluated to determine the height of the rectangle whose area is being computed.
-            For a left Riemann sum,
-            we evaluate the function at the left endpoint of each subinterval,
-            while for right and middle sums,
-            we use right endpoints and midpoints, respectively.
-          </p>
-        </li>
+      <li permid="lrW">
+        <p permid="WiY">
+          Los tres tipos más comunes de sumas de Riemann son las sumas izquierda, derecha,
+          y media,
+          pero también podemos trabajar con una suma de Riemann más general.
+          La única diferencia entre estas sumas es la ubicación del punto en el que se evalúa la función para determinar la altura del rectángulo cuya área se está calculando.
+          Para una suma de Riemann izquierda,
+          evaluamos la función en el punto final izquierdo de cada subintervalo,
+          mientras que para las sumas derecha y media,
+          usamos puntos finales derechos y puntos medios, respectivamente.
+        </p>
+      </li>
 
-        <li permid="Rzf">
-          <p permid="Cqh">
-            The left,
-            right, and middle Riemann sums are denoted <m>L_n</m>,
-            <m>R_n</m>, and <m>M_n</m>, with formulas
-            <md permid="ibR">
-              <mrow>L_n = f(x_0) \Delta x + f(x_1) \Delta x + \cdots + f(x_{n-1}) \Delta x \amp= \sum_{i = 0}^{n-1} f(x_i) \Delta x,</mrow>
-              <mrow>R_n = f(x_1) \Delta x + f(x_2) \Delta x + \cdots + f(x_{n}) \Delta x \amp= \sum_{i = 1}^{n} f(x_i) \Delta x,</mrow>
-              <mrow>M_n = f(\overline{x}_1) \Delta x + f(\overline{x}_2) \Delta x + \cdots + f(\overline{x}_{n}) \Delta x \amp= \sum_{i = 1}^{n} f(\overline{x}_i) \Delta x</mrow>
-            </md>,
-            where <m>x_0 = a</m>, <m>x_i = a + i\Delta x</m>,
-            and <m>x_n = b</m>, using <m>\Delta x = \frac{b-a}{n}</m>.
-            For the midpoint sum, <m>\overline{x}_{i} = (x_{i-1} + x_i)/2</m>.
-          </p>
-        </li>
-      </ul>
-    </p>
-  </subsection>
+      <li permid="Rzf">
+        <p permid="Cqh">
+          Las sumas de Riemann izquierda,
+          derecha, y media se denotan <m>L_n</m>,
+          <m>R_n</m>, y <m>M_n</m>, con fórmulas
+          <md permid="ibR">
+            <mrow>L_n = f(x_0) \Delta x + f(x_1) \Delta x + \cdots + f(x_{n-1}) \Delta x \amp= \sum_{i = 0}^{n-1} f(x_i) \Delta x,</mrow>
+            <mrow>R_n = f(x_1) \Delta x + f(x_2) \Delta x + \cdots + f(x_{n}) \Delta x \amp= \sum_{i = 1}^{n} f(x_i) \Delta x,</mrow>
+            <mrow>M_n = f(\overline{x}_1) \Delta x + f(\overline{x}_2) \Delta x + \cdots + f(\overline{x}_{n}) \amp= \sum_{i = 1}^{n} f(\overline{x}_i) \Delta x</mrow>
+          </md>,
+          donde <m>x_0 = a</m>, <m>x_i = a + i\Delta x</m>,
+          y <m>x_n = b</m>, usando <m>\Delta x = \frac{b-a}{n}</m>.
+          Para la suma de puntos medios, <m>\overline{x}_{i} = (x_{i-1} + x_i)/2</m>.
+        </p>
+      </li>
+    </ul>
+  </p>
+</subsection>
 
-  <xi:include href="./exercises/ez-4-2.xml" />
+<xi:include href="./exercises/ez-4-2.xml" />
 </section>
-
