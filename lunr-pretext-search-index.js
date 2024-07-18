@@ -1,27 +1,27 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "frontmatter-2",
-  "level": "1",
-  "url": "frontmatter-2.html",
-  "type": "Colophon",
-  "number": "",
-  "title": "Colophon",
-  "body": "  Cover Photo  James Haefner Photography   2018 Updated  http:\/\/activecalculus.org  copyright  "
-},
-{
   "id": "frontmatter-3",
   "level": "1",
   "url": "frontmatter-3.html",
+  "type": "Colophon",
+  "number": "",
+  "title": "Colofón",
+  "body": " Colofón   Cover Photo  James Haefner Photography   2018 Updated  http:\/\/activecalculus.org  copyright  "
+},
+{
+  "id": "frontmatter-4",
+  "level": "1",
+  "url": "frontmatter-4.html",
   "type": "Acknowledgements",
   "number": "",
-  "title": "Acknowledgements",
-  "body": " Este texto comenzó como mi proyecto sabático en el semestre de invierno de 2012, durante el cual escribí la mayor parte del material para los primeros cuatro capítulos. Para la licencia sabática, estoy en deuda con Grand Valley State University por su apoyo al proyecto, así como con mis colegas del Departamento de Matemáticas y el College of Liberal Arts and Sciences por su respaldo al proyecto. También estoy agradecido al American Institute of Mathematics por su apoyo a los libros de texto gratuitos y abiertos en general , y su apoyo a este en particular.  Los hermosos gráficos .eps a todo color en el texto son posibles gracias a David Austin de GVSU y Bill Casselman de la University of British Columbia. Basándose en sus esfuerzos de larga data para desarrollar herramientas para gráficos matemáticos de alta calidad, David escribió una biblioteca de rutinas de Python que emplean el programa PiScript de Bill ; las rutinas de David son tan fáciles de usar que incluso yo pude generar gráficos como los profesionales que él y Bill son. Estoy profundamente agradecido a ambos.  La versión actual en .html del texto es posible solo gracias al increíble trabajo de Rob Beezer y su desarrollo del Mathbook XML original, ahora conocido como PreTeXt . Mi capacidad para aprovechar el trabajo de Rob se debe en gran parte al apoyo del American Institute of Mathematics, que me financió para asistir a un taller de una semana en Mathbook XML en San Jose, CA, en abril de 2016, así como al apoyo del grupo de usuarios en curso. Un taller posterior en junio de 2019 ha ofrecido más apoyo y mejoras al texto.  El script de conversión de David Farmer me ahorró cientos de horas de trabajo al tomar mi fuente original en latex y convertirla a PreTeXt ; David sigue siendo una fuente importante de apoyo y defensa continua. Alex Jordan de Portland Community College también ha sido de gran ayuda, y es gracias al fantástico trabajo de Alex que los ejercicios en vivo de WeBWorK no solo son posibles, sino que también están incluidos desde la versión de 2017 en adelante. Mitch Keller de Morningside College acordó a principios de 2018 servir como editor de producción del libro; su experiencia técnica ha contribuido a muchos aspectos del libro, incluida la presencia de respuestas a actividades y ejercicios no de WeBWorK y otros materiales de apoyo para instructores.  Para la edición de 2018, Kathy Yoshiwara del AIM Editorial Board leyó todo el texto y contribuyó con sugerencias editoriales para cada sección. En resumen, hizo la prosa más clara, más directa y simplemente mejor. Estoy profundamente agradecido por su tiempo, esfuerzo y percepciones.  Durante mis más de 20 años en GVSU, muchos de mis colegas han compartido conmigo ideas y recursos para enseñar cálculo. Estoy particularmente en deuda con David Austin, Will Dickinson, Paul Fishback, Jon Hodge, y Steve Schlicker por sus contribuciones que mejoraron mi enseñanza y pensamiento sobre el cálculo, incluidos materiales que he modificado y usado durante muchos semestres diferentes con estudiantes. Partes de estas ideas se pueden encontrar a lo largo de este texto. Además, Will Dickinson y Steve Schlicker me proporcionaron acceso a una gran cantidad de sus notas y actividades electrónicas de la enseñanza del cálculo diferencial e integral, y esas ideas y materiales han impactado de manera similar mi trabajo y escritura de manera positiva, con algunos de sus problemas y enfoques encontrando una presentación paralela aquí.  En el verano de 2012, David y Steve acordaron cada uno escribir un capítulo para apoyar la finalización del material sobre cálculo integral. David es el autor principal del Capítulo y Steve el autor principal del Capítulo . Junto con nuestro colega Ted Sundstrom, Steve también ha contribuido con una gran cantidad de soluciones y respuestas a problemas y actividades. Estoy especialmente agradecido por cómo el trabajo de estos amigos y colegas ha mejorado tanto el texto.  Shelly Smith de GVSU y Matt DeLong de Marian University proporcionaron extensos comentarios sobre los primeros capítulos de los primeros borradores, comentarios que fueron inmensamente útiles para mejorar el texto. A medida que más y más personas usan el texto, estoy agradecido a todos los que leen, editan y usan este libro, y por lo tanto contribuyen a su mejora a través de la discusión continua.  Finalmente, estoy agradecido por todo lo que mis estudiantes me han enseñado a lo largo de los años. Sus respuestas y comentarios han ayudado a formarme como profesor, y aprecio su disposición a participar de todo corazón en las actividades y enfoques que he probado en clase, para hacerme saber cómo esos afectan su aprendizaje, y para ayudarme a aprender y crecer como instructor. Al principio, también proporcionaron útiles comentarios editoriales sobre este texto.  Cualquier error o inconsistencia restante es mío. Con gusto aceptaré comentarios de lectores y usuarios para corregirlos, junto con otras sugerencias para mejorar el texto.   "
+  "title": "Agradecimientos",
+  "body": " Agradecimientos  Este texto comenzó como mi proyecto sabático en el semestre de invierno de 2012, durante el cual escribí la mayor parte del material para los primeros cuatro capítulos. Para la licencia sabática, estoy en deuda con Grand Valley State University por su apoyo al proyecto, así como con mis colegas del Departamento de Matemáticas y el College of Liberal Arts and Sciences por su respaldo al proyecto. También estoy agradecido al American Institute of Mathematics por su apoyo a los libros de texto gratuitos y abiertos en general , y su apoyo a este en particular.  Los hermosos gráficos .eps a todo color en el texto son posibles gracias a David Austin de GVSU y Bill Casselman de la University of British Columbia. Basándose en sus esfuerzos de larga data para desarrollar herramientas para gráficos matemáticos de alta calidad, David escribió una biblioteca de rutinas de Python que emplean el programa PiScript de Bill ; las rutinas de David son tan fáciles de usar que incluso yo pude generar gráficos como los profesionales que él y Bill son. Estoy profundamente agradecido a ambos.  La versión actual en .html del texto es posible solo gracias al increíble trabajo de Rob Beezer y su desarrollo del Mathbook XML original, ahora conocido como PreTeXt . Mi capacidad para aprovechar el trabajo de Rob se debe en gran parte al apoyo del American Institute of Mathematics, que me financió para asistir a un taller de una semana en Mathbook XML en San Jose, CA, en abril de 2016, así como al apoyo del grupo de usuarios en curso. Un taller posterior en junio de 2019 ha ofrecido más apoyo y mejoras al texto.  El script de conversión de David Farmer me ahorró cientos de horas de trabajo al tomar mi fuente original en latex y convertirla a PreTeXt ; David sigue siendo una fuente importante de apoyo y defensa continua. Alex Jordan de Portland Community College también ha sido de gran ayuda, y es gracias al fantástico trabajo de Alex que los ejercicios en vivo de WeBWorK no solo son posibles, sino que también están incluidos desde la versión de 2017 en adelante. Mitch Keller de Morningside College acordó a principios de 2018 servir como editor de producción del libro; su experiencia técnica ha contribuido a muchos aspectos del libro, incluida la presencia de respuestas a actividades y ejercicios no de WeBWorK y otros materiales de apoyo para instructores.  Para la edición de 2018, Kathy Yoshiwara del AIM Editorial Board leyó todo el texto y contribuyó con sugerencias editoriales para cada sección. En resumen, hizo la prosa más clara, más directa y simplemente mejor. Estoy profundamente agradecido por su tiempo, esfuerzo y percepciones.  Durante mis más de 20 años en GVSU, muchos de mis colegas han compartido conmigo ideas y recursos para enseñar cálculo. Estoy particularmente en deuda con David Austin, Will Dickinson, Paul Fishback, Jon Hodge, y Steve Schlicker por sus contribuciones que mejoraron mi enseñanza y pensamiento sobre el cálculo, incluidos materiales que he modificado y usado durante muchos semestres diferentes con estudiantes. Partes de estas ideas se pueden encontrar a lo largo de este texto. Además, Will Dickinson y Steve Schlicker me proporcionaron acceso a una gran cantidad de sus notas y actividades electrónicas de la enseñanza del cálculo diferencial e integral, y esas ideas y materiales han impactado de manera similar mi trabajo y escritura de manera positiva, con algunos de sus problemas y enfoques encontrando una presentación paralela aquí.  En el verano de 2012, David y Steve acordaron cada uno escribir un capítulo para apoyar la finalización del material sobre cálculo integral. David es el autor principal del Capítulo y Steve el autor principal del Capítulo . Junto con nuestro colega Ted Sundstrom, Steve también ha contribuido con una gran cantidad de soluciones y respuestas a problemas y actividades. Estoy especialmente agradecido por cómo el trabajo de estos amigos y colegas ha mejorado tanto el texto.  Shelly Smith de GVSU y Matt DeLong de Marian University proporcionaron extensos comentarios sobre los primeros capítulos de los primeros borradores, comentarios que fueron inmensamente útiles para mejorar el texto. A medida que más y más personas usan el texto, estoy agradecido a todos los que leen, editan y usan este libro, y por lo tanto contribuyen a su mejora a través de la discusión continua.  Finalmente, estoy agradecido por todo lo que mis estudiantes me han enseñado a lo largo de los años. Sus respuestas y comentarios han ayudado a formarme como profesor, y aprecio su disposición a participar de todo corazón en las actividades y enfoques que he probado en clase, para hacerme saber cómo esos afectan su aprendizaje, y para ayudarme a aprender y crecer como instructor. Al principio, también proporcionaron útiles comentarios editoriales sobre este texto.  Cualquier error o inconsistencia restante es mío. Con gusto aceptaré comentarios de lectores y usuarios para corregirlos, junto con otras sugerencias para mejorar el texto.   "
 },
 {
   "id": "ehW",
   "level": "1",
-  "url": "frontmatter-4.html",
+  "url": "frontmatter-5.html",
   "type": "Preface",
   "number": "",
   "title": "Contribuciones",
@@ -30,7 +30,7 @@ var ptx_lunr_docs = [
 {
   "id": "Kpf",
   "level": "1",
-  "url": "frontmatter-5.html",
+  "url": "frontmatter-6.html",
   "type": "Preface",
   "number": "",
   "title": "Cálculo Activo: Nuestros Objetivos",
@@ -39,7 +39,7 @@ var ptx_lunr_docs = [
 {
   "id": "qwo",
   "level": "1",
-  "url": "frontmatter-6.html",
+  "url": "frontmatter-7.html",
   "type": "Preface",
   "number": "",
   "title": "Características del Texto",
@@ -85,7 +85,7 @@ var ptx_lunr_docs = [
   "id": "udo",
   "level": "2",
   "url": "sec-1-1-vel.html#udo",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "1.1.1",
   "title": "",
   "body": "  Supón que la altura de una pelota en el tiempo (en segundos) se da en pies por la fórmula .   Construye un gráfico de en el intervalo de tiempo . Etiqueta al menos seis puntos distintos en el gráfico, incluyendo los tres puntos que muestran cuando la pelota fue lanzada, cuando la pelota alcanza su punto más alto, y cuando la pelota cae.    Describe el comportamiento de la pelota en el intervalo de tiempo y en el intervalo de tiempo . ¿Qué ocurre en el instante ?    Considera la expresión . Calcula el valor de . ¿Qué mide este valor en el gráfico? ¿Qué nos dice este valor sobre el movimiento de la pelota? En particular, ¿cuáles son las unidades de ?      "
@@ -229,7 +229,7 @@ var ptx_lunr_docs = [
   "id": "jEj",
   "level": "2",
   "url": "sec-1-2-lim.html#jEj",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "1.2.1",
   "title": "",
   "body": "  Supón que es la función dada por el gráfico a continuación. Usa el gráfico en Figura para responder cada una de las siguientes preguntas.     Determina los valores , , , , y , si están definidos. Si el valor de la función no está definido, explica qué característica del gráfico te dice esto.    Para cada uno de los valores , , y , completa la siguiente oración: Cuando se acerca cada vez más (pero no es igual) a , se acerca tanto como queramos a .     ¿Qué pasa cuando se acerca cada vez más (pero no es igual) a ? ¿La función se acerca tanto como nos gustaría a un solo valor?      Gráfico de para Actividad de Vista Previa .     "
@@ -391,7 +391,7 @@ var ptx_lunr_docs = [
   "id": "ltw",
   "level": "2",
   "url": "sec-1-3-derivative-pt.html#ltw",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "1.3.1",
   "title": "",
   "body": " Supón que es la función dada por el gráfico a continuación y que y son los valores de entrada como se indica en el eje . Usa el gráfico en Figura para responder las siguientes preguntas.   Gráfico de para Actividad de Vista Previa .       Ubica y etiqueta los puntos y en el gráfico.    Construye un triángulo rectángulo cuya hipotenusa sea el segmento de línea desde hasta . ¿Cuáles son las longitudes de los respectivos catetos de este triángulo?    ¿Cuál es la pendiente de la línea que conecta los puntos y ?    Escribe una oración significativa que explique cómo se conectan la tasa de cambio promedio de la función en un intervalo dado y la pendiente de una línea relacionada.     "
@@ -580,7 +580,7 @@ var ptx_lunr_docs = [
   "id": "OFZ",
   "level": "2",
   "url": "sec-1-4-derivative-fxn.html#OFZ",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "1.4.1",
   "title": "",
   "body": " Considera la función .   Usa la definición de límite para calcular los valores de la derivada: , , , y .    Observa que el trabajo para encontrar es el mismo, sin importar el valor de . Basándote en tu trabajo en (a), ¿qué conjeturas que es el valor de ? ¿Y qué tal ? (Nota: no deberías usar la definición de límite de la derivada para encontrar ninguno de los valores.)    Conjetura una fórmula para que dependa solo del valor . Es decir, de la misma manera que tenemos una fórmula para (recuerda ), ve si puedes usar tu trabajo anterior para adivinar una fórmula para en términos de .     "
@@ -724,7 +724,7 @@ var ptx_lunr_docs = [
   "id": "Qvm",
   "level": "2",
   "url": "sec-1-5-units.html#Qvm",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "1.5.1",
   "title": "",
   "body": " Una de las carreteras más largas y rectas (y planas) de América del Norte se encuentra en las Grandes Llanuras en el estado de Dakota del Norte en la carretera estatal 46, que se encuentra justo al sur de la autopista interestatal I-94 y atraviesa el pueblo de Gackle. Un coche sale del pueblo (en el momento ) y se dirige hacia el este por la carretera 46; su posición en millas desde Gackle en el momento en minutos está dada por el gráfico de la función en Figura . Tres puntos importantes están marcados en el gráfico; donde la curva parece lineal, supón que es realmente una línea recta.   El gráfico de , la posición del coche a lo largo de la carretera 46, que indica su distancia en millas desde Gackle, ND, en el momento en minutos.       En lenguaje cotidiano, describe el comportamiento del coche durante el intervalo de tiempo proporcionado. En particular, discute lo que está pasando en los intervalos de tiempo y .    Encuentra la pendiente de la línea entre los puntos y . ¿Cuáles son las unidades de esta pendiente? ¿Qué representa la pendiente?    Encuentra la tasa de cambio promedio de la posición del coche en el intervalo . Incluye unidades en tu respuesta.    Estima la tasa de cambio instantánea de la posición del coche en el momento . Escribe una oración para explicar tu razonamiento y el significado de este valor.     "
@@ -895,7 +895,7 @@ var ptx_lunr_docs = [
   "id": "KGa",
   "level": "2",
   "url": "sec-1-6-second-d.html#KGa",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "1.6.1",
   "title": "",
   "body": " La posición de un coche que conduce por una carretera recta en el tiempo en minutos está dada por la función que se muestra en Figura . La función de posición del coche tiene unidades medidas en miles de pies. Por ejemplo, el punto en el gráfico indica que después de 2 minutos, el coche ha recorrido 4000 pies.   El gráfico de , la posición del coche (medida en miles de pies desde su ubicación inicial) en el tiempo en minutos.       En lenguaje cotidiano, describe el comportamiento del coche durante el intervalo de tiempo proporcionado. En particular, deberías discutir cuidadosamente lo que está sucediendo en cada uno de los intervalos de tiempo , , , , y , además de proporcionar un comentario general sobre lo que el coche está haciendo en el intervalo .    En los ejes de la izquierda proporcionados en Figura , dibuja un gráfico cuidadoso y preciso de .    ¿Cuál es el significado de la función en el contexto del problema dado? ¿Qué podemos decir sobre el comportamiento del coche cuando es positivo? cuando es cero? cuando es negativo?    Renombra la función que dibujaste en (b) para que se llame . Describe el comportamiento de en palabras, usando frases como está aumentando en el intervalo y es constante en el intervalo .     Dibuja un gráfico de la función en los ejes de la derecha proporcionados en Figura . Escribe al menos una oración para explicar cómo el comportamiento de está conectado con el gráfico de .      Ejes para trazar y .    "
@@ -1093,7 +1093,7 @@ var ptx_lunr_docs = [
   "id": "AgV",
   "level": "2",
   "url": "sec-1-7-lim-cont-diff.html#AgV",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "1.7.1",
   "title": "",
   "body": " Una función está dada por el gráfico en Figura . Usa el gráfico para responder cada una de las siguientes preguntas. Nota: a la derecha de , el gráfico de está exhibiendo un comportamiento oscilatorio infinito similar a la función que encontramos en el ejemplo clave al principio de Sección . Supón que .     Para cada uno de los valores , determina si existe o no. Si la función tiene un límite en un punto dado, indica el valor del límite usando la notación . Si la función no tiene un límite en un punto dado, escribe una oración para explicar por qué.    Para cada uno de los valores de de la parte (a) donde tiene un límite, determina el valor de en cada uno de esos puntos. Además, para cada valor de , ¿tiene el mismo valor que ?    Para cada uno de los valores , determina si existe o no. En particular, basado en el gráfico dado, pregúntate si es razonable decir que tiene una línea tangente en para cada uno de los valores de dados. Si es así, estima visualmente la pendiente de la línea tangente para encontrar el valor de .      El gráfico de .    "
@@ -1264,7 +1264,7 @@ var ptx_lunr_docs = [
   "id": "OkA",
   "level": "2",
   "url": "sec-1-8-tan-line-approx.html#OkA",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "1.8.1",
   "title": "",
   "body": " Considera la función .     Usa la definición del límite de la derivada para calcular una fórmula para .    Determina la pendiente de la línea tangente a en el valor .    Calcula .    Encuentra una ecuación para la línea tangente a en el punto . Escribe tu resultado en la forma punto-pendiente.    En los ejes proporcionados en Figure , dibuja un gráfico preciso y etiquetado de junto con su línea tangente en el punto .      Ejes para graficar y su línea tangente al punto .    "
@@ -1408,7 +1408,7 @@ var ptx_lunr_docs = [
   "id": "PZN",
   "level": "2",
   "url": "sec-2-1-elem-rules.html#PZN",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "2.1.1",
   "title": "",
   "body": " Las funciones de la forma , donde , a menudo se llaman funciones de potencia . Las dos primeras preguntas a continuación revisan el trabajo que hicimos anteriormente en Chapter , y las siguientes preguntas extienden esas ideas a potencias más altas de .   Usa la definición de límite de la derivada para encontrar para .    Usa la definición de límite de la derivada para encontrar para .    Usa la definición de límite de la derivada para encontrar para . (Pista: . Aplica esta regla a dentro de la definición de límite.)    Basándote en tu trabajo en (a), (b) y (c), ¿qué conjeturas es la derivada de ? ¿De ?    Conjetura una fórmula para la derivada de que se mantenga para cualquier entero positivo . Es decir, dado donde es un entero positivo, ¿cuál crees que es la fórmula para ?     "
@@ -1624,7 +1624,7 @@ var ptx_lunr_docs = [
   "id": "xWj",
   "level": "2",
   "url": "sec-2-2-sin-cos.html#xWj",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "2.2.1",
   "title": "",
   "body": " Considera la función , que está graficada en Figura .   En cada uno de , usa una regla para dibujar una línea tangente precisa a .    Usa la cuadrícula proporcionada para estimar la pendiente de la línea tangente que dibujaste en cada punto en (a).    Usa la definición del límite de la derivada para estimar usando valores pequeños de , y compara el resultado con tu estimación visual de la pendiente de la línea tangente a en en (b).    Basado en tu trabajo en (a), (b) y (c), dibuja un gráfico preciso de en los ejes adyacentes al gráfico de .    Escribe al menos una oración que explique por qué es razonable pensar que , donde es una constante. Además, calcula , y luego discute cómo este valor, combinado con tu trabajo anterior, sugiere razonablemente que .      A la izquierda, el gráfico de . A la derecha, ejes para graficar .    "
@@ -1714,7 +1714,7 @@ var ptx_lunr_docs = [
   "id": "zLw",
   "level": "2",
   "url": "sec-2-3-prod-quot.html#zLw",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "2.3.1",
   "title": "",
   "body": " Sean y las funciones definidas por y .   Determina y .    Sea y observa que . Reescribe la fórmula para distribuyendo el término . Luego, calcula usando las reglas de la suma y del múltiplo constante.    Verdadero o falso: .    Sea y observa que . Reescribe la fórmula para dividiendo cada término en el numerador por el denominador y simplifica para escribir como una suma de múltiplos constantes de potencias de . Luego, calcula usando las reglas de la suma y del múltiplo constante.    Verdadero o falso: .     "
@@ -1939,7 +1939,7 @@ var ptx_lunr_docs = [
   "id": "hHS",
   "level": "2",
   "url": "sec-2-4-other-trig.html#hHS",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "2.4.1",
   "title": "",
   "body": " Considera la función , y recuerda que .   ¿Cuál es el dominio de ?    Usa la regla del cociente para mostrar que una expresión para es .    ¿Cuál es la Identidad Trigonométrica Fundamental? ¿Cómo se puede usar esta identidad para encontrar una forma más simple de ?    Recuerda que . ¿Cómo podemos expresar en términos de la función secante?    ¿Para qué valores de está definida ? ¿Cómo se compara este conjunto con el dominio de ?     "
@@ -2074,7 +2074,7 @@ var ptx_lunr_docs = [
   "id": "vLx",
   "level": "2",
   "url": "sec-2-5-chain.html#vLx",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "2.5.1",
   "title": "",
   "body": " Para cada función dada a continuación, identifica su estructura algebraica fundamental. En particular, ¿es la función dada una suma, producto, cociente o composición de funciones básicas? Si la función es una composición de funciones básicas, indica una fórmula para la función interna y la función externa de manera que la función compuesta total pueda escribirse en la forma . Si la función es una suma, producto, o cociente de funciones básicas, usa la regla apropiada para determinar su derivada.                                  "
@@ -2281,7 +2281,7 @@ var ptx_lunr_docs = [
   "id": "xAK",
   "level": "2",
   "url": "sec-2-6-inverse.html#xAK",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "2.6.1",
   "title": "",
   "body": " La ecuación relaciona una temperatura dada en grados Fahrenheit con la temperatura correspondiente medida en grados Celsius.   Resuelve la ecuación para para escribir (temperatura en Fahrenheit) en términos de (temperatura en Celsius).    Sea la función que toma una temperatura en Fahrenheit como entrada y produce la temperatura en Celsius como salida. Además, sea la función que convierte una temperatura dada en grados Celsius a la temperatura medida en grados Fahrenheit. Usa tu trabajo en (a) para escribir una fórmula para .    A continuación, considera la nueva función definida por . Usa las fórmulas para y para determinar una expresión para y simplifica esta expresión tanto como sea posible. ¿Qué observas?    Ahora, sea . Usa las fórmulas para y para determinar una expresión para y simplifica esta expresión tanto como sea posible. ¿Qué observas?    ¿Cuál es el valor de ? ¿de ? ¿Cómo parecen estar relacionados estos valores?     "
@@ -2506,7 +2506,7 @@ var ptx_lunr_docs = [
   "id": "zpX",
   "level": "2",
   "url": "sec-2-7-implicit.html#zpX",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "2.7.1",
   "title": "",
   "body": " Sea una función diferenciable de (cuya fórmula no se conoce) y recuerda que y son notaciones intercambiables. Determina cada una de las siguientes derivadas de combinaciones de funciones explícitas de , la función desconocida , y una constante arbitraria .                             "
@@ -2650,7 +2650,7 @@ var ptx_lunr_docs = [
   "id": "tAL",
   "level": "2",
   "url": "sec-2-8-LHR.html#tAL",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "2.8.1",
   "title": "",
   "body": " Sea la función dada por .   ¿Cuál es el dominio de ?    Explica por qué resulta en una forma indeterminada.    A continuación, investigaremos el comportamiento tanto del numerador como del denominador de cerca del punto donde . Sea y . Encuentra las linealizaciones locales de y en , y llama a estas funciones y , respectivamente.    Explica por qué para cerca de .    Usando tu trabajo de (c) y (d), evalúa . ¿Qué piensas que nos dice tu resultado sobre ?    Investiga la función gráfica y numéricamente cerca de . ¿Qué piensas que es el valor de ?     "
@@ -2848,7 +2848,7 @@ var ptx_lunr_docs = [
   "id": "svs",
   "level": "2",
   "url": "sec-3-1-tests.html#svs",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "3.1.1",
   "title": "",
   "body": " Considera la función dada por el gráfico en Figura . Usa el gráfico para responder cada una de las siguientes preguntas.   El gráfico de una función en el intervalo .       Identifica todos los valores de tales que para los cuales es un máximo local de .    Identifica todos los valores de tales que para los cuales es un mínimo local de .    ¿Tiene un máximo global en el intervalo ? Si es así, ¿cuál es el valor de este máximo global?    ¿Tiene un mínimo global en el intervalo ? Si es así, ¿cuál es su valor?    Identifica todos los valores de para los cuales .    Identifica todos los valores de para los cuales no existe.    Verdadero o falso: cada máximo y mínimo relativo de en el intervalo ocurre en un punto tal que donde es cero o no existe.    Verdadero o falso: en cada punto donde es cero o no existe en el intervalo , tiene un máximo o mínimo relativo.     "
@@ -3028,7 +3028,7 @@ var ptx_lunr_docs = [
   "id": "ukF",
   "level": "2",
   "url": "sec-3-2-families.html#ukF",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "3.2.1",
   "title": "",
   "body": " Sea , , y números reales arbitrarios con , y sea la función dada por la regla .   ¿Qué tipo familiar de función es ? ¿Qué información sabes sobre solo con mirar su forma? (Piensa en los roles de , , y .)    A continuación, usamos algo de cálculo para desarrollar ideas familiares desde una perspectiva diferente. Para empezar, trata , , y como constantes y calcula .    Encuentra todos los números críticos de . (Estos dependerán de al menos uno de , , y .)    Supón que . Construye un gráfico de signos de la primera derivada para .    Basado en la información que has encontrado arriba, clasifica los valores críticos de como máximos o mínimos.     "
@@ -3145,7 +3145,7 @@ var ptx_lunr_docs = [
   "id": "Iok",
   "level": "2",
   "url": "sec-3-3-optimization.html#Iok",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "3.3.1",
   "title": "",
   "body": " Sea .   Determina todos los números críticos de .    Construye un gráfico de signos de la primera derivada para y así determina todos los intervalos en los que está aumentando o disminuyendo.    ¿Tiene un máximo global? Si es así, ¿por qué?, ¿cuál es su valor y dónde se alcanza el máximo? Si no, explica por qué.    Determina y .    Explica por qué para cada valor de .    ¿Tiene un mínimo global? Si es así, ¿por qué?, ¿cuál es su valor y dónde se alcanza el mínimo? Si no, explica por qué.     "
@@ -3262,7 +3262,7 @@ var ptx_lunr_docs = [
   "id": "uUz",
   "level": "2",
   "url": "sec-3-4-applied-opt.html#uUz",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "3.4.1",
   "title": "",
   "body": " Según las regulaciones postales de EE.UU., la circunferencia más la longitud de un paquete enviado por correo no puede exceder las 108 pulgadas, donde por circunferencia nos referimos al perímetro del extremo más pequeño. ¿Cuál es el volumen máximo posible de un paquete rectangular con un extremo cuadrado que se puede enviar por correo? ¿Cuáles son las dimensiones del paquete de mayor volumen?     Sea la longitud de un lado del extremo cuadrado y la longitud del lado más largo. Etiqueta estas cantidades apropiadamente en la imagen mostrada en Figura .   Un paquete rectangular con un extremo cuadrado.      ¿Cuál es la cantidad a optimizar en este problema? Encuentra una fórmula para esta cantidad en términos de y .    La declaración del problema nos dice que la circunferencia más la longitud del paquete no puede exceder las 108 pulgadas. Para maximizar el volumen, asumimos que realmente necesitaremos que la circunferencia más la longitud sea igual a 108 pulgadas. ¿Qué ecuación produce esto involucrando y ?    Resuelve la ecuación que encontraste en (c) para una de o (la que sea más fácil).    Ahora usa tu trabajo en (b) y (d) para determinar una fórmula para el volumen del paquete de manera que esta fórmula sea una función de una sola variable.    ¿Sobre qué dominio deberíamos considerar esta función? Nota que tanto como deben ser positivos; ¿cómo produce la restricción de que la circunferencia más la longitud sea de 108 pulgadas intervalos de valores posibles para y ?    Encuentra el máximo absoluto del volumen del paquete en el dominio que estableciste en (f) y por lo tanto también determina las dimensiones de la caja de mayor volumen. Justifica que has encontrado el máximo usando cálculo.     "
@@ -3415,7 +3415,7 @@ var ptx_lunr_docs = [
   "id": "wJM",
   "level": "2",
   "url": "sec-3-5-rel-rates.html#wJM",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "3.5.1",
   "title": "",
   "body": " Un globo esférico se está inflando a una tasa constante de 20 pulgadas cúbicas por segundo. ¿Qué tan rápido está cambiando el radio del globo en el instante en que el diámetro del globo es de 12 pulgadas? ¿Está cambiando el radio más rápidamente cuando o cuando ? ¿Por qué?   Dibuja varias esferas con diferentes radios, y observa que a medida que cambia el volumen, el radio, el diámetro y el área de la superficie del globo también cambian.    Recuerda que el volumen de una esfera de radio es . Nota bien que en el contexto de este problema, tanto  como están cambiando a medida que el tiempo cambia, y por lo tanto, tanto como pueden verse como funciones implícitas de , con sus respectivas derivadas y . Diferencia ambos lados de la ecuación con respecto a (usando la regla de la cadena en el lado derecho) para encontrar una fórmula para que dependa tanto de como de .    En este punto del problema, al diferenciar hemos relacionado las tasas de cambio de y . Recuerda que se nos da en el problema que el globo se está inflando a una tasa constante de 20 pulgadas cúbicas por segundo. ¿Es esta tasa el valor de o ? ¿Por qué?    De la parte (c), sabemos el valor de en cada valor de . A continuación, observa que cuando el diámetro del globo es 12, sabemos el valor del radio. En la ecuación , sustituye estos valores por las cantidades relevantes y resuelve la cantidad desconocida restante, que es . ¿Qué tan rápido está cambiando el radio en el instante ?    ¿Cómo es diferente la situación cuando ? ¿Cuándo está cambiando el radio más rápidamente, cuando o cuando ?     "
@@ -3568,7 +3568,7 @@ var ptx_lunr_docs = [
   "id": "KNr",
   "level": "2",
   "url": "sec-4-1-velocity-distance.html#KNr",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "4.1.1",
   "title": "",
   "body": " Supón que una persona está dando un paseo por un camino largo y recto y camina a una velocidad constante de 3 millas por hora.   En los ejes de la izquierda proporcionados en Figura , dibuja un gráfico etiquetado de la función de velocidad .   A la izquierda, ejes para trazar ; a la derecha, para trazar .    Nota que aunque la escala en los dos conjuntos de ejes es la misma, las unidades en los ejes de la derecha difieren de las de la izquierda. Los ejes de la derecha se usarán en la pregunta (d).    ¿Qué distancia recorrió la persona durante las dos horas? ¿Cómo se relaciona esta distancia con el área de una cierta región bajo el gráfico de ?    Encuentra una fórmula algebraica, , para la posición de la persona en el tiempo , asumiendo que . Explica tu razonamiento.    En los ejes de la derecha proporcionados en Figura , dibuja un gráfico etiquetado de la función de posición .    ¿Para qué valores de está aumentando la función de posición ? Explica por qué es así usando información relevante sobre la función de velocidad .     "
@@ -3766,7 +3766,7 @@ var ptx_lunr_docs = [
   "id": "lfo",
   "level": "2",
   "url": "sec-4-2-Riemann.html#lfo",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "4.2.1",
   "title": "",
   "body": " Una persona que camina por un camino recto tiene su velocidad en millas por hora en el tiempo dada por la función , para tiempos en el intervalo . El gráfico de esta función también se da en cada uno de los tres diagramas en Figura .   Tres enfoques para estimar el área bajo en el intervalo .    Nota que en cada diagrama, usamos cuatro rectángulos para estimar el área bajo en el intervalo , pero el método por el cual se deciden las alturas respectivas de los cuatro rectángulos varía entre los tres gráficos individuales.   ¿Cómo se eligen las alturas de los rectángulos en el diagrama más a la izquierda? Explica, y por lo tanto determina el valor de evaluando la función en valores apropiadamente elegidos y observando el ancho de cada rectángulo. Nota, por ejemplo, que .    Explica cómo se eligen las alturas de los rectángulos en el diagrama del medio y encuentra el valor de .    De la misma manera, determina el patrón de cómo se eligen las alturas de los rectángulos en el diagrama más a la derecha y determina .    De las estimaciones , , y , ¿cuál crees que es la mejor aproximación de , la distancia total que la persona recorrió en ? ¿Por qué?     "
@@ -3937,7 +3937,7 @@ var ptx_lunr_docs = [
   "id": "XLD",
   "level": "2",
   "url": "sec-4-3-definite-integral.html#XLD",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "4.3.1",
   "title": "",
   "body": " Considera este applet , en el cual inicialmente verás la situación mostrada en Figura .   Una suma de Riemann derecha con 10 subintervalos para la función en el intervalo . El valor de la suma es .    Nota que el valor de la suma de Riemann elegida se muestra junto a la palabra relative, y que puedes cambiar el tipo de suma de Riemann que se está calculando arrastrando el punto en la barra deslizante debajo de la frase sample point placement.   Explora para ver cómo puedes cambiar la ventana en la que se ve la función, así como la función misma. Puedes establecer los valores mínimos y máximos de haciendo clic y arrastrando los puntos azules que establecen los puntos finales; puedes cambiar la función escribiendo una nueva fórmula en la ventana f(x) en la parte inferior; y puedes ajustar la ventana general desplazándote y haciendo zoom usando la tecla Shift y la función de desplazamiento de tu ratón. Más información sobre cómo desplazarse y hacer zoom está disponible .  Trabaja en consecuencia para ajustar el applet de modo que use una suma de Riemann izquierda con subintervalos para la función . Deberías ver la figura actualizada mostrada en Figura . Luego, responde las siguientes preguntas.     Actualiza el applet (y la ventana de visualización, según sea necesario) para que la función considerada sea en , como se indicó anteriormente. Para esta función en este intervalo, calcula , , para , , y . ¿Qué parece ser el área exacta delimitada por y el eje en ?    Usa geometría básica para determinar el área exacta delimitada por y el eje en .    Basado en tu trabajo en (a) y (b), ¿qué observas que ocurre cuando aumentamos el número de subintervalos utilizados en la suma de Riemann?    Actualiza el applet para considerar la función en el intervalo (nota que necesitas ingresar x ^ 2 + 1 para la fórmula de la función). Usa el applet para calcular , , para , , y . ¿Qué conjeturas que es el área exacta delimitada por y el eje en ?    ¿Por qué no podemos calcular el valor exacto del área delimitada por y el eje en usando una fórmula como lo hicimos en (b)?      Una suma de Riemann izquierda con 5 subintervalos para la función en el intervalo . El valor de la suma es .    "
@@ -4153,7 +4153,7 @@ var ptx_lunr_docs = [
   "id": "ZAQ",
   "level": "2",
   "url": "sec-4-4-FTC.html#ZAQ",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "4.4.1",
   "title": "",
   "body": " Un estudiante con una ventana del dormitorio en el tercer piso a 32 pies del suelo lanza un globo de agua directamente hacia arriba con una velocidad inicial de 16 pies por segundo. Resulta que la velocidad instantánea del globo de agua está dada por , donde se mide en pies por segundo y se mide en segundos.   Sea la altura del globo de agua sobre el suelo en el tiempo , y nota que es una antiderivada de . Es decir, es la derivada de : . Encuentra una fórmula para que satisfaga la condición inicial de que el globo se lanza desde 32 pies sobre el suelo. En otras palabras, haz que tu fórmula para satisfaga .    ¿Cuándo alcanza el globo de agua su altura máxima? ¿Cuándo aterriza?    Calcula , , y . ¿Qué representan estos valores?    ¿Cuál es la distancia vertical total recorrida por el globo de agua desde el momento en que se lanza hasta el momento en que aterriza?    Dibuja un gráfico de la función de velocidad en el intervalo de tiempo . ¿Cuál es el área neta total firmada delimitada por y el eje en ? Responde a esta pregunta de dos maneras: primero usando tu trabajo anterior, y luego usando una fórmula geométrica familiar para calcular áreas de ciertas regiones relevantes.     "
@@ -4351,7 +4351,7 @@ var ptx_lunr_docs = [
   "id": "Mhf",
   "level": "2",
   "url": "sec-5-1-antid-graphs.html#Mhf",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "5.1.1",
   "title": "",
   "body": " Supón que se conoce la siguiente información sobre una función : el gráfico de su derivada, , se da en Figure . Además, supón que es lineal por tramos (como se muestra) y que para y , . Finalmente, se da que .   A la izquierda, el gráfico de ; a la derecha, ejes para trazar .       ¿En qué intervalo(s) es una función creciente? ¿En qué intervalos es decreciente?    ¿En qué intervalo(s) es cóncava hacia arriba? ¿cóncava hacia abajo?    ¿En qué punto(s) tiene un mínimo relativo? ¿un máximo relativo?    Recuerda que el Teorema del Cambio Total nos dice que . ¿Cuál es el valor exacto de ?    Usa la información dada y un razonamiento similar al de (d) para determinar el valor exacto de , , , y .    Basándote en tus respuestas a todas las preguntas anteriores, dibuja un gráfico completo y preciso de en los ejes proporcionados, asegurándote de indicar el comportamiento de para y .     "
@@ -4504,7 +4504,7 @@ var ptx_lunr_docs = [
   "id": "udB",
   "level": "2",
   "url": "sec-5-2-FTC2.html#udB",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "5.2.1",
   "title": "",
   "body": " Considera la función definida por la regla , donde .   Calcula y exactamente.    Usa el Primer Teorema Fundamental del Cálculo para encontrar una fórmula para que no involucre integrales. Es decir, usa el primer FTC para evaluar .    Observa que es una función lineal; ¿qué tipo de función es ?    Usando la fórmula que encontraste en (b) que no involucra integrales, calcula .    Aunque hemos definido por la regla , es equivalente decir que está dada por la regla . ¿Qué observas sobre la relación entre y ?     "
@@ -4621,7 +4621,7 @@ var ptx_lunr_docs = [
   "id": "fEx",
   "level": "2",
   "url": "sec-5-3-substitution.html#fEx",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "5.3.1",
   "title": "",
   "body": " En Sección , aprendimos la Regla de la Cadena y cómo se puede aplicar para encontrar la derivada de una función compuesta. En particular, si es una función diferenciable de , y es una función diferenciable de , entonces .  En palabras, decimos que la derivada de una función compuesta , donde es considerada la función externa y la función interna , es la derivada de la función externa, evaluada en la función interna, multiplicada por la derivada de la función interna.      Para cada una de las siguientes funciones, usa la Regla de la Cadena para encontrar la derivada de la función. Asegúrate de etiquetar cada derivada por nombre (por ejemplo, la derivada de debe ser etiquetada como ).                                 Para cada una de las siguientes funciones, usa tu trabajo en (a) para ayudarte a determinar la antiderivada general Recuerda que la antiderivada general de una función incluye para reflejar toda la familia de funciones que comparten la misma derivada. de la función. Etiqueta cada antiderivada por nombre (por ejemplo, la antiderivada de debe llamarse ). Además, verifica tu trabajo calculando la derivada de cada antiderivada propuesta.                               Basado en tu experiencia en las partes (a) y (b), conjetura una antiderivada para cada una de las siguientes funciones. Prueba tus conjeturas calculando la derivada de cada antiderivada propuesta.                      "
@@ -4783,7 +4783,7 @@ var ptx_lunr_docs = [
   "id": "pId",
   "level": "2",
   "url": "sec-5-4-parts.html#pId",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "5.4.1",
   "title": "",
   "body": " En Section , desarrollamos la Regla del Producto y estudiamos cómo se emplea para diferenciar un producto de dos funciones. En particular, recuerda que si y son funciones diferenciables de , entonces .     Para cada una de las siguientes funciones, usa la Regla del Producto para encontrar la derivada de la función. Asegúrate de etiquetar cada derivada por nombre (por ejemplo, la derivada de debe ser etiquetada como ).                                 Usa tu trabajo en (a) para ayudarte a evaluar las siguientes integrales indefinidas. Usa la diferenciación para verificar tu trabajo.                               Observa que los ejemplos en (b) funcionan bien debido a las derivadas que se te pidió calcular en (a). Cada integrando en (b) es precisamente el resultado de diferenciar uno de los productos de funciones básicas encontrados en (a). Para ver qué pasa cuando un integrando sigue siendo un producto pero no necesariamente el resultado de diferenciar un producto elemental, consideramos cómo evaluar .   Primero, observa que . Integrando ambos lados indefinidamente y usando el hecho de que la integral de una suma es la suma de las integrales, encontramos que . En esta última ecuación, evalúa la integral indefinida en el lado izquierdo así como la integral indefinida más a la derecha en el lado derecho.    En la ecuación más reciente de (i.), resuelve la ecuación para la expresión .    ¿Para qué producto de funciones básicas has encontrado ahora la antiderivada?        "
@@ -4936,7 +4936,7 @@ var ptx_lunr_docs = [
   "id": "XEz",
   "level": "2",
   "url": "sec-5-5-other-opt.html#XEz",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "5.5.1",
   "title": "",
   "body": " Para cada una de las integrales indefinidas a continuación, la pregunta principal es decidir si la integral se puede evaluar usando -sustitución, integración por partes, una combinación de las dos, o ninguna. Para las integrales para las que tu respuesta sea afirmativa, indica la(s) sustitución(es) que usarías. No es necesario evaluar completamente ninguna de las integrales, a menos que la integral se pueda evaluar inmediatamente usando una antiderivada básica familiar.    , ,  ,       ,  ,  , ,     ,  ,  , ,     ,  ,  , ,     "
@@ -5080,7 +5080,7 @@ var ptx_lunr_docs = [
   "id": "lIe",
   "level": "2",
   "url": "sec-5-6-num-int.html#lIe",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "5.6.1",
   "title": "",
   "body": " A medida que comenzamos a investigar formas de aproximar integrales definidas, será revelador comparar los resultados con integrales cuyos valores exactos conocemos. Con ese fin, la siguiente secuencia de preguntas se centra en .   Usa el applet con la función en la ventana de valores de desde hasta para calcular , la suma de Riemann izquierda con tres subintervalos.    De igual manera, usa el applet para calcular y , las sumas de Riemann derecha y media con tres subintervalos, respectivamente.    Usa el Teorema Fundamental del Cálculo para calcular el valor exacto de .    Definimos el error que resulta de una aproximación de una integral definida como el valor de la aproximación menos el valor exacto de la integral. ¿Cuál es el error que resulta de usar ? ¿De ? ¿De ?    En lo que sigue en esta sección, aprenderemos un nuevo enfoque para estimar el valor de una integral definida conocido como la Regla del Trapecio. La idea básica es usar trapecios, en lugar de rectángulos, para estimar el área bajo una curva. ¿Cuál es la fórmula para el área de un trapecio con bases de longitud y y altura ?    Trabajando a mano, estima el área bajo en usando tres subintervalos y tres trapecios correspondientes. ¿Cuál es el error en esta aproximación? ¿Cómo se compara con los errores que calculaste en (d)?     "
@@ -5242,7 +5242,7 @@ var ptx_lunr_docs = [
   "id": "TEA",
   "level": "2",
   "url": "sec-6-1-area.html#TEA",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "6.1.1",
   "title": "",
   "body": " Considera las funciones dadas por y .   Usa álgebra para encontrar los puntos donde las gráficas de y se intersectan.    Dibuja una gráfica precisa de y en los ejes proporcionados, etiquetando las curvas por nombre y los puntos de intersección con pares ordenados.    Encuentra y evalúa exactamente una expresión integral que represente el área entre y el eje en el intervalo entre los puntos de intersección de y .    Encuentra y evalúa exactamente una expresión integral que represente el área entre y el eje en el intervalo entre los puntos de intersección de y .    ¿Cuál es el área exacta entre y entre sus puntos de intersección? ¿Por qué?      Ejes para graficar y en Actividad de Vista Previa    "
@@ -5395,7 +5395,7 @@ var ptx_lunr_docs = [
   "id": "hIf",
   "level": "2",
   "url": "sec-6-2-volume.html#hIf",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "6.2.1",
   "title": "",
   "body": " Considera un cono circular de radio 3 y altura 5, que vemos horizontalmente como se muestra en Figura . Nuestro objetivo en esta actividad es usar una integral definida para determinar el volumen del cono.   El cono circular descrito en Actividad de Vista Previa       Encuentra una fórmula para la función lineal que se muestra en Figura .    Para la rebanada representativa de grosor que se encuentra horizontalmente en una ubicación (en algún lugar entre y ), ¿cuál es el radio de la rebanada representativa? Nota que el radio depende del valor de .    ¿Cuál es el volumen de la rebanada representativa que encontraste en (b)?    ¿Qué integral definida sumará los volúmenes de las rebanadas delgadas a lo largo de toda la extensión horizontal del cono? ¿Cuál es el valor exacto de esta integral definida?    Compara el resultado de tu trabajo en (d) con el volumen del cono que se obtiene usando la fórmula .     "
@@ -5566,7 +5566,7 @@ var ptx_lunr_docs = [
   "id": "AvD",
   "level": "2",
   "url": "sec-6-3-mass.html#AvD",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "6.3.1",
   "title": "",
   "body": " En cada uno de los siguientes escenarios, consideramos la distribución de una cantidad a lo largo de un eje.   Supón que la función modela la densidad del tráfico en una carretera recta, medida en coches por milla, donde es el número de millas al este de un importante intercambio, y considera la integral definida .   ¿Cuáles son las unidades del producto ?    ¿Cuáles son las unidades de la integral definida y su aproximación por suma de Riemann dada por     Evalúa la integral definida y escribe una oración para explicar el significado del valor que encuentres.       En un estante de 6 pies de largo lleno de libros, la función modela la distribución del peso de los libros, en libras por pulgada, donde es el número de pulgadas desde el extremo izquierdo del estante. Sea dada por la regla .   ¿Cuáles son las unidades del producto ?    ¿Cuáles son las unidades de la integral definida y su aproximación por suma de Riemann dada por     Evalúa la integral definida y escribe una oración para explicar el significado del valor que encuentres.        "
@@ -5719,7 +5719,7 @@ var ptx_lunr_docs = [
   "id": "GUJ",
   "level": "2",
   "url": "sec-6-4-physics.html#GUJ",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "6.4.1",
   "title": "",
   "body": " Un cubo está siendo levantado desde el fondo de un pozo de 50 pies de profundidad; su peso (incluyendo el agua), , en libras a una altura pies sobre el agua está dado por la función . Cuando el cubo sale del agua, el cubo y el agua juntos pesan libras, y cuando el cubo llega a la parte superior del pozo, libras. Supón que el cubo pierde agua a una tasa constante (como una función de la altura, ) a lo largo de su viaje desde el fondo hasta la parte superior del pozo.   Encuentra una fórmula para .    Calcula el valor del producto , donde pies. Incluye unidades en tu respuesta. Explica por qué este producto representa el trabajo aproximado que tomó mover el cubo de agua desde hasta .    ¿Es el valor en (b) una sobreestimación o subestimación de la cantidad real de trabajo que tomó mover el cubo desde hasta ? ¿Por qué?    Calcula el valor del producto , donde pies. Incluye unidades en tu respuesta. ¿Cuál es el significado del valor que encontraste?    Más generalmente, ¿qué mide la cantidad para un valor dado de y un valor positivo pequeño de ?    Evalúa la integral definida . ¿Cuál es el significado del valor que encuentras? ¿Por qué?     "
@@ -5863,7 +5863,7 @@ var ptx_lunr_docs = [
   "id": "tAY",
   "level": "2",
   "url": "sec-6-5-improper.html#tAY",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "6.5.1",
   "title": "",
   "body": " Una empresa con una gran base de clientes tiene un centro de llamadas que recibe miles de llamadas al día. Después de estudiar los datos que representan cuánto tiempo esperan los clientes para recibir asistencia, encuentran que la función modela el tiempo de espera de los clientes de la siguiente manera: la fracción de clientes que esperan entre y minutos se da por .  Usa esta información para responder las siguientes preguntas.   Determina la fracción de clientes que esperan entre 5 y 10 minutos.    Determina la fracción de clientes que esperan entre 10 y 20 minutos.    A continuación, estudiemos la fracción que espera hasta un cierto número de minutos:   ¿Cuál es la fracción de clientes que esperan entre 0 y 5 minutos?    ¿Cuál es la fracción de clientes que esperan entre 0 y 10 minutos?    ¿Entre 0 y 15 minutos? ¿Entre 0 y 20?       Sea la fracción de clientes que esperan entre y minutos. Encuentra una fórmula para que involucre una integral definida, y luego usa el Primer Teorema Fundamental del Cálculo para encontrar una fórmula para que no involucre una integral definida.    ¿Cuál es el valor del límite ? ¿Cuál es su significado en el contexto del problema?     "
@@ -6016,7 +6016,7 @@ var ptx_lunr_docs = [
   "id": "Mow",
   "level": "2",
   "url": "sec-7-1-diff-eq-intro.html#Mow",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "7.1.1",
   "title": "",
   "body": " La posición de un objeto en movimiento está dada por la función , donde se mide en pies y en segundos. Determinamos que la velocidad es pies por segundo.   ¿Cuánto cambia la posición durante el intervalo de tiempo ?    ¿Esto te da suficiente información para determinar , la posición en el tiempo ? Si es así, ¿cuál es ? Si no, ¿qué información adicional necesitarías saber para determinar ?    Supón que te dicen que la posición inicial del objeto . Determina , la posición del objeto 2 segundos después.    Si en cambio te dicen que la posición inicial del objeto es , ¿cuál es ?    Si solo sabemos que la velocidad es , ¿es posible que la posición del objeto en todo momento sea ? Explica cómo lo sabes.    ¿Hay otras posibilidades para ? Si es así, ¿cuáles son?    Si, además de saber que la función de velocidad es , sabemos la posición inicial , ¿cuántas posibilidades hay para ?     "
@@ -6133,7 +6133,7 @@ var ptx_lunr_docs = [
   "id": "Gzk",
   "level": "2",
   "url": "sec-7-2-qualitative.html#Gzk",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "7.2.1",
   "title": "",
   "body": " Consideremos el problema de valor inicial .     Usa la ecuación diferencial para encontrar la pendiente de la línea tangente a la solución en . Luego usa el valor inicial para encontrar la ecuación de la línea tangente en . Dibuja esta línea tangente sobre el intervalo en los ejes proporcionados en Figure .   Cuadrícula para trazar líneas tangentes parciales.      También se muestran en Figure las líneas tangentes a la solución en los puntos , y (veremos cómo encontrarlas más adelante). Usa el gráfico para medir la pendiente de cada línea tangente y verifica que cada una coincide con el valor especificado por la ecuación diferencial.    Usando estas líneas tangentes como guía, dibuja un gráfico de la solución sobre el intervalo de manera que las líneas sean tangentes al gráfico de .    Usa el Teorema Fundamental del Cálculo para encontrar , la solución a este problema de valor inicial.    Grafica la solución que encontraste en (d) en los ejes proporcionados, y compárala con el dibujo que hiciste usando las líneas tangentes.     "
@@ -6304,7 +6304,7 @@ var ptx_lunr_docs = [
   "id": "AJY",
   "level": "2",
   "url": "sec-7-3-euler.html#AJY",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "7.3.1",
   "title": "",
   "body": " Considera el problema de valor inicial .     Usa la ecuación diferencial para encontrar la pendiente de la línea tangente a la solución en . Luego usa el valor inicial dado para encontrar la ecuación de la línea tangente en .    Dibuja la línea tangente en los ejes proporcionados en Figure en el intervalo y úsala para aproximar , el valor de la solución en .   Cuadrícula para trazar la línea tangente.      Suponiendo que tu aproximación para es el valor real de , usa la ecuación diferencial para encontrar la pendiente de la línea tangente a en . Luego, escribe la ecuación de la línea tangente en .    Añade un dibujo de esta línea tangente en el intervalo a tu gráfico Figure ; usa esta nueva línea tangente para aproximar , el valor de la solución en .    Repite el mismo paso para encontrar una aproximación para .     "
@@ -6475,7 +6475,7 @@ var ptx_lunr_docs = [
   "id": "zEF",
   "level": "2",
   "url": "sec-7-4-separable.html#zEF",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "7.4.1",
   "title": "",
   "body": " En esta actividad de vista previa, exploramos si ciertas ecuaciones diferenciales son separables o no, y luego revisamos algunas ideas clave de trabajos anteriores en cálculo integral.     ¿Cuáles de las siguientes ecuaciones diferenciales son separables? Si la ecuación es separable, escribe la ecuación en la forma revisada .      .     .     .     .       Explica por qué cualquier ecuación diferencial autónoma está garantizada a ser separable.    ¿Por qué incluimos el término en la expresión     Supón que sabemos que una cierta función satisface la ecuación . ¿Qué puedes concluir sobre ?     "
@@ -6628,7 +6628,7 @@ var ptx_lunr_docs = [
   "id": "yzm",
   "level": "2",
   "url": "sec-7-5-modeling.html#yzm",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "7.5.1",
   "title": "",
   "body": " Cada vez que la tasa de cambio de una cantidad está relacionada con la cantidad de una cantidad, surge naturalmente una ecuación diferencial. En los siguientes dos problemas, vemos dos de esos escenarios; para cada uno, queremos desarrollar una ecuación diferencial cuya solución sea la cantidad de interés.   Supón que tienes una cuenta bancaria en la que el dinero crece a una tasa anual del 3%.   Si tienes $10,000 en la cuenta, ¿a qué tasa está creciendo tu dinero?    Supón que también estás retirando dinero de la cuenta a $1,000 por año. ¿Cuál es la tasa de cambio en la cantidad de dinero en la cuenta? ¿Cuáles son las unidades de esta tasa de cambio?       Supón que un tanque de agua contiene 100 galones y que una solución salina, que contiene 20 gramos de sal en cada galón, entra al tanque a 2 galones por minuto.   ¿Cuánta sal entra al tanque cada minuto?    Supón que inicialmente hay 300 gramos de sal en el tanque. ¿Cuánta sal hay en cada galón en este momento?    Finalmente, supón que la solución mezclada uniformemente se bombea fuera del tanque a una tasa de 2 galones por minuto. ¿Cuánta sal sale del tanque cada minuto?    ¿Cuál es la tasa total de cambio en la cantidad de sal en el tanque?        "
@@ -6763,7 +6763,7 @@ var ptx_lunr_docs = [
   "id": "dBc",
   "level": "2",
   "url": "sec-7-6-logistic.html#dBc",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "7.6.1",
   "title": "",
   "body": " Recuerda que un modelo para el crecimiento de la población dice que una población crece a una tasa proporcional a su tamaño.   Comenzamos con la ecuación diferencial . Dibuja un campo de pendientes a continuación, así como algunas soluciones típicas en los ejes proporcionados.       Encuentra todas las soluciones de equilibrio de la ecuación y clasifícalas como estables o inestables.    Si es positivo, describe el comportamiento a largo plazo de la solución a .    Ahora consideremos una ecuación diferencial modificada dada por . Como antes, dibuja un campo de pendientes así como algunas soluciones típicas en los siguientes ejes proporcionados.       Encuentra cualquier solución de equilibrio y clasifícalas como estables o inestables.    Si es positivo, describe el comportamiento a largo plazo de la solución.     "
@@ -6925,7 +6925,7 @@ var ptx_lunr_docs = [
   "id": "XLQ",
   "level": "2",
   "url": "sec-8-1-sequences.html#XLQ",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "8.1.1",
   "title": "",
   "body": " Supón que recibes a través de una herencia. Decides invertir este dinero en un fondo que paga anualmente, compuesto mensualmente. Eso significa que cada mes tu inversión gana dólares adicionales, donde es tu saldo principal al inicio del mes. Así que en el primer mes tu inversión gana o . Si reinviertes este dinero, entonces tendrás en tu cuenta al final del primer mes. A partir de este punto, asume que reinviertes todos los intereses que ganas.     ¿Cuánto interés ganarás en el segundo mes? ¿Cuánto dinero tendrás en tu cuenta al final del segundo mes?    Completa Table para determinar el interés ganado y la cantidad total de dinero en esta inversión cada mes durante un año.   Interés    Mes   Interés  ganado   Cantidad total  de dinero  en la cuenta                                                                        Como veremos más adelante, la cantidad de dinero en la cuenta después del mes se da por . Usa esta fórmula para verificar tus cálculos en Table . Luego encuentra la cantidad de dinero en la cuenta después de 5 años.    ¿Cuántos años pasarán antes de que la cuenta se haya duplicado en valor a $10000?     "
@@ -7069,7 +7069,7 @@ var ptx_lunr_docs = [
   "id": "CNG",
   "level": "2",
   "url": "sec-8-2-geometric.html#CNG",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "8.2.1",
   "title": "",
   "body": " La warfarina es un anticoagulante que previene la coagulación de la sangre; a menudo se prescribe a las víctimas de un derrame cerebral para ayudar a asegurar el flujo sanguíneo. El nivel de warfarina tiene que alcanzar una cierta concentración en la sangre para ser efectivo.  Supón que la warfarina es tomada por un paciente en particular en una dosis de 5 mg cada día. El medicamento es absorbido por el cuerpo y algo es excretado del sistema entre dosis. Supón que al final de un período de 24 horas, el 8% del medicamento permanece en el cuerpo. Sea la cantidad (en mg) de warfarina en el cuerpo antes de que se administre la ava dosis del medicamento.     Explica por qué mg.    Explica por qué mg. Luego muestra que .    Explica por qué mg. Luego muestra que .    Explica por qué mg. Luego muestra que .    Hay un patrón que deberías ver emergiendo. Usa este patrón para encontrar una fórmula para , donde es un número entero positivo arbitrario.    Completa Table con valores de para los valores de proporcionados (reportando con 10 decimales). ¿Qué parece estar ocurriendo con la secuencia a medida que aumenta?   Valores de para valores seleccionados de                                  "
@@ -7213,7 +7213,7 @@ var ptx_lunr_docs = [
   "id": "DxA",
   "level": "2",
   "url": "sec-8-3-series.html#DxA",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "8.3.1",
   "title": "",
   "body": "  ¿Alguna vez te has preguntado cómo tu calculadora puede producir una aproximación numérica para números complicados como , o ? Después de todo, las únicas operaciones que una calculadora realmente puede realizar son suma, resta, multiplicación, y división, las operaciones que componen los polinomios. Esta actividad proporciona los primeros pasos para entender cómo funciona este proceso. A lo largo de la actividad, deja que .     Encuentra la línea tangente a en y usa esta linealización para aproximar . Es decir, encuentra una fórmula para la línea tangente, y calcula , ya que .    La linealización de no proporciona una buena aproximación a ya que 1 no está muy cerca de 0. Para obtener una mejor aproximación, alteramos un poco nuestro enfoque. En lugar de usar una línea recta para aproximar , ponemos una curva apropiada en nuestra función de estimación para que se ajuste mejor al gráfico de para cerca de 0. Con la linealización, tanto como compartían el mismo valor que la linealización en . Ahora usaremos una aproximación cuadrática a centrada en que tiene la propiedad de que , , y .     Sea . Muestra que , , y . Luego, usa para aproximar observando que .    Podemos seguir aproximando con polinomios de mayor grado cuyos derivados superiores coincidan con los de en 0. Esto resulta en que los polinomios se ajusten mejor al gráfico de para más valores de alrededor de 0. Por ejemplo, sea . Muestra que , , , y . Usa para aproximar de manera similar a como lo hiciste con arriba.             La linealización de en es , así que la linealización de en es .  Ahora para cerca de y así .       Las derivadas de y son , y así las derivadas de y evaluadas en 0 son .  Entonces .    Las derivadas de y son , y así las derivadas de y evaluadas en 0 son .  Entonces .         "
@@ -7438,7 +7438,7 @@ var ptx_lunr_docs = [
   "id": "VfF",
   "level": "2",
   "url": "sec-8-4-alternating.html#VfF",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "8.4.1",
   "title": "",
   "body": "   Actividad de Vista Previa mostró cómo podemos aproximar el número con aproximaciones lineales, cuadráticas, y otros polinomios. Usamos un enfoque similar en esta actividad para obtener aproximaciones lineales y cuadráticas a . En el camino, encontramos un tipo de serie que es diferente a la mayoría de las que hemos visto hasta ahora. A lo largo de esta actividad, sea .     Encuentra la línea tangente a en y usa esta linealización para aproximar . Es decir, encuentra , la aproximación de la línea tangente a , y usa el hecho de que para estimar .    La linealización de no proporciona una muy buena aproximación a ya que no está tan cerca de . Para obtener una mejor aproximación, alteramos nuestro enfoque; en lugar de usar una línea recta para aproximar , usamos una función cuadrática para tener en cuenta la concavidad de para cerca de . Con la linealización, tanto el valor de la función como la pendiente coinciden con el valor y la pendiente de la linealización en . Ahora haremos una aproximación cuadrática a centrada en con la propiedad de que , , y .     Sea . Muestra que , , y . Usa para aproximar usando el hecho de que .    Podemos seguir aproximando con polinomios de mayor grado cuyas derivadas coinciden con las de en . Esto hace que los polinomios se ajusten mejor al gráfico de para más valores de alrededor de . Por ejemplo, sea . Muestra que , , , y . Tomando un enfoque similar a las preguntas anteriores, usa para aproximar .    Si usamos un polinomio de grado o de grado para aproximar , ¿qué aproximaciones de crees que resultarían? Usa las preguntas anteriores para conjeturar un patrón que se mantenga, y enuncia la aproximación de grado y de grado .             La linealización de en es , así que la linealización de en es .  Ahora para cerca de y así .       Las derivadas de y son , y así las derivadas de y evaluadas en 0 son .  Entonces .    Las derivadas de y son , y así las derivadas de y evaluadas en 0 son .  Entonces .         "
@@ -7636,7 +7636,7 @@ var ptx_lunr_docs = [
   "id": "mNK",
   "level": "2",
   "url": "sec-8-5-taylor.html#mNK",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "8.5.1",
   "title": "",
   "body": "   Actividad de Vista Previa mostró cómo podemos aproximar el número usando funciones lineales, cuadráticas, y otros polinomios; luego usamos ideas similares en Actividad de Vista Previa para aproximar . En esta actividad, revisamos y extendemos el proceso para encontrar la mejor aproximación cuadrática a la función exponencial alrededor del origen. Deja que sea durante toda esta actividad.     Encuentra una fórmula para , la linealización de en . (Etiquetamos esta linealización como porque es una aproximación polinómica de primer grado.) Recuerda que es una buena aproximación a para valores de cercanos a . Grafica y cerca de para ilustrar este hecho.    Dado que no es lineal, la aproximación lineal eventualmente no es muy buena. Para obtener mejores aproximaciones, queremos desarrollar una aproximación diferente que se doble para que se ajuste más de cerca al gráfico de cerca de . Para hacerlo, añadimos un término cuadrático a . En otras palabras, dejamos que para algún número real . Necesitamos determinar el valor de que haga que el gráfico de se ajuste mejor al gráfico de cerca de .  Recuerda que era una buena aproximación lineal a cerca de ; esto es porque y . Por lo tanto, es razonable buscar un valor de tal que . Recuerda, estamos dejando que .     Calcula para mostrar que .    Calcula para mostrar que .    Calcula . Luego encuentra un valor para tal que .    Explica por qué la condición pondrá una curvatura apropiada en el gráfico de para que se ajuste al gráfico de alrededor de .             Sabemos que .  Dado que y , los gráficos de y coinciden en y tienen la misma pendiente en (lo que significa que van en la misma dirección en ). Por eso es una buena aproximación a para valores de cercanos a .       Dado que tenemos que como se deseaba.    Un cálculo simple muestra . Así que como se deseaba.    Un cálculo simple muestra . Así que . Para que debemos tener o .    La segunda derivada de una función nos dice la concavidad de la función. La concavidad mide cómo están cambiando las pendientes de las líneas tangentes al gráfico de la función. Esto nos dice cuánto se dobla el gráfico. Así que si , entonces tendrá la misma curvatura en que . Esto hará que el gráfico de se moldee al gráfico de alrededor de .         "
@@ -7861,7 +7861,7 @@ var ptx_lunr_docs = [
   "id": "Glc",
   "level": "2",
   "url": "sec-8-6-powerseries.html#Glc",
-  "type": "Preview Activity",
+  "type": "Actividad Introductoria",
   "number": "8.6.1",
   "title": "",
   "body": "  En el Capítulo , aprendimos algunas de las muchas aplicaciones importantes de las ecuaciones diferenciales, y aprendimos algunos enfoques para resolverlas o analizarlas. Aquí, consideramos un enfoque importante que nos permitirá resolver una variedad más amplia de ecuaciones diferenciales.  Consideremos la ecuación diferencial familiar del crecimiento exponencial de la población dada por , donde es la constante de proporcionalidad. Aunque podemos resolver esta ecuación diferencial usando métodos que ya hemos aprendido, ahora tomamos un enfoque diferente que se puede aplicar a un conjunto mucho más grande de ecuaciones diferenciales. Para el resto de esta actividad, supongamos que . Usaremos nuestro conocimiento de series de Taylor para encontrar una solución a la ecuación diferencial .  Para hacerlo, asumimos que tenemos una solución y que tiene una serie de Taylor que se puede escribir en la forma , donde los coeficientes son indeterminados. Nuestra tarea es encontrar los coeficientes.     Supón que podemos diferenciar una serie de potencias término a término. Al tomar la derivada de con respecto a y sustituir el resultado en la ecuación diferencial , muestra que la ecuación debe ser satisfecha para que sea una solución de la ED.    Dos series son iguales si y solo si tienen los mismos coeficientes en términos de igual potencia. Usa este hecho para encontrar una relación entre y .    Ahora escribe en términos de . Luego escribe en términos de .    Escribe en términos de . Luego escribe en términos de .    Escribe en términos de . Luego escribe en términos de .    Observa que hay un patrón en (b)-(e). Encuentra una fórmula general para en términos de .    Escribe la expansión en serie para usando solo el coeficiente desconocido . A partir de esto, determina qué funciones familiares satisfacen la ecuación diferencial . ( Consejo : Compara con una serie de Taylor familiar.)          Diferenciar término a término da .  Luego sustituimos esta serie en la ecuación diferencial para obtener la ecuación     Cuando escribimos los primeros términos de la serie en ambos lados de nuestra ecuación diferencial obtenemos .  Igualar los términos constantes nos da .    Igualar los términos de grado 1 nos da o . Como , tenemos .    Igualar los términos de grado 2 nos da o . Como , tenemos .    Igualar los términos de grado 3 nos da o . Como , tenemos .    Igualar los términos de grado nos da o . Parece que , así que tenemos .    Como tenemos .  Así que las funciones que satisfacen la ecuación diferencial son las funciones exponenciales de la forma .      "
