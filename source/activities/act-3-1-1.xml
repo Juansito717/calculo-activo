@@ -15,42 +15,42 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-1-1" permid="pte">
   <statement>
     <p permid="QQu">
-      Suppose that <m>g(x)</m> is a function continuous for every value of <m>x \ne 2</m> whose first derivative is <m>g'(x) = \frac{(x+4)(x-1)^2}{x-2}</m>.
-      Further, assume that it is known that <m>g</m> has a vertical asymptote at <m>x = 2</m>.
+      Supón que <m>g(x)</m> es una función continua para cada valor de <m>x \ne 2</m> cuya primera derivada es <m>g'(x) = \frac{(x+4)(x-1)^2}{x-2}</m>.
+      Además, supón que se sabe que <m>g</m> tiene una asíntota vertical en <m>x = 2</m>.
 
       <ol marker="a." permid="GMO">
         <li permid="mTX">
           <p permid="FHv">
-            Determine all critical numbers of <m>g</m>.
+            Determina todos los números críticos de <m>g</m>.
           </p>
         </li>
 
         <li permid="Tbg">
           <p permid="lOE">
-            By developing a carefully labeled first derivative sign chart,
-            decide whether <m>g</m> has as a local maximum,
-            local minimum,
-            or neither at each critical number.
+            Desarrollando un gráfico de signos de la primera derivada cuidadosamente etiquetado,
+            decide si <m>g</m> tiene un máximo local,
+            mínimo local,
+            o ninguno en cada número crítico.
           </p>
         </li>
 
         <li permid="zip">
           <p permid="RVN">
-            Does <m>g</m> have a global maximum? global minimum?
-            Justify your claims.
+            ¿Tiene <m>g</m> un máximo global? ¿mínimo global?
+            Justifica tus afirmaciones.
           </p>
         </li>
 
         <li permid="fpy">
           <p permid="ycW">
-            What is the value of <m>\lim_{x \to \infty} g'(x)</m>?
-            What does the value of this limit tell you about the long-term behavior of <m>g</m>?
+            ¿Cuál es el valor de <m>\lim_{x \to \infty} g'(x)</m>?
+            ¿Qué te dice el valor de este límite sobre el comportamiento a largo plazo de <m>g</m>?
           </p>
         </li>
 
         <li permid="LwH">
           <p permid="ekf">
-            Sketch a possible graph of <m>y = g(x)</m>.
+            Dibuja un posible gráfico de <m>y = g(x)</m>.
           </p>
         </li>
       </ol>
@@ -61,31 +61,31 @@
       <ol marker="a." permid="aFF">
         <li permid="rDQ">
           <p permid="Kro">
-            For which <m>x</m> is <m>g'(x) = 0</m>?
+            ¿Para qué <m>x</m> es <m>g'(x) = 0</m>?
           </p>
         </li>
 
         <li permid="XKZ">
           <p permid="qyx">
-            Note that <m>(x-1)^2</m> is positive for all <m>x \ne 1</m>.
+            Nota que <m>(x-1)^2</m> es positivo para todo <m>x \ne 1</m>.
           </p>
         </li>
 
         <li permid="DSi">
           <p permid="WFG">
-            Use your first derivative sign chart from (b).
+            Usa tu gráfico de signos de la primera derivada de (b).
           </p>
         </li>
 
         <li permid="jZr">
           <p permid="CMP">
-            Try expanding the numerator before evaluating the limit.
+            Intenta expandir el numerador antes de evaluar el límite.
           </p>
         </li>
 
         <li permid="QgA">
           <p permid="iTY">
-            Think carefully about the information from the sign chart found in (b).
+            Piensa cuidadosamente sobre la información del gráfico de signos encontrado en (b).
           </p>
         </li>
       </ol>
@@ -96,23 +96,23 @@
       <ol marker="a." permid="uyw">
         <li permid="wnJ">
           <p permid="Pbh">
-            <m>x = -4</m> or <m>x = 1</m>.
+            <m>x = -4</m> o <m>x = 1</m>.
           </p>
         </li>
 
         <li permid="cuS">
           <p permid="viq">
-            <m>g</m> has a local maximum at <m>x = -4</m> and neither a max nor min at <m>x = 1</m>.
+            <m>g</m> tiene un máximo local en <m>x = -4</m> y ni un máximo ni un mínimo en <m>x = 1</m>.
           </p>
         </li>
 
         <li permid="ICb">
           <p permid="bpz">
-            <m>g</m> does not have a global minimum;
-            it is unclear
-            (at this point in our work)
-            if <m>g</m> increases without bound,
-            so we can't say for certain whether or not <m>g</m> has a global maximum.
+            <m>g</m> no tiene un mínimo global;
+            no está claro
+            (en este punto de nuestro trabajo)
+            si <m>g</m> aumenta sin límite,
+            así que no podemos decir con certeza si <m>g</m> tiene un máximo global.
           </p>
         </li>
 
@@ -124,7 +124,7 @@
 
         <li permid="UQt">
           <p permid="nDR">
-            A possible graph of <m>g</m> is the following.
+            Un posible gráfico de <m>g</m> es el siguiente.
           </p>
 
           <sidebyside width="50%" permid="deM">
@@ -140,67 +140,67 @@
       <ol marker="a." permid="Orn">
         <li permid="AXC">
           <p permid="TLa">
-            Since <m>g'(x) = \frac{(x+4)(x-1)^2}{x-2}</m>,
-            we see that <m>g'(x) = 0</m> implies that <m>x = -4</m> or <m>x = 1</m>.
-            While <m>x = 2</m> makes <m>g'</m> undefined,
-            we are told that <m>g</m> has a vertical asymptote at <m>x = 2</m>,
-            so <m>x = 2</m> is not in the domain of <m>g</m>,
-            and hence is technically not a critical number of <m>g</m>.
-            Nonetheless,
-            we place <m>x = 2</m> on our first derivative sign chart since the vertical asymptote is a location at which <m>g'</m> may change sign.
+            Dado que <m>g'(x) = \frac{(x+4)(x-1)^2}{x-2}</m>,
+            vemos que <m>g'(x) = 0</m> implica que <m>x = -4</m> o <m>x = 1</m>.
+            Mientras que <m>x = 2</m> hace que <m>g'</m> no esté definida,
+            se nos dice que <m>g</m> tiene una asíntota vertical en <m>x = 2</m>,
+            así que <m>x = 2</m> no está en el dominio de <m>g</m>,
+            y por lo tanto técnicamente no es un número crítico de <m>g</m>.
+            No obstante,
+            colocamos <m>x = 2</m> en nuestro gráfico de signos de la primera derivada ya que la asíntota vertical es un lugar en el que <m>g'</m> puede cambiar de signo.
           </p>
         </li>
 
         <li permid="heL">
           <p permid="zSj">
-            The first derivative sign chart shows that <m>g'(x) \gt 0</m> for <m>x \lt -4</m>,
-            <m>g'(x) \lt 0</m> for <m>-4 \lt x \lt 1</m>,
-            <m>g'(x) \lt 0</m> for <m>1 \lt x \lt 2</m>,
-            and <m>g'(x) \gt 0</m> for <m>x \gt 2</m>.
-            By the first derivative test,
-            <m>g</m> has a local maximum at <m>x = -4</m> and neither a max nor min at <m>x = 1</m>.
-            As these are the only two critical numbers,
-            these are the only two locations for possible extremes.
-            (Note:
-            although <m>g</m> changes from decreasing to increasing at <m>x = 2</m>,
-            this is due to a vertical asymptote,
-            and <m>g</m> does not have a minimum there.)
+            El gráfico de signos de la primera derivada muestra que <m>g'(x) \gt 0</m> para <m>x \lt -4</m>,
+            <m>g'(x) \lt 0</m> para <m>-4 \lt x \lt 1</m>,
+            <m>g'(x) \lt 0</m> para <m>1 \lt x \lt 2</m>,
+            y <m>g'(x) \gt 0</m> para <m>x \gt 2</m>.
+            Según la prueba de la primera derivada,
+            <m>g</m> tiene un máximo local en <m>x = -4</m> y ni un máximo ni un mínimo en <m>x = 1</m>.
+            Como estos son los únicos dos números críticos,
+            estos son los únicos dos lugares para posibles extremos.
+            (Nota:
+            aunque <m>g</m> cambia de decreciente a creciente en <m>x = 2</m>,
+            esto se debe a una asíntota vertical,
+            y <m>g</m> no tiene un mínimo allí.)
           </p>
         </li>
 
         <li permid="NlU">
           <p permid="fZs">
-            Because <m>g</m> is decreasing as <m>x \to 2^-</m>
-            (where <m>g</m> has a vertical asymptote),
-            <m>g</m> does not have a global minimum.
-            For <m>x \gt 2</m>, <m>g</m> is always increasing,
-            which suggests that <m>g</m> does not have a global maximum
-            (though we do not know for sure that <m>g</m> increases without bound).
+            Porque <m>g</m> está decreciendo cuando <m>x \to 2^-</m>
+            (donde <m>g</m> tiene una asíntota vertical),
+            <m>g</m> no tiene un mínimo global.
+            Para <m>x \gt 2</m>, <m>g</m> está siempre aumentando,
+            lo que sugiere que <m>g</m> no tiene un máximo global
+            (aunque no sabemos con certeza que <m>g</m> aumenta sin límite).
           </p>
         </li>
 
         <li permid="ttd">
           <p permid="MgB">
-            We observe that
+            Observamos que
             <md permid="wXD">
               <mrow>\lim_{x \to \infty} g'(x) =\mathstrut \amp  \lim_{x \to \infty} \frac{(x+4)(x-1)^2}{x-2}</mrow>
               <mrow>=\mathstrut \amp  \lim_{x \to \infty} \frac{x^3 + 2x^2 - 7x + 4}{x-2} \cdot \frac{\frac{1}{x}}{\frac{1}{x}}</mrow>
               <mrow>=\mathstrut \amp  \lim_{x \to \infty} \frac{x^2 + 2x - 7 + \frac{4}{x}}{1 - \frac{2}{x}}</mrow>
               <mrow>=\mathstrut \amp  \infty</mrow>
             </md>
-            Since <m>g'(x) \to \infty</m> as <m>x \to \infty</m>,
-            this tells us that <m>g</m> increases without bound as <m>x \to \infty</m>.
+            Dado que <m>g'(x) \to \infty</m> cuando <m>x \to \infty</m>,
+            esto nos dice que <m>g</m> aumenta sin límite cuando <m>x \to \infty</m>.
           </p>
         </li>
 
         <li permid="ZAm">
           <p permid="snK">
-            From all of our work above,
-            we know that <m>g</m> has a local maximum at <m>x = -4</m>,
-            a horizontal tangent line with neither a max nor min at <m>x = 1</m>,
-            and a vertical asymptote at <m>x = 2</m>,
-            plus <m>g</m> and <m>g'</m> both increase without bound as <m>x \to \infty</m>.
-            Thus, a possible graph of <m>g</m> is the following.
+            De todo nuestro trabajo anterior,
+            sabemos que <m>g</m> tiene un máximo local en <m>x = -4</m>,
+            una línea tangente horizontal sin un máximo ni un mínimo en <m>x = 1</m>,
+            y una asíntota vertical en <m>x = 2</m>,
+            además <m>g</m> y <m>g'</m> ambos aumentan sin límite cuando <m>x \to \infty</m>.
+            Por lo tanto, un posible gráfico de <m>g</m> es el siguiente.
           </p>
 
           <sidebyside width="50%" permid="JlV">
@@ -212,4 +212,3 @@
     </p>
   </solution>
 </activity>
-

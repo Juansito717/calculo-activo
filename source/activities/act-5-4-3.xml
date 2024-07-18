@@ -15,7 +15,7 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-5-4-3" permid="uHa">
   <statement>
     <p permid="Rux">
-      Evaluate each of the following indefinite integrals.
+      Evalúa cada una de las siguientes integrales indefinidas.
 
       <ol marker="a." permid="HqR">
         <li permid="nya">
@@ -44,9 +44,9 @@
 
         <li permid="MaK">
           <p permid="eOi">
-            <m>\int t \arctan(t) \,dt</m> (<em>Hint:</em>
-            At a certain point in this problem,
-            it is very helpful to note that <m>\frac{t^2}{1+t^2} = 1 - \frac{1}{1+t^2}</m>.)
+            <m>\int t \arctan(t) \,dt</m> (<em>Pista:</em>
+            En cierto punto de este problema,
+            es muy útil notar que <m>\frac{t^2}{1+t^2} = 1 - \frac{1}{1+t^2}</m>.)
           </p>
         </li>
       </ol>
@@ -57,31 +57,31 @@
       <ol marker="a." permid="bjI">
         <li permid="shT">
           <p permid="KVr">
-            Start with <m>u=x^2</m>.
+            Empieza con <m>u=x^2</m>.
           </p>
         </li>
 
         <li permid="Ypc">
           <p permid="rcA">
-            Begin with <m>u=t^3</m>.
+            Empieza con <m>u=t^3</m>.
           </p>
         </li>
 
         <li permid="Ewl">
           <p permid="XjJ">
-            You'll have to integrate by parts twice.
+            Tendrás que integrar por partes dos veces.
           </p>
         </li>
 
         <li permid="kDu">
           <p permid="DqS">
-            Start with <m>u=s^2</m>.
+            Empieza con <m>u=s^2</m>.
           </p>
         </li>
 
         <li permid="QKD">
           <p permid="jyb">
-            Try <m>u=\arctan(x)</m>.
+            Prueba con <m>u=\arctan(x)</m>.
           </p>
         </li>
       </ol>
@@ -127,16 +127,16 @@
       <ol marker="a." permid="OVq">
         <li permid="BBF">
           <p permid="Upd">
-            First, using <m>u = x^2</m> and <m>dv = \sin(x) dx</m>,
-            we get <m>du = 2x dx</m> and <m>v = -\cos(x)</m>.
-            So
+            Primero, usando <m>u = x^2</m> y <m>dv = \sin(x) dx</m>,
+            obtenemos <m>du = 2x dx</m> y <m>v = -\cos(x)</m>.
+            Así que
             <me permid="xBG">
               \int x^2 \sin(x) dx = -x^2 \cos(x) + 2 \int x \cos(x) dx
             </me>.
-            Now, for <m>\int x \cos(x) dx</m>,
-            we use <m>u = x</m> and
-            <m>dv = \cos(x)</m> and get <m>du = dx</m> and <m>v =\sin(x)</m>.
-            So
+            Ahora, para <m>\int x \cos(x) dx</m>,
+            usamos <m>u = x</m> y
+            <m>dv = \cos(x)</m> y obtenemos <m>du = dx</m> y <m>v =\sin(x)</m>.
+            Así que
             <md permid="dIP">
               <mrow>\int x^2 \sin(x) dx \amp = -x^2 \cos(x) + 2 \left( x \sin(x) - \int \sin(x) dx \right)</mrow>
               <mrow>\amp = -x^2 \cos(x) + 2x \sin(x) + 2 \cos(x) + c</mrow>
@@ -146,9 +146,9 @@
 
         <li permid="hIO">
           <p permid="Awm">
-            Using <m>u = \ln(t)</m> and <m>dv = t^3 dt</m>,
-            we get <m>du = \dfrac{1}{t} dt</m> and <m>v = \dfrac{1}{4} t^4</m>.
-            So
+            Usando <m>u = \ln(t)</m> y <m>dv = t^3 dt</m>,
+            obtenemos <m>du = \dfrac{1}{t} dt</m> y <m>v = \dfrac{1}{4} t^4</m>.
+            Así que
             <md permid="JPY">
               <mrow>\int t^3 \ln(t) dt \amp = \frac{1}{4} t^4 \ln(t) - \frac{1}{4} \int t^3 dt</mrow>
               <mrow>\amp = \frac{1}{4} t^4 \ln(t) - \frac{1}{4} \cdot \frac{1}{4} t^4 + c</mrow>
@@ -159,14 +159,14 @@
 
         <li permid="NPX">
           <p permid="gDv">
-            We use <m>u = e^z</m> and <m>dv = \sin(z) dz</m>.
-            This gives <m>du = e^z dz</m> and <m>v = -\cos(z)</m>, and
+            Usamos <m>u = e^z</m> y <m>dv = \sin(z) dz</m>.
+            Esto da <m>du = e^z dz</m> y <m>v = -\cos(z)</m>, y
             <me permid="pXh">
               \int e^z \sin(z) dz = -e^z \cos(z) + \int e^z \cos(z) dz
             </me>.
-            For <m>\int e^z \cos(z) dz</m>,
-            we use <m>u = e^z</m> and <m>dv = \cos(z) dz</m>.
-            So <m>du = e^z dz</m> and <m>v = \sin(z)</m>, and
+            Para <m>\int e^z \cos(z) dz</m>,
+            usamos <m>u = e^z</m> y <m>dv = \cos(z) dz</m>.
+            Así que <m>du = e^z dz</m> y <m>v = \sin(z)</m>, y
             <md permid="Weq">
               <mrow>\int e^z \sin(z) dz \amp = -e^z \cos(z)  + e^z \sin(z) dz - \int e^z \sin(z) dz</mrow>
               <mrow>2 \int e^z \sin(z) dz \amp = -e^z \cos(z) + e^z \sin(z) + c'</mrow>
@@ -177,15 +177,15 @@
 
         <li permid="tXg">
           <p permid="MKE">
-            We use <m>u = s^2</m>, <m>dv = e^{3s} ds</m>,
-            <m>du = 2s ds</m>, and <m>v = \frac{1}{3} e^{3s}</m>.
-            This gives
+            Usamos <m>u = s^2</m>, <m>dv = e^{3s} ds</m>,
+            <m>du = 2s ds</m>, y <m>v = \frac{1}{3} e^{3s}</m>.
+            Esto da
             <me permid="Clz">
               \int s^2 e^{3s} ds = \frac{1}{3}s^2 e^{3s} - \frac{2}{3} \int s e^{3s} ds
             </me>.
-            We now use <m>u = s</m>,
+            Ahora usamos <m>u = s</m>,
             <m>dv = e^{3s} ds</m>, <m>du = ds</m>,
-            and <m>v = \dfrac{1}{3} e^{3s}</m> for <m>\int s e^{3s} ds</m>.
+            y <m>v = \dfrac{1}{3} e^{3s}</m> para <m>\int s e^{3s} ds</m>.
             <md permid="isI">
               <mrow>\int s^2 e^{3s} ds \amp = \frac{1}{3}s^2 e^{3s} - \frac{2}{3} \left( \frac{1}{3}s e^{3s} - \frac{1}{3}\int e^{3s} ds \right)</mrow>
               <mrow>\amp = \frac{1}{3}s^2 e^{3s} - \frac{2}{3} \left( \frac{1}{3}s e^{3s} - \frac{1}{9} e^{3s} \right) + c</mrow>
@@ -196,9 +196,9 @@
 
         <li permid="aep">
           <p permid="sRN">
-            Using <m>u = \arctan(t)</m>, <m>dv = t dt</m>,
+            Usando <m>u = \arctan(t)</m>, <m>dv = t dt</m>,
             <m>du = \dfrac{1}{1+t^2} dt</m>,
-            and <m>v = \dfrac{1}{2} t^2</m>, we get
+            y <m>v = \dfrac{1}{2} t^2</m>, obtenemos
             <md permid="OzR">
               <mrow>\int t \arctan(t) dt \amp = \frac{1}{2}t^2 \arctan(t) - \frac{1}{2} \int \frac{t^2}{1 + t^2} dt</mrow>
               <mrow>\amp = \frac{1}{2}t^2 \arctan(t) - \frac{1}{2} \int \left( 1 - \frac{1}{1 + t^2} \right) dt</mrow>
@@ -210,4 +210,3 @@
     </p>
   </solution>
 </activity>
-

@@ -15,11 +15,11 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-8-3-7" permid="KXe">
   <statement>
     <p permid="SBD">
-      Use the Limit Comparison Test to determine the convergence or divergence of the series
+      Usa la Prueba de Comparación de Límites para determinar la convergencia o divergencia de la serie
       <me permid="yIM">
         \sum \frac{3k^2+1}{5k^4+2k+2}
       </me>.
-      by comparing it to the series <m>\sum \frac{1}{k^2}</m>.
+      comparándola con la serie <m>\sum \frac{1}{k^2}</m>.
     </p>
   </statement>
   <hint permid="Vwj">
@@ -27,7 +27,7 @@
       <ol marker="a." permid="BDs">
         <li permid="hKB">
           <p permid="NRK">
-            Small hints for each of the prompts above.
+            Pequeñas pistas para cada uno de los puntos anteriores.
           </p>
         </li>
       </ol>
@@ -35,13 +35,13 @@
   </hint>
   <answer permid="ppa">
     <p permid="Gnl">
-      <m>\sum \frac{k^2+1}{k^4+2k+2}</m> converges.
+      <m>\sum \frac{k^2+1}{k^4+2k+2}</m> converge.
     </p>
   </answer>
   <solution permid="JhR">
     <p permid="tYT">
-      Let <m>b_k = \frac{k^2+1}{k^4+2k+2}</m> and <m>a_k = \frac{1}{k^2}</m>.
-      Then
+      Sea <m>b_k = \frac{k^2+1}{k^4+2k+2}</m> y <m>a_k = \frac{1}{k^2}</m>.
+      Entonces
       <md permid="ePV">
         <mrow>\lim_{k \to \infty} \frac{b_k}{a_k} \amp = \lim_{k \to \infty} \frac{\frac{k^2+1}{k^4+2k+2}}{\frac{1}{k^2}}</mrow>
         <mrow>\amp = \lim_{k \to \infty} \frac{k^4+k^2}{k^4+2k+2}</mrow>
@@ -51,12 +51,11 @@
     </p>
 
     <p permid="agc">
-      Since <m>\lim_{k \to \infty} \frac{b_k}{a_k}</m> is a finite positive constant,
-      the Limit Comparison Test shows that <m>\sum \frac{1}{k^2}</m> and
-      <m>\sum \frac{k^2+1}{k^4+2k+2}</m> either both converge or both diverge.
-      We know that <m>\sum \frac{1}{k^2}</m> is a <m>p</m>-series with <m>p > 1</m> and so <m>\sum \frac{1}{k^2}</m> converges.
-      Therefore, the series <m>\sum \frac{k^2+1}{k^4+2k+2}</m> also converges.
+      Dado que <m>\lim_{k \to \infty} \frac{b_k}{a_k}</m> es una constante positiva finita,
+      la Prueba de Comparación de Límites muestra que <m>\sum \frac{1}{k^2}</m> y
+      <m>\sum \frac{k^2+1}{k^4+2k+2}</m> o bien ambas convergen o ambas divergen.
+      Sabemos que <m>\sum \frac{1}{k^2}</m> es una serie <m>p</m> con <m>p > 1</m> y por lo tanto <m>\sum \frac{1}{k^2}</m> converge.
+      Por lo tanto, la serie <m>\sum \frac{k^2+1}{k^4+2k+2}</m> también converge.
     </p>
   </solution>
 </activity>
-

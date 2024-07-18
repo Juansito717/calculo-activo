@@ -15,37 +15,36 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-3-1" permid="AnV">
   <statement>
     <p permid="HSu">
-      Let <m>g(x) = \frac{1}{3}x^3 - 2x + 2</m>.
+      Sea <m>g(x) = \frac{1}{3}x^3 - 2x + 2</m>.
 
       <ol marker="a." permid="qkp">
         <li permid="Wry">
           <p permid="IXN">
-            Find all critical numbers of <m>g</m> that lie in the interval <m>-2 \le x \le 3</m>.
+            Encuentra todos los números críticos de <m>g</m> que se encuentran en el intervalo <m>-2 \le x \le 3</m>.
           </p>
         </li>
 
         <li permid="CyH">
           <p permid="peW">
-            Use a graphing utility to construct the graph of <m>g</m> on the interval <m>-2 \le x \le 3</m>.
+            Usa una herramienta de graficación para construir la gráfica de <m>g</m> en el intervalo <m>-2 \le x \le 3</m>.
           </p>
         </li>
 
         <li permid="iFQ">
           <p permid="Vmf">
-            From the graph,
-            determine the <m>x</m>-values at which the absolute minimum and absolute maximum of <m>g</m> occur on the interval <m>[-2,3]</m>.
+            A partir de la gráfica, determina los valores de <m>x</m> en los que ocurren el mínimo absoluto y el máximo absoluto de <m>g</m> en el intervalo <m>[-2,3]</m>.
           </p>
         </li>
 
         <li permid="OMZ">
           <p permid="Bto">
-            How do your answers change if we instead consider the interval <m>-2 \le x \le 2</m>?
+            ¿Cómo cambian tus respuestas si en lugar de eso consideramos el intervalo <m>-2 \le x \le 2</m>?
           </p>
         </li>
 
         <li permid="uUi">
           <p permid="hAx">
-            What if we instead consider the interval <m>-2 \le x \le 1</m>?
+            ¿Y si en lugar de eso consideramos el intervalo <m>-2 \le x \le 1</m>?
           </p>
         </li>
       </ol>
@@ -56,27 +55,25 @@
       <ol marker="a." permid="Kdg">
         <li permid="bbr">
           <p permid="NHG">
-            Check that each critical number you find satisfies <m>-2 \le x \le 3</m>.
+            Verifica que cada número crítico que encuentres satisfaga <m>-2 \le x \le 3</m>.
           </p>
         </li>
 
         <li permid="HiA">
           <p permid="tOP">
-            <url href="https://wolframalpha.com" visual="wolframalpha.com">WolframAlpha</url> is a great choice.
+            <url href="https://wolframalpha.com" visual="wolframalpha.com">WolframAlpha</url> es una excelente opción.
           </p>
         </li>
 
         <li permid="npJ">
           <p permid="ZVY">
-            On the graph,
-            look for the lowest and highest possible values of the function.
+            En la gráfica, busca los valores más bajos y más altos posibles de la función.
           </p>
         </li>
 
         <li permid="TwS">
           <p permid="Gdh">
-            Ask yourself the same questions as (a)-(c),
-            simply using the new interval.
+            Hazte las mismas preguntas que en (a)-(c), simplemente usando el nuevo intervalo.
           </p>
         </li>
       </ol>
@@ -101,22 +98,19 @@
 
         <li permid="LSt">
           <p permid="Srz">
-            On <m>[-2,3]</m>,
-            <m>g</m> has a global maximum at <m>x = 3</m> and a global minimum at <m>x = \sqrt{2}</m>.
+            En <m>[-2,3]</m>, <m>g</m> tiene un máximo global en <m>x = 3</m> y un mínimo global en <m>x = \sqrt{2}</m>.
           </p>
         </li>
 
         <li permid="rZC">
           <p permid="yyI">
-            On <m>[-2,2]</m>, <m>g</m> has a global maximum at
-            <m>x = -\sqrt{2}</m> and a global minimum at <m>x = \sqrt{2}</m>.
+            En <m>[-2,2]</m>, <m>g</m> tiene un máximo global en <m>x = -\sqrt{2}</m> y un mínimo global en <m>x = \sqrt{2}</m>.
           </p>
         </li>
 
         <li permid="YgL">
           <p permid="eFR">
-            On <m>[-2,1]</m>, <m>g</m> has a global maximum at
-            <m>x = -\sqrt{2}</m> and a global minimum at <m>x = 1</m>.
+            En <m>[-2,1]</m>, <m>g</m> tiene un máximo global en <m>x = -\sqrt{2}</m> y un mínimo global en <m>x = 1</m>.
           </p>
         </li>
       </ol>
@@ -127,16 +121,13 @@
       <ol marker="a." permid="xOO">
         <li permid="EnU">
           <p permid="KNa">
-            Since <m>g'(x) = x^2 - 2</m>,
-            the critical numbers of <m>g</m> are <m>x = \pm \sqrt{2} \approx \pm 1.414</m>,
-            both of which lie in the interval <m>-2 \le x \le 3</m>.
+            Dado que <m>g'(x) = x^2 - 2</m>, los números críticos de <m>g</m> son <m>x = \pm \sqrt{2} \approx \pm 1.414</m>, ambos se encuentran en el intervalo <m>-2 \le x \le 3</m>.
           </p>
         </li>
 
         <li permid="kvd">
           <p permid="qUj">
-            The figure shown below shows three related plots,
-            each with the emphases on the interval provided in (c), (d), and (e).
+            La figura mostrada a continuación muestra tres gráficos relacionados, cada uno con énfasis en el intervalo proporcionado en (c), (d) y (e).
           </p>
 
           <sidebyside widths="100%" permid="UgM">
@@ -147,26 +138,22 @@
 
         <li permid="QCm">
           <p permid="Xbs">
-            On <m>[-2,3]</m>,
-            <m>g</m> has a global maximum at <m>x = 3</m> and a global minimum at <m>x = \sqrt{2}</m>.
+            En <m>[-2,3]</m>, <m>g</m> tiene un máximo global en <m>x = 3</m> y un mínimo global en <m>x = \sqrt{2}</m>.
           </p>
         </li>
 
         <li permid="wJv">
           <p permid="DiB">
-            On <m>[-2,2]</m>, <m>g</m> has a global maximum at
-            <m>x = -\sqrt{2}</m> and a global minimum at <m>x = \sqrt{2}</m>.
+            En <m>[-2,2]</m>, <m>g</m> tiene un máximo global en <m>x = -\sqrt{2}</m> y un mínimo global en <m>x = \sqrt{2}</m>.
           </p>
         </li>
 
         <li permid="cQE">
           <p permid="jpK">
-            On <m>[-2,1]</m>, <m>g</m> has a global maximum at
-            <m>x = -\sqrt{2}</m> and a global minimum at <m>x = 1</m>.
+            En <m>[-2,1]</m>, <m>g</m> tiene un máximo global en <m>x = -\sqrt{2}</m> y un mínimo global en <m>x = 1</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

@@ -15,8 +15,8 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-8-4-2" permid="qXj">
   <statement>
     <p permid="eIR">
-      Which series converge and which diverge?
-      Justify your answers.
+      ¿Qué series convergen y cuáles divergen?
+      Justifica tus respuestas.
     </p>
 
     <p permid="KQa">
@@ -46,7 +46,7 @@
       <ol marker="a." permid="HlA">
         <li permid="LVt">
           <p permid="Vpf">
-            Small hints for each of the prompts above.
+            Pequeñas pistas para cada uno de los enunciados anteriores.
           </p>
         </li>
       </ol>
@@ -57,19 +57,19 @@
       <ol marker="a." permid="ber">
         <li permid="scC">
           <p permid="Bwo">
-            <m>\sum_{k=1}^{\infty} \frac{(-1)^k}{k^2+2}</m> converges.
+            <m>\sum_{k=1}^{\infty} \frac{(-1)^k}{k^2+2}</m> converge.
           </p>
         </li>
 
         <li permid="YjL">
           <p permid="hDx">
-            <m>\sum_{k=1}^{\infty} \frac{2(-1)^{k+1}k}{k+5}</m> diverges.
+            <m>\sum_{k=1}^{\infty} \frac{2(-1)^{k+1}k}{k+5}</m> diverge.
           </p>
         </li>
 
         <li permid="EqU">
           <p permid="NKG">
-            <m>\sum_{k=2}^{\infty} \frac{(-1)^{k}}{\ln(k)}</m> converges.
+            <m>\sum_{k=2}^{\infty} \frac{(-1)^{k}}{\ln(k)}</m> converge.
           </p>
         </li>
       </ol>
@@ -80,30 +80,29 @@
       <ol marker="a." permid="uXi">
         <li permid="kyd">
           <p permid="tRP">
-            Since <m>(k+1)^2 + 2 \gt k^2+2</m> it follows that
-            <m>\frac{1}{(k+1)^2+2} \lt \frac{1}{k^2+2}</m> and the sequence <m>\frac{1}{k^2+2}</m> decreases to 0.
-            The Alternating Series Test shows then that the series <m>\sum_{k=1}^{\infty} \frac{(-1)^k}{k^2+2}</m> converges.
+            Dado que <m>(k+1)^2 + 2 \gt k^2+2</m> se sigue que
+            <m>\frac{1}{(k+1)^2+2} \lt \frac{1}{k^2+2}</m> y la secuencia <m>\frac{1}{k^2+2}</m> decrece a 0.
+            La Prueba de Series Alternantes muestra entonces que la serie <m>\sum_{k=1}^{\infty} \frac{(-1)^k}{k^2+2}</m> converge.
           </p>
         </li>
 
         <li permid="QFm">
           <p permid="ZYY">
-            In this case we have that
-            <m>\lim_{k \to \infty} \frac{2k}{k+5} = 2</m> and so the sequence of <m>k</m>th terms does not even converge to 0.
-            So the series <m>\sum_{k=1}^{\infty} \frac{2(-1)^{k+1}k}{k+5}</m> diverges by the Divergence Test.
+            En este caso tenemos que
+            <m>\lim_{k \to \infty} \frac{2k}{k+5} = 2</m> y por lo tanto la secuencia de términos <m>k</m> no converge ni siquiera a 0.
+            Así que la serie <m>\sum_{k=1}^{\infty} \frac{2(-1)^{k+1}k}{k+5}</m> diverge por la Prueba de Divergencia.
           </p>
         </li>
 
         <li permid="wMv">
           <p permid="Ggh">
-            We know that the natural log is an increasing function,
-            so <m>\frac{1}{\ln(k)}</m> is a decreasing function.
-            It is also true that <m>\lim_{k \to \infty} \frac{1}{\ln(k)} = 0</m> and so the series
-            <m>\sum_{k=2}^{\infty} \frac{(-1)^{k}}{\ln(k)}</m> converges by the Alternating Series Test.
+            Sabemos que el logaritmo natural es una función creciente,
+            así que <m>\frac{1}{\ln(k)}</m> es una función decreciente.
+            También es cierto que <m>\lim_{k \to \infty} \frac{1}{\ln(k)} = 0</m> y por lo tanto la serie
+            <m>\sum_{k=2}^{\infty} \frac{(-1)^{k}}{\ln(k)}</m> converge por la Prueba de Series Alternantes.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

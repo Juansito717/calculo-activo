@@ -15,39 +15,39 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-8-6-2" permid="XlW">
   <statement>
     <p permid="SCd">
-      Our goal in this activity is to find a power series expansion for
-      <m>f(x) = \frac{1}{1+x^2}</m> centered at <m>x=0</m>.
+      Nuestro objetivo en esta actividad es encontrar una expansión en serie de potencias para
+      <m>f(x) = \frac{1}{1+x^2}</m> centrada en <m>x=0</m>.
     </p>
 
     <p permid="yJm">
-      While we could use the methods of <xref ref="sec-8-5-taylor">Section</xref>
-      and differentiate <m>f(x) = \frac{1}{1+x^2}</m> several times to look for patterns and find the Taylor series for <m>f(x)</m>,
-      we seek an alternate approach because of how complicated the derivatives of <m>f(x)</m> quickly become.
+      Aunque podríamos usar los métodos de <xref ref="sec-8-5-taylor">Section</xref>
+      y diferenciar <m>f(x) = \frac{1}{1+x^2}</m> varias veces para buscar patrones y encontrar la serie de Taylor para <m>f(x)</m>,
+      buscamos un enfoque alternativo debido a lo complicado que se vuelven las derivadas de <m>f(x)</m> rápidamente.
     </p>
 
     <p permid="eQv">
       <ol marker="a." permid="blV">
         <li permid="Hte">
           <p permid="QMQ">
-            What is the Taylor series expansion for <m>g(x) = \frac{1}{1-x}</m>?
-            What is the interval of convergence of this series?
+            ¿Cuál es la expansión en serie de Taylor para <m>g(x) = \frac{1}{1-x}</m>?
+            ¿Cuál es el intervalo de convergencia de esta serie?
           </p>
         </li>
 
         <li permid="nAn">
           <p permid="wTZ">
-            How is <m>g(-x^2)</m> related to <m>f(x)</m>?
-            Explain,
-            and hence substitute <m>-x^2</m> for <m>x</m> in the power series expansion for <m>g(x)</m>.
-            Given the relationship between <m>g(-x^2)</m> and <m>f(x)</m>,
-            how is the resulting series related to <m>f(x)</m>?
+            ¿Cómo se relaciona <m>g(-x^2)</m> con <m>f(x)</m>?
+            Explica,
+            y por lo tanto sustituye <m>-x^2</m> por <m>x</m> en la expansión en serie de potencias para <m>g(x)</m>.
+            Dada la relación entre <m>g(-x^2)</m> y <m>f(x)</m>,
+            ¿cómo se relaciona la serie resultante con <m>f(x)</m>?
           </p>
         </li>
 
         <li permid="THw">
           <p permid="dbi">
-            For which values of <m>x</m> will this power series expansion for <m>f(x)</m> be valid?
-            Why?
+            ¿Para qué valores de <m>x</m> será válida esta expansión en serie de potencias para <m>f(x)</m>?
+            ¿Por qué?
           </p>
         </li>
       </ol>
@@ -58,7 +58,7 @@
       <ol marker="a." permid="veM">
         <li permid="zOF">
           <p permid="Jir">
-            Small hints for each of the prompts above.
+            Pequeñas pistas para cada una de las preguntas anteriores.
           </p>
         </li>
       </ol>
@@ -72,7 +72,7 @@
             <m>
             \frac{1}{1-x} = \sum_{k=0}^{\infty} x^k
             </m>
-            for <m>-1 \lt x \lt 1</m>.
+            para <m>-1 \lt x \lt 1</m>.
           </p>
         </li>
 
@@ -95,17 +95,17 @@
       <ol marker="a." permid="iQu">
         <li permid="Yrp">
           <p permid="hLb">
-            Recall that
+            Recuerda que
             <me permid="KXE">
               g(x) = \frac{1}{1-x} = \sum_{k=0}^{\infty} x^k
             </me>
-            for <m>-1 \lt  x \lt  1</m>.
+            para <m>-1 \lt  x \lt  1</m>.
           </p>
         </li>
 
         <li permid="Eyy">
           <p permid="NSk">
-            Substituting <m>-x^2</m> for <m>x</m> in the power series expansion for <m>g(x)</m> gives
+            Sustituyendo <m>-x^2</m> por <m>x</m> en la expansión en serie de potencias para <m>g(x)</m> obtenemos
             <md permid="reN">
               <mrow>f(x) \amp = g(-x^2)</mrow>
               <mrow>\amp = \frac{1}{1-(-x^2)}</mrow>
@@ -117,12 +117,11 @@
 
         <li permid="kFH">
           <p permid="tZt">
-            This power series expansion for <m>f(x)</m> will be valid as long as
-            <m>-1 \lt (-x)^2 \lt 1</m> or for <m>-1 \lt x \lt 1</m>.
+            Esta expansión en serie de potencias para <m>f(x)</m> será válida siempre que
+            <m>-1 \lt (-x)^2 \lt 1</m> o para <m>-1 \lt x \lt 1</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

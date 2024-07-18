@@ -15,8 +15,8 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-5-3-1" permid="YRF">
   <statement>
     <p permid="sKw">
-      Evaluate each of the following indefinite integrals.
-      Check each antiderivative that you find by differentiating.
+      Evalúa cada una de las siguientes integrales indefinidas.
+      Verifica cada antiderivada que encuentres diferenciando.
 
       <ol marker="a." cols="2" permid="Fun">
         <li permid="lBw">
@@ -62,37 +62,37 @@
       <ol marker="a." permid="Zne">
         <li permid="Wsy">
           <p permid="tPP">
-            Think <m>\int \sin(u) \, du</m>.
+            Piensa <m>\int \sin(u) \, du</m>.
           </p>
         </li>
 
         <li permid="CzH">
           <p permid="ZWY">
-            Think <m>\int \sec^2 (u) \, du</m>.
+            Piensa <m>\int \sec^2 (u) \, du</m>.
           </p>
         </li>
 
         <li permid="iGQ">
           <p permid="Geh">
-            Think <m>\int \frac{1}{u}\, du</m>.
+            Piensa <m>\int \frac{1}{u}\, du</m>.
           </p>
         </li>
 
         <li permid="ONZ">
           <p permid="mlq">
-            Think <m>\int \csc(u) \cot(u) \, du</m>.
+            Piensa <m>\int \csc(u) \cot(u) \, du</m>.
           </p>
         </li>
 
         <li permid="uVi">
           <p permid="Ssz">
-            Think <m>\int \frac{1}{\sqrt{1-u^2}} \, du</m>.
+            Piensa <m>\int \frac{1}{\sqrt{1-u^2}} \, du</m>.
           </p>
         </li>
 
         <li permid="bcr">
           <p permid="yzI">
-            Think <m>\int 5^{u} \, du</m>.
+            Piensa <m>\int 5^{u} \, du</m>.
           </p>
         </li>
       </ol>
@@ -144,48 +144,47 @@
       <ol marker="a." permid="MYM">
         <li permid="saC">
           <p permid="PxT">
-            Since <m>u=8-3x</m> is linear and <m>\int \sin(u) \, du = -\cos(u) + C</m>,
-            it follows that <m>\int \sin(8-3x) \, dx = -\frac{1}{3} (-\cos(8-3x)) + C</m>.
+            Dado que <m>u=8-3x</m> es lineal y <m>\int \sin(u) \, du = -\cos(u) + C</m>,
+            se sigue que <m>\int \sin(8-3x) \, dx = -\frac{1}{3} (-\cos(8-3x)) + C</m>.
           </p>
         </li>
 
         <li permid="YhL">
           <p permid="vFc">
-            Since <m>4x</m> is linear and <m>\int \sec^2(u) \, du = \tan(u) + C </m>,
-            we see <m>\int \sec^2 (4x) \, dx = \frac{1}{4} \tan(4x) + C</m>.
+            Dado que <m>4x</m> es lineal y <m>\int \sec^2(u) \, du = \tan(u) + C </m>,
+            vemos que <m>\int \sec^2 (4x) \, dx = \frac{1}{4} \tan(4x) + C</m>.
           </p>
         </li>
 
         <li permid="EoU">
           <p permid="bMl">
-            Using the fact (from <xref ref="Ez-4-4-antid-of-1-over-x">Exercise</xref>) that <m>\int \frac{1}{u} \, du = \ln |u| + C</m>,
-            we have <m>\int \frac{1}{11x - 9} \, dx = \frac{1}{11} \ln|11x - 9| + C</m>.
+            Usando el hecho (de <xref ref="Ez-4-4-antid-of-1-over-x">Ejercicio</xref>) que <m>\int \frac{1}{u} \, du = \ln |u| + C</m>,
+            tenemos <m>\int \frac{1}{11x - 9} \, dx = \frac{1}{11} \ln|11x - 9| + C</m>.
           </p>
         </li>
 
         <li permid="kwd">
           <p permid="HTu">
-            We know <m>\int \csc(u) \cot(u) \, du = -\csc(u) + C</m>,
-            so <m>\int \csc(2x+1) \cot(2x+1) \, dx = -\frac{1}{2}\csc(2x+1) + C</m>.
+            Sabemos que <m>\int \csc(u) \cot(u) \, du = -\csc(u) + C</m>,
+            así que <m>\int \csc(2x+1) \cot(2x+1) \, dx = -\frac{1}{2}\csc(2x+1) + C</m>.
           </p>
         </li>
 
         <li permid="QDm">
           <p permid="oaD">
-            Observe that <m>\int \frac{1}{\sqrt{1-u^2}}\, dx = \arcsin(u) + C</m>,
-            and thus viewing <m>16x^2 = (4x)^2</m>,
-            we see that <m>\int \frac{1}{\sqrt{1-16x^2}}\, dx = \frac{1}{4} \arcsin(4x) + C</m>
+            Observa que <m>\int \frac{1}{\sqrt{1-u^2}}\, dx = \arcsin(u) + C</m>,
+            y así viendo <m>16x^2 = (4x)^2</m>,
+            vemos que <m>\int \frac{1}{\sqrt{1-16x^2}}\, dx = \frac{1}{4} \arcsin(4x) + C</m>
           </p>
         </li>
 
         <li permid="wKv">
           <p permid="UhM">
-            Since <m>\int 5^{u}\, du = \frac{1}{\ln(5)}5^u + C</m>,
-            we have that <m>\int 5^{-x}\, dx = -\frac{1}{\ln(5)}5^{-x} + C</m>.
+            Dado que <m>\int 5^{u}\, du = \frac{1}{\ln(5)}5^u + C</m>,
+            tenemos que <m>\int 5^{-x}\, dx = -\frac{1}{\ln(5)}5^{-x} + C</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

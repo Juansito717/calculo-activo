@@ -15,8 +15,8 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-8-3-9" permid="BRN">
   <statement>
     <p permid="kTC">
-      Determine whether each of the following series converges or diverges.
-      Explicitly state which test you use.
+      Determina si cada una de las siguientes series converge o diverge.
+      Indica explícitamente qué prueba usas.
 
       <ol marker="a." cols="2" permid="cFj">
         <li permid="IMs">
@@ -50,7 +50,7 @@
       <ol marker="a." permid="wya">
         <li permid="hpc">
           <p permid="jep">
-            Small hints for each of the prompts above.
+            Pequeñas pistas para cada uno de los enunciados anteriores.
           </p>
         </li>
       </ol>
@@ -64,25 +64,25 @@
             <m>
             \sum \frac{n}{2^n}
             </m>
-            converges.
+            converge.
           </p>
         </li>
 
         <li permid="tDu">
           <p permid="vsH">
-            <m>\sum \frac{k^3+2}{k^2+1}</m> diverges.
+            <m>\sum \frac{k^3+2}{k^2+1}</m> diverge.
           </p>
         </li>
 
         <li permid="ZKD">
           <p permid="bzQ">
-            <m>\sum \frac{10^k}{k!}</m> converges.
+            <m>\sum \frac{10^k}{k!}</m> converge.
           </p>
         </li>
 
         <li permid="FRM">
           <p permid="HGZ">
-            <m>\sum \frac{k^3-2k^2+1}{k^6+4}</m> converges.
+            <m>\sum \frac{k^3-2k^2+1}{k^6+4}</m> converge.
           </p>
         </li>
       </ol>
@@ -93,78 +93,77 @@
       <ol marker="a." permid="kjI">
         <li permid="lYV">
           <p permid="nOi">
-            Since <m>\lim_{n \to \infty} \frac{n}{2^n} = 0</m>,
-            the Divergence Test does not apply.
-            The Ratio Test is a good one to apply with series whose terms involve exponentials and polynomials.
+            Dado que <m>\lim_{n \to \infty} \frac{n}{2^n} = 0</m>,
+            la Prueba de Divergencia no aplica.
+            La Prueba del Cociente es buena para aplicar con series cuyos términos involucran exponenciales y polinomios.
           </p>
 
           <p permid="TVr">
-            In this example we have
-            <m>a_{n+1} = \frac{n+1}{2^{n+1}}</m> and <m>a_n = \frac{n}{2^n}</m>.
-            So
+            En este ejemplo tenemos
+            <m>a_{n+1} = \frac{n+1}{2^{n+1}}</m> y <m>a_n = \frac{n}{2^n}</m>.
+            Así que
             <me permid="RaL">
               \frac{a_{n+1}}{a_n} = \frac{\frac{n+1}{2^{n+1}}}{\frac{n}{2^n}} = \frac{n+1}{2n}
             </me>.
-            As <m>n</m> goes to infinity,
-            the fraction <m>\frac{n+1}{n}</m> goes to 1 and so
+            A medida que <m>n</m> tiende a infinito,
+            la fracción <m>\frac{n+1}{n}</m> tiende a 1 y así
             <me permid="xhU">
               \lim_{n \to \infty} \frac{n+1}{2n} = \frac{1}{2}
             </me>.
-            So in this example,
-            for large <m>n</m> we have that <m>\frac{a_{n+1}}{a_n} \approx \frac{1}{2}</m> or that
-            <m>\sum a_n</m> is roughly a geometric series for large <m>n</m> with ratio <m>\frac{1}{2}</m>.
-            Since geometric series with ratio
-            <m>\frac{1}{2}</m> converges, we can conclude that
+            Así que en este ejemplo,
+            para <m>n</m> grande tenemos que <m>\frac{a_{n+1}}{a_n} \approx \frac{1}{2}</m> o que
+            <m>\sum a_n</m> es aproximadamente una serie geométrica para <m>n</m> grande con razón <m>\frac{1}{2}</m>.
+            Dado que las series geométricas con razón
+            <m>\frac{1}{2}</m> convergen, podemos concluir que
             <me permid="dpd">
               \sum \frac{n}{2^n}
             </me>
-            converges as well.
+            también converge.
           </p>
         </li>
 
         <li permid="Sge">
           <p permid="AcA">
-            For this series,
-            notice that the degree of the numerator is greater than the degree of the denominator, so
+            Para esta serie,
+            nota que el grado del numerador es mayor que el grado del denominador, así que
             <me permid="Jwm">
               \lim_{n \to \infty} \frac{n^3+2}{n^2+1} = \infty
             </me>.
-            Since this limit is not 0, the Divergence Test shows that <m>\sum \frac{k^3+2}{k^2+1}</m> diverges.
+            Dado que este límite no es 0, la Prueba de Divergencia muestra que <m>\sum \frac{k^3+2}{k^2+1}</m> diverge.
           </p>
         </li>
 
         <li permid="ynn">
           <p permid="gjJ">
-            We use the Ratio Test here with <m>a_k = \frac{10^k}{k!}</m>.
-            Now
+            Usamos la Prueba del Cociente aquí con <m>a_k = \frac{10^k}{k!}</m>.
+            Ahora
             <md permid="pDv">
               <mrow>\lim_{k \to \infty} \frac{a_{k+1}}{a_k} \amp = \lim_{k \to \infty} \frac{ \frac{10^{k+1}}{(k+1)!} }{ \frac{10^k}{k!} }</mrow>
               <mrow>\amp = \lim_{k \to \infty} \frac{10^{k+1}(k!)}{10^k(k+1)!}</mrow>
               <mrow>\amp = \lim_{k \to \infty} \frac{10}{k+1}</mrow>
               <mrow>\amp = 0</mrow>
             </md>,
-            so the Ratio Test shows that <m>\sum \frac{10^k}{k!}</m> converges.
+            así que la Prueba del Cociente muestra que <m>\sum \frac{10^k}{k!}</m> converge.
           </p>
         </li>
 
         <li permid="euw">
           <p permid="MqS">
-            If we ignore the highest powered terms,
-            then the series <m>\sum \frac{k^3-2k^2+1}{k^6+4}</m> looks like the series <m>\sum \frac{k^3}{k^6} = \sum \frac{1}{k^3}</m>.
-            We formally apply the Limit Comparison Test as follows:
+            Si ignoramos los términos de mayor potencia,
+            entonces la serie <m>\sum \frac{k^3-2k^2+1}{k^6+4}</m> se parece a la serie <m>\sum \frac{k^3}{k^6} = \sum \frac{1}{k^3}</m>.
+            Aplicamos formalmente la Prueba de Comparación de Límites de la siguiente manera:
             <md permid="VKE">
               <mrow>\lim_{k \to \infty} \frac{ \frac{k^3-2k^2+1}{k^6+4} }{  \frac{1}{k^3} } \amp = \lim_{k \to \infty} \frac{k^6-2k^5+k^3}{k^6+4}</mrow>
               <mrow>\amp = \lim_{k \to \infty} \frac{1 - \frac{2}{k} + \frac{1}{k^3}}{1 + \frac{4}{k^6}}</mrow>
               <mrow>\amp  1</mrow>
             </md>.
-            Since <m>\sum \frac{1}{k^3}</m> is a <m>p</m>-series with <m>p=3 \gt 1</m>,
-            the series <m>\sum \frac{1}{k^3}</m> converges.
-            Consequently,
-            the Limit Comparison Test shows that <m>\sum \frac{k^3-2k^2+1}{k^6+4}</m> converges as well.
+            Dado que <m>\sum \frac{1}{k^3}</m> es una serie <m>p</m> con <m>p=3 \gt 1</m>,
+            la serie <m>\sum \frac{1}{k^3}</m> converge.
+            En consecuencia,
+            la Prueba de Comparación de Límites muestra que <m>\sum \frac{k^3-2k^2+1}{k^6+4}</m> también converge.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

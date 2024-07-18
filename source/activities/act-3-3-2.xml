@@ -15,7 +15,7 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-3-2" permid="eUm">
   <statement>
     <p permid="SFU">
-      Find the <em>exact</em> absolute maximum and minimum of each function on the stated interval.
+      Encuentra el <em>máximo</em> y mínimo absoluto exacto de cada función en el intervalo indicado.
 
       <ol marker="a." permid="JHH">
         <li permid="Tbt">
@@ -64,40 +64,40 @@
       <ol marker="a." permid="dAy">
         <li permid="DSv">
           <p permid="WFT">
-            After computing <m>h'(x)</m>,
-            factor to write the derivative as a product.
+            Después de calcular <m>h'(x)</m>,
+            factoriza para escribir la derivada como un producto.
           </p>
         </li>
 
         <li permid="jZE">
           <p permid="CNc">
-            The sine and cosine functions have the same value at
-            <m>\frac{\pi}{4} \pm k\pi</m> for any integer <m>k</m>.
+            Las funciones seno y coseno tienen el mismo valor en
+            <m>\frac{\pi}{4} \pm k\pi</m> para cualquier entero <m>k</m>.
           </p>
         </li>
 
         <li permid="QgN">
           <p permid="iUl">
-            Upon finding <m>q'(x)</m>, factor its numerator.
+            Al encontrar <m>q'(x)</m>, factoriza su numerador.
           </p>
         </li>
 
         <li permid="wnW">
           <p permid="Pbu">
-            Remember that <m>e^{-(x-2)^2}</m> is never zero.
+            Recuerda que <m>e^{-(x-2)^2}</m> nunca es cero.
           </p>
         </li>
 
         <li permid="cvf">
           <p permid="viD">
-            After differentiating,
-            remove a factor of <m>e^{-ax}</m>.
+            Después de diferenciar,
+            elimina un factor de <m>e^{-ax}</m>.
           </p>
         </li>
 
         <li permid="ICo">
           <p permid="bpM">
-            Compare part (d).
+            Compara la parte (d).
           </p>
         </li>
       </ol>
@@ -108,38 +108,38 @@
       <ol marker="a." permid="xtp">
         <li permid="oJx">
           <p permid="HwV">
-            Absolute maximum: <m>e^{-1}</m>;
-            absolute minimum: <m>0</m>.
+            Máximo absoluto: <m>e^{-1}</m>;
+            mínimo absoluto: <m>0</m>.
           </p>
         </li>
 
         <li permid="UQG">
           <p permid="nEe">
-            Absolute maximum: <m>\sqrt{2}</m>;
-            absolute minimum: <m>-1</m>.
+            Máximo absoluto: <m>\sqrt{2}</m>;
+            mínimo absoluto: <m>-1</m>.
           </p>
         </li>
 
         <li permid="AXP">
           <p permid="TLn">
-            Absolute maximum: 9.8; absolute minimum: 8.
+            Máximo absoluto: 9.8; mínimo absoluto: 8.
           </p>
         </li>
 
         <li permid="heY">
           <p permid="zSw">
-            Absolute minimum 3; no absolute maximum.
+            Mínimo absoluto 3; sin máximo absoluto.
           </p>
         </li>
         <li>
           <p>
-            Absolute minimum <m>0</m>;  absolute maximum <m>\frac{1}{a}e^{-1}</m>.
+            Mínimo absoluto <m>0</m>;  máximo absoluto <m>\frac{1}{a}e^{-1}</m>.
           </p>
         </li>
 
         <li>
           <p>
-            Absolute minimum <m>b-1</m>; no absolute maximum.
+            Mínimo absoluto <m>b-1</m>; sin máximo absoluto.
           </p>
         </li>
       </ol>
@@ -150,13 +150,13 @@
       <ol marker="a." permid="Rmg">
         <li permid="Nmh">
           <p permid="fZF">
-            For <m>h(x) = xe^{-x}</m>,
-            we know that <m>h'(x) = xe^{-x}(-1) + e^{-x} = e^{-x}(-x+1)</m>.
-            Therefore,
-            the only critical number of <m>h</m> is <m>x = 1</m>.
-            Next, we compute <m>h(1)</m>,
-            <m>h(0)</m>, and <m>h(3)</m>.
-            Observe that
+            Para <m>h(x) = xe^{-x}</m>,
+            sabemos que <m>h'(x) = xe^{-x}(-1) + e^{-x} = e^{-x}(-x+1)</m>.
+            Por lo tanto,
+            el único número crítico de <m>h</m> es <m>x = 1</m>.
+            A continuación, calculamos <m>h(1)</m>,
+            <m>h(0)</m> y <m>h(3)</m>.
+            Observa que
 
             <ul permid="YQF">
               <li permid="pOQ">
@@ -180,22 +180,22 @@
           </p>
 
           <p permid="hOS">
-            Thus, on <m>[0,3]</m>,
-            the absolute maximum of <m>h</m> is <m>e^{-1}</m> and the absolute minimum is <m>0</m>.
+            Así, en <m>[0,3]</m>,
+            el máximo absoluto de <m>h</m> es <m>e^{-1}</m> y el mínimo absoluto es <m>0</m>.
           </p>
         </li>
 
         <li permid="ttq">
           <p permid="Yvg">
-            Given <m>p(t) = \sin(t) + \cos(t)</m>,
-            it follows <m>p'(t) = \cos(t) - \sin(t)</m>,
-            so <m>p'(t) = 0</m> implies that <m>\cos(t) =\sin(t)</m>.
-            The sine and cosine functions have the same value at
-            <m>\frac{\pi}{4} \pm k\pi</m> for any integer <m>k</m>.
-            The only time this occurs in
-            <m>[-\frac{\pi}{2}, \frac{\pi}{2}]</m> is for <m>x = \frac{\pi}{4}</m>,
-            and thus this is the only critical number of <m>p</m> in the given interval.
-            Now,
+            Dado <m>p(t) = \sin(t) + \cos(t)</m>,
+            se sigue que <m>p'(t) = \cos(t) - \sin(t)</m>,
+            así que <m>p'(t) = 0</m> implica que <m>\cos(t) =\sin(t)</m>.
+            Las funciones seno y coseno tienen el mismo valor en
+            <m>\frac{\pi}{4} \pm k\pi</m> para cualquier entero <m>k</m>.
+            La única vez que esto ocurre en
+            <m>[-\frac{\pi}{2}, \frac{\pi}{2}]</m> es para <m>x = \frac{\pi}{4}</m>,
+            y por lo tanto este es el único número crítico de <m>p</m> en el intervalo dado.
+            Ahora,
 
             <ul permid="EXO">
               <li permid="ikr">
@@ -219,22 +219,22 @@
           </p>
 
           <p permid="NWb">
-            Therefore, on <m>[-\frac{\pi}{2},\frac{\pi}{2}]</m>,
-            the absolute maximum of <m>p</m> is
-            <m>\sqrt{2}</m> and the absolute minimum is <m>-1</m>.
+            Por lo tanto, en <m>[-\frac{\pi}{2},\frac{\pi}{2}]</m>,
+            el máximo absoluto de <m>p</m> es
+            <m>\sqrt{2}</m> y el mínimo absoluto es <m>-1</m>.
           </p>
         </li>
 
         <li permid="ZAz">
           <p permid="QQH">
-            With <m>q(x) = \frac{x^2}{x-2}</m>, we have
+            Con <m>q(x) = \frac{x^2}{x-2}</m>, tenemos
             <me permid="yNd">
               q'(x) = \frac{(x-2)(2x) - x^2(1)}{(x-2)^2} = \frac{2x^2 - 4x - x^2}{(x-2)^2} = \frac{x^2-4x}{(x-2)^2} = \frac{x(x-4)}{(x-2)^2}
             </me>.
-            Hence,
-            the critical numbers of <m>q</m> are <m>x = 0</m> and <m>x = 4</m>.
-            Only the latter critical number lies in the interval <m>[3,7]</m>,
-            and thus we evaluate <m>q</m> and find
+            Por lo tanto,
+            los números críticos de <m>q</m> son <m>x = 0</m> y <m>x = 4</m>.
+            Solo el último número crítico se encuentra en el intervalo <m>[3,7]</m>,
+            y así evaluamos <m>q</m> y encontramos
 
             <ul permid="leX">
               <li permid="aFS">
@@ -258,44 +258,44 @@
           </p>
 
           <p permid="udk">
-            We now see that on <m>[3,7]</m> the absolute maximum of <m>q</m> is 9.8 and the absolute minimum is 8.
+            Ahora vemos que en <m>[3,7]</m> el máximo absoluto de <m>q</m> es 9.8 y el mínimo absoluto es 8.
           </p>
         </li>
 
         <li permid="FHI">
           <p permid="Jmi">
-            Here,
-            we first observe that we are working on the domain of all real numbers,
-            not a closed bounded interval.
-            Hence,
-            we need to think about the overall behavior of the function.
-            First, since <m>f(x) = 4 - e^{-(x-2)^2}</m>,
-            by the chain rule we see that <m>f'(x) = -e^{-(x-2)^2}(-2(x-2)) = 2(x-2)e^{-(x-2)^2}</m>.
-            Since <m>e^{-(x-2)^2}</m> is always positive
-            (in particular, never zero),
-            it follows that the only critical number of <m>f</m> is <m>x = 2</m>.
-            Furthermore, with <m>f'(x) = 2(x-2)e^{-(x-2)^2}</m>,
-            we see that for <m>x \lt 2</m>,
-            <m>f'(x) \lt 0</m>, while for <m>x \gt 2</m>, <m>f'(x) \gt 0</m>.
-            This tells us by the first derivative test that <m>f</m> is decreasing for <m>x \lt 2</m> and increasing for <m>x \gt 2</m>,
-            which tells us that <m>f</m> has an absolute minimum at <m>x = 2</m>,
-            and <m>f</m> does not have an absolute maximum.
+            Aquí,
+            primero observamos que estamos trabajando en el dominio de todos los números reales,
+            no en un intervalo cerrado y acotado.
+            Por lo tanto,
+            necesitamos pensar en el comportamiento general de la función.
+            Primero, dado que <m>f(x) = 4 - e^{-(x-2)^2}</m>,
+            por la regla de la cadena vemos que <m>f'(x) = -e^{-(x-2)^2}(-2(x-2)) = 2(x-2)e^{-(x-2)^2}</m>.
+            Dado que <m>e^{-(x-2)^2}</m> siempre es positivo
+            (en particular, nunca cero),
+            se sigue que el único número crítico de <m>f</m> es <m>x = 2</m>.
+            Además, con <m>f'(x) = 2(x-2)e^{-(x-2)^2}</m>,
+            vemos que para <m>x \lt 2</m>,
+            <m>f'(x) \lt 0</m>, mientras que para <m>x \gt 2</m>, <m>f'(x) \gt 0</m>.
+            Esto nos dice por la prueba de la primera derivada que <m>f</m> está decreciendo para <m>x \lt 2</m> y aumentando para <m>x \gt 2</m>,
+            lo que nos dice que <m>f</m> tiene un mínimo absoluto en <m>x = 2</m>,
+            y <m>f</m> no tiene un máximo absoluto.
           </p>
         </li>
         <li>
           <p>
-            For <m>h(x) = xe^{-ax}</m> on <m>[0, \frac{2}{a}]</m>, where <m>a \gt 0</m>, we start by finding <m>h'(x)</m>.  By the product and chain rules, treating <m>a</m> as a constant, we find
+            Para <m>h(x) = xe^{-ax}</m> en <m>[0, \frac{2}{a}]</m>, donde <m>a \gt 0</m>, comenzamos encontrando <m>h'(x)</m>.  Por las reglas del producto y de la cadena, tratando <m>a</m> como una constante, encontramos
             <me>
               h'(x) = xe^{-ax}(-a) + e^{-ax}
             </me>.
-            Factoring, it follows
+            Factorizando, se sigue
             <me>
               h'(x) = e^{-ax}(-ax+1)
             </me>.
-            Since <m>e^{-ax}</m> is never zero, the only way for <m>h'(x)=0</m> is if <m>-ax + 1 = 0</m>, which implies <m>x = \frac{1}{a}</m>.  Noting also that <m>h'(x)</m> is defined for every real number <m>x</m>, we have established that <m>h</m> has a single critical number at <m>x = \frac{1}{a}</m>.
+            Dado que <m>e^{-ax}</m> nunca es cero, la única forma de que <m>h'(x)=0</m> es si <m>-ax + 1 = 0</m>, lo que implica <m>x = \frac{1}{a}</m>.  Notando también que <m>h'(x)</m> está definido para cada número real <m>x</m>, hemos establecido que <m>h</m> tiene un solo número crítico en <m>x = \frac{1}{a}</m>.
           </p>
           <p>
-            Now we simply compute the value of <m>h</m> at each endpoint and at the critical number and compare the outputs.  We have <m>h(0) = 0</m>, <m>h(\frac{1}{a}) = \frac{1}{a} e^{-1}</m>, and <m>h(\frac{2}{a}) = \frac{2}{a} e^{-2}</m>.  The absolute minimum is <m>0</m>, and the absolute maximum is the larger of <m>\frac{1}{a} e^{-1}</m> and  <m>\frac{2}{a} e^{-2}</m>.  That absolute maximum is  <m>\frac{1}{a} e^{-1}</m>, since
+            Ahora simplemente calculamos el valor de <m>h</m> en cada extremo y en el número crítico y comparamos los resultados.  Tenemos <m>h(0) = 0</m>, <m>h(\frac{1}{a}) = \frac{1}{a} e^{-1}</m>, y <m>h(\frac{2}{a}) = \frac{2}{a} e^{-2}</m>.  El mínimo absoluto es <m>0</m>, y el máximo absoluto es el mayor de <m>\frac{1}{a} e^{-1}</m> y  <m>\frac{2}{a} e^{-2}</m>.  Ese máximo absoluto es  <m>\frac{1}{a} e^{-1}</m>, ya que
             <me>
               \frac{2}{a} e^{-2} \lt \frac{2}{a} \cdot \frac{1}{e} \frac{1}{2} = \frac{1}{a}e^{-1}
             </me>.
@@ -304,11 +304,10 @@
 
         <li>
           <p>
-            The reasoning here is identical to that in (d), but instead of working with <m>f(x) = 4 - e^{-(x-2)^2}</m>, we use arbitrary positive constants <m>a</m> and <m>b</m> to consider <m>f(x) = b - e^{-(x-a)^2}</m>
+            El razonamiento aquí es idéntico al de (d), pero en lugar de trabajar con <m>f(x) = 4 - e^{-(x-2)^2}</m>, usamos constantes positivas arbitrarias <m>a</m> y <m>b</m> para considerar <m>f(x) = b - e^{-(x-a)^2}</m>
           </p>
         </li>        
       </ol>
     </p>
   </solution>
 </activity>
-

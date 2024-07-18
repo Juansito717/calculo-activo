@@ -15,8 +15,8 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-8-4-1" permid="Wuy">
   <statement>
     <p permid="Fwn">
-      Remember that, by definition,
-      a series converges if and only if its corresponding sequence of partial sums converges.
+      Recuerda que, por definición,
+      una serie converge si y solo si su correspondiente secuencia de sumas parciales converge.
     </p>
 
     <p permid="lDw">
@@ -24,19 +24,19 @@
         <li xml:id="part-act-8-4-1-a" permid="yXh">
 
           <p permid="PVs">
-            Calculate the first few partial sums (to 10 decimal places) of the alternating series
+            Calcula las primeras sumas parciales (con 10 decimales) de la serie alternante
             <me permid="RKF">
               \sum_{k=1}^{\infty} (-1)^{k+1}\frac{1}{k}
             </me>.
-            Label each partial sum with the notation <m>S_n = \sum_{k=1}^{n} (-1)^{k+1}\frac{1}{k}</m> for
-            an appropriate choice of <m>n</m>.
+            Etiqueta cada suma parcial con la notación <m>S_n = \sum_{k=1}^{n} (-1)^{k+1}\frac{1}{k}</m> para
+            una elección apropiada de <m>n</m>.
           </p>
         </li>
 
         <li permid="feq">
           <p permid="wcB">
-            Plot the sequence of partial sums from part (a).
-            What do you notice about this sequence?
+            Grafica la secuencia de sumas parciales de la parte (a).
+            ¿Qué notas sobre esta secuencia?
           </p>
         </li>
       </ol>
@@ -47,7 +47,7 @@
       <ol marker="a." permid="mIP">
         <li permid="Llz">
           <p permid="cjK">
-            Small hints for each of the prompts above.
+            Pequeñas pistas para cada uno de los puntos anteriores.
           </p>
         </li>
       </ol>
@@ -99,7 +99,7 @@
 
         <li permid="XzR">
           <p permid="IqT">
-            There appears to be a limit for the sequence of partial sums.
+            Parece haber un límite para la secuencia de sumas parciales.
           </p>
         </li>
       </ol>
@@ -110,7 +110,7 @@
       <ol marker="a." permid="aux">
         <li permid="DHa">
           <p permid="oyc">
-            The completed table is shown below.
+            La tabla completa se muestra a continuación.
           </p>
 
           <sidebyside permid="qnp">
@@ -154,22 +154,21 @@
 
         <li permid="jOj">
           <p permid="UFl">
-            The entries in the sequence of partial sums from part (a) is shown in the figure below.
+            Las entradas en la secuencia de sumas parciales de la parte (a) se muestran en la figura a continuación.
           </p>
 
           <figure permid="gTD">
-            <caption>The sequence of partial sums.</caption>
+            <caption>La secuencia de sumas parciales.</caption>
             <image width="50%" source="images/8_4_Alternating_Series" />
           </figure>
 
           <p permid="AMu">
-            Notice that the partial sums seem to oscillate back and forth around some fixed number,
-            getting closer to that fixed number at each successive step.
-            So there appears to be a limit for this sequence of partial sums.
+            Nota que las sumas parciales parecen oscilar de un lado a otro alrededor de un número fijo,
+            acercándose más a ese número fijo en cada paso sucesivo.
+            Así que parece haber un límite para esta secuencia de sumas parciales.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

@@ -15,24 +15,24 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-1-3" permid="ida">
   <statement>
     <p permid="EQx">
-      Consider the family of functions given by <m>h(x) = x^2 + \cos(kx)</m>,
-      where <m>k</m> is an arbitrary positive real number.
+      Considera la familia de funciones dada por <m>h(x) = x^2 + \cos(kx)</m>,
+      donde <m>k</m> es un número real positivo arbitrario.
     </p>
 
     <p permid="kXG">
       <ol marker="a." permid="cJn">
         <li permid="IQw">
           <p permid="eyA">
-            Use a graphing utility to sketch the graph of <m>h</m> for several different <m>k</m>-values,
-            including <m>k = 1,3,5,10</m>.
-            Plot <m>h(x) = x^2 + \cos(3x)</m> on the axes provided.
-            What is the smallest value of <m>k</m> at which you think you can see
-            (just by looking at the graph)
-            at least one inflection point on the graph of <m>h</m>?
+            Usa una herramienta de graficación para dibujar la gráfica de <m>h</m> para varios valores diferentes de <m>k</m>,
+            incluyendo <m>k = 1,3,5,10</m>.
+            Dibuja <m>h(x) = x^2 + \cos(3x)</m> en los ejes proporcionados.
+            ¿Cuál es el valor más pequeño de <m>k</m> en el que crees que puedes ver
+            (solo mirando la gráfica)
+            al menos un punto de inflexión en la gráfica de <m>h</m>?
           </p>
 
           <figure xml:id="F-3-1-Act3" permid="KFJ">
-            <caption>Axes for plotting <m>y = h(x)</m>.</caption>
+            <caption>Ejes para dibujar <m>y = h(x)</m>.</caption>
             <image width="47%" source="images/3_1_Act3" />
           </figure>
 
@@ -40,15 +40,15 @@
 
         <li permid="oXF">
           <p permid="qMS">
-            Explain why the graph of <m>h</m> has no inflection points if <m>k \le \sqrt{2}</m>,
-            but infinitely many inflection points if <m>k \gt \sqrt{2}</m>.
+            Explica por qué la gráfica de <m>h</m> no tiene puntos de inflexión si <m>k \le \sqrt{2}</m>,
+            pero tiene infinitos puntos de inflexión si <m>k \gt \sqrt{2}</m>.
           </p>
         </li>
 
         <li permid="VeO">
           <p permid="WUb">
-            Explain why, no matter the value of <m>k</m>,
-            <m>h</m> can only have finitely many critical numbers.
+            Explica por qué, sin importar el valor de <m>k</m>,
+            <m>h</m> solo puede tener un número finito de números críticos.
           </p>
         </li>
       </ol>
@@ -59,20 +59,20 @@
       <ol marker="a." permid="wCe">
         <li permid="BlX">
           <p permid="Dbk">
-            Be sure to try some values between 1.5 and 2.
+            Asegúrate de probar algunos valores entre 1.5 y 2.
           </p>
         </li>
 
         <li permid="htg">
           <p permid="jit">
-            Treat <m>k</m> as an arbitrary constant in computing <m>h'(x)</m> and <m>h''(x)</m>.
+            Trata <m>k</m> como una constante arbitraria al calcular <m>h'(x)</m> y <m>h''(x)</m>.
           </p>
         </li>
 
         <li permid="NAp">
           <p permid="PpC">
-            What is the largest value of <m>k\sin(kx)</m>?
-            How many times can <m>y = k\sin(kx)</m> intersect the line <m>y = 2x</m>?
+            ¿Cuál es el valor más grande de <m>k\sin(kx)</m>?
+            ¿Cuántas veces puede <m>y = k\sin(kx)</m> intersectar la línea <m>y = 2x</m>?
           </p>
         </li>
       </ol>
@@ -83,9 +83,9 @@
       <ol marker="a." permid="QuV">
         <li permid="tHy">
           <p permid="vwL">
-            In the graph below,
-            <m>h(x) = x^2 + \cos(3x)</m> is given in dark blue,
-            while <m>h(x) = x^2 + \cos(1.6x)</m> is shown in light blue.
+            En la gráfica de abajo,
+            <m>h(x) = x^2 + \cos(3x)</m> se muestra en azul oscuro,
+            mientras que <m>h(x) = x^2 + \cos(1.6x)</m> se muestra en azul claro.
           </p>
 
           <sidebyside width="50%" permid="VOI">
@@ -96,45 +96,45 @@
 
         <li permid="ZOH">
           <p permid="bDU">
-            If <m>\frac{2}{k^2} \gt 1</m>,
-            then the equation <m>\cos(kx) = \frac{2}{k^2}</m> has no solution.
-            Hence, whenever <m>k^2 \lt 2</m>,
-            or <m>k \lt \sqrt{2} \approx 1.414</m>,
-            it follows that the equation
-            <m>\cos(kx) = \frac{2}{k^2}</m> has no solutions <m>x</m>,
-            which means that <m>h''(x)</m> is never zero (indeed,
-            for these <m>k</m>-values,
-            <m>h''(x)</m> is always positive so that <m>h</m> is always concave up).
-            On the other hand, if <m>k \ge \sqrt{2}</m>,
-            then <m>\frac{2}{k^2} \le 1</m>,
-            which guarantees that
-            <m>\cos(kx) = \frac{2}{k^2}</m> has infinitely many solutions,
-            due to the periodicity of the cosine function.
-            At each such point, <m>h''(x) = 2 - k^2 \cos(kx)</m> changes sign,
-            and therefore <m>h</m> has infinitely many inflection points whenever <m>k \ge \sqrt{2}</m>.
+            Si <m>\frac{2}{k^2} \gt 1</m>,
+            entonces la ecuación <m>\cos(kx) = \frac{2}{k^2}</m> no tiene solución.
+            Por lo tanto, siempre que <m>k^2 \lt 2</m>,
+            o <m>k \lt \sqrt{2} \approx 1.414</m>,
+            se sigue que la ecuación
+            <m>\cos(kx) = \frac{2}{k^2}</m> no tiene soluciones <m>x</m>,
+            lo que significa que <m>h''(x)</m> nunca es cero (de hecho,
+            para estos valores de <m>k</m>,
+            <m>h''(x)</m> es siempre positivo, por lo que <m>h</m> es siempre cóncavo hacia arriba).
+            Por otro lado, si <m>k \ge \sqrt{2}</m>,
+            entonces <m>\frac{2}{k^2} \le 1</m>,
+            lo que garantiza que
+            <m>\cos(kx) = \frac{2}{k^2}</m> tiene infinitas soluciones,
+            debido a la periodicidad de la función coseno.
+            En cada uno de esos puntos, <m>h''(x) = 2 - k^2 \cos(kx)</m> cambia de signo,
+            y por lo tanto <m>h</m> tiene infinitos puntos de inflexión siempre que <m>k \ge \sqrt{2}</m>.
           </p>
         </li>
 
         <li permid="FVQ">
           <p permid="HLd">
-            To see why <m>h</m> can only have a finite number of critical numbers regardless of the value of <m>k</m>,
-            consider the equation
+            Para ver por qué <m>h</m> solo puede tener un número finito de números críticos sin importar el valor de <m>k</m>,
+            considera la ecuación
             <me permid="ReP">
               0 = h'(x) = 2x - k\sin(kx)
             </me>,
-            which implies that <m>2x = k\sin(kx)</m>.
-            Since <m>-1 \le \sin(kx) \le 1</m>,
-            we know that <m>-k \le k\sin(kx) \le k</m>.
-            Once <m>|x|</m> is sufficiently large,
-            we are guaranteed that <m>|2x| \gt k</m>,
-            which means that for large <m>x</m>,
-            <m>2x</m> and <m>k\sin(kx)</m> cannot intersect.
-            Moreover, for relatively small values of <m>x</m>,
-            the functions <m>2x</m> and
-            <m>k\sin(kx)</m> can only intersect finitely many times since
-            <m>k\sin(kx)</m> oscillates a finite number of times.
-            This is why <m>h</m> can only have a finite number of critical numbers,
-            regardless of the value of <m>k</m>.
+            lo que implica que <m>2x = k\sin(kx)</m>.
+            Dado que <m>-1 \le \sin(kx) \le 1</m>,
+            sabemos que <m>-k \le k\sin(kx) \le k</m>.
+            Una vez que <m>|x|</m> es suficientemente grande,
+            estamos seguros de que <m>|2x| \gt k</m>,
+            lo que significa que para valores grandes de <m>x</m>,
+            <m>2x</m> y <m>k\sin(kx)</m> no pueden intersectar.
+            Además, para valores relativamente pequeños de <m>x</m>,
+            las funciones <m>2x</m> y
+            <m>k\sin(kx)</m> solo pueden intersectar un número finito de veces ya que
+            <m>k\sin(kx)</m> oscila un número finito de veces.
+            Esta es la razón por la que <m>h</m> solo puede tener un número finito de números críticos,
+            sin importar el valor de <m>k</m>.
           </p>
         </li>
       </ol>
@@ -145,9 +145,9 @@
       <ol marker="a." permid="knM">
         <li permid="mcZ">
           <p permid="nSm">
-            In the graph below,
-            <m>h(x) = x^2 + \cos(3x)</m> is given in dark blue,
-            while <m>h(x) = x^2 + \cos(1.6x)</m> is shown in light blue.
+            En la gráfica de abajo,
+            <m>h(x) = x^2 + \cos(3x)</m> se muestra en azul oscuro,
+            mientras que <m>h(x) = x^2 + \cos(1.6x)</m> se muestra en azul claro.
           </p>
 
           <sidebyside width="40%" permid="BVR">
@@ -155,78 +155,77 @@
           </sidebyside>
 
           <p permid="TZv">
-            Close inspection of the light blue graph reveals some subtle changes in concavity around <m>x \approx \pm 0.5</m>.
-            For values smaller than <m>1.6</m>,
-            it is very hard to visually detect any inflection points in <m>h(x)</m>.
+            Una inspección minuciosa de la gráfica azul claro revela algunos cambios sutiles en la concavidad alrededor de <m>x \approx \pm 0.5</m>.
+            Para valores menores que <m>1.6</m>,
+            es muy difícil detectar visualmente cualquier punto de inflexión en <m>h(x)</m>.
           </p>
         </li>
 
         <li permid="Ski">
           <p permid="AgE">
-            Treating <m>k</m> as an arbitrary constant,
-            we first observe that <m>h'(x) = 2x - k\sin(kx)</m>.
-            Again treating <m>k</m> as a constant and differentiating, we find
+            Tratando <m>k</m> como una constante arbitraria,
+            primero observamos que <m>h'(x) = 2x - k\sin(kx)</m>.
+            Nuevamente tratando <m>k</m> como una constante y diferenciando, encontramos
             <me permid="xlY">
               h''(x) = 2 - k^2\cos(kx)
             </me>.
-            We seek the values of <m>x</m> for which
-            <m>h''(x) = 0</m> at which <m>h''</m> changes sign.
-            Setting <m>h''(x) = 0</m> and rearranging the resulting equation,
-            we now seek <m>x</m> such that
+            Buscamos los valores de <m>x</m> para los cuales
+            <m>h''(x) = 0</m> en los que <m>h''</m> cambia de signo.
+            Estableciendo <m>h''(x) = 0</m> y reorganizando la ecuación resultante,
+            ahora buscamos <m>x</m> tal que
             <me permid="dth">
               k^2 \cos(kx) = 2
             </me>,
-            or
+            o
             <me permid="JAq">
               \cos(kx) = \frac{2}{k^2}
             </me>.
-            Now, remember that <m>k</m> is an arbitrary positive constant and recall that
-            <m>-1 \le \cos(\theta) \le 1</m> for all input values <m>\theta</m>.
-            If <m>\frac{2}{k^2} \gt 1</m>,
-            then the equation <m>\cos(kx) = \frac{2}{k^2}</m> has no solution.
-            Hence, whenever <m>k^2 \lt  2</m>,
-            or <m>k \lt  \sqrt{2} \approx 1.414</m>,
-            it follows that the equation
-            <m>\cos(kx) = \frac{2}{k^2}</m> has no solutions <m>x</m>,
-            which means that <m>h''(x)</m> is never zero (indeed,
-            for these <m>k</m>-values,
-            <m>h''(x)</m> is always positive so that <m>h</m> is always concave up).
+            Ahora, recuerda que <m>k</m> es una constante positiva arbitraria y recuerda que
+            <m>-1 \le \cos(\theta) \le 1</m> para todos los valores de entrada <m>\theta</m>.
+            Si <m>\frac{2}{k^2} \gt 1</m>,
+            entonces la ecuación <m>\cos(kx) = \frac{2}{k^2}</m> no tiene solución.
+            Por lo tanto, siempre que <m>k^2 \lt  2</m>,
+            o <m>k \lt  \sqrt{2} \approx 1.414</m>,
+            se sigue que la ecuación
+            <m>\cos(kx) = \frac{2}{k^2}</m> no tiene soluciones <m>x</m>,
+            lo que significa que <m>h''(x)</m> nunca es cero (de hecho,
+            para estos valores de <m>k</m>,
+            <m>h''(x)</m> es siempre positivo, por lo que <m>h</m> es siempre cóncavo hacia arriba).
 
-            On the other hand,
-            if <m>k \ge \sqrt{2}</m>,
-            then <m>\frac{2}{k^2} \le 1</m>,
-            which guarantees that
-            <m>\cos(kx) = \frac{2}{k^2}</m> has infinitely many solutions,
-            due to the periodicity of the cosine function.
-            At each such point, <m>h''(x) = 2 - k^2 \cos(kx)</m> changes sign,
-            and therefore <m>h</m> has infinitely many inflection points whenever <m>k \ge \sqrt{2}</m>.
+            Por otro lado,
+            si <m>k \ge \sqrt{2}</m>,
+            entonces <m>\frac{2}{k^2} \le 1</m>,
+            lo que garantiza que
+            <m>\cos(kx) = \frac{2}{k^2}</m> tiene infinitas soluciones,
+            debido a la periodicidad de la función coseno.
+            En cada uno de esos puntos, <m>h''(x) = 2 - k^2 \cos(kx)</m> cambia de signo,
+            y por lo tanto <m>h</m> tiene infinitos puntos de inflexión siempre que <m>k \ge \sqrt{2}</m>.
           </p>
         </li>
 
         <li permid="yrr">
           <p permid="gnN">
-            To see why <m>h</m> can only have a finite number of critical numbers regardless of the value of <m>k</m>,
-            consider the equation
+            Para ver por qué <m>h</m> solo puede tener un número finito de números críticos sin importar el valor de <m>k</m>,
+            considera la ecuación
             <me permid="pHz">
               0 = h'(x) = 2x - k\sin(kx)
             </me>,
-            which implies that <m>2x = k\sin(kx)</m>.
-            Since <m>-1 \le \sin(kx) \le 1</m>,
-            we know that <m>-k \le k\sin(kx) \le k</m>.
-            Once <m>|x|</m> is sufficiently large,
-            we are guaranteed that <m>|2x| \gt k</m>,
-            which means that for large <m>x</m>,
-            <m>2x</m> and <m>k\sin(kx)</m> cannot intersect.
-            Moreover, for relatively small values of <m>x</m>,
-            the functions <m>2x</m> and
-            <m>k\sin(kx)</m> can only intersect finitely many times since
-            <m>k\sin(kx)</m> oscillates a finite number of times.
-            This is why <m>h</m> can only have a finite number of critical numbers,
-            regardless of the value of <m>k</m>.
+            lo que implica que <m>2x = k\sin(kx)</m>.
+            Dado que <m>-1 \le \sin(kx) \le 1</m>,
+            sabemos que <m>-k \le k\sin(kx) \le k</m>.
+            Una vez que <m>|x|</m> es suficientemente grande,
+            estamos seguros de que <m>|2x| \gt k</m>,
+            lo que significa que para valores grandes de <m>x</m>,
+            <m>2x</m> y <m>k\sin(kx)</m> no pueden intersectar.
+            Además, para valores relativamente pequeños de <m>x</m>,
+            las funciones <m>2x</m> y
+            <m>k\sin(kx)</m> solo pueden intersectar un número finito de veces ya que
+            <m>k\sin(kx)</m> oscila un número finito de veces.
+            Esta es la razón por la que <m>h</m> solo puede tener un número finito de números críticos,
+            sin importar el valor de <m>k</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

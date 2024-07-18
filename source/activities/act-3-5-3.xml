@@ -15,57 +15,57 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-5-3" permid="dfm">
   <statement>
     <p permid="ECC">
-      As pictured in the <url href="https://gvsu.edu/s/9q" visual="gvsu.edu/s/9q">applet</url>,
-      a skateboarder who is 6 feet tall rides under a 15 foot tall lamppost at a constant rate of 3 feet per second.
-      We are interested in understanding how fast his shadow is changing at various points in time.
+      Como se muestra en el <url href="https://gvsu.edu/s/9q" visual="gvsu.edu/s/9q">applet</url>,
+      un skater de 6 pies de altura pasa por debajo de un poste de luz de 15 pies de altura a una velocidad constante de 3 pies por segundo.
+      Nos interesa entender qué tan rápido está cambiando su sombra en varios puntos en el tiempo.
 
       <ol marker="a." permid="dAL">
         <li permid="JHU">
           <p permid="AYc">
-            Draw an appropriate right triangle that represents a snapshot in time of the skateboarder,
-            lamppost,
-            and his shadow.
-            Let <m>x</m> denote the horizontal distance from the base of the lamppost to the skateboarder and <m>s</m> represent the length of his shadow.
-            Label these quantities,
-            as well as the skateboarder's height and the lamppost's height on the diagram.
+            Dibuja un triángulo rectángulo apropiado que represente un instante en el tiempo del skater,
+            el poste de luz,
+            y su sombra.
+            Deja que <m>x</m> denote la distancia horizontal desde la base del poste de luz hasta el skater y <m>s</m> represente la longitud de su sombra.
+            Etiqueta estas cantidades,
+            así como la altura del skater y la altura del poste de luz en el diagrama.
           </p>
         </li>
 
         <li permid="pPd">
           <p permid="hfl">
-            Observe that the skateboarder and the lamppost represent parallel line segments in the diagram,
-            and thus similar triangles are present.
-            Use similar triangles to establish an equation that relates <m>x</m> and <m>s</m>.
+            Observa que el skater y el poste de luz representan segmentos de línea paralelos en el diagrama,
+            y por lo tanto hay triángulos similares presentes.
+            Usa triángulos similares para establecer una ecuación que relacione <m>x</m> y <m>s</m>.
           </p>
         </li>
 
         <li permid="VWm">
           <p permid="Nmu">
-            Use your work in (b) to find an equation that relates
-            <m>\frac{dx}{dt}</m> and <m>\frac{ds}{dt}</m>.
+            Usa tu trabajo en (b) para encontrar una ecuación que relacione
+            <m>\frac{dx}{dt}</m> y <m>\frac{ds}{dt}</m>.
           </p>
         </li>
 
         <li permid="Cdv">
           <p permid="ttD">
-            At what rate is the length of the skateboarder's shadow increasing at the instant the skateboarder is 8 feet from the lamppost?
+            ¿A qué velocidad está aumentando la longitud de la sombra del skater en el instante en que el skater está a 8 pies del poste de luz?
           </p>
         </li>
 
         <li permid="ikE">
           <p permid="ZAM">
-            As the skateboarder's distance from the lamppost increases,
-            is his shadow's length increasing at an increasing rate,
-            increasing at a decreasing rate,
-            or increasing at a constant rate?
+            A medida que la distancia del skater al poste de luz aumenta,
+            ¿está aumentando la longitud de su sombra a una tasa creciente,
+            a una tasa decreciente,
+            o a una tasa constante?
           </p>
         </li>
 
         <li permid="OrN">
           <p permid="FHV">
-            Which is moving more rapidly:
-            the skateboarder or the tip of his shadow?
-            Explain, and justify your answer.
+            ¿Qué se está moviendo más rápido:
+            el skater o la punta de su sombra?
+            Explica y justifica tu respuesta.
           </p>
         </li>
       </ol>
@@ -76,41 +76,41 @@
       <ol marker="a." permid="xtC">
         <li permid="uyW">
           <p permid="lPe">
-            Note that the lengths of the legs of the right triangle will be <m>15</m> for the vertical one and <m>x + s</m> for the horizontal one.
+            Nota que las longitudes de los catetos del triángulo rectángulo serán <m>15</m> para el vertical y <m>x + s</m> para el horizontal.
           </p>
         </li>
 
         <li permid="aGf">
           <p permid="RWn">
-            The small triangle formed by the skateboarder and his shadow,
-            with legs <m>6</m> and <m>s</m> is similar to the large triangle that has the lamppost as one of its legs.
+            El pequeño triángulo formado por el skater y su sombra,
+            con catetos de <m>6</m> y <m>s</m> es similar al gran triángulo que tiene el poste de luz como uno de sus catetos.
           </p>
         </li>
 
         <li permid="GNo">
           <p permid="ydw">
-            Simplify the equation in (b) as much as possible before differentiating implicitly with respect to <m>t</m>.
+            Simplifica la ecuación en (b) tanto como sea posible antes de diferenciar implícitamente con respecto a <m>t</m>.
           </p>
         </li>
 
         <li permid="mUx">
           <p permid="ekF">
-            Find <m>\left. \frac{ds}{dt} \right|_{x=8}</m>.
+            Encuentra <m>\left. \frac{ds}{dt} \right|_{x=8}</m>.
           </p>
         </li>
 
         <li permid="TbG">
           <p permid="KrO">
-            Does the equation that relates
-            <m>\frac{dx}{dt}</m> and <m>\frac{ds}{dt}</m> involve <m>x</m>?
-            Is <m>\frac{dx}{dt}</m> changing or constant?
+            ¿La ecuación que relaciona
+            <m>\frac{dx}{dt}</m> y <m>\frac{ds}{dt}</m> involucra <m>x</m>?
+            ¿Está <m>\frac{dx}{dt}</m> cambiando o es constante?
           </p>
         </li>
 
         <li permid="ziP">
           <p permid="qyX">
-            Let <m>y</m> represent the location of the tip of the shadow,
-            so that <m>y = x + s</m>.
+            Deja que <m>y</m> represente la ubicación de la punta de la sombra,
+            de modo que <m>y = x + s</m>.
           </p>
         </li>
       </ol>
@@ -141,20 +141,20 @@
 
         <li permid="XLz">
           <p permid="iUy">
-            <m>\left. \frac{ds}{dt} \right|_{x=8} = 2</m> feet per second.
+            <m>\left. \frac{ds}{dt} \right|_{x=8} = 2</m> pies por segundo.
           </p>
         </li>
 
         <li permid="DSI">
           <p permid="PbH">
-            at a constant rate.
+            a una tasa constante.
           </p>
         </li>
 
         <li permid="jZR">
           <p permid="viQ">
-            Let <m>y</m> represent the location of the tip of the shadow;
-            <m>\frac{dy}{dt} = 5</m> feet/sec.
+            Deja que <m>y</m> represente la ubicación de la punta de la sombra;
+            <m>\frac{dy}{dt} = 5</m> pies/seg.
           </p>
         </li>
       </ol>
@@ -165,7 +165,7 @@
       <ol marker="a." permid="lfk">
         <li permid="Qha">
           <p permid="bpZ">
-            The given information leads us to construct the following diagram:
+            La información dada nos lleva a construir el siguiente diagrama:
           </p>
 
           <sidebyside width="30%" permid="wYd">
@@ -176,56 +176,55 @@
 
         <li permid="woj">
           <p permid="Hxi">
-            The small triangle formed by the skateboarder and his shadow,
-            with legs of length <m>6</m> and <m>s</m> is similar to the large triangle that has the lamppost as one of its legs (length 15) and horizontal leg of length <m>x + s</m>.
-            Because the ratios of the lengths of the legs of these two triangles is equal, we have
+            El pequeño triángulo formado por el skater y su sombra,
+            con catetos de longitud <m>6</m> y <m>s</m> es similar al gran triángulo que tiene el poste de luz como uno de sus catetos (longitud 15) y cateto horizontal de longitud <m>x + s</m>.
+            Debido a que las proporciones de las longitudes de los catetos de estos dos triángulos son iguales, tenemos
             <me permid="kJL">
               \frac{s}{6} = \frac{s+x}{15}
             </me>.
-            Simplifying, we have <m>15s = 6s + 6x</m>,
-            so that <m>9s = 2x</m>,
-            or most simply, <m>3s = 2x</m>.
+            Simplificando, tenemos <m>15s = 6s + 6x</m>,
+            de modo que <m>9s = 2x</m>,
+            o más simplemente, <m>3s = 2x</m>.
           </p>
         </li>
 
         <li permid="cvs">
           <p permid="nEr">
-            Differentiating with respect to <m>t</m>,
-            it is immediate that <m>3 \frac{ds}{dt} = 2\frac{dx}{dt}</m>.
+            Diferenciando con respecto a <m>t</m>,
+            es inmediato que <m>3 \frac{ds}{dt} = 2\frac{dx}{dt}</m>.
           </p>
         </li>
 
         <li permid="ICB">
           <p permid="TLA">
-            Since <m>\frac{ds}{dt} = \frac{2}{3} \frac{dx}{dt}</m>,
-            and <m>\frac{dx}{dt} = 3</m>,
-            it follows <m>\frac{ds}{dt} = 2</m> for every value of <m>t</m>
-            (and <m>x</m>).
-            Thus,
-            <m>\left. \frac{ds}{dt} \right|_{x=8} = 2</m> feet per second.
+            Dado que <m>\frac{ds}{dt} = \frac{2}{3} \frac{dx}{dt}</m>,
+            y <m>\frac{dx}{dt} = 3</m>,
+            se sigue que <m>\frac{ds}{dt} = 2</m> para cada valor de <m>t</m>
+            (y <m>x</m>).
+            Así,
+            <m>\left. \frac{ds}{dt} \right|_{x=8} = 2</m> pies por segundo.
           </p>
         </li>
 
         <li permid="oJK">
           <p permid="zSJ">
-            Because <m>\frac{ds}{dt}</m> is constant,
-            the shadow's length is increasing at a constant rate
-            (irrespective of the distance from the skateboarder to the lamppost).
+            Debido a que <m>\frac{ds}{dt}</m> es constante,
+            la longitud de la sombra está aumentando a una tasa constante
+            (independientemente de la distancia del skater al poste de luz).
           </p>
         </li>
 
         <li permid="UQT">
           <p permid="fZS">
-            Let <m>y</m> represent the location of the tip of the shadow,
-            so that <m>y = x + s</m>.
-            Observe that we can now compute <m>\frac{dy}{dt}</m> in terms of
-            <m>\frac{dx}{dt}</m> and <m>\frac{ds}{dt}</m>,
-            with <m>\frac{dy}{dt} = \frac{dx}{dt} + \frac{ds}{dt} = 3 + 2 = 5</m> feet/sec,
-            and hence the tip of the shadow is moving more rapidly than the skateboarder himself.
+            Deja que <m>y</m> represente la ubicación de la punta de la sombra,
+            de modo que <m>y = x + s</m>.
+            Observa que ahora podemos calcular <m>\frac{dy}{dt}</m> en términos de
+            <m>\frac{dx}{dt}</m> y <m>\frac{ds}{dt}</m>,
+            con <m>\frac{dy}{dt} = \frac{dx}{dt} + \frac{ds}{dt} = 3 + 2 = 5</m> pies/seg,
+            y por lo tanto la punta de la sombra se está moviendo más rápido que el propio skater.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

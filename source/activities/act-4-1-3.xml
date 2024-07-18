@@ -15,56 +15,56 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-4-1-3" permid="rLH">
   <statement>
     <p permid="GUF">
-      Suppose that an object moving along a straight line path has its velocity <m>v</m>
-      (in meters per second)
-      at time <m>t</m>
-      (in seconds)
-      given by the piecewise linear function whose graph is pictured at left in <xref ref="F-4-1-Act3">Figure</xref>.
-      We view movement to the right as being in the positive direction
-      (with positive velocity),
-      while movement to the left is in the negative direction.
+      Supón que un objeto que se mueve a lo largo de una trayectoria en línea recta tiene su velocidad <m>v</m>
+      (en metros por segundo)
+      en el tiempo <m>t</m>
+      (en segundos)
+      dada por la función lineal a trozos cuyo gráfico se muestra a la izquierda en <xref ref="F-4-1-Act3">Figura</xref>.
+      Vemos el movimiento hacia la derecha como en la dirección positiva
+      (con velocidad positiva),
+      mientras que el movimiento hacia la izquierda es en la dirección negativa.
     </p>
 
     <figure xml:id="F-4-1-Act3" permid="TiX">
-      <caption>The velocity function of a moving object.</caption>
+      <caption>La función de velocidad de un objeto en movimiento.</caption>
       <image width="100%" source="images/4_1_Act3" />
     </figure>
 
     <p permid="nbO">
-      Suppose further that the object's initial position at time <m>t = 0</m> is <m>s(0) = 1</m>.
+      Supón además que la posición inicial del objeto en el tiempo <m>t = 0</m> es <m>s(0) = 1</m>.
 
       <ol marker="a." permid="tWt">
         <li permid="adC">
           <p permid="Uoq">
-            Determine the total distance traveled and the total change in position on the time interval <m>0 \le t \le 2</m>.
-            What is the object's position at <m>t = 2</m>?
+            Determina la distancia total recorrida y el cambio total en la posición en el intervalo de tiempo <m>0 \le t \le 2</m>.
+            ¿Cuál es la posición del objeto en <m>t = 2</m>?
           </p>
         </li>
 
         <li permid="GkL">
           <p permid="Avz">
-            On what time intervals is the moving object's position function increasing?
-            Why?
-            On what intervals is the object's position decreasing?
-            Why?
+            ¿En qué intervalos de tiempo está aumentando la función de posición del objeto en movimiento?
+            ¿Por qué?
+            ¿En qué intervalos está disminuyendo la posición del objeto?
+            ¿Por qué?
           </p>
         </li>
 
         <li permid="mrU">
           <p permid="gCI">
-            What is the object's position at <m>t = 8</m>?
-            How many total meters has it traveled to get to this point (including distance in both directions)?
-            Is this different from the object's total change in position on <m>t = 0</m> to <m>t = 8</m>?
+            ¿Cuál es la posición del objeto en <m>t = 8</m>?
+            ¿Cuántos metros en total ha recorrido para llegar a este punto (incluyendo la distancia en ambas direcciones)?
+            ¿Es esto diferente del cambio total en la posición del objeto en <m>t = 0</m> a <m>t = 8</m>?
           </p>
         </li>
 
         <li permid="Szd">
           <p permid="MJR">
-            Find the exact position of the object at
-            <m>t = 1, 2, 3, \ldots, 8</m> and use this data to sketch an accurate graph of
-            <m>y = s(t)</m> on the axes provided at right in <xref ref="F-4-1-Act3">Figure</xref>.
-            How can you use the provided information about
-            <m>y = v(t)</m> to determine the concavity of <m>s</m> on each relevant interval?
+            Encuentra la posición exacta del objeto en
+            <m>t = 1, 2, 3, \ldots, 8</m> y usa estos datos para dibujar un gráfico preciso de
+            <m>y = s(t)</m> en los ejes proporcionados a la derecha en <xref ref="F-4-1-Act3">Figura</xref>.
+            ¿Cómo puedes usar la información proporcionada sobre
+            <m>y = v(t)</m> para determinar la concavidad de <m>s</m> en cada intervalo relevante?
           </p>
         </li>
       </ol>
@@ -75,28 +75,28 @@
       <ol marker="a." permid="NPk">
         <li permid="yGm">
           <p permid="sRa">
-            Find the area of each triangular region formed between
-            <m>y = v(t)</m> and the <m>t</m>-axis.
+            Encuentra el área de cada región triangular formada entre
+            <m>y = v(t)</m> y el eje <m>t</m>.
           </p>
         </li>
 
         <li permid="eNv">
           <p permid="YYj">
-            Recall that <m>v = s'</m>,
-            and here we are given complete information about <m>v</m>.
+            Recuerda que <m>v = s'</m>,
+            y aquí se nos da información completa sobre <m>v</m>.
           </p>
         </li>
 
         <li permid="KUE">
           <p permid="Ffs">
-            Be careful to address whether <m>v</m> is positive or negative when calculating areas and adding the results.
+            Ten cuidado de considerar si <m>v</m> es positivo o negativo al calcular áreas y sumar los resultados.
           </p>
         </li>
 
         <li permid="rbN">
           <p permid="lmB">
-            Consider finding the area bounded by
-            <m>y = v(t)</m> and the <m>t</m>-axis on each interval <m>[0,1]</m>,
+            Considera encontrar el área delimitada por
+            <m>y = v(t)</m> y el eje <m>t</m> en cada intervalo <m>[0,1]</m>,
             <m>[1,2]</m>, <m>\ldots</m>.
           </p>
         </li>
@@ -108,27 +108,27 @@
       <ol marker="a." permid="hIb">
         <li permid="XiW">
           <p permid="RtK">
-            Total distance traveled is <m>2</m>;
-            change in position is <m>0</m>.
+            La distancia total recorrida es <m>2</m>;
+            el cambio en la posición es <m>0</m>.
           </p>
         </li>
 
         <li permid="Dqf">
           <p permid="xAT">
-            <m>0 \lt t \lt 1</m> and <m>4 \lt t \lt 8 </m>.
+            <m>0 \lt t \lt 1</m> y <m>4 \lt t \lt 8 </m>.
           </p>
         </li>
 
         <li permid="jxo">
           <p permid="dIc">
-            <m> s(8) - s(0) = 5 \ \mbox{m} </m>, while the distance traveled on
-            <m>[0,8]</m> is <m>D = 13</m>, and thus these two quantities are different.
+            <m> s(8) - s(0) = 5 \ \mbox{m} </m>, mientras que la distancia recorrida en
+            <m>[0,8]</m> es <m>D = 13</m>, y por lo tanto estas dos cantidades son diferentes.
           </p>
         </li>
 
         <li permid="PEx">
           <p permid="JPl">
-            See the figure below.
+            Ver la figura abajo.
           </p>
         </li>
       </ol>
@@ -143,52 +143,52 @@
       <ol marker="a." permid="BAS">
         <li permid="vLG">
           <p permid="pWu">
-            By finding the area of the triangular regions formed between
-            <m>y = v(t)</m> and the <m>t</m>-axis on <m>[0,1]</m> and <m>[1,2]</m>
-            (each of which is <m>1</m>),
-            it follows that the object's total distance traveled is <m>2</m>,
-            while its change in position is <m>0</m>.
-            The latter is true since the net signed area bounded by <m>v</m> on <m>[0,2]</m> is <m>1 - 1 = 0</m>.  Finally, the object's position at <m>t = 2</m> is <m>s(2) = 1</m>
+            Al encontrar el área de las regiones triangulares formadas entre
+            <m>y = v(t)</m> y el eje <m>t</m> en <m>[0,1]</m> y <m>[1,2]</m>
+            (cada una de las cuales es <m>1</m>),
+            se deduce que la distancia total recorrida por el objeto es <m>2</m>,
+            mientras que su cambio en la posición es <m>0</m>.
+            Esto último es cierto ya que el área neta firmada delimitada por <m>v</m> en <m>[0,2]</m> es <m>1 - 1 = 0</m>. Finalmente, la posición del objeto en <m>t = 2</m> es <m>s(2) = 1</m>
           </p>
         </li>
 
         <li permid="bSP">
           <p permid="WdD">
-            The object's position is increasing wherever its velocity is positive,
-            hence for <m>0 \le t \lt 1</m> and <m>4 \lt t \lt 8 </m>.
+            La posición del objeto está aumentando donde su velocidad es positiva,
+            por lo tanto para <m>0 \le t \lt 1</m> y <m>4 \lt t \lt 8 </m>.
           </p>
         </li>
 
         <li permid="HZY">
           <p permid="CkM">
-            By calculating the area bounded by the curve,
-            we find 1 unit of area on <m>[0,1]</m>, 4 units of area on <m>[1,4]</m>,
-            and 8 units of area on <m>[4,8]</m>,
-            thus the total distance traveled on
-            <m>0 \le t \le 8</m> is <m>D = 1 + 4 + 8</m> meters.
-            As the change in position is given by the net signed area on this interval,
-            we find that the change in position is
+            Al calcular el área delimitada por la curva,
+            encontramos 1 unidad de área en <m>[0,1]</m>, 4 unidades de área en <m>[1,4]</m>,
+            y 8 unidades de área en <m>[4,8]</m>,
+            por lo tanto la distancia total recorrida en
+            <m>0 \le t \le 8</m> es <m>D = 1 + 4 + 8</m> metros.
+            Como el cambio en la posición está dado por el área neta firmada en este intervalo,
+            encontramos que el cambio en la posición es
             <me permid="zqg">
               s(8) - s(0) = 1 - 4 + 8 = 5 \ \mbox{m}
-            </me>.   We thus observe that the distance traveled and change in position on <m>[0,8]</m>
-            are different.
+            </me>. Observamos así que la distancia recorrida y el cambio en la posición en <m>[0,8]</m>
+            son diferentes.
           </p>
         </li>
 
         <li permid="ohh">
           <p permid="irV">
-            In the figure below,
-            at left we list all of the areas bounded by <m>v</m> on each one-unit subinterval.
-            Along with the given starting point that <m>s(0) = 1</m>,
-            we use the resulting changes in position to plot points for the function <m>s</m>.
-            For instance,
-            we know <m>s(1) - s(0) = 1</m>, hence <m>s(1) = 2</m>.
-            Similarly, <m>s(2) - s(1) = -1</m>, thus <m>s(2) = 1</m>.
-            Continuing across the interval,
-            we generate the function <m>s</m> that is pictured at right.
-            Note that the portion of <m>s</m> from <m>t = 2</m> to <m>t = 3</m> is linear because <m>v</m> is constant there,
-            while the other parts of <m>s</m> appear to be quadratic,
-            as they correspond to intervals where <m>v</m> is linear.
+            En la figura abajo,
+            a la izquierda listamos todas las áreas delimitadas por <m>v</m> en cada subintervalo de una unidad.
+            Junto con el punto de partida dado que <m>s(0) = 1</m>,
+            usamos los cambios resultantes en la posición para trazar puntos para la función <m>s</m>.
+            Por ejemplo,
+            sabemos que <m>s(1) - s(0) = 1</m>, por lo tanto <m>s(1) = 2</m>.
+            De manera similar, <m>s(2) - s(1) = -1</m>, así que <m>s(2) = 1</m>.
+            Continuando a lo largo del intervalo,
+            generamos la función <m>s</m> que se muestra a la derecha.
+            Nota que la porción de <m>s</m> de <m>t = 2</m> a <m>t = 3</m> es lineal porque <m>v</m> es constante allí,
+            mientras que las otras partes de <m>s</m> parecen ser cuadráticas,
+            ya que corresponden a intervalos donde <m>v</m> es lineal.
           </p>
         </li>
       </ol>
@@ -199,4 +199,3 @@
     </sidebyside>
   </solution>
 </activity>
-

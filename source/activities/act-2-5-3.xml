@@ -15,47 +15,47 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-5-3" permid="NsL">
   <statement>
     <p permid="cBJ">
-      Use known derivative rules, including the chain rule,
-      as needed to answer each of the following questions.
+      Usa reglas conocidas de derivadas, incluyendo la regla de la cadena,
+      según sea necesario para responder a cada una de las siguientes preguntas.
 
       <ol marker="a." permid="vKG">
         <li permid="bRP">
           <p permid="pVu">
-            Find an equation for the tangent line to the curve
-            <m>y= \sqrt{e^x + 3}</m> at the point where <m>x=0</m>.
+            Encuentra una ecuación para la línea tangente a la curva
+            <m>y= \sqrt{e^x + 3}</m> en el punto donde <m>x=0</m>.
           </p>
         </li>
 
         <li permid="HYY">
           <p permid="WcD">
-            If <m>\displaystyle s(t) = \frac{1}{(t^2+1)^3}</m> represents the position function of a particle moving horizontally along an axis at time <m>t</m>
-            (where <m>s</m> is measured in inches and <m>t</m> in seconds),
-            find the particle's instantaneous velocity at <m>t=1</m>.
-            Is the particle moving to the left or right at that instant?
+            Si <m>\displaystyle s(t) = \frac{1}{(t^2+1)^3}</m> representa la función de posición de una partícula que se mueve horizontalmente a lo largo de un eje en el tiempo <m>t</m>
+            (donde <m>s</m> se mide en pulgadas y <m>t</m> en segundos),
+            encuentra la velocidad instantánea de la partícula en <m>t=1</m>.
+            ¿La partícula se mueve hacia la izquierda o hacia la derecha en ese instante?
           </p>
         </li>
 
         <li permid="ogh">
           <p permid="CjM">
-            At sea level, air pressure is 30 inches of mercury.
-            At an altitude of <m>h</m> feet above sea level,
-            the air pressure,
-            <m>P</m>, in inches of mercury,
-            is given by the function <m>P = 30 e^{-0.0000323 h}</m>.
-            Compute <m>dP/dh</m> and explain what this derivative function tells you about air pressure,
-            including a discussion of the units on <m>dP/dh</m>.
-            In addition,
-            determine how fast the air pressure is changing for a pilot of a small plane passing through an altitude of <m>1000</m> feet.
+            Al nivel del mar, la presión del aire es de 30 pulgadas de mercurio.
+            A una altitud de <m>h</m> pies sobre el nivel del mar,
+            la presión del aire,
+            <m>P</m>, en pulgadas de mercurio,
+            está dada por la función <m>P = 30 e^{-0.0000323 h}</m>.
+            Calcula <m>dP/dh</m> y explica qué te dice esta función derivada sobre la presión del aire,
+            incluyendo una discusión sobre las unidades de <m>dP/dh</m>.
+            Además,
+            determina qué tan rápido está cambiando la presión del aire para un piloto de un avión pequeño que pasa por una altitud de <m>1000</m> pies.
           </p>
         </li>
 
         <li permid="Unq">
           <p permid="iqV">
-            Suppose that <m>f(x)</m> and <m>g(x)</m> are differentiable functions and that the following information about them is known:
+            Supón que <m>f(x)</m> y <m>g(x)</m> son funciones diferenciables y que se conoce la siguiente información sobre ellas:
           </p>
 
           <table permid="Bet">
-            <title>Data for functions <m>f</m> and <m>g</m>.</title>
+            <title>Datos para las funciones <m>f</m> y <m>g</m>.</title>
             <tabular bottom="minor" top="minor" halign="center" permid="hlC">
               <row>
                 <cell><m>x</m></cell>
@@ -83,10 +83,10 @@
           </table>
 
           <p permid="Oye">
-            If <m>C(x)</m> is a function given by the formula <m>f(g(x))</m>,
-            determine <m>C'(2)</m>.
-            In addition,
-            if <m>D(x)</m> is the function <m>f(f(x))</m>, find <m>D'(-1)</m>.
+            Si <m>C(x)</m> es una función dada por la fórmula <m>f(g(x))</m>,
+            determina <m>C'(2)</m>.
+            Además,
+            si <m>D(x)</m> es la función <m>f(f(x))</m>, encuentra <m>D'(-1)</m>.
           </p>
         </li>
       </ol>
@@ -97,28 +97,28 @@
       <ol marker="a." permid="PDx">
         <li permid="Auz">
           <p permid="uFn">
-            Let <m>f(x) = \sqrt{e^x + 3}</m>.
-            Find <m>f'(x)</m> and <m>f'(0)</m>.
+            Sea <m>f(x) = \sqrt{e^x + 3}</m>.
+            Encuentra <m>f'(x)</m> y <m>f'(0)</m>.
           </p>
         </li>
 
         <li permid="gBI">
           <p permid="aMw">
-            Recall that <m>s'(t)</m> tells us the instantaneous velocity at time <m>t</m>.
+            Recuerda que <m>s'(t)</m> nos dice la velocidad instantánea en el tiempo <m>t</m>.
           </p>
         </li>
 
         <li permid="MIR">
           <p permid="GTF">
-            Note that the units on <m>dP/dh</m> are inches of mercury per foot.
+            Nota que las unidades de <m>dP/dh</m> son pulgadas de mercurio por pie.
           </p>
         </li>
 
         <li permid="sQa">
           <p permid="naO">
-            Since <m>C(x) = f(g(x))</m>,
-            it follows <m>C'(x) = f'(g(x))g'(x)</m>.
-            What is <m>C'(2)</m>?
+            Dado que <m>C(x) = f(g(x))</m>,
+            se sigue que <m>C'(x) = f'(g(x))g'(x)</m>.
+            ¿Cuál es <m>C'(2)</m>?
           </p>
         </li>
       </ol>
@@ -135,13 +135,13 @@
 
         <li permid="wcQ">
           <p permid="cjZ">
-            <m>v(1) = s'(1) = -\frac{3}{8}</m> inches per second; the particle is moving left at the instant <m>t = 1</m>.
+            <m>v(1) = s'(1) = -\frac{3}{8}</m> pulgadas por segundo; la partícula se mueve hacia la izquierda en el instante <m>t = 1</m>.
           </p>
         </li>
 
         <li permid="Fes">
           <p permid="zpg">
-            <m>P'(1000) = 30 e^{-0.0323} (-0.0000323) \approx -0.000938</m> inches of mercury per foot.
+            <m>P'(1000) = 30 e^{-0.0323} (-0.0000323) \approx -0.000938</m> pulgadas de mercurio por pie.
           </p>
         </li>
 
@@ -158,11 +158,11 @@
       <ol marker="a." permid="Dpf">
         <li permid="RsK">
           <p permid="LDy">
-            Let <m>f(x) = \sqrt{e^x + 3}</m>.
-            By the chain rule <m>f'(x) = \frac{e^x}{2\sqrt{e^x + 3}}</m>,
-            and thus <m>f'(0) = \frac{1}{4}</m>.
-            Note further that <m>f(0) = \sqrt{1 + 3} = 2</m>.
-            The tangent line is therefore the line through <m>(0,2)</m> with slope <m>1/4</m>, which is
+            Sea <m>f(x) = \sqrt{e^x + 3}</m>.
+            Por la regla de la cadena <m>f'(x) = \frac{e^x}{2\sqrt{e^x + 3}}</m>,
+            y así <m>f'(0) = \frac{1}{4}</m>.
+            Nota además que <m>f(0) = \sqrt{1 + 3} = 2</m>.
+            La línea tangente es por lo tanto la línea que pasa por <m>(0,2)</m> con pendiente <m>1/4</m>, que es
             <me permid="IIS">
               y - 2 = \frac{1}{4}(x-0)
             </me>.
@@ -171,37 +171,37 @@
 
         <li permid="xzT">
           <p permid="rKH">
-            Observe that <m>s(t) = (t^2 + 1)^{-3}</m>,
-            and thus by the chain rule,
+            Observa que <m>s(t) = (t^2 + 1)^{-3}</m>,
+            y así por la regla de la cadena,
             <m>s'(t) = -3(t^2 + 1)^{-4}(2t)</m>.
-            We therefore see that <m>v(1) = s'(1) = -\frac{6}{16} = -\frac{3}{8}</m> inches per second,
-            so the particle is moving left at the instant <m>t = 1</m>.
+            Por lo tanto, vemos que <m>v(1) = s'(1) = -\frac{6}{16} = -\frac{3}{8}</m> pulgadas por segundo,
+            así que la partícula se mueve hacia la izquierda en el instante <m>t = 1</m>.
           </p>
         </li>
 
         <li permid="dHc">
           <p permid="XRQ">
-            First,
+            Primero,
             <m>P'(h) = \frac{dP}{dh} = 30 e^{-0.0000323h} (-0.0000323)</m>.
-            Therefore, <m>P'(1000) = 30 e^{-0.0323} (-0.0000323) \approx -0.000938</m> inches of mercury per foot.
-            This tells us that the barometric pressure is dropping very slightly for each additional foot of elevation gain.
+            Por lo tanto, <m>P'(1000) = 30 e^{-0.0323} (-0.0000323) \approx -0.000938</m> pulgadas de mercurio por pie.
+            Esto nos dice que la presión barométrica está disminuyendo muy ligeramente por cada pie adicional de ganancia de elevación.
           </p>
         </li>
 
         <li permid="JOl">
           <p permid="DYZ">
-            Since <m>C(x) = f(g(x))</m>,
-            it follows <m>C'(x) = f'(g(x))g'(x)</m>.
-            Therefore, <m>C'(2) = f'(g(2))g'(2)</m>.
-            From the given table, <m>g(2) = -1</m>,
-            so applying this result and using additional given information,
+            Dado que <m>C(x) = f(g(x))</m>,
+            se sigue que <m>C'(x) = f'(g(x))g'(x)</m>.
+            Por lo tanto, <m>C'(2) = f'(g(2))g'(2)</m>.
+            De la tabla dada, <m>g(2) = -1</m>,
+            así que aplicando este resultado y usando información adicional dada,
             <me permid="oQb">
               C'(2) = f'(-1) g'(2) = (-5)(2) = -10
             </me>.
-            For <m>D(x) = f(f(x))</m>,
-            the chain rule tells us that <m>D'(x) = f'(f(x))f'(x)</m>,
-            so <m>D'(-1) = f'(f(-1))f'(-1)</m>.
-            Using the given table, it follows
+            Para <m>D(x) = f(f(x))</m>,
+            la regla de la cadena nos dice que <m>D'(x) = f'(f(x))f'(x)</m>,
+            así que <m>D'(-1) = f'(f(-1))f'(-1)</m>.
+            Usando la tabla dada, se sigue
             <me permid="UXk">
               D'(-1) = f'(2)f'(-1) = (4)(-5) = -20
             </me>.
@@ -211,4 +211,3 @@
     </p>
   </solution>
 </activity>
-

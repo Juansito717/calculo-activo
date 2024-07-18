@@ -15,43 +15,43 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-4-1-2" permid="cYi">
   <statement>
     <p permid="QJQ">
-      A ball is tossed vertically in such a way that its velocity function is given by <m>v(t) = 32 - 32t</m>,
-      where <m>t</m> is measured in seconds and <m>v</m> in feet per second.
-      Assume that this function is valid for <m>0 \le t \le 2</m>.
+      Una pelota es lanzada verticalmente de tal manera que su función de velocidad está dada por <m>v(t) = 32 - 32t</m>,
+      donde <m>t</m> se mide en segundos y <m>v</m> en pies por segundo.
+      Supón que esta función es válida para <m>0 \le t \le 2</m>.
     </p>
 
     <p permid="wQZ">
       <ol marker="a." permid="xmy">
         <li permid="dtH">
           <p permid="UJP">
-            For what values of <m>t</m> is the velocity of the ball positive?
-            What does this tell you about the motion of the ball on this interval of time values?
+            ¿Para qué valores de <m>t</m> es positiva la velocidad de la pelota?
+            ¿Qué te dice esto sobre el movimiento de la pelota en este intervalo de valores de tiempo?
           </p>
         </li>
 
         <li permid="JAQ">
           <p permid="AQY">
-            Find an antiderivative,
-            <m>s</m>, of <m>v</m> that satisfies <m>s(0) = 0</m>.
+            Encuentra una antiderivada,
+            <m>s</m>, de <m>v</m> que satisfaga <m>s(0) = 0</m>.
           </p>
         </li>
 
         <li permid="pHZ">
           <p permid="gYh">
-            Compute the value of <m>s(1) - s(\frac{1}{2})</m>.
-            What is the meaning of the value you find?
+            Calcula el valor de <m>s(1) - s(\frac{1}{2})</m>.
+            ¿Cuál es el significado del valor que encuentras?
           </p>
         </li>
 
         <li permid="VPi">
           <p permid="Nfq">
-            Using the graph of <m>y = v(t)</m> provided in <xref ref="F-4-1-Act2">Figure</xref>,
-            find the exact area of the region between the velocity curve and the <m>t</m>-axis between <m>t = \frac{1}{2}</m> and <m>t = 1</m>.
-            What is the meaning of the value you find?
+            Usando el gráfico de <m>y = v(t)</m> proporcionado en <xref ref="F-4-1-Act2">Figura</xref>,
+            encuentra el área exacta de la región entre la curva de velocidad y el eje <m>t</m> entre <m>t = \frac{1}{2}</m> y <m>t = 1</m>.
+            ¿Cuál es el significado del valor que encuentras?
           </p>
 
           <figure xml:id="F-4-1-Act2" permid="tmz">
-            <caption>The graph of <m>y = v(t)</m>.</caption>
+            <caption>El gráfico de <m>y = v(t)</m>.</caption>
             <image width="47%" source="images/4_1_Act2" />
           </figure>
 
@@ -59,16 +59,16 @@
 
         <li permid="BWr">
           <p permid="ZtI">
-            Answer the same questions as in (c) and (d) but instead using the interval <m>[0,1]</m>.
+            Responde las mismas preguntas que en (c) y (d) pero usando el intervalo <m>[0,1]</m>.
           </p>
         </li>
 
         <li permid="idA">
           <p permid="FAR">
-            What is the value of <m>s(2) - s(0)</m>?
-            What does this result tell you about the flight of the ball?
-            How is this value connected to the provided graph of <m>y = v(t)</m>?
-            Explain.
+            ¿Cuál es el valor de <m>s(2) - s(0)</m>?
+            ¿Qué te dice este resultado sobre el vuelo de la pelota?
+            ¿Cómo se conecta este valor con el gráfico proporcionado de <m>y = v(t)</m>?
+            Explica.
           </p>
         </li>
       </ol>
@@ -79,38 +79,38 @@
       <ol marker="a." permid="Rfp">
         <li permid="OkJ">
           <p permid="lIa">
-            Where is velocity zero?
+            ¿Dónde es cero la velocidad?
           </p>
         </li>
 
         <li permid="urS">
           <p permid="RPj">
-            Since <m>v</m> is linear,
-            note that <m>s</m> must be quadratic.
+            Dado que <m>v</m> es lineal,
+            nota que <m>s</m> debe ser cuadrática.
           </p>
         </li>
 
         <li permid="azb">
           <p permid="xWs">
-            Observe that you are taking the difference between two values of the position function.
+            Observa que estás tomando la diferencia entre dos valores de la función de posición.
           </p>
         </li>
 
         <li permid="GGk">
           <p permid="edB">
-            The region whose area is sought is triangular.
+            La región cuya área se busca es triangular.
           </p>
         </li>
 
         <li permid="mNt">
           <p permid="qrT">
-            See (c) and (d) above.
+            Ver (c) y (d) arriba.
           </p>
         </li>
 
         <li permid="SUC">
           <p permid="Wzc">
-            What does it mean for the change of the ball's position to be zero?
+            ¿Qué significa que el cambio de posición de la pelota sea cero?
           </p>
         </li>
       </ol>
@@ -121,8 +121,8 @@
       <ol marker="a." permid="kYg">
         <li permid="zbL">
           <p permid="CGl">
-            On <m>(0,1)</m>,
-            <m>s</m> is increasing because velocity is positive.
+            En <m>(0,1)</m>,
+            <m>s</m> está aumentando porque la velocidad es positiva.
           </p>
         </li>
 
@@ -140,22 +140,22 @@
 
         <li permid="rxm">
           <p permid="vbM">
-            <m>A = 4</m> feet is the total distance the ball traveled vertically on <m>[\frac{1}{2},1]</m>.
+            <m>A = 4</m> pies es la distancia total que la pelota viajó verticalmente en <m>[\frac{1}{2},1]</m>.
           </p>
         </li>
 
         <li permid="XEv">
           <p permid="biV">
-            <m>s(1) - s(0) = 16</m> is the vertical distance the ball traveled on the interval <m>[0,1]</m>.
-            Equivalently,
-            the area between the velocity curve and the <m>t</m>-axis on <m>[0,1]</m> is <m>A = 16</m> feet.
+            <m>s(1) - s(0) = 16</m> es la distancia vertical que la pelota viajó en el intervalo <m>[0,1]</m>.
+            De manera equivalente,
+            el área entre la curva de velocidad y el eje <m>t</m> en <m>[0,1]</m> es <m>A = 16</m> pies.
           </p>
         </li>
 
         <li permid="DLE">
           <p permid="Hqe">
             <m>s(2) - s(0) = 0</m>,
-            so the ball has zero change in position on the interval <m>[0,2]</m>.
+            así que la pelota no tiene cambio en su posición en el intervalo <m>[0,2]</m>.
           </p>
         </li>
       </ol>
@@ -166,71 +166,70 @@
       <ol marker="a." permid="EQX">
         <li permid="jSN">
           <p permid="nxn">
-            Note that <m>v(1) = 0</m> and for <m>0 \lt t \lt 1</m>,
+            Nota que <m>v(1) = 0</m> y para <m>0 \lt t \lt 1</m>,
             <m>v(t) \gt 0</m>.
-            This means that on the interval <m>(0,1)</m>,
-            the position function <m>s</m> is increasing because velocity is positive.
+            Esto significa que en el intervalo <m>(0,1)</m>,
+            la función de posición <m>s</m> está aumentando porque la velocidad es positiva.
           </p>
         </li>
 
         <li permid="PZW">
           <p permid="TEw">
-            We can check that the derivative of <m>s(t) = 32t - 16t^2</m> is
-            <m>s'(t) = v(t) = 32 - 32t</m>, and that <m>s(0) = 0</m>,
-            so this is the antiderivative of <m>v</m> that we desire.
+            Podemos verificar que la derivada de <m>s(t) = 32t - 16t^2</m> es
+            <m>s'(t) = v(t) = 32 - 32t</m>, y que <m>s(0) = 0</m>,
+            así que esta es la antiderivada de <m>v</m> que deseamos.
           </p>
         </li>
 
         <li permid="whf">
           <p permid="zLF">
-            Now, <m>s(1) - s(\frac{1}{2}) = (32 - 16) - (16 - 4) = 4</m>,
-            which is the change in position of the ball on the interval <m>[\frac{1}{2},1]</m>.
-            Equivalently,
-            since <m>v</m> is positive through this interval, 4 feet is the vertical distance the ball traveled during this time.
+            Ahora, <m>s(1) - s(\frac{1}{2}) = (32 - 16) - (16 - 4) = 4</m>,
+            que es el cambio en la posición de la pelota en el intervalo <m>[\frac{1}{2},1]</m>.
+            De manera equivalente,
+            dado que <m>v</m> es positiva en todo este intervalo, 4 pies es la distancia vertical que la pelota viajó durante este tiempo.
           </p>
         </li>
 
         <li permid="coo">
           <p permid="fSO">
-            On the interval from <m>t = \frac{1}{2}</m> to <m>t = 1</m>,
-            the corresponding area between the velocity curve and the <m>t</m>-axis is the area of the right triangular region whose width is
-            <m>\frac{1}{2}</m> seconds and whose height is <m>v(\frac{1}{2}) = 16</m> feet/sec.
-            That area is therefore <m>A = \frac{1}{2} bh = \frac{1}{2} \cdot \frac{1}{2} \cdot 16 = 4</m> feet.
-            This is the total distance the ball traveled vertically on <m>[\frac{1}{2},1]</m>.
+            En el intervalo de <m>t = \frac{1}{2}</m> a <m>t = 1</m>,
+            el área correspondiente entre la curva de velocidad y el eje <m>t</m> es el área de la región triangular derecha cuya base es
+            <m>\frac{1}{2}</m> segundos y cuya altura es <m>v(\frac{1}{2}) = 16</m> pies/seg.
+            Esa área es por lo tanto <m>A = \frac{1}{2} bh = \frac{1}{2} \cdot \frac{1}{2} \cdot 16 = 4</m> pies.
+            Esta es la distancia total que la pelota viajó verticalmente en <m>[\frac{1}{2},1]</m>.
           </p>
         </li>
 
         <li permid="Ivx">
           <p permid="LZX">
             <m>s(1) - s(0) = (32 - 16) - (0-0) = 16</m>,
-            which is the vertical distance the ball traveled on the interval <m>[0,1]</m>.
-            The area between the velocity curve and the <m>t</m>-axis on <m>[0,1]</m> is the area of the triangle with height 32 (ft/sec) and base 1 (second),
-            which is <m>A = \frac{1}{2} \cdot 1 \cdot 32 = 16</m> feet.
-            These two results are identical,
-            in part due to the fact that we are using two different perspectives to compute the same quantity,
-            which is distance traveled.
+            que es la distancia vertical que la pelota viajó en el intervalo <m>[0,1]</m>.
+            El área entre la curva de velocidad y el eje <m>t</m> en <m>[0,1]</m> es el área del triángulo con altura 32 (pies/seg) y base 1 (segundo),
+            que es <m>A = \frac{1}{2} \cdot 1 \cdot 32 = 16</m> pies.
+            Estos dos resultados son idénticos,
+            en parte debido a que estamos usando dos perspectivas diferentes para calcular la misma cantidad,
+            que es la distancia recorrida.
           </p>
         </li>
 
         <li permid="oCG">
           <p permid="shg">
-            Observe that <m>s(2) - s(0) = (32 - 32) - (0 - 0) = 0</m>.
-            This means that the ball has zero change in position on the interval <m>[0,2]</m>.
-            But we already established that on the interval <m>[0,1]</m>,
-            the ball traveled 16 feet vertically;
-            since the velocity becomes negative on the interval <m>1 \lt t \lt 2</m>,
-            there we know the ball's position is decreasing,
-            so it is falling back to earth.
-            The resulting zero change in position means that at <m>t = 2</m> the ball has returned to the location from which it was tossed.
-            If we view the area between the velocity function and the <m>t</m>-axis as being negative wherever <m>v</m> is negative,
-            then we see that the areas of the two triangles involved are opposites,
-            which in some sense results in the
-            <q>total area</q> being zero,
-            matching the change in position.
+            Observa que <m>s(2) - s(0) = (32 - 32) - (0 - 0) = 0</m>.
+            Esto significa que la pelota no tiene cambio en su posición en el intervalo <m>[0,2]</m>.
+            Pero ya establecimos que en el intervalo <m>[0,1]</m>,
+            la pelota viajó 16 pies verticalmente;
+            dado que la velocidad se vuelve negativa en el intervalo <m>1 \lt t \lt 2</m>,
+            ahí sabemos que la posición de la pelota está disminuyendo,
+            así que está cayendo de vuelta a la tierra.
+            El cambio resultante de cero en la posición significa que en <m>t = 2</m> la pelota ha regresado al lugar desde donde fue lanzada.
+            Si vemos el área entre la función de velocidad y el eje <m>t</m> como negativa donde <m>v</m> es negativa,
+            entonces vemos que las áreas de los dos triángulos involucrados son opuestas,
+            lo que en cierto sentido resulta en que el
+            <q>área total</q> sea cero,
+            coincidiendo con el cambio en la posición.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

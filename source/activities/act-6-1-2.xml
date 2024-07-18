@@ -15,38 +15,38 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-6-1-2" permid="ZJd">
   <statement>
     <p permid="UZk">
-      In each of the following problems,
-      our goal is to determine the area of the region described.
-      For each region, (i) determine the intersection points of the curves, (ii) sketch the region whose area is being found, (iii) draw and label a representative slice,
-      and (iv) state the area of the representative slice.
-      Then, state a definite integral whose value is the exact area of the region,
-      and evaluate the integral to find the numeric value of the region's area. <em>Note well:</em>
-      At the step where you draw a representative slice,
-      you need to make a choice about whether to slice vertically or horizontally.
+      En cada uno de los siguientes problemas,
+      nuestro objetivo es determinar el área de la región descrita.
+      Para cada región, (i) determina los puntos de intersección de las curvas, (ii) dibuja la región cuya área se está encontrando, (iii) dibuja y etiqueta una rebanada representativa,
+      y (iv) indica el área de la rebanada representativa.
+      Luego, indica una integral definida cuyo valor sea el área exacta de la región,
+      y evalúa la integral para encontrar el valor numérico del área de la región. <em>Nota bien:</em>
+      En el paso donde dibujas una rebanada representativa,
+      necesitas decidir si cortar vertical u horizontalmente.
 
       <ol marker="a." permid="vMG">
         <li permid="bTP">
           <p permid="ClM">
-            The finite region bounded by <m>x=y^2</m> and <m>x=6-2y^2</m>.
+            La región finita delimitada por <m>x=y^2</m> y <m>x=6-2y^2</m>.
           </p>
         </li>
 
         <li permid="IaY">
           <p permid="isV">
-            The finite region bounded by <m>x=1-y^2</m> and <m>x = 2-2y^2</m>.
+            La región finita delimitada por <m>x=1-y^2</m> y <m>x = 2-2y^2</m>.
           </p>
         </li>
 
         <li permid="oih">
           <p permid="OAe">
-            The area bounded by the <m>x</m>-axis,
-            <m>y=x^2</m>, and <m>y=2-x</m>.
+            El área delimitada por el <m>eje x</m>,
+            <m>y=x^2</m>, y <m>y=2-x</m>.
           </p>
         </li>
 
         <li permid="Upq">
           <p permid="uHn">
-            The finite regions between the curves <m>x=y^2-2y</m> and <m>y=x</m>.
+            Las regiones finitas entre las curvas <m>x=y^2-2y</m> y <m>y=x</m>.
           </p>
         </li>
       </ol>
@@ -57,21 +57,21 @@
       <ol marker="a." permid="PFx">
         <li permid="Awz">
           <p permid="aOw">
-            Find where the curves intersect and plot them.
+            Encuentra dónde se intersectan las curvas y gráficalas.
           </p>
         </li>
 
         <li permid="gDI">
           <p permid="GVF">
-            Observe that horizontal slices are appropriate,
-            so we will integrate with respect to y.
+            Observa que las rebanadas horizontales son apropiadas,
+            así que integraremos con respecto a y.
           </p>
         </li>
 
         <li permid="MKR">
           <p permid="ncO">
-            Note that the region is approximately triangular with the <m>x</m>-axis as the base,
-            <m>y=x^2</m> as the left "side", and <m>y = 2-x</m> as the right side.
+            Nota que la región es aproximadamente triangular con el <m>eje x</m> como la base,
+            <m>y=x^2</m> como el "lado" izquierdo, y <m>y = 2-x</m> como el lado derecho.
           </p>
         </li>
 
@@ -82,7 +82,7 @@
 
         <li permid="YZj">
           <p permid="zrg">
-            Plot the region and observe that horizontal slices are appropriate because of the shape of the region.
+            Grafica la región y observa que las rebanadas horizontales son apropiadas debido a la forma de la región.
           </p>
         </li>
       </ol>
@@ -122,14 +122,14 @@
       <ol marker="a." permid="Drf">
         <li permid="dJc">
           <p permid="EaZ">
-            The two curves intersect when <m>y^2=6-2y^2</m>,
-            thus when <m>3y^2=6</m>,
-            so at <m>y=\pm \sqrt{2}</m>.
-            Plotting the region, we see that for
-            <m>y=-\sqrt{2}</m> to <m>y=\sqrt{2}</m>,
+            Las dos curvas se intersectan cuando <m>y^2=6-2y^2</m>,
+            así que cuando <m>3y^2=6</m>,
+            entonces en <m>y=\pm \sqrt{2}</m>.
+            Al graficar la región, vemos que para
+            <m>y=-\sqrt{2}</m> a <m>y=\sqrt{2}</m>,
             <m>g(y) = 6-2y^2 \gt y^2 = f(y)</m>,
-            and thus horizontal slices are appropriate for setting up the integral that represents the region's area.
-            The area is thus given by
+            y por lo tanto las rebanadas horizontales son apropiadas para establecer la integral que representa el área de la región.
+            El área está dada por
             <me permid="Bgt">
               A = \int_{y=-\sqrt{2}}^{y=\sqrt{2}} (6-2y^2 - y^2) \, dy = 8\sqrt{2} \approx 11.314
             </me>.
@@ -138,12 +138,12 @@
 
         <li permid="JQl">
           <p permid="kii">
-            The two curves intersect when <m>1-y^2=2-2y^2</m>,
-            and therefore <m>3y^2=3</m> so <m>y=\pm 1</m>.
-            Graphing the region, on <m>-1 \lt y \lt 1</m>,
-            we see that <m>g(y) = 2-2y^2 \ge 1-y^2 = f(y)</m>.
-            Using horizontal slices,
-            it follows that the region's area is given by
+            Las dos curvas se intersectan cuando <m>1-y^2=2-2y^2</m>,
+            y por lo tanto <m>3y^2=3</m> así que <m>y=\pm 1</m>.
+            Al graficar la región, en <m>-1 \lt y \lt 1</m>,
+            vemos que <m>g(y) = 2-2y^2 \ge 1-y^2 = f(y)</m>.
+            Usando rebanadas horizontales,
+            se sigue que el área de la región está dada por
             <me permid="hnC">
               A = \int_{y=-1}^{y=1} (2-2y^2-(1-y^2)) \, dy = \int_{y=-1}^{y=1} (1-y^2) \, dy = \frac{4}{3}
             </me>.
@@ -152,15 +152,15 @@
 
         <li permid="pXu">
           <p permid="Qpr">
-            The two curves meet at <m>(1,1)</m>.
-            A careful plot of the region shows that the two curves,
-            together with the <m>x</m>-axis,
-            form a roughly triangular region with the <m>x</m>-axis as the base,
-            <m>y=x^2</m> as the left "side", and <m>y = 2-x</m> as the right side.
-            Using horizontal slices,
-            and writing each respective equation with <m>x</m> as a function of <m>y</m>
-            (so <m>x=\sqrt{y}</m> and <m>x=2-y</m>),
-            we find that the area of this region is
+            Las dos curvas se encuentran en <m>(1,1)</m>.
+            Un gráfico cuidadoso de la región muestra que las dos curvas,
+            junto con el <m>eje x</m>,
+            forman una región aproximadamente triangular con el <m>eje x</m> como la base,
+            <m>y=x^2</m> como el "lado" izquierdo, y <m>y = 2-x</m> como el lado derecho.
+            Usando rebanadas horizontales,
+            y escribiendo cada ecuación respectiva con <m>x</m> como una función de <m>y</m>
+            (así <m>x=\sqrt{y}</m> y <m>x=2-y</m>),
+            encontramos que el área de esta región es
             <me permid="NuL">
               A=\int_{y=0}^{y=1} \left(2-y - \sqrt{y} \right) \, dy = \frac{5}{6}
             </me>
@@ -169,11 +169,11 @@
 
         <li permid="WeD">
           <p permid="wwA">
-            The two curves intersect at <m>(0,0)</m> and <m>(3,3)</m>.
-            For <m>0 \le y \le 3</m>,
-            we observe that <m>g(y)=y \ge y^2-2y = f(y)</m>,
-            so using horizontal slices and the corresponding definite integral,
-            we find that the region's area is
+            Las dos curvas se intersectan en <m>(0,0)</m> y <m>(3,3)</m>.
+            Para <m>0 \le y \le 3</m>,
+            observamos que <m>g(y)=y \ge y^2-2y = f(y)</m>,
+            así que usando rebanadas horizontales y la integral definida correspondiente,
+            encontramos que el área de la región es
             <me permid="tBU">
               A = \int_{0}^{3} (y - (y^2 - 2y)) \, dy = \int_{0}^{3} (3y - y^2) \, dy = \frac{9}{2}
             </me>.
@@ -183,4 +183,3 @@
     </p>
   </solution>
 </activity>
-

@@ -15,9 +15,9 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-8-3-3" permid="Lei">
   <statement>
     <p permid="eWZ">
-      Determine if the Divergence Test applies to the following series.
-      If the test does not apply, explain why.
-      If the test does apply, what does it tell us about the series?
+      Determina si la Prueba de Divergencia se aplica a las siguientes series.
+      Si la prueba no se aplica, explica por qué.
+      Si la prueba se aplica, ¿qué nos dice sobre la serie?
 
       <ol marker="a." cols="3" permid="Peh">
         <li permid="vlq">
@@ -45,20 +45,20 @@
       <ol marker="a." permid="iWY">
         <li permid="nGR">
           <p permid="JoV">
-            Consider <m>\lim_{k \to \infty} \frac{k}{k+1}</m>.
+            Considera <m>\lim_{k \to \infty} \frac{k}{k+1}</m>.
           </p>
         </li>
 
         <li permid="TOa">
           <p permid="pwe">
-            Think about the partial sums of this series.
+            Piensa en las sumas parciales de esta serie.
           </p>
         </li>
 
         <li permid="zVj">
           <p permid="VDn">
-            Remember that if the terms of a series go to zero,
-            the Divergence Test doesn't make any claims.
+            Recuerda que si los términos de una serie tienden a cero,
+            la Prueba de Divergencia no hace ninguna afirmación.
           </p>
         </li>
       </ol>
@@ -69,19 +69,19 @@
       <ol marker="a." permid="CPP">
         <li permid="gcs">
           <p permid="BKw">
-            <m>\sum \frac{k}{k+1}</m> diverges.
+            <m>\sum \frac{k}{k+1}</m> diverge.
           </p>
         </li>
 
         <li permid="MjB">
           <p permid="hRF">
-            <m>\sum (-1)^k</m> diverges.
+            <m>\sum (-1)^k</m> diverge.
           </p>
         </li>
 
         <li permid="sqK">
           <p permid="NYO">
-            The Divergence Test does not apply.
+            La Prueba de Divergencia no se aplica.
           </p>
         </li>
       </ol>
@@ -92,27 +92,26 @@
       <ol marker="a." permid="WIG">
         <li permid="YxT">
           <p permid="ufX">
-            Since the sequence <m>\frac{k}{k+1}</m> converges to 1 and not 0 as <m>k</m> goes to infinity,
-            the Divergence Test applies here and shows that the series <m>\sum \frac{k}{k+1}</m> diverges.
+            Dado que la secuencia <m>\frac{k}{k+1}</m> converge a 1 y no a 0 cuando <m>k</m> tiende a infinito,
+            la Prueba de Divergencia se aplica aquí y muestra que la serie <m>\sum \frac{k}{k+1}</m> diverge.
           </p>
         </li>
 
         <li permid="EFc">
           <p permid="ang">
-            Since the terms of this series don't even converge to a number,
-            they can't converge to zero,
-            and thus this series diverges.
+            Dado que los términos de esta serie ni siquiera convergen a un número,
+            no pueden converger a cero,
+            y por lo tanto esta serie diverge.
           </p>
         </li>
 
         <li permid="kMl">
           <p permid="Gup">
-            Since <m>\lim_{k \to \infty} \frac{1}{k} = 0</m>,
-            the Divergence Test does not apply to this series.
+            Dado que <m>\lim_{k \to \infty} \frac{1}{k} = 0</m>,
+            la Prueba de Divergencia no se aplica a esta serie.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

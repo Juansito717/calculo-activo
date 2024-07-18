@@ -15,54 +15,54 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-3-3" permid="JAD">
   <statement>
     <p permid="EQK">
-      A piece of cardboard that is <m>10 \times 15</m>
-      (each measured in inches)
-      is being made into a box without a top.
-      To do so,
-      squares are cut from each corner of the box and the remaining sides are folded up.
-      If the box needs to be at least 1 inch deep and no more than 3 inches deep,
-      what is the maximum possible volume of the box? what is the minimum volume?
-      Justify your answers using calculus.
+      Un pedazo de cartón que mide <m>10 \times 15</m>
+      (cada medida en pulgadas)
+      se está convirtiendo en una caja sin tapa.
+      Para hacerlo,
+      se cortan cuadrados de cada esquina de la caja y los lados restantes se pliegan hacia arriba.
+      Si la caja necesita tener al menos 1 pulgada de profundidad y no más de 3 pulgadas de profundidad,
+      ¿cuál es el volumen máximo posible de la caja? ¿cuál es el volumen mínimo?
+      Justifica tus respuestas usando cálculo.
 
       <ol marker="a." permid="IgP">
         <li permid="Zfa">
           <p permid="Qvi">
-            Draw a labeled diagram that shows the given information.
-            What variable should we introduce to represent the choice we make in creating the box?
-            Label the diagram appropriately with the variable,
-            and write a sentence to state what the variable represents.
+            Dibuja un diagrama etiquetado que muestre la información dada.
+            ¿Qué variable deberíamos introducir para representar la elección que hacemos al crear la caja?
+            Etiqueta el diagrama adecuadamente con la variable,
+            y escribe una oración para indicar lo que representa la variable.
           </p>
         </li>
 
         <li permid="Fmj">
           <p permid="wCr">
-            Determine a formula for the function <m>V</m> (that depends on the variable in (a)) that tells us the volume of the box.
+            Determina una fórmula para la función <m>V</m> (que depende de la variable en (a)) que nos diga el volumen de la caja.
           </p>
         </li>
 
         <li permid="lts">
           <p permid="cJA">
-            What is the domain of the function <m>V</m>?
-            That is, what values of <m>x</m> make sense for input?
-            Are there additional restrictions provided in the problem?
+            ¿Cuál es el dominio de la función <m>V</m>?
+            Es decir, ¿qué valores de <m>x</m> tienen sentido como entrada?
+            ¿Hay restricciones adicionales proporcionadas en el problema?
           </p>
         </li>
 
         <li permid="RAB">
           <p permid="IQJ">
-            Determine all critical numbers of the function <m>V</m>.
+            Determina todos los números críticos de la función <m>V</m>.
           </p>
         </li>
 
         <li permid="xHK">
           <p permid="oXS">
-            Evaluate <m>V</m> at each of the endpoints of the domain and at any critical numbers that lie in the domain.
+            Evalúa <m>V</m> en cada uno de los extremos del dominio y en cualquier número crítico que se encuentre en el dominio.
           </p>
         </li>
 
         <li permid="dOT">
           <p permid="Vfb">
-            What is the maximum possible volume of the box? the minimum?
+            ¿Cuál es el volumen máximo posible de la caja? ¿el mínimo?
           </p>
         </li>
       </ol>
@@ -73,37 +73,37 @@
       <ol marker="a." permid="bZG">
         <li permid="JWc">
           <p permid="Bmk">
-            Consider letting the length of one side of the removed squares be represented by <m>x</m>.
+            Considera dejar que la longitud de un lado de los cuadrados removidos sea representada por <m>x</m>.
           </p>
         </li>
 
         <li permid="qdl">
           <p permid="htt">
-            Remember that the volume of a box is length <times /> width <times /> height.
+            Recuerda que el volumen de una caja es largo <times /> ancho <times /> altura.
           </p>
         </li>
 
         <li permid="Wku">
           <p permid="NAC">
-            Read the given information carefully and think about the picture.
+            Lee la información dada cuidadosamente y piensa en la imagen.
           </p>
         </li>
 
         <li permid="CrD">
           <p permid="tHL">
-            Note that since <m>V</m> is a cubic function, <m>V'</m> is quadratic.
+            Nota que como <m>V</m> es una función cúbica, <m>V'</m> es cuadrática.
           </p>
         </li>
 
         <li permid="iyM">
           <p permid="ZOU">
-            Which critical numbers satisfy <m>1 \le x \le 3</m>?
+            ¿Qué números críticos satisfacen <m>1 \le x \le 3</m>?
           </p>
         </li>
 
         <li permid="OFV">
           <p permid="FWd">
-            Evaluate the function at appropriate points.
+            Evalúa la función en los puntos apropiados.
           </p>
         </li>
       </ol>
@@ -164,8 +164,8 @@
 
         <li permid="zwX">
           <p permid="WUo">
-            Absolute maximum: 132.0382370;
-            absolute minimum: 104.
+            Máximo absoluto: 132.0382370;
+            mínimo absoluto: 104.
           </p>
         </li>
       </ol>
@@ -176,8 +176,8 @@
       <ol marker="a." permid="jEf">
         <li permid="fEg">
           <p permid="Dbx">
-            We let <m>x</m> represent the length of a side of the square that is cut from each corner,
-            so that we have the following picture:
+            Dejamos que <m>x</m> represente la longitud de un lado del cuadrado que se corta de cada esquina,
+            de modo que tenemos la siguiente imagen:
           </p>
 
           <sidebyside width="50%" permid="dtu">
@@ -188,8 +188,8 @@
 
         <li permid="LLp">
           <p permid="jiG">
-            Because the box has dimensions <m>(10-2x) \times (15-2x) \times x</m>,
-            the volume of the box is given by
+            Debido a que la caja tiene dimensiones <m>(10-2x) \times (15-2x) \times x</m>,
+            el volumen de la caja está dado por
             <me permid="kXT">
               V(x) = x (10-2x) (15-2x) = 4x^3 - 50x^2 + 150x
             </me>.
@@ -198,17 +198,17 @@
 
         <li permid="rSy">
           <p permid="PpP">
-            Clearly the smallest <m>x</m> can be is 0 and the largest <m>x</m> can be is 5, since one side of the cardboard has length 10.
-            But we're told in the problem to restrict the value of <m>x</m> to <m>1 \le x \le 3</m>,
-            so this is the domain we use for <m>V</m>,
-            even though <m>V</m> is defined for every real number <m>x</m>.
+            Claramente, el valor más pequeño que <m>x</m> puede tener es 0 y el valor más grande que <m>x</m> puede tener es 5, ya que un lado del cartón tiene una longitud de 10.
+            Pero se nos dice en el problema que restrinjamos el valor de <m>x</m> a <m>1 \le x \le 3</m>,
+            así que este es el dominio que usamos para <m>V</m>,
+            aunque <m>V</m> está definida para cada número real <m>x</m>.
           </p>
         </li>
 
         <li permid="XZH">
           <p permid="vwY">
-            Since <m>V'(x) = 12x^2 - 100x + 150</m>,
-            it follows that the critical numbers (where <m>V'(x) = 0</m>) are
+            Dado que <m>V'(x) = 12x^2 - 100x + 150</m>,
+            se sigue que los números críticos (donde <m>V'(x) = 0</m>) son
             <me permid="Rfc">
               x = \frac{25 \pm 5\sqrt{7}}{6} \approx 6.371459426, 1.961873908
             </me>.
@@ -217,8 +217,8 @@
 
         <li permid="EgQ">
           <p permid="bEh">
-            Only the latter critical number is in the relevant domain of <m>V</m>,
-            and hence we consider
+            Solo el último número crítico está en el dominio relevante de <m>V</m>,
+            y por lo tanto consideramos
 
             <ul permid="DwW">
               <li permid="gJz">
@@ -244,12 +244,11 @@
 
         <li permid="knZ">
           <p permid="TZI">
-            Hence the absolute maximum possible volume of the box is 132.0382370 and occurs when <m>x = 1.961873908</m>,
-            while the absolute minimum is 104, which occurs when <m>x=1</m>.
+            Por lo tanto, el volumen máximo absoluto posible de la caja es 132.0382370 y ocurre cuando <m>x = 1.961873908</m>,
+            mientras que el mínimo absoluto es 104, que ocurre cuando <m>x=1</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

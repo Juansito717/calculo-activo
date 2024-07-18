@@ -15,7 +15,7 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-8-6-1" permid="KnK">
   <statement>
     <p permid="tpz">
-      Determine the interval of convergence of each power series.
+      Determina el intervalo de convergencia de cada serie de potencias.
     </p>
 
     <p permid="ZwI">
@@ -57,7 +57,7 @@
       <ol marker="a." permid="tKY">
         <li permid="vAl">
           <p permid="pKZ">
-            Small hints for each of the prompts above.
+            Pequeñas pistas para cada uno de los enunciados anteriores.
           </p>
         </li>
       </ol>
@@ -103,148 +103,147 @@
       <ol marker="a." permid="hwG">
         <li permid="grn">
           <p permid="aCb">
-            We use the Ratio Test with <m>a_k = \frac{|x-1|^k}{3k}</m>:
+            Usamos la Prueba de la Razón con <m>a_k = \frac{|x-1|^k}{3k}</m>:
             <md permid="FDR">
               <mrow>\lim_{k \to \infty} \frac{ \frac{|x-1|^{k+1}}{3(k+1)} }{ \frac{|x-1|^k}{3k} } \amp = \lim_{k \to \infty} \frac{3k|x-1|^{k+1}}{3(    k+1)|x-1|^{k}}</mrow>
               <mrow>\amp = |x-1| \lim_{k \to \infty} \frac{k}{k+1}</mrow>
               <mrow>\amp = |x-1|</mrow>
             </md>.
-            So the power series
-            <m>\sum_{k=1}^{\infty} \frac{(x-1)^k}{3k}</m> converges absolutely when <m>|x-1| \lt  1</m> or when
-            <m>0 \lt  x \lt  2</m> and diverges outside this interval.
-            To completely determine the interval of convergence,
-            we need to check what happens at the endpoints of this interval.
+            Así que la serie de potencias
+            <m>\sum_{k=1}^{\infty} \frac{(x-1)^k}{3k}</m> converge absolutamente cuando <m>|x-1| \lt  1</m> o cuando
+            <m>0 \lt  x \lt  2</m> y diverge fuera de este intervalo.
+            Para determinar completamente el intervalo de convergencia,
+            necesitamos verificar qué pasa en los extremos de este intervalo.
           </p>
 
           <p permid="GJk">
             <ul permid="pbf">
               <li permid="FZq">
                 <p permid="QcW">
-                  When <m>x=0</m> our power series is
-                  <m>\sum_{k=1}^{\infty} \frac{(-1)^k}{3k}</m> which is just a scalar multiple of the alternating harmonic series and so converges.
+                  Cuando <m>x=0</m> nuestra serie de potencias es
+                  <m>\sum_{k=1}^{\infty} \frac{(-1)^k}{3k}</m> que es solo un múltiplo escalar de la serie armónica alternante y por lo tanto converge.
                 </p>
               </li>
 
               <li permid="mgz">
                 <p permid="mQt">
-                  When <m>x=2</m> our power series is
-                  <m>\sum_{k=1}^{\infty} \frac{1}{3k}</m> which is just a scalar multiple of the harmonic series and so diverges.
+                  Cuando <m>x=2</m> nuestra serie de potencias es
+                  <m>\sum_{k=1}^{\infty} \frac{1}{3k}</m> que es solo un múltiplo escalar de la serie armónica y por lo tanto diverge.
                 </p>
               </li>
             </ul>
           </p>
 
           <p permid="Iyx">
-            Therefore,
-            the interval of convergence of the power series <m>\sum_{k=1}^{\infty} \frac{(x-1)^k}{3k}</m> is <m>[0,2)</m>.
+            Por lo tanto,
+            el intervalo de convergencia de la serie de potencias <m>\sum_{k=1}^{\infty} \frac{(x-1)^k}{3k}</m> es <m>[0,2)</m>.
           </p>
         </li>
 
         <li permid="Myw">
           <p permid="SXC">
-            We use the Ratio Test with <m>a_k = k|x|^k</m>:
+            Usamos la Prueba de la Razón con <m>a_k = k|x|^k</m>:
             <md permid="lLa">
               <mrow>\lim_{k \to \infty} \frac{ (k+1)|x|^{k+1} }{ k|x|^k } \amp = |x|\lim_{k \to \infty} \frac{k+1}{k}</mrow>
               <mrow>\amp = |x|</mrow>
             </md>.
-            So the power series
-            <m>\sum_{k=1}^{\infty} kx^k</m> converges absolutely when <m>|x| \lt  1</m> or when
-            <m>-1 \lt  x \lt  1</m> and diverges outside this interval.
-            To completely determine the interval of convergence,
-            we need to check what happens at the endpoints of this interval.
+            Así que la serie de potencias
+            <m>\sum_{k=1}^{\infty} kx^k</m> converge absolutamente cuando <m>|x| \lt  1</m> o cuando
+            <m>-1 \lt  x \lt  1</m> y diverge fuera de este intervalo.
+            Para determinar completamente el intervalo de convergencia,
+            necesitamos verificar qué pasa en los extremos de este intervalo.
           </p>
 
           <p permid="zeL">
             <ul permid="Vio">
               <li permid="SnI">
                 <p permid="wkf">
-                  When <m>x=-1</m> our power series is <m>\sum_{k=1}^{\infty} (-1)^k k</m>.
-                  Since <m>k \to \infty</m> as <m>k \to infty</m>,
-                  this series diverges by the Divergence Test.
+                  Cuando <m>x=-1</m> nuestra serie de potencias es <m>\sum_{k=1}^{\infty} (-1)^k k</m>.
+                  Dado que <m>k \to \infty</m> cuando <m>k \to infty</m>,
+                  esta serie diverge por la Prueba de Divergencia.
                 </p>
               </li>
 
               <li permid="yuR">
                 <p permid="flU">
-                  When <m>x=1</m> our power series is
-                  <m>\sum_{k=1}^{\infty} k</m> which again diverges by the Divergence Test.
+                  Cuando <m>x=1</m> nuestra serie de potencias es
+                  <m>\sum_{k=1}^{\infty} k</m> que nuevamente diverge por la Prueba de Divergencia.
                 </p>
               </li>
             </ul>
           </p>
 
           <p permid="oFG">
-            Therefore,
-            the interval of convergence of the power series <m>\sum_{k=1}^{\infty} kx^k</m> is <m>(-1,1)</m>.
+            Por lo tanto,
+            el intervalo de convergencia de la serie de potencias <m>\sum_{k=1}^{\infty} kx^k</m> es <m>(-1,1)</m>.
           </p>
         </li>
 
         <li permid="sFF">
           <p permid="Ltd">
-            We use the Ratio Test with <m>a_k = \frac{k^2|x+1|^k}{4^k}</m>:
+            Usamos la Prueba de la Razón con <m>a_k = \frac{k^2|x+1|^k}{4^k}</m>:
             <md permid="RSj">
               <mrow>\lim_{k \to \infty} \frac{ \frac{(k+1)^2|x+1|^{k+1}}{4^{k+1}} }{ \frac{k^2|x+1|^k}{4^k} } \amp = \lim_{k \to \infty} \frac{4^k(k+1)^2|x+1|^{k+1}}{4^{k+1}k^2|x+1|^k}</mrow>
               <mrow>\amp = \frac{1}{4}|x+1| \lim_{k \to \infty} \left(\frac{k+1}{k}\right)^2</mrow>
               <mrow>\amp = \frac{1}{4}|x+1|</mrow>
             </md>.
-            So the power series
-            <m>\sum_{k=1}^{\infty} \frac{k^2(x+1)^k}{4^k}</m> converges absolutely when <m>\frac{1}{4}|x+1| \lt  1</m> or when
-            <m>-5 \lt  x \lt  3</m> and diverges outside this interval.
-            To completely determine the interval of convergence,
-            we need to check what happens at the endpoints of this interval.
+            Así que la serie de potencias
+            <m>\sum_{k=1}^{\infty} \frac{k^2(x+1)^k}{4^k}</m> converge absolutamente cuando <m>\frac{1}{4}|x+1| \lt  1</m> o cuando
+            <m>-5 \lt  x \lt  3</m> y diverge fuera de este intervalo.
+            Para determinar completamente el intervalo de convergencia,
+            necesitamos verificar qué pasa en los extremos de este intervalo.
           </p>
 
           <p permid="rAm">
             <ul permid="Bpx">
               <li permid="eCa">
                 <p permid="cro">
-                  When <m>x=-5</m> our power series is <m>\sum_{k=1}^{\infty} (-1)^k k^2</m>.
-                  Since <m>k^2 \to \infty</m> as <m>k \to \infty</m>,
-                  this series diverges by the Divergence Test.
+                  Cuando <m>x=-5</m> nuestra serie de potencias es <m>\sum_{k=1}^{\infty} (-1)^k k^2</m>.
+                  Dado que <m>k^2 \to \infty</m> cuando <m>k \to \infty</m>,
+                  esta serie diverge por la Prueba de Divergencia.
                 </p>
               </li>
 
               <li permid="KJj">
                 <p permid="XHv">
-                  When <m>x=3</m> our power series is <m>\sum_{k=1}^{\infty} k^2</m>,
-                  which again diverges by the Divergence Test.
+                  Cuando <m>x=3</m> nuestra serie de potencias es <m>\sum_{k=1}^{\infty} k^2</m>,
+                  que nuevamente diverge por la Prueba de Divergencia.
                 </p>
               </li>
             </ul>
           </p>
 
           <p permid="UMP">
-            Therefore,
-            the interval of convergence of the power series <m>\sum_{k=1}^{\infty} \frac{k^2(x+1)^k}{4^k}</m> is <m>(-5,3)</m>.
+            Por lo tanto,
+            el intervalo de convergencia de la serie de potencias <m>\sum_{k=1}^{\infty} \frac{k^2(x+1)^k}{4^k}</m> es <m>(-5,3)</m>.
           </p>
         </li>
 
         <li permid="YMO">
           <p permid="DOE">
-            We use the Ratio Test with <m>a_k = \frac{|x|^k}{(2k)!}</m>:
+            Usamos la Prueba de la Razón con <m>a_k = \frac{|x|^k}{(2k)!}</m>:
             <md permid="xZs">
               <mrow>\lim_{k \to \infty} \frac{ \frac{|x|^{k+1}}{(2(k+1))!} }{ \frac{|x|^k}{(2k)!} } \amp = \lim_{k \to \infty} |x|\frac{(2k)!}{(2(k+1))!}</mrow>
               <mrow>\amp = |x| \lim_{k \to \infty} \frac{1}{(2k+2)(2k+1)}</mrow>
               <mrow>\amp = 0</mrow>
             </md>.
-            So the power series
-            <m>\sum_{k=1}^{\infty} \frac{x^k}{(2k)!}</m> converges absolutely on the interval <m>(-\infty, \infty)</m>.
+            Así que la serie de potencias
+            <m>\sum_{k=1}^{\infty} \frac{x^k}{(2k)!}</m> converge absolutamente en el intervalo <m>(-\infty, \infty)</m>.
           </p>
         </li>
 
         <li permid="ETX">
           <p permid="jVN">
-            We use the Ratio Test with <m>a_k = k!|x|^k</m>:
+            Usamos la Prueba de la Razón con <m>a_k = k!|x|^k</m>:
             <md permid="egB">
               <mrow>\lim_{k \to \infty} \frac{ (k+1)!|x|^{k+1} }{ k!|x|^k} \amp = \lim_{k \to \infty} |x|(k+1)</mrow>
               <mrow>\amp = \infty</mrow>
             </md>
-            unless <m>x=0</m>.
-            So the interval of convergence of the power series <m>\sum_{k=1}^{\infty} \frac{x^k}{k!}</m> is <m>\{0\}</m>.
+            a menos que <m>x=0</m>.
+            Así que el intervalo de convergencia de la serie de potencias <m>\sum_{k=1}^{\infty} \frac{x^k}{k!}</m> es <m>\{0\}</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

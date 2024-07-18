@@ -15,17 +15,17 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-4-4-3" permid="HTh">
   <statement>
     <p permid="Ssm">
-      During a 40-minute workout,
-      a person riding an exercise machine burns calories at a rate of <m>c</m> calories per minute,
-      where the function <m>y = c(t)</m> is given in <xref ref="F-4-4-Act3">Figure</xref>.
-      On the interval <m>0 \le t \le 10</m>,
-      the formula for <m>c</m> is <m>c(t) = -0.05t^2 + t + 10</m>,
-      while on <m>30 \le t \le 40</m>,
-      its formula is <m>c(t) = -0.05t^2 + 3t - 30</m>.
+      Durante un entrenamiento de 40 minutos,
+      una persona que usa una máquina de ejercicios quema calorías a una tasa de <m>c</m> calorías por minuto,
+      donde la función <m>y = c(t)</m> se muestra en <xref ref="F-4-4-Act3">Figure</xref>.
+      En el intervalo <m>0 \le t \le 10</m>,
+      la fórmula para <m>c</m> es <m>c(t) = -0.05t^2 + t + 10</m>,
+      mientras que en <m>30 \le t \le 40</m>,
+      su fórmula es <m>c(t) = -0.05t^2 + 3t - 30</m>.
     </p>
 
     <figure xml:id="F-4-4-Act3" permid="eGE">
-      <caption>The rate <m>c(t)</m> at which a person exercising burns calories, measured in calories per minute.</caption>
+      <caption>La tasa <m>c(t)</m> a la que una persona que hace ejercicio quema calorías, medida en calorías por minuto.</caption>
       <image width="80%" source="images/4_4_Act3" />
     </figure>
 
@@ -33,30 +33,30 @@
       <ol marker="a." permid="Fua">
         <li permid="lBj">
           <p permid="fLX">
-            What is the exact total number of calories the person burns during the first 10 minutes of her workout?
+            ¿Cuál es el número exacto de calorías que la persona quema durante los primeros 10 minutos de su entrenamiento?
           </p>
         </li>
 
         <li permid="RIs">
           <p permid="LTg">
-            Let <m>C(t)</m> be an antiderivative of <m>c(t)</m>.
-            What is the meaning of
-            <m>C(40) - C(0)</m> in the context of the person exercising?
-            Include units on your answer.
+            Sea <m>C(t)</m> una antiderivada de <m>c(t)</m>.
+            ¿Cuál es el significado de
+            <m>C(40) - C(0)</m> en el contexto de la persona que hace ejercicio?
+            Incluye unidades en tu respuesta.
           </p>
         </li>
 
         <li permid="xPB">
           <p permid="sap">
-            Determine the exact average rate at which the person burned calories during the 40-minute workout.
+            Determina la tasa promedio exacta a la que la persona quemó calorías durante el entrenamiento de 40 minutos.
           </p>
         </li>
 
         <li permid="dWK">
           <p permid="Yhy">
-            At what time(s), if any,
-            is the instantaneous rate at which the person is burning calories equal to the average rate at which she burns calories,
-            on the time interval <m>0 \le t \le 40</m>?
+            ¿En qué momento(s), si es que hay alguno,
+            la tasa instantánea a la que la persona está quemando calorías es igual a la tasa promedio a la que quema calorías,
+            en el intervalo de tiempo <m>0 \le t \le 40</m>?
           </p>
         </li>
       </ol>
@@ -67,25 +67,25 @@
       <ol marker="a." permid="ZmR">
         <li permid="KdT">
           <p permid="EoH">
-            What are the units on the area of a rectangle found in a Riemann sum for the function <m>y= c(t)</m>?
+            ¿Cuáles son las unidades en el área de un rectángulo encontrado en una suma de Riemann para la función <m>y= c(t)</m>?
           </p>
         </li>
 
         <li permid="qlc">
           <p permid="kvQ">
-            Use the FTC.
+            Usa el TFC.
           </p>
         </li>
 
         <li permid="Wsl">
           <p permid="QCZ">
-            Recall the formula for <m>c_{\operatorname{AVG} [0,40]}</m>.
+            Recuerda la fórmula para <m>c_{\operatorname{AVG} [0,40]}</m>.
           </p>
         </li>
 
         <li permid="Czu">
           <p permid="wKi">
-            Think carefully about which function tells you the instantaneous rate at which calories are burned.
+            Piensa cuidadosamente sobre qué función te dice la tasa instantánea a la que se queman calorías.
           </p>
         </li>
       </ol>
@@ -96,19 +96,19 @@
       <ol marker="a." permid="tfI">
         <li permid="iGD">
           <p permid="cRr">
-            The person burned exactly <m>\frac{400}{3}</m> calories in the first 10 minutes of the workout.
+            La persona quemó exactamente <m>\frac{400}{3}</m> calorías en los primeros 10 minutos del entrenamiento.
           </p>
         </li>
 
         <li permid="ONM">
           <p permid="IYA">
-            <m>C(40) - C(0) = \int_0^{40} C'(t) \, dt = \int_0^{40} c(t) \, dt</m> is the total calories burned on <m>[0,40]</m>.
+            <m>C(40) - C(0) = \int_0^{40} C'(t) \, dt = \int_0^{40} c(t) \, dt</m> son las calorías totales quemadas en <m>[0,40]</m>.
           </p>
         </li>
 
         <li permid="uUV">
           <p permid="pfJ">
-            The exact average rate at which the person burned calories on <m>0 \le t \le 40</m> is
+            La tasa promedio exacta a la que la persona quemó calorías en <m>0 \le t \le 40</m> es
             <me permid="KNN">
               c_{\operatorname{AVG} [0,40]} = \frac{1}{40-0} \int_0^{40} c(t) \, dt = \frac{1}{40} \cdot \frac{1700}{3} = \frac{1700}{120} \approx 14.17 \ \text{cal/min}
             </me>.
@@ -117,7 +117,7 @@
 
         <li permid="bce">
           <p permid="VmS">
-            One time at which the instantaneous rate at which calories are burned equals the average rate on <m>[0,40]</m> is <m>t = \frac{5}{3}(6 - \sqrt{6}) \approx 5.918</m>.
+            Un momento en el que la tasa instantánea a la que se queman calorías es igual a la tasa promedio en <m>[0,40]</m> es <m>t = \frac{5}{3}(6 - \sqrt{6}) \approx 5.918</m>.
           </p>
         </li>
       </ol>
@@ -128,59 +128,59 @@
       <ol marker="a." permid="MYz">
         <li permid="Hjn">
           <p permid="Bub">
-            Since the units on a rectangle in a Riemann sum are cal/min for the height and min for the width,
-            the units on the area of such a rectangle are calories,
-            and hence the units on area under the curve
-            <m>y = c(t)</m> are given in total calories.
-            Hence,
-            the total calories burned during the first 10 minutes of the workout is given by the definite integral <m>\int_0^{10} c(t) \, dt</m>.
-            We use the FTC and evaluate the integral, finding that
+            Dado que las unidades en un rectángulo en una suma de Riemann son cal/min para la altura y min para el ancho,
+            las unidades en el área de dicho rectángulo son calorías,
+            y por lo tanto las unidades en el área bajo la curva
+            <m>y = c(t)</m> se dan en calorías totales.
+            Por lo tanto,
+            las calorías totales quemadas durante los primeros 10 minutos del entrenamiento se dan por la integral definida <m>\int_0^{10} c(t) \, dt</m>.
+            Usamos el TFC y evaluamos la integral, encontrando que
             <md permid="qUW">
               <mrow>\int_0^{10} (-0.05t^2 + t + 10) \, dt =\mathstrut \amp  \left. \left( -\frac{0.05}{3} t^3 + \frac{1}{2} t^2 + 10t \right) \right|_0^{10}</mrow>
               <mrow>=\mathstrut \amp  \left( -\frac{0.05}{3} (10)^3 + \frac{1}{2} (10)^2 + 10(10) \right) - (-0 + 0 + 0)</mrow>
-              <mrow>=\mathstrut \amp  \frac{400}{3} \ \text{calories}</mrow>
+              <mrow>=\mathstrut \amp  \frac{400}{3} \ \text{calorías}</mrow>
             </md>.
-            Thus,
-            the person burned exactly <m>\frac{400}{3}</m> calories in the first 10 minutes of the workout.
+            Así,
+            la persona quemó exactamente <m>\frac{400}{3}</m> calorías en los primeros 10 minutos del entrenamiento.
           </p>
         </li>
 
         <li permid="nqw">
           <p permid="hBk">
-            We observe first that by the Total Change Theorem,
+            Observamos primero que por el Teorema del Cambio Total,
             <m>C(40) - C(0) = \int_0^{40} C'(t) \, dt = \int_0^{40} c(t) \, dt</m>,
-            and therefore, as discussed in (a),
-            the meaning of this value is the total calories burned on <m>[0,40]</m>.
+            y por lo tanto, como se discutió en (a),
+            el significado de este valor es las calorías totales quemadas en <m>[0,40]</m>.
           </p>
         </li>
 
         <li permid="TxF">
           <p permid="NIt">
-            The exact average rate at which the person burned calories on <m>0 \le t \le 40</m> is given by
+            La tasa promedio exacta a la que la persona quemó calorías en <m>0 \le t \le 40</m> se da por
             <me permid="Xcf">
               c_{\text{AVG} [0,40]} = \frac{1}{40-0} \int_0^{40} c(t) \, dt
             </me>.
-            To calculate <m>\int_0^{40} c(t) \, dt</m>,
-            we recognize that <m>c(t)</m> is defined in piecewise fashion,
-            and use the additive property of the definite integral,
-            which tells us that
+            Para calcular <m>\int_0^{40} c(t) \, dt</m>,
+            reconocemos que <m>c(t)</m> se define de manera por tramos,
+            y usamos la propiedad aditiva de la integral definida,
+            que nos dice que
             <me permid="Djo">
               \int_0^{40} c(t) \, dt = \int_0^{10} c(t) \, dt +  \int_{10}^{30} c(t) \, dt +  \int_{30}^{40} c(t) \, dt
             </me>.
-            We know from our work in (a) that <m>\int_0^{10} c(t) \, dt = \frac{400}{3}</m>.
-            Since <m>c(t) = 15</m> is constant on <m>10 \le t \le 20</m>,
-            it follows that <m>\int_{10}^{30} c(t) \, dt  = 15 \cdot 30 = 300</m>.
-            And finally,
-            it is straightforward to show using <m>c(t) = -0.05t^2 + 3t - 30</m>
-            (or symmetry)
-            on <m>30 \le t \le 40</m> that <m>\int_{30}^{40} c(t) \, dt = \frac{400}{3}</m>.
-            Hence,
+            Sabemos por nuestro trabajo en (a) que <m>\int_0^{10} c(t) \, dt = \frac{400}{3}</m>.
+            Dado que <m>c(t) = 15</m> es constante en <m>10 \le t \le 20</m>,
+            se sigue que <m>\int_{10}^{30} c(t) \, dt  = 15 \cdot 30 = 300</m>.
+            Y finalmente,
+            es sencillo mostrar usando <m>c(t) = -0.05t^2 + 3t - 30</m>
+            (o simetría)
+            en <m>30 \le t \le 40</m> que <m>\int_{30}^{40} c(t) \, dt = \frac{400}{3}</m>.
+            Por lo tanto,
             <md permid="PxG">
               <mrow>\int_0^{40} c(t) \, dt =\mathstrut \amp  \int_0^{10} c(t) \, dt +  \int_{10}^{30} c(t) \, dt +  \int_{30}^{40} c(t) \, dt</mrow>
               <mrow>=\mathstrut \amp  \frac{400}{3} + 300 + \frac{400}{3}</mrow>
-              <mrow>=\mathstrut \amp  \frac{1700}{3} \approx 566.67 \ \text{calories}</mrow>
+              <mrow>=\mathstrut \amp  \frac{1700}{3} \approx 566.67 \ \text{calorías}</mrow>
             </md>.
-            Now, it follows that the exact average rate at which calories were burned on <m>[0,40]</m> is
+            Ahora, se sigue que la tasa promedio exacta a la que se quemaron calorías en <m>[0,40]</m> es
             <me permid="jqx">
               c_{\text{AVG} [0,40]} = \frac{1}{40-0} \int_0^{40} c(t) \, dt = \frac{1}{40} \cdot \frac{1700}{3} = \frac{1700}{120} \approx 14.17 \ \text{cal/min}
             </me>.
@@ -189,29 +189,28 @@
 
         <li permid="zEO">
           <p permid="tPC">
-            It makes sense intuitively that there must be at least one time at which the instantaneous rate at which calories are burned equals the average rate at which calories are burned,
-            as it would be impossible for a continuous instantaneous rate of change to always be above its average value.
-            Since we know from (c) that <m>c_{\text{AVG} [0,40]} = \frac{85}{6}</m>,
-            and <m>c(t)</m> tells us the instantaneous rate at which calories are burned,
-            it follows that we want to solve the equation
+            Tiene sentido intuitivamente que debe haber al menos un momento en el que la tasa instantánea a la que se queman calorías es igual a la tasa promedio a la que se queman calorías,
+            ya que sería imposible que una tasa de cambio instantánea continua esté siempre por encima de su valor promedio.
+            Dado que sabemos por (c) que <m>c_{\text{AVG} [0,40]} = \frac{85}{6}</m>,
+            y <m>c(t)</m> nos dice la tasa instantánea a la que se queman calorías,
+            se sigue que queremos resolver la ecuación
             <me permid="vEP">
               c(t) = \frac{85}{6}
             </me>.
-            From the graph,
-            it appears that there are two such values of <m>t</m> for which this equation is true,
-            one in the first ten minutes, and one in the last ten.
-            For instance, solving
+            A partir del gráfico,
+            parece que hay dos valores de <m>t</m> para los cuales esta ecuación es verdadera,
+            uno en los primeros diez minutos y otro en los últimos diez.
+            Por ejemplo, resolviendo
             <me permid="bLY">
               -0.05t^2 + t + 10 = \frac{85}{6}
             </me>,
-            it follows that <m>t = \frac{5}{3}(6 \pm \sqrt{6}) \approx 14.082, 5.918</m>,
-            only the second of which lies in <m>0 \le t \le 10</m>.
-            So one time at which the instantaneous rate at which calories are burned equals the average rate on <m>[0,40]</m> is <m>t = \frac{5}{3}(6 - \sqrt{6}) \approx 5.918</m>.
-            Similar reasoning leads to the second time that lies in <m>[30,40]</m>.
+            se sigue que <m>t = \frac{5}{3}(6 \pm \sqrt{6}) \approx 14.082, 5.918</m>,
+            solo el segundo de los cuales se encuentra en <m>0 \le t \le 10</m>.
+            Así que un momento en el que la tasa instantánea a la que se queman calorías es igual a la tasa promedio en <m>[0,40]</m> es <m>t = \frac{5}{3}(6 - \sqrt{6}) \approx 5.918</m>.
+            Un razonamiento similar lleva al segundo momento que se encuentra en <m>[30,40]</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

@@ -15,8 +15,8 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-5-2-3" permid="owc">
   <statement>
     <p permid="IoT">
-      Evaluate each of the following derivatives and definite integrals.
-      Clearly cite whether you use the First or Second FTC in so doing.
+      Evalúa cada una de las siguientes derivadas e integrales definidas.
+      Cita claramente si usas el Primer o Segundo TFC al hacerlo.
 
       <ol marker="a." cols="2" permid="yln">
         <li permid="esw">
@@ -56,13 +56,13 @@
       <ol marker="a." permid="See">
         <li permid="jcp">
           <p permid="BPN">
-            Second FTC.
+            Segundo TFC.
           </p>
         </li>
 
         <li permid="Pjy">
           <p permid="hWW">
-            First FTC.
+            Primer TFC.
           </p>
         </li>
 
@@ -74,13 +74,13 @@
 
         <li permid="bxQ">
           <p permid="ulo">
-            First FTC.
+            Primer TFC.
           </p>
         </li>
 
         <li permid="HEZ">
           <p permid="asx">
-            Let <m>F(x) = \int_4^x \sin(t^2) \, dt</m> and observe that this problem is asking you to evaluate <m>\frac{d}{dx} \left[F(x^3)] \right]</m>.
+            Supón <m>F(x) = \int_4^x \sin(t^2) \, dt</m> y observa que este problema te está pidiendo evaluar <m>\frac{d}{dx} \left[F(x^3)] \right]</m>.
           </p>
         </li>
       </ol>
@@ -126,40 +126,39 @@
       <ol marker="a." permid="FPM">
         <li permid="swb">
           <p permid="Ljz">
-            By the Second FTC, <m>\frac{d}{dx} \left[ \int_4^x e^{t^2} \, dt \right] = e^{x^2}</m>.
+            Por el Segundo TFC, <m>\frac{d}{dx} \left[ \int_4^x e^{t^2} \, dt \right] = e^{x^2}</m>.
           </p>
         </li>
 
         <li permid="YDk">
           <p permid="rqI">
-            By the First FTC, <m>\int_{-2}^x \frac{d}{dt} \left[ \frac{t^4}{1+t^4} \right] \, dt = \left. \left[ \frac{t^4}{1+t^4} \right] \right|_{-2}^{x} = \frac{x^4}{1+x^4} - \frac{16}{17}</m>.
+            Por el Primer TFC, <m>\int_{-2}^x \frac{d}{dt} \left[ \frac{t^4}{1+t^4} \right] \, dt = \left. \left[ \frac{t^4}{1+t^4} \right] \right|_{-2}^{x} = \frac{x^4}{1+x^4} - \frac{16}{17}</m>.
           </p>
         </li>
 
         <li permid="EKt">
           <p permid="XxR">
-            Since <m>\int_{x}^{1} g(t) \, dt = -\int_{1}^{x} g(t) \, dt</m>,
-            it follows by this fact and the Second FTC that <m>\frac{d}{dx} \left[ \int_{x}^1 \cos(t^3) \, dt \right] = -\frac{d}{dx} \left[ \int_{1}^x \cos(t^3) \, dt \right] = -\cos(x^3)</m>.
+            Dado que <m>\int_{x}^{1} g(t) \, dt = -\int_{1}^{x} g(t) \, dt</m>,
+            se sigue por este hecho y el Segundo TFC que <m>\frac{d}{dx} \left[ \int_{x}^1 \cos(t^3) \, dt \right] = -\frac{d}{dx} \left[ \int_{1}^x \cos(t^3) \, dt \right] = -\cos(x^3)</m>.
           </p>
         </li>
 
         <li permid="kRC">
           <p permid="DFa">
-            By the First FTC, <m>\int_{3}^x \frac{d}{dt} \left[ \ln(1+t^2) \right] \, dt = \left. \ln(1+t^2) \right|_{3}^{x} = \ln(1+x^2)-\ln(10)</m>.
+            Por el Primer TFC, <m>\int_{3}^x \frac{d}{dt} \left[ \ln(1+t^2) \right] \, dt = \left. \ln(1+t^2) \right|_{3}^{x} = \ln(1+x^2)-\ln(10)</m>.
           </p>
         </li>
         <!--  -->
         <li permid="QYL">
           <p permid="jMj">
-            Letting <m>F(x) = \int_4^x \sin(t^2) \, dt</m> it follows that we need to compute <m>\frac{d}{dx} \left[F(x^3)] \right]</m>.
-            By the Chain Rule,
+            Suponiendo <m>F(x) = \int_4^x \sin(t^2) \, dt</m> se sigue que necesitamos calcular <m>\frac{d}{dx} \left[F(x^3)] \right]</m>.
+            Por la Regla de la Cadena,
             <m>\frac{d}{dx} \left[F(x^3)] \right] = F'(x^3) \cdot 3x^2</m>.
-            By the Second FTC, we know that <m>F'(x) = \sin(x^2)</m>,
-            and thus <m>\frac{d}{dx} \left[ \int_4^{x^3} \sin(t^2) \, dt \right] = \frac{d}{dx} \left[F(x^3)] \right] = \sin(x^6) \cdot 3x^2</m>.
+            Por el Segundo TFC, sabemos que <m>F'(x) = \sin(x^2)</m>,
+            y así <m>\frac{d}{dx} \left[ \int_4^{x^3} \sin(t^2) \, dt \right] = \frac{d}{dx} \left[F(x^3)] \right] = \sin(x^6) \cdot 3x^2</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

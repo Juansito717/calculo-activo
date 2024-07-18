@@ -15,55 +15,55 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-6-3-3" permid="CAu">
   <statement>
     <p permid="dXK">
-      Consider a thin bar of length 20 cm whose density is distributed according to the function <m>\rho(x) = 4 + 0.1x</m>,
-      where <m>x = 0</m> represents the left end of the bar.
-      Assume that <m>\rho</m> is measured in g/cm and <m>x</m> is measured in cm.
+      Considera una barra delgada de longitud 20 cm cuya densidad está distribuida según la función <m>\rho(x) = 4 + 0.1x</m>,
+      donde <m>x = 0</m> representa el extremo izquierdo de la barra.
+      Supón que <m>\rho</m> se mide en g/cm y <m>x</m> se mide en cm.
 
       <ol marker="a." permid="WOK">
         <li permid="CVT">
           <p permid="umb">
-            Find the total mass, <m>M</m>, of the bar.
+            Encuentra la masa total, <m>M</m>, de la barra.
           </p>
         </li>
 
         <li permid="jdc">
           <p permid="atk">
-            Without doing any calculations,
-            do you expect the center of mass of the bar to be equal to 10,
-            less than 10, or greater than 10?
-            Why?
+            Sin hacer ningún cálculo,
+            ¿esperas que el centro de masa de la barra sea igual a 10,
+            menor que 10 o mayor que 10?
+            ¿Por qué?
           </p>
         </li>
 
         <li permid="Pkl">
           <p permid="GAt">
-            Compute <m>\overline{x}</m>,
-            the exact center of mass of the bar.
+            Calcula <m>\overline{x}</m>,
+            el centro exacto de masa de la barra.
           </p>
         </li>
 
         <li permid="vru">
           <p permid="mHC">
-            What is the average density of the bar?
+            ¿Cuál es la densidad promedio de la barra?
           </p>
         </li>
 
         <li permid="byD">
           <p permid="SOL">
-            Now consider a different density function,
-            given by <m>p(x) = 4e^{0.020732x}</m>,
-            also for a bar of length 20 cm whose left end is at <m>x = 0</m>.
-            Plot both <m>\rho(x)</m> and <m>p(x)</m> on the same axes.
-            Without doing any calculations,
-            which bar do you expect to have the greater center of mass?
-            Why?
+            Ahora considera una función de densidad diferente,
+            dada por <m>p(x) = 4e^{0.020732x}</m>,
+            también para una barra de longitud 20 cm cuyo extremo izquierdo está en <m>x = 0</m>.
+            Grafica tanto <m>\rho(x)</m> como <m>p(x)</m> en los mismos ejes.
+            Sin hacer ningún cálculo,
+            ¿cuál barra esperas que tenga el mayor centro de masa?
+            ¿Por qué?
           </p>
         </li>
 
         <li permid="HFM">
           <p permid="yVU">
-            Compute the exact center of mass of the bar described in (e) whose density function is <m>p(x) = 4e^{0.020732x}</m>.
-            Check the result against the prediction you made in (e).
+            Calcula el centro exacto de masa de la barra descrita en (e) cuya función de densidad es <m>p(x) = 4e^{0.020732x}</m>.
+            Verifica el resultado con la predicción que hiciste en (e).
           </p>
         </li>
       </ol>
@@ -74,40 +74,40 @@
       <ol marker="a." permid="qHB">
         <li permid="nMV">
           <p permid="fdd">
-            Recall <m>M = \int_a^b \rho(x) \, dx</m>.
+            Recuerda <m>M = \int_a^b \rho(x) \, dx</m>.
           </p>
         </li>
 
         <li permid="TUe">
           <p permid="Lkm">
-            Think about whether there's more mass to the left of 10 or to the right of 10.
+            Piensa si hay más masa a la izquierda de 10 o a la derecha de 10.
           </p>
         </li>
 
         <li permid="Abn">
           <p permid="rrv">
-            Use the formula just developed in the preceding subsection of the text.
+            Usa la fórmula que acabamos de desarrollar en la subsección anterior del texto.
           </p>
         </li>
 
         <li permid="giw">
           <p permid="XyE">
-            Recall that when density,
-            <m>\rho</m> is constant, <m>M = \rho \cdot V</m>.
+            Recuerda que cuando la densidad,
+            <m>\rho</m> es constante, <m>M = \rho \cdot V</m>.
           </p>
         </li>
 
         <li permid="MpF">
           <p permid="DFN">
-            Think about how the two density functions distribute mass.
-            Note that they appear to distribute the same total mass,
-            as the areas under the two curves appear to be equal.
+            Piensa en cómo las dos funciones de densidad distribuyen la masa.
+            Nota que parecen distribuir la misma masa total,
+            ya que las áreas bajo las dos curvas parecen ser iguales.
           </p>
         </li>
 
         <li permid="swO">
           <p permid="jMW">
-            Use <m>p(x)</m> in place of <m>\rho(x)</m> in standard calculations.
+            Usa <m>p(x)</m> en lugar de <m>\rho(x)</m> en los cálculos estándar.
           </p>
         </li>
       </ol>
@@ -124,7 +124,7 @@
 
         <li permid="ELg">
           <p permid="wbo">
-            Greater than 10.
+            Mayor que 10.
           </p>
         </li>
 
@@ -142,7 +142,7 @@
 
         <li permid="xgH">
           <p permid="owP">
-            Slightly to the right of the center of mass for <m>\rho(x)</m>.
+            Ligeramente a la derecha del centro de masa para <m>\rho(x)</m>.
           </p>
         </li>
 
@@ -165,26 +165,26 @@
 
         <li permid="pCi">
           <p permid="gSq">
-            The center of mass will be greater than 10 since the mass is more concentrated as <m>x</m> increases.
+            El centro de masa será mayor que 10 ya que la masa está más concentrada a medida que <m>x</m> aumenta.
           </p>
         </li>
 
         <li permid="VJr">
           <p permid="MZz">
-            Using the formula we developed,
-            <m>\overline{x} = \frac{\int_{0}^{20} x \rho(x) \, dx}{\int_{0}^{20} \rho(x) \, dx}</m>, so
+            Usando la fórmula que desarrollamos,
+            <m>\overline{x} = \frac{\int_{0}^{20} x \rho(x) \, dx}{\int_{0}^{20} \rho(x) \, dx}</m>, así que
             <me permid="KeT">
               \overline{x} = \frac{\int_{0}^{20} x (4 + 0.1x)) \, dx}{\int_{0}^{20} 4 + 0.1x \, dx} = \frac{\frac{3200}{3}}{100} = \frac{32}{3}
             </me>,
-            which is indeed just greater than 10.
+            que es de hecho un poco mayor que 10.
           </p>
         </li>
 
         <li permid="BQA">
           <p permid="tgI">
-            Recall that average density is given by mass divided by length,
-            so since the bar is 20 cm long and its mass is 100 g, the average density is 100/20 = 5 g/cm.
-            This can also be computed using the formula for average value of a function:
+            Recuerda que la densidad promedio se da por la masa dividida por la longitud,
+            así que como la barra mide 20 cm de largo y su masa es de 100 g, la densidad promedio es 100/20 = 5 g/cm.
+            Esto también se puede calcular usando la fórmula para el valor promedio de una función:
             <me permid="qmc">
               \rho_{\text{AVG} [0,20]} = \frac{1}{20-0} \int_{0}^{20} \rho(x) \,dx = \frac{100}{20}
             </me>.
@@ -193,28 +193,27 @@
 
         <li permid="hXJ">
           <p permid="ZnR">
-            Since <m>p(x) = 4e^{0.020732x}</m> lies below
-            <m>\rho(x) = 4 + 0.1x</m> up until where they intersect at about <m>17.53</m>,
-            after which <m>p(x) \gt \rho(x)</m>,
-            we see that <m>p(x)</m> distributes mass more to the right.
-            It also appears as if the two curves may bound the same total area,
-            and thus the generate the same total mass.
-            If that is the case, we expect
-            <m>\overline{x}</m> for <m>p(x)</m> to lie slightly to the right of the center of mass for <m>\rho(x)</m>.
+            Dado que <m>p(x) = 4e^{0.020732x}</m> se encuentra por debajo de
+            <m>\rho(x) = 4 + 0.1x</m> hasta donde se intersectan alrededor de <m>17.53</m>,
+            después de lo cual <m>p(x) \gt \rho(x)</m>,
+            vemos que <m>p(x)</m> distribuye más masa hacia la derecha.
+            También parece que las dos curvas pueden delimitar la misma área total,
+            y por lo tanto generar la misma masa total.
+            Si ese es el caso, esperamos que
+            <m>\overline{x}</m> para <m>p(x)</m> se encuentre ligeramente a la derecha del centro de masa para <m>\rho(x)</m>.
           </p>
         </li>
 
         <li permid="OeS">
           <p permid="Fva">
-            We see that
+            Vemos que
             <me permid="Wtl">
               \overline{x} = \frac{\int_{0}^{20} x 4e^{0.020732x} \, dx}{\int_{0}^{20} 4e^{0.020732x} \, dx} \approx 10.6891
             </me>,
-            which is indeed slightly right of <m>\overline{x}</m> for <m>\rho(x)</m>.
+            que de hecho está ligeramente a la derecha de <m>\overline{x}</m> para <m>\rho(x)</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

@@ -15,10 +15,10 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-8-4-6" permid="McK">
   <statement>
     <p permid="xZf">
-      For (a)-(j),
-      use appropriate tests to determine the convergence or divergence of the following series.
-      Throughout, if a series is a convergent geometric series,
-      find its sum.
+      Para (a)-(j),
+      usa pruebas apropiadas para determinar la convergencia o divergencia de las siguientes series.
+      A lo largo, si una serie es una serie geométrica convergente,
+      encuentra su suma.
     </p>
 
     <p permid="ego">
@@ -85,8 +85,8 @@
 
         <li permid="NDC">
           <p permid="Onw">
-            Determine a value of <m>n</m> so that the <m>n</m>th partial sum <m>S_n</m> of the alternating series
-            <m>\displaystyle\sum_{n=2}^{\infty} \frac{(-1)^n}{\ln(n)}</m> approximates the sum to within 0.001.
+            Determina un valor de <m>n</m> para que la <m>n</m>-ésima suma parcial <m>S_n</m> de la serie alternante
+            <m>\displaystyle\sum_{n=2}^{\infty} \frac{(-1)^n}{\ln(n)}</m> aproxime la suma dentro de 0.001.
           </p>
         </li>
       </ol>
@@ -97,7 +97,7 @@
       <ol marker="a." permid="rVy">
         <li permid="tKL">
           <p permid="uuF">
-            Small hints for each of the prompts above.
+            Pequeñas pistas para cada uno de los enunciados anteriores.
           </p>
         </li>
       </ol>
@@ -108,70 +108,70 @@
       <ol marker="a." permid="LOp">
         <li permid="ZRU">
           <p permid="aBO">
-            <m>\sum_{k=3}^{\infty} \ \frac{2}{\sqrt{k-2}}</m> diverges.
+            <m>\sum_{k=3}^{\infty} \ \frac{2}{\sqrt{k-2}}</m> diverge.
           </p>
         </li>
 
         <li permid="FZd">
           <p permid="GIX">
-            <m>\sum_{k=1}^{\infty} \ \frac{k}{1+2k}</m> diverges.
+            <m>\sum_{k=1}^{\infty} \ \frac{k}{1+2k}</m> diverge.
           </p>
         </li>
 
         <li permid="mgm">
           <p permid="mQg">
-            <m>\sum_{k=0}^{\infty} \ \frac{2k^2+1}{k^3+k+1}</m> diverges.
+            <m>\sum_{k=0}^{\infty} \ \frac{2k^2+1}{k^3+k+1}</m> diverge.
           </p>
         </li>
 
         <li permid="Snv">
           <p permid="SXp">
-            <m>\sum_{k=0}^{\infty} \ \frac{100^k}{k!}</m> converges.
+            <m>\sum_{k=0}^{\infty} \ \frac{100^k}{k!}</m> converge.
           </p>
         </li>
 
         <li permid="yuE">
           <p permid="zey">
-            <m>\sum_{k=1}^{\infty} \ \frac{2^k}{5^k}</m> is a geometric series with ratio
-            <m>\frac{2}{5}</m> and sum <m>\frac{2}{3}</m>.
+            <m>\sum_{k=1}^{\infty} \ \frac{2^k}{5^k}</m> es una serie geométrica con razón
+            <m>\frac{2}{5}</m> y suma <m>\frac{2}{3}</m>.
           </p>
         </li>
 
         <li permid="eBN">
           <p permid="flH">
-            <m>\sum_{k=1}^{\infty} \ \frac{k^3-1}{k^5+1}</m> converges.
+            <m>\sum_{k=1}^{\infty} \ \frac{k^3-1}{k^5+1}</m> converge.
           </p>
         </li>
 
         <li permid="KIW">
           <p permid="LsQ">
-            <m>\sum_{k=2}^{\infty} \ \frac{3^{k-1}}{7^k}</m> is a convergent geometric series with
-            <m>a = \frac{3}{49}</m> and
-            <m>r = \frac{3}{7}</m> and sum <m>\frac{3}{28}</m>.
+            <m>\sum_{k=2}^{\infty} \ \frac{3^{k-1}}{7^k}</m> es una serie geométrica convergente con
+            <m>a = \frac{3}{49}</m> y
+            <m>r = \frac{3}{7}</m> y suma <m>\frac{3}{28}</m>.
           </p>
         </li>
 
         <li permid="qQf">
           <p permid="rzZ">
-            <m>\sum_{k=2}^{\infty} \ \frac{1}{k^k}</m> converges.
+            <m>\sum_{k=2}^{\infty} \ \frac{1}{k^k}</m> converge.
           </p>
         </li>
 
         <li permid="WXo">
           <p permid="XHi">
-            <m>\sum_{k=1}^{\infty} \ \frac{(-1)^{k+1}}{\sqrt{k+1}}</m> converges.
+            <m>\sum_{k=1}^{\infty} \ \frac{(-1)^{k+1}}{\sqrt{k+1}}</m> converge.
           </p>
         </li>
 
         <li permid="Dex">
           <p permid="DOr">
-            <m>\sum_{k=2}^{\infty} \ \frac{1}{k \ln(k)}</m> diverges.
+            <m>\sum_{k=2}^{\infty} \ \frac{1}{k \ln(k)}</m> diverge.
           </p>
         </li>
 
         <li permid="jlG">
           <p permid="jVA">
-            <m>\sum_{k=2}^{\infty} \frac{(-1)^k}{\ln(k)}</m> converges very slowly.
+            <m>\sum_{k=2}^{\infty} \frac{(-1)^k}{\ln(k)}</m> converge muy lentamente.
           </p>
         </li>
       </ol>
@@ -182,76 +182,76 @@
       <ol marker="a." permid="fHg">
         <li permid="PsP">
           <p permid="QcJ">
-            For large values of <m>k</m>,
-            <m>\frac{2}{\sqrt{k-2}}</m> looks like <m>\frac{2}{\sqrt{k}}</m>.
-            We will use the Limit Comparison Test to compare these two series:
+            Para valores grandes de <m>k</m>,
+            <m>\frac{2}{\sqrt{k-2}}</m> se parece a <m>\frac{2}{\sqrt{k}}</m>.
+            Usaremos la Prueba de Comparación de Límites para comparar estas dos series:
             <md permid="Knx">
               <mrow>\lim_{k \to \infty} \frac{\frac{2}{\sqrt{k-2}}}{\frac{2}{\sqrt{k}}} \amp = \lim_{k \to \infty} \frac{\sqrt{k}}{\sqrt{k-2}}</mrow>
               <mrow>\amp = \lim_{k \to \infty} \sqrt{\frac{1}{1-\frac{2}{k}}}</mrow>
               <mrow>\amp = 1</mrow>
             </md>.
-            Since this limit is a positive constant,
-            we know that the two series <m>\sum_{k=3}^{\infty} \ \frac{2}{\sqrt{k-2}}</m> and
-            <m>\sum_{k=3}^{\infty} \ \frac{2}{\sqrt{k}}</m> either both converge or both diverge.
-            Now <m>\sum_{k=3}^{\infty} \ \frac{2}{\sqrt{k}} = 2\sum_{k=3}^{\infty} \ \frac{1}{k^{1/2}}</m> is constant times a <m>p</m>-series with <m>p=\frac{1}{2}</m>,
-            so <m>\sum_{k=3}^{\infty} \ \frac{2}{\sqrt{k}}</m> diverges.
-            Therefore,
-            <m>\sum_{k=3}^{\infty} \ \frac{2}{\sqrt{k-2}}</m> diverges as well.
+            Dado que este límite es una constante positiva,
+            sabemos que las dos series <m>\sum_{k=3}^{\infty} \ \frac{2}{\sqrt{k-2}}</m> y
+            <m>\sum_{k=3}^{\infty} \ \frac{2}{\sqrt{k}}</m> o ambas convergen o ambas divergen.
+            Ahora <m>\sum_{k=3}^{\infty} \ \frac{2}{\sqrt{k}} = 2\sum_{k=3}^{\infty} \ \frac{1}{k^{1/2}}</m> es una constante multiplicada por una serie <m>p</m> con <m>p=\frac{1}{2}</m>,
+            así que <m>\sum_{k=3}^{\infty} \ \frac{2}{\sqrt{k}}</m> diverge.
+            Por lo tanto,
+            <m>\sum_{k=3}^{\infty} \ \frac{2}{\sqrt{k-2}}</m> también diverge.
           </p>
         </li>
 
         <li permid="vzY">
           <p permid="wjS">
-            Note that
+            Nota que
             <me permid="quG">
               \lim_{k \to \infty} \frac{k}{1+2k} = \lim_{k \to \infty} \frac{k}{2k} = \frac{1}{2}
             </me>,
-            so the Divergence Test shows that <m>\sum_{k=1}^{\infty} \ \frac{k}{1+2k}</m> diverges.
+            así que la Prueba de Divergencia muestra que <m>\sum_{k=1}^{\infty} \ \frac{k}{1+2k}</m> diverge.
           </p>
         </li>
 
         <li permid="bHh">
           <p permid="crb">
-            For large values of <m>k</m>,
-            <m>\frac{2k^2+1}{k^3+k+1}</m> looks like <m>\frac{2}{k}</m>.
-            We will use the Limit Comparison Test to compare these two series:
+            Para valores grandes de <m>k</m>,
+            <m>\frac{2k^2+1}{k^3+k+1}</m> se parece a <m>\frac{2}{k}</m>.
+            Usaremos la Prueba de Comparación de Límites para comparar estas dos series:
             <md permid="WBP">
               <mrow>\lim_{k \to \infty} \frac{\frac{2k^2+1}{k^3+k+1}}{\frac{2}{k}} \amp = \lim_{k \to \infty} \frac{(2k^2+1)k}{2(k^3+k+1)}</mrow>
               <mrow>\amp = \lim_{k \to \infty} \frac{2 + \frac{1}{k^2}}{2+\frac{1}{k^2}+\frac{1}{k^3}}</mrow>
               <mrow>\amp = 1</mrow>
             </md>.
-            Since this limit is a positive constant,
-            we know that the two series <m>\sum_{k=1}^{\infty} \ \frac{2k^2+1}{k^3+k+1}</m> and
-            <m>\sum_{k=1}^{\infty} \ \frac{2}{k}</m> either both converge or both diverge.
-            Now <m>\sum_{k=1}^{\infty} \ \frac{2}{k} = 2\sum_{k=1}^{\infty} \ \frac{1}{k}</m> is constant times a <m>p</m>-series with <m>p=1</m>,
-            so <m>\sum_{k=1}^{\infty} \ \frac{2}{k}</m> diverges.
-            Therefore,
-            <m>\sum_{k=0}^{\infty} \ \frac{2k^2+1}{k^3+k+1}</m> diverges as well.
+            Dado que este límite es una constante positiva,
+            sabemos que las dos series <m>\sum_{k=1}^{\infty} \ \frac{2k^2+1}{k^3+k+1}</m> y
+            <m>\sum_{k=1}^{\infty} \ \frac{2}{k}</m> o ambas convergen o ambas divergen.
+            Ahora <m>\sum_{k=1}^{\infty} \ \frac{2}{k} = 2\sum_{k=1}^{\infty} \ \frac{1}{k}</m> es una constante multiplicada por una serie <m>p</m> con <m>p=1</m>,
+            así que <m>\sum_{k=1}^{\infty} \ \frac{2}{k}</m> diverge.
+            Por lo tanto,
+            <m>\sum_{k=0}^{\infty} \ \frac{2k^2+1}{k^3+k+1}</m> también diverge.
           </p>
         </li>
 
         <li permid="HOq">
           <p permid="Iyk">
-            Series that involve factorials are good candidates for the Ratio Test:
+            Las series que involucran factoriales son buenas candidatas para la Prueba del Cociente:
             <md permid="CIY">
               <mrow>\lim_{k \to \infty} \frac{\frac{100^{k+1}}{(k+1)!}}{\frac{100^k}{k!}} \amp = \lim_{k \to \infty} \frac{100^{k+1}k!}{100^k(k+1)!}</mrow>
               <mrow>\amp = \lim_{k \to \infty} \frac{100}{k+1}</mrow>
               <mrow>\amp = 0</mrow>
             </md>.
-            Since this limit is 0, the Ratio Test tells us that the series <m>\sum_{k=0}^{\infty} \ \frac{100^k}{k!}</m> converges.
+            Dado que este límite es 0, la Prueba del Cociente nos dice que la serie <m>\sum_{k=0}^{\infty} \ \frac{100^k}{k!}</m> converge.
           </p>
         </li>
 
         <li permid="nVz">
           <p permid="oFt">
-            Notice that <m>\sum_{k=1}^{\infty} \ \frac{2^k}{5^k} = \sum_{k=1}^{\infty} \ \left(\frac{2}{5}\right)^k</m> is a geometric series with ratio <m>\frac{2}{5}</m>.
-            Let's write out the first few terms to identify the value of <m>a</m>:
+            Nota que <m>\sum_{k=1}^{\infty} \ \frac{2^k}{5^k} = \sum_{k=1}^{\infty} \ \left(\frac{2}{5}\right)^k</m> es una serie geométrica con razón <m>\frac{2}{5}</m>.
+            Escribamos los primeros términos para identificar el valor de <m>a</m>:
             <me permid="iQh">
               \sum_{k=1}^{\infty} \ \left(\frac{2}{5}\right)^k = \frac{2}{5} + \left(\frac{2}{5}\right)^2 + \left(\frac{2}{5}\right)^3 + \cdots = \left(\frac{2}{5}\right)\left[ 1 + \frac{2}{5} + \left(\frac{2}{5}\right)^2 + \cdots \right]
             </me>.
-            So <m>a = \frac{2}{5}</m>.
-            Since the ratio of this geometric series is between <m>-1</m> and 1, the series converges.
-            The sum of the series is
+            Así que <m>a = \frac{2}{5}</m>.
+            Dado que la razón de esta serie geométrica está entre <m>-1</m> y 1, la serie converge.
+            La suma de la serie es
             <me permid="OXq">
               \sum_{k=1}^{\infty} \ \frac{2^k}{5^k} = \left(\frac{2}{5}\right) \left(\frac{1}{1-\frac{2}{5}} \right) = \left(\frac{2}{5}\right)\left(\frac{5}{3}\right) = \frac{2}{3}
             </me>.
@@ -260,35 +260,35 @@
 
         <li permid="UcI">
           <p permid="UMC">
-            For large values of <m>n</m>,
-            <m>\frac{k^3-1}{k^5+1}</m> looks like <m>\frac{k^3}{k^5}=\frac{1}{k^2}</m>.
-            We will use the Limit Comparison Test to compare
-            <m>\sum_{k=1}^{\infty} \ \frac{k^3-1}{k^5+1}</m> and <m>\sum_{k=1}^{\infty} \ \frac{1}{k^2}</m>:
+            Para valores grandes de <m>n</m>,
+            <m>\frac{k^3-1}{k^5+1}</m> se parece a <m>\frac{k^3}{k^5}=\frac{1}{k^2}</m>.
+            Usaremos la Prueba de Comparación de Límites para comparar
+            <m>\sum_{k=1}^{\infty} \ \frac{k^3-1}{k^5+1}</m> y <m>\sum_{k=1}^{\infty} \ \frac{1}{k^2}</m>:
             <md permid="vez">
               <mrow>\lim_{k \to \infty} \frac{\frac{k^3-1}{k^5+1}}{\frac{1}{k^2}} \amp = \lim_{k \to \infty} \frac{k^5-k^2}{k^5+1}</mrow>
               <mrow>\amp = \lim_{k \to \infty} \frac{1-\frac{1}{k^3}}{1+\frac{1}{k^5}}</mrow>
               <mrow>\amp = 1</mrow>
             </md>.
-            Since this limit is 1, we know that the two series <m>\sum_{k=1}^{\infty} \ \frac{k^3-1}{k^5+1}</m> and
-            <m>\sum_{k=1}^{\infty} \ \frac{1}{k^2}</m> either both converge or both diverge.
-            Now <m>\sum_{k=1}^{\infty} \ \frac{1}{k^2}</m> is a <m>p</m>-series with <m>p=2</m>,
-            so <m>\sum_{k=1}^{\infty} \ \frac{1}{k^2}</m> converges.
-            Therefore,
-            <m>\sum_{k=1}^{\infty} \ \frac{k^3-1}{k^5+1}</m> converges as well.
+            Dado que este límite es 1, sabemos que las dos series <m>\sum_{k=1}^{\infty} \ \frac{k^3-1}{k^5+1}</m> y
+            <m>\sum_{k=1}^{\infty} \ \frac{1}{k^2}</m> o ambas convergen o ambas divergen.
+            Ahora <m>\sum_{k=1}^{\infty} \ \frac{1}{k^2}</m> es una serie <m>p</m> con <m>p=2</m>,
+            así que <m>\sum_{k=1}^{\infty} \ \frac{1}{k^2}</m> converge.
+            Por lo tanto,
+            <m>\sum_{k=1}^{\infty} \ \frac{k^3-1}{k^5+1}</m> converge también.
           </p>
         </li>
-
+        
         <li permid="AjR">
           <p permid="ATL">
-            This series looks geometric,
-            but to be sure let's write out the first few terms of this series:
+            Esta serie parece geométrica,
+            pero para estar seguros, escribamos los primeros términos de esta serie:
             <me permid="blI">
               \sum_{k=2}^{\infty} \ \frac{3^{k-1}}{7^k} = \frac{3}{7^2} + \frac{3^2}{7^3} + \frac{3^3}{7^4} + \cdots = \left( \frac{3}{7^2} \right) \left[1 + \frac{3}{7} + \left( \frac{3}{7} \right)^2 + \left( \frac{3}{7} \right)^3 + \cdots \right]
             </me>.
-            So <m>\sum_{k=2}^{\infty} \ \frac{3^{k-1}}{7^k}</m> is a geometric series with
-            <m>a = \frac{3}{49}</m> and <m>r = \frac{3}{7}</m>.
-            Since the ratio of this geometric series is between <m>-1</m> and 1, the series converges.
-            The sum of the series is
+            Así que <m>\sum_{k=2}^{\infty} \ \frac{3^{k-1}}{7^k}</m> es una serie geométrica con
+            <m>a = \frac{3}{49}</m> y <m>r = \frac{3}{7}</m>.
+            Dado que la razón de esta serie geométrica está entre <m>-1</m> y 1, la serie converge.
+            La suma de la serie es
             <md permid="HsR">
               <mrow>\sum_{k=2}^{\infty} \ \frac{3^{k-1}}{7^k} \amp = \left(\frac{3}{49}\right) \left(\frac{1}{1-\frac{3}{7}} \right)</mrow>
               <mrow>\amp = \left(\frac{3}{49}\right)\left(\frac{7}{4}\right)</mrow>
@@ -296,28 +296,28 @@
             </md>.
           </p>
         </li>
-
+        
         <li permid="gra">
           <p permid="haU">
-            <m>\sum_{k=2}^{\infty} \ \frac{1}{k^k}</m> converges by comparison with the series <m>\sum_{k=2}^{\infty} \ \frac{1}{k^2}</m>.
+            <m>\sum_{k=2}^{\infty} \ \frac{1}{k^k}</m> converge por comparación con la serie <m>\sum_{k=2}^{\infty} \ \frac{1}{k^2}</m>.
           </p>
         </li>
-
+        
         <li permid="Myj">
           <p permid="Nid">
-            This series is an alternating series of the form
-            <m>\sum_{k=1}^{\infty} (-1)^{k+1} a_k</m> with <m>a_k = \frac{1}{\sqrt{k+1}}</m>.
-            Since
+            Esta serie es una serie alternante de la forma
+            <m>\sum_{k=1}^{\infty} (-1)^{k+1} a_k</m> con <m>a_k = \frac{1}{\sqrt{k+1}}</m>.
+            Dado que
             <me permid="nAa">
               \lim_{k \to \infty} \frac{1}{\sqrt{k+1}} = 0
             </me>
-            and <m>\frac{1}{\sqrt{k+1}}</m> decreases to 0, the Alternating Series Test shows that <m>\sum_{k=1}^{\infty} \ \frac{(-1)^{k+1}}{\sqrt{k+1}}</m> converges.
+            y <m>\frac{1}{\sqrt{k+1}}</m> disminuye a 0, la Prueba de Series Alternantes muestra que <m>\sum_{k=1}^{\infty} \ \frac{(-1)^{k+1}}{\sqrt{k+1}}</m> converge.
           </p>
         </li>
-
+        
         <li permid="sFs">
           <p permid="tpm">
-            For this example we will use the Integral Test with the substitution <m>w = \ln(x)</m>,
+            Para este ejemplo usaremos la Prueba Integral con la sustitución <m>w = \ln(x)</m>,
             <m>dw = \frac{1}{x} \ dx</m>:
             <md permid="THj">
               <mrow>\displaystyle \int_2^{\infty} \frac{1}{x \ln(x)} \ dx \amp = \lim_{b \to \infty} \int_2^b \frac{1}{x \ln(x)} \ dx</mrow>
@@ -326,25 +326,25 @@
               <mrow>\amp = \displaystyle \lim_{b \to \infty} \left[ \ln(\ln(b)) - \ln(\ln(2)) \right]</mrow>
               <mrow>\amp = \infty</mrow>
             </md>.
-            Since <m>\int_2^{\infty} \frac{1}{x \ln(x)} \ dx</m> diverges,
-            we conclude <m>\sum_{k=2}^{\infty} \ \frac{1}{k \ln(k)}</m> diverges.
+            Dado que <m>\int_2^{\infty} \frac{1}{x \ln(x)} \ dx</m> diverge,
+            concluimos que <m>\sum_{k=2}^{\infty} \ \frac{1}{k \ln(k)}</m> diverge.
           </p>
         </li>
-
+        
         <li permid="YMB">
           <p permid="Zwv">
-            First note that the terms
-            <m>\frac{1}{\ln(k)}</m> decrease to <m>0</m>,
-            so the Alternating Series Test shows that the alternating series <m>\sum_{k=2}^{\infty} \frac{(-1)^k}{\ln(k)}</m> converges.
-            Let <m>S = \sum_{k=2}^{\infty} \frac{(-1)^k}{\ln(k)}</m> and let <m>S_n</m> be the <m>n</m>th partial sum of this series.
-            Recall that
+            Primero nota que los términos
+            <m>\frac{1}{\ln(k)}</m> disminuyen a <m>0</m>,
+            así que la Prueba de Series Alternantes muestra que la serie alternante <m>\sum_{k=2}^{\infty} \frac{(-1)^k}{\ln(k)}</m> converge.
+            Sea <m>S = \sum_{k=2}^{\infty} \frac{(-1)^k}{\ln(k)}</m> y sea <m>S_n</m> la <m>n</m>-ésima suma parcial de esta serie.
+            Recuerda que
             <me permid="zOs">
               |S_n - S| \lt  |S_n - S_{n+1}| = a_{n+1}
             </me>
-            where <m>a_{n+1} = \frac{1}{\ln(n+1)}</m>.
-            If we can find a value of <m>n</m> so that <m>a_{n+1} \lt  0.001</m>,
-            then <m>|S_n - S| \lt  0.001</m> as desired.
-            Now
+            donde <m>a_{n+1} = \frac{1}{\ln(n+1)}</m>.
+            Si podemos encontrar un valor de <m>n</m> tal que <m>a_{n+1} \lt  0.001</m>,
+            entonces <m>|S_n - S| \lt  0.001</m> como deseamos.
+            Ahora
             <md permid="fVB">
               <mrow>a_{n+1} \amp \lt  0.001</mrow>
               <mrow>\frac{1}{\ln(n+1)} \amp \lt  0.001</mrow>
@@ -352,15 +352,14 @@
               <mrow>n+1 \amp \gt e^{1000}</mrow>
               <mrow>n \amp gt e^{1000}-1</mrow>
             </md>.
-            So if we choose <m>n = e^{1000}</m>,
-            then <m>S_n</m> approximates the sum of the series to within 0.001.
-            Notice that <m>e^{1000} \approx 1.97 \times 10^{434}</m> is a very large number.
-            This shows that the series
-            <m>\sum_{k=2}^{\infty} \frac{(-1)^k}{\ln(k)}</m> converges very slowly.
+            Así que si elegimos <m>n = e^{1000}</m>,
+            entonces <m>S_n</m> aproxima la suma de la serie con un margen de 0.001.
+            Nota que <m>e^{1000} \approx 1.97 \times 10^{434}</m> es un número muy grande.
+            Esto muestra que la serie
+            <m>\sum_{k=2}^{\infty} \frac{(-1)^k}{\ln(k)}</m> converge muy lentamente.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

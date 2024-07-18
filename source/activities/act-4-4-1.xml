@@ -15,10 +15,10 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-4-4-1" permid="jcc">
   <statement>
     <p permid="lWI">
-      Use the Fundamental Theorem of Calculus to evaluate each of the following integrals exactly.
-      For each, sketch a graph of the integrand on the relevant interval and write one sentence that explains the meaning of the value of the integral in terms of the
-      (net signed)
-      area bounded by the curve.
+      Usa el Teorema Fundamental del Cálculo para evaluar exactamente cada una de las siguientes integrales.
+      Para cada una, dibuja un gráfico del integrando en el intervalo relevante y escribe una oración que explique el significado del valor de la integral en términos del
+      (área neta firmada)
+      delimitada por la curva.
 
       <ol marker="a." cols="2" permid="bTc">
         <li permid="Ial">
@@ -58,31 +58,31 @@
       <ol marker="a." permid="vLT">
         <li permid="MKe">
           <p permid="fxC">
-            Find a function whose derivative is <m>2 - 2x</m>.
+            Encuentra una función cuya derivada sea <m>2 - 2x</m>.
           </p>
         </li>
 
         <li permid="sRn">
           <p permid="LEL">
-            Which familiar function has derivative <m>\sin(x)</m>?
+            ¿Qué función familiar tiene derivada <m>\sin(x)</m>?
           </p>
         </li>
 
         <li permid="YYw">
           <p permid="rLU">
-            What is special about <m>e^x</m> when it comes to differentiation?
+            ¿Qué es especial sobre <m>e^x</m> cuando se trata de diferenciación?
           </p>
         </li>
 
         <li permid="FfF">
           <p permid="XTd">
-            Consider the derivative of <m>x^6</m>.
+            Considera la derivada de <m>x^6</m>.
           </p>
         </li>
 
         <li permid="lmO">
           <p permid="Eam">
-            Find an antiderivative for each of the three individual terms in the integrand.
+            Encuentra una antiderivada para cada uno de los tres términos individuales en el integrando.
           </p>
         </li>
       </ol>
@@ -128,12 +128,12 @@
       <ol marker="a." permid="jxB">
         <li permid="WdQ">
           <p permid="oRo">
-            Because <m>\frac{d}{dx}[2x - x^2] = 2-2x</m>,
-            by the Fundamental Theorem of Calculus,
+            Debido a que <m>\frac{d}{dx}[2x - x^2] = 2-2x</m>,
+            por el Teorema Fundamental del Cálculo,
             <me permid="SdR">
               \int_{-1}^4 (2-2x) \, dx = \left. 2x - x^2 \right|_{-1}^4
             </me>,
-            and therefore
+            y por lo tanto
             <me permid="yla">
               \int_{-1}^4 (2-2x) \, dx = (2 \cdot 4 - 4^2) - (2(-1) - (-1)^2) = -8 + 3 = -5
             </me>.
@@ -142,14 +142,14 @@
 
         <li permid="CkZ">
           <p permid="UYx">
-            Since <m>\frac{d}{dx} [\cos(x)] = -\sin(x)</m>,
-            an antiderivative of
-            <m>f(x) = \sin(x)</m> is <m>F(x) = -\cos(x)</m>.
-            Therefore, by the FTC,
+            Dado que <m>\frac{d}{dx} [\cos(x)] = -\sin(x)</m>,
+            una antiderivada de
+            <m>f(x) = \sin(x)</m> es <m>F(x) = -\cos(x)</m>.
+            Por lo tanto, por el TFC,
             <me permid="esj">
               \int_{0}^{\frac{\pi}{2}} \sin(x) \, dx = \left. -\cos(x) \right|_{-\frac{\pi}{2}}^{\frac{\pi}{2}}
             </me>,
-            so
+            así que
             <me permid="Kzs">
               \int_{0}^{\frac{\pi}{2}} \sin(x) \, dx = -\cos(\frac{\pi}{2}) - (-\cos(0)) = -0 + 1 = 1
             </me>.
@@ -158,9 +158,9 @@
 
         <li permid="isi">
           <p permid="BfG">
-            Since <m>e^x</m> is its own derivative,
-            it is also its own antiderivative.
-            Hence,
+            Dado que <m>e^x</m> es su propia derivada,
+            también es su propia antiderivada.
+            Por lo tanto,
             <me permid="qGB">
               \int_0^1 e^x \, dx = \left. e^x \right|_0^1 = e^1 - e^0 = e-1
             </me>.
@@ -169,8 +169,8 @@
 
         <li permid="Ozr">
           <p permid="hmP">
-            Note that since <m>\frac{d}{dx} [x^6] = 6x^5</m>,
-            it follows that <m>\frac{d}{dx} [\frac{1}{6}x^6] = x^5</m>, and thus
+            Nota que dado que <m>\frac{d}{dx} [x^6] = 6x^5</m>,
+            se sigue que <m>\frac{d}{dx} [\frac{1}{6}x^6] = x^5</m>, y así
             <me permid="WNK">
               \int_{-1}^{1} x^5 \, dx = \left. \frac{1}{6}x^6 \right|_{-1}^1 = \frac{1}{6} (1)^6 - \frac{1}{6}(-1)^6 = 0
             </me>.
@@ -179,10 +179,10 @@
 
         <li permid="uGA">
           <p permid="NtY">
-            Using the sum and constant multiple rules for differentiation,
-            we can see that similar results hold for antidifferentiation,
-            and thus that <m>F(x) = \frac{3}{4} x^4 - \frac{2}{3} x^3 - e^x</m> is an antiderivative of <m>f(x) = 3x^3 - 2x^2 - e^x</m>.
-            Now, by the FTC,
+            Usando las reglas de suma y múltiplo constante para la diferenciación,
+            podemos ver que resultados similares se aplican para la antidiferenciación,
+            y así que <m>F(x) = \frac{3}{4} x^4 - \frac{2}{3} x^3 - e^x</m> es una antiderivada de <m>f(x) = 3x^3 - 2x^2 - e^x</m>.
+            Ahora, por el TFC,
             <md permid="CUT">
               <mrow>\int_0^2 (3x^3 - 2x^2 - e^x) \, dx =\mathstrut \amp  \left. \frac{3}{4} x^4 - \frac{2}{3} x^3 - e^x \right|_0^2</mrow>
               <mrow>=\mathstrut \amp  \frac{3}{4} (2)^4 - \frac{2}{3} (2)^3 - e^2 - (\frac{3}{4} (0)^4 - \frac{2}{3} (0)^3 - e^0)</mrow>
@@ -195,4 +195,3 @@
     </p>
   </solution>
 </activity>
-

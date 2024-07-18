@@ -15,55 +15,55 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-5-2-1" permid="EvY">
   <statement>
     <p permid="Max">
-      Suppose that <m>f</m> is the function given in <xref ref="F-5-2-Act1">Figure</xref>
-      and that <m>f</m> is a piecewise function whose parts are either portions of lines or portions of circles,
-      as pictured.
+      Supón que <m>f</m> es la función dada en <xref ref="F-5-2-Act1">Figura</xref>
+      y que <m>f</m> es una función a trozos cuyas partes son porciones de líneas o porciones de círculos,
+      como se muestra.
     </p>
 
     <figure xml:id="F-5-2-Act1" permid="YoP">
-      <caption>At left, the graph of <m>y = f(x)</m>.  At right, axes for sketching <m>y = A(x)</m>.</caption>
+      <caption>A la izquierda, el gráfico de <m>y = f(x)</m>. A la derecha, ejes para dibujar <m>y = A(x)</m>.</caption>
       <image width="100%" source="images/5_2_Act1" />
     </figure>
 
     <p permid="shG">
-      In addition,
-      let <m>A</m> be the function defined by the rule <m>A(x) = \int_2^x f(t) \, dt</m>.
+      Además,
+      sea <m>A</m> la función definida por la regla <m>A(x) = \int_2^x f(t) \, dt</m>.
 
       <ol marker="a." permid="BWR">
         <li permid="iea">
           <p permid="ARy">
-            What does the Second FTC tell us about the relationship between <m>A</m> and <m>f</m>?
+            ¿Qué nos dice el Segundo TFC sobre la relación entre <m>A</m> y <m>f</m>?
           </p>
         </li>
 
         <li permid="Olj">
           <p permid="gYH">
-            Compute <m>A(1)</m> and <m>A(3)</m> exactly.
+            Calcula <m>A(1)</m> y <m>A(3)</m> exactamente.
           </p>
         </li>
 
         <li permid="uss">
           <p permid="NfQ">
-            Sketch a precise graph of
-            <m>y = A(x)</m> on the axes at right that accurately reflects where <m>A</m> is increasing and decreasing,
-            where <m>A</m> is concave up and concave down,
-            and the exact values of <m>A</m> at <m>x = 0, 1, \ldots, 7</m>.
+            Dibuja un gráfico preciso de
+            <m>y = A(x)</m> en los ejes a la derecha que refleje con precisión dónde <m>A</m> está aumentando y disminuyendo,
+            dónde <m>A</m> es cóncava hacia arriba y cóncava hacia abajo,
+            y los valores exactos de <m>A</m> en <m>x = 0, 1, \ldots, 7</m>.
           </p>
         </li>
 
         <li permid="azB">
           <p permid="tmZ">
-            How is <m>A</m> similar to, but different from,
-            the function <m>F</m> that you found in <xref ref="act-5-1-1">Activity</xref>?
+            ¿En qué se parece <m>A</m> a, pero es diferente de,
+            la función <m>F</m> que encontraste en <xref ref="act-5-1-1">Actividad</xref>?
           </p>
         </li>
 
         <li permid="GGK">
           <p permid="Zui">
-            With as little additional work as possible,
-            sketch precise graphs of the functions
-            <m>B(x) = \int_3^x f(t) \, dt</m> and <m>C(x) = \int_1^x f(t) \, dt</m>.
-            Justify your results with at least one sentence of explanation.
+            Con el menor trabajo adicional posible,
+            dibuja gráficos precisos de las funciones
+            <m>B(x) = \int_3^x f(t) \, dt</m> y <m>C(x) = \int_1^x f(t) \, dt</m>.
+            Justifica tus resultados con al menos una frase de explicación.
           </p>
         </li>
       </ol>
@@ -74,32 +74,32 @@
       <ol marker="a." permid="VPI">
         <li permid="mNT">
           <p permid="FBr">
-            If you don't recall it,
-            review the statement of the Second FTC above.
+            Si no lo recuerdas,
+            revisa la declaración del Segundo TFC arriba.
           </p>
         </li>
 
         <li permid="SVc">
           <p permid="lIA">
-            Note that <m>A(1)= \int_2^1 f(t) \, dt</m>.
+            Nota que <m>A(1)= \int_2^1 f(t) \, dt</m>.
           </p>
         </li>
 
         <li permid="zcl">
           <p permid="RPJ">
-            Don't miss our key conclusion from (a).
+            No te pierdas nuestra conclusión clave de (a).
           </p>
         </li>
 
         <li permid="fju">
           <p permid="xWS">
-            Compare the values of <m>A(1)</m> and <m>F(1)</m>.
+            Compara los valores de <m>A(1)</m> y <m>F(1)</m>.
           </p>
         </li>
 
         <li permid="LqD">
           <p permid="eeb">
-            What does the Second FTC tell us about the relationship between <m>B</m> and <m>f</m>?
+            ¿Qué nos dice el Segundo TFC sobre la relación entre <m>B</m> y <m>f</m>?
           </p>
         </li>
       </ol>
@@ -122,25 +122,25 @@
 
         <li permid="DMe">
           <p permid="WzC">
-            <m>A</m> is increasing wherever <m>f</m> is positive;
-            <m>A</m> is CCU wherever <m>f</m> is increasing. <m>A(2) = 0</m>,
+            <m>A</m> está aumentando donde <m>f</m> es positivo;
+            <m>A</m> es cóncava hacia arriba donde <m>f</m> está aumentando. <m>A(2) = 0</m>,
             <m>A(3) = -0.5</m>, <m>A(4) = -1.5</m>, <m>A(5) = -2</m>,
             <m>A(6) = -2 + \frac{\pi}{4}</m>,
-            and <m>A(7) = -2 + \frac{\pi}{2}</m>.
+            y <m>A(7) = -2 + \frac{\pi}{2}</m>.
           </p>
         </li>
 
         <li permid="jTn">
           <p permid="CGL">
-            <m>F</m> and <m>A</m> differ by the constant <m>\frac{\pi}{4} - \frac{1}{2}</m>.
+            <m>F</m> y <m>A</m> difieren por la constante <m>\frac{\pi}{4} - \frac{1}{2}</m>.
           </p>
         </li>
 
         <li permid="Qaw">
           <p permid="iNU">
-            <m>B</m> and <m>C</m> have the same shape as <m>A</m> and <m>F</m>,
-            and differ from <m>A</m> by a constant.
-            Observe that <m>B(3) = 0</m> and <m>C(1) = 0</m>.
+            <m>B</m> y <m>C</m> tienen la misma forma que <m>A</m> y <m>F</m>,
+            y difieren de <m>A</m> por una constante.
+            Observa que <m>B(3) = 0</m> y <m>C(1) = 0</m>.
           </p>
         </li>
       </ol>
@@ -151,53 +151,52 @@
       <ol marker="a." permid="JBq">
         <li permid="whF">
           <p permid="OVd">
-            By the Second FTC, <m>A'(x) = f(x)</m>.
+            Por el Segundo TFC, <m>A'(x) = f(x)</m>.
           </p>
         </li>
 
         <li permid="coO">
           <p permid="vcm">
-            Since <m>A(1)= \int_2^1 f(t) \, dt = -\int_1^2 f(t) \, dt</m>,
-            it follows <m>A(1) = -\frac{\pi}{4}</m>.
+            Dado que <m>A(1)= \int_2^1 f(t) \, dt = -\int_1^2 f(t) \, dt</m>,
+            se sigue que <m>A(1) = -\frac{\pi}{4}</m>.
           </p>
         </li>
 
         <li permid="IvX">
           <p permid="bjv">
-            Note that <m>A</m> is increasing wherever <m>f</m> is positive,
-            and <m>A</m> is CCU wherever <m>f</m> is increasing.
-            Similar conclusions follow for <m>A</m> being decreasing and/or concave down.
-            Moreover, <m>A(2) = 0</m>,
+            Nota que <m>A</m> está aumentando donde <m>f</m> es positivo,
+            y <m>A</m> es cóncava hacia arriba donde <m>f</m> está aumentando.
+            Conclusiones similares se siguen para <m>A</m> disminuyendo y/o cóncava hacia abajo.
+            Además, <m>A(2) = 0</m>,
             <m>A(3) = -0.5</m>, <m>A(4) = -1.5</m>, <m>A(5) = -2</m>,
             <m>A(6) = -2 + \frac{\pi}{4}</m>,
-            and <m>A(7) = -2 + \frac{\pi}{2}</m>.
+            y <m>A(7) = -2 + \frac{\pi}{2}</m>.
           </p>
         </li>
 
         <li permid="oDg">
           <p permid="HqE">
-            In our current example,
-            <m>A</m> is an antiderivative of <m>f</m> that satisfies <m>A(0) = -\frac{1}{2} - \frac{\pi}{4}</m>.
-            Our earlier work with <m>F</m> showed that <m>F</m> is an antiderivative of <m>F</m> that satisfied <m>F(0) = -1</m>.
-            Since <m>F</m> and <m>A</m> are both antiderivatives of <m>f</m>,
-            they differ by a constant,
-            and that constant is <m>-1 - (-\frac{1}{2} - \frac{\pi}{4}) = \frac{\pi}{4} - \frac{1}{2}</m>.
+            En nuestro ejemplo actual,
+            <m>A</m> es una antiderivada de <m>f</m> que satisface <m>A(0) = -\frac{1}{2} - \frac{\pi}{4}</m>.
+            Nuestro trabajo anterior con <m>F</m> mostró que <m>F</m> es una antiderivada de <m>F</m> que satisfacía <m>F(0) = -1</m>.
+            Dado que <m>F</m> y <m>A</m> son ambas antiderivadas de <m>f</m>,
+            difieren por una constante,
+            y esa constante es <m>-1 - (-\frac{1}{2} - \frac{\pi}{4}) = \frac{\pi}{4} - \frac{1}{2}</m>.
           </p>
         </li>
 
         <li permid="UKp">
           <p permid="nxN">
-            The Second FTC tells us that <m>B' = f</m> and <m>C' = f</m>.
-            Thus,
-            <m>B</m> and <m>C</m> are each antiderivatives of <m>f</m>,
-            have the same shape as <m>A</m> and <m>F</m>,
-            and each differ from <m>A</m> by just a constant.
-            Observing that <m>B(3) = 0</m> and
-            <m>C(1) = 0</m> enables us to easily sketch these shifted versions of <m>A</m>.
+            El Segundo TFC nos dice que <m>B' = f</m> y <m>C' = f</m>.
+            Así,
+            <m>B</m> y <m>C</m> son cada una antiderivadas de <m>f</m>,
+            tienen la misma forma que <m>A</m> y <m>F</m>,
+            y cada una difiere de <m>A</m> solo por una constante.
+            Observar que <m>B(3) = 0</m> y
+            <m>C(1) = 0</m> nos permite dibujar fácilmente estas versiones desplazadas de <m>A</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

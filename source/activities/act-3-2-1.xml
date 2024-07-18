@@ -15,49 +15,49 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-2-1" permid="wQz">
   <statement>
     <p permid="YnP">
-      Consider the family of functions defined by <m>p(x) = x^3 - ax</m>,
-      where <m>a \ne 0</m> is an arbitrary constant.
+      Considera la familia de funciones definidas por <m>p(x) = x^3 - ax</m>,
+      donde <m>a \ne 0</m> es una constante arbitraria.
 
       <ol marker="a." permid="zbl">
         <li permid="fiu">
           <p permid="FAr">
-            Find <m>p'(x)</m> and determine the critical numbers of <m>p</m>.
-            How many critical numbers does <m>p</m> have?
+            Encuentra <m>p'(x)</m> y determina los números críticos de <m>p</m>.
+            ¿Cuántos números críticos tiene <m>p</m>?
           </p>
         </li>
 
         <li permid="LpD">
           <p permid="lHA">
-            Construct a first derivative sign chart for <m>p</m>.
-            What can you say about the overall behavior of <m>p</m> if the constant <m>a</m> is positive?
-            Why?
-            What if the constant <m>a</m> is negative?
-            In each case, describe the relative extremes of <m>p</m>.
+            Construye un gráfico de signos de la primera derivada para <m>p</m>.
+            ¿Qué puedes decir sobre el comportamiento general de <m>p</m> si la constante <m>a</m> es positiva?
+            ¿Por qué?
+            ¿Qué pasa si la constante <m>a</m> es negativa?
+            En cada caso, describe los extremos relativos de <m>p</m>.
           </p>
         </li>
 
         <li permid="rwM">
           <p permid="ROJ">
-            Find <m>p''(x)</m> and construct a second derivative sign chart for <m>p</m>.
-            What does this tell you about the concavity of <m>p</m>?
-            What role does <m>a</m> play in determining the concavity of <m>p</m>?
+            Encuentra <m>p''(x)</m> y construye un gráfico de signos de la segunda derivada para <m>p</m>.
+            ¿Qué te dice esto sobre la concavidad de <m>p</m>?
+            ¿Qué papel juega <m>a</m> en la determinación de la concavidad de <m>p</m>?
           </p>
         </li>
 
         <li permid="XDV">
           <p permid="xVS">
-            Without using a graphing utility,
-            sketch and label typical graphs of <m>p(x)</m> for the cases where <m>a\gt 0</m> and <m>a \lt 0</m>.
-            Label all inflection points and local extrema.
+            Sin usar una herramienta de graficación,
+            dibuja y etiqueta gráficos típicos de <m>p(x)</m> para los casos donde <m>a\gt 0</m> y <m>a \lt 0</m>.
+            Etiqueta todos los puntos de inflexión y los extremos locales.
           </p>
         </li>
 
         <li permid="DLe">
           <p permid="edb">
-            Finally,
-            use a graphing utility to test your observations above by entering and plotting the function
-            <m>p(x) = x^3 - ax</m> for at least four different values of <m>a</m>.
-            Write several sentences to describe your overall conclusions about how the behavior of <m>p</m> depends on <m>a</m>.
+            Finalmente,
+            usa una herramienta de graficación para probar tus observaciones anteriores ingresando y graficando la función
+            <m>p(x) = x^3 - ax</m> para al menos cuatro valores diferentes de <m>a</m>.
+            Escribe varias oraciones para describir tus conclusiones generales sobre cómo el comportamiento de <m>p</m> depende de <m>a</m>.
           </p>
         </li>
       </ol>
@@ -68,28 +68,28 @@
       <ol marker="a." permid="SUc">
         <li permid="jSn">
           <p permid="qrt">
-            When solving <m>p'(x) = 0</m>,
-            think about two possible cases:
-            when <m>a\gt 0</m> and when <m>a \lt 0</m>.
+            Al resolver <m>p'(x) = 0</m>,
+            piensa en dos casos posibles:
+            cuando <m>a\gt 0</m> y cuando <m>a \lt 0</m>.
           </p>
         </li>
 
         <li permid="PZw">
           <p permid="WyC">
-            Remember that any quadratic function can be zero at most two times.
-            How does the graph of <m>y = 3x^2 - a</m> look?
+            Recuerda que cualquier función cuadrática puede ser cero como máximo dos veces.
+            ¿Cómo se ve el gráfico de <m>y = 3x^2 - a</m>?
           </p>
         </li>
 
         <li permid="wgF">
           <p permid="CFL">
-            Don't forget that <m>\frac{d}{dx}[a] = 0</m>.
+            No olvides que <m>\frac{d}{dx}[a] = 0</m>.
           </p>
         </li>
 
         <li permid="cnO">
           <p permid="iMU">
-            Think about how a typical cubic polynomial's graph behaves.
+            Piensa en cómo se comporta el gráfico de un polinomio cúbico típico.
           </p>
         </li>
       </ol>
@@ -100,23 +100,23 @@
       <ol marker="a." permid="mMT">
         <li permid="IuX">
           <p permid="OUd">
-            <m>p</m> has two critical numbers (<m>x = \pm \sqrt{\frac{a}{3}}</m>) whenever <m>a \gt 0</m> and no critical numbers when <m>a \lt 0</m>.
+            <m>p</m> tiene dos números críticos (<m>x = \pm \sqrt{\frac{a}{3}}</m>) siempre que <m>a \gt 0</m> y no tiene números críticos cuando <m>a \lt 0</m>.
           </p>
         </li>
 
         <li permid="oCg">
           <p permid="vbm">
-            When <m>a \lt 0</m>,
-            <m>p</m> is always increasing and has no relative extreme values.
-            When <m>a\gt 0</m>, <m>p</m> has a relative maximum at
-            <m>x = -\sqrt{\frac{a}{3}}</m> and a relative minimum at <m>x = +\sqrt{\frac{a}{3}}</m>.
+            Cuando <m>a \lt 0</m>,
+            <m>p</m> siempre está aumentando y no tiene valores extremos relativos.
+            Cuando <m>a\gt 0</m>, <m>p</m> tiene un máximo relativo en
+            <m>x = -\sqrt{\frac{a}{3}}</m> y un mínimo relativo en <m>x = +\sqrt{\frac{a}{3}}</m>.
           </p>
         </li>
 
         <li permid="UJp">
           <p permid="biv">
-            <m>p</m> is CCD for <m>x \lt 0</m> and <m>p</m> is CCU for <m>x\gt 0</m>,
-            making <m>x = 0</m> an inflection point.
+            <m>p</m> es cóncava hacia abajo para <m>x \lt 0</m> y <m>p</m> es cóncava hacia arriba para <m>x\gt 0</m>,
+            haciendo de <m>x = 0</m> un punto de inflexión.
           </p>
         </li>
 
@@ -135,66 +135,66 @@
       <ol marker="a." permid="GFK">
         <li permid="gXH">
           <p permid="HpE">
-            We first note that <m>p'(x) = 3x^2 - a</m>,
-            so to find critical numbers we set
-            <m>p'(x) = 0</m> and solve for <m>x</m>.
-            This leads to the equation <m>3x^2 - a = 0</m>,
-            which implies
+            Primero notamos que <m>p'(x) = 3x^2 - a</m>,
+            así que para encontrar los números críticos establecemos
+            <m>p'(x) = 0</m> y resolvemos para <m>x</m>.
+            Esto lleva a la ecuación <m>3x^2 - a = 0</m>,
+            lo que implica
             <me permid="EuY">
               x^2 = \frac{a}{3}
             </me>.
-            If <m>a \gt 0</m>,
-            then the solutions to this equation are <m>x = \pm \sqrt{\frac{a}{3}}</m>;
-            if <m>a \lt  0</m>, then the equation has no solution.
-            Hence,
-            <m>p</m> has two critical numbers (<m>x = \pm \sqrt{\frac{a}{3}}</m>) whenever <m>a \gt 0</m> and no critical numbers when <m>a \lt  0</m>.
+            Si <m>a \gt 0</m>,
+            entonces las soluciones a esta ecuación son <m>x = \pm \sqrt{\frac{a}{3}}</m>;
+            si <m>a \lt  0</m>, entonces la ecuación no tiene solución.
+            Por lo tanto,
+            <m>p</m> tiene dos números críticos (<m>x = \pm \sqrt{\frac{a}{3}}</m>) siempre que <m>a \gt 0</m> y no tiene números críticos cuando <m>a \lt  0</m>.
           </p>
         </li>
 
         <li permid="NeQ">
           <p permid="nwN">
-            For the case when <m>a \lt 0</m>,
-            we observe that <m>p'(x) = 3x^2 - a</m> is positive for every value of <m>x</m>,
-            and thus <m>p</m> is always increasing and has no relative extreme values.
-            (There are no critical numbers to place on the first derivative sign chart,
-            and <m>p'</m> is always positive.)
-            For the case when <m>a\gt 0</m>,
-            we observe that <m>p'(x) = 3x^2 - a</m> is a concave up parabola with zeros at
-            <m>x = -\sqrt{\frac{a}{3}}</m> and <m>x = +\sqrt{\frac{a}{3}}</m>.
-            It follows that for <m>x \lt -\sqrt{\frac{a}{3}}</m>,
+            Para el caso cuando <m>a \lt 0</m>,
+            observamos que <m>p'(x) = 3x^2 - a</m> es positivo para cada valor de <m>x</m>,
+            y por lo tanto <m>p</m> siempre está aumentando y no tiene valores extremos relativos.
+            (No hay números críticos para colocar en el gráfico de signos de la primera derivada,
+            y <m>p'</m> siempre es positivo.)
+            Para el caso cuando <m>a\gt 0</m>,
+            observamos que <m>p'(x) = 3x^2 - a</m> es una parábola cóncava hacia arriba con ceros en
+            <m>x = -\sqrt{\frac{a}{3}}</m> y <m>x = +\sqrt{\frac{a}{3}}</m>.
+            Se sigue que para <m>x \lt -\sqrt{\frac{a}{3}}</m>,
             <m>p'(x)\gt 0</m>
-            (so <m>p</m> is increasing);
-            for <m>-\sqrt{\frac{a}{3}} \lt x \lt \sqrt{\frac{a}{3}}</m>,
-            <m>p'(x)\gt 0</m> (so <m>p</m> is decreasing);
-            and for <m>x\gt \sqrt{\frac{a}{3}}</m>,
+            (así que <m>p</m> está aumentando);
+            para <m>-\sqrt{\frac{a}{3}} \lt x \lt \sqrt{\frac{a}{3}}</m>,
+            <m>p'(x)\gt 0</m> (así que <m>p</m> está disminuyendo);
+            y para <m>x\gt \sqrt{\frac{a}{3}}</m>,
             <m>p'(x)\gt 0</m>
-            (so <m>p</m> is again increasing).
-            In this situation, we see that <m>p</m> has a relative maximum at
-            <m>x = -\sqrt{\frac{a}{3}}</m> and a relative minimum at <m>x = +\sqrt{\frac{a}{3}}</m>.
+            (así que <m>p</m> está nuevamente aumentando).
+            En esta situación, vemos que <m>p</m> tiene un máximo relativo en
+            <m>x = -\sqrt{\frac{a}{3}}</m> y un mínimo relativo en <m>x = +\sqrt{\frac{a}{3}}</m>.
           </p>
         </li>
 
         <li permid="tlZ">
           <p permid="TDW">
-            Since <m>p'(x) = 3x^2 - a</m> and <m>a</m> is constant,
-            it follows that <m>p''(x) = 6x</m>.
-            Note that <m>p''(x) = 0</m> when <m>x = 0</m> and that
-            <m>p''(x) \lt 0</m> for <m>x \lt 0</m> and <m>p''(x)\gt 0</m> for <m>x\gt 0</m>.
-            Hence <m>p</m> is CCD for <m>x \lt 0</m> and <m>p</m> is CCU for <m>x\gt 0</m>,
-            making <m>x = 0</m> an inflection point.
+            Dado que <m>p'(x) = 3x^2 - a</m> y <m>a</m> es constante,
+            se sigue que <m>p''(x) = 6x</m>.
+            Nota que <m>p''(x) = 0</m> cuando <m>x = 0</m> y que
+            <m>p''(x) \lt 0</m> para <m>x \lt 0</m> y <m>p''(x)\gt 0</m> para <m>x\gt 0</m>.
+            Por lo tanto, <m>p</m> es cóncava hacia abajo para <m>x \lt 0</m> y <m>p</m> es cóncava hacia arriba para <m>x\gt 0</m>,
+            haciendo de <m>x = 0</m> un punto de inflexión.
           </p>
         </li>
 
         <li permid="Zti">
           <p permid="zLf">
-            Below, we show the two possible situations.
-            At left,
-            for the case when <m>a \lt 0</m> and <m>p</m> is always increasing with an inflection point at <m>x = 0</m>,
-            and at right for when <m>a\gt 0</m> and <m>p</m> has a relative maximum at
-            <m>x = -\sqrt{\frac{a}{3}}</m> and a relative minimum at <m>x = +\sqrt{\frac{a}{3}}</m>,
-            again with an inflection point at <m>x = 0</m>.
-            Note, too,
-            that <m>p</m> has its <m>x</m>-intercepts at <m>x = \pm \sqrt{a}</m>.
+            A continuación, mostramos las dos situaciones posibles.
+            A la izquierda,
+            para el caso cuando <m>a \lt 0</m> y <m>p</m> siempre está aumentando con un punto de inflexión en <m>x = 0</m>,
+            y a la derecha para cuando <m>a\gt 0</m> y <m>p</m> tiene un máximo relativo en
+            <m>x = -\sqrt{\frac{a}{3}}</m> y un mínimo relativo en <m>x = +\sqrt{\frac{a}{3}}</m>,
+            nuevamente con un punto de inflexión en <m>x = 0</m>.
+            Nota, también,
+            que <m>p</m> tiene sus intersecciones con el eje <m>x</m> en <m>x = \pm \sqrt{a}</m>.
           </p>
 
           <sidebyside width="80%" permid="QJq">
@@ -206,4 +206,3 @@
     </p>
   </solution>
 </activity>
-

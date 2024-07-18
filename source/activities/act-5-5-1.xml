@@ -15,28 +15,28 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-5-5-1" permid="TTE">
   <statement>
     <p permid="byd">
-      For each of the following problems,
-      evaluate the integral by using the partial fraction decomposition provided.
+      Para cada uno de los siguientes problemas,
+      evalúa la integral usando la descomposición en fracciones parciales proporcionada.
 
       <ol marker="a." permid="LFl">
         <li permid="rMu">
           <p permid="Nuy">
             <m>\int \frac{1}{x^2 - 2x - 3} \, dx</m>,
-            given that <m>\frac{1}{x^2 - 2x - 3} = \frac{1/4}{x-3} - \frac{1/4}{x+1}</m>
+            dado que <m>\frac{1}{x^2 - 2x - 3} = \frac{1/4}{x-3} - \frac{1/4}{x+1}</m>
           </p>
         </li>
 
         <li permid="XTD">
           <p permid="tBH">
             <m>\int \frac{x^2+1}{x^3 - x^2} \, dx</m>,
-            given that <m>\frac{x^2+1}{x^3 - x^2} = -\frac{1}{x} - \frac{1}{x^2} + \frac{2}{x-1}</m>
+            dado que <m>\frac{x^2+1}{x^3 - x^2} = -\frac{1}{x} - \frac{1}{x^2} + \frac{2}{x-1}</m>
           </p>
         </li>
 
         <li permid="EaM">
           <p permid="ZIQ">
             <m>\int \frac{x-2}{x^4 + x^2}\, dx</m>,
-            given that <m>\frac{x-2}{x^4 + x^2} = \frac{1}{x} - \frac{2}{x^2} + \frac{-x+2}{1+x^2}</m>
+            dado que <m>\frac{x-2}{x^4 + x^2} = \frac{1}{x} - \frac{2}{x^2} + \frac{-x+2}{1+x^2}</m>
           </p>
         </li>
       </ol>
@@ -105,16 +105,16 @@
 
         <li permid="hnp">
           <p permid="CVt">
-            By the partial fractions decomposition,
+            Por la descomposición en fracciones parciales,
             <m>\int \frac{x-2}{x^4 + x^2}\, dx = \int \frac{1}{x} - \frac{2}{x^2} + \frac{-x+2}{1+x^2} \, dx </m>.
-            Observing that <m>\frac{-x+2}{1+x^2} = \frac{-x}{1+x^2}+\frac{2}{1+x^2}</m>,
-            it now follows that
+            Observando que <m>\frac{-x+2}{1+x^2} = \frac{-x}{1+x^2}+\frac{2}{1+x^2}</m>,
+            ahora sigue que
             <me permid="HFm">
               \int \frac{x-2}{x^4 + x^2}\, dx = \int \frac{1}{x} - \frac{2}{x^2} - \frac{x}{1+x^2} + \frac{2}{1+x^2} \, dx
             </me>.
-            Noting that <m>\int \frac{x}{1+x^2} \, dx</m> can be evaluated by the <m>u</m>-substitution <m>u=1+x^2</m>,
-            we see that <m>\int \frac{x}{1+x^2} \, dx = \frac{1}{2} \ln|1+x^2| + C</m>.
-            Thus
+            Notando que <m>\int \frac{x}{1+x^2} \, dx</m> se puede evaluar por la sustitución <m>u</m> <m>u=1+x^2</m>,
+            vemos que <m>\int \frac{x}{1+x^2} \, dx = \frac{1}{2} \ln|1+x^2| + C</m>.
+            Así que
             <me permid="nMv">
               \int \frac{x-2}{x^4 + x^2}\, dx = \int \frac{1}{x} - \frac{2}{x^2} - \frac{x}{1+x^2} + \frac{2}{1+x^2} \, dx = \ln|x| + 2x^{-1} - \frac{1}{2} \ln|1+x^2| + 2\arctan(x) + C
             </me>.
@@ -124,4 +124,3 @@
     </p>
   </solution>
 </activity>
-

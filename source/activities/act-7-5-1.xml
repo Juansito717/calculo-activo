@@ -15,49 +15,49 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-7-5-1" permid="yIm">
   <statement>
     <p permid="Jhr">
-      Suppose you have a bank account that grows by 5% every year.
-      Let <m>A(t)</m> be the amount of money in the account in year <m>t</m>.
+      Supón que tienes una cuenta bancaria que crece un 5% cada año.
+      Sea <m>A(t)</m> la cantidad de dinero en la cuenta en el año <m>t</m>.
 
       <ol marker="a." permid="zdL">
         <li permid="fkU">
           <p permid="xYs">
-            What is the rate of change of <m>A</m> with respect to <m>t</m>?
+            ¿Cuál es la tasa de cambio de <m>A</m> con respecto a <m>t</m>?
           </p>
         </li>
 
         <li permid="rzm">
           <p permid="efB">
-            Suppose that you are also withdrawing $10,000 per year.
-            Write a differential equation that expresses the total rate of change of <m>A</m>.
+            Supón que también estás retirando $10,000 por año.
+            Escribe una ecuación diferencial que exprese la tasa total de cambio de <m>A</m>.
           </p>
         </li>
 
         <li permid="XGv">
           <p permid="KmK">
-            Sketch a slope field for this differential equation,
-            find any equilibrium solutions,
-            and identify them as either stable or unstable.
-            Write a sentence or two that describes the significance of the stability of the equilibrium solution.
+            Dibuja un campo de pendientes para esta ecuación diferencial,
+            encuentra cualquier solución de equilibrio,
+            e identifícalas como estables o inestables.
+            Escribe una o dos frases que describan la importancia de la estabilidad de la solución de equilibrio.
           </p>
         </li>
 
         <li permid="DNE">
           <p permid="qtT">
-            Suppose that you initially deposit $100,000 into the account.
-            How long does it take for you to deplete the account?
+            Supón que inicialmente depositas $100,000 en la cuenta.
+            ¿Cuánto tiempo te lleva agotar la cuenta?
           </p>
         </li>
 
         <li permid="jUN">
           <p permid="WBc">
-            What is the smallest amount of money you would need to have in the account to guarantee that you never deplete the money in the account?
+            ¿Cuál es la cantidad mínima de dinero que necesitarías tener en la cuenta para garantizar que nunca agotes el dinero en la cuenta?
           </p>
         </li>
 
         <li permid="QbW">
           <p permid="CIl">
-            If your initial deposit is $300,000,
-            how much could you withdraw every year without depleting the account?
+            Si tu depósito inicial es de $300,000,
+            ¿cuánto podrías retirar cada año sin agotar la cuenta?
           </p>
         </li>
       </ol>
@@ -68,7 +68,7 @@
       <ol marker="a." permid="SWC">
         <li permid="wjf">
           <p permid="iPu">
-            Small hints for each of the prompts above.
+            Pequeñas pistas para cada uno de los puntos anteriores.
           </p>
         </li>
       </ol>
@@ -85,8 +85,7 @@
 
         <li permid="Ixx">
           <p permid="vdM">
-            <m>
-            \frac{dA}{dt} = 0.05A - 10000</m>.
+            <m>\frac{dA}{dt} = 0.05A - 10000</m>.
           </p>
         </li>
 
@@ -97,25 +96,25 @@
           </sidebyside>
 
           <p permid="bkV">
-            The only equilibrium solution is <m>A = 200000</m>.
+            La única solución de equilibrio es <m>A = 200000</m>.
           </p>
         </li>
 
         <li permid="ULP">
           <p permid="Hse">
-            <m>t = 20 \ln(2) \approx 13.86</m>years.
+            <m>t = 20 \ln(2) \approx 13.86</m> años.
           </p>
         </li>
 
         <li permid="ASY">
           <p permid="nzn">
-            At least $200000.
+            Al menos $200000.
           </p>
         </li>
 
         <li permid="hah">
           <p permid="TGw">
-            Up to $15000 every year.
+            Hasta $15000 cada año.
           </p>
         </li>
       </ol>
@@ -123,18 +122,18 @@
   </answer>
   <solution permid="OmJ">
     <p permid="QLQ">
-      Let <m>A(t)</m> be the amount of money in a bank account in year <m>t</m> that grows by 5% every year.
+      Sea <m>A(t)</m> la cantidad de dinero en una cuenta bancaria en el año <m>t</m> que crece un 5% cada año.
 
       <ol marker="a." permid="GIk">
         <li permid="Nhq">
           <p permid="zNF">
-            The rate of change of <m>A</m> with respect to <m>t</m> is <m>\frac{dA}{dt} = 0.05A</m>.
+            La tasa de cambio de <m>A</m> con respecto a <m>t</m> es <m>\frac{dA}{dt} = 0.05A</m>.
           </p>
         </li>
 
         <li permid="toz">
           <p permid="fUO">
-            If $10000 is being withdrawn every year, then
+            Si se retiran $10000 cada año, entonces
             <me permid="poA">
               \frac{dA}{dt} = 0.05A - 10000
             </me>.
@@ -143,7 +142,7 @@
 
         <li permid="ZvI">
           <p permid="MbX">
-            Following is a slope field for the differential equation in (b).
+            A continuación se muestra un campo de pendientes para la ecuación diferencial en (b).
           </p>
 
           <sidebyside width="50%" permid="SBd">
@@ -154,62 +153,61 @@
           </sidebyside>
 
           <p permid="sjg">
-            Equilibrium solutions occur where
-            <m>\frac{dA}{dt} = 0</m> and so the only equilibriume solution is <m>A = 200000</m>.
-            This means that if you have $200000 in the account,
-            then the amount of money in the account will remain constant at $200000.
+            Las soluciones de equilibrio ocurren donde
+            <m>\frac{dA}{dt} = 0</m> y así la única solución de equilibrio es <m>A = 200000</m>.
+            Esto significa que si tienes $200000 en la cuenta,
+            entonces la cantidad de dinero en la cuenta permanecerá constante en $200000.
           </p>
         </li>
 
         <li permid="FCR">
           <p permid="Yqp">
-            Suppose we initially have $100000 in the account.
-            We will solve the intitial value problem
+            Supón que inicialmente tenemos $100000 en la cuenta.
+            Resolveremos el problema de valor inicial
             <me permid="VvJ">
               \frac{dA}{dt} = 0.05A - 10000,   A(0) = 100000
             </me>.
-            Using separation of variables, we find that
+            Usando separación de variables, encontramos que
             <me permid="BCS">
               A = 200000 + C e^{t/20}
             </me>,
-            and since <m>A(0) = 100000</m>, we have
+            y dado que <m>A(0) = 100000</m>, tenemos
             <me permid="hKb">
               A = 200000 - 100000e^{t/20}
             </me>.
-            To determine when the account will be depleted,
-            we solve the equation <m>A = 0</m> for <m>t</m>.
-            Since <m>200000 - 100000 e^{t/20} = 0</m>,
-            it follows <m>e^{t/20} = 2</m> and thus <m>t = 20 \ln(2)</m>,
-            so the account will be depleted in about 13.86 years.
+            Para determinar cuándo se agotará la cuenta,
+            resolvemos la ecuación <m>A = 0</m> para <m>t</m>.
+            Dado que <m>200000 - 100000 e^{t/20} = 0</m>,
+            se sigue que <m>e^{t/20} = 2</m> y así <m>t = 20 \ln(2)</m>,
+            por lo que la cuenta se agotará en aproximadamente 13.86 años.
           </p>
         </li>
 
         <li permid="lKa">
           <p permid="Exy">
-            You must have at least $200000 in the account to make sure the account will never be depleted.
+            Debes tener al menos $200000 en la cuenta para asegurarte de que la cuenta nunca se agotará.
           </p>
         </li>
 
         <li permid="RRj">
           <p permid="kEH">
-            Now suppose the intitial deposit is $300000 and we want to what amount <m>w</m> we can withdraw every year without depleting the account.
-            So the initial value problem is
+            Ahora supón que el depósito inicial es de $300000 y queremos saber qué cantidad <m>w</m> podemos retirar cada año sin agotar la cuenta.
+            Así que el problema de valor inicial es
             <me permid="NRk">
               \frac{dA}{dt} = 0.05A - w, A(0) = 300000
             </me>.
-            The solution to this initial value problem is
+            La solución a este problema de valor inicial es
             <me permid="tYt">
               A = 20w + (300000 - 20w) e^{t/20}
             </me>.
-            To make sure the account is never depleted,
-            we need <m>(300000 - 20W)</m> to be greater than or equal to 0.
-            Solving the inequality <m>300000 - 2w \geq 0</m>,
-            we obtain <m>w \leq 15000</m>.
-            We can withdraw up to $15000 every year and the account will not be depleted.
+            Para asegurarnos de que la cuenta nunca se agote,
+            necesitamos que <m>(300000 - 20W)</m> sea mayor o igual a 0.
+            Resolviendo la desigualdad <m>300000 - 2w \geq 0</m>,
+            obtenemos <m>w \leq 15000</m>.
+            Podemos retirar hasta $15000 cada año y la cuenta no se agotará.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

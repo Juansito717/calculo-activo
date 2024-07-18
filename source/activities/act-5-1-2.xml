@@ -15,36 +15,36 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-5-1-2" permid="UvU">
   <statement>
     <p permid="PMb">
-      For each of the following functions,
-      sketch an accurate graph of the antiderivative that satisfies the given initial condition.
-      In addition,
-      sketch the graph of two additional antiderivatives of the given function,
-      and state the corresponding initial conditions that each of them satisfy.
-      If possible,
-      find an algebraic formula for the antiderivative that satisfies the initial condition.
+      Para cada una de las siguientes funciones,
+      dibuja un gráfico preciso de la antiderivada que satisface la condición inicial dada.
+      Además,
+      dibuja el gráfico de dos antiderivadas adicionales de la función dada,
+      y menciona las condiciones iniciales correspondientes que cada una de ellas satisface.
+      Si es posible,
+      encuentra una fórmula algebraica para la antiderivada que satisface la condición inicial.
 
       <ol marker="a." permid="dfM">
         <li permid="JmV">
           <p permid="mzy">
-            original function:
-            <m>g(x) = \left| x \right| - 1</m>; initial condition:
-            <m>G(-1) = 0</m>; interval for sketch: <m>[-2,2]</m>
+            función original:
+            <m>g(x) = \left| x \right| - 1</m>; condición inicial:
+            <m>G(-1) = 0</m>; intervalo para el dibujo: <m>[-2,2]</m>
           </p>
         </li>
 
         <li permid="pue">
           <p permid="SGH">
-            original function: <m>h(x) = \sin(x)</m>; initial condition:
-            <m>H(0) = 1</m>; interval for sketch: <m>[0,4\pi]</m>
+            función original: <m>h(x) = \sin(x)</m>; condición inicial:
+            <m>H(0) = 1</m>; intervalo para el dibujo: <m>[0,4\pi]</m>
           </p>
         </li>
 
         <li permid="VBn">
           <p permid="yNQ">
-            original function:
+            función original:
             <m>p(x) = \begin{cases}x^2, \amp \text{ if } 0 \lt x \lt 1 \\ -(x-2)^2, \amp \text{ if } 1 \lt x \lt 2 \\ 0 \amp \text{ otherwise } \end{cases}</m>;
-            initial condition:
-            <m>P(0) = 1</m>; interval for sketch: <m>[-1,3]</m>
+            condición inicial:
+            <m>P(0) = 1</m>; intervalo para el dibujo: <m>[-1,3]</m>
           </p>
         </li>
       </ol>
@@ -82,12 +82,12 @@
       <ol marker="a." permid="QRu">
         <li permid="udX">
           <p permid="Lci">
-            A possible antiderivative <m>G</m> that satifies
-            <m>G(-1) = 0</m> is shown in the figure below,
-            with a possible formula being
-            <m>G(x) = -\frac{1}{2}x^2 - x - \frac{1}{2}</m> for <m>x \lt 0</m> and <m>G(x) = \frac{1}{2}x^2 - x - \frac{1}{2}</m> for <m>x \ge 0</m>.
-            Other antiderivatives that satisfy
-            <m>F(0) = 2</m> and <m>H(0) = 0</m> are also shown.
+            Una posible antiderivada <m>G</m> que satisface
+            <m>G(-1) = 0</m> se muestra en la figura a continuación,
+            con una posible fórmula siendo
+            <m>G(x) = -\frac{1}{2}x^2 - x - \frac{1}{2}</m> para <m>x \lt 0</m> y <m>G(x) = \frac{1}{2}x^2 - x - \frac{1}{2}</m> para <m>x \ge 0</m>.
+            Otras antiderivadas que satisfacen
+            <m>F(0) = 2</m> y <m>H(0) = 0</m> también se muestran.
           </p>
 
           <sidebyside width="50%" permid="IhC">
@@ -98,16 +98,16 @@
 
         <li permid="alg">
           <p permid="rjr">
-            Thinking both graphically and algebraically reveals that the antiderivative we seek is <m>H(x) = -\cos(x) + 2</m>.
-            Any vertical shift of this function will have the same derivative,
-            but will have a different <m>y</m>-intercept.
+            Pensar tanto gráficamente como algebraicamente revela que la antiderivada que buscamos es <m>H(x) = -\cos(x) + 2</m>.
+            Cualquier desplazamiento vertical de esta función tendrá la misma derivada,
+            pero tendrá una diferente intersección con el eje <m>y</m>.
           </p>
         </li>
 
         <li permid="Gsp">
           <p permid="XqA">
-            A possible antiderivative <m>P</m> that satifies
-            <m>P(0) = 1</m> is shown in the figure below.
+            Una posible antiderivada <m>P</m> que satisface
+            <m>P(0) = 1</m> se muestra en la figura a continuación.
           </p>
 
           <sidebyside width="50%" permid="ooL">
@@ -119,4 +119,3 @@
     </p>
   </solution>
 </activity>
-

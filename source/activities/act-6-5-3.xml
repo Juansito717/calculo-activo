@@ -15,12 +15,12 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-6-5-3" permid="IZN">
   <statement>
     <p permid="LUt">
-      For each of the following definite integrals,
-      decide whether the integral is improper or not.
-      If the integral is proper,
-      evaluate it using the First FTC. If the integral is improper,
-      determine whether or not the integral converges or diverges;
-      if the integral converges, find its exact value.
+      Para cada una de las siguientes integrales definidas,
+      decide si la integral es impropia o no.
+      Si la integral es propia,
+      evalúala usando el Primer Teorema Fundamental del Cálculo. Si la integral es impropia,
+      determina si la integral converge o diverge;
+      si la integral converge, encuentra su valor exacto.
 
       <ol marker="a." cols="2" permid="ELt">
         <li permid="kSC">
@@ -66,38 +66,38 @@
       <ol marker="a." permid="YEk">
         <li permid="VJE">
           <p permid="MZM">
-            <m>\frac{1}{x^{1/3}}</m> is undefined at <m>x = 0</m>.
+            <m>\frac{1}{x^{1/3}}</m> no está definida en <m>x = 0</m>.
           </p>
         </li>
 
         <li permid="BQN">
           <p permid="tgV">
-            This integral is a proper one.
+            Esta integral es propia.
           </p>
         </li>
 
         <li permid="hXW">
           <p permid="Zoe">
-            <m>\frac{1}{\sqrt{4-x}}</m> is undefined at <m>x = 4</m>.
+            <m>\frac{1}{\sqrt{4-x}}</m> no está definida en <m>x = 4</m>.
           </p>
         </li>
 
         <li permid="Off">
           <p permid="Fvn">
-            Be careful about what happens at <m>x = 0</m>;
-            split the original integral into two integrals that involve <m>x = 0</m>.
+            Ten cuidado con lo que pasa en <m>x = 0</m>;
+            divide la integral original en dos integrales que involucren <m>x = 0</m>.
           </p>
         </li>
 
         <li permid="umo">
           <p permid="lCw">
-            <m>\tan(x)</m> is undefined at <m>x = \pi/2</m>.
+            <m>\tan(x)</m> no está definida en <m>x = \pi/2</m>.
           </p>
         </li>
 
         <li permid="atx">
           <p permid="RJF">
-            Recall that you know an antiderivative for <m>\frac{1}{\sqrt{1-x^2}}</m>.
+            Recuerda que conoces una antiderivada para <m>\frac{1}{\sqrt{1-x^2}}</m>.
           </p>
         </li>
       </ol>
@@ -126,7 +126,7 @@
 
         <li permid="yWh">
           <p permid="qmp">
-            <m>\int_{-2}^2 \frac{1}{x^2} \, dx</m> diverges.
+            <m>\int_{-2}^2 \frac{1}{x^2} \, dx</m> diverge.
           </p>
         </li>
 
@@ -181,15 +181,15 @@
             <me permid="kxd">
               \int_{-2}^2 \frac{1}{x^2} dx = \int_{-2}^0 \frac{1}{x^2} + \int_{0}^2 \frac{1}{x^2}
             </me>
-            However,
-            each of the improper integrals on the right side of the equation diverges.
-            For example,
+            Sin embargo,
+            cada una de las integrales impropias en el lado derecho de la ecuación diverge.
+            Por ejemplo,
             <md permid="QEm">
               <mrow>\int_{0}^2 \frac{1}{x^2} dx \amp = \lim_{a \to 0^+} \int_{a}^2 \frac{1}{x^2} dx</mrow>
               <mrow>\amp = \lim_{a \to +} \left( -\frac{1}{2} + \frac{1}{a} \right)</mrow>
-              <mrow>\amp = \infty</mrow>
+              <mrow>\amp = \infin</mrow>
             </md>
-            So <m> \int_{-2}^2 \frac{1}{x^2}</m> dx diverges.
+            Así que <m> \int_{-2}^2 \frac{1}{x^2}</m> dx diverge.
           </p>
         </li>
 
@@ -197,8 +197,8 @@
           <p permid="HkA">
             <md permid="wLv">
               <mrow>\int_0^{\pi/2} \tan(x) dx \amp = \lim_{b \to \dfrac{\pi}{2}^+} \int_0^b \tan(x) dx</mrow>
-              <mrow>\amp = \lim_{b \to \dfrac{\pi}{2}^+} \left( -\ln(\cos(b)) + \ln(\cos(0)) \right)</mrow>
-              <mrow>\amp = \infty</mrow>
+              <mrow>\amp = \lim_{b \to \dfrac{\pi}{2}^+} \left( -\ln(\cos(b)) + \ln(\cos(0)) </mrow>
+              <mrow>\amp = \infin</mrow>
             </md>
           </p>
         </li>
@@ -207,7 +207,7 @@
           <p permid="nrJ">
             <md permid="cSE">
               <mrow>\int_0^1 \frac{1}{\sqrt{1-x^2}} dx \amp = \lim_{b \to 1+} \int_0^b \frac{1}{\sqrt{1-x^2}} dx</mrow>
-              <mrow>\amp = \lim_{b \to 1+} \left( \arcsin(b) - \arcsin(0) \right)</mrow>
+              <mrow>\amp = \lim_{b \to 1+} \left( \arcsin(b) - \arcsin(0) </mrow>
               <mrow>\amp = \frac{\pi}{2}</mrow>
             </md>
           </p>
@@ -216,4 +216,3 @@
     </p>
   </solution>
 </activity>
-

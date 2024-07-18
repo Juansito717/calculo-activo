@@ -15,90 +15,57 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-4-4" permid="zpT">
   <statement>
     <p permid="OyR">
-      A trough is being constructed by bending a <m>4 \times 24</m>
-      (measured in feet)
-      rectangular piece of sheet metal.
+      Se está construyendo un canalón doblando una pieza rectangular de chapa de metal de <m>4 \times 24</m> (medida en pies).
     </p>
     <!--<sidebyside widths="47% 47%" margins="0%">-->
     <p permid="uGa">
-      Two symmetric folds 2 feet apart will be made parallel to the longest side of the rectangle so that the trough has cross-sections in the shape of a trapezoid,
-      as pictured in <xref ref="F-3-4-Act4">Figure</xref>.
-      At what angle should the folds be made to produce the trough of maximum volume?
+      Se harán dos pliegues simétricos a 2 pies de distancia paralelos al lado más largo del rectángulo para que el canalón tenga secciones transversales en forma de trapecio, como se muestra en <xref ref="F-3-4-Act4">Figura</xref>. ¿A qué ángulo deben hacerse los pliegues para producir el canalón de máximo volumen?
     </p>
 
     <figure xml:id="F-3-4-Act4" permid="aNj">
-      <caption>A cross-section of the trough formed by folding to an angle of <m>\theta</m>.</caption>
+      <caption>Una sección transversal del canalón formada al doblar a un ángulo de <m>\theta</m>.</caption>
       <image width="47%" source="images/3_4_Act4" />
     </figure>
 <!--</sidebyside>-->
   </statement>
   <hint permid="Rtx">
     <p permid="irI">
-      Drop altitudes from the top of the trough to the base of length 2.
-      In the two triangles that are formed,
-      what are the lengths of the legs in terms of <m>\theta</m>?
+      Deja caer altitudes desde la parte superior del canalón hasta la base de longitud 2. En los dos triángulos que se forman, ¿cuáles son las longitudes de los catetos en términos de <m>\theta</m>?
     </p>
   </hint>
   <answer permid="lmo">
     <p permid="Ckz">
-      <m>A(1.19606) \approx 2.2018</m> is the absolute maximum cross-sectional area,
-      which leads to the absolute maximum volume.
+      <m>A(1.19606) \approx 2.2018</m> es el área máxima absoluta de la sección transversal, lo que lleva al volumen máximo absoluto.
     </p>
   </answer>
   <solution permid="Fff">
     <p permid="xAG">
-      Once we choose the angle <m>\theta</m>,
-      the two right triangles in the trapezoid are determined,
-      and each has a horizontal leg of length
-      <m>\cos(\theta)</m> and a vertical leg of length <m>\sin(\theta)</m>.
-      Thus, the sum of the areas of the two triangles is <m>\sin(\theta) \cos(\theta)</m>,
-      and the area of the rectangle between them is <m>2\sin(\theta)</m>.
-      Hence, the area of the trapezoidal cross-section is <m>A(\theta) = \sin(\theta) \cos(\theta) + 2 \sin(\theta)</m>.
-      Because the length of the trough is constant,
-      the trough's volume will be maximized by maximizing cross-sectional area.
-      Note, too, that the domain for <m>\theta</m> is <m>0 \le \theta \le \frac{\pi}{2}</m>.
+      Una vez que elegimos el ángulo <m>\theta</m>, se determinan los dos triángulos rectángulos en el trapecio, y cada uno tiene un cateto horizontal de longitud <m>\cos(\theta)</m> y un cateto vertical de longitud <m>\sin(\theta)</m>. Así, la suma de las áreas de los dos triángulos es <m>\sin(\theta) \cos(\theta)</m>, y el área del rectángulo entre ellos es <m>2\sin(\theta)</m>. Por lo tanto, el área de la sección transversal trapezoidal es <m>A(\theta) = \sin(\theta) \cos(\theta) + 2 \sin(\theta)</m>. Dado que la longitud del canalón es constante, el volumen del canalón se maximizará maximizando el área de la sección transversal. Nota también que el dominio para <m>\theta</m> es <m>0 \le \theta \le \frac{\pi}{2}</m>.
     </p>
 
     <p permid="dHP">
-      Differentiating, we find that
+      Al diferenciar, encontramos que
       <me permid="GUs">
         A'(\theta) = \sin(\theta) (-\sin(\theta)) + \cos(\theta) \cos(\theta) + 2 \cos(\theta) = -\sin^2(\theta) + \cos^2(\theta) + 2 \cos(\theta)
       </me>.
     </p>
 
     <p permid="JOY">
-      Using the identity <m>\sin^2(\theta) = 1 - \cos^2(\theta)</m>,
-      it follows that
+      Usando la identidad <m>\sin^2(\theta) = 1 - \cos^2(\theta)</m>, se sigue que
       <me permid="nbB">
         A'(\theta) = \cos^2(\theta) - 1 + \cos^2(\theta) + 2 \cos(\theta) = 2\cos^2(\theta) + 2 \cos(\theta) - 1
       </me>.
     </p>
 
     <p permid="pWh">
-      This most recent equation is quadratic in <m>\cos(\theta)</m>,
-      so letting <m>u = \cos(\theta)</m>,
-      we can start to solve the equation
-      <m>A'(\theta) = 0</m> by solving <m>2u^2 + 2u - 1 = 0</m>.
-      Doing so, we find that
+      Esta ecuación más reciente es cuadrática en <m>\cos(\theta)</m>, así que dejando <m>u = \cos(\theta)</m>, podemos empezar a resolver la ecuación <m>A'(\theta) = 0</m> resolviendo <m>2u^2 + 2u - 1 = 0</m>. Haciendo esto, encontramos que
       <me permid="TiK">
         u = \frac{-1 \pm \sqrt{3}}{2} \approx 0.3660254, -1.3660254
-      </me>,
-      so only <m>u = \frac{-1 + \sqrt{3}}{2}</m> will be a potential value of the cosine function from an angle that lies in the interval <m>[0,\frac{\pi}{2}]</m>.
-      Now, recalling that <m>\cos(\theta) = u</m>,
-      to find the critical number <m>\theta</m>,
-      we solve <m>\cos(\theta) = \frac{-1 + \sqrt{3}}{2}</m>,
-      which implies <m>\theta = \arccos(\frac{-1 + \sqrt{3}}{2}) \approx 1.19606</m> radians,
-      or <m>\theta \approx 68.5292^\circ</m>.
+      </me>, así que solo <m>u = \frac{-1 + \sqrt{3}}{2}</m> será un valor potencial de la función coseno de un ángulo que se encuentra en el intervalo <m>[0,\frac{\pi}{2}]</m>. Ahora, recordando que <m>\cos(\theta) = u</m>, para encontrar el número crítico <m>\theta</m>, resolvemos <m>\cos(\theta) = \frac{-1 + \sqrt{3}}{2}</m>, lo que implica <m>\theta = \arccos(\frac{-1 + \sqrt{3}}{2}) \approx 1.19606</m> radianes, o <m>\theta \approx 68.5292^\circ</m>.
     </p>
 
     <p permid="Wdq">
-      Finally, to confirm that <m>A</m> has an absolute maximum at <m>\theta = \arccos(\frac{-1 + \sqrt{3}}{2}) \approx 1.19606</m>,
-      we consider this value as well as the endpoints of <m>[0, \frac{\pi}{2}]</m>,
-      and evaluate <m>A</m> to find that <m>A(0) = 0</m>,
-      <m>A(\frac{\pi}{2}) = 2</m>,
-      and <m>A(1.19606) \approx 2.2018</m>,
-      which is the absolute maximum possible cross-sectional area.
+      Finalmente, para confirmar que <m>A</m> tiene un máximo absoluto en <m>\theta = \arccos(\frac{-1 + \sqrt{3}}{2}) \approx 1.19606</m>, consideramos este valor así como los extremos de <m>[0, \frac{\pi}{2}]</m>, y evaluamos <m>A</m> para encontrar que <m>A(0) = 0</m>, <m>A(\frac{\pi}{2}) = 2</m>, y <m>A(1.19606) \approx 2.2018</m>, que es el área máxima absoluta posible de la sección transversal.
     </p>
   </solution>
 </activity>
-

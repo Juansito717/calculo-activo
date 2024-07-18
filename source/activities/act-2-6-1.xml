@@ -15,7 +15,7 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-6-1" permid="FsN">
   <statement>
     <p permid="UBL">
-      For each function given below, find its derivative.
+      Para cada función dada a continuación, encuentra su derivada.
 
       <ol marker="a." cols="2" permid="eqW">
         <li permid="Kyf">
@@ -55,36 +55,31 @@
       <ol marker="a." permid="yjN">
         <li permid="vph">
           <p permid="OcF">
-            Is <m>h</m> a product, quotient,
-            or composition of basic functions?
+            ¿Es <m>h</m> un producto, cociente o composición de funciones básicas?
           </p>
         </li>
 
         <li permid="bwq">
           <p permid="ujO">
-            Is <m>p</m> a product, quotient,
-            or composition of basic functions?
+            ¿Es <m>p</m> un producto, cociente o composición de funciones básicas?
           </p>
         </li>
 
         <li permid="HDz">
           <p permid="aqX">
-            Is <m>s</m> a product, quotient,
-            or composition of basic functions?
+            ¿Es <m>s</m> un producto, cociente o composición de funciones básicas?
           </p>
         </li>
 
         <li permid="nKI">
           <p permid="Gyg">
-            Is <m>z</m> a product, quotient,
-            or composition of basic functions?
+            ¿Es <m>z</m> un producto, cociente o composición de funciones básicas?
           </p>
         </li>
 
         <li permid="TRR">
           <p permid="mFp">
-            Is <m>m</m> a product, quotient,
-            or composition of basic functions?
+            ¿Es <m>m</m> un producto, cociente o composición de funciones básicas?
           </p>
         </li>
       </ol>
@@ -130,7 +125,7 @@
       <ol marker="a." permid="lVv">
         <li permid="EIT">
           <p permid="Xwr">
-            By the product rule,
+            Por la regla del producto,
             <me permid="AIU">
               h'(x) = x^2\cdot \frac{1}{x} + \ln(x) \cdot 2x = x + 2x\ln(x)
             </me>.
@@ -139,7 +134,7 @@
 
         <li permid="kQc">
           <p permid="DDA">
-            By the quotient rule,
+            Por la regla del cociente,
             <me permid="gQd">
               p'(t) = \frac{(e^t + 1) \frac{1}{t} - \ln(t) \cdot e^t}{(e^t + 1)^2}
             </me>.
@@ -148,7 +143,7 @@
 
         <li permid="QXl">
           <p permid="jKJ">
-            The chain rule tells us that
+            La regla de la cadena nos dice que
             <me permid="MXm">
               s'(y) = \frac{1}{\cos(y) + 2} \cdot (-\sin(y))
             </me>.
@@ -157,7 +152,7 @@
 
         <li permid="xeu">
           <p permid="PRS">
-            Again using the chain rule,
+            Nuevamente usando la regla de la cadena,
             <me permid="tev">
               z'(x) = \sec^2(\ln(x)) \cdot \frac{1}{x}
             </me>.
@@ -166,8 +161,8 @@
 
         <li permid="dlD">
           <p permid="vZb">
-            Noting that <m>m</m> is composite with the natural logarithm function serving as both the inner and outer function,
-            we find that
+            Notando que <m>m</m> es compuesta con la función logaritmo natural sirviendo como la función interna y externa,
+            encontramos que
             <me permid="ZlE">
               m'(z) = \frac{1}{\ln(z)} \cdot \frac{1}{z}
             </me>.
@@ -177,4 +172,3 @@
     </p>
   </solution>
 </activity>
-

@@ -15,79 +15,79 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-6-4-1" permid="zkp">
   <statement>
     <p permid="ime">
-      Consider the following situations in which a varying force accomplishes work.
+      Considera las siguientes situaciones en las que una fuerza variable realiza trabajo.
     </p>
 
     <p permid="Otn">
       <ol marker="a." permid="TyF">
         <li permid="zFO">
           <p permid="eHE">
-            Suppose that a heavy rope hangs over the side of a cliff.
-            The rope is 200 feet long and weighs 0.3 pounds per foot;
-            initially the rope is fully extended.
-            How much work is required to haul in the entire length of the rope? (Hint:
-            set up a function <m>F(h)</m> whose value is the weight of the rope remaining over the cliff after <m>h</m> feet have been hauled in.)
+            Supón que una cuerda pesada cuelga del borde de un acantilado.
+            La cuerda mide 200 pies de largo y pesa 0.3 libras por pie;
+            inicialmente la cuerda está completamente extendida.
+            ¿Cuánto trabajo se requiere para recoger toda la longitud de la cuerda? (Pista:
+            establece una función <m>F(h)</m> cuyo valor sea el peso de la cuerda que queda sobre el acantilado después de haber recogido <m>h</m> pies.)
           </p>
         </li>
 
         <li permid="fMX">
           <p permid="KON">
-            A leaky bucket is being hauled up from a 100 foot deep well.
-            When lifted from the water,
-            the bucket and water together weigh 40 pounds.
-            As the bucket is being hauled upward at a constant rate,
-            the bucket leaks water at a constant rate so that it is losing weight at a rate of 0.1 pounds per foot.
-            What function <m>B(h)</m> tells the weight of the bucket after the bucket has been lifted <m>h</m> feet?
-            What is the total amount of work accomplished in lifting the bucket to the top of the well?
+            Un cubo con fugas está siendo levantado desde un pozo de 100 pies de profundidad.
+            Al ser levantado del agua,
+            el cubo y el agua juntos pesan 40 libras.
+            Mientras el cubo se levanta a una velocidad constante,
+            el cubo pierde agua a una tasa constante de 0.1 libras por pie.
+            ¿Qué función <m>B(h)</m> indica el peso del cubo después de haber sido levantado <m>h</m> pies?
+            ¿Cuál es la cantidad total de trabajo realizado al levantar el cubo hasta la parte superior del pozo?
           </p>
         </li>
 
         <li permid="LUg">
           <p permid="qVW">
-            Now suppose that the bucket in (b) does not leak at a constant rate,
-            but rather that its weight at a height <m>h</m> feet above the water is given by <m>B(h) = 25 + 15e^{-0.05h}</m>.
-            What is the total work required to lift the bucket 100 feet?
-            What is the average force exerted on the bucket on the interval <m>h = 0</m> to <m>h = 100</m>?
+            Ahora supón que el cubo en (b) no tiene fugas a una tasa constante,
+            sino que su peso a una altura <m>h</m> pies sobre el agua está dado por <m>B(h) = 25 + 15e^{-0.05h}</m>.
+            ¿Cuál es el trabajo total requerido para levantar el cubo 100 pies?
+            ¿Cuál es la fuerza promedio ejercida sobre el cubo en el intervalo <m>h = 0</m> a <m>h = 100</m>?
           </p>
         </li>
 
         <li permid="sbp">
           <p permid="Xdf">
-            From physics, <em>Hooke's Law</em>
+            Desde la física, <em>la Ley de Hooke</em>
               <idx><h>Hooke's Law</h></idx>
-            for springs states that the amount of force required to hold a spring that is compressed
-            (or extended)
-            to a particular length is proportionate to the distance the spring is compressed
-            (or extended)
-            from its natural length.
-            That is, the force to compress
-            (or extend)
-            a spring <m>x</m> units from its natural length is
-            <m>F(x) = kx</m> for some constant <m>k</m>
-            (which is called the <em>spring constant</em>.)
-            For springs,
-            we choose to measure the force in pounds and the distance the spring is compressed in feet.
-            Suppose that a force of 5 pounds extends a particular spring 4 inches (1/3 foot) beyond its natural length.
+            para resortes establece que la cantidad de fuerza requerida para mantener un resorte comprimido
+            (o extendido)
+            a una longitud particular es proporcional a la distancia que el resorte está comprimido
+            (o extendido)
+            desde su longitud natural.
+            Es decir, la fuerza para comprimir
+            (o extender)
+            un resorte <m>x</m> unidades desde su longitud natural es
+            <m>F(x) = kx</m> para alguna constante <m>k</m>
+            (que se llama la <em>constante del resorte</em>.)
+            Para los resortes,
+            elegimos medir la fuerza en libras y la distancia que el resorte está comprimido en pies.
+            Supón que una fuerza de 5 libras extiende un resorte particular 4 pulgadas (1/3 pie) más allá de su longitud natural.
           </p>
 
           <p permid="Dko">
             <ol marker="i." permid="QiA">
               <li permid="XMZ">
                 <p permid="fry">
-                  Use the given fact that
-                  <m>F(1/3) = 5</m> to find the spring constant <m>k</m>.
+                  Usa el hecho dado que
+                  <m>F(1/3) = 5</m> para encontrar la constante del resorte <m>k</m>.
                 </p>
               </li>
 
               <li permid="Yiy">
                 <p permid="jrx">
-                  Find the work done to extend the spring from its natural length to 1 foot beyond its natural length.
+                  Encuentra el trabajo realizado para extender el resorte desde su longitud natural hasta 1 pie más allá de su longitud natural.
                 </p>
               </li>
 
               <li permid="EpH">
                 <p permid="PyG">
-                  Find the work required to extend the spring from 1 foot beyond its natural length to 1.5 feet beyond its natural length.
+                  Encuentra el trabajo requerido para extender el resorte desde 1 pie más allá de su longitud natural hasta 1.5 pies más allá de su longitud natural.
                 </p>
               </li>
             </ol>
@@ -101,26 +101,26 @@
       <ol marker="a." permid="nrw">
         <li permid="kwQ">
           <p permid="vFP">
-            Find a linear function <m>B(h)</m> that satisfies
-            <m>B(0) = 200 \cdot 0.3</m> and <m>B(1) = 199 \cdot 0.3</m>
+            Encuentra una función lineal <m>B(h)</m> que satisfaga
+            <m>B(0) = 200 \cdot 0.3</m> y <m>B(1) = 199 \cdot 0.3</m>
           </p>
         </li>
 
         <li permid="QDZ">
           <p permid="bMY">
-            The weight of the bucket is given by a linear function.
+            El peso del cubo está dado por una función lineal.
           </p>
         </li>
 
         <li permid="wLi">
           <p permid="HUh">
-            Recall that work is given by a certain definite integral.
+            Recuerda que el trabajo está dado por una cierta integral definida.
           </p>
         </li>
 
         <li permid="cSr">
           <p permid="obq">
-            Follow the rule for Hooke's Law and then use <m>W = \int_a^b F(x) \, dx</m>.
+            Sigue la regla de la Ley de Hooke y luego usa <m>W = \int_a^b F(x) \, dx</m>.
           </p>
         </li>
       </ol>
@@ -149,7 +149,7 @@
 
         <li permid="Bvb">
           <p permid="MEa">
-            For the given spring,
+            Para el resorte dado,
 
             <ol marker="i." permid="wpJ">
               <li permid="DUi">
@@ -180,18 +180,18 @@
       <ol marker="a." permid="bde">
         <li permid="tQC">
           <p permid="EZB">
-            When the full rope is extended over the cliff,
-            the weight of the hanging rope is 200 pounds.
-            Every foot of rope weighs 0.3 pounds;
-            in addition,
-            the quantity <m>(200-h)</m> measures the number of feet of rope hanging over the cliff when <m>h</m> feet of rope have been pulled in.
-            This means that the function <m>F(h)</m> whose value is the weight of the rope hanging over the cliff after <m>h</m> feet have been pulled in is given by <m>F(h) = 0.3(200-h)</m>.
-            When a small amount of rope, <m>\Delta h</m>,
-            is pulled in, the work to move that slice of rope is given by
+            Cuando la cuerda completa está extendida sobre el acantilado,
+            el peso de la cuerda colgante es de 200 libras.
+            Cada pie de cuerda pesa 0.3 libras;
+            además,
+            la cantidad <m>(200-h)</m> mide el número de pies de cuerda colgando sobre el acantilado cuando se han recogido <m>h</m> pies de cuerda.
+            Esto significa que la función <m>F(h)</m> cuyo valor es el peso de la cuerda colgando sobre el acantilado después de haber recogido <m>h</m> pies es dada por <m>F(h) = 0.3(200-h)</m>.
+            Cuando se recoge una pequeña cantidad de cuerda, <m>\Delta h</m>,
+            el trabajo para mover esa porción de cuerda es dado por
             <me permid="uAw">
               W_{\text{slice}} = F(h) \Delta h = 0.3(200-h) \Delta h
             </me>.
-            Thus, the total work to pull in the 200 feet of rope is given by
+            Así, el trabajo total para recoger los 200 pies de cuerda es dado por
             <me permid="aHF">
               W = \int_0^{200} 0.3(200-h) \, dh = 6000 \text{ foot-pounds}
             </me>.
@@ -200,11 +200,11 @@
 
         <li permid="ZXL">
           <p permid="lgK">
-            Since <m>B(h)</m> changes at a constant rate,
-            <m>B</m> is a linear function.
-            We know that <m>B(0) = 40</m> and that <m>B</m> loses weight at a rate of 0.1 pounds per foot of rope hauled in.
-            Thus, <m>B(h) = 40 - 0.1h</m>.
-            It follows that the total work to life the leaky bucket 100 feet is
+            Dado que <m>B(h)</m> cambia a una tasa constante,
+            <m>B</m> es una función lineal.
+            Sabemos que <m>B(0) = 40</m> y que <m>B</m> pierde peso a una tasa de 0.1 libras por pie de cuerda recogida.
+            Así, <m>B(h) = 40 - 0.1h</m>.
+            Se sigue que el trabajo total para levantar el cubo con fugas 100 pies es
             <me permid="GOO">
               W = int_0^{100} (40-0.1h) \, dh = 3500 \text{foot-pounds}
             </me>.
@@ -213,13 +213,13 @@
 
         <li permid="GeU">
           <p permid="RnT">
-            Given that <m>B(h) = 25 + 15e^{-0.05h}</m> is the weight of the bucket when <m>h</m> feet of rope have been pulled in,
-            it follows that the total work to move the bucket 100 feet is
+            Dado que <m>B(h) = 25 + 15e^{-0.05h}</m> es el peso del cubo cuando se han recogido <m>h</m> pies de cuerda,
+            se sigue que el trabajo total para mover el cubo 100 pies es
             <me permid="mVX">
               W = \int_0^{100} (25 + 5e^{-0.05h})\, dh \approx 2597.98 \text{ foot-pounds}
             </me>.
-            In addition,
-            the average force that was exerted on the bucket is precisely the average weight of the bucket, which is
+            Además,
+            la fuerza promedio que se ejerció sobre el cubo es precisamente el peso promedio del cubo, que es
             <me permid="Tdg">
               B_{\text{AVG} [0,100]} = \frac{1}{100-0} \int_0^{100} (25 + 5e^{-0.05h})\, dh \approx 25.9798 \text{ pounds}
             </me>.
@@ -228,27 +228,27 @@
 
         <li permid="mmd">
           <p permid="xvc">
-            Now considering the given spring,
+            Ahora considerando el resorte dado,
 
             <ol marker="i." permid="cwS">
               <li permid="kbr">
                 <p permid="rFQ">
-                  Since <m>F(1/3) = 5</m> and <m>F(x) = kx</m> by Hoooke's Law,
-                  it follows that <m>5 = k \cdot \frac{1}{3}</m>,
-                  and thus <m>k = 15</m>.
+                  Dado que <m>F(1/3) = 5</m> y <m>F(x) = kx</m> por la Ley de Hooke,
+                  se sigue que <m>5 = k \cdot \frac{1}{3}</m>,
+                  y así <m>k = 15</m>.
                 </p>
               </li>
 
               <li permid="Stm">
                 <p permid="dCl">
-                  Because the work to stretch the spring 1 foot is given by <m>W = \int_0^1 F(x) \, dx</m>,
-                  it follows <m>W = \int_0^1 15x \, dx = \frac{15}{2} \text{ foot-pounds}</m>.
+                  Debido a que el trabajo para estirar el resorte 1 pie es dado por <m>W = \int_0^1 F(x) \, dx</m>,
+                  se sigue <m>W = \int_0^1 15x \, dx = \frac{15}{2} \text{ foot-pounds}</m>.
                 </p>
               </li>
 
               <li permid="yAv">
                 <p permid="JJu">
-                  Here,
+                  Aquí,
                   <m>W = \int_1^{1.5} F(x) \, dx = \int_1^{1.5} 15x \, dx = 9.375 \text{ foot-pounds}</m>.
                 </p>
               </li>
@@ -259,4 +259,3 @@
     </p>
   </solution>
 </activity>
-

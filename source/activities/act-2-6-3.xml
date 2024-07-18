@@ -15,7 +15,7 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-6-3" permid="Dww">
   <statement>
     <p permid="SFu">
-      Determine the derivative of each of the following functions.
+      Determina la derivada de cada una de las siguientes funciones.
 
       <ol marker="a." permid="Lwu">
         <li permid="rDD">
@@ -61,38 +61,38 @@
       <ol marker="a." permid="fpl">
         <li permid="cuF">
           <p permid="TKN">
-            Use the sum rule followed by the product rule on each term in the sum.
+            Usa la regla de la suma seguida de la regla del producto en cada término de la suma.
           </p>
         </li>
 
         <li permid="IBO">
           <p permid="zRW">
-            Use the chain rule first.
-            What rule is needed to differentiate <m>t\arcsin(t)</m>?
+            Usa primero la regla de la cadena.
+            ¿Qué regla se necesita para diferenciar <m>t\arcsin(t)</m>?
           </p>
         </li>
 
         <li permid="oIX">
           <p permid="fZf">
-            Note that the chain rule is needed to differentiate <m>\arcsin(5z)</m>.
+            Nota que se necesita la regla de la cadena para diferenciar <m>\arcsin(5z)</m>.
           </p>
         </li>
 
         <li permid="UQg">
           <p permid="Mgo">
-            You can use right triangle trigonometry to simplify the function first.
+            Puedes usar trigonometría de triángulo rectángulo para simplificar la función primero.
           </p>
         </li>
 
         <li permid="AXp">
           <p permid="snx">
-            Use the chain rule twice.
+            Usa la regla de la cadena dos veces.
           </p>
         </li>
 
         <li permid="hey">
           <p permid="YuG">
-            Think about the overall structure of this function.
+            Piensa en la estructura general de esta función.
           </p>
         </li>
       </ol>
@@ -144,7 +144,7 @@
       <ol marker="a." permid="TaT">
         <li permid="ycJ">
           <p permid="psR">
-            By the sum rule followed by two applications of the product rule,
+            Por la regla de la suma seguida de dos aplicaciones de la regla del producto,
             <md permid="yMD">
               <mrow>f'(x) =\mathstrut \amp  \frac{d}{dx}[x^3 \arctan(x)] + \frac{d}{dx}[e^x \ln(x)]</mrow>
               <mrow>=\mathstrut \amp  \left[x^3 \cdot \frac{1}{1+x^2} + \arctan(x) \cdot 3x^2 \right] + \left[e^x \cdot \frac{1}{x} + \ln(x) \cdot e^x\right]</mrow>
@@ -154,7 +154,7 @@
 
         <li permid="ejS">
           <p permid="VAa">
-            Using the chain rule followed by the product rule,
+            Usando la regla de la cadena seguida de la regla del producto,
             <md permid="eTM">
               <mrow>p'(t) =\mathstrut \amp  2^{t\arcsin(t)} \ln(2) \frac{d}{dt}[t\arcsin(t)]</mrow>
               <mrow>=\mathstrut \amp  2^{t\arcsin(t)} \ln(2) [t \cdot \frac{1}{\sqrt{1-t^2}} + \arcsin(t) \cdot 1]</mrow>
@@ -164,7 +164,7 @@
 
         <li permid="Krb">
           <p permid="BHj">
-            Applying the chain rule twice,
+            Aplicando la regla de la cadena dos veces,
             <md permid="LaV">
               <mrow>h'(z) =\mathstrut \amp  27(\arcsin(5z) + \arctan(4-z))^{26} \frac{d}{dz}[\arcsin(5z) + \arctan(4-z)]</mrow>
               <mrow>=\mathstrut \amp  27(\arcsin(5z) + \arctan(4-z))^{26} \left[\frac{1}{\sqrt{1-(5z)^2}} \cdot \frac{d}{dz}[5z] + \frac{1}{1+(4-z)^2} \cdot \frac{d}{dz}[4-z] \right]</mrow>
@@ -175,15 +175,15 @@
 
         <li permid="qyk">
           <p permid="hOs">
-            Using right triangle trigonometry,
-            it is straightforward to show that <m>\cot(\arctan(y)) = \frac{1}{y}</m>.
-            As such, <m>s'(y) = -\frac{1}{y^2}</m>.
+            Usando trigonometría de triángulo rectángulo,
+            es sencillo mostrar que <m>\cot(\arctan(y)) = \frac{1}{y}</m>.
+            Por lo tanto, <m>s'(y) = -\frac{1}{y^2}</m>.
           </p>
         </li>
 
         <li permid="WFt">
           <p permid="NVB">
-            By two applications of the chain rule (noting particularly that <m>\sin^2(v) = (\sin(v))^2</m>, we have
+            Por dos aplicaciones de la regla de la cadena (notando particularmente que <m>\sin^2(v) = (\sin(v))^2</m>, tenemos
             <md permid="rie">
               <mrow>m'(v) =\mathstrut \amp  \frac{1}{\sin^2(v)+1} \cdot \frac{d}{dv} \left[ \sin^2(v) + 1 \right]</mrow>
               <mrow>=\mathstrut \amp  \frac{1}{\sin^2(v)+1} \cdot \left[ 2\sin(v)\cos(v) \right]</mrow>
@@ -193,7 +193,7 @@
 
         <li permid="CMC">
           <p permid="ucK">
-            By the chain rule followed by the quotient rule,
+            Por la regla de la cadena seguida de la regla del cociente,
             <md permid="Xpn">
               <mrow>g'(w) =\mathstrut \amp  \frac{1}{1+ \left( \frac{\ln(w)}{1+w^2} \right)^2} \cdot \frac{d}{dw} \left[ \frac{\ln(w)}{1+w^2} \right]</mrow>
               <mrow>=\mathstrut \amp  \frac{1}{1+ \left( \frac{\ln(w)}{1+w^2} \right)^2} \cdot \left[ \frac{(1+w^2) \frac{1}{w} - \ln(w) \cdot 2w}{(1+w^2)^2} \right]</mrow>
@@ -204,4 +204,3 @@
     </p>
   </solution>
 </activity>
-

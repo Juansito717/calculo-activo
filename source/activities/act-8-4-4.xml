@@ -18,11 +18,11 @@
       <ol marker="a." permid="JKH">
         <li permid="pRQ">
           <p permid="zlC">
-            Explain why the series
+            Explica por qué la serie
             <me permid="hhY">
               1 - \frac{1}{4} - \frac{1}{9} + \frac{1}{16} + \frac{1}{25} + \frac{1}{36} - \frac{1}{49}  - \frac{1}{64}  - \frac{1}{81}  - \frac{1}{100}  + \cdots
             </me>
-            must have a sum that is less than the series
+            debe tener una suma que es menor que la serie
             <me permid="Nph">
               \sum_{k=1}^{\infty} \frac{1}{k^2}
             </me>.
@@ -31,11 +31,11 @@
 
         <li permid="VYZ">
           <p permid="fsL">
-            Explain why the series
+            Explica por qué la serie
             <me permid="twq">
               1 - \frac{1}{4} - \frac{1}{9} + \frac{1}{16} + \frac{1}{25} + \frac{1}{36} - \frac{1}{49}  - \frac{1}{64}  - \frac{1}{81}  - \frac{1}{100}  + \cdots
             </me>
-            must have a sum that is greater than the series
+            debe tener una suma que es mayor que la serie
             <me permid="ZDz">
               \sum_{k=1}^{\infty} -\frac{1}{k^2}
             </me>.
@@ -44,11 +44,11 @@
 
         <li permid="Cgi">
           <p permid="LzU">
-            Given that the terms in the series
+            Dado que los términos en la serie
             <me permid="FKI">
               1 - \frac{1}{4} - \frac{1}{9} + \frac{1}{16} + \frac{1}{25} + \frac{1}{36} - \frac{1}{49}  - \frac{1}{64}  - \frac{1}{81}  - \frac{1}{100}  + \cdots
             </me>
-            converge to 0, what do you think the previous two results tell us about the convergence status of this series?
+            convergen a 0, ¿qué crees que nos dicen los dos resultados anteriores sobre el estado de convergencia de esta serie?
           </p>
         </li>
       </ol>
@@ -59,7 +59,7 @@
       <ol marker="a." permid="dDy">
         <li permid="inr">
           <p permid="rHd">
-            Small hints for each of the prompts above.
+            Pequeñas pistas para cada uno de los enunciados anteriores.
           </p>
         </li>
       </ol>
@@ -86,8 +86,8 @@
 
         <li permid="aIS">
           <p permid="kcE">
-            We expect this series to converge to some finite number between
-            <m>\sum_{k=1}^{\infty} -\frac{1}{k^2}</m> and <m>\sum_{k=1}^{\infty} \frac{1}{k^2}</m>.
+            Esperamos que esta serie converja a algún número finito entre
+            <m>\sum_{k=1}^{\infty} -\frac{1}{k^2}</m> y <m>\sum_{k=1}^{\infty} \frac{1}{k^2}</m>.
           </p>
         </li>
       </ol>
@@ -98,12 +98,12 @@
       <ol marker="a." permid="Rpg">
         <li permid="GQb">
           <p permid="QjN">
-            Each term in the series
+            Cada término en la serie
             <me permid="lRR">
               1 - \frac{1}{4} - \frac{1}{9} + \frac{1}{16} + \frac{1}{25} + \frac{1}{36} - \frac{1}{49}  - \frac{1}{64}  - \frac{1}{81}  - \frac{1}{100}  + \cdots
             </me>
-            is of the form <m>\frac{1}{k^2}</m> or <m>-\frac{1}{k^2}</m>.
-            Since each of these terms is less than or equal to <m>\frac{1}{k^2}</m> it follows that
+            es de la forma <m>\frac{1}{k^2}</m> o <m>-\frac{1}{k^2}</m>.
+            Dado que cada uno de estos términos es menor o igual a <m>\frac{1}{k^2}</m>, se sigue que
             <me permid="RZa">
               1 - \frac{1}{4} - \frac{1}{9} + \frac{1}{16} + \frac{1}{25} + \frac{1}{36} - \frac{1}{49}  - \frac{1}{64}  - \frac{1}{81}  - \frac{1}{100}  + \cdots \lt  \sum_{k=1}^{\infty} \frac{1}{k^2}
             </me>.
@@ -112,12 +112,12 @@
 
         <li permid="mXk">
           <p permid="wqW">
-            Each term in the series
+            Cada término en la serie
             <me permid="ygj">
               1 - \frac{1}{4} - \frac{1}{9} + \frac{1}{16} + \frac{1}{25} + \frac{1}{36} - \frac{1}{49}  - \frac{1}{64}  - \frac{1}{81}  - \frac{1}{100}  + \cdots
             </me>
-            is of the form <m>\frac{1}{k^2}</m> or <m>-\frac{1}{k^2}</m>.
-            Since each of these terms is greater than or equal to <m>-\frac{1}{k^2}</m> it follows that
+            es de la forma <m>\frac{1}{k^2}</m> o <m>-\frac{1}{k^2}</m>.
+            Dado que cada uno de estos términos es mayor o igual a <m>-\frac{1}{k^2}</m>, se sigue que
             <me permid="ens">
               1 - \frac{1}{4} - \frac{1}{9} + \frac{1}{16} + \frac{1}{25} + \frac{1}{36} - \frac{1}{49}  - \frac{1}{64}  - \frac{1}{81}  - \frac{1}{100}  + \cdots \gt \sum_{k=1}^{\infty} -\frac{1}{k^2}
             </me>.
@@ -126,21 +126,20 @@
 
         <li permid="Tet">
           <p permid="cyf">
-            We know that <m>\sum_{k=1}^{\infty} \frac{1}{k^2}</m> is a <m>p</m>-series with
-            <m>p = 2 \gt 1</m> and so is a convergent series.
-            Since <m>\sum_{k=1}^{\infty} \frac{1}{k^2} = -\sum_{k=1}^{\infty} \frac{1}{k^2}</m>,
-            the series <m>\sum_{k=1}^{\infty} -\frac{1}{k^2}</m> also converges.
-            Since the terms in the series
+            Sabemos que <m>\sum_{k=1}^{\infty} \frac{1}{k^2}</m> es una serie <m>p</m> con
+            <m>p = 2 \gt 1</m> y por lo tanto es una serie convergente.
+            Dado que <m>\sum_{k=1}^{\infty} \frac{1}{k^2} = -\sum_{k=1}^{\infty} \frac{1}{k^2}</m>,
+            la serie <m>\sum_{k=1}^{\infty} -\frac{1}{k^2}</m> también converge.
+            Dado que los términos en la serie
             <me permid="KuB">
               1 - \frac{1}{4} - \frac{1}{9} + \frac{1}{16} + \frac{1}{25} + \frac{1}{36} - \frac{1}{49}  - \frac{1}{64}  - \frac{1}{81}  - \frac{1}{100}  + \cdots
             </me>
-            converge to 0 and the series itself is bounded between two convergent series,
-            we should expect this series to converge to some finite number between
-            <m>\sum_{k=1}^{\infty} -\frac{1}{k^2}</m> and <m>\sum_{k=1}^{\infty} \frac{1}{k^2}</m>.
+            convergen a 0 y la serie misma está acotada entre dos series convergentes,
+            deberíamos esperar que esta serie converja a algún número finito entre
+            <m>\sum_{k=1}^{\infty} -\frac{1}{k^2}</m> y <m>\sum_{k=1}^{\infty} \frac{1}{k^2}</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

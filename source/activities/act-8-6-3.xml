@@ -15,7 +15,7 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-8-6-3" permid="wyA">
   <statement>
     <p permid="fAp">
-      Let <m>f</m> be the function given by the power series expansion
+      Sea <m>f</m> la función dada por la expansión en series de potencias
       <me permid="rOH">
         f(x) = \sum_{k=0}^{\infty} (-1)^k \frac{x^{2k}}{(2k)!}
       </me>.
@@ -25,28 +25,28 @@
       <ol marker="a." permid="okh">
         <li permid="Urq">
           <p permid="dLc">
-            Assume that we can differentiate a power series term by term,
-            just like we can differentiate a (finite) polynomial.
-            Use the fact that
+            Supón que podemos diferenciar una serie de potencias término a término,
+            tal como podemos diferenciar un polinomio (finito).
+            Usa el hecho de que
             <me permid="XVQ">
               f(x) = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots + (-1)^k \frac{x^{2k}}{(2k)!} + \cdots
             </me>
-            to find a power series expansion for <m>f'(x)</m>.
+            para encontrar una expansión en series de potencias para <m>f'(x)</m>.
           </p>
         </li>
 
         <li permid="Ayz">
           <p permid="JSl">
-            Observe that <m>f(x)</m> and <m>f'(x)</m> have familiar Taylor series.
-            What familiar functions are these?
-            What known relationship does our work demonstrate?
+            Observa que <m>f(x)</m> y <m>f'(x)</m> tienen series de Taylor conocidas.
+            ¿Qué funciones conocidas son estas?
+            ¿Qué relación conocida demuestra nuestro trabajo?
           </p>
         </li>
 
         <li permid="gFI">
           <p permid="pZu">
-            What is the series expansion for <m>f''(x)</m>?
-            What familiar function is <m>f''(x)</m>?
+            ¿Cuál es la expansión en series para <m>f''(x)</m>?
+            ¿Qué función conocida es <m>f''(x)</m>?
           </p>
         </li>
       </ol>
@@ -57,7 +57,7 @@
       <ol marker="a." permid="IcY">
         <li permid="MMR">
           <p permid="WgD">
-            Small hints for each of the prompts above.
+            Pequeñas pistas para cada uno de los puntos anteriores.
           </p>
         </li>
       </ol>
@@ -97,7 +97,7 @@
       <ol marker="a." permid="vOG">
         <li permid="lpB">
           <p permid="uJn">
-            Note that
+            Nota que
             <me permid="EcZ">
               f'(x) = - x + \frac{x^3}{3!} - \frac{x^5}{5!} + \cdots + (-1)^k \frac{x^{k-1}}{(k-1)!} + \cdots
             </me>.
@@ -106,9 +106,9 @@
 
         <li permid="RwK">
           <p permid="aQw">
-            We recognize <m>f(x)</m> as <m>\cos(x)</m> and <m>f'(x)</m> as
+            Reconocemos <m>f(x)</m> como <m>\cos(x)</m> y <m>f'(x)</m> como
             <m>-\sin(x)</m>.
-            This gives the known differentiation formula
+            Esto nos da la fórmula de diferenciación conocida
             <me permid="kki">
               \frac{d}{dx} \cos(x) = -\sin(x)
             </me>.
@@ -117,15 +117,14 @@
 
         <li permid="xDT">
           <p permid="GXF">
-            We see that
+            Vemos que
             <me permid="Qrr">
               f''(x) = - 1 + \frac{x^2}{2!} - \frac{x^4}{4!} + \cdots
             </me>,
-            which is the series expansion for <m>-\cos(x)</m> as expected
+            que es la expansión en series para <m>-\cos(x)</m> como se esperaba.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

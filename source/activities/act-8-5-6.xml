@@ -18,32 +18,32 @@
       <ol marker="a." permid="VDN">
         <li permid="BKW">
           <p permid="vVK">
-            Show that the Taylor series centered at <m>0</m> for <m>\cos(x)</m> converges to <m>\cos(x)</m> for every real number <m>x</m>.
+            Muestra que la serie de Taylor centrada en <m>0</m> para <m>\cos(x)</m> converge a <m>\cos(x)</m> para cada número real <m>x</m>.
           </p>
         </li>
 
         <li permid="hSf">
           <p permid="ccT">
-            Next we consider the Taylor series for <m>e^x</m>.
+            Ahora consideramos la serie de Taylor para <m>e^x</m>.
 
             <ol marker="i." permid="Ekd">
               <li permid="LOC">
                 <p permid="Ttb">
-                  Show that the Taylor series centered at <m>0</m> for <m>e^x</m> converges to <m>e^x</m> for every nonnegative value of <m>x</m>.
+                  Muestra que la serie de Taylor centrada en <m>0</m> para <m>e^x</m> converge a <m>e^x</m> para cada valor no negativo de <m>x</m>.
                 </p>
               </li>
 
               <li permid="NZo">
                 <p permid="Ikc">
-                  Show that the Taylor series centered at <m>0</m> for <m>e^x</m> converges to <m>e^x</m> for every negative value of <m>x</m>.
+                  Muestra que la serie de Taylor centrada en <m>0</m> para <m>e^x</m> converge a <m>e^x</m> para cada valor negativo de <m>x</m>.
                 </p>
               </li>
 
               <li permid="ugx">
                 <p permid="orl">
-                  Explain why the Taylor series centered at <m>0</m> for <m>e^x</m> converges to <m>e^x</m> for every real number <m>x</m>.
-                  Recall that we earlier showed that the Taylor series centered at <m>0</m> for <m>e^x</m> converges for all <m>x</m>,
-                  and we have now completed the argument that the Taylor series for <m>e^x</m> actually converges to <m>e^x</m> for all <m>x</m>.
+                  Explica por qué la serie de Taylor centrada en <m>0</m> para <m>e^x</m> converge a <m>e^x</m> para cada número real <m>x</m>.
+                  Recuerda que anteriormente mostramos que la serie de Taylor centrada en <m>0</m> para <m>e^x</m> converge para todos <m>x</m>,
+                  y ahora hemos completado el argumento de que la serie de Taylor para <m>e^x</m> realmente converge a <m>e^x</m> para todos <m>x</m>.
                 </p>
               </li>
             </ol>
@@ -52,8 +52,8 @@
 
         <li permid="POB">
           <p permid="Uyu">
-            Let <m>P_n(x)</m> be the <m>n</m>th order Taylor polynomial for <m>e^x</m> centered at <m>0</m>.
-            Find a value of <m>n</m> so that <m>P_n(5)</m> approximates <m>e^5</m> correct to <m>8</m> decimal places.
+            Sea <m>P_n(x)</m> el polinomio de Taylor de orden <m>n</m> para <m>e^x</m> centrado en <m>0</m>.
+            Encuentra un valor de <m>n</m> tal que <m>P_n(5)</m> aproxime <m>e^5</m> con una precisión de <m>8</m> decimales.
           </p>
         </li>
       </ol>
@@ -64,7 +64,7 @@
       <ol marker="a." permid="pwE">
         <li permid="anG">
           <p permid="AFD">
-            Small hints for each of the prompts above.
+            Pequeñas pistas para cada uno de los enunciados anteriores.
           </p>
         </li>
       </ol>
@@ -75,7 +75,7 @@
       <ol marker="a." permid="Jpv">
         <li permid="GuP">
           <p permid="gMM">
-            Compare <xref ref="Ex-8-5-4">Example</xref>.
+            Compara <xref ref="Ex-8-5-4">Example</xref>.
           </p>
         </li>
 
@@ -84,20 +84,20 @@
             <ol marker="i." permid="krm">
               <li permid="rVL">
                 <p permid="zAk">
-                  Use the fact that that <m>|f^{(n)}(x)| \le e^c</m> on the interval <m>[0,c]</m> for any fixed positive value of <m>c</m>.
+                  Usa el hecho de que <m>|f^{(n)}(x)| \le e^c</m> en el intervalo <m>[0,c]</m> para cualquier valor positivo fijo de <m>c</m>.
                 </p>
               </li>
 
               <li permid="SJh">
                 <p permid="tbe">
-                  Repeat the argument in (a) but replace <m>e^c</m> with <m>1</m>,
-                  and everything else holds in the same way.
+                  Repite el argumento en (a) pero reemplaza <m>e^c</m> con <m>1</m>,
+                  y todo lo demás se mantiene igual.
                 </p>
               </li>
 
               <li permid="yQq">
                 <p permid="Zin">
-                  Combine the results of (a) and (b)
+                  Combina los resultados de (a) y (b)
                 </p>
               </li>
             </ol>
@@ -117,7 +117,7 @@
       <ol marker="a." permid="dim">
         <li permid="eXz">
           <p permid="lwF">
-            Compare <xref ref="Ex-8-5-4">Example</xref>.
+            Compara <xref ref="Ex-8-5-4">Example</xref>.
           </p>
         </li>
 
@@ -126,41 +126,41 @@
             <ol marker="i." permid="Qyv">
               <li permid="YcU">
                 <p permid="fHt">
-                  Let <m>x \ge 0</m>.
-                  Since <m>f(x) = e^x</m>,
-                  <m>f^{(n)}(x) = e^x</m> for every natural number <m>n</m>.
-                  Since <m>e^x</m> is an increasing function,
-                  we know that <m>|f^{(n)}(x)| \le e^c</m> on the interval <m>[0,c]</m> for any fixed positive value of <m>c</m>.
-                  Thus, by the Lagrange error formula, we can say that
+                  Sea <m>x \ge 0</m>.
+                  Dado que <m>f(x) = e^x</m>,
+                  <m>f^{(n)}(x) = e^x</m> para cada número natural <m>n</m>.
+                  Dado que <m>e^x</m> es una función creciente,
+                  sabemos que <m>|f^{(n)}(x)| \le e^c</m> en el intervalo <m>[0,c]</m> para cualquier valor positivo fijo de <m>c</m>.
+                  Así, por la fórmula del error de Lagrange, podemos decir que
                   <me permid="OJi">
                     |P_n(x) - e^x| \le e^c \frac{x^{n+1}}{(n+1)!}
                   </me>.
-                  Since the series <m>\sum \frac{x^{n}}{n!}</m> converges for every <m>x</m>,
-                  <m>\frac{x^{n}}{n!} \to 0</m> as <m>x \to \infty</m>,
-                  and thus <m>\frac{x^{n+1}}{(n+1)!} \to 0</m> as
-                  <m>n \to \infty</m> for every <m>x</m> in <m>[0,c]</m>.
-                  Further, since <m>e^c</m> is a constant independent of <m>n</m>,
-                  <m>e^c \frac{x^{n+1}}{(n+1)!} \to 0</m> as well.
-                  Thus,
+                  Dado que la serie <m>\sum \frac{x^{n}}{n!}</m> converge para cada <m>x</m>,
+                  <m>\frac{x^{n}}{n!} \to 0</m> cuando <m>x \to \infty</m>,
+                  y así <m>\frac{x^{n+1}}{(n+1)!} \to 0</m> cuando
+                  <m>n \to \infty</m> para cada <m>x</m> en <m>[0,c]</m>.
+                  Además, dado que <m>e^c</m> es una constante independiente de <m>n</m>,
+                  <m>e^c \frac{x^{n+1}}{(n+1)!} \to 0</m> también.
+                  Así,
                   <me permid="uQr">
                     \lim_{n \to \infty} |P_n(x) - e^x| = 0
                   </me>,
-                  as desired.
+                  como se deseaba.
                 </p>
               </li>
 
               <li permid="rlR">
                 <p permid="xKX">
-                  When <m>x \lt 0</m>, we know <m>e^x \lt 1</m>.
-                  Thus, we can repeat our argument in (a) but replace <m>e^c</m> with <m>1</m>,
-                  and everything else holds in the same way.
+                  Cuando <m>x \lt 0</m>, sabemos que <m>e^x \lt 1</m>.
+                  Así, podemos repetir nuestro argumento en (a) pero reemplazar <m>e^c</m> con <m>1</m>,
+                  y todo lo demás se mantiene igual.
                 </p>
               </li>
 
               <li permid="Xta">
                 <p permid="dSg">
-                  Because we have shown that the Taylor series for <m>e^x</m> converges to <m>e^x</m> for both every nonnegative <m>x</m>-value and for every negative <m>x</m>-value,
-                  it follows that we have convergence for every value of <m>x</m>.
+                  Dado que hemos mostrado que la serie de Taylor para <m>e^x</m> converge a <m>e^x</m> tanto para cada valor no negativo de <m>x</m> como para cada valor negativo de <m>x</m>,
+                  se sigue que tenemos convergencia para cada valor de <m>x</m>.
                 </p>
               </li>
             </ol>
@@ -169,23 +169,22 @@
 
         <li permid="DAj">
           <p permid="JZp">
-            Since <m>e^x</m> is increasing on <m>[0,5]</m> we know that <m>e^x \lt e^5</m> on <m>[0,5]</m>.
-            Now <m>e^5 \lt 243</m>, so
+            Dado que <m>e^x</m> está aumentando en <m>[0,5]</m> sabemos que <m>e^x \lt e^5</m> en <m>[0,5]</m>.
+            Ahora <m>e^5 \lt 243</m>, así que
             <me permid="aXA">
               \left|P_n(5) - e^5\right| \leq 243\frac{|5|^{n+1}}{(n+1)!}
             </me>.
-            We want a value of <m>n</m>that makes this error term less than <m>10^{-8}</m>.
-            Testing various values of <m>n</m> gives
+            Queremos un valor de <m>n</m> que haga que este término de error sea menor que <m>10^{-8}</m>.
+            Probando varios valores de <m>n</m> obtenemos
             <me permid="HeJ">
               243\frac{|5|^{28+1}}{(28+1)!} \approx 5.119146745 \times 10^{-9}
             </me>
-            so we can choose <m>n = 28</m>.
-            A computer algebra system shows that <m>P_{28}(5) \approx 148.413159102551</m> while
-            <m>e^5 \approx 148.413159102577</m> and we can see that these two approximations agree to 8 decimal places.
+            así que podemos elegir <m>n = 28</m>.
+            Un sistema de álgebra computacional muestra que <m>P_{28}(5) \approx 148.413159102551</m> mientras que
+            <m>e^5 \approx 148.413159102577</m> y podemos ver que estas dos aproximaciones coinciden en 8 decimales.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

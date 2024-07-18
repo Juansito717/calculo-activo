@@ -15,60 +15,60 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-5-6-3" permid="aAb">
   <statement>
     <p permid="gpn">
-      Consider the functions <m>f(x) = 2-x^2</m>, <m>g(x) = 2-x^3</m>,
-      and <m>h(x) = 2-x^4</m>, all on the interval <m>[0,1]</m>.
-      For each of the questions that require a numerical answer in what follows,
-      write your answer exactly in fraction form.
+      Considera las funciones <m>f(x) = 2-x^2</m>, <m>g(x) = 2-x^3</m>,
+      y <m>h(x) = 2-x^4</m>, todas en el intervalo <m>[0,1]</m>.
+      Para cada una de las preguntas que requieren una respuesta numérica a continuación,
+      escribe tu respuesta exactamente en forma de fracción.
 
       <ol marker="a." permid="JXp">
         <li permid="qey">
           <p permid="IRW">
-            On the three sets of axes provided in <xref ref="F-5-6-Act3">Figure</xref>,
-            sketch a graph of each function on the interval <m>[0,1]</m>,
-            and compute <m>L_1</m> and <m>R_1</m> for each.
-            What do you observe?
+            En los tres conjuntos de ejes proporcionados en <xref ref="F-5-6-Act3">Figura</xref>,
+            dibuja un gráfico de cada función en el intervalo <m>[0,1]</m>,
+            y calcula <m>L_1</m> y <m>R_1</m> para cada una.
+            ¿Qué observas?
           </p>
         </li>
 
         <li permid="WlH">
           <p permid="oZf">
-            Compute <m>M_1</m> for each function to approximate <m>\int_0^1 f(x) \,dx</m>,
+            Calcula <m>M_1</m> para cada función para aproximar <m>\int_0^1 f(x) \,dx</m>,
             <m>\int_0^1 g(x) \,dx</m>,
-            and <m>\int_0^1 h(x) \,dx</m>,
-            respectively.
+            y <m>\int_0^1 h(x) \,dx</m>,
+            respectivamente.
           </p>
         </li>
 
         <li permid="CsQ">
           <p permid="Vgo">
-            Compute <m>T_1</m> for each of the three functions,
-            and hence compute <m>S_2</m> for each of the three functions.
+            Calcula <m>T_1</m> para cada una de las tres funciones,
+            y por lo tanto calcula <m>S_2</m> para cada una de las tres funciones.
           </p>
         </li>
 
         <li permid="izZ">
           <p permid="Bnx">
-            Evaluate each of the integrals <m>\int_0^1 f(x) \,dx</m>,
+            Evalúa cada una de las integrales <m>\int_0^1 f(x) \,dx</m>,
             <m>\int_0^1 g(x) \,dx</m>,
-            and <m>\int_0^1 h(x) \,dx</m> exactly using the First FTC.
+            y <m>\int_0^1 h(x) \,dx</m> exactamente usando el Primer FTC.
           </p>
         </li>
 
         <li permid="OHi">
           <p permid="huG">
-            For each of the three functions <m>f</m>, <m>g</m>,
-            and <m>h</m>,
-            compare the results of <m>L_1</m>,
+            Para cada una de las tres funciones <m>f</m>, <m>g</m>,
+            y <m>h</m>,
+            compara los resultados de <m>L_1</m>,
             <m>R_1</m>, <m>M_1</m>, <m>T_1</m>,
-            and <m>S_2</m> to the true value of the corresponding definite integral.
-            What patterns do you observe?
+            y <m>S_2</m> con el valor verdadero de la integral definida correspondiente.
+            ¿Qué patrones observas?
           </p>
         </li>
       </ol>
     </p>
 
     <figure xml:id="F-5-6-Act3" permid="Mww">
-      <caption>Axes for plotting the functions in <xref ref="act-5-6-3">Activity</xref>.</caption>
+      <caption>Ejes para graficar las funciones en <xref ref="act-5-6-3">Actividad</xref>.</caption>
       <image width="100%" source="images/5_6_Act3" />
     </figure>
   </statement>
@@ -77,31 +77,31 @@
       <ol marker="a." permid="dQg">
         <li permid="uOr">
           <p permid="NBP">
-            For each estimate, just one function evaluation is needed.
+            Para cada estimación, solo se necesita una evaluación de la función.
           </p>
         </li>
 
         <li permid="aVA">
           <p permid="tIY">
-            Use the midpoint rule with <m>n=1</m>.
+            Usa la regla del punto medio con <m>n=1</m>.
           </p>
         </li>
 
         <li permid="HcJ">
           <p permid="ZQh">
-            Remember that both the trapezoid and Simpson's rule can be executed using (weighted) averages of known values.
+            Recuerda que tanto la regla del trapecio como la regla de Simpson se pueden ejecutar usando promedios (ponderados) de valores conocidos.
           </p>
         </li>
 
         <li permid="njS">
           <p permid="FXq">
-            Find antiderivatives to evaluate the integrals exactly.
+            Encuentra antiderivadas para evaluar las integrales exactamente.
           </p>
         </li>
 
         <li permid="Trb">
           <p permid="mez">
-            Think about trends in over- and under-estimates.
+            Piensa en las tendencias de sobreestimaciones y subestimaciones.
           </p>
         </li>
       </ol>
@@ -112,11 +112,11 @@
       <ol marker="a." permid="xIX">
         <li permid="zyk">
           <p permid="SlI">
-            For <m>L_1</m> and <m>T_1</m>:
+            Para <m>L_1</m> y <m>T_1</m>:
           </p>
 
           <table permid="ERX">
-            <title>Left and Trapezoid rules.</title>
+            <title>Reglas de Izquierda y Trapecio.</title>
             <tabular top="minor" bottom="minor" permid="kZg">
               <row bottom="major">
                 <cell><m>f</m></cell>
@@ -138,17 +138,17 @@
           </table>
 
           <p permid="ysR">
-            The values of <m>L_1</m> and <m>R_1</m> are the same for all three.
+            Los valores de <m>L_1</m> y <m>R_1</m> son los mismos para los tres.
           </p>
         </li>
 
         <li permid="fFt">
           <p permid="eAa">
-            For the <m>M_1</m>,
+            Para el <m>M_1</m>,
           </p>
 
           <table permid="Rgp">
-            <title>Midpoint Rule.</title>
+            <title>Regla del Punto Medio.</title>
             <tabular top="minor" bottom="minor" permid="xny">
               <row bottom="major">
                 <cell><m>f</m></cell>
@@ -168,11 +168,11 @@
 
         <li permid="LMC">
           <p permid="KHj">
-            For <m>T_1</m> and <m>S_2</m>,
+            Para <m>T_1</m> y <m>S_2</m>,
           </p>
 
           <table permid="duH">
-            <title>Trapezoid and Simpson's Rule.</title>
+            <title>Regla del Trapecio y de Simpson.</title>
             <tabular top="minor" bottom="minor" permid="JBQ">
               <row bottom="major">
                 <cell><m>f</m></cell>
@@ -205,12 +205,12 @@
 
         <li permid="YaU">
           <p permid="WVB">
-            Left endpoint rule results are overestimates;
-            right endpoint rules are underestimates;
-            midpoint rules are overestimates;
-            trapezoid rules are underestimates.
-            Simpson's rule is exact for both <m>f</m> and <m>g</m>,
-            while a slight underestimate of <m>\int_0^1 h(x) dx</m>.
+            Los resultados de la regla del extremo izquierdo son sobreestimaciones;
+            las reglas del extremo derecho son subestimaciones;
+            las reglas del punto medio son sobreestimaciones;
+            las reglas del trapecio son subestimaciones.
+            La regla de Simpson es exacta para ambas <m>f</m> y <m>g</m>,
+            mientras que es una ligera subestimación de <m>\int_0^1 h(x) dx</m>.
           </p>
         </li>
       </ol>
@@ -221,11 +221,11 @@
       <ol marker="a." permid="RBO">
         <li permid="Eid">
           <p permid="DcK">
-            For the left and right endpoint rules, we see that
+            Para las reglas del extremo izquierdo y derecho, vemos que
           </p>
 
           <table permid="pIZ">
-            <title>Left and Trapezoid rules.</title>
+            <title>Reglas de Izquierda y Trapecio.</title>
             <tabular top="minor" bottom="minor" permid="VQi">
               <row bottom="major">
                 <cell><m>f</m></cell>
@@ -247,19 +247,19 @@
           </table>
 
           <p permid="jjT">
-            Thus,
-            we observe that despite the fact the functions are all different,
-            the values of <m>L_1</m> and <m>R_1</m> are the same for all three.
+            Así,
+            observamos que a pesar de que las funciones son todas diferentes,
+            los valores de <m>L_1</m> y <m>R_1</m> son los mismos para las tres.
           </p>
         </li>
 
         <li permid="kpm">
           <p permid="Prc">
-            For the midpoint rule, we find that
+            Para la regla del punto medio, encontramos que
           </p>
 
           <table permid="BXr">
-            <title>Midpoint Rule.</title>
+            <title>Regla del Punto Medio.</title>
             <tabular top="minor" bottom="minor" permid="ieA">
               <row bottom="major">
                 <cell><m>f</m></cell>
@@ -279,11 +279,11 @@
 
         <li permid="Qwv">
           <p permid="vyl">
-            For the trapezoid rule and Simpson's rule,
+            Para la regla del trapecio y la regla de Simpson,
           </p>
 
           <table permid="OlJ">
-            <title>Trapezoid and Simpson's Rule.</title>
+            <title>Regla del Trapecio y de Simpson.</title>
             <tabular top="minor" bottom="minor" permid="usS">
               <row bottom="major">
                 <cell><m>f</m></cell>
@@ -308,7 +308,7 @@
 
         <li permid="wDE">
           <p permid="bFu">
-            The exact values of the three definite integrals are
+            Los valores exactos de las tres integrales definidas son
             <md permid="YKO">
               <mrow>\int_0^1 f(x) dx \amp = \frac{5}{3}   \amp   \int_0^1 g(x) dx \amp = \frac{7}{4}  \amp    \int_0^1 h(x) dx \amp = \frac{9}{5}</mrow>
               <mrow>\amp \approx 1.6667  \amp                          \amp = 1.75            \amp                          \amp = 1.8</mrow>
@@ -318,18 +318,17 @@
 
         <li permid="cKN">
           <p permid="HMD">
-            We observe that each of the left endpoint rule results are overestimates,
-            each of the right endpoint rules are underestimates,
-            each of the midpoint rules are overestimates,
-            and each of the trapezoid rules are underestimates.
-            These results hold because each of the three functions are both decreasing and concave down.
-            For Simpson's rule,
-            we see that the result is exact for both <m>f</m> and <m>g</m>,
-            while Simpson's rule is a slight underestimate of <m>\int_0^1 h(x) dx</m>.
+            Observamos que cada uno de los resultados de la regla del extremo izquierdo son sobreestimaciones,
+            cada una de las reglas del extremo derecho son subestimaciones,
+            cada una de las reglas del punto medio son sobreestimaciones,
+            y cada una de las reglas del trapecio son subestimaciones.
+            Estos resultados se mantienen porque cada una de las tres funciones son decrecientes y cóncavas hacia abajo.
+            Para la regla de Simpson,
+            vemos que el resultado es exacto para ambas <m>f</m> y <m>g</m>,
+            mientras que la regla de Simpson es una ligera subestimación de <m>\int_0^1 h(x) dx</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

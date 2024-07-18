@@ -15,8 +15,8 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-6-5-2" permid="nNi">
   <statement>
     <p permid="KAF">
-      Determine whether each of the following improper integrals converges or diverges.
-      For each integral that converges, find its exact value.
+      Determina si cada una de las siguientes integrales impropias converge o diverge.
+      Para cada integral que converge, encuentra su valor exacto.
 
       <ol marker="a." cols="2" permid="eOV">
         <li permid="Xkw">
@@ -52,7 +52,7 @@
         <li permid="bUp">
           <p permid="Tkx">
             <m>\int_1^{\infty} \frac{1}{x^p} \, dx</m>,
-            where <m>p</m> is a positive real number
+            donde <m>p</m> es un número real positivo
           </p>
         </li>
       </ol>
@@ -69,8 +69,8 @@
 
         <li permid="oiH">
           <p permid="fyP">
-            Recall that for <m>k \gt 0</m>,
-            <m>e^{-kt} \to 0</m> as <m>t \to \infty</m>.
+            Recuerda que para <m>k \gt 0</m>,
+            <m>e^{-kt} \to 0</m> cuando <m>t \to \infty</m>.
           </p>
         </li>
 
@@ -82,19 +82,19 @@
 
         <li permid="AwZ">
           <p permid="rNh">
-            Compare (c).
+            Compara (c).
           </p>
         </li>
 
         <li permid="gEi">
           <p permid="XUq">
-            Compare (b), after integrating by parts.
+            Compara (b), después de integrar por partes.
           </p>
         </li>
 
         <li permid="MLr">
           <p permid="Ebz">
-            Try two cases: <m>0 \lt p \lt 1</m> and <m>1 \lt p</m>.
+            Prueba dos casos: <m>0 \lt p \lt 1</m> y <m>1 \lt p</m>.
           </p>
         </li>
       </ol>
@@ -135,9 +135,9 @@
 
         <li permid="xCt">
           <p permid="oSB">
-            If <m>0 \lt p \lt 1</m>,
-            <m> \int_1^\infty \frac{1}{x^p} dx</m> diverges,
-            while if <m>p \gt 1</m>, the integral converges.
+            Si <m>0 \lt p \lt 1</m>,
+            <m> \int_1^\infty \frac{1}{x^p} dx</m> diverge,
+            mientras que si <m>p \gt 1</m>, la integral converge.
           </p>
         </li>
       </ol>
@@ -201,37 +201,37 @@
 
         <li permid="itv">
           <p permid="ZJD">
-            We assume that <m>p</m> is a positive real number.
+            Supongamos que <m>p</m> es un número real positivo.
             <md permid="byQ">
               <mrow>\int_1^\infty \frac{1}{x^p} dx \amp = \lim_{b \to \infty} \int_1^b x^{-p} dx</mrow>
               <mrow>\amp = \lim_{b \to \infty} \left( -\frac{b^{1-p}}{p-1} + \frac{1}{p-1} \right)</mrow>
             </md>
-            We now use two cases:
+            Ahora usamos dos casos:
 
             <ul permid="Gml">
               <li permid="KWe">
                 <p permid="lXV">
-                  (Assume <m>0 \lt  p \lt  1</m>.)  In this case,
-                  <m>1 - p \gt 0</m> and so
-                  <m> \lim_{b \to \infty} b^{1-p} = \infty</m> and
+                  (Supón <m>0 \lt  p \lt  1</m>.)  En este caso,
+                  <m>1 - p \gt 0</m> y entonces
+                  <m> \lim_{b \to \infty} b^{1-p} = \infty</m> y
                   <me permid="vrH">
                     \lim_{b \to \infty} \left( -\frac{b^{1-p}}{p-1} + \frac{1}{p-1} \right) = \infty
                   </me>
-                  Using this and equation<nbsp />(1),
-                  we see that <m> \int_1^\infty \frac{1}{x^p} dx</m> diverges.
+                  Usando esto y la ecuación<nbsp />(1),
+                  vemos que <m> \int_1^\infty \frac{1}{x^p} dx</m> diverge.
                 </p>
               </li>
 
               <li permid="rdn">
                 <p permid="FQM">
-                  (Assume <m>p \gt 1</m>.)  In this case,
-                  <m>1 - p \lt  0</m> and so
-                  <m> \lim_{b \to \infty} b^{1-p} = 0</m> and
+                  (Supón <m>p \gt 1</m>.)  En este caso,
+                  <m>1 - p \lt  0</m> y entonces
+                  <m> \lim_{b \to \infty} b^{1-p} = 0</m> y
                   <me permid="HFZ">
                     \lim_{b \to \infty} \left( -\frac{b^{1-p}}{p-1} + \frac{1}{p-1} \right) = \frac{1}{p-1}
                   </me>
-                  Using this and equation<nbsp />(1),
-                  we see that <m> \int_1^\infty \frac{1}{x^p} dx</m> converges to <m>\dfrac{1}{p-1}</m>.
+                  Usando esto y la ecuación<nbsp />(1),
+                  vemos que <m> \int_1^\infty \frac{1}{x^p} dx</m> converge a <m>\dfrac{1}{p-1}</m>.
                 </p>
               </li>
             </ul>
@@ -241,4 +241,3 @@
     </p>
   </solution>
 </activity>
-

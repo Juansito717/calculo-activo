@@ -18,29 +18,29 @@
       <ol marker="a." permid="zHo">
         <li permid="fOx">
           <p permid="pij">
-            Plot the graphs of several of the Taylor polynomials centered at <m>0</m>
-            (of order at least 5)
-            for <m>e^x</m> and convince yourself that these Taylor polynomials converge to <m>e^x</m> for every value of <m>x</m>.
+            Dibuja los gráficos de varios de los polinomios de Taylor centrados en <m>0</m>
+            (de orden al menos 5)
+            para <m>e^x</m> y convéncete de que estos polinomios de Taylor convergen a <m>e^x</m> para cada valor de <m>x</m>.
           </p>
         </li>
 
         <li permid="LVG">
           <p permid="Vps">
-            Draw the graphs of several of the Taylor polynomials centered at <m>0</m>
-            (of order at least 6)
-            for <m>\cos(x)</m> and convince yourself that these Taylor polynomials converge to <m>\cos(x)</m> for every value of <m>x</m>.
-            Write the Taylor series centered at <m>0</m> for <m>\cos(x)</m>.
+            Dibuja los gráficos de varios de los polinomios de Taylor centrados en <m>0</m>
+            (de orden al menos 6)
+            para <m>\cos(x)</m> y convéncete de que estos polinomios de Taylor convergen a <m>\cos(x)</m> para cada valor de <m>x</m>.
+            Escribe la serie de Taylor centrada en <m>0</m> para <m>\cos(x)</m>.
           </p>
         </li>
 
         <li permid="scP">
           <p permid="BwB">
-            Draw the graphs of several of the Taylor polynomials centered at <m>0</m> for <m>\frac{1}{1-x}</m>.
-            Based on your graphs,
-            for what values of <m>x</m> do these Taylor polynomials appear to converge to <m>\frac{1}{1-x}</m>?
-            How is this situation different from what we observe with <m>e^x</m> and <m>\cos(x)</m>?
-            In addition,
-            write the Taylor series centered at <m>0</m> for <m>\frac{1}{1-x}</m>.
+            Dibuja los gráficos de varios de los polinomios de Taylor centrados en <m>0</m> para <m>\frac{1}{1-x}</m>.
+            Basándote en tus gráficos,
+            ¿para qué valores de <m>x</m> parecen estos polinomios de Taylor converger a <m>\frac{1}{1-x}</m>?
+            ¿Cómo es esta situación diferente de lo que observamos con <m>e^x</m> y <m>\cos(x)</m>?
+            Además,
+            escribe la serie de Taylor centrada en <m>0</m> para <m>\frac{1}{1-x}</m>.
           </p>
         </li>
       </ol>
@@ -51,7 +51,7 @@
       <ol marker="a." permid="TAf">
         <li permid="YjY">
           <p permid="hDK">
-            Small hints for each of the prompts above.
+            Pequeñas pistas para cada una de las indicaciones anteriores.
           </p>
         </li>
       </ol>
@@ -62,22 +62,22 @@
       <ol marker="a." permid="nsW">
         <li permid="Erh">
           <p permid="NKT">
-            It appears that as we increase the order of the Taylor polynomials,
-            they fit the graph of <m>f</m> better and better over larger intervals.
+            Parece que a medida que aumentamos el orden de los polinomios de Taylor,
+            se ajustan mejor y mejor al gráfico de <m>f</m> en intervalos más grandes.
           </p>
         </li>
 
         <li permid="kyq">
           <p permid="tSc">
-            It appears that as we increase the order of the Taylor polynomials,
-            they fit the graph of <m>f</m> better and better over larger intervals.
+            Parece que a medida que aumentamos el orden de los polinomios de Taylor,
+            se ajustan mejor y mejor al gráfico de <m>f</m> en intervalos más grandes.
           </p>
         </li>
 
         <li permid="QFz">
           <p permid="ZZl">
-            The Taylor polynomials converge to
-            <m>\frac{1}{1-x}</m> only on the interval <m>(-1,1)</m>.
+            Los polinomios de Taylor convergen a
+            <m>\frac{1}{1-x}</m> solo en el intervalo <m>(-1,1)</m>.
           </p>
         </li>
       </ol>
@@ -88,8 +88,8 @@
       <ol marker="a." permid="HlN">
         <li permid="wMI">
           <p permid="Ggu">
-            The graphs of the 10th (magenta), 20th (blue),
-            and 30th (green) Taylor polynomials centered at <m>0</m> for <m>e^x</m> are shown below along with the graph of <m>f(x)</m> in red:
+            Los gráficos de los polinomios de Taylor de 10º (magenta), 20º (azul),
+            y 30º (verde) centrados en <m>0</m> para <m>e^x</m> se muestran a continuación junto con el gráfico de <m>f(x)</m> en rojo:
           </p>
 
           <sidebyside width="47%" permid="HVH">
@@ -97,16 +97,16 @@
           </sidebyside>
 
           <p permid="mnD">
-            It appears that as we increase the order of the Taylor polynomials,
-            they fit the graph of <m>f</m> better and better over larger intervals.
-            So it looks like the Taylor polynomials converge to <m>e^x</m> for every value of <m>x</m>.
+            Parece que a medida que aumentamos el orden de los polinomios de Taylor,
+            se ajustan mejor y mejor al gráfico de <m>f</m> en intervalos más grandes.
+            Así que parece que los polinomios de Taylor convergen a <m>e^x</m> para cada valor de <m>x</m>.
           </p>
         </li>
 
         <li permid="cTR">
           <p permid="SuM">
-            The graphs of the 10th (magenta), 20th (blue),
-            and 30th (green) Taylor polynomials centered at <m>0</m> for <m>\cos(x)</m> are shown below along with the graph of <m>f(x)</m> in red:
+            Los gráficos de los polinomios de Taylor de 10º (magenta), 20º (azul),
+            y 30º (verde) centrados en <m>0</m> para <m>\cos(x)</m> se muestran a continuación junto con el gráfico de <m>f(x)</m> en rojo:
           </p>
 
           <sidebyside width="47%" permid="ocQ">
@@ -114,11 +114,11 @@
           </sidebyside>
 
           <p permid="yBV">
-            It appears that as we increase the order of the Taylor polynomials,
-            they fit the graph of <m>f</m> better and better over larger intervals.
-            So it looks like the Taylor polynomials converge to <m>\cos(x)</m> for every value of <m>x</m>.
-            Based on the <m>n</m>th order Taylor polynomials we found earlier for <m>\cos(x)</m>,
-            the Taylor series for <m>f(x)</m> centered at <m>0</m> is
+            Parece que a medida que aumentamos el orden de los polinomios de Taylor,
+            se ajustan mejor y mejor al gráfico de <m>f</m> en intervalos más grandes.
+            Así que parece que los polinomios de Taylor convergen a <m>\cos(x)</m> para cada valor de <m>x</m>.
+            Basándonos en los polinomios de Taylor de orden <m>n</m> que encontramos anteriormente para <m>\cos(x)</m>,
+            la serie de Taylor para <m>f(x)</m> centrada en <m>0</m> es
             <me permid="vHp">
               \sum_{k=0}^{\infty} \frac{x^{2k}}{(2k)!}
             </me>.
@@ -127,9 +127,9 @@
 
         <li permid="Jba">
           <p permid="eJe">
-            The graphs of the 10th (magenta), 20th (blue),
-            and 30th (green) Taylor polynomials centered at <m>0</m> for
-            <m>\frac{1}{1-x}</m> are shown below along with the graph of <m>f(x)</m> in red:
+            Los gráficos de los polinomios de Taylor de 10º (magenta), 20º (azul),
+            y 30º (verde) centrados en <m>0</m> para
+            <m>\frac{1}{1-x}</m> se muestran a continuación junto con el gráfico de <m>f(x)</m> en rojo:
           </p>
 
           <sidebyside width="47%" permid="UjZ">
@@ -137,15 +137,15 @@
           </sidebyside>
 
           <p permid="KQn">
-            It appears that as we increase the order of the Taylor polynomials,
-            they only fit the graph of <m>f</m> better and better over the interval <m>(-1,1)</m> and appear to diverge outside that interval.
-            So it looks like the Taylor polynomials converge to
-            <m>\frac{1}{1-x}</m> only on the interval <m>(-1,1)</m>.
+            Parece que a medida que aumentamos el orden de los polinomios de Taylor,
+            solo se ajustan mejor y mejor al gráfico de <m>f</m> en el intervalo <m>(-1,1)</m> y parecen divergir fuera de ese intervalo.
+            Así que parece que los polinomios de Taylor convergen a
+            <m>\frac{1}{1-x}</m> solo en el intervalo <m>(-1,1)</m>.
           </p>
 
           <p permid="qXw">
-            Based on the <m>n</m>th order Taylor polynomials we found earlier for <m>\frac{1}{1-x}</m>,
-            the Taylor series for <m>f(x)</m> centered at <m>0</m> is
+            Basándonos en los polinomios de Taylor de orden <m>n</m> que encontramos anteriormente para <m>\frac{1}{1-x}</m>,
+            la serie de Taylor para <m>f(x)</m> centrada en <m>0</m> es
             <me permid="bOy">
               \sum_{k=0}^{\infty} x^k
             </me>.
@@ -155,4 +155,3 @@
     </p>
   </solution>
 </activity>
-

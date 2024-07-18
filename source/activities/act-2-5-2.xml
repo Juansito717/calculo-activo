@@ -15,10 +15,10 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-5-2" permid="eMv">
   <statement>
     <p permid="hHb">
-      For each of the following functions,
-      find the function's derivative.
-      State the rule(s) you use, label relevant derivatives appropriately,
-      and be sure to clearly identify your overall answer.
+      Para cada una de las siguientes funciones,
+      encuentra la derivada de la función.
+      Indica la(s) regla(s) que usas, etiqueta las derivadas relevantes apropiadamente,
+      y asegúrate de identificar claramente tu respuesta final.
 
       <ol marker="a." cols="2" permid="XDv">
         <li permid="DKE">
@@ -58,32 +58,32 @@
       <ol marker="a." permid="rwm">
         <li permid="Iux">
           <p permid="bhV">
-            Use the constant multiple rule first,
-            followed by the chain rule.
+            Usa primero la regla del múltiplo constante,
+            seguida de la regla de la cadena.
           </p>
         </li>
 
         <li permid="oBG">
           <p permid="Hpe">
-            Observe that <m>m</m> is fundamentally a product of composite functions.
+            Observa que <m>m</m> es fundamentalmente un producto de funciones compuestas.
           </p>
         </li>
 
         <li permid="UIP">
           <p permid="nwn">
-            Note that <m>h</m> is a quotient of composite functions.
+            Nota que <m>h</m> es un cociente de funciones compuestas.
           </p>
         </li>
 
         <li permid="APY">
           <p permid="TDw">
-            The function <m>s</m> is a composite function with outer function <m>2^z</m>.
+            La función <m>s</m> es una función compuesta con función externa <m>2^z</m>.
           </p>
         </li>
 
         <li permid="gXh">
           <p permid="zKF">
-            It is possible for a function to be a composite function with more than two functions in the chain.
+            Es posible que una función sea una función compuesta con más de dos funciones en la cadena.
           </p>
         </li>
       </ol>
@@ -129,10 +129,10 @@
       <ol marker="a." permid="fhU">
         <li permid="ROj">
           <p permid="kBH">
-            By the constant multiple rule,
+            Por la regla del múltiplo constante,
             <m>p'(r) = 4\frac{d}{dr}[\sqrt{r^6 + 2e^r}]</m>.
-            Using the chain rule to complete the remaining derivative,
-            we see that
+            Usando la regla de la cadena para completar la derivada restante,
+            vemos que
             <me permid="NOk">
               p'(r) = 4 \frac{1}{2\sqrt{r^6 + 2e^r}} \frac{d}{dr}[r^6 + 2e^r] = \frac{4(6r^5 + 2e^r)}{2\sqrt{r^6 + 2e^r}}
             </me>.
@@ -141,10 +141,10 @@
 
         <li permid="xVs">
           <p permid="QIQ">
-            Observe that by the product rule,
+            Observa que por la regla del producto,
             <m>m'(v) = \sin(v^2) \frac{d}{dv}[\cos(v^3)] + \cos(v^3) \frac{d}{dv}[\sin(v^2)]</m>.
-            Applying the chain rule to differentiate
-            <m>\cos(v^3)</m> and <m>\sin(v^2)</m>, we see that
+            Aplicando la regla de la cadena para diferenciar
+            <m>\cos(v^3)</m> y <m>\sin(v^2)</m>, vemos que
             <me permid="tVt">
               m'(v) = \sin(v^2) [-\sin(v^3) \cdot 3v^2] + \cos(v^3) [\cos(v^2) \cdot 2v] = -3v^2 \sin(v^2)\sin(v^3) + 2v \cos(v^3)\cos(v^2)
             </me>.
@@ -153,12 +153,12 @@
 
         <li permid="ecB">
           <p permid="wPZ">
-            By the quotient rule,
+            Por la regla del cociente,
             <me permid="acC">
               h'(y) = \frac{(e^{4y}+1) \frac{d}{dy}[\cos(10y)] - \cos(10y) \frac{d}{dy}[e^{4y}+1]}{(e^{4y}+1)^2}
             </me>.
-            Applying the chain rule to differentiate
-            <m>\cos(10y)</m> and <m>e^{4y}</m>, it follows
+            Aplicando la regla de la cadena para diferenciar
+            <m>\cos(10y)</m> y <m>e^{4y}</m>, se sigue que
             <me permid="GjL">
               h'(y) = \frac{(e^{4y}+1) [-10\sin(10y)] - \cos(10y) [4e^{4y}]}{(e^{4y}+1)^2}
             </me>.
@@ -167,9 +167,9 @@
 
         <li permid="KjK">
           <p permid="cXi">
-            By the chain rule,
+            Por la regla de la cadena,
             <m>s'(z) = 2^{z^2\sec(z)} \ln(2) \frac{d}{dz}[z^2 \sec(z)]</m>.
-            Then by the product rule, we find that
+            Luego, por la regla del producto, encontramos que
             <me permid="mqU">
               s'(z) = 2^{z^2\sec(z)} \ln(2) [z^2 \sec(z)\tan(z) + \sec(z) \cdot 2z]
             </me>.
@@ -178,14 +178,14 @@
 
         <li permid="qqT">
           <p permid="Jer">
-            If we first apply the chain rule to the outer function
-            (the sine function),
-            note that
+            Si primero aplicamos la regla de la cadena a la función externa
+            (la función seno),
+            nota que
             <me permid="Syd">
               c'(x) = \cos(e^{x^2}) \frac{d}{dx}[e^{x^2}]
             </me>.
-            Next, we again apply the chain rule,
-            but this time to <m>e^{x^2}</m>, and get
+            Luego, aplicamos nuevamente la regla de la cadena,
+            pero esta vez a <m>e^{x^2}</m>, y obtenemos
             <me permid="yFm">
               c'(x) = \cos(e^{x^2}) [e^{x^2}\cdot 2x]
             </me>.
@@ -195,4 +195,3 @@
     </p>
   </solution>
 </activity>
-

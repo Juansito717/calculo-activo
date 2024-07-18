@@ -15,21 +15,21 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-7-1-2" permid="dQT">
   <statement>
     <p permid="PNo">
-      Shown below are two graphs depicting the velocity of falling objects.
-      On the left is the velocity of a skydiver,
-      while on the right is the velocity of a meteorite entering the Earth's atmosphere.
+      A continuación se muestran dos gráficos que representan la velocidad de objetos en caída.
+      A la izquierda está la velocidad de un paracaidista,
+      mientras que a la derecha está la velocidad de un meteorito entrando en la atmósfera terrestre.
     </p>
 
     <sidebyside widths="48% 48%" permid="Foj">
       <figure xml:id="F-act-7-1-2-a" permid="DyW">
-        <caption>A skydiver's velocity.</caption>
+        <caption>La velocidad de un paracaidista.</caption>
         <image source="images/7_1_activity_0" permid="AEq">
         </image>
 
       </figure>
 
       <figure xml:id="F-act-7-1-2-b" permid="jGf">
-        <caption>A meteorite's velocity.</caption>
+        <caption>La velocidad de un meteorito.</caption>
         <image source="images/7_1_activity_1" permid="gLz">
         </image>
 
@@ -40,11 +40,11 @@
       <ol marker="a." permid="USG">
         <li permid="AZP">
           <p permid="gbF">
-            Begin with the skydiver's velocity and use the given graph to measure the rate of change <m>dv/dt</m> when the velocity is <m>v=0.5, 1.0, 1.5, 2.0</m>,
-            and <m>2.5</m>.
-            Plot your values on the graph below.
-            You will want to think carefully about this:
-            you are plotting the derivative <m>dv/dt</m> as a function of <em>velocity</em>.
+            Comienza con la velocidad del paracaidista y usa el gráfico dado para medir la tasa de cambio <m>dv/dt</m> cuando la velocidad es <m>v=0.5, 1.0, 1.5, 2.0</m>,
+            y <m>2.5</m>.
+            Traza tus valores en el gráfico de abajo.
+            Querrás pensar cuidadosamente sobre esto:
+            estás trazando la derivada <m>dv/dt</m> como una función de la <em>velocidad</em>.
           </p>
 
           <sidebyside width="100%" permid="lvs">
@@ -55,45 +55,45 @@
 
         <li permid="hgY">
           <p permid="MiO">
-            Now do the same thing with the meteorite's velocity:
-            use the given graph to measure the rate of change <m>dv/dt</m> when the velocity is <m>v=3.5,4.0,4.5</m>,
-            and <m>5.0</m>.
-            Plot your values on the graph above.
+            Ahora haz lo mismo con la velocidad del meteorito:
+            usa el gráfico dado para medir la tasa de cambio <m>dv/dt</m> cuando la velocidad es <m>v=3.5,4.0,4.5</m>,
+            y <m>5.0</m>.
+            Traza tus valores en el gráfico de arriba.
           </p>
         </li>
 
         <li permid="Noh">
           <p permid="spX">
-            You should find that all your points lie on a line.
-            Write the equation of this line being careful to use proper notation for the quantities on the horizontal and vertical axes.
+            Deberías encontrar que todos tus puntos están en una línea.
+            Escribe la ecuación de esta línea teniendo cuidado de usar la notación adecuada para las cantidades en los ejes horizontal y vertical.
           </p>
         </li>
 
         <li permid="tvq">
           <p permid="Yxg">
-            The relationship you just found is a differential equation.
-            Write a complete sentence that explains its meaning.
+            La relación que acabas de encontrar es una ecuación diferencial.
+            Escribe una oración completa que explique su significado.
           </p>
         </li>
 
         <li permid="ZCz">
           <p permid="EEp">
-            By looking at the differential equation,
-            determine the values of the velocity for which the velocity increases.
+            Al observar la ecuación diferencial,
+            determina los valores de la velocidad para los cuales la velocidad aumenta.
           </p>
         </li>
 
         <li permid="FJI">
           <p permid="kLy">
-            By looking at the differential equation,
-            determine the values of the velocity for which the velocity decreases.
+            Al observar la ecuación diferencial,
+            determina los valores de la velocidad para los cuales la velocidad disminuye.
           </p>
         </li>
 
         <li permid="lQR">
           <p permid="QSH">
-            By looking at the differential equation,
-            determine the values of the velocity for which the velocity remains constant.
+            Al observar la ecuación diferencial,
+            determina los valores de la velocidad para los cuales la velocidad permanece constante.
           </p>
         </li>
       </ol>
@@ -104,7 +104,7 @@
       <ol marker="a." permid="oLx">
         <li permid="RYa">
           <p permid="wZQ">
-            Hints for each of the prompts above.
+            Pistas para cada uno de los puntos anteriores.
           </p>
         </li>
       </ol>
@@ -115,7 +115,7 @@
       <ol marker="a." permid="IEo">
         <li permid="yfj">
           <p permid="dgZ">
-            For the skydiver:
+            Para el paracaidista:
             <md permid="cbG">
               <mrow>\left. \frac{dv}{dt}\right|_{(v = 0.5)} \amp \approx 1.5  \amp   \left. \frac{dv}{dt}\right|_{(v = 1)} \amp \approx 1.2 \amp   \left. \frac{dv}{dt}\right|_{(v = 1.5 )} \amp \approx 0.9</mrow>
               <mrow>\left. \frac{dv}{dt}\right|_{(v = 2)} \amp \approx 0.6  \amp   \left. \frac{dv}{dt}\right|_{(v = 2.5)} \amp \approx 0.3</mrow>
@@ -125,12 +125,12 @@
 
         <li permid="ems">
           <p permid="Joi">
-            For the meteorite:
+            Para el meteorito:
             <md permid="IiP">
               <mrow>\left. \frac{dv}{dt}\right|_{(v = 3.5)} \amp \approx -0.3  \amp   \left. \frac{dv}{dt}\right|_{(v = 4)} \amp \approx -0.6</mrow>
               <mrow>\left. \frac{dv}{dt}\right|_{(v = 4.5)} \amp \approx -0.9   \amp   \left. \frac{dv}{dt}\right|_{(v = 5)} \amp \approx -1.2</mrow>
             </md>
-            A graph of the points from parts (a) and (b) is shown in the following diagram:
+            Un gráfico de los puntos de las partes (a) y (b) se muestra en el siguiente diagrama:
           </p>
 
           <sidebyside width="60%" permid="RCB">
@@ -150,7 +150,7 @@
 
         <li permid="qAK">
           <p permid="VCA">
-            The rate of change of velocity with respect to time is a linear function of velocity.
+            La tasa de cambio de la velocidad con respecto al tiempo es una función lineal de la velocidad.
           </p>
         </li>
 
@@ -176,17 +176,17 @@
   </answer>
   <solution permid="kbE">
     <p permid="Ldv">
-      Each graph is a graph of velocity <m>v</m> as a function of time <m>t</m>.
-      To estimate <m>\frac{dv}{dt}</m> at a particular time,
-      we must estimate the slope of the tangent line for the graph of <m>v</m> at that point.
-      For parts (a) and (b),
-      we draw tangent lines and measure the slopes of the tangent lines.
-      These values are approximations.
+      Cada gráfico es un gráfico de la velocidad <m>v</m> como una función del tiempo <m>t</m>.
+      Para estimar <m>\frac{dv}{dt}</m> en un momento particular,
+      debemos estimar la pendiente de la línea tangente para el gráfico de <m>v</m> en ese punto.
+      Para las partes (a) y (b),
+      dibujamos líneas tangentes y medimos las pendientes de las líneas tangentes.
+      Estos valores son aproximaciones.
 
       <ol marker="a." permid="cxf">
         <li permid="Pdu">
           <p permid="ufk">
-            For the skydiver:
+            Para el paracaidista:
             <md permid="opY">
               <mrow>\left. \frac{dv}{dt}\right|_{(v = 0.5)} \amp \approx 1.5  \amp   \left. \frac{dv}{dt}\right|_{(v = 1)} \amp \approx 1.2 \amp   \left. \frac{dv}{dt}\right|_{(v = 1.5 )} \amp \approx 0.9</mrow>
               <mrow>\left. \frac{dv}{dt}\right|_{(v = 2)} \amp \approx 0.6  \amp   \left. \frac{dv}{dt}\right|_{(v = 2.5)} \amp \approx 0.3</mrow>
@@ -196,12 +196,12 @@
 
         <li permid="vkD">
           <p permid="amt">
-            For the meteorite:
+            Para el meteorito:
             <md permid="Uxh">
               <mrow>\left. \frac{dv}{dt}\right|_{(v = 3.5)} \amp \approx -0.3  \amp   \left. \frac{dv}{dt}\right|_{(v = 4)} \amp \approx -0.6</mrow>
               <mrow>\left. \frac{dv}{dt}\right|_{(v = 4.5)} \amp \approx -0.9   \amp   \left. \frac{dv}{dt}\right|_{(v = 5)} \amp \approx -1.2</mrow>
             </md>
-            A graph of the points from parts (a) and (b) is shown in the following diagram:
+            Un gráfico de los puntos de las partes (a) y (b) se muestra en el siguiente diagrama:
           </p>
 
           <sidebyside width="50%" permid="xJK">
@@ -215,39 +215,38 @@
 
         <li permid="brM">
           <p permid="GtC">
-            Using the values in parts (a) and (b),
-            we obtain <m>\frac{dv}{dt} = -0.6v + 1.8</m>.
+            Usando los valores en las partes (a) y (b),
+            obtenemos <m>\frac{dv}{dt} = -0.6v + 1.8</m>.
           </p>
         </li>
 
         <li permid="HyV">
           <p permid="mAL">
-            This differential equation means that the rate of change of velocity with respect to time is a linear function of velocity.
+            Esta ecuación diferencial significa que la tasa de cambio de la velocidad con respecto al tiempo es una función lineal de la velocidad.
           </p>
         </li>
 
         <li permid="nGe">
           <p permid="SHU">
-            The velocity increases when <m>\frac{dv}{dt} \gt 0</m>.
-            So the velocity increases when <m>0 \lt v \lt 3</m>.
+            La velocidad aumenta cuando <m>\frac{dv}{dt} \gt 0</m>.
+            Así que la velocidad aumenta cuando <m>0 \lt v \lt 3</m>.
           </p>
         </li>
 
         <li permid="TNn">
           <p permid="yPd">
-            The velocity decreases when <m>\frac{dv}{dt} \lt 0</m>.
-            So the velocity decreases when <m>3 \lt v \lt 5</m>.
+            La velocidad disminuye cuando <m>\frac{dv}{dt} \lt 0</m>.
+            Así que la velocidad disminuye cuando <m>3 \lt v \lt 5</m>.
           </p>
         </li>
 
         <li permid="zUw">
           <p permid="eWm">
-            The velocity will remain constant when <m>\frac{dv}{dt} = 0</m>,
-            which is when <m>v = 3</m>.
+            La velocidad permanecerá constante cuando <m>\frac{dv}{dt} = 0</m>,
+            que es cuando <m>v = 3</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

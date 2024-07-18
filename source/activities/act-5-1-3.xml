@@ -15,12 +15,12 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-5-1-3" permid="kYG">
   <statement>
     <p permid="sDf">
-      Suppose that <m>g</m> is given by the graph at left in <xref ref="F-5-1-Act3">Figure</xref>
-      and that <m>A</m> is the corresponding integral function defined by <m>A(x) = \int_1^x g(t) \, dt</m>.
+      Supón que <m>g</m> está dado por el gráfico a la izquierda en <xref ref="F-5-1-Act3">Figura</xref>
+      y que <m>A</m> es la función integral correspondiente definida por <m>A(x) = \int_1^x g(t) \, dt</m>.
     </p>
 
     <figure xml:id="F-5-1-Act3" permid="ERx">
-      <caption>At left, the graph of <m>y = g(t)</m>; at right, axes for plotting <m>y = A(x)</m>, where <m>A</m> is defined by the formula <m>A(x) = \int_1^x g(t) \  dt</m>.</caption>
+      <caption>A la izquierda, el gráfico de <m>y = g(t)</m>; a la derecha, ejes para trazar <m>y = A(x)</m>, donde <m>A</m> está definida por la fórmula <m>A(x) = \int_1^x g(t) \  dt</m>.</caption>
       <image width="100%" source="images/5_1_Act3" />
     </figure>
 
@@ -28,47 +28,47 @@
       <ol marker="a." permid="luf">
         <li permid="RBo">
           <p permid="IRw">
-            On what interval(s) is <m>A</m> an increasing function?
-            On what intervals is <m>A</m> decreasing?
-            Why?
+            ¿En qué intervalo(s) es <m>A</m> una función creciente?
+            ¿En qué intervalos es <m>A</m> decreciente?
+            ¿Por qué?
           </p>
         </li>
 
         <li permid="xIx">
           <p permid="oYF">
-            On what interval(s) do you think <m>A</m> is concave up? concave down?
-            Why?
+            ¿En qué intervalo(s) crees que <m>A</m> es cóncava hacia arriba? ¿cóncava hacia abajo?
+            ¿Por qué?
           </p>
         </li>
 
         <li permid="dPG">
           <p permid="VfO">
-            At what point(s) does <m>A</m> have a relative minimum? a relative maximum?
+            ¿En qué punto(s) tiene <m>A</m> un mínimo relativo? ¿un máximo relativo?
           </p>
         </li>
 
         <li permid="JWP">
           <p permid="BmX">
-            Use the given information to determine the exact values of <m>A(0)</m>,
+            Usa la información dada para determinar los valores exactos de <m>A(0)</m>,
             <m>A(1)</m>,
             <m>A(2)</m>,
             <m>A(3)</m>, <m>A(4)</m>,
-            <m>A(5)</m>, and <m>A(6)</m>.
+            <m>A(5)</m>, y <m>A(6)</m>.
           </p>
         </li>
 
         <li permid="qdY">
           <p permid="hug">
-            Based on your responses to all of the preceding questions,
-            sketch a complete and accurate graph of
-            <m>y = A(x)</m> on the axes provided,
-            being sure to indicate the behavior of <m>A</m> for <m>x \lt 0</m> and <m>x \gt 6</m>.
+            Basándote en tus respuestas a todas las preguntas anteriores,
+            dibuja un gráfico completo y preciso de
+            <m>y = A(x)</m> en los ejes proporcionados,
+            asegurándote de indicar el comportamiento de <m>A</m> para <m>x \lt 0</m> y <m>x \gt 6</m>.
           </p>
         </li>
 
         <li permid="Wlh">
           <p permid="NBp">
-            How does the graph of <m>B</m> compare to <m>A</m> if <m>B</m> is instead defined by <m>B(x) = \int_0^x g(t) \, dt</m>?
+            ¿Cómo se compara el gráfico de <m>B</m> con <m>A</m> si <m>B</m> está definido por <m>B(x) = \int_0^x g(t) \, dt</m>?
           </p>
         </li>
       </ol>
@@ -79,40 +79,40 @@
       <ol marker="a." permid="FmW">
         <li permid="Csq">
           <p permid="tIy">
-            Where is <m>A</m> accumulating positive signed area?
+            ¿Dónde está <m>A</m> acumulando área con signo positivo?
           </p>
         </li>
 
         <li permid="izz">
           <p permid="ZPH">
-            As <m>A</m> accumulates positive or negative signed area,
-            where is the rate at which such area is accumulated increasing?
+            A medida que <m>A</m> acumula área con signo positivo o negativo,
+            ¿dónde está aumentando la tasa a la que se acumula dicha área?
           </p>
         </li>
 
         <li permid="OGI">
           <p permid="FWQ">
-            Where does <m>A</m> change from accumulating positive signed area to accumulating negative signed area?
+            ¿Dónde cambia <m>A</m> de acumular área con signo positivo a acumular área con signo negativo?
           </p>
         </li>
 
         <li permid="uNR">
           <p permid="mdZ">
-            Note,
-            for instance, that <m>A(2) = \int_1^2 g(t) \, dt</m>.
+            Nota,
+            por ejemplo, que <m>A(2) = \int_1^2 g(t) \, dt</m>.
           </p>
         </li>
 
         <li permid="aVa">
           <p permid="Sli">
-            Use your work in (a)-(d) appropriately.
+            Usa tu trabajo en (a)-(d) apropiadamente.
           </p>
         </li>
 
         <li permid="Hcj">
           <p permid="ysr">
-            What is the value of <m>B(0)</m>?
-            How does this compare to <m>A(0)</m>?
+            ¿Cuál es el valor de <m>B(0)</m>?
+            ¿Cómo se compara esto con <m>A(0)</m>?
           </p>
         </li>
       </ol>
@@ -123,22 +123,22 @@
       <ol marker="a." permid="ZfN">
         <li permid="njs">
           <p permid="ezA">
-            <m>A</m> is increasing on <m>(0,1.5)</m>, <m>(4,6)</m>;
-            <m>A</m> is decreasing on <m>(1.5,4)</m>.
+            <m>A</m> está aumentando en <m>(0,1.5)</m>, <m>(4,6)</m>;
+            <m>A</m> está disminuyendo en <m>(1.5,4)</m>.
           </p>
         </li>
 
         <li permid="TqB">
           <p permid="KGJ">
-            <m>A</m> is concave up on <m>(0,1)</m> and <m>(3,5)</m>;
-            <m>A</m> is concave down on <m>(1,3)</m> and <m>(5,6)</m>.
+            <m>A</m> es cóncava hacia arriba en <m>(0,1)</m> y <m>(3,5)</m>;
+            <m>A</m> es cóncava hacia abajo en <m>(1,3)</m> y <m>(5,6)</m>.
           </p>
         </li>
 
         <li permid="zxK">
           <p permid="qNS">
-            At <m>x = 1.5</m>, <m>A</m> has a relative maximum;
-            <m>A</m> has a relative minimum at <m>x = 4</m>.
+            En <m>x = 1.5</m>, <m>A</m> tiene un máximo relativo;
+            <m>A</m> tiene un mínimo relativo en <m>x = 4</m>.
           </p>
         </li>
 
@@ -152,7 +152,7 @@
 
         <li permid="LMc">
           <p permid="Dck">
-            Use your work in (a)-(d) appropriately.
+            Usa tu trabajo en (a)-(d) apropiadamente.
           </p>
         </li>
 
@@ -169,64 +169,64 @@
       <ol marker="a." permid="sYE">
         <li permid="Yau">
           <p permid="PqC">
-            <m>A</m> is accumulating positive signed area wherever <m>g</m> is positive,
-            and thus <m>A</m> is increasing on <m>(0,1.5)</m>,
+            <m>A</m> está acumulando área con signo positivo dondequiera que <m>g</m> sea positivo,
+            y por lo tanto <m>A</m> está aumentando en <m>(0,1.5)</m>,
             <m>(4,6)</m>;
-            <m>A</m> is accumulating negative signed area and therefore decreasing wherever <m>g</m> is negative,
-            which occurs on <m>(1.5,4)</m>.
+            <m>A</m> está acumulando área con signo negativo y por lo tanto disminuyendo dondequiera que <m>g</m> sea negativo,
+            lo cual ocurre en <m>(1.5,4)</m>.
           </p>
         </li>
 
         <li permid="EhD">
           <p permid="vxL">
-            Here we want to consider where <m>A</m> is changing at an increasing rate
-            (concave up)
-            or changing at a decreasing rate
-            (concave down).
-            On <m>(0,1)</m> and <m>(4,5)</m>, <m>A</m> is increasing,
-            and we can also see that since <m>g</m> is increasing,
-            <m>A</m> is increasing at an increasing rate.
-            Similarly, on <m>(3,4)</m>
-            (where <m>g</m> is negative so <m>A</m> is decreasing),
-            since <m>g</m> is increasing it follows that <m>A</m> is decreasing at an increasing rate.
-            Thus,
-            <m>A</m> is concave up on <m>(0,1)</m> and <m>(3,5)</m>.
-            Analogous reasoning shows that <m>A</m> is concave down on <m>(1,3)</m> and <m>(5,6)</m>.
+            Aquí queremos considerar dónde <m>A</m> está cambiando a una tasa creciente
+            (cóncava hacia arriba)
+            o cambiando a una tasa decreciente
+            (cóncava hacia abajo).
+            En <m>(0,1)</m> y <m>(4,5)</m>, <m>A</m> está aumentando,
+            y también podemos ver que dado que <m>g</m> está aumentando,
+            <m>A</m> está aumentando a una tasa creciente.
+            De manera similar, en <m>(3,4)</m>
+            (donde <m>g</m> es negativo, por lo que <m>A</m> está disminuyendo),
+            dado que <m>g</m> está aumentando, se sigue que <m>A</m> está disminuyendo a una tasa creciente.
+            Por lo tanto,
+            <m>A</m> es cóncava hacia arriba en <m>(0,1)</m> y <m>(3,5)</m>.
+            Un razonamiento análogo muestra que <m>A</m> es cóncava hacia abajo en <m>(1,3)</m> y <m>(5,6)</m>.
           </p>
         </li>
 
         <li permid="koM">
           <p permid="bEU">
-            Based on our work in (a),
-            we see that <m>A</m> changes from increasing to decreasing at <m>x = 1.5</m>,
-            and thus <m>A</m> has a relative maximum there.
-            Similarly, <m>A</m> has a relative minimum at <m>x = 4</m>.
+            Basándonos en nuestro trabajo en (a),
+            vemos que <m>A</m> cambia de aumentar a disminuir en <m>x = 1.5</m>,
+            y por lo tanto <m>A</m> tiene un máximo relativo allí.
+            De manera similar, <m>A</m> tiene un mínimo relativo en <m>x = 4</m>.
           </p>
         </li>
 
         <li permid="QvV">
           <p permid="HMd">
-            Using the fact that <m>g</m> is piecewise linear and the definition of <m>A</m>,
-            we find that <m>A(0) = \int_1^0 g(t) \, dt = -\int_0^1 g(t) \, dt = -\frac{1}{2}</m>;
+            Usando el hecho de que <m>g</m> es lineal por tramos y la definición de <m>A</m>,
+            encontramos que <m>A(0) = \int_1^0 g(t) \, dt = -\int_0^1 g(t) \, dt = -\frac{1}{2}</m>;
             <m>A(1) = \int_1^1 g(t) \, dt = 0</m>;
             <m>A(2) = \int_1^2 g(t) \, dt = 0</m>.
-            Analogous reasoning shows that <m>A(3) = -2</m>,
+            Un razonamiento análogo muestra que <m>A(3) = -2</m>,
             <m>A(4) = -3.5</m>, <m>A(5) = -2</m>, <m>A(6) = -0.5</m>.
           </p>
         </li>
 
         <li permid="wDe">
           <p permid="nTm">
-            Use your work in (a)-(d) appropriately.
+            Usa tu trabajo en (a)-(d) apropiadamente.
           </p>
         </li>
 
         <li permid="cKn">
           <p permid="Uav">
-            Note that <m>B(0) = 0</m>,
-            while <m>A(0) = -\frac{1}{2}</m>.
-            Likewise, <m>B(1) = \frac{1}{2}</m>, while <m>A(1) = 0</m>.
-            Indeed, we can see that for any value of <m>x</m>,
+            Nota que <m>B(0) = 0</m>,
+            mientras que <m>A(0) = -\frac{1}{2}</m>.
+            De igual manera, <m>B(1) = \frac{1}{2}</m>, mientras que <m>A(1) = 0</m>.
+            De hecho, podemos ver que para cualquier valor de <m>x</m>,
             <m>B(x) = A(x) + \frac{1}{2}</m>.
           </p>
         </li>
@@ -234,4 +234,3 @@
     </p>
   </solution>
 </activity>
-

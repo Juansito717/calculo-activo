@@ -15,21 +15,21 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-5-6-2" permid="sZe">
   <statement>
     <p permid="jFs">
-      A car traveling along a straight road is braking and its velocity is measured at several different points in time,
-      as given in the following table.
-      Assume that <m>v</m> is continuous, always decreasing,
-      and always decreasing at a decreasing rate,
-      as is suggested by the data.
+      Un coche que viaja por una carretera recta está frenando y su velocidad se mide en varios puntos diferentes en el tiempo,
+      como se muestra en la siguiente tabla.
+      Supón que <m>v</m> es continua, siempre decreciente,
+      y siempre decreciente a una tasa decreciente,
+      como sugiere la información.
     </p>
 
     <sidebyside widths="47% 47%" valign="middle" permid="MRV">
 
       <table permid="ADD">
-        <title>Data for the braking car.</title>
+        <title>Datos para el coche que frena.</title>
         <tabular halign="center" permid="gKM">
           <row bottom="minor">
-            <cell>seconds, <m>t</m></cell>
-            <cell>Velocity in ft/sec, <m>v(t)</m></cell>
+            <cell>segundos, <m>t</m></cell>
+            <cell>Velocidad en ft/seg, <m>v(t)</m></cell>
           </row>
           <row>
             <cell><m>0</m></cell>
@@ -64,7 +64,7 @@
       </table>
 
       <figure xml:id="F-5-6-Act2" permid="Dyj">
-        <caption>Axes for plotting the data in <xref ref="act-5-6-2">Activity</xref>.</caption>
+        <caption>Ejes para graficar los datos en <xref ref="act-5-6-2">Actividad</xref>.</caption>
         <image source="images/5_6_Act2" />
       </figure>
     </sidebyside>
@@ -73,45 +73,45 @@
       <ol marker="a." permid="wpj">
         <li permid="cws">
           <p permid="TMA">
-            Plot the given data on the set of axes provided in <xref ref="F-5-6-Act2">Figure</xref>
-            with time on the horizontal axis and the velocity on the vertical axis.
+            Grafica los datos dados en el conjunto de ejes proporcionados en <xref ref="F-5-6-Act2">Figura</xref>
+            con el tiempo en el eje horizontal y la velocidad en el eje vertical.
           </p>
         </li>
 
         <li permid="IDB">
           <p permid="zTJ">
-            What definite integral will give you the exact distance the car traveled on <m>[0,1.8]</m>?
+            ¿Qué integral definida te dará la distancia exacta que recorrió el coche en <m>[0,1.8]</m>?
           </p>
         </li>
 
         <li permid="oKK">
           <p permid="gaS">
-            Estimate the total distance traveled on <m>[0,1.8]</m> by computing <m>L_3</m>,
-            <m>R_3</m>, and <m>T_3</m>.
-            Which of these under-estimates the true distance traveled?
+            Estima la distancia total recorrida en <m>[0,1.8]</m> calculando <m>L_3</m>,
+            <m>R_3</m> y <m>T_3</m>.
+            ¿Cuál de estos subestima la distancia real recorrida?
           </p>
         </li>
 
         <li permid="URT">
           <p permid="Mib">
-            Estimate the total distance traveled on <m>[0,1.8]</m> by computing <m>M_3</m>.
-            Is this an over- or under-estimate?
-            Why?
+            Estima la distancia total recorrida en <m>[0,1.8]</m> calculando <m>M_3</m>.
+            ¿Es esto una sobreestimación o una subestimación?
+            ¿Por qué?
           </p>
         </li>
 
         <li permid="AZc">
           <p permid="spk">
-            Using your results from (c) and (d),
-            improve your estimate further by using Simpson's Rule.
+            Usando tus resultados de (c) y (d),
+            mejora tu estimación utilizando la Regla de Simpson.
           </p>
         </li>
 
         <li permid="hgl">
           <p permid="Ywt">
-            What is your best estimate of the average velocity of the car on <m>[0,1.8]</m>?
-            Why?
-            What are the units on this quantity?
+            ¿Cuál es tu mejor estimación de la velocidad promedio del coche en <m>[0,1.8]</m>?
+            ¿Por qué?
+            ¿Cuáles son las unidades de esta cantidad?
           </p>
         </li>
       </ol>
@@ -122,19 +122,19 @@
       <ol marker="a." permid="Qia">
         <li permid="Nnu">
           <p permid="EDC">
-            Plot the data.
+            Grafica los datos.
           </p>
         </li>
 
         <li permid="tuD">
           <p permid="kKL">
-            What are the units on <m>v(t) \cdot \Delta t</m>?
+            ¿Cuáles son las unidades de <m>v(t) \cdot \Delta t</m>?
           </p>
         </li>
 
         <li permid="ZBM">
           <p permid="QRU">
-            Recall the standard rules for sums that produce <m>L_3</m>,
+            Recuerda las reglas estándar para sumas que producen <m>L_3</m>,
             <m>R_3</m>,
             <m>T_3</m>.
           </p>
@@ -142,19 +142,19 @@
 
         <li permid="FIV">
           <p permid="wZd">
-            Think about concavity to decide if <m>M_3</m> is an over- or under-estimate.
+            Piensa en la concavidad para decidir si <m>M_3</m> es una sobreestimación o una subestimación.
           </p>
         </li>
 
         <li permid="lQe">
           <p permid="dgm">
-            Recall how <m>S_3</m> is a weighted average of <m>T_3</m> and <m>M_3</m>.
+            Recuerda cómo <m>S_3</m> es un promedio ponderado de <m>T_3</m> y <m>M_3</m>.
           </p>
         </li>
 
         <li permid="RXn">
           <p permid="Jnv">
-            Simpson's Rule gives the best estimate for a function of consistent concavity.
+            La Regla de Simpson da la mejor estimación para una función de concavidad consistente.
           </p>
         </li>
       </ol>
@@ -165,7 +165,7 @@
       <ol marker="a." permid="kaR">
         <li permid="yew">
           <p permid="puE">
-            Plot the data.
+            Grafica los datos.
           </p>
         </li>
 
@@ -180,13 +180,13 @@
             <md permid="vTK">
               <mrow>L_3 \amp = 165.6 \text{ ft }  \amp  R_3 \amp = 105.6 \text{ ft }  \amp  T_3 \amp = 135.6 \text{ ft}</mrow>
             </md>.
-            <m>R_3</m> and <m>T_3</m> are underestimates.
+            <m>R_3</m> y <m>T_3</m> son subestimaciones.
           </p>
         </li>
 
         <li permid="qzX">
           <p permid="hQf">
-            <m> M_3 = 143.4 \text{ ft}</m>; overestimate.
+            <m> M_3 = 143.4 \text{ ft}</m>; sobreestimación.
           </p>
         </li>
 
@@ -198,8 +198,8 @@
 
         <li permid="COp">
           <p permid="uex">
-            Simpson's rule gives the best approximation of the distance traveled,
-            <m>\int_0^{1.8} v(t) dt \approx 140.8 \text{ ft}</m>, which leads to <m>AV_{[0,1.8]} \approx \frac{140.8}{1.8} \approx 78.22 \text{ ft/sec}</m>.
+            La regla de Simpson da la mejor aproximación de la distancia recorrida,
+            <m>\int_0^{1.8} v(t) dt \approx 140.8 \text{ ft}</m>, lo que lleva a <m>AV_{[0,1.8]} \approx \frac{140.8}{1.8} \approx 78.22 \text{ ft/seg}</m>.
           </p>
         </li>
       </ol>
@@ -210,14 +210,14 @@
       <ol marker="a." permid="DTI">
         <li permid="iVy">
           <p permid="alG">
-            Plot the data.
+            Grafica los datos.
           </p>
         </li>
 
         <li permid="PcH">
           <p permid="GsP">
-            Since the velocity is always positive,
-            the definite integral that will give the exact distance traveled by the car on the interval <m>[0, 1.8]</m> is
+            Dado que la velocidad es siempre positiva,
+            la integral definida que dará la distancia exacta recorrida por el coche en el intervalo <m>[0, 1.8]</m> es
             <me permid="caT">
               \int_0^{1.8} v(t) dt
             </me>.
@@ -226,27 +226,27 @@
 
         <li permid="vjQ">
           <p permid="mzY">
-            The estimates of <m>\int_0^{1.8} v(t) dt</m> are
+            Las estimaciones de <m>\int_0^{1.8} v(t) dt</m> son
             <md permid="Iic">
               <mrow>L_3 \amp = 165.6 \text{ ft }  \amp  R_3 \amp = 105.6 \text{ ft }  \amp  T_3 \amp = 135.6 \text{ ft}</mrow>
             </md>.
-            <m>R_3</m> is an underestimate of the distance traveled since <m>v(t)</m> is decreasing. <m>T_3</m> is an underestimate of the distance traveled since <m>v(t)</m> is concave down.
+            <m>R_3</m> es una subestimación de la distancia recorrida ya que <m>v(t)</m> está decreciendo. <m>T_3</m> es una subestimación de la distancia recorrida ya que <m>v(t)</m> es cóncava hacia abajo.
           </p>
         </li>
 
         <li permid="bqZ">
           <p permid="SHh">
-            Another estimate of the distance traveled is
+            Otra estimación de la distancia recorrida es
             <me permid="opl">
               M_3 = 143.4 \text{ ft}
             </me>.
-            This is an overestimate since <m>v(t)</m> is concave down.
+            Esto es una sobreestimación ya que <m>v(t)</m> es cóncava hacia abajo.
           </p>
         </li>
 
         <li permid="Hyi">
           <p permid="yOq">
-            For Simpson's Rule, we see that
+            Para la Regla de Simpson, vemos que
             <me permid="Uwu">
               S_6 = \frac{2}{3}M_3 + \frac{1}{3}T_3 = 140.8 \text{ ft}
             </me>.
@@ -255,18 +255,18 @@
 
         <li permid="nFr">
           <p permid="eVz">
-            Simpson's rule gives the best approximation of the distance traveled since it is a weighted average of the midpoint and trapezoid rules and uses more information about the velocity than the other methods.
-            The units on each of the estimates,
-            including Simpson's Rule,
-            are "feet", since ft/sec <m>\cdot</m> sec = ft.
-            Thus,
-            the best approximation we have generated for distance traveled is <m>\int_0^{1.8} v(t) dt \approx 140.8 \text{ ft }</m>.
+            La regla de Simpson da la mejor aproximación de la distancia recorrida ya que es un promedio ponderado de las reglas del punto medio y del trapecio y usa más información sobre la velocidad que los otros métodos.
+            Las unidades de cada una de las estimaciones,
+            incluyendo la Regla de Simpson,
+            son "pies", ya que ft/seg <m>\cdot</m> seg = ft.
+            Así,
+            la mejor aproximación que hemos generado para la distancia recorrida es <m>\int_0^{1.8} v(t) dt \approx 140.8 \text{ ft }</m>.
           </p>
 
           <p>
-            To estimate the average velocity on <m>[0,1.8]</m>, we compute change in position divided by change in time.  Here, since <m>v(t)</m> is always positive, the car's change in position equals its distance traveled.  Hence,
+            Para estimar la velocidad promedio en <m>[0,1.8]</m>, calculamos el cambio en la posición dividido por el cambio en el tiempo. Aquí, dado que <m>v(t)</m> es siempre positiva, el cambio en la posición del coche es igual a su distancia recorrida. Por lo tanto,
             <me>
-              AV_{[0,1.8]} = \frac{s(1.8)-s(0)}{1.8-0} \approx \frac{140.8}{1.8} = \frac{740}{9} \approx 78.22 \text{ ft/sec}
+              AV_{[0,1.8]} = \frac{s(1.8)-s(0)}{1.8-0} \approx \frac{140.8}{1.8} = \frac{740}{9} \approx 78.22 \text{ ft/seg}
             </me>.
           </p>
         </li>
@@ -274,4 +274,3 @@
     </p>
   </solution>
 </activity>
-

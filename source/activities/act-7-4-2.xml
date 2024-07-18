@@ -15,46 +15,45 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-7-4-2" permid="gLM">
   <statement>
     <p permid="PNB">
-      Suppose that a cup of coffee is initially at a temperature of
-      <m>105^\circ</m> F and is placed in a <m>75^\circ</m> F room.
-      If <m>T</m> is the temperature of the coffee in degrees Fahrenheit at time <m>t</m> in minutes, 
-      Newton's law of
-      cooling says that
+      Supón que una taza de café está inicialmente a una temperatura de
+      <m>105^\circ</m> F y se coloca en una habitación de <m>75^\circ</m> F.
+      Si <m>T</m> es la temperatura del café en grados Fahrenheit en el tiempo <m>t</m> en minutos, 
+      la ley de enfriamiento de Newton dice que
       <me permid="vUK">
         \frac{dT}{dt} = -k(T-75)
       </me>,
-      where <m>k</m> is a constant of proportionality.
+      donde <m>k</m> es una constante de proporcionalidad.
 
       <ol marker="a." permid="CPp">
         <li permid="iWy">
           <p permid="dhm">
-            Suppose you measure that the coffee is cooling at one degree per minute at the time the coffee is brought into the room.
-            Use the differential equation to determine the value of the constant <m>k</m>.
+            Supón que mides que el café se está enfriando a un grado por minuto en el momento en que el café se lleva a la habitación.
+            Usa la ecuación diferencial para determinar el valor de la constante <m>k</m>.
           </p>
         </li>
 
         <li permid="PdH">
           <p permid="Jov">
-            Find all the solutions of this differential equation.
+            Encuentra todas las soluciones de esta ecuación diferencial.
           </p>
         </li>
 
         <li permid="vkQ">
           <p permid="pvE">
-            What happens to all the solutions as <m>t\to\infty</m>?
-            Explain how this agrees with your intuition.
+            ¿Qué pasa con todas las soluciones cuando <m>t\to\infty</m>?
+            Explica cómo esto concuerda con tu intuición.
           </p>
         </li>
 
         <li permid="brZ">
           <p permid="VCN">
-            What is the temperature of the cup of coffee after 20 minutes?
+            ¿Cuál es la temperatura de la taza de café después de 20 minutos?
           </p>
         </li>
 
         <li permid="Hzi">
           <p permid="BJW">
-            How long does it take for the coffee to cool to <m>80^\circ</m>?
+            ¿Cuánto tiempo tarda el café en enfriarse a <m>80^\circ</m>?
           </p>
         </li>
       </ol>
@@ -65,7 +64,7 @@
       <ol marker="a." permid="WIg">
         <li permid="nGr">
           <p permid="hRf">
-            Small hints for each of the prompts above.
+            Pequeñas pistas para cada uno de los puntos anteriores.
           </p>
         </li>
       </ol>
@@ -88,7 +87,7 @@
 
         <li permid="gbS">
           <p permid="amG">
-            The temperature of the coffee tends to 75 degrees.
+            La temperatura del café tiende a 75 grados.
           </p>
         </li>
 
@@ -100,7 +99,7 @@
 
         <li permid="sqk">
           <p permid="mAY">
-            <m>t = -30 \ln \left( \frac{1}{6} \right) \approx 53.75</m> minutes.
+            <m>t = -30 \ln \left( \frac{1}{6} \right) \approx 53.75</m> minutos.
           </p>
         </li>
       </ol>
@@ -108,85 +107,84 @@
   </answer>
   <solution permid="RYn">
     <p permid="Xsa">
-      We have
+      Tenemos
       <me permid="cbT">
         \frac{dT}{dt} = -k(T - 75)
       </me>,
-      where <m>k</m> is a constant.
-      We also have <m>T(0) = 105</m>.
+      donde <m>k</m> es una constante.
+      También tenemos <m>T(0) = 105</m>.
 
       <ol marker="a." permid="KtO">
         <li permid="Yxt">
           <p permid="SIh">
-            Since the coffee is cooling at a rate of one degree per minute at time <m>0</m>,
-            it follows that <m>\frac{dT}{dt} = -1</m> at this instant.
-            From the given differential equation,
-            we know <m>-k(T(0) - 75) = -1</m>.
-            Next, <m>T(0) = 105</m>,
-            so <m>-k(105 - 75) = -1</m>, and thus <m>k = \frac{1}{30}</m>.
+            Dado que el café se está enfriando a una tasa de un grado por minuto en el tiempo <m>0</m>,
+            se sigue que <m>\frac{dT}{dt} = -1</m> en este instante.
+            De la ecuación diferencial dada,
+            sabemos que <m>-k(T(0) - 75) = -1</m>.
+            Luego, <m>T(0) = 105</m>,
+            así que <m>-k(105 - 75) = -1</m>, y por lo tanto <m>k = \frac{1}{30}</m>.
           </p>
         </li>
 
         <li permid="EEC">
           <p permid="yPq">
-            We use separation of variables to solve the differential equation <m>\frac{dT}{dt} = -\frac{1}{30} (T - 75)</m>.
-            Separating variables and integrating both sides with respect to <m>t</m>,
+            Usamos separación de variables para resolver la ecuación diferencial <m>\frac{dT}{dt} = -\frac{1}{30} (T - 75)</m>.
+            Separando variables e integrando ambos lados con respecto a <m>t</m>,
             <me permid="Ijc">
               \int \frac{1}{T - 75} dT = -\int \frac{1}{30} dt
             </me>
-            Integrating both sides,
+            Integrando ambos lados,
             <me permid="oql">
               \ln \left| T - 75 \right| = -\frac{1}{30} t + c
             </me>
-            Using the definition of the logarithm function and writing <m>e^c = C</m>,
-            we see that
+            Usando la definición de la función logarítmica y escribiendo <m>e^c = C</m>,
+            vemos que
             <me permid="Uxu">
               |T - 75| = e^{-t/30 + c} = C e^{-t/30}
             </me>
-            Finally, including the absolute value in <m>C</m> and solving for <m>T</m>,
-            <m>T - 75 = C e^{-t/30}</m>, so <m>T = 75 + Ce^{-t/30}</m>.
+            Finalmente, incluyendo el valor absoluto en <m>C</m> y resolviendo para <m>T</m>,
+            <m>T - 75 = C e^{-t/30}</m>, así que <m>T = 75 + Ce^{-t/30}</m>.
           </p>
         </li>
 
         <li permid="kLL">
           <p permid="eWz">
-            As <m>t \to \infty</m>, <m>e^{-t/30} \to 0</m>.
-            So
+            A medida que <m>t \to \infty</m>, <m>e^{-t/30} \to 0</m>.
+            Así que
             <me permid="AED">
               \lim_{t \to \infty} \left(75 + Ce^{-t/30} \right) = 75
             </me>.
-            This means that as <m>t \to \infty</m>, <m>T \to 75</m>,
-            or the temperature of the coffee tends to 75 degrees.
+            Esto significa que a medida que <m>t \to \infty</m>, <m>T \to 75</m>,
+            o la temperatura del café tiende a 75 grados.
           </p>
         </li>
 
         <li permid="QSU">
           <p permid="LdI">
-            In order to determine the temperature of the coffee after 20 minutes,
-            we need to first determine the value of the constant <m>C</m> in the solution <m>T = 75 + Ce^{-t/30}</m>.
-            To do this, we use the fact that the temperature of the coffee at <m>t = 0</m> is <m>105^\circ</m>F. Thus,
-            <m>105 = 75 + Ce^0</m>, so <m>C = 30</m>.
-            Now we know that <m>T = 75 + 30e^{-t/30}</m>,
-            and when <m>t = 20</m>, <m>T(20) = 75 + 30e^{-2/3}</m>.
-            The temperature of the coffee after 20 minutes is approximately <m>90.4^\circ</m>F.
+            Para determinar la temperatura del café después de 20 minutos,
+            primero necesitamos determinar el valor de la constante <m>C</m> en la solución <m>T = 75 + Ce^{-t/30}</m>.
+            Para hacer esto, usamos el hecho de que la temperatura del café en <m>t = 0</m> es <m>105^\circ</m>F. Así,
+            <m>105 = 75 + Ce^0</m>, así que <m>C = 30</m>.
+            Ahora sabemos que <m>T = 75 + 30e^{-t/30}</m>,
+            y cuando <m>t = 20</m>, <m>T(20) = 75 + 30e^{-2/3}</m>.
+            La temperatura del café después de 20 minutos es aproximadamente <m>90.4^\circ</m>F.
           </p>
         </li>
 
         <li permid="xad">
           <p permid="rkR">
-            To determine how long it will take the coffee to cool to
-            <m>80^\circ</m>F, we solve the equation
-            <m>80 = 75 + 30 e^{-t/30}</m> for <m>t</m>.
-            Solving first for <m>e^{-t/30}</m>,
-            we subtract <m>75</m> from both sides and divide by <m>30</m> to get <m>e^{-t/30} = \frac{5}{30}</m>.
-            Taking logarithms and solving for <m>t</m>,
+            Para determinar cuánto tiempo tardará el café en enfriarse a
+            <m>80^\circ</m>F, resolvemos la ecuación
+            <m>80 = 75 + 30 e^{-t/30}</m> para <m>t</m>.
+            Resolviendo primero para <m>e^{-t/30}</m>,
+            restamos <m>75</m> de ambos lados y dividimos por <m>30</m> para obtener <m>e^{-t/30} = \frac{5}{30}</m>.
+            Tomando logaritmos y resolviendo para <m>t</m>,
             <m>-\frac{t}{30} = \ln \left( \frac{1}{6} \right)</m>,
-            and thus <m>t = -30 \ln \left( \frac{1}{6} \right)</m>.
-            We conclude that it will take about 53.75 minutes for the coffee to cool to <m>80^\circ</m>F.
+            y por lo tanto <m>t = -30 \ln \left( \frac{1}{6} \right)</m>.
+            Concluimos que tardará aproximadamente 53.75 minutos en que el café se enfríe a <m>80^\circ</m>F.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

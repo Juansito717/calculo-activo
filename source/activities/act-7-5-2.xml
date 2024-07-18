@@ -15,51 +15,42 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-7-5-2" permid="ymN">
   <statement>
     <p permid="NvL">
-      A dose of morphine is
-      absorbed from the bloodstream of a patient at a rate
-      proportional to the amount in the bloodstream.
+      Una dosis de morfina es absorbida del torrente sanguíneo de un paciente a una tasa proporcional a la cantidad en el torrente sanguíneo.
 
       <ol marker="a." permid="PGx">
         <li permid="vNG">
           <p permid="itV">
-            Write a differential equation for <m>M(t)</m>,
-            the amount of morphine in the patient's bloodstream,
-            using <m>k</m> as the constant proportionality.
+            Escribe una ecuación diferencial para <m>M(t)</m>, la cantidad de morfina en el torrente sanguíneo del paciente, usando <m>k</m> como la constante de proporcionalidad.
           </p>
         </li>
 
         <li permid="bUP">
           <p permid="OBe">
-            Assuming that the initial dose of morphine is <m>M_0</m>,
-            solve the initial value problem to find <m>M(t)</m>.
-            Use the fact that the half-life for the absorption of morphine is two hours to find the constant <m>k</m>.
+            Suponiendo que la dosis inicial de morfina es <m>M_0</m>, resuelve el problema de valor inicial para encontrar <m>M(t)</m>. Usa el hecho de que la vida media para la absorción de morfina es de dos horas para encontrar la constante <m>k</m>.
           </p>
         </li>
 
         <li permid="IbY">
           <p permid="uIn">
-            Suppose that a patient is given morphine intravenously at the rate of 3 milligrams per hour.
-            Write a differential equation that combines the intravenous administration of morphine with the body's natural absorption.
+            Supón que a un paciente se le administra morfina por vía intravenosa a una tasa de 3 miligramos por hora. Escribe una ecuación diferencial que combine la administración intravenosa de morfina con la absorción natural del cuerpo.
           </p>
         </li>
 
         <li permid="ojh">
           <p permid="aPw">
-            Find any equilibrium solutions and determine their stability.
+            Encuentra cualquier solución de equilibrio y determina su estabilidad.
           </p>
         </li>
 
         <li permid="Uqq">
           <p permid="GWF">
-            Assuming that there is initially no morphine in the patient's bloodstream,
-            solve the initial value problem to determine <m>M(t)</m>.
-            What happens to <m>M(t)</m> after a very long time?
+            Suponiendo que inicialmente no hay morfina en el torrente sanguíneo del paciente, resuelve el problema de valor inicial para determinar <m>M(t)</m>. ¿Qué pasa con <m>M(t)</m> después de mucho tiempo?
           </p>
         </li>
 
         <li permid="Axz">
           <p permid="ndO">
-            To what rate should a doctor reduce the intravenous rate so that there is eventually 7 milligrams of morphine in the patient's bloodstream?
+            ¿A qué tasa debería un doctor reducir la tasa intravenosa para que eventualmente haya 7 miligramos de morfina en el torrente sanguíneo del paciente?
           </p>
         </li>
       </ol>
@@ -70,7 +61,7 @@
       <ol marker="a." permid="jzo">
         <li permid="gEI">
           <p permid="TkX">
-            Small hints for each of the prompts above.
+            Pequeñas pistas para cada uno de los enunciados anteriores.
           </p>
         </li>
       </ol>
@@ -81,7 +72,7 @@
       <ol marker="a." permid="Dsf">
         <li permid="MLR">
           <p permid="zsg">
-            <m>\frac{dM}{dt} = -kM</m>, where <m>k</m> is a positive constant.
+            <m>\frac{dM}{dt} = -kM</m>, donde <m>k</m> es una constante positiva.
           </p>
         </li>
 
@@ -93,14 +84,13 @@
 
         <li permid="Zaj">
           <p permid="LGy">
-            <m>\frac{dM}{dt} = 3 - kM</m>,
-            where <m>k</m> is a positive constant.
+            <m>\frac{dM}{dt} = 3 - kM</m>, donde <m>k</m> es una constante positiva.
           </p>
         </li>
 
         <li permid="Fhs">
           <p permid="rNH">
-            The equilibrium solution <m>mM = \frac{3}{k}</m> is stable.
+            La solución de equilibrio <m>mM = \frac{3}{k}</m> es estable.
           </p>
         </li>
 
@@ -112,7 +102,7 @@
 
         <li permid="RvK">
           <p permid="EbZ">
-            About 2.426 milligrams per hour.
+            Aproximadamente 2.426 miligramos por hora.
           </p>
         </li>
       </ol>
@@ -123,89 +113,61 @@
       <ol marker="a." permid="XkW">
         <li permid="xCT">
           <p permid="kji">
-            We will use the differential equation <m>\frac{dM}{dt} = -kM</m>,
-            where <m>k</m> is a positive constant.
+            Usaremos la ecuación diferencial <m>\frac{dM}{dt} = -kM</m>, donde <m>k</m> es una constante positiva.
           </p>
         </li>
 
         <li permid="dKc">
           <p permid="Qqr">
-            With an initial condition of <m>M = M_0</m> when <m>t = 0</m>,
-            the solution for the initial value problem is
+            Con una condición inicial de <m>M = M_0</m> cuando <m>t = 0</m>, la solución para el problema de valor inicial es
             <me permid="tCU">
               M = M_0 e^{-kt}
             </me>.
-            Using a half-life of 2 hours,
-            we see that <m>M = \frac{1}{2} M_0</m> when <m>t = 2</m>.
-            This gives <m>\frac{1}{2}M_0 = M_0 e^{-2k}</m>,
-            from which it follows that <m>k = -\frac{1}{2} \ln \left( \frac{1}{2} \right) \approx 0.34657</m>.
+            Usando una vida media de 2 horas, vemos que <m>M = \frac{1}{2} M_0</m> cuando <m>t = 2</m>. Esto da <m>\frac{1}{2}M_0 = M_0 e^{-2k}</m>, de lo cual se sigue que <m>k = -\frac{1}{2} \ln \left( \frac{1}{2} \right) \approx 0.34657</m>.
           </p>
         </li>
 
         <li permid="JRl">
           <p permid="wxA">
-            Noting that the rate of change of the drug in the body will be the differnce between the positive contributions of the dosage of 3 milligrams per hour and the decay of <m>kM</m> per hour,
-            it follows that
-            <m>\frac{dM}{dt} = 3 - kM</m>,
-            where <m>k</m> is a positive constant.
+            Notando que la tasa de cambio del medicamento en el cuerpo será la diferencia entre las contribuciones positivas de la dosis de 3 miligramos por hora y la descomposición de <m>kM</m> por hora, se sigue que
+            <m>\frac{dM}{dt} = 3 - kM</m>, donde <m>k</m> es una constante positiva.
           </p>
         </li>
 
         <li permid="pYu">
           <p permid="cEJ">
-            To find the equilibrium solutions,
-            we solve the equation <m>\frac{dM}{dt} = 0</m> for <m>M</m>.
-            This gives <m>M = \frac{3}{k}</m>.
-            The graph of <m>\frac{dM}{dt}</m> as a function of <m>M</m> is a straight line with a negative slope.
-            (The slope is <m>-k</m>.)
-            So when <m>M \lt \frac{3}{k}</m>,
-            <m>\frac{dM}{dt} \gt 0</m> and the <m>M</m> is an increasing function of <m>t</m>.
-            When <m>M \gt \frac{3}{k}</m>,
-            <m>\frac{dM}{dt} \lt 0</m> and the <m>M</m> is a decreasing function of <m>t</m>.
-            This means that the equilibrium solution
-            <m>mM = \frac{3}{k}</m> is a stable equilibrium solution.
+            Para encontrar las soluciones de equilibrio, resolvemos la ecuación <m>\frac{dM}{dt} = 0</m> para <m>M</m>. Esto da <m>M = \frac{3}{k}</m>. El gráfico de <m>\frac{dM}{dt}</m> como una función de <m>M</m> es una línea recta con una pendiente negativa. (La pendiente es <m>-k</m>.) Así que cuando <m>M \lt \frac{3}{k}</m>, <m>\frac{dM}{dt} \gt 0</m> y <m>M</m> es una función creciente de <m>t</m>. Cuando <m>M \gt \frac{3}{k}</m>, <m>\frac{dM}{dt} \lt 0</m> y <m>M</m> es una función decreciente de <m>t</m>. Esto significa que la solución de equilibrio <m>mM = \frac{3}{k}</m> es una solución de equilibrio estable.
           </p>
         </li>
 
         <li permid="WfD">
           <p permid="ILS">
-            We use the initial condition <m>M = 0</m> when <m>t = 0</m> and solve the corresponding IVP.  Separating variables,
+            Usamos la condición inicial <m>M = 0</m> cuando <m>t = 0</m> y resolvemos el IVP correspondiente. Separando variables,
             <me permid="ZKd">
               \frac{1}{3 - kM} \frac{dM}{dt} = 1
             </me>,
-            so
+            así que
             <me permid="FRm">
               \int \frac{1}{3 - kM} dM = \int 1 dt
             </me>,
-            and thus
+            y por lo tanto
             <me permid="lYv">
               -\frac{1}{k} \ln |3 - kM | = t + c
             </me>.
-            Solving for <m>M</m> in the usual way gives us
+            Resolviendo para <m>M</m> de la manera usual nos da
             <me permid="SfE">
               M = \frac{1}{k} \left( 3 - Ae^{-kt} \right)
             </me>,
-            where <m>A</m> is a constant that arises from the integration constant.
-            Using the initial condition, we obtain
-            <m> 0 = \frac{1}{k} ( 3 - A)</m>, so <m>A = 3</m>.
-            Hence, the solution to the initial condition problem is <m>M = \frac{1}{k} \left( 3 - 3e^{-kt} \right) = \frac{3}{k} \left( 1 - e^{-kt} \right)</m>.
+            donde <m>A</m> es una constante que surge de la constante de integración. Usando la condición inicial, obtenemos <m> 0 = \frac{1}{k} ( 3 - A)</m>, así que <m>A = 3</m>. Por lo tanto, la solución al problema de la condición inicial es <m>M = \frac{1}{k} \left( 3 - 3e^{-kt} \right) = \frac{3}{k} \left( 1 - e^{-kt} </m>.
           </p>
         </li>
 
         <li permid="CmM">
           <p permid="oTb">
-            We let <m>q</m> be the unknown intravenous rate of morphine
-            (in milligrams per hour).
-            Notice that if we replace <m>3</m> with <m>q</m> in the differential equation and obtain <m>\frac{dM}{dt} = q - kM</m>,
-            the solution process is the same and the equilibriume solution is <m>M = \frac{q}{k}</m>.
-            So if we want the equilibrium solution to be <m>M = 7</m>,
-            we then have <m>\frac{q}{k} = 7</m>,
-            so <m>q = 7k \approx 2.426</m>.
-            The intravenous rate of morphine should be 2.426 milligrams per hour.
+            Dejamos que <m>q</m> sea la tasa intravenosa desconocida de morfina (en miligramos por hora). Nota que si reemplazamos <m>3</m> con <m>q</m> en la ecuación diferencial y obtenemos <m>\frac{dM}{dt} = q - kM</m>, el proceso de solución es el mismo y la solución de equilibrio es <m>M = \frac{q}{k}</m>. Así que si queremos que la solución de equilibrio sea <m>M = 7</m>, entonces tenemos <m>\frac{q}{k} = 7</m>, así que <m>q = 7k \approx 2.426</m>. La tasa intravenosa de morfina debería ser de 2.426 miligramos por hora.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

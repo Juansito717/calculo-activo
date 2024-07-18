@@ -18,70 +18,70 @@
       <ol marker="a." permid="DUV">
         <li permid="IEO">
           <p permid="emS">
-            Let <m>s_n</m> be the <m>n</m>th term in the sequence <m>1, 2, 3, \ldots</m>.
+            Sea <m>s_n</m> el <m>n</m>-ésimo término en la secuencia <m>1, 2, 3, \ldots</m>.
 
-            Find a formula for <m>s_n</m> and use appropriate technological tools to draw a graph of entries in this sequence by plotting points of the form <m>(n,s_n)</m> for some values of <m>n</m>.
-            Most graphing calculators can plot sequences;
-            directions follow for the TI-84.
+            Encuentra una fórmula para <m>s_n</m> y usa herramientas tecnológicas apropiadas para dibujar un gráfico de las entradas en esta secuencia trazando puntos de la forma <m>(n,s_n)</m> para algunos valores de <m>n</m>.
+            La mayoría de las calculadoras gráficas pueden trazar secuencias;
+            las instrucciones siguen para la TI-84.
 
             <ul permid="XNM">
               <li permid="kce">
                 <p permid="dhz">
-                  In the <c>MODE</c>menu,
-                  highlight <c>SEQ</c>in the <c>FUNC</c>line and press <c>ENTER</c>.
+                  En el menú <c>MODE</c>,
+                  resalta <c>SEQ</c> en la línea <c>FUNC</c> y presiona <c>ENTER</c>.
                 </p>
               </li>
 
               <li permid="Qjn">
                 <p permid="Kub">
-                  In the <c>Y=</c>menu,
-                  you will now see lines to enter sequences.
-                  Enter a value for <c>nMin</c>
-                  (where the sequence starts),
-                  a function for <c>u(n)</c>
-                  (the <m>n</m>th term in the sequence),
-                  and the value of <c>u(nMin)</c>.
+                  En el menú <c>Y=</c>,
+                  ahora verás líneas para ingresar secuencias.
+                  Ingresa un valor para <c>nMin</c>
+                  (donde comienza la secuencia),
+                  una función para <c>u(n)</c>
+                  (el <m>n</m>-ésimo término en la secuencia),
+                  y el valor de <c>u(nMin)</c>.
                 </p>
               </li>
 
               <li permid="wqw">
                 <p permid="qBk">
-                  Set your window coordinates (this involves choosing limits for <m>n</m> as well as the window coordinates <c>XMin</c>,
-            <c>XMax</c>, <c>YMin</c>, and <c>YMax</c>.
+                  Establece las coordenadas de tu ventana (esto implica elegir límites para <m>n</m> así como las coordenadas de la ventana <c>XMin</c>,
+            <c>XMax</c>, <c>YMin</c>, y <c>YMax</c>.
                 </p>
               </li>
 
               <li permid="cxF">
                 <p permid="WIt">
-                  The <c>GRAPH</c>key will draw a plot of your sequence.
+                  La tecla <c>GRAPH</c> dibujará un gráfico de tu secuencia.
                 </p>
               </li>
             </ul>
 
-            Using your knowledge of limits of continuous functions as <m>x \to \infty</m>,
-            decide if this sequence <m>\{s_n\}</m> has a limit as <m>n \to \infty</m>.
-            Explain your reasoning.
+            Usando tu conocimiento de límites de funciones continuas cuando <m>x \to \infty</m>,
+            decide si esta secuencia <m>\{s_n\}</m> tiene un límite cuando <m>n \to \infty</m>.
+            Explica tu razonamiento.
           </p>
         </li>
 
         <li permid="oLX">
           <p permid="CPC">
-            Let <m>s_n</m> be the <m>n</m>th term in the sequence <m>1, \frac{1}{2}, \frac{1}{3}, \ldots</m>.
-            Find a formula for <m>s_n</m>.
-            Draw a graph of some points in this sequence.
-            Using your knowledge of limits of continuous functions as <m>x \to \infty</m>,
-            decide if this sequence <m>\{s_n\}</m> has a limit as <m>n \to \infty</m>.
-            Explain your reasoning.
+            Sea <m>s_n</m> el <m>n</m>-ésimo término en la secuencia <m>1, \frac{1}{2}, \frac{1}{3}, \ldots</m>.
+            Encuentra una fórmula para <m>s_n</m>.
+            Dibuja un gráfico de algunos puntos en esta secuencia.
+            Usando tu conocimiento de límites de funciones continuas cuando <m>x \to \infty</m>,
+            decide si esta secuencia <m>\{s_n\}</m> tiene un límite cuando <m>n \to \infty</m>.
+            Explica tu razonamiento.
           </p>
         </li>
 
         <li permid="UTg">
           <p permid="iWL">
-            Let <m>s_n</m> be the <m>n</m>th term in the sequence <m>2, \frac{3}{2}, \frac{4}{3}, \frac{5}{4}, \ldots</m>.
-            Find a formula for <m>s_n</m>.
-            Using your knowledge of limits of continuous functions as <m>x \to \infty</m>,
-            decide if this sequence <m>\{s_n\}</m> has a limit as <m>n \to \infty</m>.
-            Explain your reasoning.
+            Sea <m>s_n</m> el <m>n</m>-ésimo término en la secuencia <m>2, \frac{3}{2}, \frac{4}{3}, \frac{5}{4}, \ldots</m>.
+            Encuentra una fórmula para <m>s_n</m>.
+            Usando tu conocimiento de límites de funciones continuas cuando <m>x \to \infty</m>,
+            decide si esta secuencia <m>\{s_n\}</m> tiene un límite cuando <m>n \to \infty</m>.
+            Explica tu razonamiento.
           </p>
         </li>
       </ol>
@@ -92,20 +92,20 @@
       <ol marker="a." permid="rGD">
         <li permid="Bap">
           <p permid="PdU">
-            When <m>n=1</m>, <m>s_n = 1</m>;
-            when <m>n=2</m>, <m>s_n = 2</m>.
+            Cuando <m>n=1</m>, <m>s_n = 1</m>;
+            cuando <m>n=2</m>, <m>s_n = 2</m>.
           </p>
         </li>
 
         <li permid="hhy">
           <p permid="vld">
-            Think about the value of <m>\frac{1}{n}</m>.
+            Piensa en el valor de <m>\frac{1}{n}</m>.
           </p>
         </li>
 
         <li permid="NoH">
           <p permid="bsm">
-            Note that the numerator of each term of the sequence is one more than the denominator of the term.
+            Nota que el numerador de cada término de la secuencia es uno más que el denominador del término.
           </p>
         </li>
       </ol>
@@ -117,7 +117,7 @@
         <li permid="tvQ">
           <p permid="Hzv">
             <m>s_n = n</m>.
-            A plot of the first 50 points in the sequence is shown here.
+            Aquí se muestra un gráfico de los primeros 50 puntos en la secuencia.
           </p>
 
           <sidebyside width="50%" permid="hRs">
@@ -125,14 +125,14 @@
           </sidebyside>
 
           <p permid="nGE">
-            This sequence does not have a limit as <m>n</m> goes to infinity.
+            Esta secuencia no tiene un límite cuando <m>n</m> tiende a infinito.
           </p>
         </li>
 
         <li permid="ZCZ">
           <p permid="TNN">
-            <m>s_n</m> is <m>s_n = \frac{1}{n}</m>.
-            A plot of the first 50 points in the sequence is shown here.
+            <m>s_n</m> es <m>s_n = \frac{1}{n}</m>.
+            Aquí se muestra un gráfico de los primeros 50 puntos en la secuencia.
           </p>
 
           <sidebyside width="50%" permid="NYB">
@@ -140,14 +140,14 @@
           </sidebyside>
 
           <p permid="zUW">
-            This sequence has a limit of 0 as <m>n</m> goes to infinity.
+            Esta secuencia tiene un límite de 0 cuando <m>n</m> tiende a infinito.
           </p>
         </li>
 
         <li permid="FKi">
           <p permid="gcf">
             <m>s_n = \frac{n+1}{n}</m>.
-            A plot of the first 50 points in the sequence is shown here.
+            Aquí se muestra un gráfico de los primeros 50 puntos en la secuencia.
           </p>
 
           <sidebyside width="50%" permid="ufK">
@@ -155,7 +155,7 @@
           </sidebyside>
 
           <p permid="Mjo">
-            This sequence has a limit of 1 as <m>n</m> goes to infinity.
+            Esta secuencia tiene un límite de 1 cuando <m>n</m> tiende a infinito.
           </p>
         </li>
       </ol>
@@ -166,8 +166,8 @@
       <ol marker="a." permid="fsl">
         <li permid="lRr">
           <p permid="sqx">
-            By observation we see that a formula for <m>s_n</m> is <m>s_n = n</m>.
-            A plot of the first 50 points in the sequence is shown here.
+            Por observación vemos que una fórmula para <m>s_n</m> es <m>s_n = n</m>.
+            Aquí se muestra un gráfico de los primeros 50 puntos en la secuencia.
           </p>
 
           <sidebyside width="50%" permid="amT">
@@ -175,16 +175,16 @@
           </sidebyside>
 
           <p permid="YxG">
-            We recalling that a function <m>f</m> has a limit <m>L</m> at infinity if we can make the values of <m>f(x)</m> as large as we want by choosing <m>x</m> as large as we need.
-            Since we can make the values of <m>n</m> in our sequence as large as we want by choosing <m>n</m> to be as large as we need,
-            we suspect that this sequence does not have a limit as <m>n</m> goes to infinity.
+            Recordando que una función <m>f</m> tiene un límite <m>L</m> en el infinito si podemos hacer que los valores de <m>f(x)</m> sean tan grandes como queramos eligiendo <m>x</m> tan grande como necesitemos.
+            Dado que podemos hacer que los valores de <m>n</m> en nuestra secuencia sean tan grandes como queramos eligiendo <m>n</m> tan grande como necesitemos,
+            sospechamos que esta secuencia no tiene un límite cuando <m>n</m> tiende a infinito.
           </p>
         </li>
 
         <li permid="RYA">
           <p permid="EEP">
-            By observation we see that a formula for <m>s_n</m> is <m>s_n = \frac{1}{n}</m>.
-            A plot of the first 50 points in the sequence is shown here.
+            Por observación vemos que una fórmula para <m>s_n</m> es <m>s_n = \frac{1}{n}</m>.
+            Aquí se muestra un gráfico de los primeros 50 puntos en la secuencia.
           </p>
 
           <sidebyside width="50%" permid="Guc">
@@ -192,17 +192,17 @@
           </sidebyside>
 
           <p permid="kLY">
-            Since we can make the values of
-            <m>\frac{1}{n}</m> in our sequence as close to 0 as we want by choosing <m>n</m> to be as large as we need,
-            we suspect that this sequence has a limit of 0 as <m>n</m> goes to infinity.
+            Dado que podemos hacer que los valores de
+            <m>\frac{1}{n}</m> en nuestra secuencia sean tan cercanos a 0 como queramos eligiendo <m>n</m> tan grande como necesitemos,
+            sospechamos que esta secuencia tiene un límite de 0 cuando <m>n</m> tiende a infinito.
           </p>
         </li>
 
         <li permid="yfJ">
           <p permid="QTh">
-            Since the numerator is always 1 more than the denominator,
-            a formula for <m>s_n</m> is <m>s_n = \frac{n+1}{n}</m>.
-            A plot of the first 50 points in the sequence is shown here.
+            Dado que el numerador es siempre 1 más que el denominador,
+            una fórmula para <m>s_n</m> es <m>s_n = \frac{n+1}{n}</m>.
+            Aquí se muestra un gráfico de los primeros 50 puntos en la secuencia.
           </p>
 
           <sidebyside width="50%" permid="mBl">
@@ -210,13 +210,12 @@
           </sidebyside>
 
           <p permid="xaq">
-            Since we can make the values of
-            <m>\frac{n+1}{n}</m> in our sequence as close to 1 as we want by choosing <m>n</m> to be as large as we need,
-            we suspect that this sequence has a limit of 1 as <m>n</m> goes to infinity.
+            Dado que podemos hacer que los valores de
+            <m>\frac{n+1}{n}</m> en nuestra secuencia sean tan cercanos a 1 como queramos eligiendo <m>n</m> tan grande como necesitemos,
+            sospechamos que esta secuencia tiene un límite de 1 cuando <m>n</m> tiende a infinito.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

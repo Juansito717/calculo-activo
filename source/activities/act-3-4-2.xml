@@ -15,108 +15,107 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-4-2" permid="eNi">
   <statement>
     <p permid="NOX">
-      A hiker starting at a point <m>P</m> on a straight road walks east towards point <m>Q</m>,
-      which is on the road and 3 kilometers from point <m>P</m>.
+      Un excursionista que comienza en un punto <m>P</m> en un camino recto camina hacia el este hacia el punto <m>Q</m>,
+      que está en el camino y a 3 kilómetros del punto <m>P</m>.
     </p>
     <!--<sidebyside widths="47% 47%" margins="0%">-->
     <p permid="tWg">
-      Two kilometers due north of point <m>Q</m> is a cabin.
-      The hiker will walk down the road for a while,
-      at a pace of 8 kilometers per hour.
-      At some point <m>Z</m> between <m>P</m> and <m>Q</m>,
-      the hiker leaves the road and makes a straight line towards the cabin through the woods,
-      hiking at a pace of 3 kph,
-      as pictured in <xref ref="F-3-4-Act2">Figure</xref>.
-      In order to minimize the time to go from <m>P</m> to <m>Z</m> to the cabin,
-      where should the hiker turn into the forest?
+      Dos kilómetros al norte del punto <m>Q</m> hay una cabaña.
+      El excursionista caminará por el camino durante un tiempo,
+      a un ritmo de 8 kilómetros por hora.
+      En algún punto <m>Z</m> entre <m>P</m> y <m>Q</m>,
+      el excursionista deja el camino y se dirige en línea recta hacia la cabaña a través del bosque,
+      caminando a un ritmo de 3 kph,
+      como se muestra en <xref ref="F-3-4-Act2">Figure</xref>.
+      Para minimizar el tiempo de ir de <m>P</m> a <m>Z</m> a la cabaña,
+      ¿dónde debería el excursionista girar hacia el bosque?
     </p>
 
     <figure xml:id="F-3-4-Act2" permid="adp">
-      <caption>A hiker walks from <m>P</m> to <m>Z</m> to the cabin, as pictured.</caption>
+      <caption>Un excursionista camina de <m>P</m> a <m>Z</m> a la cabaña, como se muestra.</caption>
       <image width="47%" source="images/3_4_Act2" />
     </figure>
 <!--</sidebyside>-->
   </statement>
   <hint permid="Evl">
     <p permid="hHO">
-      Let <m>x</m> be the distance from <m>Z</m> to <m>Q</m>.
-      What is then the distance from <m>P</m> to <m>Z</m> in terms of <m>x</m>?
-      How about the distance from <m>Z</m> to the cabin?
-      How does time depend on distance and rate?
+      Sea <m>x</m> la distancia de <m>Z</m> a <m>Q</m>.
+      ¿Cuál es entonces la distancia de <m>P</m> a <m>Z</m> en términos de <m>x</m>?
+      ¿Y la distancia de <m>Z</m> a la cabaña?
+      ¿Cómo depende el tiempo de la distancia y la velocidad?
     </p>
   </hint>
   <answer permid="Yoc">
     <p permid="BAF">
-      The absolute minimum time the hiker can achieve is <m>0.99302</m> hours,
-      which is attained by hiking about 2.2 km from <m>P</m> to <m>Q</m> and then turning into the woods for the remainder of the trip.
+      El tiempo mínimo absoluto que el excursionista puede lograr es <m>0.99302</m> horas,
+      que se alcanza caminando unos 2.2 km desde <m>P</m> hasta <m>Q</m> y luego girando hacia el bosque para el resto del viaje.
     </p>
   </answer>
   <solution permid="sgT">
     <p permid="kCu">
-      We begin by letting <m>x</m> be the distance from <m>Z</m> to <m>Q</m>.
-      Since it is 3 km from <m>P</m> to <m>Q</m>,
-      the distance from <m>P</m> to <m>Z</m> is <m>3-x</m>.
-      Further, by the Pythagorean Theorem,
-      the distance from <m>Z</m> to the cabin is <m>\sqrt{4+x^2}</m>.
+      Comenzamos dejando que <m>x</m> sea la distancia de <m>Z</m> a <m>Q</m>.
+      Dado que hay 3 km de <m>P</m> a <m>Q</m>,
+      la distancia de <m>P</m> a <m>Z</m> es <m>3-x</m>.
+      Además, por el Teorema de Pitágoras,
+      la distancia de <m>Z</m> a la cabaña es <m>\sqrt{4+x^2}</m>.
     </p>
 
     <p permid="QJD">
-      Next, we want to determine the hiker's time as a function of <m>x</m>.
-      Because distance equals rate times time,
-      time is thus distance divided by rate.
-      Along the road,
-      the hiker's distance is <m>3-x</m> km and her rate is <m>8</m> km/hr,
-      thus her time on the road, <m>T_r</m> is
+      A continuación, queremos determinar el tiempo del excursionista como una función de <m>x</m>.
+      Debido a que la distancia es igual a la velocidad por el tiempo,
+      el tiempo es entonces la distancia dividida por la velocidad.
+      A lo largo del camino,
+      la distancia del excursionista es <m>3-x</m> km y su velocidad es <m>8</m> km/h,
+      por lo tanto, su tiempo en el camino, <m>T_r</m> es
       <me permid="Gky">
         T_r = \frac{3-x}{8}
       </me>.
     </p>
 
     <p permid="wQM">
-      Once she enters the woods,
-      her rate drops to <m>3</m> km/hr and travels a distance of <m>\sqrt{4+x^2}</m> km,
-      making her time in the woods, <m>T_w</m>, given by
+      Una vez que entra en el bosque,
+      su velocidad baja a <m>3</m> km/h y recorre una distancia de <m>\sqrt{4+x^2}</m> km,
+      haciendo que su tiempo en el bosque, <m>T_w</m>, sea
       <me permid="mrH">
         T_w = \frac{\sqrt{4+x^2}}{3}
       </me>.
     </p>
 
     <p permid="cXV">
-      Thus, the hiker's total time is given by the function
+      Por lo tanto, el tiempo total del excursionista está dado por la función
       <me permid="SyQ">
         T(x) = \frac{3-x}{8} + \frac{\sqrt{4+x^2}}{3}
       </me>.
     </p>
 
     <p permid="Jfe">
-      Because the only values of <m>x</m> that make sense to use are <m>0 \le x \le 3</m>
-      (using either negative values or values greater than 3 clearly add unnecessary time to the trip),
-      we use this domain for <m>T</m> and now seek the absolute minimum of <m>T</m> on <m>[0,3]</m>.
-      First, we find that
+      Debido a que los únicos valores de <m>x</m> que tienen sentido usar son <m>0 \le x \le 3</m>
+      (usar valores negativos o valores mayores a 3 claramente añade tiempo innecesario al viaje),
+      usamos este dominio para <m>T</m> y ahora buscamos el mínimo absoluto de <m>T</m> en <m>[0,3]</m>.
+      Primero, encontramos que
       <me permid="yFZ">
         T'(x) = -\frac{1}{8} + \frac{1}{3} \cdot \frac{1}{2} (4+x^2)^{-1/2} (2x) = -\frac{1}{8} + \frac{x}{3\sqrt{4+x^2}}
       </me>.
     </p>
 
     <p permid="pmn">
-      Setting <m>T'(x) = 0</m> and solving for <m>x</m>,
-      we have <m>\frac{x}{3\sqrt{4+x^2}} = \frac{1}{8}</m>,
-      so <m>8x = 3\sqrt{4+x^2}</m>.
-      Squaring both sides, <m>64x^2 = 9(4+x^2) = 36 + 9x^2</m>.
-      Hence, <m>55x^2 = 36</m>,
-      so <m>x = \sqrt{\frac{36}{55}} \approx 0.80904</m>.
-      (We don't consider the critical number
-      <m>x = -\sqrt{\frac{36}{55}}</m> because this doesn't lie in the relevant domain of <m>T</m>.)
+      Estableciendo <m>T'(x) = 0</m> y resolviendo para <m>x</m>,
+      tenemos <m>\frac{x}{3\sqrt{4+x^2}} = \frac{1}{8}</m>,
+      así que <m>8x = 3\sqrt{4+x^2}</m>.
+      Elevando ambos lados al cuadrado, <m>64x^2 = 9(4+x^2) = 36 + 9x^2</m>.
+      Por lo tanto, <m>55x^2 = 36</m>,
+      así que <m>x = \sqrt{\frac{36}{55}} \approx 0.80904</m>.
+      (No consideramos el número crítico
+      <m>x = -\sqrt{\frac{36}{55}}</m> porque no se encuentra en el dominio relevante de <m>T</m>.)
     </p>
 
     <p permid="Vtw">
-      Finally, we evaluate <m>T</m> at the only critical number in the interval and at the interval's endpoints.
-      Doing so, we find <m>T(0) = \frac{3}{8} + \frac{2}{3} \approx 1.0417</m>,
+      Finalmente, evaluamos <m>T</m> en el único número crítico en el intervalo y en los extremos del intervalo.
+      Haciendo esto, encontramos <m>T(0) = \frac{3}{8} + \frac{2}{3} \approx 1.0417</m>,
       <m>T(3) = \frac{\sqrt{13}}{3} \approx 1.20185</m>,
-      and <m>T(\sqrt{\frac{36}{55}}) = \frac{3}{8} + \frac{\sqrt{55}}{12} \approx 0.99302</m>,
-      and thus the absolute minimum time the hiker can achieve is <m>0.99302</m> hours,
-      which is attained by hiking about 2.2 km from <m>P</m> to <m>Q</m> and then turning into the woods for the remainder of the trip.
+      y <m>T(\sqrt{\frac{36}{55}}) = \frac{3}{8} + \frac{\sqrt{55}}{12} \approx 0.99302</m>,
+      y así el tiempo mínimo absoluto que el excursionista puede lograr es <m>0.99302</m> horas,
+      que se alcanza caminando unos 2.2 km desde <m>P</m> hasta <m>Q</m> y luego girando hacia el bosque para el resto del viaje.
     </p>
   </solution>
 </activity>
-

@@ -15,41 +15,41 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-5-4-2" permid="qsG">
   <statement>
     <p permid="UKC">
-      Evaluate each of the following indefinite integrals, using the provided hints.
+      Evalúa cada una de las siguientes integrales indefinidas, usando las pistas proporcionadas.
 
       <ol marker="a." permid="AhR">
         <li permid="gpa">
           <p permid="usF">
-            Evaluate <m>\int \arctan(x) \, dx</m> by using Integration by Parts with the substitution
-            <m>u = \arctan(x)</m> and <m>dv = 1 \, dx</m>.
+            Evalúa <m>\int \arctan(x) \, dx</m> usando Integración por Partes con la sustitución
+            <m>u = \arctan(x)</m> y <m>dv = 1 \, dx</m>.
           </p>
         </li>
 
         <li permid="Mwj">
           <p permid="azO">
-            Evaluate <m>\int \ln(z) \,dz</m>.
-            Consider a similar substitution to the one in (a).
+            Evalúa <m>\int \ln(z) \,dz</m>.
+            Considera una sustitución similar a la de (a).
           </p>
         </li>
 
         <li permid="sDs">
           <p permid="GGX">
-            Use the substitution <m>z = t^2</m> to transform the integral
-            <m>\int t^3 \sin(t^2) \, dt</m> to a new integral in the variable <m>z</m>,
-            and evaluate that new integral by parts.
+            Usa la sustitución <m>z = t^2</m> para transformar la integral
+            <m>\int t^3 \sin(t^2) \, dt</m> a una nueva integral en la variable <m>z</m>,
+            y evalúa esa nueva integral por partes.
           </p>
         </li>
 
         <li permid="YKB">
           <p permid="mOg">
-            Evaluate <m>\int s^5 e^{s^3} \, ds</m> using an approach similar to that described in (c).
+            Evalúa <m>\int s^5 e^{s^3} \, ds</m> usando un enfoque similar al descrito en (c).
           </p>
         </li>
 
         <li permid="ERK">
           <p permid="SVp">
-            Evaluate <m>\int e^{2t} \cos(e^t) \, dt</m>.
-            You will find it helpful to note that <m>e^{2t} = e^t \cdot e^t</m>.
+            Evalúa <m>\int e^{2t} \cos(e^t) \, dt</m>.
+            Te será útil notar que <m>e^{2t} = e^t \cdot e^t</m>.
           </p>
         </li>
       </ol>
@@ -95,15 +95,15 @@
       <ol marker="a." permid="nTz">
         <li permid="pIM">
           <p permid="DMr">
-            We use integration by parts with <m>u = \arctan(x)</m> and <m>dv = dx</m>.
-            So <m>du = \dfrac{1}{1+x^2}dx</m> and <m>v = x</m>.
+            Usamos integración por partes con <m>u = \arctan(x)</m> y <m>dv = dx</m>.
+            Así que <m>du = \dfrac{1}{1+x^2}dx</m> y <m>v = x</m>.
             <md permid="ARL">
               <mrow>\int{\arctan(x) dx} \amp = uv - \int{v du}</mrow>
               <mrow>\amp = x\arctan(x) - \int\frac{x}{1+x^2} dx</mrow>
             </md>
-            For the integral in the last equation,
-            use the substitution
-            <m>z = 1+x^2</m> and <m>dz = 2x\, dx</m>.
+            Para la integral en la última ecuación,
+            usa la sustitución
+            <m>z = 1+x^2</m> y <m>dz = 2x\, dx</m>.
             <md permid="gYU">
               <mrow>\int \arctan(x) dx  \amp = x\arctan(x) -\int\frac{x}{1+x^2} dx</mrow>
               <mrow>\amp = x\arctan(x) - \frac{1}{2} \int \frac{1}{z} dz</mrow>
@@ -115,9 +115,9 @@
 
         <li permid="VPV">
           <p permid="jTA">
-            Using <m>u = \ln(z)</m> and <m>dv = dz</m>,
-            we obtain <m>du = \dfrac{1}{z} dz</m> and <m>v = z</m>.
-            So
+            Usando <m>u = \ln(z)</m> y <m>dv = dz</m>,
+            obtenemos <m>du = \dfrac{1}{z} dz</m> y <m>v = z</m>.
+            Así que
             <md permid="Ngd">
               <mrow>\int \ln(z) dz \amp = z \ln(z) - \int dz</mrow>
               <mrow>\amp = z \ln(z) - z + c</mrow>
@@ -127,23 +127,23 @@
 
         <li permid="BXe">
           <p permid="QaJ">
-            Using <m>z = t^2</m>, we obtain
-            <m>dz = 2t dt</m> and <m>\dfrac{1}{2} dz = t dt</m>.
-            So
+            Usando <m>z = t^2</m>, obtenemos
+            <m>dz = 2t dt</m> y <m>\dfrac{1}{2} dz = t dt</m>.
+            Así que
             <md permid="Zuv">
               <mrow>\int t^3 \sin(t^2) dt \amp = \int t^2 \sin(t^2) \cdot t dt</mrow>
               <mrow>\amp = \int z \sin(z) \frac{1}{2} dz</mrow>
               <mrow>\amp = \frac{1}{2} \int z \sin(z) dz</mrow>
             </md>
-            Now using integration by parts with <m>u = z</m> and <m>dv = \sin(z) dz</m>,
-            we obtain <m>du = dz</m> and <m>v = -\cos(z)</m>.
-            So
+            Ahora usando integración por partes con <m>u = z</m> y <m>dv = \sin(z) dz</m>,
+            obtenemos <m>du = dz</m> y <m>v = -\cos(z)</m>.
+            Así que
             <md permid="FBE">
               <mrow>\int t^3 \sin(t^2) dt \amp = \frac{1}{2} \int z \sin(z) dz</mrow>
               <mrow>\amp = \frac{1}{2} \left( -z \cos(z) + \int \cos(z) dz \right)</mrow>
               <mrow>\amp = \frac{1}{2} \left( -z \cos(z) + \sin(z) \right)</mrow>
             </md>
-            Finally, we use <m>z = t^2</m> and obtain
+            Finalmente, usamos <m>z = t^2</m> y obtenemos
             <me permid="tnm">
               \int t^3 \sin(t^2) dt = \frac{1}{2} \left( -t^2 \cos\left(t^2 \right) + \sin\left(t^2\right) \right)
             </me>.
@@ -152,13 +152,13 @@
 
         <li permid="ien">
           <p permid="whS">
-            Use a substitution with <m>z = s^3</m> and <m>dz = 3s^2 ds</m>.
+            Usa una sustitución con <m>z = s^3</m> y <m>dz = 3s^2 ds</m>.
             <md permid="lIN">
               <mrow>\int s^5 e^{s^3} ds \amp = \int s^2 s^3 e^{s^3} ds</mrow>
               <mrow>\amp = \frac{1}{3} \int z e^z dz</mrow>
             </md>
-            Now use integration by parts with <m>u = z</m> and <m>dv = e^z dz</m>.
-            So <m>du = dz</m> and <m>v = e^z</m>.
+            Ahora usa integración por partes con <m>u = z</m> y <m>dv = e^z dz</m>.
+            Así que <m>du = dz</m> y <m>v = e^z</m>.
             <md permid="RPW">
               <mrow>\int s^5 e^{s^3} ds \amp = \frac{1}{3} \int z e^z dz</mrow>
               <mrow>\amp = \frac{1}{3} \left( z e^z - \int e^z dz \right)</mrow>
@@ -170,16 +170,16 @@
 
         <li permid="Olw">
           <p permid="cpb">
-            Using <m>z = e^t</m>, we see that <m>dz = e^t dt</m> and so
+            Usando <m>z = e^t</m>, vemos que <m>dz = e^t dt</m> y así
             <md permid="eeo">
               <mrow>\int e^{2t} \cos\left( e^t \right) dt \amp = \int e^t \cos\left( e^t \right) \cdot e^t  dt</mrow>
               <mrow>\amp = \int z \cos(z) dz</mrow>
             </md>
-            In <xref ref="Ex-5-4-IBP">Example</xref>, we saw that
+            En <xref ref="Ex-5-4-IBP">Example</xref>, vimos que
             <me permid="xXf">
               \int z \cos(z) dz = z \sin(z) + \cos(z) + c
             </me>.
-            Combining these two results, we obtain
+            Combinando estos dos resultados, obtenemos
             <md permid="Klx">
               <mrow>\int e^{2t} \cos\left( e^t \right) dt \amp = \int z \cos(z) dz</mrow>
               <mrow>\amp = z \sin(z) + \cos(z) + c</mrow>
@@ -191,4 +191,3 @@
     </p>
   </solution>
 </activity>
-

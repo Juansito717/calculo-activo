@@ -15,35 +15,35 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-4-1" permid="LZK">
   <statement>
     <p permid="nxa">
-      A soup can in the shape of a right circular cylinder is to be made from two materials.
-      The material for the side of the can costs $0.015 per square inch and the material for the lids costs $<m>0.027</m> per square inch.
-      Suppose that we desire to construct a can that has a volume of 16 cubic inches.
-      What dimensions minimize the cost of the can?
+      Una lata de sopa en forma de cilindro circular recto se va a hacer con dos materiales.
+      El material para el lado de la lata cuesta $0.015 por pulgada cuadrada y el material para las tapas cuesta $<m>0.027</m> por pulgada cuadrada.
+      Supón que deseamos construir una lata que tenga un volumen de 16 pulgadas cúbicas.
+      ¿Qué dimensiones minimizan el costo de la lata?
 
       <ol marker="a." permid="ayO">
         <li permid="GFX">
           <p permid="AQL">
-            Draw a picture of the can and label its dimensions with appropriate variables.
+            Dibuja una imagen de la lata y etiqueta sus dimensiones con variables apropiadas.
           </p>
         </li>
 
         <li permid="mNg">
           <p permid="gXU">
-            Use your variables to determine expressions for the volume,
-            surface area, and cost of the can.
+            Usa tus variables para determinar expresiones para el volumen,
+            el área de la superficie y el costo de la lata.
           </p>
         </li>
 
         <li permid="SUp">
           <p permid="Nfd">
-            Determine the total cost function as a function of a single variable.
-            What is the domain on which you should consider this function?
+            Determina la función de costo total como una función de una sola variable.
+            ¿Cuál es el dominio en el que deberías considerar esta función?
           </p>
         </li>
 
         <li permid="zby">
           <p permid="tmm">
-            Find the absolute minimum cost and the dimensions that produce this value.
+            Encuentra el costo mínimo absoluto y las dimensiones que producen este valor.
           </p>
         </li>
       </ol>
@@ -54,27 +54,27 @@
       <ol marker="a." permid="urF">
         <li permid="fiH">
           <p permid="Ztv">
-            Note that both the radius and the height of the can are variable.
+            Nota que tanto el radio como la altura de la lata son variables.
           </p>
         </li>
 
         <li permid="LpQ">
           <p permid="FAE">
-            Remember that volume is the area of the base times the height,
-            while surface are can be thought of in terms of the area of the two lids,
-            plus the area of the <q>side</q> of the can.
+            Recuerda que el volumen es el área de la base por la altura,
+            mientras que el área de la superficie se puede pensar en términos del área de las dos tapas,
+            más el área del <q>lado</q> de la lata.
           </p>
         </li>
 
         <li permid="rwZ">
           <p permid="lHN">
-            Use the fact that <m>V = 16</m> to write one of the variables in terms of the other to get the cost as a function of a single variable.
+            Usa el hecho de que <m>V = 16</m> para escribir una de las variables en términos de la otra y obtener el costo como una función de una sola variable.
           </p>
         </li>
 
         <li permid="XEi">
           <p permid="ROW">
-            Differentiate the total cost function and find its critical number(s) first.
+            Diferencia la función de costo total y encuentra su(s) número(s) crítico(s) primero.
           </p>
         </li>
       </ol>
@@ -85,7 +85,7 @@
       <ol marker="a." permid="Okw">
         <li permid="DLr">
           <p permid="xWf">
-            Let the can have radius <m>r</m> and height <m>h</m>.
+            Sea la lata de radio <m>r</m> y altura <m>h</m>.
           </p>
         </li>
 
@@ -108,7 +108,7 @@
           <p permid="qrG">
             <m>r = \sqrt[3]{ \frac{0.48}{0.108 \pi} } \approx 1.12259</m>;
             <m>h \approx 4.041337</m>;
-            minimum cost <m>C(1.12259) \approx 0.64137</m>.
+            costo mínimo <m>C(1.12259) \approx 0.64137</m>.
           </p>
         </li>
       </ol>
@@ -119,19 +119,19 @@
       <ol marker="a." permid="idn">
         <li permid="cob">
           <p permid="WyP">
-            We let <m>r</m> be the radius of the base of the cylindrical can and <m>h</m> be its height.
+            Sea <m>r</m> el radio de la base de la lata cilíndrica y <m>h</m> su altura.
           </p>
         </li>
 
         <li permid="Ivk">
           <p permid="CFY">
-            Volume is the area of the base times the height,
-            so <m>V = \pi r^2 h</m>.
-            Surface area is the area of the lids plus the area of the side,
-            the latter of which is a rectangle with height <m>h</m> and width the perimeter of the base.
-            Hence, <m>S = 2 \pi r^2 + 2 \pi r h</m>.
-            Finally,
-            the total cost is the cost of the lids plus the cost of the sides, which is
+            El volumen es el área de la base por la altura,
+            así que <m>V = \pi r^2 h</m>.
+            El área de la superficie es el área de las tapas más el área del lado,
+            este último es un rectángulo con altura <m>h</m> y ancho el perímetro de la base.
+            Por lo tanto, <m>S = 2 \pi r^2 + 2 \pi r h</m>.
+            Finalmente,
+            el costo total es el costo de las tapas más el costo de los lados, que es
             <me permid="TEj">
               C = 2 \pi r^2 \cdot 0.027 + 2 \pi r h \cdot 0.015
             </me>.
@@ -140,44 +140,43 @@
 
         <li permid="oCt">
           <p permid="iNh">
-            Because the volume is fixed at 16 cubic inches,
-            we know that <m>16 =  \pi r^2 h</m>.
-            Solving for <m>h</m>, <m>h = \frac{16}{\pi r^2}</m>.
-            Substituting this expression for <m>h</m> in the formula for total cost,
-            we now have that
+            Debido a que el volumen está fijado en 16 pulgadas cúbicas,
+            sabemos que <m>16 =  \pi r^2 h</m>.
+            Resolviendo para <m>h</m>, <m>h = \frac{16}{\pi r^2}</m>.
+            Sustituyendo esta expresión para <m>h</m> en la fórmula del costo total,
+            ahora tenemos que
             <me permid="zLs">
               C = 2 \pi r^2 \cdot 0.027 + 2 \pi r \left( \frac{16}{\pi r^2} \right) \cdot 0.015 = 0.054 \pi r^2 + 0.48 \frac{1}{r}
             </me>.
-            With <m>C(r) = 0.054 \pi r^2 + 0.48 \frac{1}{r}</m>,
-            we note that the only constraint on <m>r</m> is that <m>r \gt 0</m>,
-            hence this is the domain on which we seek to minimize <m>C</m>.
+            Con <m>C(r) = 0.054 \pi r^2 + 0.48 \frac{1}{r}</m>,
+            notamos que la única restricción en <m>r</m> es que <m>r \gt 0</m>,
+            por lo tanto, este es el dominio en el que buscamos minimizar <m>C</m>.
           </p>
         </li>
 
         <li permid="UJC">
           <p permid="OUq">
-            Noting that <m>C'(r) = 0.108 \pi r - 0.48 \frac{1}{r^2}</m>,
-            we set <m>C'(r) = 0</m> and solve for <m>r</m> to find that
+            Notando que <m>C'(r) = 0.108 \pi r - 0.48 \frac{1}{r^2}</m>,
+            establecemos <m>C'(r) = 0</m> y resolvemos para <m>r</m> para encontrar que
             <me permid="fSB">
               0.108 \pi r = \frac{0.48}{r^2}
             </me>,
-            so that <m>r^3 = \frac{0.48}{0.108 \pi} \approx 1.41471</m>,
-            from which it follows that
-            <m>r = \sqrt[3]{ \frac{0.48}{0.108 \pi} } \approx 1.12259</m> is the only critical number of <m>C</m>.
-            At this point,
-            we can use either the first or second derivative test to justify that <m>C</m> has an absolute minimum at <m>r = 1.12259</m>.
-            We choose to use the second derivative test;
-            note that <m>C''(r) = 0.108 \pi + 0.96 \frac{1}{r^3}</m>,
-            which is always positive for <m>r \gt 0</m>,
-            hence <m>C</m> is always concave up on the relevant domain (<m>r \gt 0</m>),
-            which makes <m>r = \sqrt[3]{ \frac{0.48}{0.108 \pi} } \approx 1.12259</m> where the absolute minimum of <m>C</m> occurs.
-            In addition, we note that since <m>h = \frac{16}{\pi r^2}</m>,
-            the corresponding <m>h</m> value is <m>h \approx 4.041337</m>,
-            and the overall minimum cost is <m>C(1.12259) \approx 0.64137</m>.
+            de modo que <m>r^3 = \frac{0.48}{0.108 \pi} \approx 1.41471</m>,
+            de lo cual se sigue que
+            <m>r = \sqrt[3]{ \frac{0.48}{0.108 \pi} } \approx 1.12259</m> es el único número crítico de <m>C</m>.
+            En este punto,
+            podemos usar la prueba de la primera o segunda derivada para justificar que <m>C</m> tiene un mínimo absoluto en <m>r = 1.12259</m>.
+            Elegimos usar la prueba de la segunda derivada;
+            nota que <m>C''(r) = 0.108 \pi + 0.96 \frac{1}{r^3}</m>,
+            que siempre es positivo para <m>r \gt 0</m>,
+            por lo tanto, <m>C</m> siempre es cóncava hacia arriba en el dominio relevante (<m>r \gt 0</m>),
+            lo que hace que <m>r = \sqrt[3]{ \frac{0.48}{0.108 \pi} } \approx 1.12259</m> sea donde ocurre el mínimo absoluto de <m>C</m>.
+            Además, notamos que dado que <m>h = \frac{16}{\pi r^2}</m>,
+            el valor correspondiente de <m>h</m> es <m>h \approx 4.041337</m>,
+            y el costo mínimo total es <m>C(1.12259) \approx 0.64137</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

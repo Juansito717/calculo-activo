@@ -15,10 +15,10 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-4-2-1" permid="chk">
   <statement>
     <p permid="SNy">
-      For each sum written in sigma notation,
-      write the sum long-hand and evaluate the sum to find its value.
-      For each sum written in expanded form,
-      write the sum in sigma notation.
+      Para cada suma escrita en notación sigma,
+      escribe la suma en forma extendida y evalúa la suma para encontrar su valor.
+      Para cada suma escrita en forma expandida,
+      escribe la suma en notación sigma.
 
       <ol marker="a." cols="2" permid="IJS">
         <li permid="oRb">
@@ -58,33 +58,33 @@
       <ol marker="a." permid="cCJ">
         <li permid="tAU">
           <p permid="Mos">
-            Observe that when <m>k = 1</m>,
+            Observa que cuando <m>k = 1</m>,
             <m>k^2 + 2 = 1^2 + 2 = 3</m>.
-            This is the first term in the sum.
+            Este es el primer término en la suma.
           </p>
         </li>
 
         <li permid="ZId">
           <p permid="svB">
-            Note that this sum starts at <m>i = 3</m>.
+            Nota que esta suma empieza en <m>i = 3</m>.
           </p>
         </li>
 
         <li permid="FPm">
           <p permid="YCK">
-            Since the terms in the sum increase by 4, try a function <m>f(k)</m> that somehow involves <m>4k</m>.
+            Dado que los términos en la suma aumentan en 4, intenta una función <m>f(k)</m> que de alguna manera involucre <m>4k</m>.
           </p>
         </li>
 
         <li permid="lWv">
           <p permid="EJT">
-            What pattern do you observe in the terms of the sum?
+            ¿Qué patrón observas en los términos de la suma?
           </p>
         </li>
 
         <li permid="SdE">
           <p permid="kRc">
-            Write every term in the sum as a fraction with denominator <m>2^6 = 64</m>.
+            Escribe cada término en la suma como una fracción con denominador <m>2^6 = 64</m>.
           </p>
         </li>
       </ol>
@@ -156,25 +156,25 @@
 
         <li permid="PiY">
           <p permid="hWw">
-            Observe that each term in the sum
+            Observa que cada término en la suma
             <me permid="DEA">
               3 + 7 + 11 + 15 +  \cdots + 27
             </me>
-            differs from the previous term by 4.
-            If we view <m>4</m> as
-            <m>4 = 4 \cdot 1 - 1</m> and <m>7</m> as <m>7 = 4 \cdot 2 - 1</m>,
-            we see that the pattern may be represented through the function <m>f(k) = 4k-1</m>, so that
+            difiere del término anterior en 4.
+            Si vemos <m>4</m> como
+            <m>4 = 4 \cdot 1 - 1</m> y <m>7</m> como <m>7 = 4 \cdot 2 - 1</m>,
+            vemos que el patrón puede ser representado a través de la función <m>f(k) = 4k-1</m>, de modo que
             <me permid="jLJ">
               3 + 7 + 11 + 15 +  \cdots + 27 = \sum_{k=1}^{7} 4k-1
             </me>.
-            We note that <m>k=7</m> is the end value of the index since <m>4 \cdot 7  = 28</m>.
+            Notamos que <m>k=7</m> es el valor final del índice ya que <m>4 \cdot 7  = 28</m>.
           </p>
         </li>
 
         <li permid="vqh">
           <p permid="OdF">
-            The sum <m>4 + 8 + 16 + 32 + \cdots + 256</m> is a sum of powers of <m>2</m>,
-            which we can express in sigma notation as
+            La suma <m>4 + 8 + 16 + 32 + \cdots + 256</m> es una suma de potencias de <m>2</m>,
+            que podemos expresar en notación sigma como
             <me permid="PSS">
               4 + 8 + 16 + 32 + \cdots + 256 = \sum_{i=2}^{8} 2^i
             </me>.
@@ -194,4 +194,3 @@
     </p>
   </solution>
 </activity>
-

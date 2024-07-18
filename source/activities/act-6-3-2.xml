@@ -15,87 +15,87 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-6-3-2" permid="FQz">
   <statement>
     <p permid="hnP">
-      For quantities of equal weight,
-      such as two children on a teeter-totter,
-      the balancing point is found by taking the average of their locations.
-      When the weights of the quantities differ,
-      we use a weighted average of their respective locations to find the balancing point.
+      Para cantidades de igual peso,
+      como dos niños en un sube y baja,
+      el punto de equilibrio se encuentra tomando el promedio de sus ubicaciones.
+      Cuando los pesos de las cantidades difieren,
+      usamos un promedio ponderado de sus respectivas ubicaciones para encontrar el punto de equilibrio.
 
       <ol marker="a." permid="fUb">
         <li permid="Mbk">
           <p permid="AwM">
-            Suppose that a shelf is 6 feet long,
-            with its left end situated at <m>x = 0</m>.
-            If one book of weight 1 lb is placed at <m>x_1 = 0</m>,
-            and another book of weight 1 lb is placed at <m>x_2 = 6</m>,
-            what is the location of <m>\overline{x}</m>,
-            the point at which the shelf would (theoretically) balance on a fulcrum?
+            Supón que un estante mide 6 pies de largo,
+            con su extremo izquierdo situado en <m>x = 0</m>.
+            Si un libro de 1 libra se coloca en <m>x_1 = 0</m>,
+            y otro libro de 1 libra se coloca en <m>x_2 = 6</m>,
+            ¿cuál es la ubicación de <m>\overline{x}</m>,
+            el punto en el que el estante (teóricamente) se equilibraría en un fulcro?
           </p>
         </li>
 
         <li permid="sit">
           <p permid="gDV">
-            Now, say that we place four books on the shelf,
-            each weighing 1 lb:
-            at <m>x_1 = 0</m>, at <m>x_2 = 2</m>,
-            at <m>x_3 = 4</m>, and at <m>x_4 = 6</m>.
-            Find <m>\overline{x}</m>,
-            the balancing point of the shelf.
+            Ahora, digamos que colocamos cuatro libros en el estante,
+            cada uno pesando 1 libra:
+            en <m>x_1 = 0</m>, en <m>x_2 = 2</m>,
+            en <m>x_3 = 4</m>, y en <m>x_4 = 6</m>.
+            Encuentra <m>\overline{x}</m>,
+            el punto de equilibrio del estante.
           </p>
         </li>
 
         <li permid="YpC">
           <p permid="MLe">
-            How does <m>\overline{x}</m> change if we change the location of the third book?
-            Say the locations of the 1-lb books are <m>x_1 = 0</m>,
-            <m>x_2 = 2</m>, <m>x_3 = 3</m>, and <m>x_4 = 6</m>.
+            ¿Cómo cambia <m>\overline{x}</m> si cambiamos la ubicación del tercer libro?
+            Digamos que las ubicaciones de los libros de 1 libra son <m>x_1 = 0</m>,
+            <m>x_2 = 2</m>, <m>x_3 = 3</m>, y <m>x_4 = 6</m>.
           </p>
         </li>
 
         <li permid="EwL">
           <p permid="sSn">
-            Next,
-            suppose that we place four books on the shelf, but of varying weights:
-            at <m>x_1 = 0</m> a 2-lb book,
-            at <m>x_2 = 2</m> a 3-lb book,
-            at <m>x_3 = 4</m> a 1-lb book,
-            and at <m>x_4 = 6</m> a 1-lb book.
-            Use a weighted average of the locations to find <m>\overline{x}</m>,
-            the balancing point of the shelf.
-            How does the balancing point in this scenario compare to that found in (b)?
+            A continuación,
+            supón que colocamos cuatro libros en el estante, pero de pesos variados:
+            en <m>x_1 = 0</m> un libro de 2 libras,
+            en <m>x_2 = 2</m> un libro de 3 libras,
+            en <m>x_3 = 4</m> un libro de 1 libra,
+            y en <m>x_4 = 6</m> un libro de 1 libra.
+            Usa un promedio ponderado de las ubicaciones para encontrar <m>\overline{x}</m>,
+            el punto de equilibrio del estante.
+            ¿Cómo se compara el punto de equilibrio en este escenario con el encontrado en (b)?
           </p>
         </li>
 
         <li permid="kDU">
           <p permid="YZw">
-            What happens if we change the location of one of the books?
-            Say that we keep everything the same in (d),
-            except that <m>x_3 = 5</m>.
-            How does <m>\overline{x}</m> change?
+            ¿Qué pasa si cambiamos la ubicación de uno de los libros?
+            Digamos que mantenemos todo igual que en (d),
+            excepto que <m>x_3 = 5</m>.
+            ¿Cómo cambia <m>\overline{x}</m>?
           </p>
         </li>
 
         <li permid="QLd">
           <p permid="FgF">
-            What happens if we change the weight of one of the books?
-            Say that we keep everything the same in (d),
-            except that the book at <m>x_3 = 4</m> now weighs 2 lbs.
-            How does <m>\overline{x}</m> change?
+            ¿Qué pasa si cambiamos el peso de uno de los libros?
+            Digamos que mantenemos todo igual que en (d),
+            excepto que el libro en <m>x_3 = 4</m> ahora pesa 2 libras.
+            ¿Cómo cambia <m>\overline{x}</m>?
           </p>
         </li>
 
         <li permid="wSm">
           <p permid="lnO">
-            Experiment with a couple of different scenarios of your choosing where you move one of the books to the left,
-            or you decrease the weight of one of the books.
+            Experimenta con un par de escenarios diferentes de tu elección donde muevas uno de los libros hacia la izquierda,
+            o disminuyas el peso de uno de los libros.
           </p>
         </li>
 
         <li permid="cZv">
           <p permid="RuX">
-            Write a couple of sentences to explain how adjusting the location of one of the books or the weight of one of the books affects the location of the balancing point of the shelf.
-            Think carefully here about how your changes should be considered relative to the location of the balancing point
-            <m>\overline{x}</m> of the current scenario.
+            Escribe un par de oraciones para explicar cómo ajustar la ubicación de uno de los libros o el peso de uno de los libros afecta la ubicación del punto de equilibrio del estante.
+            Piensa cuidadosamente aquí sobre cómo tus cambios deben ser considerados en relación con la ubicación del punto de equilibrio
+            <m>\overline{x}</m> del escenario actual.
           </p>
         </li>
       </ol>
@@ -106,51 +106,51 @@
       <ol marker="a." permid="zMS">
         <li permid="JgE">
           <p permid="xCg">
-            Find the average location.
+            Encuentra la ubicación promedio.
           </p>
         </li>
 
         <li permid="pnN">
           <p permid="dJp">
-            Note that you are averaging 4 locations.
+            Nota que estás promediando 4 ubicaciones.
           </p>
         </li>
 
         <li permid="VuW">
           <p permid="JQy">
-            Compare (b).
+            Compara (b).
           </p>
         </li>
 
         <li permid="BCf">
           <p permid="pXH">
-            If the book at location <m>x_1</m> weighs 2 pounds,
-            it's like there are two books at <m>x_1</m>,
-            so <m>2x_1</m> must play a role in the average.
+            Si el libro en la ubicación <m>x_1</m> pesa 2 libras,
+            es como si hubiera dos libros en <m>x_1</m>,
+            así que <m>2x_1</m> debe jugar un papel en el promedio.
           </p>
         </li>
 
         <li permid="hJo">
           <p permid="WeQ">
-            Use a weighted average.
+            Usa un promedio ponderado.
           </p>
         </li>
 
         <li permid="NQx">
           <p permid="ClZ">
-            Compare (e).
+            Compara (e).
           </p>
         </li>
 
         <li permid="tXG">
           <p permid="iti">
-            Experiment.
+            Experimenta.
           </p>
         </li>
 
         <li permid="aeP">
           <p permid="OAr">
-            Compare the effects of moving locations left and adding weight to the left of the balancing point.
+            Compara los efectos de mover ubicaciones a la izquierda y agregar peso a la izquierda del punto de equilibrio.
           </p>
         </li>
       </ol>
@@ -197,20 +197,20 @@
 
         <li permid="rda">
           <p permid="fyC">
-            Answers will vary.
+            Las respuestas variarán.
           </p>
         </li>
 
         <li permid="Xkj">
           <p permid="LFL">
-            If we have an existing arrangement and balancing point,
-            moving one of the locations to the left will move the balancing point to the left;
-            similarly,
-            moving one of the locations to the right will move the balancing point to the right.
-            If instead we add weight to an existing location,
-            if that location is left of the balancing point,
-            the balancing point will move left;
-            the behavior is similar if on the right.
+            Si tenemos una disposición y un punto de equilibrio existentes,
+            mover una de las ubicaciones hacia la izquierda moverá el punto de equilibrio hacia la izquierda;
+            de manera similar,
+            mover una de las ubicaciones hacia la derecha moverá el punto de equilibrio hacia la derecha.
+            Si en cambio agregamos peso a una ubicación existente,
+            si esa ubicación está a la izquierda del punto de equilibrio,
+            el punto de equilibrio se moverá hacia la izquierda;
+            el comportamiento es similar si está a la derecha.
           </p>
         </li>
       </ol>
@@ -221,52 +221,52 @@
       <ol marker="a." permid="nyA">
         <li permid="Drs">
           <p permid="rMU">
-            The shelf will balance at <m>\overline{x} = \frac{x_1 + x_2}{2} = \frac{0 + 6}{2} = 3</m>.
+            El estante se equilibrará en <m>\overline{x} = \frac{x_1 + x_2}{2} = \frac{0 + 6}{2} = 3</m>.
           </p>
         </li>
 
         <li permid="jyB">
           <p permid="XUd">
-            The shelf will balance at the average of the locations:
+            El estante se equilibrará en el promedio de las ubicaciones:
             <m>\overline{x} = \frac{x_1 + x_2 + x_3 + x_4}{4} = \frac{0 + 2 + 4 + 6}{4} = 3</m>.
           </p>
         </li>
 
         <li permid="PFK">
           <p permid="Ebm">
-            Changing the location of <m>x_3</m> to the left will move the average to the left,
-            so the new location for
-            <m>\overline{x}</m> is <m>\overline{x} = \frac{x_1 + x_2 + x_3 + x_4}{4} = \frac{0 + 2 + 3 + 6}{4} = \frac{11}{4} = 2.75</m>.
+            Cambiar la ubicación de <m>x_3</m> hacia la izquierda moverá el promedio hacia la izquierda,
+            así que la nueva ubicación para
+            <m>\overline{x}</m> es <m>\overline{x} = \frac{x_1 + x_2 + x_3 + x_4}{4} = \frac{0 + 2 + 3 + 6}{4} = \frac{11}{4} = 2.75</m>.
           </p>
         </li>
 
         <li permid="vMT">
           <p permid="kiv">
-            We can think of the weighted books almost as if there were that <em>number</em>
-            of 1-lb books at each location.
-            The balancing point is given by the weighted average
+            Podemos pensar en los libros ponderados casi como si hubiera ese <em>número</em>
+            de libros de 1 libra en cada ubicación.
+            El punto de equilibrio se da por el promedio ponderado
             <me permid="NuY">
               \overline{x} = \frac{2x_1 + 3x_2 + 1x_3 + 1x_4}{7} = \frac{2 \cdot 0 + 3 \cdot 2 + 1 \cdot 4 + 1 \cdot 6}{7} = \frac{16}{7}
             </me>.
-            Note particularly that we divide by the <em>total weight</em>
-            of the books, not the total number.
+            Nota particularmente que dividimos por el <em>peso total</em>
+            de los libros, no el número total.
           </p>
         </li>
 
         <li permid="bUc">
           <p permid="QpE">
-            Here we find
+            Aquí encontramos
             <me permid="tCh">
               \overline{x} = \frac{2x_1 + 3x_2 + 1x_3 + 1x_4}{7} = \frac{2 \cdot 0 + 3 \cdot 2 + 1 \cdot 5 + 1 \cdot 6}{7} = \frac{17}{7}
             </me>,
-            which moves the balancing point slightly to the right.
+            lo que mueve el punto de equilibrio ligeramente hacia la derecha.
           </p>
         </li>
 
         <li permid="Ibl">
           <p permid="wwN">
-            In this situation,
-            we find the balancing point also moves to the right:
+            En esta situación,
+            encontramos que el punto de equilibrio también se mueve hacia la derecha:
             <me permid="ZJq">
               \overline{x} = \frac{2x_1 + 3x_2 + 1x_3 + 2x_4}{7} = \frac{2 \cdot 0 + 3 \cdot 2 + 2 \cdot 4 + 1 \cdot 6}{8} = \frac{20}{8}
             </me>.
@@ -275,25 +275,24 @@
 
         <li permid="oiu">
           <p permid="cDW">
-            Try, for instance,
-            having <m>x_2 = 1</m> and <m>x_3 = 2</m> and experiment with different weights.
+            Prueba, por ejemplo,
+            tener <m>x_2 = 1</m> y <m>x_3 = 2</m> y experimenta con diferentes pesos.
           </p>
         </li>
 
         <li permid="UpD">
           <p permid="ILf">
-            If we have an existing arrangement and balancing point,
-            moving one of the locations to the left will move the balancing point to the left;
-            similarly,
-            moving one of the locations to the right will move the balancing point to the right.
-            If instead we add weight to an existing location,
-            if that location is left of the balancing point,
-            the balancing point will move left;
-            the behavior is similar if on the right.
+            Si tenemos una disposición y un punto de equilibrio existentes,
+            mover una de las ubicaciones hacia la izquierda moverá el punto de equilibrio hacia la izquierda;
+            de manera similar,
+            mover una de las ubicaciones hacia la derecha moverá el punto de equilibrio hacia la derecha.
+            Si en cambio agregamos peso a una ubicación existente,
+            si esa ubicación está a la izquierda del punto de equilibrio,
+            el punto de equilibrio se moverá hacia la izquierda;
+            el comportamiento es similar si está a la derecha.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

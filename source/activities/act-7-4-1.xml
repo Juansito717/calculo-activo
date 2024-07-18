@@ -15,40 +15,40 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-7-4-1" permid="lRe">
   <statement>
     <p permid="Bac">
-      Suppose that the population of a town is growing continuously at an annual rate of 3% per year.
+      Supón que la población de un pueblo está creciendo continuamente a una tasa anual del 3% por año.
 
       <ol marker="a." permid="obQ">
         <li permid="UiZ">
           <p permid="OtN">
-            Let <m>P(t)</m> be the population of the town in year <m>t</m>.
-            Write a differential equation that describes the annual growth rate.
+            Sea <m>P(t)</m> la población del pueblo en el año <m>t</m>.
+            Escribe una ecuación diferencial que describa la tasa de crecimiento anual.
           </p>
         </li>
 
         <li permid="Aqi">
           <p permid="uAW">
-            Find the solutions of this differential equation.
+            Encuentra las soluciones de esta ecuación diferencial.
           </p>
         </li>
 
         <li permid="gxr">
           <p permid="aIf">
-            If you know that the town's population in year 0 is 10,000,
-            find the population <m>P(t)</m>.
+            Si sabes que la población del pueblo en el año 0 es 10,000,
+            encuentra la población <m>P(t)</m>.
           </p>
         </li>
 
         <li permid="MEA">
           <p permid="GPo">
-            How long does it take for the population to double?
-            This time is called the <em>doubling time</em>.
+            ¿Cuánto tiempo tarda la población en duplicarse?
+            Este tiempo se llama el <em>tiempo de duplicación</em>.
           </p>
         </li>
 
         <li permid="sLJ">
           <p permid="mWx">
-            Working more generally,
-            find the doubling time if the annual growth rate is <m>k</m> times the population.
+            Trabajando de manera más general,
+            encuentra el tiempo de duplicación si la tasa de crecimiento anual es <m>k</m> veces la población.
           </p>
         </li>
       </ol>
@@ -59,7 +59,7 @@
       <ol marker="a." permid="HUH">
         <li permid="YSS">
           <p permid="TdG">
-            Small hints for each of the prompts above.
+            Pequeñas pistas para cada uno de los puntos anteriores.
           </p>
         </li>
       </ol>
@@ -89,13 +89,13 @@
 
         <li permid="xvC">
           <p permid="rGq">
-            The doubling time is <m>t = \frac{\ln(2)}{0.03} \approx 23.105</m> years.
+            El tiempo de duplicación es <m>t = \frac{\ln(2)}{0.03} \approx 23.105</m> años.
           </p>
         </li>
 
         <li permid="dCL">
           <p permid="XNz">
-            The doubling time is <m>t = \frac{1}{k} \ln(2)</m>.
+            El tiempo de duplicación es <m>t = \frac{1}{k} \ln(2)</m>.
           </p>
         </li>
       </ol>
@@ -106,35 +106,35 @@
       <ol marker="a." permid="vGp">
         <li permid="JJU">
           <p permid="DUI">
-            Since the population <m>P(t)</m> of the town is growing at an annual rate of <m>3\%</m> per year,
-            this means that <m>\frac{dP}{dt} = 0.03 P</m>
+            Dado que la población <m>P(t)</m> del pueblo está creciendo a una tasa anual del <m>3\%</m> por año,
+            esto significa que <m>\frac{dP}{dt} = 0.03 P</m>
           </p>
         </li>
 
         <li permid="pRd">
           <p permid="kbR">
-            We use separation of variables and write <m>\frac{1}{P} \frac{dP}{dt} = 1.03</m>.
-            We then have
+            Usamos separación de variables y escribimos <m>\frac{1}{P} \frac{dP}{dt} = 1.03</m>.
+            Luego tenemos
             <me permid="hhl">
               \int \frac{1}{P} \frac{dP}{dt} dt = \int 0.03 dt
             </me>
-            and thus <m>\int \frac{1}{P} dP = \int 0.03 dt</m>.
-            Evaluating the integrals on each side, we have
+            y así <m>\int \frac{1}{P} dP = \int 0.03 dt</m>.
+            Evaluando las integrales en cada lado, tenemos
             <m>\ln|P| = 0.03 t + c</m>
-            By definition of the logarithm function, it follows that
+            Por definición de la función logarítmica, se sigue que
             <me permid="Nou">
               |P| = e^{0.03t + c} = e^c e^{0.03t} = C e^{0.03t}
             </me>.
-            Incorporating the <m>\pm</m> that follows from the abslute value sign into the constant <m>C</m>,
-            we conclude that <m>P = Ce^{0.03t}</m>.
+            Incorporando el <m>\pm</m> que sigue del signo de valor absoluto en la constante <m>C</m>,
+            concluimos que <m>P = Ce^{0.03t}</m>.
           </p>
         </li>
 
         <li permid="VYm">
           <p permid="Qja">
-            Given that <m>P(0) = 10000</m>,
-            we see that <m>10000 = C e^0 = C</m>.
-            So
+            Dado que <m>P(0) = 10000</m>,
+            vemos que <m>10000 = C e^0 = C</m>.
+            Así que
             <me permid="tvD">
               P = 10000 e^{0.03t}
             </me>.
@@ -143,35 +143,34 @@
 
         <li permid="Cfv">
           <p permid="wqj">
-            The population will have doubled when <m>P = 200000</m>.
-            To determine the time it takes the population to double,
-            we solve the equation
+            La población se habrá duplicado cuando <m>P = 200000</m>.
+            Para determinar el tiempo que tarda la población en duplicarse,
+            resolvemos la ecuación
             <me permid="ZCM">
               10000 e^{0.03t} = 20000
             </me>.
-            Thus <m>e^{0.03t} = 2</m>, so <m>t = \frac{\ln(2)}{0.03} \approx 23.105</m>.
-            It will take about 23.1 years for the population to double in size.
+            Así <m>e^{0.03t} = 2</m>, entonces <m>t = \frac{\ln(2)}{0.03} \approx 23.105</m>.
+            Tomará aproximadamente 23.1 años para que la población se duplique en tamaño.
           </p>
         </li>
 
         <li permid="imE">
           <p permid="cxs">
-            If the annual growth rate is <m>k</m>,
-            then the differential equation for the population is
+            Si la tasa de crecimiento anual es <m>k</m>,
+            entonces la ecuación diferencial para la población es
             <me permid="FJV">
               \frac{dP}{dt} = kP
             </me>.
-            We can use separation of variables to show that <m>P = P_0 e^{kt}</m>,
-            where <m>P_0</m> is the population at time <m>t = 0</m>.
-            We then find the doubling time by solving the equation <m>P_0 e^{kt} = 2P_0</m>.
-            We first solve for <m>e^{kt}</m> and get <m>e^{kt} = 2</m>.
-            Taking natural logs, <m>kt = \ln(2)</m>,
-            and dividing by <m>k</m>, <m>t = \frac{1}{k} \ln(2)</m>.
-            The doubling time for the population is thus <m>\frac{1}{k} \ln(2)</m>.
+            Podemos usar separación de variables para mostrar que <m>P = P_0 e^{kt}</m>,
+            donde <m>P_0</m> es la población en el tiempo <m>t = 0</m>.
+            Luego encontramos el tiempo de duplicación resolviendo la ecuación <m>P_0 e^{kt} = 2P_0</m>.
+            Primero resolvemos para <m>e^{kt}</m> y obtenemos <m>e^{kt} = 2</m>.
+            Tomando logaritmos naturales, <m>kt = \ln(2)</m>,
+            y dividiendo por <m>k</m>, <m>t = \frac{1}{k} \ln(2)</m>.
+            El tiempo de duplicación para la población es así <m>\frac{1}{k} \ln(2)</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

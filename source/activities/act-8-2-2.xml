@@ -15,41 +15,41 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-8-2-2" permid="Zaw">
   <statement>
     <p permid="Xlj">
-      Let <m>r \ne 1</m> and <m>a</m> be real numbers and let
+      Sea <m>r \ne 1</m> y <m>a</m> números reales y sea
       <me permid="jzB">
         S = a+ar+ar^2 + \cdots ar^{n-1} + \cdots
       </me>
-      be an infinite geometric series.
-      For each positive integer <m>n</m>, let
+      una serie geométrica infinita.
+      Para cada número entero positivo <m>n</m>, sea
       <me permid="PGK">
         S_n = a+ar+ar^2 + \cdots + ar^{n-1}
       </me>.
     </p>
 
     <p permid="Dss">
-      Recall that
+      Recuerda que
       <me permid="vNT">
         S_n = a\frac{1-r^n}{1-r}
       </me>.
       <ol marker="a." permid="Hsr">
         <li permid="nzA">
           <p permid="JhE">
-            What should we allow <m>n</m> to approach in order to have <m>S_n</m> approach <m>S</m>?
+            ¿A qué deberíamos permitir que <m>n</m> se acerque para que <m>S_n</m> se acerque a <m>S</m>?
           </p>
         </li>
 
         <li permid="TGJ">
           <p permid="poN">
-            What is the value of <m>\lim_{n \to \infty} r^n</m> for
-            <m>|r| \gt 1</m>? for <m>|r| \lt 1</m>?
-            Explain.
+            ¿Cuál es el valor de <m>\lim_{n \to \infty} r^n</m> para
+            <m>|r| \gt 1</m>? ¿para <m>|r| \lt 1</m>?
+            Explica.
           </p>
         </li>
 
         <li permid="zNS">
           <p permid="VvW">
-            If <m>|r| \lt 1</m>,
-            use the formula for <m>S_n</m> and your observations in (a) and (b) to explain why <m>S</m> is finite and find a resulting formula for <m>S</m>.
+            Si <m>|r| \lt 1</m>,
+            usa la fórmula para <m>S_n</m> y tus observaciones en (a) y (b) para explicar por qué <m>S</m> es finito y encuentra una fórmula resultante para <m>S</m>.
           </p>
         </li>
       </ol>
@@ -60,20 +60,20 @@
       <ol marker="a." permid="bli">
         <li permid="fVb">
           <p permid="BDf">
-            Let <m>n</m> increase without bound.
+            Deja que <m>n</m> aumente sin límite.
           </p>
         </li>
 
         <li permid="Mck">
           <p permid="hKo">
-            Think about what happens to powers of numbers that are less than or greater than 1.
+            Piensa en lo que pasa con las potencias de números que son menores o mayores que 1.
           </p>
         </li>
 
         <li permid="sjt">
           <p permid="NRx">
-            Consider <m>\frac{1-r^n}{1-r}</m> and how the numerator tends to 1 as
-            <m>n \to \infty</m> for certain values of <m>r</m>.
+            Considera <m>\frac{1-r^n}{1-r}</m> y cómo el numerador tiende a 1 cuando
+            <m>n \to \infty</m> para ciertos valores de <m>r</m>.
           </p>
         </li>
       </ol>
@@ -84,7 +84,7 @@
       <ol marker="a." permid="vdZ">
         <li permid="YqC">
           <p permid="tYG">
-            Observe that
+            Observa que
             <me permid="bVc">
               S = \lim_{n \to \infty} S_n
             </me>.
@@ -93,27 +93,27 @@
 
         <li permid="ExL">
           <p permid="afP">
-            If <m>r \gt 1</m>, then <m>\lim_{n \to \infty} r^n = \infty</m>.
-            If <m>0 \lt r \lt 1</m>,
-            then <m>\lim_{n \to \infty} r^n = 0</m>.
+            Si <m>r \gt 1</m>, entonces <m>\lim_{n \to \infty} r^n = \infty</m>.
+            Si <m>0 \lt r \lt 1</m>,
+            entonces <m>\lim_{n \to \infty} r^n = 0</m>.
           </p>
         </li>
 
         <li permid="kEU">
           <p permid="GmY">
-            Since
+            Dado que
             <me permid="Icl">
               S = \lim_{n \to \infty} S_n = \lim_{n \to \infty} a\frac{1-r^n}{1-r}
             </me>
-            and
+            y
             <me permid="oju">
               \lim_{n \to \infty} r^n = 0
             </me>
-            for <m>0 \lt  r \lt  1</m>, we conclude that
+            para <m>0 \lt  r \lt  1</m>, concluimos que
             <me permid="UqD">
               S = \lim_{n \to \infty} a\frac{1-r^n}{1-r} = \frac{a}{1-r}
             </me>
-            when <m>0 \lt  r \lt  1</m>.
+            cuando <m>0 \lt  r \lt  1</m>.
           </p>
         </li>
       </ol>
@@ -124,7 +124,7 @@
       <ol marker="a." permid="OWQ">
         <li permid="QMd">
           <p permid="muh">
-            Observe that
+            Observa que
             <me permid="AxM">
               S = \lim_{n \to \infty} S_n
             </me>.
@@ -133,31 +133,30 @@
 
         <li permid="wTm">
           <p permid="SBq">
-            If <m>r \gt 1</m>, then <m>\lim_{n \to \infty} r^n = \infty</m>.
-            If <m>0 \lt r \lt 1</m>,
-            then <m>\lim_{n \to \infty} r^n = 0</m>.
+            Si <m>r \gt 1</m>, entonces <m>\lim_{n \to \infty} r^n = \infty</m>.
+            Si <m>0 \lt r \lt 1</m>,
+            entonces <m>\lim_{n \to \infty} r^n = 0</m>.
           </p>
         </li>
 
         <li permid="dav">
           <p permid="yIz">
-            Since
+            Dado que
             <me permid="gEV">
               S = \lim_{n \to \infty} S_n = \lim_{n \to \infty} a\frac{1-r^n}{1-r}
             </me>
-            and
+            y
             <me permid="MMe">
               \lim_{n \to \infty} r^n = 0
             </me>
-            for <m>0 \lt  r \lt  1</m>, we conclude that
+            para <m>0 \lt  r \lt  1</m>, concluimos que
             <me permid="sTn">
               S = \lim_{n \to \infty} a\frac{1-r^n}{1-r} = \frac{a}{1-r}
             </me>
-            when <m>0 \lt  r \lt  1</m>.
+            cuando <m>0 \lt  r \lt  1</m>.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

@@ -15,7 +15,7 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-7-2-1" permid="nza">
   <statement>
     <p permid="oEt">
-      Consider the autonomous differential equation
+      Considera la ecuación diferencial autónoma
       <me permid="ASL">
         \frac{dy}{dt} = -\frac{1}{2}(y - 4)
       </me>.
@@ -25,21 +25,21 @@
       <ol marker="a." permid="UbI">
         <li permid="AiR">
           <p permid="Omw">
-            Make a plot of <m>\frac{dy}{dt}</m> versus <m>y</m> on the axes provided 
+            Haz un gráfico de <m>\frac{dy}{dt}</m> versus <m>y</m> en los ejes proporcionados 
 
-            in <xref ref="F-7-2-act-1-2-dydt">Figure</xref>.
-            Looking at the graph,
-            for what values of <m>y</m> does <m>y</m> increase and for what values of <m>y</m> does <m>y</m> decrease?
+            en <xref ref="F-7-2-act-1-2-dydt">Figura</xref>.
+            Mirando el gráfico,
+            ¿para qué valores de <m>y</m> aumenta <m>y</m> y para qué valores de <m>y</m> disminuye <m>y</m>?
           </p>
 
           <sidebyside widths="50% 44%" margins="0%" valign="bottom" permid="WAP">
             <figure xml:id="F-7-2-act-1-2-dydt" permid="utF">
-              <caption>Axes for plotting <m>\frac{dy}{dt}</m> versus <m>y</m>.</caption>
+              <caption>Ejes para graficar <m>\frac{dy}{dt}</m> versus <m>y</m>.</caption>
               <image permid="qtG" source="images/7_2_Act1_1" />
             </figure>
 
             <figure xml:id="F-7-2-act-1-2" permid="aAO">
-              <caption>Axes for plotting the slope field for <m>\frac{dy}{dt} = -\frac 12( y - 4)</m>.</caption>
+              <caption>Ejes para graficar el campo de pendientes para <m>\frac{dy}{dt} = -\frac 12( y - 4)</m>.</caption>
               <image source="images/7_2_Act1_2" />
             </figure>
           </sidebyside>
@@ -48,29 +48,29 @@
 
         <li permid="gqa">
           <p permid="GHX">
-            Next, sketch the slope field for this differential equation on the axes provided in <xref ref="F-7-2-act-1-2">Figure</xref>.
+            A continuación, dibuja el campo de pendientes para esta ecuación diferencial en los ejes proporcionados en <xref ref="F-7-2-act-1-2">Figura</xref>.
           </p>
         </li>
 
         <li permid="Mxj">
           <p permid="mPg">
-            Use your work in (b) to sketch
-            (on the same axes in <xref ref="F-7-2-act-1-2">Figure</xref>.)
-            solutions that satisfy <m>y(0) = 0</m>,
-            <m>y(0) = 2</m>, <m>y(0) = 4</m> and <m>y(0) = 6</m>.
+            Usa tu trabajo en (b) para dibujar
+            (en los mismos ejes en <xref ref="F-7-2-act-1-2">Figura</xref>.)
+            soluciones que satisfacen <m>y(0) = 0</m>,
+            <m>y(0) = 2</m>, <m>y(0) = 4</m> y <m>y(0) = 6</m>.
           </p>
         </li>
 
         <li permid="sEs">
           <p permid="SWp">
-            Verify that <m>y(t) = 4 + 2e^{-t/2}</m> is a solution to the given differential equation with the initial value <m>y(0) = 6</m>.
-            Compare its graph to the one you sketched in (c).
+            Verifica que <m>y(t) = 4 + 2e^{-t/2}</m> es una solución a la ecuación diferencial dada con el valor inicial <m>y(0) = 6</m>.
+            Compara su gráfico con el que dibujaste en (c).
           </p>
         </li>
 
         <li permid="YLB">
           <p permid="zdy">
-            What is special about the solution where <m>y(0) = 4</m>?
+            ¿Qué es especial acerca de la solución donde <m>y(0) = 4</m>?
           </p>
         </li>
       </ol>
@@ -81,8 +81,8 @@
       <ol marker="a." permid="nUz">
         <li permid="ESK">
           <p permid="fkH">
-            When <m>y \lt 4</m>, <m>y</m> is an increasing function of <m>t</m>.
-            When <m>y \gt 4</m>, <m>y</m> is a decreasing function of <m>t</m>.
+            Cuando <m>y \lt 4</m>, <m>y</m> es una función creciente de <m>t</m>.
+            Cuando <m>y \gt 4</m>, <m>y</m> es una función decreciente de <m>t</m>.
           </p>
 
           <sidebyside width="50%" permid="CHY">
@@ -121,17 +121,17 @@
             <me permid="gZU">
               \frac{dy}{dt} = 2 \left( -\frac{1}{2} e^{-t/2} \right) = -e^{-t/2}
             </me>
-            and
+            y
             <me permid="Nhd">
               -\frac{1}{2}( y - 4 ) = -\frac{1}{2} \left( 4 + 2e^{-t/2} \right) = -e^{-t/2}
             </me>
-            In addition, <m>y(0) = 4 + 2e^0 = 6</m>.
+            Además, <m>y(0) = 4 + 2e^0 = 6</m>.
           </p>
         </li>
 
         <li permid="dvu">
           <p permid="ryZ">
-            A constant function.
+            Una función constante.
           </p>
         </li>
       </ol>
@@ -142,11 +142,11 @@
       <ol marker="a." permid="HNq">
         <li permid="JCD">
           <p permid="XGi">
-            The graph below is a plot of <m>\frac{dy}{dt}</m> versus <m>y</m>.
-            We see that when <m>y \lt 4</m>,
-            <m>\frac{dy}{dt} \gt 0</m> and hence <m>y</m> is an increasing function of <m>t</m>.
-            We also see that when <m>y \gt 4</m>,
-            <m>\frac{dy}{dt} \lt 0</m> and hence <m>y</m> is a decreasing function of <m>t</m>.
+            El gráfico a continuación es un gráfico de <m>\frac{dy}{dt}</m> versus <m>y</m>.
+            Vemos que cuando <m>y \lt 4</m>,
+            <m>\frac{dy}{dt} \gt 0</m> y por lo tanto <m>y</m> es una función creciente de <m>t</m>.
+            También vemos que cuando <m>y \gt 4</m>,
+            <m>\frac{dy}{dt} \lt 0</m> y por lo tanto <m>y</m> es una función decreciente de <m>t</m>.
           </p>
 
           <sidebyside width="40%" permid="vdz">
@@ -160,8 +160,8 @@
 
         <li permid="pJM">
           <p permid="DNr">
-            Next, by sampling points <m>(t,y)</m> in the plane and plotting short lines whose slope is <m>\left. \frac{dy}{dt}\right|_{(t,y)}</m>,
-            we create the following slope field for the differential equation <m>\frac{dy}{dt} = -\frac{1}{2}(y - 4)</m>.
+            A continuación, al muestrear puntos <m>(t,y)</m> en el plano y graficar líneas cortas cuya pendiente es <m>\left. \frac{dy}{dt}\right|_{(t,y)}</m>,
+            creamos el siguiente campo de pendientes para la ecuación diferencial <m>\frac{dy}{dt} = -\frac{1}{2}(y - 4)</m>.
           </p>
 
           <sidebyside width="40%" permid="bkI">
@@ -175,10 +175,10 @@
 
         <li permid="VQV">
           <p permid="jUA">
-            Finally, by choosing starting points and following the direction of the slope field,
-            we generate plots of solutions that satisfy <m>y(0) = 0</m>,
+            Finalmente, al elegir puntos de partida y seguir la dirección del campo de pendientes,
+            generamos gráficos de soluciones que satisfacen <m>y(0) = 0</m>,
             <m>y(0) = 2</m>, <m>y(0) = 4</m>,
-            and <m>y(0) = 6</m>, as shown in the following figure.
+            y <m>y(0) = 6</m>, como se muestra en la siguiente figura.
           </p>
 
           <sidebyside width="40%" permid="HrR">
@@ -192,28 +192,27 @@
 
         <li permid="BYe">
           <p permid="QbJ">
-            For <m>y(t) = 4 + 2e^{-t/2}</m>, we see that
+            Para <m>y(t) = 4 + 2e^{-t/2}</m>, vemos que
             <me permid="tom">
               \frac{dy}{dt} = 2 \left( -\frac{1}{2} e^{-t/2} \right) = -e^{-t/2}
             </me>
-            and
+            y
             <me permid="Zvv">
               -\frac{1}{2}( y - 4 ) = -\frac{1}{2} \left( 4 + 2e^{-t/2} \right) = -e^{-t/2}
             </me>
-            In addition, <m>y(0) = 4 + 2e^0 = 6</m>.
-            So <m>y(t) = 4 + 2e^{-t/2}</m> is a solution of the differential equation
-            <m>\frac{dy}{dt} = -\frac{1}{2}(y - 4)</m> with <m>y(0) = 6</m>.
-            The graph of this function is identical to the top graph in part (c).
+            Además, <m>y(0) = 4 + 2e^0 = 6</m>.
+            Así que <m>y(t) = 4 + 2e^{-t/2}</m> es una solución de la ecuación diferencial
+            <m>\frac{dy}{dt} = -\frac{1}{2}(y - 4)</m> con <m>y(0) = 6</m>.
+            El gráfico de esta función es idéntico al gráfico superior en la parte (c).
           </p>
         </li>
 
         <li permid="ifn">
           <p permid="wiS">
-            The solution where <m>y(0) = 4</m> is a constant function.
+            La solución donde <m>y(0) = 4</m> es una función constante.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

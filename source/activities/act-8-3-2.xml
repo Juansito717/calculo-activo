@@ -15,47 +15,47 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-8-3-2" permid="yfW">
   <statement>
     <p permid="hhL">
-      If the <em>series</em> <m>\sum a_k</m> converges,
-      then an important result necessarily follows regarding the
-      <em>sequence</em> <m>\{a_n\}</m>.
-      This activity explores this result.
+      Si la <em>serie</em> <m>\sum a_k</m> converge,
+      entonces un resultado importante necesariamente sigue con respecto a la
+      <em>secuencia</em> <m>\{a_n\}</m>.
+      Esta actividad explora este resultado.
     </p>
 
     <p permid="NoU">
-      Assume that the series <m>\sum_{k=1}^{\infty} a_k</m> converges and has sum equal to <m>L</m>.
+      Supón que la serie <m>\sum_{k=1}^{\infty} a_k</m> converge y tiene una suma igual a <m>L</m>.
 
       <ol marker="a." permid="Xef">
         <li permid="Dlo">
           <p permid="VYM">
-            What is the <m>n</m>th partial sum <m>S_n</m> of the series <m>\sum_{k=1}^{\infty} a_k</m>?
+            ¿Cuál es la <m>n</m>-ésima suma parcial <m>S_n</m> de la serie <m>\sum_{k=1}^{\infty} a_k</m>?
           </p>
         </li>
 
         <li permid="jsx">
           <p permid="CfV">
-            What is the <m>(n-1)</m>st partial sum <m>S_{n-1}</m> of the series <m>\sum_{k=1}^{\infty} a_k</m>?
+            ¿Cuál es la <m>(n-1)</m>-ésima suma parcial <m>S_{n-1}</m> de la serie <m>\sum_{k=1}^{\infty} a_k</m>?
           </p>
         </li>
 
         <li permid="PzG">
           <p permid="ine">
-            What is the difference between the <m>n</m>th partial sum and the <m>(n-1)</m>st partial sum of the series <m>\sum_{k=1}^{\infty} a_k</m>?
+            ¿Cuál es la diferencia entre la <m>n</m>-ésima suma parcial y la <m>(n-1)</m>-ésima suma parcial de la serie <m>\sum_{k=1}^{\infty} a_k</m>?
           </p>
         </li>
 
         <li permid="vGP">
           <p permid="Oun">
-            Since we are assuming that <m>\sum_{k=1}^{\infty} a_k = L</m>,
-            what does that tell us about <m>\lim_{n \to \infty} S_n</m>?
-            Why?
-            What does that tell us about <m>\lim_{n \to \infty} S_{n-1}</m>?
-            Why?
+            Dado que estamos asumiendo que <m>\sum_{k=1}^{\infty} a_k = L</m>,
+            ¿qué nos dice eso sobre <m>\lim_{n \to \infty} S_n</m>?
+            ¿Por qué?
+            ¿Qué nos dice eso sobre <m>\lim_{n \to \infty} S_{n-1}</m>?
+            ¿Por qué?
           </p>
         </li>
 
         <li permid="bNY">
           <p permid="uBw">
-            Combine the results of the previous two parts of this activity to determine <m>\lim_{n \to \infty} a_n = \lim_{n \to \infty} (S_n - S_{n-1})</m>.
+            Combina los resultados de las dos partes anteriores de esta actividad para determinar <m>\lim_{n \to \infty} a_n = \lim_{n \to \infty} (S_n - S_{n-1})</m>.
           </p>
         </li>
       </ol>
@@ -66,31 +66,31 @@
       <ol marker="a." permid="qWW">
         <li permid="HVh">
           <p permid="aIF">
-            Recall that the <m>n</m>th partial sum is the sum of the first <m>n</m> terms.
+            Recuerda que la <m>n</m>-ésima suma parcial es la suma de los primeros <m>n</m> términos.
           </p>
         </li>
 
         <li permid="ocq">
           <p permid="GPO">
-            Consider the sum with one fewer term.
+            Considera la suma con un término menos.
           </p>
         </li>
 
         <li permid="Ujz">
           <p permid="mWX">
-            Subtract your results in (a) and (b).
+            Resta tus resultados en (a) y (b).
           </p>
         </li>
 
         <li permid="AqI">
           <p permid="Teg">
-            Remember that the partials sums have to tend to the sum of the series.
+            Recuerda que las sumas parciales deben tender a la suma de la serie.
           </p>
         </li>
 
         <li permid="gxR">
           <p permid="zlp">
-            Note that <m>S_n \to L</m> and <m>S_{n-1} \to L</m>.
+            Nota que <m>S_n \to L</m> y <m>S_{n-1} \to L</m>.
           </p>
         </li>
       </ol>
@@ -119,13 +119,13 @@
 
         <li permid="FaB">
           <p permid="XNZ">
-            <m>\lim_{n \to \infty} S_n = L</m> and <m>\lim_{n \to \infty} S_{n-1} = L</m>.
+            <m>\lim_{n \to \infty} S_n = L</m> y <m>\lim_{n \to \infty} S_{n-1} = L</m>.
           </p>
         </li>
 
         <li permid="lhK">
           <p permid="DVi">
-            We have <m> \lim_{n \to \infty} a_n = \lim_{n \to \infty} \left(S_n - S_{n-1}\right) = 0 </m>.
+            Tenemos <m> \lim_{n \to \infty} a_n = \lim_{n \to \infty} \left(S_n - S_{n-1}\right) = 0 </m>.
           </p>
         </li>
       </ol>
@@ -136,7 +136,7 @@
       <ol marker="a." permid="eIE">
         <li permid="RoT">
           <p permid="kcr">
-            The <m>n</m>th partial sum of the series <m>\sum_{k=1}^{\infty} a_k</m> is
+            La <m>n</m>-ésima suma parcial de la serie <m>\sum_{k=1}^{\infty} a_k</m> es
             <me permid="twd">
               S_n = \sum_{k=1}^n a_k
             </me>.
@@ -145,7 +145,7 @@
 
         <li permid="xwc">
           <p permid="QjA">
-            The <m>(n-1)</m>st partial sum of the series <m>\sum_{k=1}^{\infty} a_k</m> is
+            La <m>(n-1)</m>-ésima suma parcial de la serie <m>\sum_{k=1}^{\infty} a_k</m> es
             <me permid="ZDm">
               S_{n-1} = \sum_{k=1}^{n-1} a_k
             </me>.
@@ -154,7 +154,7 @@
 
         <li permid="dDl">
           <p permid="wqJ">
-            The difference between <m>S_n</m> and <m>S_{n-1}</m> is
+            La diferencia entre <m>S_n</m> y <m>S_{n-1}</m> es
             <me permid="FKv">
               \sum_{k=1}^{n} a_k - \sum_{k=1}^{n-1} a_k = a_{n}
             </me>.
@@ -163,18 +163,18 @@
 
         <li permid="JKu">
           <p permid="cxS">
-            Since  <m>\sum_{k=1}^{\infty} a_k = \lim_{n \to \infty} S_n</m> we must have <m>\lim_{n \to \infty} S_n = L</m>.
-            Also,
+            Dado que <m>\sum_{k=1}^{\infty} a_k = \lim_{n \to \infty} S_n</m> debemos tener <m>\lim_{n \to \infty} S_n = L</m>.
+            También,
             <me permid="lRE">
               \lim_{n \to \infty} S_n = \lim_{n \to \infty} S_{n-1}
             </me>,
-            so <m>\lim_{n \to \infty} S_{n-1} = L</m> as well.
+            así que <m>\lim_{n \to \infty} S_{n-1} = L</m> también.
           </p>
         </li>
 
         <li permid="pRD">
           <p permid="IFb">
-            We have
+            Tenemos
             <md permid="RYN">
               <mrow>\lim_{n \to \infty} a_n \amp = \lim_{n \to \infty} \left(S_n - S_{n-1}\right)</mrow>
               <mrow>\amp = \lim_{n \to \infty} S_n - \lim_{n \to \infty} S_{n-1}</mrow>
@@ -187,4 +187,3 @@
     </p>
   </solution>
 </activity>
-

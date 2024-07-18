@@ -15,7 +15,7 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-4-3-1" permid="gJZ">
   <statement>
     <p permid="PLO">
-      Use known geometric formulas and the net signed area interpretation of the definite integral to evaluate each of the definite integrals below.
+      Usa fórmulas geométricas conocidas y la interpretación del área firmada neta de la integral definida para evaluar cada una de las integrales definidas a continuación.
     </p>
 
     <p permid="vSX">
@@ -41,12 +41,12 @@
         <li permid="PbU">
           <p permid="JmI">
             <m>\int_{-3}^4 g(x) \, dx</m>,
-            where <m>g</m> is the function pictured in <xref ref="F-4-3-Act1">Figure</xref>.
-            Assume that each portion of <m>g</m> is either part of a line or part of a circle.
+            donde <m>g</m> es la función representada en <xref ref="F-4-3-Act1">Figura</xref>.
+            Supón que cada porción de <m>g</m> es parte de una línea o parte de un círculo.
           </p>
 
           <figure xml:id="F-4-3-Act1" permid="ptR">
-            <caption>The function <m>g</m> for part (d).  Note that <m>g</m> is piecewise defined, and each piece of the function is part of a circle or part of a line.</caption>
+            <caption>La función <m>g</m> para la parte (d). Nota que <m>g</m> está definida por partes, y cada parte de la función es parte de un círculo o parte de una línea.</caption>
             <image width="65%" source="images/4_3_Act1" />
           </figure>
 
@@ -59,27 +59,27 @@
       <ol marker="a." permid="Ksb">
         <li permid="vjd">
           <p permid="VBa">
-            Sketch the region bounded by <m>y = 3x</m> and the <m>x</m>-axis on <m>[0,1]</m>.
+            Dibuja la región delimitada por <m>y = 3x</m> y el eje <m>x</m> en <m>[0,1]</m>.
           </p>
         </li>
 
         <li permid="bqm">
           <p permid="BIj">
-            Sketch the region bounded by
-            <m>y = 2-2x</m> and the <m>x</m>-axis on <m>[-1,4]</m>.
+            Dibuja la región delimitada por
+            <m>y = 2-2x</m> y el eje <m>x</m> en <m>[-1,4]</m>.
           </p>
         </li>
 
         <li permid="Hxv">
           <p permid="hPs">
-            Observe that <m>y = \sqrt{1-x^2}</m> is the top half the circle whose equation is <m>x^2 + y^2 = 1</m>.
+            Observa que <m>y = \sqrt{1-x^2}</m> es la mitad superior del círculo cuya ecuación es <m>x^2 + y^2 = 1</m>.
           </p>
         </li>
 
         <li permid="nEE">
           <p permid="NWB">
-            Use known formulas for the area of a triangle,
-            square, or circle appropriately.
+            Usa fórmulas conocidas para el área de un triángulo,
+            cuadrado o círculo de manera apropiada.
           </p>
         </li>
       </ol>
@@ -119,8 +119,8 @@
       <ol marker="a." permid="ydJ">
         <li permid="sox">
           <p permid="SGu">
-            Because <m>y = 3x</m> and the <m>x</m>-axis bound a triangle with base of length 1 and height <m>3</m> on the interval <m>[0,1]</m>,
-            it follows that
+            Debido a que <m>y = 3x</m> y el eje <m>x</m> delimitan un triángulo con base de longitud 1 y altura <m>3</m> en el intervalo <m>[0,1]</m>,
+            se sigue que
             <me permid="cag">
               \int_0^1 3x \, dx = \frac{1}{2} \cdot 1 \cdot 3 = \frac{3}{2}
             </me>.
@@ -129,9 +129,9 @@
 
         <li permid="YvG">
           <p permid="yND">
-            For <m>\int_{-1}^4 (2-2x) \, dx</m>,
-            we first sketch the region bounded by the function,
-            as shown below.
+            Para <m>\int_{-1}^4 (2-2x) \, dx</m>,
+            primero dibujamos la región delimitada por la función,
+            como se muestra a continuación.
           </p>
 
           <sidebyside width="40%" permid="ACQ">
@@ -139,10 +139,10 @@
           </sidebyside>
 
           <p permid="eUM">
-            The line creates two triangles,
-            one with area <m>A_1 = \frac{1}{2} \cdot 2 \cdot 4 = 4</m> and the other with area <m>A_2 = \frac{1}{2} \cdot 3 \cdot 6 = 9</m>.
-            Since the latter area corresponds to a region below the <m>x</m>-axis,
-            we associate a negative sign to it, and hence find that
+            La línea crea dos triángulos,
+            uno con área <m>A_1 = \frac{1}{2} \cdot 2 \cdot 4 = 4</m> y el otro con área <m>A_2 = \frac{1}{2} \cdot 3 \cdot 6 = 9</m>.
+            Dado que el área de este último corresponde a una región debajo del eje <m>x</m>,
+            le asociamos un signo negativo, y por lo tanto encontramos que
             <me permid="Ihp">
               \int_{-1}^4 (2-2x) \, dx = A_1 - A_2 = 4 - 9 = -5
             </me>.
@@ -151,9 +151,9 @@
 
         <li permid="ECP">
           <p permid="LbV">
-            For <m>\int_{-1}^1 \sqrt{1-x^2} \, dx</m>,
-            we simply observe that this function is the top half of a circle of radius 1, and thus the bounded region is a semicircle of radius 1, thus having an area of <m>\frac{\pi}{2}</m>.
-            Therefore,
+            Para <m>\int_{-1}^1 \sqrt{1-x^2} \, dx</m>,
+            simplemente observamos que esta función es la mitad superior de un círculo de radio 1, y por lo tanto la región delimitada es un semicírculo de radio 1, teniendo así un área de <m>\frac{\pi}{2}</m>.
+            Por lo tanto,
             <me permid="ooy">
               \int_{-1}^1 \sqrt{1-x^2} \, dx = \frac{\pi}{2}
             </me>.
@@ -162,26 +162,25 @@
 
         <li permid="kJY">
           <p permid="rje">
-            Finally, for <m>\int_{-3}^4 g(x) \, dx</m>,
-            where <m>g</m> is the function pictured in <xref ref="F-4-3-Act1">Figure</xref>,
-            we consider the function on seven consecutive subintervals of length 1.
-            Observe that on <m>[-3,-2]</m>,
-            the bounded area is <m>\frac{1}{2}</m>.
-            On <m>[-2,-1]</m>, the area is <m>\frac{1}{4} \pi</m>.
-            Similarly,
-            on the next five subintervals of length 1, the areas bounded are respectively <m>\frac{1}{2}</m>,
+            Finalmente, para <m>\int_{-3}^4 g(x) \, dx</m>,
+            donde <m>g</m> es la función representada en <xref ref="F-4-3-Act1">Figura</xref>,
+            consideramos la función en siete subintervalos consecutivos de longitud 1.
+            Observa que en <m>[-3,-2]</m>,
+            el área delimitada es <m>\frac{1}{2}</m>.
+            En <m>[-2,-1]</m>, el área es <m>\frac{1}{4} \pi</m>.
+            De manera similar,
+            en los siguientes cinco subintervalos de longitud 1, las áreas delimitadas son respectivamente <m>\frac{1}{2}</m>,
             <m>1</m>, <m>\frac{1}{2}</m>,
             <m>\frac{1}{4} \pi</m>,
-            and <m>\frac{1}{4} \pi</m>.
-            Thus, the value of the integral is
+            y <m>\frac{1}{4} \pi</m>.
+            Así, el valor de la integral es
             <me permid="UvH">
               \int_{-3}^4 g(x) \, dx = \frac{1}{2} + \frac{\pi}{4} - \frac{1}{2} - 1 - \frac{1}{2} + \frac{\pi}{4} + \frac{\pi}{4} = \frac{3\pi}{4} - \frac{3}{2}
             </me>,
-            which is approximately 0.8562.
+            que es aproximadamente 0.8562.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

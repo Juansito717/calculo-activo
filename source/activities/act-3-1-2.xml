@@ -15,13 +15,13 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-1-2" permid="LLc">
   <statement>
     <p permid="TpB">
-      Suppose that <m>g</m> is a function whose second derivative,
+      Supón que <m>g</m> es una función cuya segunda derivada,
       <m>g''</m>,
-      is given by the graph in <xref ref="F-3-1-Act2">Figure</xref>.
+      está dada por el gráfico en <xref ref="F-3-1-Act2">Figura</xref>.
     </p>
 
     <figure xml:id="F-3-1-Act2" permid="fDT">
-      <caption>The graph of <m>y = g''(x)</m>.</caption>
+      <caption>El gráfico de <m>y = g''(x)</m>.</caption>
       <image width="47%" source="images/3_1_Act2" />
     </figure>
 
@@ -29,33 +29,33 @@
       <ol marker="a." permid="Grp">
         <li permid="myy">
           <p permid="gJm">
-            Find the <m>x</m>-coordinates of all points of inflection of <m>g</m>.
+            Encuentra las coordenadas <m>x</m> de todos los puntos de inflexión de <m>g</m>.
           </p>
         </li>
 
         <li permid="SFH">
           <p permid="MQv">
-            Fully describe the concavity of <m>g</m> by making an appropriate sign chart.
+            Describe completamente la concavidad de <m>g</m> haciendo un gráfico de signos apropiado.
           </p>
         </li>
 
         <li permid="yMQ">
           <p permid="sXE">
-            Suppose you are given that <m>g'(-1.67857351) = 0</m>.
-            Is there is a local maximum, local minimum, or neither
-            (for the function <m>g</m>)
-            at this critical number of <m>g</m>,
-            or is it impossible to say?
-            Why?
+            Supón que te dan que <m>g'(-1.67857351) = 0</m>.
+            ¿Hay un máximo local, mínimo local, o ninguno
+            (para la función <m>g</m>)
+            en este número crítico de <m>g</m>,
+            o es imposible decirlo?
+            ¿Por qué?
           </p>
         </li>
 
         <li permid="eTZ">
           <p permid="ZeN">
-            Assuming that <m>g''(x)</m> is a polynomial
-            (and that all important behavior of <m>g''</m> is seen in the graph above),
-            what degree polynomial do you think <m>g(x)</m> is?
-            Why?
+            Asumiendo que <m>g''(x)</m> es un polinomio
+            (y que todo el comportamiento importante de <m>g''</m> se ve en el gráfico de arriba),
+            ¿de qué grado crees que es el polinomio <m>g(x)</m>?
+            ¿Por qué?
           </p>
         </li>
       </ol>
@@ -66,25 +66,25 @@
       <ol marker="a." permid="akg">
         <li permid="Lbi">
           <p permid="FlW">
-            What must be true of <m>g''(x)</m> at a point of inflection?
+            ¿Qué debe ser cierto de <m>g''(x)</m> en un punto de inflexión?
           </p>
         </li>
 
         <li permid="rir">
           <p permid="ltf">
-            Use the given graph to decide where <m>g''</m> is positive and negative.
+            Usa el gráfico dado para decidir dónde <m>g''</m> es positivo y negativo.
           </p>
         </li>
 
         <li permid="XpA">
           <p permid="RAo">
-            What does the second derivative test say?
+            ¿Qué dice la prueba de la segunda derivada?
           </p>
         </li>
 
         <li permid="DwJ">
           <p permid="xHx">
-            Can you guess a formula for <m>g''(x)</m> based on its graph?
+            ¿Puedes adivinar una fórmula para <m>g''(x)</m> basada en su gráfico?
           </p>
         </li>
       </ol>
@@ -95,27 +95,27 @@
       <ol marker="a." permid="ucX">
         <li permid="jDS">
           <p permid="dOG">
-            <m>x = -1</m> is an inflection point of <m>g</m>.
+            <m>x = -1</m> es un punto de inflexión de <m>g</m>.
           </p>
         </li>
 
         <li permid="PLb">
           <p permid="JVP">
-            <m>g</m> is concave up for <m>x \lt -1</m>,
-            concave down for <m>-1 \lt x \lt 2</m>,
-            and concave down for <m>x \gt 2</m>.
+            <m>g</m> es cóncava hacia arriba para <m>x \lt -1</m>,
+            cóncava hacia abajo para <m>-1 \lt x \lt 2</m>,
+            y cóncava hacia abajo para <m>x \gt 2</m>.
           </p>
         </li>
 
         <li permid="vSk">
           <p permid="qcY">
-            <m>g</m> has a local minimum at <m>x = -1.67857351</m>.
+            <m>g</m> tiene un mínimo local en <m>x = -1.67857351</m>.
           </p>
         </li>
 
         <li permid="bZt">
           <p permid="Wkh">
-            <m>g</m> is a degree 5 polynomial.
+            <m>g</m> es un polinomio de grado 5.
           </p>
         </li>
       </ol>
@@ -126,45 +126,44 @@
       <ol marker="a." permid="NVO">
         <li permid="IgC">
           <p permid="Crq">
-            Based on the given graph of <m>g''</m>,
-            the only point at which <m>g''</m> changes sign is <m>x = -1</m>,
-            and hence this is an inflection point of <m>g</m>.
+            Basado en el gráfico dado de <m>g''</m>,
+            el único punto en el que <m>g''</m> cambia de signo es <m>x = -1</m>,
+            y por lo tanto este es un punto de inflexión de <m>g</m>.
           </p>
         </li>
 
         <li permid="onL">
           <p permid="iyz">
-            Note that <m>g''(x) \gt 0</m> for <m>x \lt -1</m>,
-            <m>g''(x) \lt 0</m> for <m>-1 \lt x \lt 2</m>,
-            and <m>g''(x) \lt 0</m> for <m>x \gt 2</m>.
-            This tells us that <m>g</m> is concave up for <m>x \lt -1</m>,
-            concave down for <m>-1 \lt x \lt 2</m>,
-            and concave down for <m>x \gt 2</m>.
+            Nota que <m>g''(x) \gt 0</m> para <m>x \lt -1</m>,
+            <m>g''(x) \lt 0</m> para <m>-1 \lt x \lt 2</m>,
+            y <m>g''(x) \lt 0</m> para <m>x \gt 2</m>.
+            Esto nos dice que <m>g</m> es cóncava hacia arriba para <m>x \lt -1</m>,
+            cóncava hacia abajo para <m>-1 \lt x \lt 2</m>,
+            y cóncava hacia abajo para <m>x \gt 2</m>.
           </p>
         </li>
 
         <li permid="UuU">
           <p permid="OFI">
-            Given that <m>g'(-1.67857351) = 0</m>,
-            we know that <m>g</m> has a horizontal tangent line at this critical number.
-            In addition, from the given graph of <m>g''</m>,
-            we see that <m>g''( -1.67857351) \gt 0</m> and observe that <m>g</m> is concave up at <m>x</m>-values near <m>-1.67857351</m>.
-            By the second derivative test,
-            <m>g</m> has a local minimum at <m>x = -1.67857351</m>.
+            Dado que <m>g'(-1.67857351) = 0</m>,
+            sabemos que <m>g</m> tiene una línea tangente horizontal en este número crítico.
+            Además, del gráfico dado de <m>g''</m>,
+            vemos que <m>g''( -1.67857351) \gt 0</m> y observamos que <m>g</m> es cóncava hacia arriba en valores de <m>x</m> cercanos a <m>-1.67857351</m>.
+            Por la prueba de la segunda derivada,
+            <m>g</m> tiene un mínimo local en <m>x = -1.67857351</m>.
           </p>
         </li>
 
         <li permid="ACd">
           <p permid="uMR">
-            From the given graph,
-            since <m>g''</m> has a simple zero at <m>x = -1</m> and a repeated zero at <m>x = 2</m>,
-            it appears that <m>g''</m> is a degree 3 polynomial.
-            If so, then <m>g'</m> is a degree 4 polynomial,
-            and <m>g</m> is a degree 5 polynomial.
+            Del gráfico dado,
+            ya que <m>g''</m> tiene un cero simple en <m>x = -1</m> y un cero repetido en <m>x = 2</m>,
+            parece que <m>g''</m> es un polinomio de grado 3.
+            Si es así, entonces <m>g'</m> es un polinomio de grado 4,
+            y <m>g</m> es un polinomio de grado 5.
           </p>
         </li>
       </ol>
     </p>
   </solution>
 </activity>
-

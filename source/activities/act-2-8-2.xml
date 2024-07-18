@@ -15,12 +15,12 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-8-2" permid="Fta">
   <statement>
     <p permid="cgx">
-      In this activity,
-      we reason graphically from the following figure to evaluate limits of ratios of functions about which some information is known.
+      En esta actividad,
+      razonamos gráficamente a partir de la siguiente figura para evaluar límites de razones de funciones sobre las cuales se conoce alguna información.
     </p>
 
     <figure xml:id="F-2-8-Act2" permid="ouP">
-      <caption>Three graphs referenced in the questions of <xref ref="act-2-8-2">Activity</xref>.</caption>
+      <caption>Tres gráficos referenciados en las preguntas de <xref ref="act-2-8-2">Activity</xref>.</caption>
       <image width="100%" source="images/2_8_Act2" />
     </figure>
 
@@ -28,33 +28,33 @@
       <ol marker="a." permid="MnF">
         <li permid="suO">
           <p permid="OcS">
-            Use the left-hand graph to determine the values of <m>f(2)</m>,
-            <m>f'(2)</m>, <m>g(2)</m>, and <m>g'(2)</m>.
-            Then,
-            evaluate <m>\lim\limits_{x \to 2} \frac{f(x)}{g(x)}</m>.
+            Usa el gráfico de la izquierda para determinar los valores de <m>f(2)</m>,
+            <m>f'(2)</m>, <m>g(2)</m>, y <m>g'(2)</m>.
+            Luego,
+            evalúa <m>\lim\limits_{x \to 2} \frac{f(x)}{g(x)}</m>.
           </p>
         </li>
 
         <li permid="YBX">
           <p permid="ukb">
-            Use the middle graph to find <m>p(2)</m>,
-            <m>p'(2)</m>, <m>q(2)</m>, and <m>q'(2)</m>.
-            Then,
-            determine the value of <m>\lim\limits_{x \to 2} \frac{p(x)}{q(x)}</m>.
+            Usa el gráfico del medio para encontrar <m>p(2)</m>,
+            <m>p'(2)</m>, <m>q(2)</m>, y <m>q'(2)</m>.
+            Luego,
+            determina el valor de <m>\lim\limits_{x \to 2} \frac{p(x)}{q(x)}</m>.
           </p>
         </li>
 
         <li permid="EJg">
           <p permid="ark">
-            Assume that <m>r</m> and <m>s</m> are functions whose for which
-            <m>r''(2) \ne 0</m> and <m>s''(2) \ne 0</m>
-            Use the right-hand graph to compute <m>r(2)</m>,
+            Supón que <m>r</m> y <m>s</m> son funciones para las cuales
+            <m>r''(2) \ne 0</m> y <m>s''(2) \ne 0</m>.
+            Usa el gráfico de la derecha para calcular <m>r(2)</m>,
             <m>r'(2)</m>, <m>s(2)</m>, <m>s'(2)</m>.
-            Explain why you cannot determine the exact value of
-            <m>\lim\limits_{x \to 2} \frac{r(x)}{s(x)}</m> without further information being provided,
-            but that you can determine the sign of <m>\lim\limits_{x \to 2} \frac{r(x)}{s(x)}</m>.
-            In addition,
-            state what the sign of the limit will be, with justification.
+            Explica por qué no puedes determinar el valor exacto de
+            <m>\lim\limits_{x \to 2} \frac{r(x)}{s(x)}</m> sin información adicional,
+            pero que puedes determinar el signo de <m>\lim\limits_{x \to 2} \frac{r(x)}{s(x)}</m>.
+            Además,
+            indica cuál será el signo del límite, con justificación.
           </p>
         </li>
       </ol>
@@ -65,20 +65,20 @@
       <ol marker="a." permid="ggw">
         <li permid="kQp">
           <p permid="Gyt">
-            Don't forget that <m>f'(a)</m> measures the slope of the tangent line to
-            <m>y = f(x)</m> at the point <m>(a,f(a))</m>.
+            No olvides que <m>f'(a)</m> mide la pendiente de la línea tangente a
+            <m>y = f(x)</m> en el punto <m>(a,f(a))</m>.
           </p>
         </li>
 
         <li permid="QXy">
           <p permid="mFC">
-            Do the functions <m>p</m> and <m>q</m> meet the criteria of L'Hôpital's Rule?
+            ¿Cumplen las funciones <m>p</m> y <m>q</m> con los criterios de la Regla de L'Hôpital?
           </p>
         </li>
 
         <li permid="xeH">
           <p permid="SML">
-            Remember that L'Hôpital's Rule can be applied more than once to a particular limit.
+            Recuerda que la Regla de L'Hôpital se puede aplicar más de una vez a un límite particular.
           </p>
         </li>
       </ol>
@@ -112,10 +112,10 @@
       <ol marker="a." permid="TSe">
         <li permid="VHr">
           <p permid="rpv">
-            From the given graph, we observe that <m>f(2) = 0</m>,
+            Del gráfico dado, observamos que <m>f(2) = 0</m>,
             <m>f'(2) = \frac{1}{2}</m>,
-            <m>g(2)=0</m>, and <m>g'(2) = 4</m>.
-            By L'Hôpital's Rule,
+            <m>g(2)=0</m>, y <m>g'(2) = 4</m>.
+            Por la Regla de L'Hôpital,
             <me permid="UBY">
               \lim_{x \to 2} \frac{f(x)}{g(x)} = \frac{f'(2)}{g'(2)} = \frac{\frac{1}{2}}{4} = \frac{1}{8}
             </me>.
@@ -124,15 +124,15 @@
 
         <li permid="BOA">
           <p permid="XwE">
-            The given graph tells us that <m>p(2) = 1.5</m>,
-            <m>p'(2)=-1</m>, <m>q(2)=1.5</m>, and <m>q'(2)=0</m>.
-            Note well that the given limit,
+            El gráfico dado nos dice que <m>p(2) = 1.5</m>,
+            <m>p'(2)=-1</m>, <m>q(2)=1.5</m>, y <m>q'(2)=0</m>.
+            Nota bien que el límite dado,
             <me permid="AJh">
               \lim_{x \to 2} \frac{p(x)}{q(x)}
             </me>,
-            is not indeterminate, and thus L'Hôpital's Rule does not apply.
-            Rather, since <m>p(x) \to 1.5</m> and
-            <m>q(x) \to 1.5</m> as <m>x \to 2</m>, we have that
+            no es indeterminado, y por lo tanto la Regla de L'Hôpital no aplica.
+            Más bien, dado que <m>p(x) \to 1.5</m> y
+            <m>q(x) \to 1.5</m> cuando <m>x \to 2</m>, tenemos que
             <me permid="gQq">
               \lim_{x \to 2} \frac{p(x)}{q(x)} = \frac{p(2)}{q(2)} = \frac{1.5}{1.5} = 1
             </me>.
@@ -141,25 +141,25 @@
 
         <li permid="hVJ">
           <p permid="DDN">
-            From the third graph,  <m>r(2)=0</m>,
+            Del tercer gráfico, <m>r(2)=0</m>,
             <m>r'(2)=0</m>, <m>s(2)=0</m>, <m>s'(2)=0</m>.
-            By L'Hôpital's Rule,
+            Por la Regla de L'Hôpital,
             <me permid="MXz">
               \lim_{x \to 2} \frac{r(x)}{s(x)} = \lim_{x \to 2} \frac{r'(x)}{s'(x)}
             </me>,
-            but this limit is still indeterminate,
-            so by L'Hôpital's Rule again,
+            pero este límite sigue siendo indeterminado,
+            así que por la Regla de L'Hôpital de nuevo,
             <me permid="teI">
               \lim_{x \to 2} \frac{r(x)}{s(x)} = \lim_{x \to 2} \frac{r''(x)}{s''(x)} = \frac{r''(2)}{s''(2)}
             </me>,
-            provided that <m>s''(2) \ne 0</m>.
-            Since we do not know the values of <m>r''(2)</m> and <m>s''(2)</m>,
-            we can't determine the actual value of the limit,
-            but from the graph it appears that <m>r''(2) \gt 0</m>
-            (since <m>r</m> is concave up)
-            and that <m>s''(2) \lt  0</m>
-            (because <m>s</m> is concave down),
-            and therefore
+            siempre que <m>s''(2) \ne 0</m>.
+            Dado que no conocemos los valores de <m>r''(2)</m> y <m>s''(2)</m>,
+            no podemos determinar el valor real del límite,
+            pero del gráfico parece que <m>r''(2) \gt 0</m>
+            (ya que <m>r</m> es cóncava hacia arriba)
+            y que <m>s''(2) \lt  0</m>
+            (porque <m>s</m> es cóncava hacia abajo),
+            y por lo tanto
             <me permid="ZlR">
               \lim_{x \to 2} \frac{r(x)}{s(x)} \lt  0
             </me>.
@@ -169,4 +169,3 @@
     </p>
   </solution>
 </activity>
-

@@ -15,55 +15,55 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-6-2-1" permid="ilR">
   <statement>
     <p permid="YSf">
-      In each of the following questions,
-      draw a careful, labeled sketch of the region described,
-      as well as the resulting solid that results from revolving the region about the stated axis.
-      In addition,
-      draw a representative slice and state the volume of that slice,
-      along with a definite integral whose value is the volume of the entire solid.
-      It is not necessary to evaluate the integrals you find.
+      En cada una de las siguientes preguntas,
+      dibuja un boceto cuidadoso y etiquetado de la región descrita,
+      así como el sólido resultante que se obtiene al girar la región sobre el eje indicado.
+      Además,
+      dibuja una rebanada representativa y establece el volumen de esa rebanada,
+      junto con una integral definida cuyo valor es el volumen de todo el sólido.
+      No es necesario evaluar las integrales que encuentres.
 
       <ol marker="a." permid="OOz">
         <li permid="uVI">
           <p permid="NJg">
-            The region <m>S</m> bounded by the <m>x</m>-axis,
-            the curve <m>y = \sqrt{x}</m>,
-            and the line <m>x = 4</m>;
-            revolve <m>S</m> about the <m>x</m>-axis.
+            La región <m>S</m> delimitada por el eje <m>x</m>,
+            la curva <m>y = \sqrt{x}</m>,
+            y la línea <m>x = 4</m>;
+            gira <m>S</m> sobre el eje <m>x</m>.
           </p>
         </li>
 
         <li permid="bcR">
           <p permid="tQp">
-            The region <m>S</m> bounded by the <m>y</m>-axis,
-            the curve <m>y = \sqrt{x}</m>,
-            and the line <m>y = 2</m>;
-            revolve <m>S</m> about the <m>x</m>-axis.
+            La región <m>S</m> delimitada por el eje <m>y</m>,
+            la curva <m>y = \sqrt{x}</m>,
+            y la línea <m>y = 2</m>;
+            gira <m>S</m> sobre el eje <m>x</m>.
           </p>
         </li>
 
         <li permid="Hka">
           <p permid="ZXy">
-            The finite region <m>S</m> bounded by the curves <m>y = \sqrt{x}</m> and <m>y = x^3</m>;
-            revolve <m>S</m> about the <m>x</m>-axis.
+            La región finita <m>S</m> delimitada por las curvas <m>y = \sqrt{x}</m> y <m>y = x^3</m>;
+            gira <m>S</m> sobre el eje <m>x</m>.
           </p>
         </li>
 
         <li permid="nrj">
           <p permid="GeH">
-            The finite region <m>S</m> bounded by the curves
-            <m>y = 2x^2 + 1</m> and <m>y = x^2 + 4</m>;
-            revolve <m>S</m> about the <m>x</m>-axis.
+            La región finita <m>S</m> delimitada por las curvas
+            <m>y = 2x^2 + 1</m> y <m>y = x^2 + 4</m>;
+            gira <m>S</m> sobre el eje <m>x</m>.
           </p>
         </li>
 
         <li permid="Tys">
           <p permid="mlQ">
-            The region <m>S</m> bounded by the <m>y</m>-axis,
-            the curve <m>y = \sqrt{x}</m>,
-            and the line <m>y = 2</m>;
-            revolve <m>S</m> about the <m>y</m>-axis.
-            How is this problem different from the one posed in part (b)?
+            La región <m>S</m> delimitada por el eje <m>y</m>,
+            la curva <m>y = \sqrt{x}</m>,
+            y la línea <m>y = 2</m>;
+            gira <m>S</m> sobre el eje <m>y</m>.
+            ¿Cómo es este problema diferente del planteado en la parte (b)?
           </p>
         </li>
       </ol>
@@ -74,32 +74,32 @@
       <ol marker="a." permid="iHq">
         <li permid="zFB">
           <p permid="SsZ">
-            Use slices perpendicular to the <m>x</m>-axis.
+            Usa rebanadas perpendiculares al eje <m>x</m>.
           </p>
         </li>
 
         <li permid="fMK">
           <p permid="yAi">
-            Note that slices perpendicular to the <m>x</m>-axis will be washers.
+            Nota que las rebanadas perpendiculares al eje <m>x</m> serán arandelas.
           </p>
         </li>
 
         <li permid="LTT">
           <p permid="eHr">
-            Find the points where the two curves intersect and draw a labeled graph.
+            Encuentra los puntos donde las dos curvas se intersectan y dibuja un gráfico etiquetado.
           </p>
         </li>
 
         <li permid="sbc">
           <p permid="KOA">
-            Think about how the solid looks like a donut;
-            what is the outer radius?
+            Piensa en cómo el sólido se parece a una dona;
+            ¿cuál es el radio exterior?
           </p>
         </li>
 
         <li permid="Yil">
           <p permid="qVJ">
-            Try using slices perpendicular to the <m>y</m>-axis.
+            Intenta usar rebanadas perpendiculares al eje <m>y</m>.
           </p>
         </li>
       </ol>
@@ -145,14 +145,14 @@
       <ol marker="a." permid="WsY">
         <li permid="IZn">
           <p permid="bML">
-            A typical slice
-            (perpendicular to the <m>x</m>-axis)
-            has radius <m>r(x) = \sqrt{x}</m>,
-            and thus the volume of such a slice is
+            Una rebanada típica
+            (perpendicular al eje <m>x</m>)
+            tiene un radio <m>r(x) = \sqrt{x}</m>,
+            y por lo tanto el volumen de dicha rebanada es
             <me permid="EZo">
               V_{\text{slice}} = \pi (\sqrt{x})^2 \Delta x
             </me>.
-            It follows by the disk method that the volume of the solid of revolution is
+            Se sigue por el método del disco que el volumen del sólido de revolución es
             <me permid="lgx">
               V = \int_0^4 \pi (\sqrt{x})^2 \, dx = \int_0^4 \pi x \, dx = 8\pi
             </me>.
@@ -161,15 +161,15 @@
 
         <li permid="pgw">
           <p permid="HTU">
-            A typical slice
-            (perpendicular to the <m>x</m>-axis)
-            is a washer with outer radius
-            <m>R(x) = 2</m> and inner radius <m>r(x) = \sqrt{x}</m>.
-            The volume of such a slice is
+            Una rebanada típica
+            (perpendicular al eje <m>x</m>)
+            es una arandela con radio exterior
+            <m>R(x) = 2</m> y radio interior <m>r(x) = \sqrt{x}</m>.
+            El volumen de dicha rebanada es
             <me permid="RnG">
               V_{\text{slice}} = \pi(R(x)^2-r(x)^2) \Delta x = \pi (2^2 - (\sqrt{x})^2) \Delta x
             </me>.
-            It follows by the washer method that the volume of the solid of revolution is
+            Se sigue por el método de la arandela que el volumen del sólido de revolución es
             <me permid="xuP">
               V = \int_0^4 \pi (4-(\sqrt{x})^2) \, dx = \int_0^4 \pi (4-x) \, dx = 8\pi
             </me>.
@@ -178,15 +178,15 @@
 
         <li permid="VnF">
           <p permid="obd">
-            The curves <m>y = \sqrt{x}</m> and <m>y = x^3</m> intersect at <m>(0,0)</m> and <m>(1,1)</m>;
-            revolving the region <m>S</m> about the <m>x</m>-axis and taking slices perpendicular to the <m>x</m>-axis,
-            we see that a typical slice is a washer with outer radius
-            <m>R(x) = \sqrt{x}</m> and inner radius <m>r(x) = x^3</m>.
-            Hence the volume of a typical slice is
+            Las curvas <m>y = \sqrt{x}</m> y <m>y = x^3</m> se intersectan en <m>(0,0)</m> y <m>(1,1)</m>;
+            al girar la región <m>S</m> sobre el eje <m>x</m> y tomar rebanadas perpendiculares al eje <m>x</m>,
+            vemos que una rebanada típica es una arandela con radio exterior
+            <m>R(x) = \sqrt{x}</m> y radio interior <m>r(x) = x^3</m>.
+            Por lo tanto, el volumen de una rebanada típica es
             <me permid="dBY">
               V_{\text{slice}} = \pi(R(x)^2-r(x)^2) \Delta x = \pi((\sqrt{x})^2 - (x^3)^2) \Delta x = \pi(x - x^6) \Delta x
             </me>.
-            By the washer method, the volume of the solid is
+            Por el método de la arandela, el volumen del sólido es
             <me permid="JJh">
               V = \int_0^1 \pi(x - x^6) \, dx = \frac{5}{14}\pi
             </me>.
@@ -195,12 +195,12 @@
 
         <li permid="BuO">
           <p permid="Uim">
-            The curves <m>y = 2x^2 + 1</m> and
-            <m>y = x^2 + 4</m> intersect at the points <m>(\pm \sqrt{3}, 7)</m>;
-            after we revolve the region <m>S</m> about the <m>x</m>-axis,
-            cross-sections perpendicular to the axis of rotation are washers with outer radius
-            <m>R(x) = x^2 + 4</m> and inner radius <m>r(x) = 2x^2 + 1</m>.
-            By the washer method, we see that
+            Las curvas <m>y = 2x^2 + 1</m> y
+            <m>y = x^2 + 4</m> se intersectan en los puntos <m>(\pm \sqrt{3}, 7)</m>;
+            después de girar la región <m>S</m> sobre el eje <m>x</m>,
+            las secciones transversales perpendiculares al eje de rotación son arandelas con radio exterior
+            <m>R(x) = x^2 + 4</m> y radio interior <m>r(x) = 2x^2 + 1</m>.
+            Por el método de la arandela, vemos que
             <me permid="pQq">
               V = \int_{-\sqrt{3}}^{\sqrt{3}} \pi( (x^2 + 4)^2 - (2x^2 + 1)^2) \, dx = \frac{136\sqrt{3}}{5}\pi
             </me>.
@@ -209,19 +209,19 @@
 
         <li permid="hBX">
           <p permid="Apv">
-            The curve <m>y = \sqrt{x}</m> and the line <m>y = 2</m> intersect at <m>(4,2)</m>;
-            when we revolve the region <m>S</m> about the <m>y</m>-axis,
-            slices perpendicular to the <m>y</m>-axis are disks.
-            Here we see that each disk's radius is a function of <m>y</m> and the disks have thickness <m>\Delta y</m>,
-            so we will need to integrate with respect to <m>y</m> and consider the radius function
-            <m>r(y) = y^2</m> (which comes from solving
-            <m>y = \sqrt{x}</m> for <m>x</m> in terms of <m>y</m>.
-            Note how this is different from the problem in part (b) because of the axis we rotate about and how this forces us to integrate in terms of <m>y</m>.
-            A typical slice has volume
+            La curva <m>y = \sqrt{x}</m> y la línea <m>y = 2</m> se intersectan en <m>(4,2)</m>;
+            cuando giramos la región <m>S</m> sobre el eje <m>y</m>,
+            las rebanadas perpendiculares al eje <m>y</m> son discos.
+            Aquí vemos que el radio de cada disco es una función de <m>y</m> y los discos tienen un grosor <m>\Delta y</m>,
+            por lo que necesitaremos integrar con respecto a <m>y</m> y considerar la función de radio
+            <m>r(y) = y^2</m> (que proviene de resolver
+            <m>y = \sqrt{x}</m> para <m>x</m> en términos de <m>y</m>.
+            Nota cómo esto es diferente del problema en la parte (b) debido al eje sobre el que rotamos y cómo esto nos obliga a integrar en términos de <m>y</m>.
+            Una rebanada típica tiene un volumen
             <me permid="VXz">
               V_{\text{slice}} = \pi (y^2)^2 \Delta y
             </me>,
-            and thus by the disk method the total volume is
+            y por lo tanto, por el método del disco, el volumen total es
             <me permid="CeI">
               V = \int_0^2 \pi y^4 \, dy = \frac{32}{5}\pi
             </me>.
@@ -231,4 +231,3 @@
     </p>
   </solution>
 </activity>
-

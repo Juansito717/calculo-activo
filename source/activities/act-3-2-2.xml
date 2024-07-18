@@ -15,42 +15,42 @@
 <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-3-2-2" permid="cCj">
   <statement>
     <p permid="rLh">
-      Consider the two-parameter family of functions of the form <m>h(x) = a(1-e^{-bx})</m>,
-      where <m>a</m> and <m>b</m> are positive real numbers.
+      Considera la familia de funciones de dos parámetros de la forma <m>h(x) = a(1-e^{-bx})</m>,
+      donde <m>a</m> y <m>b</m> son números reales positivos.
 
       <ol marker="a." permid="NOK">
         <li permid="tVT">
           <p permid="MJr">
-            Find the first derivative and the critical numbers of <m>h</m>.
-            Use these to construct a first derivative sign chart and determine for which values of <m>x</m> the function <m>h</m> is increasing and decreasing.
+            Encuentra la primera derivada y los números críticos de <m>h</m>.
+            Usa estos para construir un diagrama de signos de la primera derivada y determina para qué valores de <m>x</m> la función <m>h</m> está aumentando y disminuyendo.
           </p>
         </li>
 
         <li permid="adc">
           <p permid="sQA">
-            Find the second derivative and build a second derivative sign chart.
-            For which values of <m>x</m> is a function in this family concave up? concave down?
+            Encuentra la segunda derivada y construye un diagrama de signos de la segunda derivada.
+            ¿Para qué valores de <m>x</m> una función en esta familia es cóncava hacia arriba? ¿cóncava hacia abajo?
           </p>
         </li>
 
         <li permid="Gkl">
           <p permid="YXJ">
-            What is the value of
+            ¿Cuál es el valor de
             <m>\lim_{x \to \infty} a(1-e^{-bx})</m>? <m>\lim_{x \to -\infty} a(1-e^{-bx})</m>?
           </p>
         </li>
 
         <li permid="mru">
           <p permid="FeS">
-            How does changing the value of <m>b</m> affect the shape of the curve?
+            ¿Cómo afecta el cambio en el valor de <m>b</m> la forma de la curva?
           </p>
         </li>
 
         <li permid="SyD">
           <p permid="lmb">
-            Without using a graphing utility,
-            sketch the graph of a typical member of this family.
-            Write several sentences to describe the overall behavior of a typical function <m>h</m> and how this behavior depends on <m>a</m> and <m>b</m>.
+            Sin usar una herramienta de graficación,
+            dibuja el gráfico de un miembro típico de esta familia.
+            Escribe varias oraciones para describir el comportamiento general de una función típica <m>h</m> y cómo este comportamiento depende de <m>a</m> y <m>b</m>.
           </p>
         </li>
       </ol>
@@ -61,33 +61,33 @@
       <ol marker="a." permid="hHB">
         <li permid="yFM">
           <p permid="Rtk">
-            Expand to write <m>h(x) = a - ae^{-bx}</m> before differentiating.
+            Expande para escribir <m>h(x) = a - ae^{-bx}</m> antes de diferenciar.
           </p>
         </li>
 
         <li permid="eMV">
           <p permid="xAt">
-            Remember that <m>e^{-bx}</m> is never zero and always positive,
-            regardless of the value of <m>x</m>.
+            Recuerda que <m>e^{-bx}</m> nunca es cero y siempre es positivo,
+            independientemente del valor de <m>x</m>.
           </p>
         </li>
 
         <li permid="KUe">
           <p permid="dHC">
-            Recall that <m>e^{-x} \to 0</m> as <m>x \to \infty</m> and
-            <m>e^{-x} \to \infty</m> as <m>x \to -\infty</m>.
+            Recuerda que <m>e^{-x} \to 0</m> cuando <m>x \to \infty</m> y
+            <m>e^{-x} \to \infty</m> cuando <m>x \to -\infty</m>.
           </p>
         </li>
 
         <li permid="rbn">
           <p permid="JOL">
-            Consider how <m>b</m> affects the value of <m>h'(x)</m>.
+            Considera cómo <m>b</m> afecta el valor de <m>h'(x)</m>.
           </p>
         </li>
 
         <li permid="Xiw">
           <p permid="pVU">
-            Use your work in (a)-(d).
+            Usa tu trabajo en (a)-(d).
           </p>
         </li>
       </ol>
@@ -98,30 +98,30 @@
       <ol marker="a." permid="BAs">
         <li permid="DpF">
           <p permid="Wdd">
-            <m>h</m> is an always increasing function.
+            <m>h</m> es una función siempre creciente.
           </p>
         </li>
 
         <li permid="jwO">
           <p permid="Ckm">
-            <m>h</m> is always concave down.
+            <m>h</m> es siempre cóncava hacia abajo.
           </p>
         </li>
 
         <li permid="PDX">
           <p permid="irv">
             <m> \lim_{x \to \infty} a(1-e^{-bx}) = a</m>,
-            and <m> \lim_{x \to \infty} a(1-e^{-bx}) = -\infty</m>.
+            y <m> \lim_{x \to \infty} a(1-e^{-bx}) = -\infty</m>.
           </p>
         </li>
 
         <li permid="vLg">
           <p permid="OyE">
-            If <m>b</m> is large and <m>x</m> is close to zero,
-            <m>h'(x)</m> is relatively large near <m>x = 0</m>,
-            and the curve's slope will quickly approach zero as <m>x</m> increases.
-            If <m>b</m> is small,
-            the graph is less steep near <m>x = 0</m> and its slope goes to zero less quickly as <m>x</m> increases.
+            Si <m>b</m> es grande y <m>x</m> está cerca de cero,
+            <m>h'(x)</m> es relativamente grande cerca de <m>x = 0</m>,
+            y la pendiente de la curva se acercará rápidamente a cero a medida que <m>x</m> aumente.
+            Si <m>b</m> es pequeño,
+            el gráfico es menos empinado cerca de <m>x = 0</m> y su pendiente se acerca a cero menos rápidamente a medida que <m>x</m> aumenta.
           </p>
         </li>
 
@@ -140,42 +140,42 @@
       <ol marker="a." permid="Vtj">
         <li permid="HZy">
           <p permid="uFN">
-            Since <m>h(x) = a - ae^{-bx}</m>,
-            we have by the constant multiple and chain rules that
+            Dado que <m>h(x) = a - ae^{-bx}</m>,
+            tenemos por las reglas del múltiplo constante y de la cadena que
             <me permid="XSq">
               h'(x) = -ae^{-bx}(-b) = abe^{-bx}
             </me>.
-            Since <m>a</m> and <m>b</m> are positive constants and <m>e^{-bx} \gt 0</m> for all <m>x</m>,
-            we see that <m>h'(x)</m> is never zero
-            (nor undefined),
-            and indeed <m>h'(x) \gt 0</m> for all <m>x</m>.
-            Hence <m>h</m> is an always increasing function.
+            Dado que <m>a</m> y <m>b</m> son constantes positivas y <m>e^{-bx} \gt 0</m> para todo <m>x</m>,
+            vemos que <m>h'(x)</m> nunca es cero
+            (ni indefinido),
+            y de hecho <m>h'(x) \gt 0</m> para todo <m>x</m>.
+            Por lo tanto, <m>h</m> es una función siempre creciente.
           </p>
         </li>
 
         <li permid="ogH">
           <p permid="aMW">
-            Because <m>h'(x) = abe^{-bx}</m>,
-            we have that <m>h''(x) = abe^{-bx}(-b) = -ab^2e^{-bx}</m>.
-            As with <m>h'</m>, we recognize that <m>a</m>, <m>b^2</m>,
-            and <m>e^{-bx}</m> are always positive,
-            and thus <m>h''(x) = -ab^2e^{-bx} \lt 0</m> for all values of <m>x</m>,
-            making <m>h</m> always concave down.
+            Debido a que <m>h'(x) = abe^{-bx}</m>,
+            tenemos que <m>h''(x) = abe^{-bx}(-b) = -ab^2e^{-bx}</m>.
+            Al igual que con <m>h'</m>, reconocemos que <m>a</m>, <m>b^2</m>,
+            y <m>e^{-bx}</m> son siempre positivos,
+            y por lo tanto <m>h''(x) = -ab^2e^{-bx} \lt 0</m> para todos los valores de <m>x</m>,
+            haciendo que <m>h</m> sea siempre cóncava hacia abajo.
           </p>
         </li>
 
         <li permid="UnQ">
           <p permid="GUf">
-            As <m>x \to \infty</m>, <m>e^{-bx} \to 0</m>.
-            Thus,
+            A medida que <m>x \to \infty</m>, <m>e^{-bx} \to 0</m>.
+            Así,
             <me permid="DZz">
               \lim_{x \to \infty} a(1-e^{-bx}) = \lim_{x \to \infty} a - ae^{-bx} = a - 0 = a
             </me>.
-            This shows that <m>h</m> has a horizontal asymptote at <m>y = a</m> as we move rightward on its graph.
+            Esto muestra que <m>h</m> tiene una asíntota horizontal en <m>y = a</m> a medida que nos movemos hacia la derecha en su gráfico.
 
-            As <m>x \to -\infty</m>,
+            A medida que <m>x \to -\infty</m>,
             <m>e^{-bx} \to \infty</m>.
-            Thus,
+            Así,
             <me permid="kgI">
               \lim_{x \to \infty} a(1-e^{-bx}) = \lim_{x \to \infty} a - ae^{-bx} = -\infty
             </me>.
@@ -184,26 +184,26 @@
 
         <li permid="AuZ">
           <p permid="nbo">
-            Noting that <m>h'(x) = abe^{-bx}</m>,
-            we see that if we consider different values of <m>b</m>,
-            the slope of the graph changes.
-            If <m>b</m> is large and <m>x</m> is close to zero,
+            Observando que <m>h'(x) = abe^{-bx}</m>,
+            vemos que si consideramos diferentes valores de <m>b</m>,
+            la pendiente del gráfico cambia.
+            Si <m>b</m> es grande y <m>x</m> está cerca de cero,
             <m>h'(x) \approx ab</m>
-            (since <m>e^0 = 1</m>),
-            so <m>h'(x)</m> is relatively large near <m>x = 0</m>.
-            At the same time, for large <m>b</m>,
-            <m>e^{-bx}</m> approaches zero quickly as <m>x</m> increases,
-            so the curve's slope will quickly approach zero as <m>x</m> increases.
-            If <m>b</m> is small,
-            the graph is less steep near <m>x = 0</m> and its slope goes to zero less quickly as <m>x</m> increases.
+            (dado que <m>e^0 = 1</m>),
+            así que <m>h'(x)</m> es relativamente grande cerca de <m>x = 0</m>.
+            Al mismo tiempo, para <m>b</m> grande,
+            <m>e^{-bx}</m> se acerca a cero rápidamente a medida que <m>x</m> aumenta,
+            por lo que la pendiente de la curva se acercará rápidamente a cero a medida que <m>x</m> aumente.
+            Si <m>b</m> es pequeño,
+            el gráfico es menos empinado cerca de <m>x = 0</m> y su pendiente se acerca a cero menos rápidamente a medida que <m>x</m> aumenta.
           </p>
         </li>
 
         <li permid="gCi">
           <p permid="Tix">
-            Observing that <m>h(0) = 0</m> and <m>\lim_{x \to \infty} h(x) = a</m>,
-            along with the facts that <m>h</m> is always increasing and always concave down,
-            we see that a typical member of this family looks like the following graph.
+            Observando que <m>h(0) = 0</m> y <m>\lim_{x \to \infty} h(x) = a</m>,
+            junto con los hechos de que <m>h</m> está siempre aumentando y siempre es cóncava hacia abajo,
+            vemos que un miembro típico de esta familia se parece al siguiente gráfico.
           </p>
 
           <sidebyside width="40%" permid="wva">
@@ -215,4 +215,3 @@
     </p>
   </solution>
 </activity>
-
