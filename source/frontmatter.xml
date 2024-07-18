@@ -13,10 +13,12 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 <frontmatter xml:id="frontmatter" xmlns:xi="http://www.w3.org/2001/XInclude" permid="yaN">
+  <title>Introducción</title>
   <xi:include href="./titlepage.xml" />
   <xi:include href="./colophon.xml" />
 
   <acknowledgement>
+    <title>Agradecimientos</title>
     <p permid="MOm">
       Este texto comenzó como mi proyecto sabático en el semestre de invierno de 2012,
       durante el cual escribí la mayor parte del material para los primeros cuatro capítulos.
