@@ -21,7 +21,7 @@
   </author>
 
   <credit>
-    <title>Contributing Authors</title>
+    <title>Autores Colaboradores</title>
     <author>
       <personname>David Austin</personname>
       <department>Department of Mathematics</department>
@@ -38,7 +38,7 @@
   </credit>
 
   <credit>
-    <title>Production Editor</title>
+    <title>Editor de Producción</title>
     <author>
       <personname>Mitchel T. Keller</personname>
       <department>Department of Mathematics</department>
@@ -46,6 +46,15 @@
       <email>mitch@rellek.net</email>
     </author>
   </credit>
+
+  <credit>
+    <title>Traducción al Español</title>
+    <author>
+      <personname>Juan Manuel Carrillo</personname>
+      <department></department>
+      <institution>Universidad de Buenos Aires</institution>
+      <email>juanmacarrillo00@gmail.com</email>
+    </author>
+  </credit>
   <date><today /></date>
 </titlepage>
-
